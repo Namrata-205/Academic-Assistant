@@ -1,0 +1,10 @@
+import React from 'react';
+import { externalFeedback } from './externalFeedback.js';
+import { History } from 'lucide-react';
+
+export default function ImportedContext({report}) {
+  const context=report.external_context;
+  if(!context||!context.items?.length)return null;
+  const items=externalFeedback(context,report);
+  return <section className="imported-context"><h3><History size={17}/> From your earlier learning report</h3>{items.length?items.map(item=><article className="imported-context-item" key={item.topic}><b>{item.topic}</b><span>{item.source_signal}</span><p>{item.explanation}</p>{item.mapping==='related'&&<small>This is a broader topic related to {item.concept_names.join(', ')}; it is not an exact concept match.</small>}<details><summary>How this earlier finding was recorded</summary><p>{item.source_evidence||'No item-level explanation supplied.'}</p><p>Previous prerequisite attempts: {item.source_attempts||'Not supplied'}. Earlier follow-up items: {item.diagnostic_items||'Not supplied'}. Mode: {item.diagnostic_mode}.</p><p>Original source status: {item.source_status}. No original question responses were supplied.</p></details></article>):<p className="body-copy">Your earlier report is linked, but no reliable topic match was found for this check. Its unrelated findings have not been used to personalise this result.</p>}<p className="feedback-caption">Background from imported reports, not new answer evidence. Assessment dates were not supplied. These earlier findings are separate from your current answers.</p><details><summary>Imported source information</summary><p className="reference-text">Student ID: {context.student_id}. Imported: {new Date(context.provenance.imported_at).toLocaleDateString()}. Sources: {context.provenance.files.map(f=>f.name).join(', ')}.</p><p className="reference-text">{context.unmapped_topic_count} source topics have no explicit mapping to the current graph. They are not silently treated as equivalent concepts.</p></details></section>;
+}

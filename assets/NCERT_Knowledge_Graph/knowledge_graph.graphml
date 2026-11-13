@@ -1,0 +1,2170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="evidence_passage_ids" attr.type="string"/>
+<key id="d6" for="edge" attr.name="validation_status" attr.type="string"/>
+<key id="d5" for="edge" attr.name="reasoning" attr.type="string"/>
+<key id="d4" for="edge" attr.name="confidence" attr.type="double"/>
+<key id="d3" for="node" attr.name="semantic_validation" attr.type="string"/>
+<key id="d2" for="node" attr.name="chapter" attr.type="string"/>
+<key id="d1" for="node" attr.name="name_hi" attr.type="string"/>
+<key id="d0" for="node" attr.name="name_en" attr.type="string"/>
+<graph edgedefault="directed"><node id="MATH6_C0002">
+  <data key="d0">pattern</data>
+  <data key="d1">पैटर्न</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0003">
+  <data key="d0">number pattern</data>
+  <data key="d1">संख्या पैटर्न</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0004">
+  <data key="d0">shape pattern</data>
+  <data key="d1">आकृति पैटर्न</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0005">
+  <data key="d0">sequence</data>
+  <data key="d1">अनुक्रम</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0006">
+  <data key="d0">odd number</data>
+  <data key="d1">विषम संख्या</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0007">
+  <data key="d0">even number</data>
+  <data key="d1">सम संख्या</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0008">
+  <data key="d0">triangular number</data>
+  <data key="d1">त्रिभुजाकार संख्या</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0009">
+  <data key="d0">square number</data>
+  <data key="d1">वर्ग संख्या</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0010">
+  <data key="d0">cube number</data>
+  <data key="d1">घन संख्या</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0011">
+  <data key="d0">powers of 2</data>
+  <data key="d1">2 की घातें</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0012">
+  <data key="d0">consecutive number</data>
+  <data key="d1">क्रमागत संख्या</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0013">
+  <data key="d0">natural number</data>
+  <data key="d1">प्राकृत संख्या</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0014">
+  <data key="d0">regular polygon</data>
+  <data key="d1">सम बहुभुज</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0015">
+  <data key="d0">visual pattern</data>
+  <data key="d1">दृश्य पैटर्न</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0016">
+  <data key="d0">point</data>
+  <data key="d1">बिंदु</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0017">
+  <data key="d0">line</data>
+  <data key="d1">रेखा</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0018">
+  <data key="d0">line segment</data>
+  <data key="d1">रेखाखंड</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0019">
+  <data key="d0">ray</data>
+  <data key="d1">किरण</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0020">
+  <data key="d0">angle</data>
+  <data key="d1">कोण</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0021">
+  <data key="d0">vertex</data>
+  <data key="d1">शीर्ष</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0022">
+  <data key="d0">arm of angle</data>
+  <data key="d1">कोण की भुजा</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0023">
+  <data key="d0">straight angle</data>
+  <data key="d1">सरल कोण</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0024">
+  <data key="d0">right angle</data>
+  <data key="d1">समकोण</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0025">
+  <data key="d0">acute angle</data>
+  <data key="d1">न्यून कोण</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0026">
+  <data key="d0">obtuse angle</data>
+  <data key="d1">अधिक कोण</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0027">
+  <data key="d0">reflex angle</data>
+  <data key="d1">प्रतिवर्ती कोण</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0028">
+  <data key="d0">complete angle</data>
+  <data key="d1">पूर्ण कोण</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0029">
+  <data key="d0">degree</data>
+  <data key="d1">डिग्री</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0030">
+  <data key="d0">protractor</data>
+  <data key="d1">चाँदा</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0031">
+  <data key="d0">perpendicular</data>
+  <data key="d1">लंबवत रेखाएँ</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0032">
+  <data key="d0">parallel lines</data>
+  <data key="d1">समांतर रेखाएँ</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0033">
+  <data key="d0">intersecting lines</data>
+  <data key="d1">प्रतिच्छेदी रेखाएँ</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0034">
+  <data key="d0">rotation</data>
+  <data key="d1">घूर्णन</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0035">
+  <data key="d0">angle bisector</data>
+  <data key="d1">कोण समद्विभाजक</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0036">
+  <data key="d0">number</data>
+  <data key="d1">संख्या</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0037">
+  <data key="d0">digit</data>
+  <data key="d1">अंक</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0038">
+  <data key="d0">place value</data>
+  <data key="d1">स्थानीय मान</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0039">
+  <data key="d0">digit sum</data>
+  <data key="d1">अंकों का योग</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0040">
+  <data key="d0">palindrome</data>
+  <data key="d1">पैलिंड्रोम</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0041">
+  <data key="d0">number line</data>
+  <data key="d1">संख्या रेखा</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0042">
+  <data key="d0">estimation</data>
+  <data key="d1">आकलन</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0043">
+  <data key="d0">rounding</data>
+  <data key="d1">निकटतम मान तक पूर्णांकन</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0044">
+  <data key="d0">odd number</data>
+  <data key="d1">विषम संख्या</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0045">
+  <data key="d0">even number</data>
+  <data key="d1">सम संख्या</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0046">
+  <data key="d0">addition</data>
+  <data key="d1">जोड़</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0047">
+  <data key="d0">subtraction</data>
+  <data key="d1">घटाव</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0048">
+  <data key="d0">magic square</data>
+  <data key="d1">जादुई वर्ग</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0049">
+  <data key="d0">pattern</data>
+  <data key="d1">पैटर्न</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0050">
+  <data key="d0">Kaprekar number</data>
+  <data key="d1">कापरेकर संख्या</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_C0051">
+  <data key="d0">supercell</data>
+  <data key="d1">महाकोष्ठ</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_ADD001">
+  <data key="d0">Virahanka numbers</data>
+  <data key="d1">विरहांक संख्याएँ</data>
+  <data key="d2">CH01</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_ADD002">
+  <data key="d0">Collatz conjecture</data>
+  <data key="d1">कोलाट्ज़ अनुमान</data>
+  <data key="d2">CH03</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<node id="MATH6_ADD003">
+  <data key="d0">plane geometry</data>
+  <data key="d1">समतल ज्यामिति</data>
+  <data key="d2">CH02</data>
+  <data key="d3">pending_independent_verification</data>
+</node>
+<edge source="MATH6_C0002" target="MATH6_C0003">
+  <data key="d4">0.7</data>
+  <data key="d5">Number patterns are a specific kind of pattern; pedagogically students learn the general idea of patterns before identifying number patterns, but the supplied passages do not directly link the two, so review is advised.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0004">
+  <data key="d4">0.9</data>
+  <data key="d5">The shape‑pattern passage explicitly calls them "patterns of shapes", showing that understanding the general notion of pattern precedes learning shape patterns.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF009_B006</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0005">
+  <data key="d4">0.9</data>
+  <data key="d5">Number sequences are described as "basic ... patterns", indicating that the broader concept of pattern is a prerequisite for studying sequences.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0006">
+  <data key="d4">0.85</data>
+  <data key="d5">Odd numbers are listed among number sequences, which are presented as patterns; thus learners need the general pattern idea first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0007">
+  <data key="d4">0.85</data>
+  <data key="d5">Even numbers appear in the same list of number‑sequence patterns, so the general pattern concept underlies the even‑number concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0008">
+  <data key="d4">0.85</data>
+  <data key="d5">Triangular numbers are presented as a type of number‑sequence pattern, requiring prior understanding of patterns.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0009">
+  <data key="d4">0.82</data>
+  <data key="d5">Students first learn to recognise and describe patterns; square numbers are introduced as a specific visual pattern (dots forming a square grid). Understanding the general idea of patterns is therefore needed before identifying square‑number patterns.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF001_B001;CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0010">
+  <data key="d4">0.81</data>
+  <data key="d5">The chapter first discusses patterns and then lists cube numbers as another member of the family of number‑pattern sequences. Recognising a pattern is a prerequisite for grasping the cube‑number sequence.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF001_B001;CH01_EN_PDF016_B016</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0011">
+  <data key="d4">0.78</data>
+  <data key="d5">Powers of 2 are presented as a particular numeric pattern. Learners need the earlier notion of patterns to understand why the sequence 1, 2, 4, 8,… is called a pattern of powers of 2.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF001_B001;CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0040">
+  <data key="d4">0.95</data>
+  <data key="d5">Palindromes are introduced explicitly as a pattern in numbers, indicating that recognizing patterns is a prerequisite for understanding palindromic numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF007_B004;CH03_HI_PDF007_B004</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_C0049">
+  <data key="d4">0.92</data>
+  <data key="d5">The later chapter explicitly asks learners to identify patterns in tables and numbers, building directly on the introductory concepts of patterns presented in Chapter 1; thus understanding patterns is pedagogically necessary before tackling these activities.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF001_B003;CH03_EN_PDF003_B011</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_ADD001">
+  <data key="d4">0.92</data>
+  <data key="d5">The pattern chapter introduces the idea of mathematical patterns, which is needed before studying specific numerical patterns such as Virahanka (Fibonacci) numbers presented later.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF001_B001;CH01_EN_PDF013_B009</data>
+</edge>
+<edge source="MATH6_C0002" target="MATH6_ADD002">
+  <data key="d4">0.78</data>
+  <data key="d5">Collatz conjecture is presented as a mysterious numerical pattern; recognizing and working with such patterns presupposes the earlier general notion of patterns, though the textbook does not state it explicitly.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF001_B001;CH03_EN_PDF014_B006</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0005">
+  <data key="d4">0.9</data>
+  <data key="d5">Number patterns are essentially sequences of numbers; the sequence chapter builds on the earlier notion of number patterns, making the latter a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0006">
+  <data key="d4">0.86</data>
+  <data key="d5">Number patterns introduce the idea of sequences; odd numbers are presented as a specific example, so students need the general pattern concept first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0007">
+  <data key="d4">0.86</data>
+  <data key="d5">The chapter first explains number patterns and then lists even numbers as a particular pattern, making the general concept a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0008">
+  <data key="d4">0.84</data>
+  <data key="d5">Triangular numbers are introduced as one of many number patterns; understanding the broader notion of patterns is needed before studying this specific sequence.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0009">
+  <data key="d4">0.85</data>
+  <data key="d5">Square numbers are treated as a type of number pattern; learners must first grasp what a pattern is to recognize square-number patterns.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0010">
+  <data key="d4">0.84</data>
+  <data key="d5">Cube numbers appear as an example of number patterns; the general pattern concept precedes the specific cube-number pattern.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF012_B007</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0011">
+  <data key="d4">0.83</data>
+  <data key="d5">Powers of 2 are listed among various number sequences; students need the overarching idea of number patterns before learning this particular sequence.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF005_B016</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0014">
+  <data key="d4">0.85</data>
+  <data key="d5">The textbook explicitly links regular‑polygon side counts to a counting‑number sequence, indicating that grasping number patterns helps understand the polygon sequence.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF011_B005;CH01_HI_PDF011_B003</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_C0040">
+  <data key="d4">0.82</data>
+  <data key="d5">Palindrome numbers are presented as a specific type of number pattern; recognising general patterns helps learners identify palindromic numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF007_B004</data>
+</edge>
+<edge source="MATH6_C0003" target="MATH6_ADD001">
+  <data key="d4">0.89</data>
+  <data key="d5">The Virahanka numbers are introduced as a specific numerical pattern after the general discussion of number patterns; the evidence lists Virahanka numbers among other patterns, indicating the earlier unit provides the foundational idea of recognizing sequences.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF013_B009;CH01_HI_PDF012_B008</data>
+</edge>
+<edge source="MATH6_C0004" target="MATH6_C0014">
+  <data key="d4">0.85</data>
+  <data key="d5">The regular‑polygon passage explicitly uses the idea of a shape sequence (a shape pattern) to relate polygon sides to counting numbers, indicating that grasping shape patterns precedes studying regular polygons.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF009_B006;CH01_EN_PDF010_B003;CH01_EN_PDF011_B005;CH01_HI_PDF011_B003;CH01_HI_PDF011_B004</data>
+</edge>
+<edge source="MATH6_C0005" target="MATH6_C0008">
+  <data key="d4">0.85</data>
+  <data key="d5">Triangular numbers are introduced as a particular number sequence; understanding the general notion of sequences is a prerequisite for studying this specific sequence.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014;CH01_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0005" target="MATH6_C0009">
+  <data key="d4">0.9</data>
+  <data key="d5">Square numbers are presented as a specific example of a number sequence; students must first grasp the general idea of a sequence before identifying square numbers as that pattern.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014;CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0005" target="MATH6_C0010">
+  <data key="d4">0.9</data>
+  <data key="d5">Cube numbers are listed among examples of number sequences, so understanding what a sequence is required prior to learning cube numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014;CH01_EN_PDF012_B007</data>
+</edge>
+<edge source="MATH6_C0005" target="MATH6_C0011">
+  <data key="d4">0.9</data>
+  <data key="d5">Powers of 2 are introduced as a particular number sequence; the general sequence concept must be known first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014;CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0005" target="MATH6_ADD001">
+  <data key="d4">0.92</data>
+  <data key="d5">Virahanka numbers are presented as a specific example of number sequences; students must first grasp the general idea of sequences before studying this particular family.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014;CH01_EN_PDF003_B002;CH01_EN_PDF013_B009</data>
+</edge>
+<edge source="MATH6_C0005" target="MATH6_ADD002">
+  <data key="d4">0.9</data>
+  <data key="d5">The Collatz conjecture deals with generating a sequence from a rule; understanding what a sequence is precedes learning this conjecture.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014;CH01_EN_PDF003_B002;CH03_EN_PDF014_B006;CH03_EN_PDF015_B001</data>
+</edge>
+<edge source="MATH6_C0006" target="MATH6_C0005">
+  <data key="d4">0.8</data>
+  <data key="d5">Odd numbers are presented as a specific example within the broader discussion of number sequences, implying that the concept of odd numbers is needed before they can be treated as a sequence.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0006" target="MATH6_C0009">
+  <data key="d4">0.85</data>
+  <data key="d5">The text shows that adding successive odd numbers produces perfect squares (1, 1+3=4, 1+3+5=9, …), indicating that grasping odd numbers is needed before understanding square numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF006_B005;CH01_HI_PDF006_B004</data>
+</edge>
+<edge source="MATH6_C0006" target="MATH6_C0044">
+  <data key="d4">0.85</data>
+  <data key="d5">The chapter on odd numbers (CH01) introduces the definition and examples of odd numbers. The later chapter (CH03) again deals with odd numbers within more complex contexts (e.g., odd‑number palindromes), implying that the earlier understanding is needed first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003;CH03_EN_PDF008_B005</data>
+</edge>
+<edge source="MATH6_C0006" target="MATH6_ADD002">
+  <data key="d4">0.92</data>
+  <data key="d5">The Collatz conjecture rule explicitly distinguishes between even and odd numbers; students must first recognise odd numbers to apply the "odd → 3n+1" step.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003;CH03_EN_PDF015_B001</data>
+</edge>
+<edge source="MATH6_C0007" target="MATH6_C0005">
+  <data key="d4">0.8</data>
+  <data key="d5">Even numbers appear as a listed example of number sequences; recognizing the property of evenness is required before classifying them as a sequence.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0007" target="MATH6_C0044">
+  <data key="d4">0.6</data>
+  <data key="d5">Odd numbers are defined as numbers that are not even; therefore a clear understanding of even numbers helps learners grasp the notion of odd numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003;CH03_EN_PDF008_B005</data>
+</edge>
+<edge source="MATH6_C0007" target="MATH6_ADD002">
+  <data key="d4">0.95</data>
+  <data key="d5">The Collatz rule explicitly distinguishes between even and odd numbers, requiring students to recognise what an even number is before applying the ‘take half if even’ step.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003;CH03_EN_PDF015_B001</data>
+</edge>
+<edge source="MATH6_C0009" target="MATH6_C0010">
+  <data key="d4">0.75</data>
+  <data key="d5">Square numbers (n²) are introduced earlier as a 2‑dimensional pattern and provide the basic idea of repeated multiplication that is extended to cubes (n³). This pedagogical ordering is typical in Grade 6 curricula.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF005_B005;CH01_EN_PDF005_B008;CH01_EN_PDF012_B007;CH01_EN_PDF016_B016</data>
+</edge>
+<edge source="MATH6_C0009" target="MATH6_C0048">
+  <data key="d4">0.55</data>
+  <data key="d5">A magic square requires arranging numbers in a square grid and understanding that each row/column sums to the same total; familiarity with square numbers (grid concept) supports this. However, the provided material contains no explicit passage on magic squares, so the prerequisite link is inferred and needs verification.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0009" target="MATH6_C0050">
+  <data key="d4">0.75</data>
+  <data key="d5">Kaprekar numbers are defined using the square of a number and then splitting the result; therefore students must first understand square numbers before tackling Kaprekar numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0012" target="MATH6_C0003">
+  <data key="d4">0.7</data>
+  <data key="d5">Understanding consecutive numbers (counting numbers that follow each other) is needed to recognise and extend number patterns, making it a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0012" target="MATH6_C0008">
+  <data key="d4">0.88</data>
+  <data key="d5">Triangular numbers are introduced as a derived sequence from counting (consecutive) numbers; students must first understand what consecutive numbers are to grasp the formation of triangular numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003;CH01_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0012" target="MATH6_C0011">
+  <data key="d4">0.78</data>
+  <data key="d5">Consecutive numbers are a foundational notion of integer ordering; grasping them precedes learning the more specialized sequence of powers of 2.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0003">
+  <data key="d4">0.7</data>
+  <data key="d5">Natural numbers form the basic set of counting numbers; recognising number patterns relies on this foundational concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0006">
+  <data key="d4">0.6</data>
+  <data key="d5">Natural numbers (counting numbers) form the superset from which odd numbers are derived; pedagogically students learn natural numbers before classifying them as odd, though the textbook evidence is only a list, so the link is weak.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0007">
+  <data key="d4">0.68</data>
+  <data key="d5">Natural numbers are the foundational counting set from which even numbers are defined; students must know natural numbers before classifying evens.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0008">
+  <data key="d4">0.86</data>
+  <data key="d5">Natural numbers (counting numbers) form the basis for constructing triangular numbers; the textbook lists natural numbers before presenting triangular numbers, indicating a prerequisite relationship.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF003_B003;CH01_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0009">
+  <data key="d4">0.85</data>
+  <data key="d5">Natural numbers are the basic counting numbers from which square numbers are defined (e.g., 1,4,9…). Understanding natural numbers is therefore pedagogically required before introducing square numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF005_B005;CH01_EN_PDF005_B008</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0010">
+  <data key="d4">0.88</data>
+  <data key="d5">Cube numbers are defined as the third powers of natural numbers (1³, 2³, …). Students must first understand the set of natural (counting) numbers before they can form their cubes, making natural numbers a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0011">
+  <data key="d4">0.81</data>
+  <data key="d5">Natural numbers form the basic counting set from which powers of 2 are derived; therefore natural numbers are a prerequisite for understanding powers of 2.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0012">
+  <data key="d4">0.8</data>
+  <data key="d5">Students must first know what natural numbers are before they can identify or generate consecutive numbers, which are simply pairs of natural numbers differing by one.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0014">
+  <data key="d4">0.85</data>
+  <data key="d5">Understanding natural (counting) numbers is needed to enumerate the sides of regular polygons; the textbook explicitly ties the sequence of side counts to the counting numbers starting at 3.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF011_B005</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0027">
+  <data key="d4">0.86</data>
+  <data key="d5">Understanding natural numbers (counting and basic arithmetic) is required to grasp that a reflex angle is measured in degrees and lies between 180° and 360°, which are numeric thresholds.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0028">
+  <data key="d4">0.84</data>
+  <data key="d5">The concept of a complete angle (full turn = 360°) relies on knowing whole numbers and their values; natural numbers provide the basis for interpreting the 360‑degree measure.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0029">
+  <data key="d4">0.88</data>
+  <data key="d5">Degree measurement uses unit counts (1°, 360°) that presuppose familiarity with natural numbers for counting and comparing quantities.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF021_B001;CH02_EN_PDF021_B003</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0030">
+  <data key="d4">0.85</data>
+  <data key="d5">A protractor is marked with degree numbers (0–180 or 0–360); interpreting these markings requires the prior understanding of natural numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF022_B005;CH02_EN_PDF023_B002</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0036">
+  <data key="d4">0.92</data>
+  <data key="d5">Natural numbers are the foundational counting numbers; grasping them is required before introducing the broader concept of numbers and their operations in Chapter 3.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0037">
+  <data key="d4">0.9</data>
+  <data key="d5">Digits are symbols that represent natural numbers; students must first understand natural numbers to appreciate the role of individual digits in forming numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0038">
+  <data key="d4">0.93</data>
+  <data key="d5">Place‑value concepts build on the idea of natural numbers and their representation; knowing natural numbers is a prerequisite for learning how each digit’s position determines its value.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0039">
+  <data key="d4">0.7</data>
+  <data key="d5">Understanding natural numbers (counting, place value) is needed before students can compute the sum of a number's digits.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0040">
+  <data key="d4">0.7</data>
+  <data key="d5">Recognising palindromic numbers requires familiarity with natural numbers and their digit representation, which is taught earlier.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0041">
+  <data key="d4">0.7</data>
+  <data key="d5">Placing numbers on a number line assumes students know the magnitude and ordering of natural numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0042">
+  <data key="d4">0.7</data>
+  <data key="d5">Estimation tasks rely on an intuitive sense of size and magnitude of natural numbers, making natural numbers a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0043">
+  <data key="d4">0.9</data>
+  <data key="d5">Natural numbers are the foundational counting set introduced in Chapter 1; rounding operations on numbers presuppose that learners can identify and compare natural numbers, making the former a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0044">
+  <data key="d4">0.9</data>
+  <data key="d5">Understanding natural numbers is required before distinguishing odd numbers, as odd/even classification is defined for natural numbers. Hence natural numbers precede the concept of odd numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0045">
+  <data key="d4">0.9</data>
+  <data key="d5">Even numbers are a subset of natural numbers; students must first grasp natural numbers to recognize and work with even numbers, so natural numbers are a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0046">
+  <data key="d4">0.9</data>
+  <data key="d5">Addition operates on natural numbers; learners need to understand the set of natural numbers before performing addition, making natural numbers a prerequisite for addition.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0047">
+  <data key="d4">0.82</data>
+  <data key="d5">Subtraction operates on natural numbers; students must first understand what natural numbers are before performing subtraction.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0050">
+  <data key="d4">0.85</data>
+  <data key="d5">Kaprekar numbers are a special class of natural numbers; students need the basic concept of natural numbers before exploring Kaprekar numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_C0051">
+  <data key="d4">0.7</data>
+  <data key="d5">Supercell tasks require working with 4‑digit natural numbers; therefore students must first understand natural numbers before attempting supercell exercises.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B005;CH03_EN_PDF003_B007</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_ADD001">
+  <data key="d4">0.75</data>
+  <data key="d5">Virahanka numbers are defined as a sequence of natural numbers; grasping the concept of natural numbers is a prerequisite for learning this new number pattern.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF013_B009;CH01_HI_PDF012_B008</data>
+</edge>
+<edge source="MATH6_C0013" target="MATH6_ADD002">
+  <data key="d4">0.82</data>
+  <data key="d5">Collatz conjecture works with sequences of natural numbers; students must first understand what natural numbers are before they can follow the rule of halving even numbers or applying 3n+1 to odd numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF015_B001;CH03_EN_PDF014_B006</data>
+</edge>
+<edge source="MATH6_C0015" target="MATH6_C0040">
+  <data key="d4">0.7</data>
+  <data key="d5">Recognizing visual patterns builds the general skill of spotting regularities, which is needed before students can identify the specific numeric pattern of palindromes.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF007_B004;CH03_EN_PDF007_B005;CH03_HI_PDF007_B004;CH03_HI_PDF007_B005</data>
+</edge>
+<edge source="MATH6_C0015" target="MATH6_C0049">
+  <data key="d4">0.75</data>
+  <data key="d5">Visual pattern activities develop the ability to recognise regularities, which is pedagogically needed before introducing the more abstract notion of numerical patterns in Chapter 3.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF003_B011</data>
+</edge>
+<edge source="MATH6_C0015" target="MATH6_ADD001">
+  <data key="d4">0.78</data>
+  <data key="d5">Recognizing visual patterns is a foundational skill that prepares students to identify specific numeric sequences such as Virahanka numbers, which are presented as an example of a pattern in the text.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF013_B009;CH01_HI_PDF012_B008</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0014">
+  <data key="d4">0.86</data>
+  <data key="d5">Understanding a point (a precise location with no size) is a foundational geometric notion required to define vertices of regular polygons.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH01_EN_PDF010_B003</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0017">
+  <data key="d4">0.92</data>
+  <data key="d5">A point is the most basic geometric entity; understanding points is required before introducing lines, which are defined using points as endpoints.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF001_B003;CH02_EN_PDF002_B003</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0018">
+  <data key="d4">0.95</data>
+  <data key="d5">A line segment is defined as the shortest path joining two points; thus students must understand the concept of a point before learning line segments.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF002_B003;CH02_HI_PDF042_B005</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0019">
+  <data key="d4">0.96</data>
+  <data key="d5">A ray is described as a part of a line that starts at a point and extends indefinitely; grasping the notion of a point is required first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF003_B001;CH02_HI_PDF003_B001</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0020">
+  <data key="d4">0.94</data>
+  <data key="d5">An angle is formed by two rays that share a common starting point (a point); therefore understanding points precedes learning angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_HI_PDF005_B003</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0021">
+  <data key="d4">0.95</data>
+  <data key="d5">The vertex of an angle is defined as the point where the two rays meet; knowledge of points is a prerequisite for the vertex concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_HI_PDF005_B003</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0022">
+  <data key="d4">0.9</data>
+  <data key="d5">A angle’s arms are defined as two rays sharing a common endpoint (vertex). Recognizing a point as a location with no size is required before identifying the vertex of an angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B003;CH02_HI_PDF005_B003</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0023">
+  <data key="d4">0.9</data>
+  <data key="d5">A straight angle is described as a 180° turn formed by two rays meeting at a point. Understanding what a point (the vertex) is must precede learning the straight‑angle concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B003;CH02_HI_PDF015_B004</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0024">
+  <data key="d4">0.9</data>
+  <data key="d5">A right angle is defined by two arms meeting at a common point. Grasping the notion of a point (the vertex) is therefore a prerequisite for the right‑angle concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B003;CH02_HI_PDF017_B001</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0025">
+  <data key="d4">0.9</data>
+  <data key="d5">An acute angle is an angle less than a right angle, formed by two rays sharing a vertex. Knowing what a point (the vertex) is is needed before studying acute angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B003;CH02_HI_PDF019_B004</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0026">
+  <data key="d4">0.78</data>
+  <data key="d5">A point provides the basic notion of location where two rays meet; understanding this is needed before classifying an angle as obtuse.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0027">
+  <data key="d4">0.78</data>
+  <data key="d5">A point is the common vertex of rays that form any angle, including reflex angles, so it must be understood first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0028">
+  <data key="d4">0.78</data>
+  <data key="d5">To grasp a complete angle (full turn) learners need the notion of a point as the vertex of the angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0029">
+  <data key="d4">0.78</data>
+  <data key="d5">Degree is a unit for measuring angles; students must first understand what an angle is, which relies on the concept of a point as its vertex.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF021_B001</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0030">
+  <data key="d4">0.7</data>
+  <data key="d5">Students must first grasp that a point marks a precise location (the vertex of an angle) before they can meaningfully place a protractor to measure that angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0031">
+  <data key="d4">0.8</data>
+  <data key="d5">Understanding a point is needed to identify where two lines meet; only then can the concept of perpendicular lines (right‑angle intersection) be introduced.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0034">
+  <data key="d4">0.78</data>
+  <data key="d5">A point is the basic geometric entity that serves as the vertex or centre for rotations; students must grasp the notion of a point before understanding rotation about a point.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B003;CH02_EN_PDF006_B005</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_C0035">
+  <data key="d4">0.81</data>
+  <data key="d5">An angle bisector is defined with respect to an angle, which itself is formed by two rays meeting at a point (the vertex). Knowing what a point is precedes learning about bisecting angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B003;CH02_EN_PDF028_B003</data>
+</edge>
+<edge source="MATH6_C0016" target="MATH6_ADD003">
+  <data key="d4">0.95</data>
+  <data key="d5">Points are described as the basic building blocks of plane geometry, so students must grasp the notion of a point before studying plane geometry.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0014">
+  <data key="d4">0.84</data>
+  <data key="d5">A line is the basic infinite extension through two points; regular polygons are composed of line segments, so grasping the concept of a line precedes constructing polygons.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH01_EN_PDF010_B003</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0018">
+  <data key="d4">0.85</data>
+  <data key="d5">A line segment is defined as the shortest path between two points on a line; understanding the concept of a line (and points) precedes learning about line segments.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF002_B003</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0019">
+  <data key="d4">0.9</data>
+  <data key="d5">A ray is explicitly defined as a portion of a line that starts at a point and extends indefinitely, making knowledge of lines prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF003_B001</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0021">
+  <data key="d4">0.85</data>
+  <data key="d5">The concept of a line (including points, rays, and line segments) is introduced first as a basic geometric building block. The vertex of an angle is defined later as the common starting point of two rays. Understanding lines/rays is therefore pedagogically required before learning what a vertex is.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0022">
+  <data key="d4">0.84</data>
+  <data key="d5">Lines (and rays) are presented as foundational geometry concepts. An arm of an angle is a ray that forms part of an angle, so students must first grasp lines/rays before identifying angle arms.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_HI_PDF005_B003</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0023">
+  <data key="d4">0.86</data>
+  <data key="d5">A straight angle is defined as an angle formed by two opposite rays, essentially a continuation of a straight line. Hence, knowledge of lines (and rays) precedes the notion of a straight angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF015_B004</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0024">
+  <data key="d4">0.85</data>
+  <data key="d5">Right angles are specific angles (90°) that are introduced after basic line and angle concepts. Understanding lines and the general idea of angles is required before distinguishing right angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF017_B001</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0025">
+  <data key="d4">0.9</data>
+  <data key="d5">Lines (points, line segments) are introduced as basic building blocks of plane geometry, and angles are defined later using these elements, making line understanding prerequisite for acute angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0026">
+  <data key="d4">0.9</data>
+  <data key="d5">The chapter presents lines and related concepts first, then classifies angles (acute, obtuse, etc.), so grasping lines is needed before learning about obtuse angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0027">
+  <data key="d4">0.9</data>
+  <data key="d5">Understanding lines and line segments precedes the introduction of reflex angles; angles are built on the notion of rays/lines, so line knowledge is a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0028">
+  <data key="d4">0.9</data>
+  <data key="d5">Lines are taught before the classification of angles, including the complete angle, making line concepts a necessary foundation for learning about complete angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0029">
+  <data key="d4">0.7</data>
+  <data key="d5">Understanding what a line (and the angles formed by two lines) is required before introducing the unit of angle measurement (degree). The line entry introduces points, lines and angles, while the degree entry discusses measuring angles in degrees.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF021_B001</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0030">
+  <data key="d4">0.75</data>
+  <data key="d5">A protractor is used to measure angles; recognizing angles presupposes knowledge of lines that form those angles. The line passage defines lines and angles, the protractor passage describes the tool for measuring them.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0031">
+  <data key="d4">0.8</data>
+  <data key="d5">Perpendicular lines are defined as two lines meeting at a right angle. Students must first understand what a line is before they can grasp the concept of perpendicularity.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0032">
+  <data key="d4">0.8</data>
+  <data key="d5">Parallel lines are a relationship between two lines that never meet. Knowledge of what a line is is a prerequisite for learning about parallelism.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0033">
+  <data key="d4">0.86</data>
+  <data key="d5">Students must first recognise what a line is before they can understand the concept of two lines intersecting.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_C0035">
+  <data key="d4">0.84</data>
+  <data key="d5">An angle bisector is defined as a line that divides an angle into two equal parts, so understanding what a line is precedes learning about its role as a bisector.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0017" target="MATH6_ADD003">
+  <data key="d4">0.97</data>
+  <data key="d5">The textbook states that points, lines, rays, line‑segments and angles are the building blocks of ‘plane geometry’, implying that understanding lines precedes understanding plane geometry.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0018" target="MATH6_C0014">
+  <data key="d4">0.88</data>
+  <data key="d5">A line segment (the shortest path between two points) forms the sides of a polygon; therefore, knowing line segments is prerequisite to understanding regular polygons.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF002_B003;CH01_EN_PDF010_B003</data>
+</edge>
+<edge source="MATH6_C0018" target="MATH6_C0021">
+  <data key="d4">0.78</data>
+  <data key="d5">Line segment introduces points and straight connections, which are foundational before defining an angle’s vertex (the common endpoint of two rays). The textbook lists line segments among the basic ideas that precede angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0018" target="MATH6_C0022">
+  <data key="d4">0.73</data>
+  <data key="d5">Understanding a line segment helps learners grasp the notion of a straight connection between two points, a prerequisite for recognizing the ‘arms’ (rays) of an angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_HI_PDF005_B003</data>
+</edge>
+<edge source="MATH6_C0018" target="MATH6_ADD003">
+  <data key="d4">0.95</data>
+  <data key="d5">The textbook states that line segments are among the basic ideas that form the building blocks of ‘plane geometry’, indicating that mastering line segments is needed before tackling plane geometry as a whole.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0020">
+  <data key="d4">0.96</data>
+  <data key="d5">An angle is defined as the figure formed by two rays sharing a common starting point; therefore understanding rays precedes learning about angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0021">
+  <data key="d4">0.94</data>
+  <data key="d5">The concept of a vertex is introduced as the common starting point of two rays in the definition of an angle, so knowledge of rays is required before learning what a vertex is.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0022">
+  <data key="d4">0.9</data>
+  <data key="d5">An angle’s arms are defined as two rays sharing a common endpoint; thus students must understand rays before identifying or naming the arms of an angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF003_B001;CH02_HI_PDF005_B003</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0023">
+  <data key="d4">0.9</data>
+  <data key="d5">A straight angle is described as a 180° turn formed by two opposite rays; knowledge of rays is required to grasp this concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF003_B001;CH02_EN_PDF015_B004</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0024">
+  <data key="d4">0.9</data>
+  <data key="d5">A right angle is defined as a 90° turn between two rays; understanding rays precedes learning right angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF003_B001;CH02_EN_PDF017_B001</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0025">
+  <data key="d4">0.9</data>
+  <data key="d5">Acute angles are angles less than a right angle, described using two rays; thus ray knowledge is a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF003_B001;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0030">
+  <data key="d4">0.78</data>
+  <data key="d5">Rays are introduced before angles; a protractor measures angles which are defined using two rays. Thus understanding rays is pedagogically needed before using a protractor.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF003_B001;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0031">
+  <data key="d4">0.65</data>
+  <data key="d5">Perpendicular lines are described as two lines meeting at a right angle. A right angle is an angle formed by two rays, so grasping the concept of a ray supports understanding perpendicularity.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF003_B001;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0034">
+  <data key="d4">0.78</data>
+  <data key="d5">Understanding a ray (the side of an angle) is needed before students can grasp rotation as the amount of turn that moves one ray to another, as shown in the rotation definition referencing "first ray" and "second ray".</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B005;CH02_EN_PDF003_B001</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_C0035">
+  <data key="d4">0.75</data>
+  <data key="d5">An angle bisector divides an angle, which is formed by two rays. Therefore knowing what a ray is precedes learning about bisecting angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF028_B003;CH02_EN_PDF003_B001</data>
+</edge>
+<edge source="MATH6_C0019" target="MATH6_ADD003">
+  <data key="d4">0.86</data>
+  <data key="d5">Rays are introduced as one of the basic building blocks of plane geometry; therefore students must understand rays before grasping the broader concept of plane geometry.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0021">
+  <data key="d4">0.78</data>
+  <data key="d5">The definition of an angle explicitly introduces the vertex as the common starting point of the two rays, so the notion of angle is needed before the term ‘vertex’ is meaningfully applied in this context.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0022">
+  <data key="d4">0.8</data>
+  <data key="d5">An angle is described as being formed by two rays called the arms; understanding the general idea of an angle precedes learning the specific terminology for its arms.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0023">
+  <data key="d4">0.88</data>
+  <data key="d5">A straight angle is a particular type of angle (180°). Mastery of the general angle concept is required before students can recognize and work with straight angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF015_B004</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0024">
+  <data key="d4">0.96</data>
+  <data key="d5">Students must first grasp the general notion of an angle (its formation by two rays, vertex, arms) before they can recognise the special case of a right angle, which is defined as a specific measure of an angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF017_B001</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0025">
+  <data key="d4">0.96</data>
+  <data key="d5">Understanding what an angle is is required before identifying acute angles, which are defined as angles smaller than a right angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0026">
+  <data key="d4">0.96</data>
+  <data key="d5">The concept of a general angle precedes the classification of obtuse angles, which are defined as angles larger than a right angle but smaller than a straight angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0027">
+  <data key="d4">0.95</data>
+  <data key="d5">Learners need the basic definition of an angle before they can understand reflex angles, which are a subset of angles greater than 180°.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0028">
+  <data key="d4">0.95</data>
+  <data key="d5">Students must first understand what an angle is (its vertex and arms) before they can grasp the notion of a complete (full) angle, which is defined as the total of four right angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0029">
+  <data key="d4">0.96</data>
+  <data key="d5">The concept of degree is introduced as the unit used to measure angles; therefore knowing what an angle is is a prerequisite for learning its degree measure.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF021_B001</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0030">
+  <data key="d4">0.94</data>
+  <data key="d5">A protractor is presented as a tool for measuring angles, so students need the basic idea of an angle before they can use or understand a protractor.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0031">
+  <data key="d4">0.95</data>
+  <data key="d5">Perpendicular lines are defined in terms of right angles, which are a specific type of angle; thus the general concept of angle must be known first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0032">
+  <data key="d4">0.78</data>
+  <data key="d5">Students must first understand what an angle is (two rays with a common vertex) before they can grasp the concept of parallel lines, which often relies on recognizing angles formed by a transversal.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0034">
+  <data key="d4">0.81</data>
+  <data key="d5">The textbook defines the size of an angle in terms of the amount of rotation, indicating that the notion of an angle precedes and supports the idea of rotation.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_C0035">
+  <data key="d4">0.85</data>
+  <data key="d5">An angle bisector is defined as a line that divides a given angle into two equal parts, so a clear understanding of angles is required first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF028_B003</data>
+</edge>
+<edge source="MATH6_C0020" target="MATH6_ADD003">
+  <data key="d4">0.85</data>
+  <data key="d5">The textbook states that basic ideas like angles are building blocks that help understand more advanced topics such as plane geometry, indicating angles should be learned first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0014">
+  <data key="d4">0.85</data>
+  <data key="d5">Understanding the notion of a vertex (corner) is needed to identify the corners of a regular polygon; the polygon chapter refers to "कोनों" (corners) which presupposes the vertex concept defined in the later chapter.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_HI_PDF011_B004;CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0023">
+  <data key="d4">0.9</data>
+  <data key="d5">The definition of a vertex is required to identify the common point of the two rays that form any angle; straight angles are described using the notation ∠AOB, which presupposes knowledge of the vertex concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF015_B004</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0024">
+  <data key="d4">0.9</data>
+  <data key="d5">Understanding the vertex is needed before classifying angles such as right angles; the text relates right angles to a straight angle (which is expressed with a vertex) and uses angle notation.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF017_B001</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0025">
+  <data key="d4">0.9</data>
+  <data key="d5">Acute angles are a type of angle; recognizing them requires first knowing what an angle is and its parts, including the vertex.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0026">
+  <data key="d4">0.9</data>
+  <data key="d5">Obtuse angles are defined relative to other angles; students must first understand the vertex concept that underlies any angle description.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0027">
+  <data key="d4">0.9</data>
+  <data key="d5">Knowing the vertex defines what an angle is; this is required before classifying angles such as reflex angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0028">
+  <data key="d4">0.9</data>
+  <data key="d5">Understanding the vertex (the basic definition of an angle) is needed before introducing the complete angle (360°).</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0029">
+  <data key="d4">0.9</data>
+  <data key="d5">The concept of a vertex is prerequisite to measuring angles in degrees, as degree is a unit of angle measurement.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF021_B001</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0030">
+  <data key="d4">0.9</data>
+  <data key="d5">A student must first understand what an angle (its vertex) is before using a protractor to measure angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0031">
+  <data key="d4">0.8</data>
+  <data key="d5">Understanding that an angle has a vertex (the common point of two rays) is needed before recognizing that two lines meeting at a right angle share a common point, i.e., are perpendicular.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0033">
+  <data key="d4">0.9</data>
+  <data key="d5">Intersecting lines are defined as lines that meet at a point; recognizing that point as a vertex of an angle is a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0034">
+  <data key="d4">0.9</data>
+  <data key="d5">The size of an angle is described as the amount of rotation about its vertex, so knowing what a vertex is precedes the concept of rotation.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF006_B005</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_C0035">
+  <data key="d4">0.9</data>
+  <data key="d5">To define and work with an angle bisector, students must first recognise the angle’s vertex and arms; the vertex concept is introduced before the bisector activity.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF028_B003</data>
+</edge>
+<edge source="MATH6_C0021" target="MATH6_ADD003">
+  <data key="d4">0.96</data>
+  <data key="d5">The textbook states that points, lines, rays, and angles (which include the vertex) are the building blocks of ‘plane geometry’. Hence, grasping the concept of a vertex is pedagogically required before studying plane geometry as a whole.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF005_B004;CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0023">
+  <data key="d4">0.9</data>
+  <data key="d5">Students must first recognise that an angle consists of two arms (rays) meeting at a vertex before they can understand the special case of a straight angle, which is defined in terms of its arms forming a half turn.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_HI_PDF015_B004</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0024">
+  <data key="d4">0.9</data>
+  <data key="d5">Identifying the arms of an angle is a prerequisite for classifying a right angle, which is described as one of the two equal angles formed when a straight angle is divided; this relies on the notion of arms.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_HI_PDF017_B001</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0025">
+  <data key="d4">0.9</data>
+  <data key="d5">Understanding what an arm of an angle is precedes the ability to compare the size of angles, such as acute angles, which are defined relative to a right angle and thus depend on the concept of arms.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_HI_PDF019_B004</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0026">
+  <data key="d4">0.9</data>
+  <data key="d5">The definition of an obtuse angle refers to the amount of turn between its arms; therefore, knowing what the arms are is required before learning about obtuse angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_HI_PDF019_B005</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0027">
+  <data key="d4">0.6</data>
+  <data key="d5">Understanding the arms (sides) of an angle is needed to grasp what constitutes a reflex angle, which is defined in terms of the size of an angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0028">
+  <data key="d4">0.6</data>
+  <data key="d5">Knowing the arms of an angle is required before introducing the concept of a complete angle (360°), as a complete angle is a specific type of angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0029">
+  <data key="d4">0.6</data>
+  <data key="d5">The notion of angle arms underlies the definition of degree measure, which quantifies angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_EN_PDF021_B001</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0030">
+  <data key="d4">0.6</data>
+  <data key="d5">Using a protractor to measure angles presupposes knowledge of what an angle’s arms are and where the vertex lies.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0031">
+  <data key="d4">0.9</data>
+  <data key="d5">Knowing what an arm (भुजा) of an angle is required to identify and describe a right angle, which is the basis for defining perpendicular lines.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0032">
+  <data key="d4">0.85</data>
+  <data key="d5">Understanding arms of an angle is needed before studying parallel lines, because properties of parallel lines are expressed using angles formed by intersecting lines and their arms.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0033">
+  <data key="d4">0.88</data>
+  <data key="d5">Intersecting lines create angles; recognizing the arms of those angles is a prerequisite for learning about intersecting lines.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0034">
+  <data key="d4">0.92</data>
+  <data key="d5">Rotation is defined as the amount of turn needed to move one arm of an angle to the other; thus the concept of an arm of an angle must be understood first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_EN_PDF006_B005</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_C0035">
+  <data key="d4">0.88</data>
+  <data key="d5">Students must first recognise the two sides (arms) and the vertex of an angle before they can understand how a line can divide that angle into two equal parts; the bisector definition builds on the notion of an angle’s arms.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_EN_PDF028_B003</data>
+</edge>
+<edge source="MATH6_C0022" target="MATH6_ADD003">
+  <data key="d4">0.92</data>
+  <data key="d5">Knowledge of angle arms is a basic component of plane geometry; the plane geometry chapter lists angles as foundational concepts, so mastering arms of an angle precedes broader plane geometry study.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_HI_PDF005_B003;CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0023" target="MATH6_C0027">
+  <data key="d4">0.8</data>
+  <data key="d5">A reflex angle is explicitly defined as an angle greater than a straight angle and less than a full turn, making knowledge of straight angles a direct prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_C0023" target="MATH6_C0028">
+  <data key="d4">0.75</data>
+  <data key="d5">Students must first recognise a straight angle (180°) before they can understand a complete angle (full turn, 360°) as twice a straight angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF015_B004;CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0023" target="MATH6_C0029">
+  <data key="d4">0.8</data>
+  <data key="d5">The degree measure of a straight angle (180°) is explicitly given, so grasping the straight‑angle concept precedes learning the unit ‘degree’ and its application.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF015_B004;CH02_EN_PDF021_B001</data>
+</edge>
+<edge source="MATH6_C0023" target="MATH6_C0030">
+  <data key="d4">0.75</data>
+  <data key="d5">A protractor is introduced as a tool that divides a straight angle (180°) into 1° units; thus understanding the straight angle is needed first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF015_B004;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0023" target="MATH6_C0031">
+  <data key="d4">0.8</data>
+  <data key="d5">Perpendicular lines form a right angle, defined as half of a straight angle; therefore the straight‑angle concept underpins the notion of perpendicularity.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF015_B004;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0023" target="MATH6_ADD003">
+  <data key="d4">0.93</data>
+  <data key="d5">Plane geometry is introduced as built on basic ideas of geometry, including angles. Understanding a straight angle is part of that foundational angle knowledge, making it a prerequisite for grasping plane geometry concepts.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF015_B004;CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0024" target="MATH6_C0025">
+  <data key="d4">0.94</data>
+  <data key="d5">Acute angles are defined as angles less than a right angle. Therefore, students must first understand the concept of a right angle to recognize and classify acute angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF017_B001;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0024" target="MATH6_C0026">
+  <data key="d4">0.95</data>
+  <data key="d5">Obtuse angles are defined as greater than a right angle but less than a straight angle, so students must understand right angles before classifying obtuse angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0024" target="MATH6_C0028">
+  <data key="d4">0.9</data>
+  <data key="d5">A complete angle (full turn) is described as consisting of four right angles, so understanding right angles is needed before grasping the concept of a complete angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0024" target="MATH6_C0030">
+  <data key="d4">0.7</data>
+  <data key="d5">Students must first recognise a right angle (90°) before they can meaningfully use a protractor to measure angles in degrees.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF017_B001;CH02_EN_PDF017_B004;CH02_EN_PDF022_B005;CH02_EN_PDF023_B002</data>
+</edge>
+<edge source="MATH6_C0024" target="MATH6_C0031">
+  <data key="d4">0.95</data>
+  <data key="d5">The definition of perpendicular lines explicitly relies on the concept of a right angle (“Two lines that meet at right angles are called perpendicular lines”).</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF017_B001;CH02_EN_PDF017_B004;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0028" target="MATH6_C0027">
+  <data key="d4">0.94</data>
+  <data key="d5">A reflex angle is defined as an angle greater than a straight angle but less than a complete (whole) angle; thus understanding the complete angle is prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF039_B004;CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0028" target="MATH6_C0032">
+  <data key="d4">0.7</data>
+  <data key="d5">Understanding a complete angle (360°) provides the basis for measuring and classifying angles, which is needed before studying angles formed by parallel lines and transversals.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0028" target="MATH6_C0033">
+  <data key="d4">0.7</data>
+  <data key="d5">Knowing what a complete angle is helps learners grasp the concept of angles created where two lines intersect, making it a prerequisite for intersecting‑lines topics.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0029" target="MATH6_C0026">
+  <data key="d4">0.78</data>
+  <data key="d5">Understanding the unit of measurement (degree) is needed to quantify any angle, including obtuse angles; thus degree knowledge precedes classifying obtuse angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF021_B001;CH02_EN_PDF021_B003;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_C0029" target="MATH6_C0027">
+  <data key="d4">0.93</data>
+  <data key="d5">The definition of a reflex angle uses degree measures (greater than 180° and less than 360°), so knowledge of degrees is needed first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF039_B004;CH02_EN_PDF021_B001</data>
+</edge>
+<edge source="MATH6_C0029" target="MATH6_C0028">
+  <data key="d4">0.85</data>
+  <data key="d5">The concept of degree (360° for a full turn) is required to define and understand a complete angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF021_B001;CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_C0029" target="MATH6_C0030">
+  <data key="d4">0.9</data>
+  <data key="d5">The concept of degree as a unit of angular measure is required to understand how a protractor marks and measures angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF021_B001;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0029" target="MATH6_C0031">
+  <data key="d4">0.93</data>
+  <data key="d5">Students must first learn that a degree measures angle size and that a right angle equals 90°, which is essential to recognise perpendicular lines as those meeting at a right angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF021_B001;CH02_EN_PDF021_B003;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0029" target="MATH6_C0034">
+  <data key="d4">0.88</data>
+  <data key="d5">Understanding that an angle’s measure in degrees corresponds to the amount of rotation is required before students can grasp the concept of rotation itself.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF021_B001;CH02_EN_PDF021_B003;CH02_EN_PDF006_B004;CH02_EN_PDF006_B005</data>
+</edge>
+<edge source="MATH6_C0029" target="MATH6_C0035">
+  <data key="d4">0.75</data>
+  <data key="d5">Students must first understand that angles are measured in degrees before they can meaningfully construct or identify a line that divides an angle into two equal parts (angle bisector).</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF021_B001;CH02_EN_PDF021_B003;CH02_EN_PDF028_B003</data>
+</edge>
+<edge source="MATH6_C0030" target="MATH6_C0027">
+  <data key="d4">0.7</data>
+  <data key="d5">Students first learn to use a protractor to measure angles; only then can they classify angles such as reflex (&gt;180°). The protractor passage explains measurement, while the reflex‑angle passage defines the range, indicating the tool is a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF022_B005;CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_C0030" target="MATH6_C0031">
+  <data key="d4">0.86</data>
+  <data key="d5">Students must first learn how to measure angles in degrees with a protractor before they can identify a right angle (half of a straight angle) and understand perpendicular lines.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF022_B005;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0030" target="MATH6_C0035">
+  <data key="d4">0.88</data>
+  <data key="d5">Students must first understand what a protractor is and how to read degrees before they can meaningfully construct or identify an angle bisector, which relies on halving an angle measured with a protractor.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF022_B005;CH02_EN_PDF028_B003</data>
+</edge>
+<edge source="MATH6_C0033" target="MATH6_C0031">
+  <data key="d4">0.8</data>
+  <data key="d5">Intersecting lines are the basic notion that two lines meet; perpendicular lines are a specific case where the intersecting angle is a right angle, so knowing intersecting lines precedes the perpendicular definition.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_C0033" target="MATH6_C0032">
+  <data key="d4">0.6</data>
+  <data key="d5">To grasp the definition of parallel lines, students must first know what it means for two lines to intersect (i.e., meet at a point). However, the supplied material provides no explicit passages linking the two concepts, so the judgment is tentative.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0033" target="MATH6_C0034">
+  <data key="d4">0.86</data>
+  <data key="d5">Understanding intersecting lines provides the notion of an angle formed at the intersection, which is essential before defining an angle as a measure of rotation.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_HI_PDF006_B003;CH02_HI_PDF006_B007</data>
+</edge>
+<edge source="MATH6_C0033" target="MATH6_C0035">
+  <data key="d4">0.88</data>
+  <data key="d5">Angle bisectors are defined with respect to an angle created by two intersecting lines; thus knowledge of intersecting lines is a prerequisite for learning about angle bisectors.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF028_B003;CH02_EN_PDF028_B004;CH02_HI_PDF028_B003</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0014">
+  <data key="d4">0.7</data>
+  <data key="d5">To grasp the interior angles of regular polygons, students must first understand that an angle is a measure of rotation; thus the concept of rotation precedes regular polygons.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B005;CH01_EN_PDF011_B005</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0023">
+  <data key="d4">0.78</data>
+  <data key="d5">The rotation passages define an angle as the amount of turn required, a more fundamental notion that precedes classifying specific angles such as a straight angle (180° rotation). Thus understanding rotation is pedagogically needed before identifying a straight angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_HI_PDF006_B003;CH02_HI_PDF006_B007</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0024">
+  <data key="d4">0.86</data>
+  <data key="d5">Students must first grasp that an angle’s size is measured by the amount of rotation (turn) before they can identify a specific angle such as a right angle (½ of a full turn). The rotation passage defines angle size as rotation, which is used in the right‑angle passage to relate it to a half turn.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_EN_PDF017_B004</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0025">
+  <data key="d4">0.85</data>
+  <data key="d5">The concept of rotation (amount of turn) is explicitly defined as the basis for measuring angles. Classifying an angle as acute relies on comparing its rotation to that of a right angle, so understanding rotation precedes the notion of acute angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_HI_PDF006_B003;CH02_HI_PDF006_B007</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0026">
+  <data key="d4">0.9</data>
+  <data key="d5">The concept of rotation defines the size of an angle as the amount of turn, which is foundational for classifying angles such as obtuse. Thus rotation must be understood before learning about obtuse angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0027">
+  <data key="d4">0.88</data>
+  <data key="d5">Understanding rotation (the amount of turn that defines an angle) is needed before classifying angles such as reflex angles, which are defined by their measure (&gt;180°).</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0028">
+  <data key="d4">0.6</data>
+  <data key="d5">The notion of rotation (the amount of turn) is used to define the size of an angle; therefore students need the rotation idea before they can understand a complete (full‑turn) angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0030">
+  <data key="d4">0.84</data>
+  <data key="d5">The notion of an angle as an amount of rotation is presented before the tool (protractor) used to measure that rotation; thus understanding rotation is prerequisite for using a protractor.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0031">
+  <data key="d4">0.85</data>
+  <data key="d5">Understanding angle size as rotation is needed before defining a right angle (half a straight angle), which is the basis for perpendicular lines.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_C0035">
+  <data key="d4">0.88</data>
+  <data key="d5">Understanding rotation defines what an angle is; this is needed before learning how to bisect an angle. The rotation passage explains angle size as amount of rotation, and the bisector passage builds on that concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_EN_PDF028_B003;CH02_EN_PDF028_B004</data>
+</edge>
+<edge source="MATH6_C0034" target="MATH6_ADD003">
+  <data key="d4">0.81</data>
+  <data key="d5">Plane geometry builds on basic angle concepts; the definition of an angle as a rotation is required before students can work with angles in plane‑geometry contexts.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0003">
+  <data key="d4">0.88</data>
+  <data key="d5">Students must first understand what numbers are and how they are used before they can analyse patterns formed by those numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0005">
+  <data key="d4">0.85</data>
+  <data key="d5">The chapter on numbers introduces counting and basic operations, which are foundational for recognizing and working with number sequences.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0006">
+  <data key="d4">0.96</data>
+  <data key="d5">A general understanding of numbers (counting, operations) is required before students can study special categories such as odd numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0008">
+  <data key="d4">0.91</data>
+  <data key="d5">The chapter on numbers introduces counting, addition, and basic operations that are essential for recognizing and generating triangular numbers, making the number concept a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0009">
+  <data key="d4">0.85</data>
+  <data key="d5">A basic understanding of numbers is required before learning the specific concept of square numbers; the general number chapter precedes the square‑number topic.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0010">
+  <data key="d4">0.78</data>
+  <data key="d5">Cube numbers are a specific class of numbers; students must first understand the general notion of numbers before recognizing cube numbers as a subset.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF012_B007;CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0011">
+  <data key="d4">0.8</data>
+  <data key="d5">Chapter 3 introduces basic number concepts, counting and operations that are required to compute and understand powers of 2. Hence understanding numbers precedes learning powers of 2.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0012">
+  <data key="d4">0.82</data>
+  <data key="d5">Students must first understand what a number is before they can grasp the idea of two numbers that follow each other consecutively.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0014">
+  <data key="d4">0.9</data>
+  <data key="d5">Counting the sides of regular polygons relies on the basic concept of numbers; students must be comfortable with numbers before they can relate them to polygon side counts.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0028">
+  <data key="d4">0.8</data>
+  <data key="d5">Number concepts (counting, operations) are taught before geometric concepts like complete angle; students need basic number sense to understand fractions such as ¼ of a complete angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0039">
+  <data key="d4">0.84</data>
+  <data key="d5">Calculating the digit sum requires first having a number (and its digits); thus understanding numbers is a prerequisite for the digit‑sum activity.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF006_B009</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0040">
+  <data key="d4">0.9</data>
+  <data key="d5">Students must first understand what numbers are before identifying special types such as palindromic numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF007_B004</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0041">
+  <data key="d4">0.9</data>
+  <data key="d5">Using a number line requires the prior concept of numbers and their values.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0042">
+  <data key="d4">0.85</data>
+  <data key="d5">Estimation tasks rely on the ability to recognise and manipulate numbers, so numbers are a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF016_B002</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0043">
+  <data key="d4">0.6</data>
+  <data key="d5">Rounding involves approximating numbers, which presupposes basic number knowledge, but the supplied passages do not directly discuss rounding.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0044">
+  <data key="d4">0.95</data>
+  <data key="d5">Understanding the general notion of numbers is required before distinguishing odd numbers, which are a specific subset of numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0045">
+  <data key="d4">0.95</data>
+  <data key="d5">Students must first grasp what numbers are before they can identify even numbers, a particular class of numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0046">
+  <data key="d4">0.95</data>
+  <data key="d5">The concept of numbers underlies the operation of addition; learners need to know what numbers are before performing addition.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0047">
+  <data key="d4">0.95</data>
+  <data key="d5">Understanding numbers is a prerequisite for subtraction, as subtraction operates on numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0048">
+  <data key="d4">0.92</data>
+  <data key="d5">Students must first understand what numbers are and how to use basic operations before they can arrange numbers in a magic square, which relies on arithmetic properties of numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_HI_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0049">
+  <data key="d4">0.88</data>
+  <data key="d5">Recognising and extending numeric patterns presupposes familiarity with numbers and their basic operations, making the number concept a prerequisite for pattern work.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_HI_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0050">
+  <data key="d4">0.94</data>
+  <data key="d5">Kaprekar numbers are a special class of numbers; learners need a solid grasp of ordinary numbers before they can explore this advanced property.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_HI_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_C0051">
+  <data key="d4">0.9</data>
+  <data key="d5">The concept of a supercell is defined within a table of numbers; understanding numbers and basic arithmetic is required to identify and work with supercells.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_HI_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_ADD001">
+  <data key="d4">0.9</data>
+  <data key="d5">Students must first understand what numbers are and how to use basic operations before encountering a specific numeric sequence such as Virahanka numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF013_B009</data>
+</edge>
+<edge source="MATH6_C0036" target="MATH6_ADD002">
+  <data key="d4">0.85</data>
+  <data key="d5">The Collatz conjecture manipulates arbitrary numbers (halving even numbers, applying 3n+1 to odd numbers); grasping the notion of numbers is required first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF014_B006</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0003">
+  <data key="d4">0.86</data>
+  <data key="d5">The concept of a digit (individual symbols 0‑9) underlies any discussion of number patterns; therefore digit knowledge is required first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0005">
+  <data key="d4">0.85</data>
+  <data key="d5">Digits and place‑value concepts are required to read and interpret the numbers that appear in sequences.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0009">
+  <data key="d4">0.7</data>
+  <data key="d5">Digits are a more basic notion required to read and write numbers, which students must master before they can interpret square numbers presented as 1,4,9,…</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015;CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0012">
+  <data key="d4">0.78</data>
+  <data key="d5">Recognising individual digits (0‑9) is a prerequisite for forming numbers and then for seeing how one number follows another as consecutive numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0028">
+  <data key="d4">0.8</data>
+  <data key="d5">Understanding digits is a foundational number skill required before introducing angles, which involve fractional parts of a circle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0036">
+  <data key="d4">0.81</data>
+  <data key="d5">Digits (0‑9) are the symbols that compose numbers; students must recognise digits before they can understand whole numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0038">
+  <data key="d4">0.8</data>
+  <data key="d5">Understanding individual digits is necessary before students can grasp place‑value, where the value of a digit depends on its position in a number.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0039">
+  <data key="d4">0.9</data>
+  <data key="d5">Students must first understand what a digit is before they can add the digits of a number to find its digit sum.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF006_B009</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0040">
+  <data key="d4">0.9</data>
+  <data key="d5">Recognising a palindrome requires reading a number digit‑by‑digit from left to right and right to left, which presupposes knowledge of digits.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF007_B004</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0041">
+  <data key="d4">0.9</data>
+  <data key="d5">Placing numbers on a number line relies on understanding the magnitude of numbers, which is built on the concept of digits and place value.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0042">
+  <data key="d4">0.9</data>
+  <data key="d5">Estimating quantities of numbers uses knowledge of digit positions and values; thus digit knowledge precedes estimation activities.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF016_B002</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0043">
+  <data key="d4">0.7</data>
+  <data key="d5">Understanding digits (place value) is needed before students can grasp rounding, which relies on identifying the value of each digit to decide which place to round to.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0044">
+  <data key="d4">0.7</data>
+  <data key="d5">Classifying a number as odd or even depends on the unit digit; therefore knowledge of digits precedes the concept of odd numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0045">
+  <data key="d4">0.7</data>
+  <data key="d5">Identifying even numbers requires recognizing the units digit; thus the digit concept is a prerequisite for the even‑number concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0046">
+  <data key="d4">0.7</data>
+  <data key="d5">Performing multi‑digit addition correctly uses place‑value knowledge, which is built on the digit concept; hence digits are prerequisite to addition.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0047">
+  <data key="d4">0.85</data>
+  <data key="d5">Understanding digits and place value is needed to perform multi‑digit subtraction correctly, making digit knowledge a prerequisite for subtraction.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015;CH03_EN_PDF001_B001;CH03_EN_PDF012_B004</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0050">
+  <data key="d4">0.65</data>
+  <data key="d5">Kaprekar numbers involve splitting a number into its constituent digits after squaring; thus knowledge of digits is a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF004_B015</data>
+</edge>
+<edge source="MATH6_C0037" target="MATH6_C0051">
+  <data key="d4">0.85</data>
+  <data key="d5">Students must first understand what a digit is and how to form multi‑digit numbers before they can compare numbers in a grid to identify a supercell (a cell whose number is larger than its neighbours). The activities that introduce supercells explicitly require filling cells with 4‑digit numbers, showing the prerequisite relationship.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B007;CH03_EN_PDF003_B005</data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0003">
+  <data key="d4">0.84</data>
+  <data key="d5">Place‑value explains the positional meaning of digits, which is essential before students can recognise systematic number patterns.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0005">
+  <data key="d4">0.85</data>
+  <data key="d5">Place‑value understanding is a prerequisite for working with the numerical terms of a sequence.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014</data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0011">
+  <data key="d4">0.7</data>
+  <data key="d5">Place value is a foundational concept for understanding the magnitude and representation of numbers, which underlies the notion of powers of 2; thus it is typically taught before exponentiation.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0028">
+  <data key="d4">0.8</data>
+  <data key="d5">Place value is a core number concept that precedes geometry; grasping place value helps students work with fractions of a complete angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0039">
+  <data key="d4">0.7</data>
+  <data key="d5">Students must first understand the value of each digit (place value) before they can meaningfully add the digits of a number, which is the digit‑sum operation.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0041">
+  <data key="d4">0.75</data>
+  <data key="d5">Placing numbers accurately on a number line demands an understanding of their magnitude, which is built from place‑value knowledge of the digits.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0043">
+  <data key="d4">0.85</data>
+  <data key="d5">Rounding numbers to the nearest ten, hundred, etc., requires students to recognise the value of each digit, i.e., place value, before they can apply rounding rules.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0046">
+  <data key="d4">0.8</data>
+  <data key="d5">Performing addition with multi‑digit numbers (carrying/borrowing) presupposes that learners understand the positional value of each digit, making place value a prerequisite for addition.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF007_B009;CH03_HI_PDF001_B001;CH03_HI_PDF007_B007</data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0047">
+  <data key="d4">0.8</data>
+  <data key="d5">Multi‑digit subtraction requires students to understand the positional (place) values of digits to borrow and align numbers correctly, making place value a pedagogical prerequisite for subtraction.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0050">
+  <data key="d4">0.7</data>
+  <data key="d5">Identifying a Kaprekar number involves splitting a squared number into parts based on digit positions, which presupposes an understanding of place value.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0038" target="MATH6_C0051">
+  <data key="d4">0.85</data>
+  <data key="d5">Supercell tasks require students to work with 4‑digit numbers and identify specific digit positions, which presupposes understanding of place value.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B005;CH03_EN_PDF003_B007</data>
+</edge>
+<edge source="MATH6_C0039" target="MATH6_C0028">
+  <data key="d4">0.8</data>
+  <data key="d5">Digit‑sum exercises rely on number manipulation skills that are taught before geometry; thus number concepts are prerequisite for understanding complete angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0041" target="MATH6_C0003">
+  <data key="d4">0.85</data>
+  <data key="d5">Understanding the number line (placement of numbers on a scale) is a foundational numeric skill that precedes exploring abstract number patterns.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0041" target="MATH6_C0011">
+  <data key="d4">0.65</data>
+  <data key="d5">Understanding the number line (ordering and magnitude of numbers) is generally established before introducing exponential growth such as powers of 2, making it a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0043" target="MATH6_C0042">
+  <data key="d4">0.62</data>
+  <data key="d5">Rounding to the nearest ten, hundred, etc., is a concrete technique used when students make estimations; therefore mastering rounding precedes broader estimation activities.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF016_B002;CH03_EN_PDF017_B004</data>
+</edge>
+<edge source="MATH6_C0044" target="MATH6_C0051">
+  <data key="d4">0.92</data>
+  <data key="d5">The supercell activity explicitly uses the notion of odd numbers of cells (1,3,5,7,…) to determine supercell counts, indicating that grasping odd numbers is needed first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF022_B012</data>
+</edge>
+<edge source="MATH6_C0044" target="MATH6_ADD002">
+  <data key="d4">0.85</data>
+  <data key="d5">The Collatz conjecture explicitly distinguishes between even and odd numbers in its rule, so grasping what an odd number is is a direct prerequisite for applying the conjecture.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF022_B012;CH03_EN_PDF015_B001</data>
+</edge>
+<edge source="MATH6_C0045" target="MATH6_C0051">
+  <data key="d4">0.92</data>
+  <data key="d5">Supercell counts are defined as half the number of even cells (e.g., 2/2, 4/2). Learners must first understand what constitutes an even number to compute supercells correctly.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF022_B011;CH03_EN_PDF005_B001</data>
+</edge>
+<edge source="MATH6_C0045" target="MATH6_ADD002">
+  <data key="d4">0.94</data>
+  <data key="d5">The Collatz conjecture rule explicitly distinguishes between even and odd numbers (halve if even, 3n+1 if odd). Understanding even numbers is therefore a prerequisite.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF015_B001;CH03_HI_PDF015_B001</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0005">
+  <data key="d4">0.75</data>
+  <data key="d5">Addition is a foundational arithmetic operation that students must master before they can analyse or generate number sequences, which often involve adding a constant or combining terms.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014;CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0008">
+  <data key="d4">0.86</data>
+  <data key="d5">Addition is a basic arithmetic operation introduced before exploring triangular numbers, which are defined as sums of consecutive natural numbers; thus students need to understand addition first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0009">
+  <data key="d4">0.85</data>
+  <data key="d5">Understanding addition (basic operation) is required before students can grasp square numbers, which are expressed as products of equal addends (e.g., 3×3). The textbook introduces addition in Chapter 3 and square numbers in Chapter 1, indicating addition precedes square numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0011">
+  <data key="d4">0.85</data>
+  <data key="d5">Addition is a basic arithmetic operation introduced before exponentiation; students need to master addition to understand repeated multiplication underlying powers of 2.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF005_B016</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0039">
+  <data key="d4">0.85</data>
+  <data key="d5">Computing a digit sum requires adding the individual digits; therefore students must be comfortable with the addition operation before they can meaningfully work with digit‑sum tasks.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF006_B009</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0040">
+  <data key="d4">0.82</data>
+  <data key="d5">Students must be able to perform addition (including adding a number to its reverse) before they can explore the palindrome‑generation process described in the text.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF007_B009;CH03_HI_PDF007_B007</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0041">
+  <data key="d4">0.85</data>
+  <data key="d5">Addition is a foundational operation taught before using a number line to represent quantities; the chapter introduction to addition precedes the number‑line activities.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0044">
+  <data key="d4">0.7</data>
+  <data key="d5">Understanding addition is a foundational arithmetic skill required before exploring properties such as oddness, which rely on counting and combining numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF007_B009;CH03_EN_PDF008_B005;CH03_EN_PDF022_B012</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0045">
+  <data key="d4">0.75</data>
+  <data key="d5">Addition is a fundamental operation used to define and work with even numbers (e.g., an even number is 2 × n or the sum of two equal integers), making addition a prerequisite for the concept of even numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF005_B001</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0047">
+  <data key="d4">0.78</data>
+  <data key="d5">In typical Grade‑6 curricula subtraction is introduced as the inverse of addition, so students need to understand addition first. The textbook introduces both operations together but lists addition before subtraction, suggesting the pedagogical order.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0048">
+  <data key="d4">0.65</data>
+  <data key="d5">Constructing a magic square requires calculating row, column and diagonal sums, which relies on addition skills. No direct evidence is given for the magic‑square topic, so the link is inferred and marked for review.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_C0050">
+  <data key="d4">0.7</data>
+  <data key="d5">Understanding Kaprekar numbers involves adding parts of a squared number; thus basic addition competence is required. The textbook does not give explicit evidence for this link, so it is flagged for review.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_ADD001">
+  <data key="d4">0.95</data>
+  <data key="d5">Virahanka numbers are defined by adding the two preceding terms (e.g., 5 = 2+3). Computing these numbers therefore requires understanding of addition.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF013_B009</data>
+</edge>
+<edge source="MATH6_C0046" target="MATH6_ADD002">
+  <data key="d4">0.94</data>
+  <data key="d5">The Collatz rule explicitly uses the operation "multiply it by 3 and add 1"; performing the "add 1" step presupposes knowledge of addition.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF015_B001</data>
+</edge>
+<edge source="MATH6_C0047" target="MATH6_C0005">
+  <data key="d4">0.7</data>
+  <data key="d5">Subtraction, like addition, is a basic operation required to understand how sequences change (e.g., decreasing sequences). The subtraction content is presented as a core arithmetic skill preceding pattern work.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH01_EN_PDF002_B014;CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0047" target="MATH6_C0008">
+  <data key="d4">0.84</data>
+  <data key="d5">Subtraction, like addition, is a foundational operation taught prior to the concept of triangular numbers, which rely on summing numbers; therefore subtraction knowledge precedes triangular numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF003_B003</data>
+</edge>
+<edge source="MATH6_C0047" target="MATH6_C0009">
+  <data key="d4">0.85</data>
+  <data key="d5">Subtraction, like addition, is a foundational arithmetic operation needed before the concept of square numbers, which builds on repeated addition/multiplication. The textbook presents subtraction in Chapter 3 and square numbers in Chapter 1, implying subtraction precedes square numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF005_B005</data>
+</edge>
+<edge source="MATH6_C0047" target="MATH6_C0011">
+  <data key="d4">0.85</data>
+  <data key="d5">Subtraction, like addition, is a foundational operation taught prior to exponent concepts; understanding subtraction supports later work with powers of 2.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF005_B016</data>
+</edge>
+<edge source="MATH6_C0047" target="MATH6_C0041">
+  <data key="d4">0.85</data>
+  <data key="d5">Subtraction, like addition, is a basic arithmetic skill that students master prior to applying the number line for visualising differences.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH03_EN_PDF005_B004</data>
+</edge>
+<edge source="MATH6_C0048" target="MATH6_C0011">
+  <data key="d4">0.8</data>
+  <data key="d5">Constructing a magic square relies on adding numbers in rows, columns and diagonals, so knowledge of addition is required before tackling magic squares; powers of 2 are not needed first.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7"></data>
+</edge>
+<edge source="MATH6_C0048" target="MATH6_C0051">
+  <data key="d4">0.6</data>
+  <data key="d5">Tasks involving supercells require marking and filling cells in a table, which presupposes familiarity with arranging numbers in a square—i.e., the magic‑square concept.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B005;CH03_EN_PDF003_B007</data>
+</edge>
+<edge source="MATH6_C0049" target="MATH6_C0040">
+  <data key="d4">0.75</data>
+  <data key="d5">Recognising general patterns is a broader skill that underpins the more specific pattern‑recognition involved in identifying palindromic numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B011;CH03_HI_PDF003_B010</data>
+</edge>
+<edge source="MATH6_C0049" target="MATH6_C0048">
+  <data key="d4">0.88</data>
+  <data key="d5">Recognising and extending numerical patterns is taught before constructing magic squares; pattern awareness helps students devise the systematic placement needed for a magic square.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B011;CH03_HI_PDF003_B010</data>
+</edge>
+<edge source="MATH6_C0049" target="MATH6_C0050">
+  <data key="d4">0.7</data>
+  <data key="d5">The pattern chapter introduces recognizing and extending numerical patterns. Kaprekar numbers are a special class of numbers identified through a specific pattern property, so grasping general pattern ideas is pedagogically needed before studying Kaprekar numbers.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001</data>
+</edge>
+<edge source="MATH6_C0049" target="MATH6_C0051">
+  <data key="d4">0.9</data>
+  <data key="d5">Supercell tasks require filling tables based on observed numerical patterns. The pattern chapter explicitly asks learners to notice patterns, providing the conceptual foundation needed for supercell activities.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B011;CH03_EN_PDF003_B005</data>
+</edge>
+<edge source="MATH6_C0049" target="MATH6_ADD001">
+  <data key="d4">0.8</data>
+  <data key="d5">Virahanka numbers are presented as a specific numerical pattern (a Fibonacci‑type sequence). Understanding the general notion of patterns is a prerequisite for recognizing and working with such sequences.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF001_B001;CH01_EN_PDF013_B009</data>
+</edge>
+<edge source="MATH6_C0049" target="MATH6_ADD002">
+  <data key="d4">0.7</data>
+  <data key="d5">Recognizing numerical patterns is a foundational skill that helps students follow the iterative rule of the Collatz conjecture; the textbook first introduces pattern tasks before presenting the Collatz sequence, indicating a pedagogical ordering.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH03_EN_PDF003_B011;CH03_EN_PDF015_B001</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0004">
+  <data key="d4">0.85</data>
+  <data key="d5">Plane geometry introduces basic geometric objects (points, lines, angles) that form the foundation for later studying patterns of shapes; the passage explicitly says these ideas help understand more advanced geometry such as shape construction.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0014">
+  <data key="d4">0.92</data>
+  <data key="d5">Plane geometry introduces fundamental ideas (points, lines, angles) that form the basis for studying shapes such as regular polygons. The textbook explicitly states that these basic concepts help in understanding more advanced geometry topics like different shapes.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_HI_PDF001_B001</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0025">
+  <data key="d4">0.95</data>
+  <data key="d5">The chapter on plane geometry introduces basic concepts such as points, lines, and angles, of which acute angles are a specific type. Thus students need the broader plane‑geometry framework before studying acute angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF019_B006</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0026">
+  <data key="d4">0.95</data>
+  <data key="d5">The chapter on plane geometry introduces basic ideas of points, lines, rays, line segments and angles, which are required before studying specific angle types such as obtuse angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_HI_PDF001_B001</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0027">
+  <data key="d4">0.9</data>
+  <data key="d5">Plane geometry introduces basic ideas of angles, which are needed before studying specific angle types like reflex angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF039_B004</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0028">
+  <data key="d4">0.85</data>
+  <data key="d5">Plane geometry introduces basic angle ideas; knowing the broader plane‑geometry framework is needed before studying the specific notion of a complete angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF048_B006</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0030">
+  <data key="d4">0.96</data>
+  <data key="d5">Plane geometry introduces angles, points, and lines, which are foundational before students can effectively use a protractor to measure angles.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_HI_PDF001_B001;CH02_EN_PDF022_B005</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0031">
+  <data key="d4">0.9</data>
+  <data key="d5">Understanding the basic ideas of plane geometry (points, lines, angles) is required before learning the specific notion of perpendicular lines, which is defined later in the same chapter.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002;CH02_EN_PDF017_B005</data>
+</edge>
+<edge source="MATH6_ADD003" target="MATH6_C0035">
+  <data key="d4">0.88</data>
+  <data key="d5">Plane geometry introduces points, lines, angles etc., which are needed before learning the specific technique of bisecting an angle.</data>
+  <data key="d6">PENDING</data>
+  <data key="d7">CH02_EN_PDF001_B002</data>
+</edge>
+</graph></graphml>

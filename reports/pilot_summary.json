@@ -1,0 +1,26 @@
+{
+  "case_count": 20,
+  "case_sha256": "85bad10422a501adf58ac2f88e1ac421f7731205f1edbc70f00335e04b1086da",
+  "bank_sha256": "5ba7bd839512b8db0a9f9a51a4aa008e6d819bd967d9d2d166aaa036247ed79d",
+  "version": "diagnostic-v1",
+  "results": {
+    "fixed": {
+      "mapping_correct": 18,
+      "correct_diagnoses": 10,
+      "false_diagnoses": 0,
+      "unresolved_concepts": 17,
+      "questions_asked": 42,
+      "case_unresolved": 16
+    },
+    "graph-guided": {
+      "mapping_correct": 18,
+      "correct_diagnoses": 10,
+      "false_diagnoses": 0,
+      "unresolved_concepts": 17,
+      "questions_asked": 38,
+      "case_unresolved": 16
+    }
+  },
+  "independent_review": "PENDING",
+  "study_type": "Synthetic fixture execution, not an empirical learner study"
+}

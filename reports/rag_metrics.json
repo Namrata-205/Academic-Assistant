@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-11-01T11:16:30.448212+00:00",
+  "evaluation_type": "Synthetic development evaluation, not learner outcome evidence",
+  "review_status": "AI-authored development cases; independent human review pending. Cases were written after development inspections, not an unseen holdout.",
+  "cases_sha256": "eea8fc479242b8b2eb93a68f1d51d62550d337eecaf4139a8cf8eae992727777",
+  "catalog_sha256": "dd99da2ec1009f341e0fe69f6d2a99bc19776cc96dd827cac8c16f478622ffe8",
+  "chunk_config": {
+    "version": "semantic-page-v1",
+    "break_cosine": 0.48,
+    "max_chars": 650
+  },
+  "model_status": {
+    "generation_available": true,
+    "model": "qwen2.5:0.5b",
+    "fallback": "Exact textbook excerpts with page citations",
+    "local_only": true
+  },
+  "retrieval": {
+    "cases": 12,
+    "hit_at_1": 0.5833333333333334,
+    "hit_at_2": 0.75,
+    "mrr_at_2": 0.6666666666666666,
+    "precision_at_2": 0.4166666666666667,
+    "recall_at_2": 0.7428571428571429,
+    "cold_page_cache_seconds": 0.857375,
+    "warm_page_cache_seconds": 0.056666666666666664,
+    "recall_defined_cases": 10,
+    "no_relevant_evidence_cases": 2,
+    "by_language": {
+      "en": {
+        "hit_at_1": 0.6666666666666666,
+        "hit_at_2": 0.8333333333333334,
+        "mrr_at_2": 0.75,
+        "precision_at_2": 0.5,
+        "recall_at_2": 0.8571428571428571,
+        "cold_page_cache_seconds": 0.90625,
+        "warm_page_cache_seconds": 0.05988333333333333
+      },
+      "hi": {
+        "hit_at_1": 0.5,
+        "hit_at_2": 0.6666666666666666,
+        "mrr_at_2": 0.5833333333333334,
+        "precision_at_2": 0.3333333333333333,
+        "recall_at_2": 0.6285714285714286,
+        "cold_page_cache_seconds": 0.8085,
+        "warm_page_cache_seconds": 0.05345
+      }
+    }
+  },
+  "mapping": {
+    "cases": 24,
+    "accuracy": 0.75,
+    "mapped_precision": 1.0,
+    "supported_concept_recall": 0.5714285714285714,
+    "clarification_recall": 1.0,
+    "false_mapping_rate": 0.0,
+    "dataset_sha256": "896f476dd6411fc0821997612a64e7da23b09209529883613e98cbbb86530fff",
+    "review_status": "Draft expectations authored before execution; independent review pending",
+    "results": [
+      {
+        "id": "S01",
+        "expected": "MATH6_C0021",
+        "actual": "MATH6_C0021"
+      },
+      {
+        "id": "S02",
+        "expected": "MATH6_C0030",
+        "actual": "clarify"
+      },
+      {
+        "id": "S03",
+        "expected": "MATH6_C0024",
+        "actual": "clarify"
+      },
+      {
+        "id": "S04",
+        "expected": "MATH6_C0027",
+        "actual": "MATH6_C0027"
+      },
+      {
+        "id": "S05",
+        "expected": "MATH6_C0018",
+        "actual": "clarify"
+      },
+      {
+        "id": "S06",
+        "expected": "MATH6_C0040",
+        "actual": "clarify"
+      },
+      {
+        "id": "S07",
+        "expected": "MATH6_C0038",
+        "actual": "MATH6_C0038"
+      },
+      {
+        "id": "S08",
+        "expected": "MATH6_C0039",
+        "actual": "MATH6_C0039"
+      },
+      {
+        "id": "S09",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S10",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S11",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S12",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S13",
+        "expected": "MATH6_C0021",
+        "actual": "clarify"
+      },
+      {
+        "id": "S14",
+        "expected": "MATH6_C0038",
+        "actual": "MATH6_C0038"
+      },
+      {
+        "id": "S15",
+        "expected": "MATH6_C0039",
+        "actual": "MATH6_C0039"
+      },
+      {
+        "id": "S16",
+        "expected": "MATH6_C0025",
+        "actual": "MATH6_C0025"
+      },
+      {
+        "id": "S17",
+        "expected": "MATH6_C0024",
+        "actual": "MATH6_C0024"
+      },
+      {
+        "id": "S18",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S19",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S20",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S21",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S22",
+        "expected": "MATH6_C0020",
+        "actual": "clarify"
+      },
+      {
+        "id": "S23",
+        "expected": "clarify",
+        "actual": "clarify"
+      },
+      {
+        "id": "S24",
+        "expected": "clarify",
+        "actual": "clarify"
+      }
+    ]
+  },
+  "personalisation": {
+    "synthetic_checks": 14,
+    "passed": 14,
+    "pass_rate": 1.0,
+    "interpretation": "Functional policy checks, not educational effectiveness or personalised explanation quality."
+  },
+  "generation": {
+    "cases": 2,
+    "generated_answer_rate": 0.0,
+    "fallback_rate": 1.0,
+    "citation_coverage": 1.0,
+    "citation_id_validity": 1.0,
+    "exact_evidence_span_rate": 1.0,
+    "mean_latency_seconds": 3.3812499999999996
+  },
+  "human_quality_metrics": {
+    "status": "Not measured; reviewer worksheet supplied",
+    "correctness": null,
+    "faithfulness": null,
+    "terminology": null,
+    "helpfulness": null
+  },
+  "limitations": [
+    "Known development cases, independent review pending; no statistical generalisation.",
+    "Retrieval relevance is an explicit page-and-substring proxy, not human-rated semantic relevance. Precision@2 uses two slots; missing results count as failures.",
+    "Concept IDs are supplied to retrieval tests; mapping is evaluated separately. Search is limited to catalogued concept pages.",
+    "Recall@2 is macro-averaged only over cases with at least one proxy-relevant chunk in the scoped search pool; zero-evidence cases are reported separately. This is not corpus-wide recall.",
+    "No baseline superiority claim: no comparable retrieval baseline was run.",
+    "Citation IDs and copied evidence do not establish factual entailment. Excerpt fallbacks can score perfectly on structural checks.",
+    "Generation without a learner history does not measure personalised answer quality. No real learner improvement was measured.",
+    "Latency is sequential on this machine; cold page cache does not mean cold OS or model cache."
+  ]
+}

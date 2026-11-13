@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "DQ_0003_1",
+    "concept_id": "MATH6_C0003",
+    "concept_en": "number pattern",
+    "concept_hi": "संख्या पैटर्न",
+    "en": "Write the next number: 3, 6, 9, 12, __.",
+    "hi": "अगली संख्या लिखिए: 3, 6, 9, 12, __।",
+    "type": "numeric",
+    "answer": "15",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May have difficulty identifying or applying the stated number pattern; check arithmetic separately.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF005_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0003_2",
+    "concept_id": "MATH6_C0003",
+    "concept_en": "number pattern",
+    "concept_hi": "संख्या पैटर्न",
+    "en": "Write the next number: 2, 4, 8, 16, __.",
+    "hi": "अगली संख्या लिखिए: 2, 4, 8, 16, __।",
+    "type": "numeric",
+    "answer": "32",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May have difficulty identifying or applying the stated number pattern; check arithmetic separately.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF005_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0003_3",
+    "concept_id": "MATH6_C0003",
+    "concept_en": "number pattern",
+    "concept_hi": "संख्या पैटर्न",
+    "en": "Write the next number: 20, 17, 14, 11, __.",
+    "hi": "अगली संख्या लिखिए: 20, 17, 14, 11, __।",
+    "type": "numeric",
+    "answer": "8",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May have difficulty identifying or applying the stated number pattern; check arithmetic separately.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF005_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0006_1",
+    "concept_id": "MATH6_C0006",
+    "concept_en": "odd number",
+    "concept_hi": "विषम संख्या",
+    "en": "Which number is odd? A: 12; B: 15; C: 18; D: 20.",
+    "hi": "कौन-सी संख्या विषम है? A: 12; B: 15; C: 18; D: 20।",
+    "type": "mcq",
+    "answer": "B",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse odd and even numbers or the units-digit parity rule.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0006_2",
+    "concept_id": "MATH6_C0006",
+    "concept_en": "odd number",
+    "concept_hi": "विषम संख्या",
+    "en": "Which number is odd? A: 24; B: 30; C: 37; D: 42.",
+    "hi": "कौन-सी संख्या विषम है? A: 24; B: 30; C: 37; D: 42।",
+    "type": "mcq",
+    "answer": "C",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse odd and even numbers or the units-digit parity rule.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0006_3",
+    "concept_id": "MATH6_C0006",
+    "concept_en": "odd number",
+    "concept_hi": "विषम संख्या",
+    "en": "Which number is odd? A: 51; B: 62; C: 74; D: 86.",
+    "hi": "कौन-सी संख्या विषम है? A: 51; B: 62; C: 74; D: 86।",
+    "type": "mcq",
+    "answer": "A",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse odd and even numbers or the units-digit parity rule.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0007_1",
+    "concept_id": "MATH6_C0007",
+    "concept_en": "even number",
+    "concept_hi": "सम संख्या",
+    "en": "Which number is even? A: 13; B: 21; C: 28; D: 35.",
+    "hi": "कौन-सी संख्या सम है? A: 13; B: 21; C: 28; D: 35।",
+    "type": "mcq",
+    "answer": "C",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse even and odd numbers or divisibility by two.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0007_2",
+    "concept_id": "MATH6_C0007",
+    "concept_en": "even number",
+    "concept_hi": "सम संख्या",
+    "en": "Which number is even? A: 41; B: 56; C: 63; D: 79.",
+    "hi": "कौन-सी संख्या सम है? A: 41; B: 56; C: 63; D: 79।",
+    "type": "mcq",
+    "answer": "B",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse even and odd numbers or divisibility by two.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0007_3",
+    "concept_id": "MATH6_C0007",
+    "concept_en": "even number",
+    "concept_hi": "सम संख्या",
+    "en": "Which number is even? A: 91; B: 83; C: 75; D: 60.",
+    "hi": "कौन-सी संख्या सम है? A: 91; B: 83; C: 75; D: 60।",
+    "type": "mcq",
+    "answer": "D",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse even and odd numbers or divisibility by two.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF003_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0009_1",
+    "concept_id": "MATH6_C0009",
+    "concept_en": "square number",
+    "concept_hi": "वर्ग संख्या",
+    "en": "A square has 4 rows with 4 dots in each row. How many dots are there?",
+    "hi": "एक वर्ग में 4 पंक्तियाँ हैं और हर पंक्ति में 4 बिंदु हैं। कुल कितने बिंदु हैं?",
+    "type": "numeric",
+    "answer": "16",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May confuse square numbers with doubling; multiplication or language may also explain an error.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF002_B014;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF006_B005;CH01_HI_PDF006_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF005_B005;CH01_EN_PDF005_B008",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007;CH03_EN_PDF004_B015;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0009_2",
+    "concept_id": "MATH6_C0009",
+    "concept_en": "square number",
+    "concept_hi": "वर्ग संख्या",
+    "en": "What is 7 squared (7 × 7)?",
+    "hi": "7 का वर्ग (7 × 7) कितना है?",
+    "type": "numeric",
+    "answer": "49",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May confuse square numbers with doubling; multiplication or language may also explain an error.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF002_B014;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF006_B005;CH01_HI_PDF006_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF005_B005;CH01_EN_PDF005_B008",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007;CH03_EN_PDF004_B015;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0009_3",
+    "concept_id": "MATH6_C0009",
+    "concept_en": "square number",
+    "concept_hi": "वर्ग संख्या",
+    "en": "Which is a square number? A: 12; B: 18; C: 25; D: 30.",
+    "hi": "कौन-सी संख्या वर्ग संख्या है? A: 12; B: 18; C: 25; D: 30।",
+    "type": "mcq",
+    "answer": "C",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse square numbers with doubling; multiplication or language may also explain an error.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH01_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF002_B014;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF006_B005;CH01_HI_PDF006_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH01_EN_PDF005_B005;CH01_EN_PDF005_B008",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007;CH03_EN_PDF004_B015;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH01_EN_PDF005_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0018_1",
+    "concept_id": "MATH6_C0018",
+    "concept_en": "line segment",
+    "concept_hi": "रेखाखंड",
+    "en": "How many endpoints does a line segment have?",
+    "hi": "एक रेखाखंड के कितने अंत बिंदु होते हैं?",
+    "type": "numeric",
+    "answer": "2",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May not distinguish a line segment from a line or ray.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF002_B003;CH02_HI_PDF042_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF002_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0018_2",
+    "concept_id": "MATH6_C0018",
+    "concept_en": "line segment",
+    "concept_hi": "रेखाखंड",
+    "en": "Which has a fixed length and two endpoints? A: line; B: ray; C: line segment; D: plane.",
+    "hi": "किसकी लंबाई निश्चित होती है और दो अंत बिंदु होते हैं? A: रेखा; B: किरण; C: रेखाखंड; D: समतल।",
+    "type": "mcq",
+    "answer": "C",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May not distinguish a line segment from a line or ray.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF002_B003;CH02_HI_PDF042_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF002_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0018_3",
+    "concept_id": "MATH6_C0018",
+    "concept_en": "line segment",
+    "concept_hi": "रेखाखंड",
+    "en": "A segment joins points A and B. How many endpoints are named?",
+    "hi": "एक रेखाखंड बिंदु A और B को जोड़ता है। कितने अंत बिंदुओं के नाम दिए गए हैं?",
+    "type": "numeric",
+    "answer": "2",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May not distinguish a line segment from a line or ray.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF002_B003;CH02_HI_PDF042_B005",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF002_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0020_1",
+    "concept_id": "MATH6_C0020",
+    "concept_en": "angle",
+    "concept_hi": "कोण",
+    "en": "How many arms form an angle?",
+    "hi": "एक कोण की कितनी भुजाएँ होती हैं?",
+    "type": "numeric",
+    "answer": "2",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May not identify angle arms and their common endpoint.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_HI_PDF005_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0020_2",
+    "concept_id": "MATH6_C0020",
+    "concept_en": "angle",
+    "concept_hi": "कोण",
+    "en": "What is the common endpoint of the arms of an angle called? A: centre; B: vertex; C: length; D: plane.",
+    "hi": "कोण की भुजाओं के उभयनिष्ठ अंत बिंदु को क्या कहते हैं? A: केंद्र; B: शीर्ष; C: लंबाई; D: समतल।",
+    "type": "mcq",
+    "answer": "B",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May not identify angle arms and their common endpoint.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_HI_PDF005_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0020_3",
+    "concept_id": "MATH6_C0020",
+    "concept_en": "angle",
+    "concept_hi": "कोण",
+    "en": "Which forms an angle? A: two rays with a common endpoint; B: one point; C: two separate points; D: one segment alone.",
+    "hi": "कौन कोण बनाता है? A: उभयनिष्ठ अंत बिंदु वाली दो किरणें; B: एक बिंदु; C: दो अलग बिंदु; D: केवल एक रेखाखंड।",
+    "type": "mcq",
+    "answer": "A",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May not identify angle arms and their common endpoint.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_HI_PDF005_B003",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0024_1",
+    "concept_id": "MATH6_C0024",
+    "concept_en": "right angle",
+    "concept_hi": "समकोण",
+    "en": "How many degrees are in a right angle?",
+    "hi": "समकोण में कितने डिग्री होते हैं?",
+    "type": "numeric",
+    "answer": "90",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May not connect a right angle with 90 degrees; shape knowledge may also affect the square item.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF001_B003;CH02_HI_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF003_B001;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_HI_PDF005_B003;CH02_HI_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_EN_PDF017_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0024_2",
+    "concept_id": "MATH6_C0024",
+    "concept_en": "right angle",
+    "concept_hi": "समकोण",
+    "en": "Which is a right angle? A: 45°; B: 60°; C: 90°; D: 120°.",
+    "hi": "कौन-सा कोण समकोण है? A: 45°; B: 60°; C: 90°; D: 120°।",
+    "type": "mcq",
+    "answer": "C",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May not connect a right angle with 90 degrees; shape knowledge may also affect the square item.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF001_B003;CH02_HI_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF003_B001;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_HI_PDF005_B003;CH02_HI_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_EN_PDF017_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0024_3",
+    "concept_id": "MATH6_C0024",
+    "concept_en": "right angle",
+    "concept_hi": "समकोण",
+    "en": "What is the angle in degrees at a corner of a square?",
+    "hi": "वर्ग के एक कोने का कोण कितने डिग्री का होता है?",
+    "type": "numeric",
+    "answer": "90",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May not connect a right angle with 90 degrees; shape knowledge may also affect the square item.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF001_B003;CH02_HI_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF003_B001;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_EN_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_HI_PDF005_B003;CH02_HI_PDF017_B001",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_EN_PDF017_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0025_1",
+    "concept_id": "MATH6_C0025",
+    "concept_en": "acute angle",
+    "concept_hi": "न्यून कोण",
+    "en": "Which angle is acute? A: 35°; B: 90°; C: 120°; D: 180°.",
+    "hi": "कौन-सा कोण न्यून कोण है? A: 35°; B: 90°; C: 120°; D: 180°।",
+    "type": "mcq",
+    "answer": "A",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse acute, right, and obtuse angles or the strict 90-degree boundary.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF001_B003;CH02_HI_PDF019_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF003_B001;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_HI_PDF005_B003;CH02_HI_PDF019_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF017_B001;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_HI_PDF006_B003;CH02_HI_PDF006_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0025_2",
+    "concept_id": "MATH6_C0025",
+    "concept_en": "acute angle",
+    "concept_hi": "न्यून कोण",
+    "en": "Which angle is acute? A: 180°; B: 100°; C: 90°; D: 70°.",
+    "hi": "कौन-सा कोण न्यून कोण है? A: 180°; B: 100°; C: 90°; D: 70°।",
+    "type": "mcq",
+    "answer": "D",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse acute, right, and obtuse angles or the strict 90-degree boundary.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF001_B003;CH02_HI_PDF019_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF003_B001;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_HI_PDF005_B003;CH02_HI_PDF019_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF017_B001;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_HI_PDF006_B003;CH02_HI_PDF006_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0025_3",
+    "concept_id": "MATH6_C0025",
+    "concept_en": "acute angle",
+    "concept_hi": "न्यून कोण",
+    "en": "An acute angle is: A: exactly 90°; B: greater than 0° and less than 90°; C: exactly 180°; D: greater than 180°.",
+    "hi": "न्यून कोण होता है: A: ठीक 90°; B: 0° से अधिक और 90° से कम; C: ठीक 180°; D: 180° से अधिक।",
+    "type": "mcq",
+    "answer": "B",
+    "scoring_rule": "1 for exact correct option letter (case insensitive); 0 for another A-D letter; other text is unscorable.",
+    "possible_difficulty": "May confuse acute, right, and obtuse angles or the strict 90-degree boundary.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "CH02_EN_PDF001_B003;CH02_HI_PDF019_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF003_B001;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF005_B004;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_HI_PDF005_B003;CH02_HI_PDF019_B004",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF017_B001;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF006_B004;CH02_EN_PDF006_B005;CH02_HI_PDF006_B003;CH02_HI_PDF006_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH02_EN_PDF001_B002;CH02_EN_PDF019_B006",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0038_1",
+    "concept_id": "MATH6_C0038",
+    "concept_en": "place value",
+    "concept_hi": "स्थानीय मान",
+    "en": "What is the place value of 4 in 3452?",
+    "hi": "3452 में 4 का स्थानीय मान क्या है?",
+    "type": "numeric",
+    "answer": "400",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May confuse face value and place value or misidentify the position of a digit.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0038_2",
+    "concept_id": "MATH6_C0038",
+    "concept_en": "place value",
+    "concept_hi": "स्थानीय मान",
+    "en": "What is the place value of 7 in 5721?",
+    "hi": "5721 में 7 का स्थानीय मान क्या है?",
+    "type": "numeric",
+    "answer": "700",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May confuse face value and place value or misidentify the position of a digit.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0038_3",
+    "concept_id": "MATH6_C0038",
+    "concept_en": "place value",
+    "concept_hi": "स्थानीय मान",
+    "en": "What is the place value of 6 in 268?",
+    "hi": "268 में 6 का स्थानीय मान क्या है?",
+    "type": "numeric",
+    "answer": "60",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May confuse face value and place value or misidentify the position of a digit.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0039_1",
+    "concept_id": "MATH6_C0039",
+    "concept_en": "digit sum",
+    "concept_hi": "अंकों का योग",
+    "en": "Find the sum of the digits of 352.",
+    "hi": "352 के अंकों का योग ज्ञात कीजिए।",
+    "type": "numeric",
+    "answer": "10",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May confuse a digit with its place value; an addition error may also explain the response.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007;CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0039_2",
+    "concept_id": "MATH6_C0039",
+    "concept_en": "digit sum",
+    "concept_hi": "अंकों का योग",
+    "en": "Find the sum of the digits of 409.",
+    "hi": "409 के अंकों का योग ज्ञात कीजिए।",
+    "type": "numeric",
+    "answer": "13",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May confuse a digit with its place value; an addition error may also explain the response.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007;CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  },
+  {
+    "id": "DQ_0039_3",
+    "concept_id": "MATH6_C0039",
+    "concept_en": "digit sum",
+    "concept_hi": "अंकों का योग",
+    "en": "Find the sum of the digits of 1263.",
+    "hi": "1263 के अंकों का योग ज्ञात कीजिए।",
+    "type": "numeric",
+    "answer": "12",
+    "scoring_rule": "1 for numerically equal answer; 0 for another number; other text is unscorable. Devanagari digits accepted.",
+    "possible_difficulty": "May confuse a digit with its place value; an addition error may also explain the response.",
+    "version": "diagnostic-v1",
+    "review_status": "PENDING",
+    "reviewer": "",
+    "review_date": "",
+    "provenance": "Original development item; not quoted from NCERT.",
+    "source_references": [
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF003_B007;CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      },
+      {
+        "passage_ids": "CH03_EN_PDF001_B001;CH03_EN_PDF006_B009",
+        "validation_status": "PENDING",
+        "source_text_verified": false
+      }
+    ],
+    "source_verification": "Passage IDs inherited from provisional graph; textbook text unavailable."
+  }
+]

@@ -1,0 +1,34 @@
+/* Readable type on the light student surfaces; keep the map's dark-canvas theme. */
+.learner-app{color:#263f33}
+.learner-main .body-copy,.learner-main .reference-text{color:#43564c;font-size:13px;line-height:1.85}
+.learner-main .text-button{color:#235d46;font-weight:600}
+.learner-main .secondary-button{color:#344e41;border-color:#9cafa3;font-weight:600}
+.learner-main .primary-button{color:#fff;font-weight:600}
+.learner-main .field-label{color:#334e40;font-size:13px}
+.learner-main input,.learner-main textarea,.learner-main select{color:#263f33;font-weight:500}
+.learner-main input::placeholder,.learner-main textarea::placeholder{color:#64756b;opacity:1}
+.learner-main details>summary{color:#375645;font-weight:600;font-size:12px}
+.learner-main .tag{color:#3d5146;font-size:11px}
+.learner-main .tag.amber{color:#70521e}
+.learner-main .tag.green{color:#235536}
+.learner-main .observation,.learner-main .observation small{color:#46584e}
+.learner-main .observation b{color:#283f32}
+.learner-main .connection-row b{color:#334d40;font-size:12px}
+.learner-main .connection-row small,.learner-main .evidence-link{color:#52675a;font-size:11px}
+.learner-main .inspector-hint,.learner-main .hindi-name{color:#4b6154}
+.learner-main .graph-label{color:#edf6ff;font-size:12px;background:#14293cf2}
+.learner-main .graph-label small{color:#cadce9;font-size:11px}
+.learner-main .graph-label.current{color:#f0fff8}
+.learner-main .graph-label.current small{color:#dbf3e7}
+.learner-main .canvas-top>span,.learner-main .canvas-bottom{color:#c5d6e8;font-size:10px}
+.learner-main .canvas-toggle{color:#e0ebf5;font-size:11px}
+.learner-main .map-help,.learner-main .research-note{color:#53695b;font-size:11px}
+.learner-main .walk-name{color:#3b5546;font-size:12px}
+.learner-main .walk-bar .eyebrow{color:#4e6857;font-size:11px}
+.learner-main .inspector-heading .eyebrow{color:#526959;font-size:11px}
+.learner-main .diagnostic-cta p,.learner-main .diagnostic-cta h4{color:#3a5846;font-size:12px}
+.learner-main .simple-steps li{line-height:1.6}
+.learner-main .profile-picker-heading small{max-width:440px}
+.learner-main .practice-explanation p,.learner-main .book-instruction{font-size:14px;line-height:1.85}
+@media(max-width:600px){.simple-steps{align-items:flex-start}.simple-steps li{align-items:flex-start;flex:1}.simple-steps li>span{flex-shrink:0}.student-section-title{align-items:flex-start}.subject-progress-grid b{min-height:38px}}
+@media print{.learner-main p,.learner-main small,.learner-main summary{color:#273e30!important}}

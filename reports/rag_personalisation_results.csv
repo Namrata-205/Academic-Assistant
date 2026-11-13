@@ -1,0 +1,15 @@
+﻿case,check,passed
+unassessed,evidence_status,True
+unassessed,learner_isolation,True
+difficulty,evidence_status,True
+difficulty,learner_isolation,True
+difficulty,weak_foundation_first,True
+understanding,evidence_status,True
+understanding,learner_isolation,True
+mixed,evidence_status,True
+mixed,learner_isolation,True
+one_error,evidence_status,True
+one_error,learner_isolation,True
+unscorable,evidence_status,True
+unscorable,learner_isolation,True
+imported_pending,background_not_promoted_to_diagnosis,True

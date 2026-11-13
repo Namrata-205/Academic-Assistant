@@ -1,0 +1,2023 @@
+{
+  "title": "Ganita Prakash / गणित प्रकाश - Grade 6",
+  "edition": "Reprint 2026-27",
+  "documents": [
+    {
+      "language": "en",
+      "filename": "fegp101.pdf",
+      "chapter": 1,
+      "pages": 17,
+      "appended_solutions_start_pdf_page": 13,
+      "sha256": "9a2ff6ddbbd42bbd140a340c20ab27d4e7b8626148518acbb5adca7b93644347",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp101.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp102.pdf",
+      "chapter": 2,
+      "pages": 53,
+      "appended_solutions_start_pdf_page": 43,
+      "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp102.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp103.pdf",
+      "chapter": 3,
+      "pages": 32,
+      "appended_solutions_start_pdf_page": 20,
+      "sha256": "c33f3769dc238bf1593ae3bc16c8721d422fe4e57d79b18f085b1ed1669f9cdb",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp103.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp104.pdf",
+      "chapter": 4,
+      "pages": 44,
+      "appended_solutions_start_pdf_page": 34,
+      "sha256": "8f7d28bab6f2108de771ff4a16c03a383b0e23a2f5699f8cf41915bbf0a921f2",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp104.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp105.pdf",
+      "chapter": 5,
+      "pages": 33,
+      "appended_solutions_start_pdf_page": 23,
+      "sha256": "467aa97ca5a18533a7738ddd57020de3d322c63013018edd06714ac23436dabf",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp105.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp106.pdf",
+      "chapter": 6,
+      "pages": 29,
+      "appended_solutions_start_pdf_page": 23,
+      "sha256": "f03f2030420f0f1aa173348bd4fbb3b133a4b8de93cb56db9f5085d5c03a4d53",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp106.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp107.pdf",
+      "chapter": 7,
+      "pages": 50,
+      "appended_solutions_start_pdf_page": 37,
+      "sha256": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp107.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp108.pdf",
+      "chapter": 8,
+      "pages": 38,
+      "appended_solutions_start_pdf_page": 31,
+      "sha256": "7c777e26cad8154b5bb55308c36cc47173084ad1ec1ad3c2f5a7cf863e132e53",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp108.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp109.pdf",
+      "chapter": 9,
+      "pages": 40,
+      "appended_solutions_start_pdf_page": 26,
+      "sha256": "2a675ebe6523c343d88ae43ba173a8dabac2881e3caabeffa8d0379435f02f04",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp109.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp110.pdf",
+      "chapter": 10,
+      "pages": 56,
+      "appended_solutions_start_pdf_page": 44,
+      "sha256": "2c286fb7a738c1f17824a338248b40ccaaf0733f6f37b356c6349e27e317f2ec",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp110.pdf"
+    },
+    {
+      "language": "en",
+      "filename": "fegp1ps.pdf",
+      "chapter": null,
+      "pages": 20,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "902147cff853df0023b4e13293711573562bf42abf91253e5045e877c76d51df",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/en/fegp1ps.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp101.pdf",
+      "chapter": 1,
+      "pages": 12,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "691c407f1c2e5366275de0ec238a4b88beea196540e5c341cb6a3e76a6d2d9a4",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp101.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp102.pdf",
+      "chapter": 2,
+      "pages": 42,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp102.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp103.pdf",
+      "chapter": 3,
+      "pages": 19,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "2b4cfa9b7e03dc868dc649543c934253528c5cb2c0a77ad00fa6f0d6ff64f4e6",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp103.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp104.pdf",
+      "chapter": 4,
+      "pages": 33,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "dde2a32a3571ef20964831d5c4af43713c4aa9c96c50e2b4d1d1219e8d7400b5",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp104.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp105.pdf",
+      "chapter": 5,
+      "pages": 22,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "c9215282c8609cf0dd95198e3b8bac51771ef5e799c9da06a30bc7009ec2c9c7",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp105.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp106.pdf",
+      "chapter": 6,
+      "pages": 22,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "8320981d7807ce0066d56dd6885acc66aeeb3374153d546e19b0b08929ec5475",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp106.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp107.pdf",
+      "chapter": 7,
+      "pages": 36,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "20b1000245974dc0eeaa30c19223458d4684d47b21196a650b6b0d84636894a4",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp107.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp108.pdf",
+      "chapter": 8,
+      "pages": 30,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "9574307eabdef5c44103c7f3d8d0dcf56486ecb85832fac8501f9635e87fe4c8",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp108.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp109.pdf",
+      "chapter": 9,
+      "pages": 25,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "13bb4aed010e0c8444de7fcdf3fa71e30f1ea3043dd16f21ed39e90d6aff09a5",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp109.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp110.pdf",
+      "chapter": 10,
+      "pages": 43,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "900dcf3fb1d1cc85cf2e1fe77ff4d7caf52a82ce11701fd6148e86f95b149adb",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp110.pdf"
+    },
+    {
+      "language": "hi",
+      "filename": "fhgp1ps.pdf",
+      "chapter": null,
+      "pages": 20,
+      "appended_solutions_start_pdf_page": null,
+      "sha256": "a8c73a75f317efb4b2950c065c8fbe13be5adc9bb7cdb63cc5dc56364b2e93e6",
+      "edition_marker": "Reprint 2026-27",
+      "origin": "User-supplied ZIP; textbook pages may be watermarked",
+      "url": "/api/textbooks/hi/fhgp1ps.pdf"
+    }
+  ],
+  "concepts": {
+    "MATH6_C0002": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2",
+          "instruction": "Read Table 1. Try Figure it Out Q1-2: identify the rules and continue the sequences.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2",
+          "instruction": "सारणी 1 पढ़िए। आइए, पता लगाएँ के प्रश्न 1-2 में नियम पहचानकर अनुक्रमों को आगे बढ़ाइए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0003": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2",
+          "instruction": "Read Table 1. Try Figure it Out Q1-2: identify the rules and continue the sequences.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2",
+          "instruction": "सारणी 1 पढ़िए। आइए, पता लगाएँ के प्रश्न 1-2 में नियम पहचानकर अनुक्रमों को आगे बढ़ाइए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0005": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2",
+          "instruction": "Read Table 1. Try Figure it Out Q1-2: identify the rules and continue the sequences.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2",
+          "instruction": "सारणी 1 पढ़िए। आइए, पता लगाएँ के प्रश्न 1-2 में नियम पहचानकर अनुक्रमों को आगे बढ़ाइए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0049": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2",
+          "instruction": "Read Table 1. Try Figure it Out Q1-2: identify the rules and continue the sequences.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2",
+          "instruction": "सारणी 1 पढ़िए। आइए, पता लगाएँ के प्रश्न 1-2 में नियम पहचानकर अनुक्रमों को आगे बढ़ाइए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0006": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2 (odd-number row)",
+          "instruction": "Focus on the odd-number row of Table 1. For Q1-2, explain its rule and write the next three terms.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (odd-number row)",
+          "instruction": "सारणी 1 की विषम संख्याओं वाली पंक्ति देखिए। प्रश्न 1-2 में इसका नियम समझाकर अगली तीन संख्याएँ लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0044": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2 (odd-number row)",
+          "instruction": "Focus on the odd-number row of Table 1. For Q1-2, explain its rule and write the next three terms.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (odd-number row)",
+          "instruction": "सारणी 1 की विषम संख्याओं वाली पंक्ति देखिए। प्रश्न 1-2 में इसका नियम समझाकर अगली तीन संख्याएँ लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0007": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2 (even-number row)",
+          "instruction": "Focus on the even-number row of Table 1. For Q1-2, explain its rule and write the next three terms.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (even-number row)",
+          "instruction": "सारणी 1 की सम संख्याओं वाली पंक्ति देखिए। प्रश्न 1-2 में इसका नियम समझाकर अगली तीन संख्याएँ लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0045": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2 (even-number row)",
+          "instruction": "Focus on the even-number row of Table 1. For Q1-2, explain its rule and write the next three terms.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (even-number row)",
+          "instruction": "सारणी 1 की सम संख्याओं वाली पंक्ति देखिए। प्रश्न 1-2 में इसका नियम समझाकर अगली तीन संख्याएँ लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0009": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.3 Visualising Number Sequences",
+          "read_pdf_page": 4,
+          "read_printed_page": 4,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "Figure it Out Q2 (square numbers)",
+          "instruction": "Study the square-dot patterns in Table 2. Try Q2, focusing on why square numbers are called squares.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=4",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=5"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.3 संख्या अनुक्रमों का दृश्यांकन",
+          "read_pdf_page": 4,
+          "read_printed_page": 4,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "आइए, पता लगाएँ प्रश्न2 (square numbers)",
+          "instruction": "सारणी 2 में वर्गाकार बिंदुओं के पैटर्न देखिए। प्रश्न 2 में समझाइए कि वर्ग संख्याएँ वर्ग क्यों कहलाती हैं।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=4",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=5"
+        }
+      }
+    },
+    "MATH6_C0018": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.2 Line Segment",
+          "read_pdf_page": 2,
+          "read_printed_page": 14,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Figure it Out Q2",
+          "instruction": "Review the two endpoints of a segment. Try Q2: identify the segments and points in Figure 2.4.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=2",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=4"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.2 रेखाखंड",
+          "read_pdf_page": 2,
+          "read_printed_page": 14,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "आइए, पता लगाएँ प्रश्न2",
+          "instruction": "रेखाखंड के दोनों अंत्य बिंदुओं को समझिए। प्रश्न 2 में आकृति 2.4 के रेखाखंड और बिंदु पहचानिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=2",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=4"
+        }
+      }
+    },
+    "MATH6_C0020": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.5 Angle",
+          "read_pdf_page": 5,
+          "read_printed_page": 17,
+          "practice_pdf_page": 7,
+          "practice_printed_page": 19,
+          "practice_label": "Figure it Out Q1",
+          "instruction": "Read Figure 2.8 to locate the common endpoint and two arms. Try Q1: draw rays for one pictured angle and name its vertex.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=5",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=7"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.5 कोण",
+          "read_pdf_page": 5,
+          "read_printed_page": 17,
+          "practice_pdf_page": 7,
+          "practice_printed_page": 19,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1",
+          "instruction": "आकृति 2.8 में उभयनिष्ठ बिंदु और दोनों भुजाएँ पहचानिए। प्रश्न 1 में एक कोण की किरणें बनाकर उसके शीर्ष का नाम लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=7"
+        }
+      }
+    },
+    "MATH6_C0021": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.5 Angle",
+          "read_pdf_page": 5,
+          "read_printed_page": 17,
+          "practice_pdf_page": 7,
+          "practice_printed_page": 19,
+          "practice_label": "Figure it Out Q1",
+          "instruction": "Read Figure 2.8 to locate the common endpoint and two arms. Try Q1: draw rays for one pictured angle and name its vertex.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=5",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=7"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.5 कोण",
+          "read_pdf_page": 5,
+          "read_printed_page": 17,
+          "practice_pdf_page": 7,
+          "practice_printed_page": 19,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1",
+          "instruction": "आकृति 2.8 में उभयनिष्ठ बिंदु और दोनों भुजाएँ पहचानिए। प्रश्न 1 में एक कोण की किरणें बनाकर उसके शीर्ष का नाम लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=7"
+        }
+      }
+    },
+    "MATH6_C0022": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.5 Angle",
+          "read_pdf_page": 5,
+          "read_printed_page": 17,
+          "practice_pdf_page": 7,
+          "practice_printed_page": 19,
+          "practice_label": "Figure it Out Q1",
+          "instruction": "Read Figure 2.8 to locate the common endpoint and two arms. Try Q1: draw rays for one pictured angle and name its vertex.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=5",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=7"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.5 कोण",
+          "read_pdf_page": 5,
+          "read_printed_page": 17,
+          "practice_pdf_page": 7,
+          "practice_printed_page": 19,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1",
+          "instruction": "आकृति 2.8 में उभयनिष्ठ बिंदु और दोनों भुजाएँ पहचानिए। प्रश्न 1 में एक कोण की किरणें बनाकर उसके शीर्ष का नाम लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=7"
+        }
+      }
+    },
+    "MATH6_C0024": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.9 Measuring Angles",
+          "read_pdf_page": 21,
+          "read_printed_page": 33,
+          "practice_pdf_page": 17,
+          "practice_printed_page": 29,
+          "practice_label": "Section 2.8, Figure it Out Q1",
+          "instruction": "Read why a right angle is 90 degrees. Then try section 2.8 Q1: find right angles around your classroom.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=21",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=17"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.9 कोणों को मापना",
+          "read_pdf_page": 21,
+          "read_printed_page": 33,
+          "practice_pdf_page": 17,
+          "practice_printed_page": 29,
+          "practice_label": "Section 2.8, आइए, पता लगाएँ प्रश्न1",
+          "instruction": "पढ़िए कि समकोण 90 डिग्री का क्यों होता है। फिर खंड 2.8 का प्रश्न 1 कीजिए: कक्षा में समकोण पहचानिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=17"
+        }
+      }
+    },
+    "MATH6_C0025": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.8 Special Types of Angles: Classifying Angles",
+          "read_pdf_page": 19,
+          "read_printed_page": 31,
+          "practice_pdf_page": 19,
+          "practice_printed_page": 31,
+          "practice_label": "Figure it Out Q1-2 (Classifying Angles)",
+          "instruction": "Compare acute angles with a right angle. Try Q1-2: classify the pictured angles and draw acute and obtuse angles in different orientations.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=19",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=19"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.8 विशेष प्रकार के कोण: कोणों का वर्गीकरण",
+          "read_pdf_page": 19,
+          "read_printed_page": 31,
+          "practice_pdf_page": 19,
+          "practice_printed_page": 31,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (Classifying Angles)",
+          "instruction": "न्यून कोण की समकोण से तुलना कीजिए। प्रश्न 1-2 में कोणों को पहचानिए और विभिन्न दिशाओं में न्यून तथा अधिक कोण बनाइए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=19",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=19"
+        }
+      }
+    },
+    "MATH6_C0039": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.4 Playing with Digits: Digit sums of numbers",
+          "read_pdf_page": 6,
+          "read_printed_page": 60,
+          "practice_pdf_page": 6,
+          "practice_printed_page": 60,
+          "practice_label": "Figure it Out Q1(a), Q2",
+          "instruction": "Review the digit-sum examples. Start with Q1(a): make numbers whose digits total 14. Then try Q2 with numbers 40 to 70.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=6"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.4 अंकों के साथ खेल: संख्याओं के अंकों के योग",
+          "read_pdf_page": 6,
+          "read_printed_page": 60,
+          "practice_pdf_page": 6,
+          "practice_printed_page": 60,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1(a), प्रश्न2",
+          "instruction": "अंकों के योग के उदाहरण पढ़िए। प्रश्न 1(a) में अंकों का योग 14 वाली संख्याएँ बनाइए। फिर प्रश्न 2 में 40 से 70 तक की संख्याएँ देखिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=6"
+        }
+      }
+    },
+    "MATH6_C0038": {
+      "relation": "related",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.2 Supercells (related number-ordering activity)",
+          "read_pdf_page": 4,
+          "read_printed_page": 58,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 58,
+          "practice_label": "Try This: Table 2 (related practice)",
+          "instruction": "Related practice only: compare five-digit numbers in the supercells table. Discuss how a digit’s position changes the number. This page is not a standalone place-value lesson.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=4",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=4"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.2 महाकोष्ठ: संबंधित अभ्यास",
+          "read_pdf_page": 4,
+          "read_printed_page": 58,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 58,
+          "practice_label": "Try This: Table 2 (related practice)",
+          "instruction": "संबंधित अभ्यास: महाकोष्ठ सारणी की पाँच अंकों वाली संख्याओं की तुलना कीजिए। चर्चा कीजिए कि अंक का स्थान बदलने से संख्या कैसे बदलती है। यह स्थानीय मान का स्वतंत्र पाठ नहीं है।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=4",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=4"
+        }
+      }
+    },
+    "MATH6_C0004": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.5 Patterns in Shapes",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "practice_pdf_page": 11,
+          "practice_printed_page": 11,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 1.5 Patterns in Shapes, focusing on shape pattern. Then work through the example or activity on printed page 11.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=11",
+          "verification_anchor": "shape sequences"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.5 Patterns in Shapes",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "practice_pdf_page": 11,
+          "practice_printed_page": 11,
+          "practice_label": "Example/activity on this page",
+          "instruction": "आकृति पैटर्न की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 11 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=11",
+          "verification_anchor": "आकार"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0008": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2–1.3 Number sequences",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 1.2–1.3 Number sequences, focusing on triangular number. Then work through the example or activity on printed page 5.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=5",
+          "verification_anchor": "Triangular"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2–1.3 Number sequences",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "Example/activity on this page",
+          "instruction": "त्रिभुजाकार संख्या की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 5 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=5",
+          "verification_anchor": "त्रिभुजाकार"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0010": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2–1.3 Number sequences",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 1.2–1.3 Number sequences, focusing on cube number. Then work through the example or activity on printed page 5.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=5",
+          "verification_anchor": "Cubes"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2–1.3 Number sequences",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "Example/activity on this page",
+          "instruction": "घन संख्या की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 5 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=5",
+          "verification_anchor": "घन"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0011": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 1.2 Patterns in Numbers, focusing on powers of 2. Then work through the example or activity on printed page 3.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "verification_anchor": "Powers of 2"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Example/activity on this page",
+          "instruction": "2 की घातें की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 3 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "verification_anchor": "घातें"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_ADD001": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 1.2 Patterns in Numbers, focusing on Virahanka numbers. Then work through the example or activity on printed page 3.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "verification_anchor": "Virah"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Example/activity on this page",
+          "instruction": "विरहांक संख्याएँ की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 3 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "verification_anchor": "विरहांक"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0012": {
+      "relation": "related",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.4 Playing with Digits",
+          "read_pdf_page": 6,
+          "read_printed_page": 60,
+          "practice_pdf_page": 6,
+          "practice_printed_page": 60,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.4 Playing with Digits, focusing on consecutive number. Then work through the example or activity on printed page 60. This is related practice, not a dedicated definition of this concept.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=6",
+          "verification_anchor": "consecutive"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.4 Playing with Digits",
+          "read_pdf_page": 6,
+          "read_printed_page": 60,
+          "practice_pdf_page": 6,
+          "practice_printed_page": 60,
+          "practice_label": "Example/activity on this page",
+          "instruction": "क्रमागत संख्या की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 60 के उदाहरण या गतिविधि पर अभ्यास कीजिए। यह संबंधित अभ्यास है; इस अवधारणा की स्वतंत्र परिभाषा नहीं है।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=6",
+          "verification_anchor": "क्रमागत"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0013": {
+      "relation": "related",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Counting-number row",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 1.2 Counting-number row, focusing on natural number. Then work through the example or activity on printed page 3. This is related practice, not a dedicated definition of this concept.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "verification_anchor": "Counting numbers"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 Counting-number row",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Example/activity on this page",
+          "instruction": "प्राकृत संख्या की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 3 के उदाहरण या गतिविधि पर अभ्यास कीजिए। यह संबंधित अभ्यास है; इस अवधारणा की स्वतंत्र परिभाषा नहीं है।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "verification_anchor": "गणन"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0014": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.6 Relation to Number Sequences",
+          "read_pdf_page": 11,
+          "read_printed_page": 11,
+          "practice_pdf_page": 11,
+          "practice_printed_page": 11,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 1.6 Relation to Number Sequences, focusing on regular polygon. Then work through the example or activity on printed page 11.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=11",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=11",
+          "verification_anchor": "equal-length"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.6 Relation to Number Sequences",
+          "read_pdf_page": 11,
+          "read_printed_page": 11,
+          "practice_pdf_page": 11,
+          "practice_printed_page": 11,
+          "practice_label": "Example/activity on this page",
+          "instruction": "सम बहुभुज की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 11 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=11",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=11",
+          "verification_anchor": "भुजाओं"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0015": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.3 Visualising Number Sequences",
+          "read_pdf_page": 4,
+          "read_printed_page": 4,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 1.3 Visualising Number Sequences, focusing on visual pattern. Then work through the example or activity on printed page 5.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=4",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=5",
+          "verification_anchor": "Pictorial"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.3 Visualising Number Sequences",
+          "read_pdf_page": 4,
+          "read_printed_page": 4,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "Example/activity on this page",
+          "instruction": "दृश्य पैटर्न की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 5 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=4",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=5",
+          "verification_anchor": "चित्रीय"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0016": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.1 Point",
+          "read_pdf_page": 1,
+          "read_printed_page": 13,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 15,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.1 Point, focusing on point. Then work through the example or activity on printed page 15.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=3",
+          "verification_anchor": "point determines"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.1 Point",
+          "read_pdf_page": 1,
+          "read_printed_page": 13,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 15,
+          "practice_label": "Example/activity on this page",
+          "instruction": "बिंदु की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 15 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=3",
+          "verification_anchor": "सटीक"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0017": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.3 Line",
+          "read_pdf_page": 2,
+          "read_printed_page": 14,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.3 Line, focusing on line. Then work through the example or activity on printed page 16.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=2",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=4",
+          "verification_anchor": "forever"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.3 Line",
+          "read_pdf_page": 2,
+          "read_printed_page": 14,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Example/activity on this page",
+          "instruction": "रेखा की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 16 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=2",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
+          "verification_anchor": "अनिश्‍च"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0019": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.4 Ray",
+          "read_pdf_page": 3,
+          "read_printed_page": 15,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.4 Ray, focusing on ray. Then work through the example or activity on printed page 16.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=4",
+          "verification_anchor": "endlessly"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.4 Ray",
+          "read_pdf_page": 3,
+          "read_printed_page": 15,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Example/activity on this page",
+          "instruction": "किरण की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 16 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
+          "verification_anchor": "दिशा"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0023": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.8 Special Types of Angles",
+          "read_pdf_page": 15,
+          "read_printed_page": 27,
+          "practice_pdf_page": 18,
+          "practice_printed_page": 30,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.8 Special Types of Angles, focusing on straight angle. Then work through the example or activity on printed page 30.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=15",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=18",
+          "verification_anchor": "straight angle"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.8 Special Types of Angles",
+          "read_pdf_page": 15,
+          "read_printed_page": 27,
+          "practice_pdf_page": 18,
+          "practice_printed_page": 30,
+          "practice_label": "Example/activity on this page",
+          "instruction": "सरल कोण की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 30 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=15",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=18",
+          "verification_anchor": "सरल कोण"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0026": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.11 Types of Angles and their Measures",
+          "read_pdf_page": 39,
+          "read_printed_page": 51,
+          "practice_pdf_page": 40,
+          "practice_printed_page": 52,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.11 Types of Angles and their Measures, focusing on obtuse angle. Then work through the example or activity on printed page 52.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=39",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=40",
+          "verification_anchor": "Obtuse Angle"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.11 Types of Angles and their Measures",
+          "read_pdf_page": 39,
+          "read_printed_page": 51,
+          "practice_pdf_page": 40,
+          "practice_printed_page": 52,
+          "practice_label": "Example/activity on this page",
+          "instruction": "अधिक कोण की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 52 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=39",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=40",
+          "verification_anchor": "अधिक कोण"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0027": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.11 Types of Angles and their Measures",
+          "read_pdf_page": 39,
+          "read_printed_page": 51,
+          "practice_pdf_page": 40,
+          "practice_printed_page": 52,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.11 Types of Angles and their Measures, focusing on reflex angle. Then work through the example or activity on printed page 52.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=39",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=40",
+          "verification_anchor": "Reflex angle"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.11 Types of Angles and their Measures",
+          "read_pdf_page": 39,
+          "read_printed_page": 51,
+          "practice_pdf_page": 40,
+          "practice_printed_page": 52,
+          "practice_label": "Example/activity on this page",
+          "instruction": "प्रतिवर्ती कोण की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 52 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=39",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=40",
+          "verification_anchor": "प्रतिवर्ती"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0028": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.9 Measuring Angles: full turn",
+          "read_pdf_page": 21,
+          "read_printed_page": 33,
+          "practice_pdf_page": 21,
+          "practice_printed_page": 33,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.9 Measuring Angles: full turn, focusing on complete angle. Then work through the example or activity on printed page 33.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=21",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=21",
+          "verification_anchor": "full turn"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.9 Measuring Angles: full turn",
+          "read_pdf_page": 21,
+          "read_printed_page": 33,
+          "practice_pdf_page": 21,
+          "practice_printed_page": 33,
+          "practice_label": "Example/activity on this page",
+          "instruction": "पूर्ण कोण की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 33 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+          "verification_anchor": "पूर्ण घुमाव"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0029": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.9 Measuring Angles",
+          "read_pdf_page": 21,
+          "read_printed_page": 33,
+          "practice_pdf_page": 28,
+          "practice_printed_page": 40,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.9 Measuring Angles, focusing on degree. Then work through the example or activity on printed page 40.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=21",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=28",
+          "verification_anchor": "1 degree"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.9 Measuring Angles",
+          "read_pdf_page": 21,
+          "read_printed_page": 33,
+          "practice_pdf_page": 28,
+          "practice_printed_page": 40,
+          "practice_label": "Example/activity on this page",
+          "instruction": "डिग्री की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 40 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=28",
+          "verification_anchor": "1º"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0030": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.9 Measuring Angles: protractor",
+          "read_pdf_page": 25,
+          "read_printed_page": 37,
+          "practice_pdf_page": 28,
+          "practice_printed_page": 40,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.9 Measuring Angles: protractor, focusing on protractor. Then work through the example or activity on printed page 40.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=25",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=28",
+          "verification_anchor": "protractor"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.9 Measuring Angles: protractor",
+          "read_pdf_page": 25,
+          "read_printed_page": 37,
+          "practice_pdf_page": 28,
+          "practice_printed_page": 40,
+          "practice_label": "Example/activity on this page",
+          "instruction": "चाँदा की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 40 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=25",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=28",
+          "verification_anchor": "चाँ"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0031": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.8 Right angles and perpendicular lines",
+          "read_pdf_page": 17,
+          "read_printed_page": 29,
+          "practice_pdf_page": 18,
+          "practice_printed_page": 30,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.8 Right angles and perpendicular lines, focusing on perpendicular. Then work through the example or activity on printed page 30.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=17",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=18",
+          "verification_anchor": "perpendicular"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.8 Right angles and perpendicular lines",
+          "read_pdf_page": 17,
+          "read_printed_page": 29,
+          "practice_pdf_page": 18,
+          "practice_printed_page": 30,
+          "practice_label": "Example/activity on this page",
+          "instruction": "लंबवत रेखाएँ की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 30 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=17",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=18",
+          "verification_anchor": "लंब"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0033": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.4 Figure it Out: intersecting lines",
+          "read_pdf_page": 4,
+          "read_printed_page": 16,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.4 Figure it Out: intersecting lines, focusing on intersecting lines. Then work through the example or activity on printed page 16.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=4",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=4",
+          "verification_anchor": "intersect"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.4 Figure it Out: intersecting lines",
+          "read_pdf_page": 4,
+          "read_printed_page": 16,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Example/activity on this page",
+          "instruction": "प्रतिच्छेदी रेखाएँ की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 16 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
+          "verification_anchor": "प्रतिच्छेद"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0034": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.7 Making Rotating Arms",
+          "read_pdf_page": 13,
+          "read_printed_page": 25,
+          "practice_pdf_page": 14,
+          "practice_printed_page": 26,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.7 Making Rotating Arms, focusing on rotation. Then work through the example or activity on printed page 26.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=13",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=14",
+          "verification_anchor": "Rotating Arms"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.7 Making Rotating Arms",
+          "read_pdf_page": 13,
+          "read_printed_page": 25,
+          "practice_pdf_page": 14,
+          "practice_printed_page": 26,
+          "practice_label": "Example/activity on this page",
+          "instruction": "घूर्णन की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 26 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=13",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=14",
+          "verification_anchor": "घूर्णन"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0035": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.9 Angle Bisector",
+          "read_pdf_page": 28,
+          "read_printed_page": 40,
+          "practice_pdf_page": 28,
+          "practice_printed_page": 40,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.9 Angle Bisector, focusing on angle bisector. Then work through the example or activity on printed page 40.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=28",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=28",
+          "verification_anchor": "Angle Bisector"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.9 Angle Bisector",
+          "read_pdf_page": 28,
+          "read_printed_page": 40,
+          "practice_pdf_page": 28,
+          "practice_printed_page": 40,
+          "practice_label": "Example/activity on this page",
+          "instruction": "कोण समद्विभाजक की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 40 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=28",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=28",
+          "verification_anchor": "समद्विभाजक"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0036": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.1 Numbers can Tell us Things",
+          "read_pdf_page": 1,
+          "read_printed_page": 55,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 59,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.1 Numbers can Tell us Things, focusing on number. Then work through the example or activity on printed page 59.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=5",
+          "verification_anchor": "Numbers are used"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.1 Numbers can Tell us Things",
+          "read_pdf_page": 1,
+          "read_printed_page": 55,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 59,
+          "practice_label": "Example/activity on this page",
+          "instruction": "संख्या की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 59 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=5",
+          "verification_anchor": "संख्याओं"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0037": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.4 Playing with Digits",
+          "read_pdf_page": 6,
+          "read_printed_page": 60,
+          "practice_pdf_page": 6,
+          "practice_printed_page": 60,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.4 Playing with Digits, focusing on digit. Then work through the example or activity on printed page 60.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=6",
+          "verification_anchor": "1-digit"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.4 Playing with Digits",
+          "read_pdf_page": 6,
+          "read_printed_page": 60,
+          "practice_pdf_page": 6,
+          "practice_printed_page": 60,
+          "practice_label": "Example/activity on this page",
+          "instruction": "अंक की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 60 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=6",
+          "verification_anchor": "1 अंक"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0040": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.5 Pretty Palindromic Patterns",
+          "read_pdf_page": 7,
+          "read_printed_page": 61,
+          "practice_pdf_page": 7,
+          "practice_printed_page": 61,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.5 Pretty Palindromic Patterns, focusing on palindrome. Then work through the example or activity on printed page 61.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=7",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=7",
+          "verification_anchor": "palindrome"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.5 Pretty Palindromic Patterns",
+          "read_pdf_page": 7,
+          "read_printed_page": 61,
+          "practice_pdf_page": 7,
+          "practice_printed_page": 61,
+          "practice_label": "Example/activity on this page",
+          "instruction": "पैलिंड्रोम की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 61 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=7",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=7",
+          "verification_anchor": "विलोमाक्षर"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0041": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.3 Patterns of Numbers on the Number Line",
+          "read_pdf_page": 5,
+          "read_printed_page": 59,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 59,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.3 Patterns of Numbers on the Number Line, focusing on number line. Then work through the example or activity on printed page 59.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=5",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=5",
+          "verification_anchor": "number line"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.3 Patterns of Numbers on the Number Line",
+          "read_pdf_page": 5,
+          "read_printed_page": 59,
+          "practice_pdf_page": 5,
+          "practice_printed_page": 59,
+          "practice_label": "Example/activity on this page",
+          "instruction": "संख्या रेखा की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 59 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=5",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=5",
+          "verification_anchor": "संख्या रेखा"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0042": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.11 Simple Estimation",
+          "read_pdf_page": 15,
+          "read_printed_page": 69,
+          "practice_pdf_page": 16,
+          "practice_printed_page": 70,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.11 Simple Estimation, focusing on estimation. Then work through the example or activity on printed page 70.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=16",
+          "verification_anchor": "estimate"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.11 Simple Estimation",
+          "read_pdf_page": 15,
+          "read_printed_page": 69,
+          "practice_pdf_page": 16,
+          "practice_printed_page": 70,
+          "practice_label": "Example/activity on this page",
+          "instruction": "आकलन की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 70 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=16",
+          "verification_anchor": "आकलन"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0043": {
+      "relation": "related",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.11 Simple Estimation (related only)",
+          "read_pdf_page": 15,
+          "read_printed_page": 69,
+          "practice_pdf_page": 16,
+          "practice_printed_page": 70,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.11 Simple Estimation (related only), focusing on rounding. Then work through the example or activity on printed page 70. This is related practice, not a dedicated definition of this concept.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=16",
+          "verification_anchor": "estimate"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.11 Simple Estimation (related only)",
+          "read_pdf_page": 15,
+          "read_printed_page": 69,
+          "practice_pdf_page": 16,
+          "practice_printed_page": 70,
+          "practice_label": "Example/activity on this page",
+          "instruction": "निकटतम मान तक पूर्णांकन की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 70 के उदाहरण या गतिविधि पर अभ्यास कीजिए। यह संबंधित अभ्यास है; इस अवधारणा की स्वतंत्र परिभाषा नहीं है।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=16",
+          "verification_anchor": "आकलन"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0046": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.8 Mental Math",
+          "read_pdf_page": 11,
+          "read_printed_page": 65,
+          "practice_pdf_page": 11,
+          "practice_printed_page": 65,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.8 Mental Math, focusing on addition. Then work through the example or activity on printed page 65.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=11",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=11",
+          "verification_anchor": "added"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.8 Mental Math",
+          "read_pdf_page": 11,
+          "read_printed_page": 65,
+          "practice_pdf_page": 11,
+          "practice_printed_page": 65,
+          "practice_label": "Example/activity on this page",
+          "instruction": "जोड़ की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 65 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+          "verification_anchor": "जोड़"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0047": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.8 Mental Math: Adding and Subtracting",
+          "read_pdf_page": 12,
+          "read_printed_page": 66,
+          "practice_pdf_page": 12,
+          "practice_printed_page": 66,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.8 Mental Math: Adding and Subtracting, focusing on subtraction. Then work through the example or activity on printed page 66.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=12",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=12",
+          "verification_anchor": "subtraction"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.8 Mental Math: Adding and Subtracting",
+          "read_pdf_page": 12,
+          "read_printed_page": 66,
+          "practice_pdf_page": 12,
+          "practice_printed_page": 66,
+          "practice_label": "Example/activity on this page",
+          "instruction": "घटाव की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 66 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=12",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=12",
+          "verification_anchor": "घटाना"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0050": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.6 The Magic Number of Kaprekar",
+          "read_pdf_page": 9,
+          "read_printed_page": 63,
+          "practice_pdf_page": 9,
+          "practice_printed_page": 63,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.6 The Magic Number of Kaprekar, focusing on Kaprekar number. Then work through the example or activity on printed page 63.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=9",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=9",
+          "verification_anchor": "6174"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.6 The Magic Number of Kaprekar",
+          "read_pdf_page": 9,
+          "read_printed_page": 63,
+          "practice_pdf_page": 9,
+          "practice_printed_page": 63,
+          "practice_label": "Example/activity on this page",
+          "instruction": "कापरेकर संख्या की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 63 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=9",
+          "verification_anchor": "6174"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0051": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.2 Supercells",
+          "read_pdf_page": 3,
+          "read_printed_page": 57,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 58,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.2 Supercells, focusing on supercell. Then work through the example or activity on printed page 58.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=4",
+          "verification_anchor": "supercell"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.2 Supercells",
+          "read_pdf_page": 3,
+          "read_printed_page": 57,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 58,
+          "practice_label": "Example/activity on this page",
+          "instruction": "महाकोष्ठ की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 58 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=4",
+          "verification_anchor": "महाकोष"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_ADD002": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.10 The Collatz Conjecture",
+          "read_pdf_page": 15,
+          "read_printed_page": 69,
+          "practice_pdf_page": 15,
+          "practice_printed_page": 69,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.10 The Collatz Conjecture, focusing on Collatz conjecture. Then work through the example or activity on printed page 69.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "verification_anchor": "Collatz"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.10 The Collatz Conjecture",
+          "read_pdf_page": 15,
+          "read_printed_page": 69,
+          "practice_pdf_page": 15,
+          "practice_printed_page": 69,
+          "practice_label": "Example/activity on this page",
+          "instruction": "कोलाट्ज़ अनुमान की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 69 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "verification_anchor": "कोलाट"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_ADD003": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "Chapter 2: plane geometry foundations",
+          "read_pdf_page": 1,
+          "read_printed_page": 13,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 15,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review Chapter 2: plane geometry foundations, focusing on plane geometry. Then work through the example or activity on printed page 15.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=3",
+          "verification_anchor": "plane geometry"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "Chapter 2: plane geometry foundations",
+          "read_pdf_page": 1,
+          "read_printed_page": 13,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 15,
+          "practice_label": "Example/activity on this page",
+          "instruction": "समतल ज्यामिति की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 15 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=3",
+          "verification_anchor": "समतल"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0032": {
+      "relation": "unavailable",
+      "location_verified": false,
+      "versions": {},
+      "reason": "No dedicated parallel-lines explanation or exercise located in the supplied chapters."
+    },
+    "MATH6_C0048": {
+      "relation": "unavailable",
+      "location_verified": false,
+      "versions": {},
+      "reason": "No magic-square lesson or exercise located. Supercells and patterned sums are not equivalent to magic squares."
+    }
+  },
+  "scope": "All ten chapters archived in both languages. Selected textbook locations mapped to the existing diagnostic scope. Source locations verified, graph edges and diagnostic rules remain provisional.",
+  "coverage_audit": {
+    "concept_count": 53,
+    "linked_count": 51,
+    "unavailable": [
+      "MATH6_C0032",
+      "MATH6_C0048"
+    ],
+    "note": "Coverage is source-location coverage, not graph validation. Related activities are labelled."
+  }
+}

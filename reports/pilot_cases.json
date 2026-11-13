@@ -1,0 +1,224 @@
+[
+  {
+    "id": "P01",
+    "input": "How can I recognise a right angle?",
+    "expected_mapping": "MATH6_C0024",
+    "default_truth": "Evidence supports understanding",
+    "response_mode": "consistent",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P02",
+    "input": "समकोण कितने डिग्री का होता है?",
+    "expected_mapping": "MATH6_C0024",
+    "default_truth": "Evidence supports understanding",
+    "response_mode": "consistent",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P03",
+    "input": "How do I recognise an acute angle?",
+    "expected_mapping": "MATH6_C0025",
+    "default_truth": "Possible prerequisite difficulty",
+    "response_mode": "consistent",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P04",
+    "input": "न्यून कोण क्या होता है?",
+    "expected_mapping": "MATH6_C0025",
+    "default_truth": "Possible prerequisite difficulty",
+    "response_mode": "consistent",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P05",
+    "input": "Help me with place value.",
+    "expected_mapping": "MATH6_C0038",
+    "default_truth": "Evidence supports understanding",
+    "response_mode": "consistent",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P06",
+    "input": "स्थानीय मान कैसे निकालते हैं?",
+    "expected_mapping": "MATH6_C0038",
+    "default_truth": "Possible prerequisite difficulty",
+    "response_mode": "consistent",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P07",
+    "input": "How is a digit sum calculated?",
+    "expected_mapping": "MATH6_C0039",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "mixed",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P08",
+    "input": "अंकों का योग कैसे निकालें?",
+    "expected_mapping": "MATH6_C0039",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "ambiguous",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P09",
+    "input": "What makes a line segment different?",
+    "expected_mapping": "MATH6_C0018",
+    "default_truth": "Evidence supports understanding",
+    "response_mode": "consistent",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P10",
+    "input": "कोण की भुजाएँ क्या हैं?",
+    "expected_mapping": "MATH6_C0020",
+    "default_truth": "Possible prerequisite difficulty",
+    "response_mode": "consistent",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P11",
+    "input": "How do I find a square number?",
+    "expected_mapping": "MATH6_C0009",
+    "default_truth": "Evidence supports understanding",
+    "response_mode": "consistent",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P12",
+    "input": "संख्या पैटर्न का अगला पद कैसे निकालें?",
+    "expected_mapping": "MATH6_C0003",
+    "default_truth": "Possible prerequisite difficulty",
+    "response_mode": "consistent",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P13",
+    "input": "Is 18 an even number?",
+    "expected_mapping": "clarify",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "ambiguous",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P14",
+    "input": "विषम संख्या कैसे पहचानें?",
+    "expected_mapping": "clarify",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "ambiguous",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P15",
+    "input": "How do I add fractions?",
+    "expected_mapping": "clarify",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "ambiguous",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P16",
+    "input": "भिन्नों का जोड़ कैसे करें?",
+    "expected_mapping": "clarify",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "ambiguous",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P17",
+    "input": "Explain acute angle and place value together.",
+    "expected_mapping": "clarify",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "ambiguous",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P18",
+    "input": "",
+    "expected_mapping": "clarify",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "ambiguous",
+    "digits": "latin",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P19",
+    "input": "वर्ग संख्या क्या है?",
+    "expected_mapping": "MATH6_C0009",
+    "default_truth": "Insufficient evidence",
+    "response_mode": "mixed",
+    "digits": "devanagari",
+    "concept_truth": {},
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  },
+  {
+    "id": "P20",
+    "input": "Explain a number pattern.",
+    "expected_mapping": "MATH6_C0003",
+    "default_truth": "Evidence supports understanding",
+    "response_mode": "consistent",
+    "digits": "latin",
+    "concept_truth": {
+      "MATH6_C0038": "Possible prerequisite difficulty"
+    },
+    "review_status": "PENDING independent expected-diagnosis review",
+    "oracle_origin": "Author-specified synthetic learner profile; not inferred from algorithm output"
+  }
+]

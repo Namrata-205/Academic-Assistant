@@ -1,0 +1,21 @@
+﻿case_id,expected_mapping,expected_statuses,review_status
+F01,MATH6_C0024,"{""MATH6_C0020"": ""Evidence supports understanding"", ""MATH6_C0024"": ""Evidence supports understanding""}",PENDING independent review
+F02,MATH6_C0024,"{""MATH6_C0020"": ""Possible prerequisite difficulty"", ""MATH6_C0024"": ""Possible prerequisite difficulty""}",PENDING independent review
+F03,MATH6_C0025,"{""MATH6_C0020"": ""Possible prerequisite difficulty"", ""MATH6_C0024"": ""Possible prerequisite difficulty"", ""MATH6_C0025"": ""Possible prerequisite difficulty""}",PENDING independent review
+F04,MATH6_C0025,"{""MATH6_C0020"": ""Possible prerequisite difficulty"", ""MATH6_C0024"": ""Evidence supports understanding"", ""MATH6_C0025"": ""Evidence supports understanding""}",PENDING independent review
+F05,MATH6_C0038,"{""MATH6_C0038"": ""Evidence supports understanding""}",PENDING independent review
+F06,MATH6_C0038,"{""MATH6_C0038"": ""Possible prerequisite difficulty""}",PENDING independent review
+F07,MATH6_C0039,"{""MATH6_C0038"": ""Insufficient evidence"", ""MATH6_C0039"": ""Insufficient evidence""}",PENDING independent review
+F08,MATH6_C0039,"{""MATH6_C0038"": ""Insufficient evidence"", ""MATH6_C0039"": ""Insufficient evidence""}",PENDING independent review
+F09,MATH6_C0018,"{""MATH6_C0018"": ""Evidence supports understanding""}",PENDING independent review
+F10,MATH6_C0018,"{""MATH6_C0018"": ""Possible prerequisite difficulty""}",PENDING independent review
+F11,MATH6_C0020,"{""MATH6_C0020"": ""Insufficient evidence""}",PENDING independent review
+F12,MATH6_C0020,"{""MATH6_C0020"": ""Insufficient evidence""}",PENDING independent review
+F13,MATH6_C0003,"{""MATH6_C0038"": ""Possible prerequisite difficulty"", ""MATH6_C0003"": ""Evidence supports understanding""}",PENDING independent review
+F14,MATH6_C0009,"{""MATH6_C0003"": ""Insufficient evidence"", ""MATH6_C0006"": ""Insufficient evidence"", ""MATH6_C0009"": ""Insufficient evidence""}",PENDING independent review
+F15,clarify,{},PENDING independent review
+F16,clarify,{},PENDING independent review
+F17,clarify,{},PENDING independent review
+F18,clarify,{},PENDING independent review
+F19,clarify,{},PENDING independent review
+F20,clarify,{},PENDING independent review

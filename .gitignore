@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.dist/
+diagnostic/history.sqlite3*
+diagnostic/imported_reports.sqlite3*
+node_modules/
+dist/
+tmp/
+assets/models/
+.env
+.env.*
+!.env.example

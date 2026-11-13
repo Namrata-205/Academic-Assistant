@@ -1,0 +1,18 @@
+{
+  "version": "rag-development-v1",
+  "review_status": "AI-authored development cases; independent human review pending. Cases were written after development inspections, not an unseen holdout.",
+  "cases": [
+    {"id":"R01","language":"en","concept_id":"MATH6_C0020","question":"How is an angle formed?","evidence_all":["two rays","common"],"pdf_pages":[5]},
+    {"id":"R02","language":"hi","concept_id":"MATH6_C0020","question":"कोण कैसे बनता है?","evidence_all":["दो किरणों","बिंदु"],"pdf_pages":[5]},
+    {"id":"R03","language":"en","concept_id":"MATH6_C0021","question":"What is the common endpoint of an angle called?","evidence_all":["vertex","point"],"pdf_pages":[5]},
+    {"id":"R04","language":"hi","concept_id":"MATH6_C0021","question":"कोण की भुजाओं का उभयनिष्ठ बिंदु क्या कहलाता है?","evidence_all":["शीर्ष","बिंदु"],"pdf_pages":[5]},
+    {"id":"R05","language":"en","concept_id":"MATH6_C0024","question":"How many degrees does a right angle measure?","evidence_all":["right angle","90"],"pdf_pages":[21]},
+    {"id":"R06","language":"hi","concept_id":"MATH6_C0024","question":"समकोण का माप कितने अंश होता है?","evidence_all":["समकोण","90"],"pdf_pages":[21]},
+    {"id":"R07","language":"en","concept_id":"MATH6_C0025","question":"What are the degree boundaries of an acute angle?","evidence_all":["acute","90","0"],"pdf_pages":[38]},
+    {"id":"R08","language":"hi","concept_id":"MATH6_C0025","question":"न्यून कोण का माप कितने अंशों के बीच होता है?","evidence_all":["न्यून","90","0"],"pdf_pages":[38]},
+    {"id":"R09","language":"en","concept_id":"MATH6_C0038","question":"Why is the value of 4 in 3452 equal to 400?","evidence_all":["hundred","400"],"pdf_pages":[4]},
+    {"id":"R10","language":"hi","concept_id":"MATH6_C0038","question":"3452 में 4 का स्थानीय मान 400 क्यों है?","evidence_all":["सैक","400"],"pdf_pages":[4]},
+    {"id":"R11","language":"en","concept_id":"MATH6_C0039","question":"How is a digit sum calculated?","evidence_all":["digit","sum"],"pdf_pages":[6]},
+    {"id":"R12","language":"hi","concept_id":"MATH6_C0039","question":"किसी संख्या के अंकों का योग कैसे निकालते हैं?","evidence_all":["अंकों","योग"],"pdf_pages":[6]}
+  ]
+}

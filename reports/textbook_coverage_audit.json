@@ -1,0 +1,479 @@
+[
+  {
+    "concept_id": "MATH6_ADD001",
+    "concept": "Virahanka numbers",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_ADD002",
+    "concept": "Collatz conjecture",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=15",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=15",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_ADD003",
+    "concept": "plane geometry",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=1",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=1",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0002",
+    "concept": "pattern",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0003",
+    "concept": "number pattern",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0004",
+    "concept": "shape pattern",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=10",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=10",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0005",
+    "concept": "sequence",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0006",
+    "concept": "odd number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0007",
+    "concept": "even number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0008",
+    "concept": "triangular number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0009",
+    "concept": "square number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=4",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=4",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0010",
+    "concept": "cube number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0011",
+    "concept": "powers of 2",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0012",
+    "concept": "consecutive number",
+    "relation": "related",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=6",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=6",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0013",
+    "concept": "natural number",
+    "relation": "related",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0014",
+    "concept": "regular polygon",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=11",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=11",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0015",
+    "concept": "visual pattern",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=4",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=4",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0016",
+    "concept": "point",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=1",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=1",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0017",
+    "concept": "line",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=2",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=2",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0018",
+    "concept": "line segment",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=2",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=2",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0019",
+    "concept": "ray",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0020",
+    "concept": "angle",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=5",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=5",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0021",
+    "concept": "vertex",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=5",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=5",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0022",
+    "concept": "arm of angle",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=5",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=5",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0023",
+    "concept": "straight angle",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=15",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=15",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0024",
+    "concept": "right angle",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=21",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=21",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0025",
+    "concept": "acute angle",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=19",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=19",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0026",
+    "concept": "obtuse angle",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=39",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=39",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0027",
+    "concept": "reflex angle",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=39",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=39",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0028",
+    "concept": "complete angle",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=21",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=21",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0029",
+    "concept": "degree",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=21",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=21",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0030",
+    "concept": "protractor",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=25",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=25",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0031",
+    "concept": "perpendicular",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=17",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=17",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0032",
+    "concept": "parallel lines",
+    "relation": "unavailable",
+    "english_reference": null,
+    "hindi_reference": null,
+    "location_verified": false,
+    "reason": "No dedicated parallel-lines explanation or exercise located in the supplied chapters."
+  },
+  {
+    "concept_id": "MATH6_C0033",
+    "concept": "intersecting lines",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=4",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=4",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0034",
+    "concept": "rotation",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=13",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=13",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0035",
+    "concept": "angle bisector",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp102.pdf#page=28",
+    "hindi_reference": "/api/textbooks/hi/fhgp102.pdf#page=28",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0036",
+    "concept": "number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=1",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=1",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0037",
+    "concept": "digit",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=6",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=6",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0038",
+    "concept": "place value",
+    "relation": "related",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=4",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=4",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0039",
+    "concept": "digit sum",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=6",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=6",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0040",
+    "concept": "palindrome",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=7",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=7",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0041",
+    "concept": "number line",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=5",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=5",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0042",
+    "concept": "estimation",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=15",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=15",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0043",
+    "concept": "rounding",
+    "relation": "related",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=15",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=15",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0044",
+    "concept": "odd number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0045",
+    "concept": "even number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0046",
+    "concept": "addition",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=11",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=11",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0047",
+    "concept": "subtraction",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=12",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=12",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0048",
+    "concept": "magic square",
+    "relation": "unavailable",
+    "english_reference": null,
+    "hindi_reference": null,
+    "location_verified": false,
+    "reason": "No magic-square lesson or exercise located. Supercells and patterned sums are not equivalent to magic squares."
+  },
+  {
+    "concept_id": "MATH6_C0049",
+    "concept": "pattern",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp101.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp101.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0050",
+    "concept": "Kaprekar number",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=9",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=9",
+    "location_verified": true,
+    "reason": ""
+  },
+  {
+    "concept_id": "MATH6_C0051",
+    "concept": "supercell",
+    "relation": "direct",
+    "english_reference": "/api/textbooks/en/fegp103.pdf#page=3",
+    "hindi_reference": "/api/textbooks/hi/fhgp103.pdf#page=3",
+    "location_verified": true,
+    "reason": ""
+  }
+]

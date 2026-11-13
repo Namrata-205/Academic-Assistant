@@ -1,0 +1,1 @@
+Version 2 is INVALID: Hindi inputs/responses were replaced by question marks during export. Do not use its metrics. Version 3 corrects the transport encoding only; modes, expected labels and English queries are unchanged.

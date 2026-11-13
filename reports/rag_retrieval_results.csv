@@ -1,0 +1,13 @@
+﻿case_id,language,hit_at_1,hit_at_2,mrr_at_2,precision_at_2,recall_at_2,relevant_in_search_pool,semantic_retrieval,cold_page_cache_seconds,warm_page_cache_seconds,retrieved_pages,question
+R01,en,1.0,1.0,1.0,0.5,1.0,1,True,1.9377,0.0333,"[5, 5]",How is an angle formed?
+R02,hi,1.0,1.0,1.0,0.5,1.0,1,True,0.4365,0.0354,"[5, 5]",कोण कैसे बनता है?
+R03,en,1.0,1.0,1.0,0.5,1.0,1,True,0.5104,0.0779,"[5, 5]",What is the common endpoint of an angle called?
+R04,hi,0.0,1.0,0.5,0.5,1.0,1,True,1.1338,0.0741,"[5, 5]",कोण की भुजाओं का उभयनिष्ठ बिंदु क्या कहलाता है?
+R05,en,1.0,1.0,1.0,0.5,1.0,1,True,0.587,0.0661,"[21, 21]",How many degrees does a right angle measure?
+R06,hi,0.0,0.0,0.0,0.0,0.0,1,True,0.6093,0.0515,"[21, 21]",समकोण का माप कितने अंश होता है?
+R07,en,0.0,1.0,0.5,0.5,1.0,1,True,0.8606,0.0697,"[19, 38]",What are the degree boundaries of an acute angle?
+R08,hi,1.0,1.0,1.0,0.5,1.0,1,True,1.4221,0.0641,"[38, 19]",न्यून कोण का माप कितने अंशों के बीच होता है?
+R09,en,0.0,0.0,0.0,0.0,,0,True,0.6135,0.0542,"[4, 4]",Why is the value of 4 in 3452 equal to 400?
+R10,hi,0.0,0.0,0.0,0.0,,0,True,0.6454,0.0686,"[4, 4]",3452 में 4 का स्थानीय मान 400 क्यों है?
+R11,en,1.0,1.0,1.0,1.0,0.2857142857142857,7,True,0.9283,0.0581,"[6, 6]",How is a digit sum calculated?
+R12,hi,1.0,1.0,1.0,0.5,0.14285714285714285,7,True,0.6039,0.027,"[6, 6]",किसी संख्या के अंकों का योग कैसे निकालते हैं?

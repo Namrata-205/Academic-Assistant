@@ -1,0 +1,8 @@
+import React,{useState} from 'react';
+import { ChevronDown } from 'lucide-react';
+
+export default function AnswerReview({concepts,nodes}){
+  const [open,setOpen]=useState(false),[language,setLanguage]=useState(()=>localStorage.getItem('atlas-question-language')==='hi'?'hi':'en');
+  const entries=concepts.flatMap(c=>c.observations.map(o=>({...o,concept_id:c.concept_id})));
+  return <section className="answer-review"><button className="answer-review-toggle" aria-expanded={open} onClick={()=>setOpen(!open)}>See the questions and your answers ({entries.length})<ChevronDown size={16}/></button><div className="answer-review-content" hidden={!open}><label className="answer-review-language">Question language<select value={language} onChange={e=>setLanguage(e.target.value)}><option value="en">English</option><option value="hi">हिंदी</option></select></label>{entries.length?entries.map((o,i)=><article className="answer-review-card" key={o.question_id+':'+i}><div><span>{nodes[o.concept_id]?.en}</span><b className={o.score===1?'correct':o.score===0?'incorrect':'unscored'}>{o.score==null?'Not scored':o.score===1?'Correct · 1/1':'Incorrect · 0/1'}</b></div><h4 lang={language}>{language==='hi'?(o.question_hi||o.question_en):o.question_en}</h4><dl><dt>Your answer</dt><dd>{o.response==='not sure'?"I’m not sure":o.response||'(blank)'}</dd><dt>Correct answer</dt><dd>{o.correct_answer}</dd></dl><p>{o.evidence_origin==='saved history'?'Saved response used as background evidence':'Answer from this check'}</p></article>):<p className="body-copy">There are no answered questions in this interaction.</p>}</div></section>;
+}

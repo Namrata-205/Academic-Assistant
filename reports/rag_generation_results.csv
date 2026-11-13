@@ -1,0 +1,3 @@
+﻿case_id,language,status,mode,latency_seconds,paragraphs,cited_paragraphs,valid_citation_paragraphs,exact_evidence_paragraphs
+R01,en,answered,extractive,4.2585,4,4,4,4
+R02,hi,answered,extractive,2.504,4,4,4,4

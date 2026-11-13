@@ -1,0 +1,16 @@
+{
+  "concepts": 53,
+  "possible_unordered_pairs": 1378,
+  "positive_edges": 307,
+  "none_pairs": 1071,
+  "cross_chapter_edges": 73,
+  "edges_in_cycles": 13,
+  "weakly_connected_components": 1,
+  "dataset_status": "provisional; semantic and visual verification pending",
+  "evidence_tiers": {
+    "legacy": 306,
+    "0": 1072
+  },
+  "model": "openai/gpt-oss-120b",
+  "signature": "a218d3b81fead33f"
+}

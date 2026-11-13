@@ -1,0 +1,30 @@
+{
+  "version":"semantic-holdout-v2",
+  "review_status":"Draft expectations authored before execution; independent review pending",
+  "cases":[
+    {"id":"S01","question":"What do we call the corner where an angle's arms meet?","expected":"MATH6_C0021"},
+    {"id":"S02","question":"How can I measure an opening with the semicircular degree tool?","expected":"MATH6_C0030"},
+    {"id":"S03","question":"What type of angle makes exactly one quarter of a full turn?","expected":"MATH6_C0024"},
+    {"id":"S04","question":"What name is given to a turn larger than 180 but smaller than 360 degrees?","expected":"MATH6_C0027"},
+    {"id":"S05","question":"What is a straight path bounded at both ends called?","expected":"MATH6_C0018"},
+    {"id":"S06","question":"Which concept describes a number that looks identical when its digits are reversed?","expected":"MATH6_C0040"},
+    {"id":"S07","question":"How do I determine the value of the digit 3 in 9361?","expected":"MATH6_C0038"},
+    {"id":"S08","question":"How can I find the total of the individual digits of 582?","expected":"MATH6_C0039"},
+    {"id":"S09","question":"I have an odd number. Which chapter should I use?","expected":"clarify"},
+    {"id":"S10","question":"How do I multiply two fractions?","expected":"clarify"},
+    {"id":"S11","question":"Explain place value and a right angle together.","expected":"clarify"},
+    {"id":"S12","question":"Can you help with cooking dinner?","expected":"clarify"},
+    {"id":"S13","question":"कोण की दोनों भुजाओं का मिलन बिंदु क्या कहलाता है?","expected":"MATH6_C0021"},
+    {"id":"S14","question":"संख्या 6825 में 8 का मान कैसे निकालें?","expected":"MATH6_C0038"},
+    {"id":"S15","question":"745 के अंकों का योग निकालना समझाइए।","expected":"MATH6_C0039"},
+    {"id":"S16","question":"90 डिग्री से कम कोण को क्या कहते हैं?","expected":"MATH6_C0025"},
+    {"id":"S17","question":"समकोण का माप डिग्री में क्यों बताते हैं?","expected":"MATH6_C0024"},
+    {"id":"S18","question":"भिन्नों का जोड़ और घटाव कैसे करें?","expected":"clarify"},
+    {"id":"S19","question":"सम संख्या का नियम समझाइए।","expected":"clarify"},
+    {"id":"S20","question":"मेरे विद्यालय का पता क्या है?","expected":"clarify"},
+    {"id":"S21","question":"How do I solve a quadratic equation?","expected":"clarify"},
+    {"id":"S22","question":"What do I need to know about an angle?","expected":"MATH6_C0020"},
+    {"id":"S23","question":"What tool should I use?","expected":"clarify"},
+    {"id":"S24","question":"","expected":"clarify"}
+  ]
+}
