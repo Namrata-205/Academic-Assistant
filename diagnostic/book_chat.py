@@ -61,16 +61,23 @@ def model_status():
 
 @lru_cache(maxsize=64)
 def page_content(filename,page,mtime):
-    import fitz
-    with fitz.open(filename) as doc:
-        blocks=[]
-        for block in doc[page-1].get_text('blocks'):
-            text=canonical(block[4])
-            if len(text)<30 or 'Reprint 2026' in text:continue
-            if 'CHAPTER' in text and 'SOLUTIONS' in text:raise ValueError('Appended solutions are not used as textbook explanations.')
-            blocks.append(text)
-        return blocks
-
+    from pathlib import Path
+    if Path(filename).parent.name=='hi':
+        # Hindi: frozen clean text, or the v4.5 pipeline for a new PDF (saved on first use)
+        from diagnostic.extraction import get_pages
+        text=next((p['text'] for p in get_pages(filename,'hi') if p['page']==page),'')
+        raw_blocks=text.split('\n\n')
+    else:
+        import fitz
+        with fitz.open(filename) as doc:
+            raw_blocks=[block[4] for block in doc[page-1].get_text('blocks')]
+    blocks=[]
+    for block in raw_blocks:
+        text=canonical(block)
+        if len(text)<30 or 'Reprint 2026' in text:continue
+        if 'CHAPTER' in text and 'SOLUTIONS' in text:raise ValueError('Appended solutions are not used as textbook explanations.')
+        blocks.append(text)
+    return blocks
 
 def retrieve_sources(target,language,question,limit=2):
     from diagnostic.semantic_chunks import rank_pages
