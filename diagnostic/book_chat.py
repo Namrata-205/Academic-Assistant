@@ -59,18 +59,7 @@ def model_status():
             'fallback':'Exact textbook excerpts with page citations','local_only':True}
 
 
-@lru_cache(maxsize=64)
-def page_content(filename,page,mtime):
-    from pathlib import Path
-    if Path(filename).parent.name=='hi':
-        # Hindi: frozen clean text, or the v4.5 pipeline for a new PDF (saved on first use)
-        from diagnostic.extraction import get_pages
-        text=next((p['text'] for p in get_pages(filename,'hi') if p['page']==page),'')
-        raw_blocks=text.split('\n\n')
-    else:
-        import fitz
-        with fitz.open(filename) as doc:
-            raw_blocks=[block[4] for block in doc[page-1].get_text('blocks')]
+def _keep_blocks(raw_blocks):
     blocks=[]
     for block in raw_blocks:
         text=canonical(block)
@@ -78,6 +67,19 @@ def page_content(filename,page,mtime):
         if 'CHAPTER' in text and 'SOLUTIONS' in text:raise ValueError('Appended solutions are not used as textbook explanations.')
         blocks.append(text)
     return blocks
+
+
+@lru_cache(maxsize=64)
+def page_content(filename,page,mtime):
+    """Text blocks of one textbook page, from diagnostic.extraction: the frozen file in
+    assets/extracted/<lang>/ (or, for a new PDF, extracted once and saved). Hindi uses the
+    v4.5 pipeline (raw PyMuPDF Hindi is corrupted: ययह, कक्ा); English uses PyMuPDF blocks."""
+    from pathlib import Path
+    from diagnostic.extraction import get_pages
+    path=Path(filename)
+    text=next((p['text'] for p in get_pages(path,path.parent.name) if p['page']==page),'')
+    return _keep_blocks(text.split('\n\n'))
+
 
 def retrieve_sources(target,language,question,limit=2):
     from diagnostic.semantic_chunks import rank_pages
@@ -104,8 +106,10 @@ def retrieve_sources(target,language,question,limit=2):
                         'printed_page':page+offset,'pdf_page':page,'language':language,
                         'url':f'/api/textbooks/{language}/{filename}#page={page}',
                         'concept_id':target,'sha256':source_hash,'edition':cat['edition']}))
+    from diagnostic.extraction import normalize_query
+    query=normalize_query(question,language)        # same Unicode form as the cleaned book text
     try:
-        sources=rank_pages(candidates,question+' '+nodes[target]['en']+' '+nodes[target]['hi'],limit=limit)
+        sources=rank_pages(candidates,query+' '+nodes[target]['en']+' '+nodes[target]['hi'],limit=limit)
         for source in sources:source['retrieval']='semantic cosine similarity'
     except (ImportError,RuntimeError,OSError):
         # Explicitly degraded operation when the local embedding runtime is unavailable.

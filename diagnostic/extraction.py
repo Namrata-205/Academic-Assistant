@@ -11,7 +11,7 @@ How it decides:
               otherwise (a new PDF) it runs the v4.5 pipeline (diagnostic/hindi_text.py),
               writes that file, and uses it from then on.
   * English -> the frozen file assets/extracted/en/en_<stem>_clean.txt if it exists;
-              otherwise PyMuPDF text (English extraction was never broken), saved the same way.
+              otherwise PyMuPDF blocks (English extraction was never broken), saved the same way.
 To re-extract a chapter (e.g. after improving hindi_text.py), delete its file or pass force=True.
 
 Export all chapters at once (creates the missing files, leaves frozen ones alone):
@@ -22,7 +22,7 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
-EXTRACTION_VERSION = 'hi-v4.5 (pdfium+PyMuPDF merge, lexicon repair); en-pymupdf'
+EXTRACTION_VERSION = 'hi-v4.5 (pdfium+PyMuPDF merge, lexicon repair); en-pymupdf-blocks'
 ROOT = Path(__file__).resolve().parents[1]
 TEXTBOOKS = ROOT / 'assets' / 'textbooks'
 EXTRACTED = ROOT / 'assets' / 'extracted'
@@ -75,8 +75,11 @@ def _extract_hindi(pdf_path):
 
 
 def _extract_english(pdf_path):
+    """The same PyMuPDF blocks book_chat.page_content always used, one block per line
+    (blank line between blocks), so English chunks stay exactly as before."""
     with _fitz().open(pdf_path) as doc:
-        return [{'page': i, 'text': page.get_text('text', sort=True).strip()}
+        return [{'page': i, 'text': '\n\n'.join(' '.join(b[4].split()) for b in page.get_text('blocks')
+                                                if b[4].strip())}
                 for i, page in enumerate(doc, 1)]
 
 
