@@ -240,6 +240,30 @@ Labels require at least two concordant valid observations; mixed evidence is ins
 Untested concepts remain explicitly unassessed. No mastery probability is reported.
 All decision rules and materials remain provisional pending human review.
 
+## Knowledge graph v2 and chunking comparison
+
+`python -m diagnostic.kg_v2` builds the chapter 1–5 graph from the clean text into
+`assets/NCERT_Knowledge_Graph/v2/` (85 concepts incl. 10 assumed prior-knowledge roots,
+140 prerequisite edges, acyclic, Hindi names taken from the Hindi book). v1 IDs are reused
+where the concept still exists; retired/merged v1 concepts are listed in `kg_v2.RETIRED`.
+The app still loads v1. `python -m diagnostic.compare_kg` writes `reports/kg_v2_vs_v1.md`.
+
+`diagnostic/chunking.py` implements four page-preserving chunkers: `fixed`, `semantic`
+(current), `semantic_tuned`, and `graph` (cuts where a v2 concept starts, tags chunks with
+concept IDs). `python -m diagnostic.evaluate_chunking --tune` tunes `semantic_tuned` on
+`reports/chunking_dev_cases_v1.json` (ch 1/4/5) only, then evaluates everything on the 12
+existing test cases (scoped and chapter-wide). Results: `reports/chunking_comparison.md`.
+The stored `rag_k_comparison.md` Hindi numbers predate the repaired Hindi extraction.
+
+Every chunk, whatever the method, carries the same metadata (`chunking.annotate`): chunk ID,
+language, chapter and title, section heading, PDF and printed page, char offsets, char/token
+counts, embedder-truncation flag, KG v2 concept tags, source PDF/clean file and SHA-256,
+citation URL, method settings and versions. `chunking.export()` writes them to
+`output/chunks/<method>/<lang>_chNN.jsonl` with a `manifest.json`.
+`python -m diagnostic.best_chunking` tunes every method on dev, adds a concept-tag boost
+variant, and tests all on 52 held-out cases (`reports/rag_eval_cases_v1.json` + `_v2.json`):
+see `reports/best_chunking.md` and `best_chunking_config.json`.
+
 ## Validation and reproduction
 
 Run `python -m unittest discover -s tests -v` for development checks. Run

@@ -1,0 +1,5623 @@
+{
+ "created_utc": "2026-11-14T06:40:55.989392+00:00",
+ "configs": {
+  "fixed": {
+   "size": 650
+  },
+  "semantic": {},
+  "semantic_tuned": {
+   "mode": "relative",
+   "threshold": 0.0,
+   "max_chars": 300,
+   "min_chars": 150
+  },
+  "graph": {
+   "max_chars": 650,
+   "min_chars": 120
+  }
+ },
+ "chunk_stats": {
+  "fixed": {
+   "chunks": 513,
+   "mean_chars": 488.2,
+   "min_chars": 3,
+   "max_chars": 649,
+   "share_over_token_limit": 0.649
+  },
+  "semantic": {
+   "chunks": 3332,
+   "mean_chars": 74.3,
+   "min_chars": 1,
+   "max_chars": 619,
+   "share_over_token_limit": 0.012
+  },
+  "semantic_tuned": {
+   "chunks": 1247,
+   "mean_chars": 200.3,
+   "min_chars": 6,
+   "max_chars": 300,
+   "share_over_token_limit": 0.001
+  },
+  "graph": {
+   "chunks": 727,
+   "mean_chars": 344.2,
+   "min_chars": 12,
+   "max_chars": 650,
+   "share_over_token_limit": 0.329
+  }
+ },
+ "baseline_reproduced": true,
+ "stored_report_matches": {
+  "en": true,
+  "hi": false
+ },
+ "stored_report_created_utc": "2026-11-02T04:06:47.389360+00:00",
+ "stored_report_summary": [
+  {
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "recall_defined_cases": 9,
+   "precision": 0.4166666666666667,
+   "recall": 0.36507936507936506,
+   "hit_rate": 0.4166666666666667,
+   "mrr": 0.4166666666666667,
+   "returned_chunks": 1
+  },
+  {
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "recall_defined_cases": 9,
+   "precision": 0.3333333333333333,
+   "recall": 0.5476190476190477,
+   "hit_rate": 0.5833333333333334,
+   "mrr": 0.5,
+   "returned_chunks": 2
+  },
+  {
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "recall_defined_cases": 9,
+   "precision": 0.2777777777777778,
+   "recall": 0.5793650793650793,
+   "hit_rate": 0.5833333333333334,
+   "mrr": 0.5,
+   "returned_chunks": 3
+  },
+  {
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "recall_defined_cases": 9,
+   "precision": 0.23333333333333334,
+   "recall": 0.6428571428571429,
+   "hit_rate": 0.5833333333333334,
+   "mrr": 0.5,
+   "returned_chunks": 5
+  },
+  {
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "recall_defined_cases": 9,
+   "precision": 0.18333333333333332,
+   "recall": 1.0,
+   "hit_rate": 0.75,
+   "mrr": 0.5257936507936508,
+   "returned_chunks": 9.666666666666666
+  },
+  {
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "recall_defined_cases": 5,
+   "precision": 0.6666666666666666,
+   "recall": 0.6285714285714286,
+   "hit_rate": 0.6666666666666666,
+   "mrr": 0.6666666666666666,
+   "returned_chunks": 1
+  },
+  {
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "recall_defined_cases": 5,
+   "precision": 0.5,
+   "recall": 0.8571428571428571,
+   "hit_rate": 0.8333333333333334,
+   "mrr": 0.75,
+   "returned_chunks": 2
+  },
+  {
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "recall_defined_cases": 5,
+   "precision": 0.3888888888888889,
+   "recall": 0.8857142857142857,
+   "hit_rate": 0.8333333333333334,
+   "mrr": 0.75,
+   "returned_chunks": 3
+  },
+  {
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "recall_defined_cases": 5,
+   "precision": 0.3,
+   "recall": 0.9428571428571428,
+   "hit_rate": 0.8333333333333334,
+   "mrr": 0.75,
+   "returned_chunks": 5
+  },
+  {
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "recall_defined_cases": 5,
+   "precision": 0.18333333333333332,
+   "recall": 1.0,
+   "hit_rate": 0.8333333333333334,
+   "mrr": 0.75,
+   "returned_chunks": 9.333333333333334
+  },
+  {
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "recall_defined_cases": 4,
+   "precision": 0.16666666666666666,
+   "recall": 0.03571428571428571,
+   "hit_rate": 0.16666666666666666,
+   "mrr": 0.16666666666666666,
+   "returned_chunks": 1
+  },
+  {
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "recall_defined_cases": 4,
+   "precision": 0.16666666666666666,
+   "recall": 0.1607142857142857,
+   "hit_rate": 0.3333333333333333,
+   "mrr": 0.25,
+   "returned_chunks": 2
+  },
+  {
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "recall_defined_cases": 4,
+   "precision": 0.16666666666666666,
+   "recall": 0.19642857142857142,
+   "hit_rate": 0.3333333333333333,
+   "mrr": 0.25,
+   "returned_chunks": 3
+  },
+  {
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "recall_defined_cases": 4,
+   "precision": 0.16666666666666669,
+   "recall": 0.26785714285714285,
+   "hit_rate": 0.3333333333333333,
+   "mrr": 0.25,
+   "returned_chunks": 5
+  },
+  {
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "recall_defined_cases": 4,
+   "precision": 0.18333333333333332,
+   "recall": 1.0,
+   "hit_rate": 0.6666666666666666,
+   "mrr": 0.30158730158730157,
+   "returned_chunks": 10
+  }
+ ],
+ "test_cases_sha256": "eea8fc479242b8b2eb93a68f1d51d62550d337eecaf4139a8cf8eae992727777",
+ "dev_cases_sha256": "18b712ed6d78173f800b7fe101e41a7717d5dba158889ec243f32184c9addd46",
+ "kg_version": "kg-v2-ch1-5",
+ "test_summary": [
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "precision": 0.25,
+   "recall": 0.25,
+   "mrr": 0.25,
+   "hit_rate": 0.25
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.2,
+   "mrr": 0.16666666666666666,
+   "hit_rate": 0.16666666666666666
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 0.3,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "precision": 0.20833333333333334,
+   "recall": 0.4,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.4166666666666667
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.25,
+   "recall": 0.5,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.3,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "precision": 0.16666666666666666,
+   "recall": 0.45,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.4166666666666667
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.2222222222222222,
+   "recall": 0.6,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.1111111111111111,
+   "recall": 0.3,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "precision": 0.1,
+   "recall": 0.45,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.4166666666666667
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.13333333333333333,
+   "recall": 0.6,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.06666666666666667,
+   "recall": 0.3,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "precision": 0.06666666666666667,
+   "recall": 0.6,
+   "mrr": 0.3472222222222222,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.06666666666666667,
+   "recall": 0.6,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.06666666666666667,
+   "recall": 0.6,
+   "mrr": 0.3611111111111111,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "precision": 0.5,
+   "recall": 0.5,
+   "mrr": 0.5,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 0.3,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.6666666666666666,
+   "recall": 0.7,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "precision": 0.5,
+   "recall": 1.0,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 1.0,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 1.0,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "precision": 0.2,
+   "recall": 1.0,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.2,
+   "recall": 1.0,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.2,
+   "recall": 1.0,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "precision": 0.1,
+   "recall": 1.0,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.1,
+   "recall": 1.0,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "fixed",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.1,
+   "recall": 1.0,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "precision": 0.3333333333333333,
+   "recall": 0.4,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 0.6,
+   "mrr": 0.5,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.2,
+   "mrr": 0.16666666666666666,
+   "hit_rate": 0.16666666666666666
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "precision": 0.25,
+   "recall": 0.55,
+   "mrr": 0.4166666666666667,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 0.7,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.4,
+   "mrr": 0.25,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "precision": 0.2222222222222222,
+   "recall": 0.7,
+   "mrr": 0.4444444444444444,
+   "hit_rate": 0.5833333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "mrr": 0.6388888888888888,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.1111111111111111,
+   "recall": 0.4,
+   "mrr": 0.25,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "precision": 0.15000000000000002,
+   "recall": 0.75,
+   "mrr": 0.4652777777777778,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.2,
+   "recall": 1.0,
+   "mrr": 0.6388888888888888,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.1,
+   "recall": 0.5,
+   "mrr": 0.2916666666666667,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "precision": 0.07500000000000001,
+   "recall": 0.75,
+   "mrr": 0.4652777777777778,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.1,
+   "recall": 1.0,
+   "mrr": 0.6388888888888888,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.05,
+   "recall": 0.5,
+   "mrr": 0.2916666666666667,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "precision": 0.5833333333333334,
+   "recall": 0.65,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.5833333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.8333333333333334,
+   "recall": 0.9,
+   "mrr": 0.8333333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 0.4,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "precision": 0.4583333333333333,
+   "recall": 0.95,
+   "mrr": 0.7083333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 1.0,
+   "mrr": 0.8333333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.4166666666666667,
+   "recall": 0.9,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "mrr": 0.7083333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "mrr": 0.8333333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 1.0,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "precision": 0.2,
+   "recall": 1.0,
+   "mrr": 0.7083333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.2,
+   "recall": 1.0,
+   "mrr": 0.8333333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.2,
+   "recall": 1.0,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "precision": 0.1,
+   "recall": 1.0,
+   "mrr": 0.7083333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.1,
+   "recall": 1.0,
+   "mrr": 0.8333333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "graph",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.1,
+   "recall": 1.0,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "precision": 0.25,
+   "recall": 0.12857142857142856,
+   "mrr": 0.25,
+   "hit_rate": 0.25
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.02857142857142857,
+   "mrr": 0.16666666666666666,
+   "hit_rate": 0.16666666666666666
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 0.22857142857142856,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "precision": 0.25,
+   "recall": 0.34285714285714286,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.4166666666666667
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 0.45714285714285713,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.22857142857142856,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "precision": 0.2777777777777778,
+   "recall": 0.5714285714285714,
+   "mrr": 0.3888888888888889,
+   "hit_rate": 0.5833333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.3888888888888889,
+   "recall": 0.8857142857142857,
+   "mrr": 0.4444444444444444,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.2571428571428571,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "precision": 0.2,
+   "recall": 0.6,
+   "mrr": 0.3888888888888889,
+   "hit_rate": 0.5833333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.3,
+   "recall": 0.9428571428571428,
+   "mrr": 0.4444444444444444,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.1,
+   "recall": 0.2571428571428571,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "precision": 0.11666666666666667,
+   "recall": 0.6285714285714286,
+   "mrr": 0.3888888888888889,
+   "hit_rate": 0.5833333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.18333333333333332,
+   "recall": 1.0,
+   "mrr": 0.4444444444444444,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.05,
+   "recall": 0.2571428571428571,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "precision": 0.5833333333333334,
+   "recall": 0.5285714285714286,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.5833333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.6666666666666666,
+   "recall": 0.6285714285714286,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 0.42857142857142855,
+   "mrr": 0.5,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "precision": 0.4583333333333333,
+   "recall": 0.7571428571428571,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.75
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 0.8571428571428571,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.4166666666666667,
+   "recall": 0.6571428571428571,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "precision": 0.3333333333333333,
+   "recall": 0.7714285714285715,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.75
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.3888888888888889,
+   "recall": 0.8857142857142857,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.2777777777777778,
+   "recall": 0.6571428571428571,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "precision": 0.26666666666666666,
+   "recall": 0.8285714285714285,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.75
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.3,
+   "recall": 0.9428571428571428,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.23333333333333334,
+   "recall": 0.7142857142857143,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "precision": 0.18333333333333332,
+   "recall": 1.0,
+   "mrr": 0.6785714285714286,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.18333333333333332,
+   "recall": 1.0,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.18333333333333332,
+   "recall": 1.0,
+   "mrr": 0.6071428571428571,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "precision": 0.3333333333333333,
+   "recall": 0.35,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 0.6,
+   "mrr": 0.5,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.1,
+   "mrr": 0.16666666666666666,
+   "hit_rate": 0.16666666666666666
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "precision": 0.25,
+   "recall": 0.4,
+   "mrr": 0.4166666666666667,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 0.65,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.15,
+   "mrr": 0.25,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "precision": 0.2222222222222222,
+   "recall": 0.475,
+   "mrr": 0.4166666666666667,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.2777777777777778,
+   "recall": 0.7,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.16666666666666666,
+   "recall": 0.25,
+   "mrr": 0.25,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "precision": 0.15000000000000002,
+   "recall": 0.525,
+   "mrr": 0.4375,
+   "hit_rate": 0.5833333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.16666666666666669,
+   "recall": 0.7,
+   "mrr": 0.5833333333333334,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.13333333333333333,
+   "recall": 0.35,
+   "mrr": 0.2916666666666667,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "precision": 0.1,
+   "recall": 0.675,
+   "mrr": 0.4494047619047619,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.11666666666666667,
+   "recall": 0.95,
+   "mrr": 0.6071428571428571,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.08333333333333334,
+   "recall": 0.4,
+   "mrr": 0.2916666666666667,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 1,
+   "cases": 12,
+   "precision": 0.5,
+   "recall": 0.425,
+   "mrr": 0.5,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.6666666666666666,
+   "recall": 0.65,
+   "mrr": 0.6666666666666666,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 1,
+   "cases": 6,
+   "precision": 0.3333333333333333,
+   "recall": 0.2,
+   "mrr": 0.3333333333333333,
+   "hit_rate": 0.3333333333333333
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 2,
+   "cases": 12,
+   "precision": 0.5,
+   "recall": 0.775,
+   "mrr": 0.625,
+   "hit_rate": 0.75
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 0.9,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 2,
+   "cases": 6,
+   "precision": 0.5,
+   "recall": 0.65,
+   "mrr": 0.5,
+   "hit_rate": 0.6666666666666666
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 3,
+   "cases": 12,
+   "precision": 0.41666666666666663,
+   "recall": 0.925,
+   "mrr": 0.6527777777777778,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.3888888888888889,
+   "recall": 0.95,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 3,
+   "cases": 6,
+   "precision": 0.4444444444444444,
+   "recall": 0.9,
+   "mrr": 0.5555555555555556,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 5,
+   "cases": 12,
+   "precision": 0.30000000000000004,
+   "recall": 1.0,
+   "mrr": 0.6527777777777778,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.26666666666666666,
+   "recall": 1.0,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 5,
+   "cases": 6,
+   "precision": 0.33333333333333337,
+   "recall": 1.0,
+   "mrr": 0.5555555555555556,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "all",
+   "k": 10,
+   "cases": 12,
+   "precision": 0.15000000000000002,
+   "recall": 1.0,
+   "mrr": 0.6527777777777778,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "en",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.13333333333333333,
+   "recall": 1.0,
+   "mrr": 0.75,
+   "hit_rate": 0.8333333333333334
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "scoped",
+   "language": "hi",
+   "k": 10,
+   "cases": 6,
+   "precision": 0.16666666666666669,
+   "recall": 1.0,
+   "mrr": 0.5555555555555556,
+   "hit_rate": 0.8333333333333334
+  }
+ ],
+ "dev_summary": [
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 1,
+   "cases": 20,
+   "precision": 0.35,
+   "recall": 0.13464285714285715,
+   "mrr": 0.35,
+   "hit_rate": 0.35
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 1,
+   "cases": 10,
+   "precision": 0.6,
+   "recall": 0.24928571428571428,
+   "mrr": 0.6,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 1,
+   "cases": 10,
+   "precision": 0.1,
+   "recall": 0.02,
+   "mrr": 0.1,
+   "hit_rate": 0.1
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 2,
+   "cases": 20,
+   "precision": 0.325,
+   "recall": 0.20845238095238094,
+   "mrr": 0.45,
+   "hit_rate": 0.55
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 2,
+   "cases": 10,
+   "precision": 0.45,
+   "recall": 0.2935714285714286,
+   "mrr": 0.65,
+   "hit_rate": 0.7
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 2,
+   "cases": 10,
+   "precision": 0.2,
+   "recall": 0.12333333333333334,
+   "mrr": 0.25,
+   "hit_rate": 0.4
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 3,
+   "cases": 20,
+   "precision": 0.26666666666666666,
+   "recall": 0.23845238095238094,
+   "mrr": 0.4666666666666667,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 3,
+   "cases": 10,
+   "precision": 0.36666666666666664,
+   "recall": 0.32857142857142857,
+   "mrr": 0.65,
+   "hit_rate": 0.7
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 3,
+   "cases": 10,
+   "precision": 0.16666666666666666,
+   "recall": 0.14833333333333334,
+   "mrr": 0.2833333333333333,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 5,
+   "cases": 20,
+   "precision": 0.24000000000000002,
+   "recall": 0.305515873015873,
+   "mrr": 0.48916666666666664,
+   "hit_rate": 0.7
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 5,
+   "cases": 10,
+   "precision": 0.3,
+   "recall": 0.3871428571428571,
+   "mrr": 0.67,
+   "hit_rate": 0.8
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 5,
+   "cases": 10,
+   "precision": 0.18000000000000002,
+   "recall": 0.2238888888888889,
+   "mrr": 0.30833333333333335,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 10,
+   "cases": 20,
+   "precision": 0.215,
+   "recall": 0.535079365079365,
+   "mrr": 0.5025,
+   "hit_rate": 0.8
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 10,
+   "cases": 10,
+   "precision": 0.24000000000000002,
+   "recall": 0.6157142857142858,
+   "mrr": 0.68,
+   "hit_rate": 0.9
+  },
+  {
+   "method": "fixed",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 10,
+   "cases": 10,
+   "precision": 0.19,
+   "recall": 0.45444444444444443,
+   "mrr": 0.325,
+   "hit_rate": 0.7
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 1,
+   "cases": 20,
+   "precision": 0.4,
+   "recall": 0.09511904761904762,
+   "mrr": 0.4,
+   "hit_rate": 0.4
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 1,
+   "cases": 10,
+   "precision": 0.4,
+   "recall": 0.09523809523809523,
+   "mrr": 0.4,
+   "hit_rate": 0.4
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 1,
+   "cases": 10,
+   "precision": 0.4,
+   "recall": 0.095,
+   "mrr": 0.4,
+   "hit_rate": 0.4
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 2,
+   "cases": 20,
+   "precision": 0.3,
+   "recall": 0.15226190476190476,
+   "mrr": 0.425,
+   "hit_rate": 0.45
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 2,
+   "cases": 10,
+   "precision": 0.25,
+   "recall": 0.10952380952380952,
+   "mrr": 0.4,
+   "hit_rate": 0.4
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 2,
+   "cases": 10,
+   "precision": 0.35,
+   "recall": 0.195,
+   "mrr": 0.45,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 3,
+   "cases": 20,
+   "precision": 0.2833333333333333,
+   "recall": 0.25107142857142856,
+   "mrr": 0.4583333333333333,
+   "hit_rate": 0.55
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 3,
+   "cases": 10,
+   "precision": 0.2333333333333333,
+   "recall": 0.2238095238095238,
+   "mrr": 0.43333333333333335,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 3,
+   "cases": 10,
+   "precision": 0.3333333333333333,
+   "recall": 0.2783333333333333,
+   "mrr": 0.48333333333333334,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 5,
+   "cases": 20,
+   "precision": 0.21000000000000002,
+   "recall": 0.3094047619047619,
+   "mrr": 0.48083333333333333,
+   "hit_rate": 0.65
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 5,
+   "cases": 10,
+   "precision": 0.2,
+   "recall": 0.30714285714285716,
+   "mrr": 0.47833333333333333,
+   "hit_rate": 0.7
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 5,
+   "cases": 10,
+   "precision": 0.22,
+   "recall": 0.31166666666666665,
+   "mrr": 0.48333333333333334,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 10,
+   "cases": 20,
+   "precision": 0.15,
+   "recall": 0.4570238095238095,
+   "mrr": 0.49541666666666667,
+   "hit_rate": 0.75
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 10,
+   "cases": 10,
+   "precision": 0.15000000000000002,
+   "recall": 0.5023809523809524,
+   "mrr": 0.49083333333333334,
+   "hit_rate": 0.8
+  },
+  {
+   "method": "graph",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 10,
+   "cases": 10,
+   "precision": 0.15,
+   "recall": 0.4116666666666667,
+   "mrr": 0.5,
+   "hit_rate": 0.7
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 1,
+   "cases": 20,
+   "precision": 0.35,
+   "recall": 0.07681704260651628,
+   "mrr": 0.35,
+   "hit_rate": 0.35
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 1,
+   "cases": 10,
+   "precision": 0.3,
+   "recall": 0.062169312169312166,
+   "mrr": 0.3,
+   "hit_rate": 0.3
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 1,
+   "cases": 10,
+   "precision": 0.4,
+   "recall": 0.09,
+   "mrr": 0.4,
+   "hit_rate": 0.4
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 2,
+   "cases": 20,
+   "precision": 0.3,
+   "recall": 0.1382205513784461,
+   "mrr": 0.425,
+   "hit_rate": 0.5
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 2,
+   "cases": 10,
+   "precision": 0.25,
+   "recall": 0.11772486772486772,
+   "mrr": 0.35,
+   "hit_rate": 0.4
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 2,
+   "cases": 10,
+   "precision": 0.35,
+   "recall": 0.15666666666666668,
+   "mrr": 0.5,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 3,
+   "cases": 20,
+   "precision": 0.26666666666666666,
+   "recall": 0.1926065162907268,
+   "mrr": 0.4583333333333333,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 3,
+   "cases": 10,
+   "precision": 0.2333333333333333,
+   "recall": 0.1917989417989418,
+   "mrr": 0.4166666666666667,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 3,
+   "cases": 10,
+   "precision": 0.3,
+   "recall": 0.19333333333333333,
+   "mrr": 0.5,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 5,
+   "cases": 20,
+   "precision": 0.23,
+   "recall": 0.3229323308270677,
+   "mrr": 0.4683333333333333,
+   "hit_rate": 0.65
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 5,
+   "cases": 10,
+   "precision": 0.24000000000000002,
+   "recall": 0.4021164021164021,
+   "mrr": 0.43666666666666665,
+   "hit_rate": 0.7
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 5,
+   "cases": 10,
+   "precision": 0.22,
+   "recall": 0.25166666666666665,
+   "mrr": 0.5,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 10,
+   "cases": 20,
+   "precision": 0.185,
+   "recall": 0.5225563909774436,
+   "mrr": 0.49561507936507937,
+   "hit_rate": 0.85
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 10,
+   "cases": 10,
+   "precision": 0.19,
+   "recall": 0.6216931216931216,
+   "mrr": 0.4602777777777778,
+   "hit_rate": 0.9
+  },
+  {
+   "method": "semantic",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 10,
+   "cases": 10,
+   "precision": 0.18,
+   "recall": 0.43333333333333335,
+   "mrr": 0.530952380952381,
+   "hit_rate": 0.8
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 1,
+   "cases": 20,
+   "precision": 0.7,
+   "recall": 0.23208333333333334,
+   "mrr": 0.7,
+   "hit_rate": 0.7
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 1,
+   "cases": 10,
+   "precision": 0.6,
+   "recall": 0.2375,
+   "mrr": 0.6,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 1,
+   "cases": 10,
+   "precision": 0.8,
+   "recall": 0.22666666666666666,
+   "mrr": 0.8,
+   "hit_rate": 0.8
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 2,
+   "cases": 20,
+   "precision": 0.475,
+   "recall": 0.29,
+   "mrr": 0.725,
+   "hit_rate": 0.75
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 2,
+   "cases": 10,
+   "precision": 0.4,
+   "recall": 0.3,
+   "mrr": 0.6,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 2,
+   "cases": 10,
+   "precision": 0.55,
+   "recall": 0.27999999999999997,
+   "mrr": 0.85,
+   "hit_rate": 0.9
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 3,
+   "cases": 20,
+   "precision": 0.36666666666666664,
+   "recall": 0.3225,
+   "mrr": 0.725,
+   "hit_rate": 0.75
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 3,
+   "cases": 10,
+   "precision": 0.3,
+   "recall": 0.325,
+   "mrr": 0.6,
+   "hit_rate": 0.6
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 3,
+   "cases": 10,
+   "precision": 0.4333333333333333,
+   "recall": 0.32,
+   "mrr": 0.85,
+   "hit_rate": 0.9
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 5,
+   "cases": 20,
+   "precision": 0.28,
+   "recall": 0.3783333333333333,
+   "mrr": 0.7475,
+   "hit_rate": 0.85
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 5,
+   "cases": 10,
+   "precision": 0.26,
+   "recall": 0.4,
+   "mrr": 0.645,
+   "hit_rate": 0.8
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 5,
+   "cases": 10,
+   "precision": 0.3,
+   "recall": 0.35666666666666663,
+   "mrr": 0.85,
+   "hit_rate": 0.9
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "all",
+   "k": 10,
+   "cases": 20,
+   "precision": 0.185,
+   "recall": 0.48041666666666666,
+   "mrr": 0.7475,
+   "hit_rate": 0.85
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "en",
+   "k": 10,
+   "cases": 10,
+   "precision": 0.18,
+   "recall": 0.5208333333333334,
+   "mrr": 0.645,
+   "hit_rate": 0.8
+  },
+  {
+   "method": "semantic_tuned",
+   "protocol": "chapter",
+   "language": "hi",
+   "k": 10,
+   "cases": 10,
+   "precision": 0.19,
+   "recall": 0.44,
+   "mrr": 0.85,
+   "hit_rate": 0.9
+  }
+ ],
+ "test_rankings": {
+  "fixed": [
+   {
+    "case_id": "R01",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig. 2.9). Vidya has just opened her book. Let us observe her opening the cover of the book in different scenarios. Case 1 Case 2 Case 3 Case 4 Case 5 Case 6",
+      "similarity": 0.5953,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "6. Here is a ray OA (Fig. 2.7). It starts at O and passes through the point A. It also passes through the point B. a. Can you also name it as OB ? Why? b. Can we write OAas AO? Why or why not? An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig. 2.8). The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case,",
+      "similarity": 0.5336,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R02",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "6. आकृति 2.7 में OA एक किरण है। यह O से शुरू होती है और बिंदु A से गुजरती है। यह बिंदु B से भी गुजरती है। a. क्या हम इसे OB भी नाम दे सकते हैं? क्यों? b. क्या हम OA को AO लिख सकते हैं? क्यों अथवा क्यों प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है। B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस",
+      "similarity": 0.4764,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "कोण को कोण DBE या कोण EBD कहा जा सकता है। शब्द ‘कोण’ को चिह्न ‘∠’ से भी दर्शाया जा सकता है, जैसे— ∠DBE या ∠EBD। ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)। विद्या ने अभी अपनी पुस्तक खोली है। आइए, पुस्तक के कवर को खोलते हुए भिन्न स्थितियों का अवलोकन करते हैं। स्थिति 1 स्थिति 2 स्थिति 3 स्थिति 4 स्थिति 5 स्थिति 6",
+      "similarity": 0.4562,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R03",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig. 2.9). Vidya has just opened her book. Let us observe her opening the cover of the book in different scenarios. Case 1 Case 2 Case 3 Case 4 Case 5 Case 6",
+      "similarity": 0.6036,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "6. Here is a ray OA (Fig. 2.7). It starts at O and passes through the point A. It also passes through the point B. a. Can you also name it as OB ? Why? b. Can we write OAas AO? Why or why not? An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig. 2.8). The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case,",
+      "similarity": 0.504,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R04",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "कोण को कोण DBE या कोण EBD कहा जा सकता है। शब्द ‘कोण’ को चिह्न ‘∠’ से भी दर्शाया जा सकता है, जैसे— ∠DBE या ∠EBD। ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)। विद्या ने अभी अपनी पुस्तक खोली है। आइए, पुस्तक के कवर को खोलते हुए भिन्न स्थितियों का अवलोकन करते हैं। स्थिति 1 स्थिति 2 स्थिति 3 स्थिति 4 स्थिति 5 स्थिति 6",
+      "similarity": 0.5397,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "6. आकृति 2.7 में OA एक किरण है। यह O से शुरू होती है और बिंदु A से गुजरती है। यह बिंदु B से भी गुजरती है। a. क्या हम इसे OB भी नाम दे सकते हैं? क्यों? b. क्या हम OA को AO लिख सकते हैं? क्यों अथवा क्यों प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है। B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस",
+      "similarity": 0.53,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R05",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "360 equal angles or parts. The angle measure of each of these unit parts is 1 degree, which is written as 1°. This unit part is used to assign measure to any angle: the measure of an angle is the number of 1° unit parts it contains inside it. For example, see this figure: It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees? As we have taken it to contain 360 degrees, its measure is 360°. What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the",
+      "similarity": 0.7245,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+      "similarity": 0.6897,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R06",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "इस इकाई भाग का प्रयोग किसी भी कोण को मापने के लिए किया जाता है। किसी कोण का माप इसमें निहित 1o इकाई भागों की संख्या होती है। उदाहरण के लिए, नीचे दिया गया चित्र देखिए— इसमें 1o कोण की 30 इकाइयाँ हैं और इसलिए हम कहते हैं कि इसका माप 30o है। विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा? जैसा कि ऊपर हमने 360 डिग्री माना तो इसका माप 360° है। एक सरल कोण का डिग्री माप क्या होगा? एक सरल कोण, पूर्ण घुमाव का आधा होता है। क्योंकि पूर्ण घुमाव 360° है तथा पूर्ण घुमाव का आधा 180° होता है। एक समकोण का डिग्री माप क्या होगा? दो समकोण मिलकर एक सरल कोण बनाते हैं। चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर",
+      "similarity": 0.642,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+      "similarity": 0.2778,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R07",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "2. Use a protractor to draw angles having the following degree measures: a. 110° b. 40° c. 75° d. 112° e. 134° 3. Draw an angle whose degree measure is the same as the angle given below: Also, write down the steps you followed to draw the angle. 2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°. How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.594,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures. 2. Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+      "similarity": 0.5746,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "4. \u0007Get a slanting crease on the paper. Now, try to get another crease that is perpendicular to the slanting crease. a. \u0007How many right angles do you have now? Justify why the angles are exact right angles. b. \u0007Describe how you folded the paper so that any other person who doesn’t know the process can simply follow your description to get the right angle. Angles are classified in three groups as shown below. Right angles are shown in the second group. What could be the common feature of the other two groups? In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute",
+      "similarity": 0.3084,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R08",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "2. चाँदे की सहायता से निम्न डिग्री माप के कोण बनाइए— a. 110 o b. 40 o c. 75 o d. 112 o e. 134o 3. एक कोण बनाइए जिसका डिग्री माप नीचे दिए गए कोण के समान हो। इस कोण को बनाने में प्रयुक्त सभी चरणों को भी लिखिए। 2.11 कोणों के प्रकार और उनके माप हमने इस अध्याय में विभिन्न प्रकार के कोणों के विषय में पढ़ा। हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+      "similarity": 0.6462,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+      "similarity": 0.6115,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "4. कागज को घुमाकर तिरछा निशान बनाइए। अब एक अन्य निशान बनाइए जो पिछले तिरछे निशान पर लब हो। a. अब आपके पास कितने समकोण हैं? तर्क संगत उर दीजिए कि ये कोण पूर्णतया समकोण क्यों हैं? b. वर्णन कीजिए कि आपने इसे कैसे मोड़ा ताकि जो व्यक्ति इस प्रक्रिया को करना नहीं जानता वह आपकी प्रक्रिया का अनुसरण करके समकोण बना सके। कोणों का वर्गीकरण जैसा कि नीचे दिखाया गया है कि कोणों को तीन समूहों में वर्गीकृत किया जाता है। सभी समकोण दूसरे समूह में हैं। अन्य दोनों समूहों में क्या समान विशेषता है? पहले समूह में सभी कोण समकोण से कम हैं। अर्थात् दूसरे शब्दों में कह सकते हैं कि एक कोण पूर्ण घुमाव के चतुर्थांश से कम है। इस तरह के कोणों को न्यून कोण (Acute Angle) कहते",
+      "similarity": 0.4187,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R09",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 4,
+      "excerpt": "neighbouring cells are those that are immediately to the left, right, top and bottom. \u0007The rule remains the same­: a cell becomes a supercell if the number in it is greater than all the numbers in its neighbouring cells. In Table 1, 8632 is greater than all its neighbours 4580, 8280, 4795 and 1944. Complete Table 2 with 5-digit numbers whose digits are ‘1’, ‘0’, ‘6’, ‘3’, and ‘9’ in some order. Only a coloured cell should have a number greater than all its neighbours. The biggest number in the table is ____________ .",
+      "similarity": 0.3927,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "6. Can you fill a supercell table without repeating numbers such that there are no supercells? Why or why not? 7. Will the cell having the largest number in a table always be a supercell? Can the cell having the smallest number in a table be a supercell? Why or why not? 8. Fill a table such that the cell having the second largest number is not a supercell. 9. Fill a table such that the cell having the second largest number is not a supercell but the second smallest number is a supercell. Is it possible? 10. Make other variations of this puzzle and challenge your classmates. Let’s do the supercells activity with more rows. Here the",
+      "similarity": 0.2059,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R10",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 4,
+      "excerpt": "पंक्तियों के साथ करते हैं। दी गई सारणियों में समीपवर्ती कोष्ठ वे हैं, जो एकदम बाएँ, दाएँ, ऊपर और नीचे हैं। नियम वही रहेंगे— एक कोष्ठ महाकोष्ठ होगा, यदि उसमें अंकित संख्या उसके समीपवर्ती कोष्ठों में अंकित संख्या से बड़ी हो। सारणी 1 में संख्या 8632 उसकी सभी समीपवर्ती संख्याओं 4580, 8280, 4795, 1944 से बड़ी है। 1, 0, 6, 3 और 9 अंकों का किसी भी क्रम में प्रयोग करके पाँच अंकों की संख्याएँ बनाइए और सारणी 2 को पूरा कीजिए। केवल रंगीन कोष्ठ में समीपवर्ती कोष्ठों की संख्याओं से बड़ी होनी चाहिए। सारणी में सबसे बड़ी संख्या __________ है। सारणी में सबसे छोटी सम संख्या _______ है।",
+      "similarity": 0.3917,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "6. क्या आप संख्याओं को बिना दोहराए एक रिक्त महाकोष्ठ सारणी को इस प्रकार भर सकते हैं कि उसमें कोई महाकोष्ठ न हो? क्यों या क्यों नहीं? 7. क्या एक सारणी में सबसे बड़ी संख्या वाला कोष्ठ, हमेशा महाकोष्ठ होगा? क्या एक सारणी में सबसे छोटी संख्या वाला कोष्ठ एक महाकोष्ठ हो सकता है? क्यों या क्यों नहीं? 8. एक सारणी को इस प्रकार से भरिए कि दूसरी सबसे बड़ी संख्या वाला कोष्ठ, महाकोष्ठ न हो। 9. एक सारणी को इस प्रकार से भरिए कि दूसरी सबसे बड़ी संख्या वाला कोष्ठ, महाकोष्ठ न हो, लेकिन दूसरी सबसे छोटी संख्या वाला कोष्ठ एक महाकोष्ठ हो? क्या यह संभव है? 10. इस पहेली के अन्य रूप बनाइए और अपने सहपाठियों को चुनौती दीजिए। आइए, इस महाकोष्ठ वाले क्रियाकलाप को और अधिक",
+      "similarity": 0.278,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R11",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "We start writing numbers from 1, 2, 3 ... and so on. There are nine 1-digit numbers. Find out how many numbers have two digits, three digits, four digits, and five digits. Komal observes that when she adds up digits of certain numbers the sum is the same. For example, adding the digits of the number 68 will be same as adding the digits of 176 or 545. 1. Digit sum 14 a. Write other numbers whose digits add up to 14. b. What is the smallest number whose digit sum is 14? c. What is the largest 5-digit whose digit sum is 14? d. How big a number can you form having the digit sum of 14? Can you make an even bigger number? 2. \u0007Find out the digit",
+      "similarity": 0.5453,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "sums of all the numbers from 40 to 70. Share your observations with the class. 3. Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345). Do you see a pattern? Will this pattern continue?",
+      "similarity": 0.4833,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R12",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "हम संख्याओं को 1, 2, 3, ... से लिखना शुरू करते हैं। 1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – – संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है। 1. अंकों का योग 14 a. अन्य संख्याएँ लिखिए जिनके अंकों का योगफल 14 है। b. वह सबसे छोटी संख्या कौन-सी है, जिसके अंकों का योगफल 14 है? c. 5 अंकों की वह सबसे बड़ी संख्या कौन-सी है, जिसके अंकों का योगफल 14 है? d. वह बड़ी से बड़ी कौन-सी संख्या बनाई जा सकती",
+      "similarity": 0.7755,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "है, जिसके अंकों का योगफल 14 है? क्या आप इससे भी बड़ी संख्या बता सकते हैं? 2. 40 से 70 तक की सभी संख्याओं के अंकों का योगफल ज्ञात कीजिए। अपने अवलोकन को कक्षा के साथ साझा कीजिए। 3. 3 अंकों की उन संख्याओं का योगफल ज्ञात कीजिए, जिनके अंक क्रमागत (जैसे– 345) हों। क्या आप उनमें एक पैटर्न देखते हैं? क्या यह पैटर्न जारी रहेगा?",
+      "similarity": 0.6277,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R01",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 19,
+      "excerpt": "angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures. 2. Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+      "similarity": 0.6575,
+      "concepts": null
+     },
+     {
+      "pdf_page": 11,
+      "excerpt": "who is making a bigger angle. Let us first draw their angles. How do we know which one is bigger? As seen",
+      "similarity": 0.6568,
+      "concepts": null
+     },
+     {
+      "pdf_page": 28,
+      "excerpt": "Think! \u0007In Fig. 2.19, we have ∠AOB = ∠BOC = ∠COD = ∠DOE = ∠EOF = ∠FOG = ∠GOH = ∠HOI=_____. Why? At each step, we folded in halves. This process of getting half of a given angle is called bisecting the angle. The line that bisects a given angle is called the angle bisector of the angle. Identify the angle bisectors in your handmade protractor. Try to make different angles using the concept of angle bisector through paper folding. 1. Find the degree measures of the following angles using your protractor. 2. Find the degree measures of different angles in your classroom using your protractor. Teacher’s Note It is important that students make",
+      "similarity": 0.6475,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R02",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 10,
+      "excerpt": "अध्यारोपण (superimposition) द्वारा कोणों की तुलना अध्यारोपण द्वारा किन्हीं दो कोणों की तुलना एक कोण को दूसरे पर रखकर की जा सकती है। अध्यारोपण करते हुए कोणों के शीर्ष एक दूसरे पर होने चाहिए। अध्यारोपण के बाद यह स्पष्ट हो जाता है कि कौन-सा कोण छोटा है और कौन-सा कोण बड़ा है। आकृति में दो कोणों को अध्यारोपित किया गया है। अत: आकृति से यह स्पष्ट है कि ∠PQR, ∠ABC से बड़ा है। समान कोण— आकृति में दर्शाए गए ∠AOB और ∠XOY में से कौन-सा बड़ा है? दोनों कोणों के शीर्ष एक समान हैं और दोनों कोणों की भुजाएँ एक दूसरे को पूरी तरह से अध्यारोपित कर रही हैं, जैसे— OA↔OX और OB↔OY। अतः ये दोनों कोण आकार में एक समान हैं। इन दोनों कोणों के माप एकसमान हैं क्योंकि ये",
+      "similarity": 0.7133,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "क्या आप प्रत्येक स्थिति में बनते हुए कोण को देख पा रहे हैं? क्या आप कोण को उसकी भुजाओं और शीर्ष के साथ अंकित कर सकते हैं? कौन-सा कोण बड़ा है— पहली स्थिति का कोण या दूसरी स्थिति का कोण? जिस प्रकार हम एक रेखा की लंबाई के आधार पर उसके आकार के विषय में चर्चा करते हैं, उसी प्रकार हम घुमाव की मात्रा के आधार पर एक कोण के आकार के विषय में भी चर्चा करते हैं। अत: स्थिति 2 का कोण अपेक्षाकृत बड़ा है, क्योंकि इस स्थिति में उसे कवर को अधिक घुमाने की आवश्यकता है। इसी प्रकार स्थिति 3 में कोण स्थिति 2 से भी बड़ा है, क्योंकि वहाँ और भी अधिक घुमाव है तथा स्थिति 4, 5 और 6 अधिक घुमाव के साथ क्रमिक रूप से बड़े कोण हैं। एक कोण का माप या आकार घूर्णन या मोड़ की वह",
+      "similarity": 0.6968,
+      "concepts": null
+     },
+     {
+      "pdf_page": 11,
+      "excerpt": "सकते हैं अर्थात कौन अधिक बड़ा कोण बनाएगा। आइए, पहले इनके कोण बनाते हैं। हम यह कैसे पता लगा सकते हैं कि कौन-सा कोण बड़ा है? जैसा हमने पहले देखा कि",
+      "similarity": 0.688,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R03",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 19,
+      "excerpt": "angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures. 2. Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+      "similarity": 0.6228,
+      "concepts": null
+     },
+     {
+      "pdf_page": 12,
+      "excerpt": "by the second crane so that the vertex coincides with the centre of the circle and one of the arms passes through OA. Can you now tell which angle is bigger?",
+      "similarity": 0.6096,
+      "concepts": null
+     },
+     {
+      "pdf_page": 20,
+      "excerpt": "came up with an idea. They divided the angle in the centre of the circle into",
+      "similarity": 0.6069,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R04",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 10,
+      "excerpt": "अध्यारोपण (superimposition) द्वारा कोणों की तुलना अध्यारोपण द्वारा किन्हीं दो कोणों की तुलना एक कोण को दूसरे पर रखकर की जा सकती है। अध्यारोपण करते हुए कोणों के शीर्ष एक दूसरे पर होने चाहिए। अध्यारोपण के बाद यह स्पष्ट हो जाता है कि कौन-सा कोण छोटा है और कौन-सा कोण बड़ा है। आकृति में दो कोणों को अध्यारोपित किया गया है। अत: आकृति से यह स्पष्ट है कि ∠PQR, ∠ABC से बड़ा है। समान कोण— आकृति में दर्शाए गए ∠AOB और ∠XOY में से कौन-सा बड़ा है? दोनों कोणों के शीर्ष एक समान हैं और दोनों कोणों की भुजाएँ एक दूसरे को पूरी तरह से अध्यारोपित कर रही हैं, जैसे— OA↔OX और OB↔OY। अतः ये दोनों कोण आकार में एक समान हैं। इन दोनों कोणों के माप एकसमान हैं क्योंकि ये",
+      "similarity": 0.6927,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "मात्रा है जो पहली किरण को दूसरी किरण तक ले जाने के लिए शीर्ष के परत आवश्यक है। घुमाव की मात्रा कोण का आकार है। शीर्ष किरण की प्रारंभिक स्थिति आइए, दैनिक जीवन से कुछ उदाहरण लेते हैं, जहाँ घूर्णन या घुमाव से कोण बनते हैं— • एक परकार (कम्पास) या डिवाइडर की भुजाओं को घुमाने पर एक कोण बनता है। शीर्ष वह बिंदु है जहाँ दोनों भुजाएँ मिलती या जुड़ती हैं। कोण की भुजाओं और शीर्ष को पहचानिए। • एक कैंची में दो ब्लेड होते हैं। जब हम उन्हें कुछ काटने के लिए खोलते (या घुमाते) हैं तो एक कोण बनता है। कोण की भुजाओं और शीर्ष को पहचानिए।",
+      "similarity": 0.6389,
+      "concepts": null
+     },
+     {
+      "pdf_page": 23,
+      "excerpt": "यहाँ एक कोणमापक चाँदा दिया गया है। क्या आप इसके केंद्र में सरल कोण देख रहे हैं, जिसे 1 अंश (डिग्री) के 180 भागों में बाँटा गया है? यद्यपि सरल कोण को बाँटने वाली रेखाओं के कुछ भाग दृश्यमान हैं। आधार रेखा के सबसे दाएँ भाग से चिह्नांकित करते हुए, प्रत्येक 10o पर एक लंबा चिह्न है। इस प्रकार के प्रत्येक लंबे चिह्न से 5o के बाद एक मध्यम आकार का चिह्न है। 1. निम्नलिखित कोणों के माप लिखिए a. ∠KAL ध्यान दीजिए कि इस कोण का शीर्ष बिंदु कोणमापक के केंद्रबिंदु पर संपाती है। अत: KA एवं AL के बीच 1o कोणों की इकाइयों की संख्या से कोण KAL की माप पता चलती है। गिनने पर, हम पाते हैं— ∠KAL = 30o क्या मध्यम आकार के चिह्नों एवं बड़े आकार के चिह्नों का उपयोग करते",
+      "similarity": 0.6344,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R05",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "360 equal angles or parts. The angle measure of each of these unit parts is 1 degree, which is written as 1°. This unit part is used to assign measure to any angle: the measure of an angle is the number of 1° unit parts it contains inside it. For example, see this figure: It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees? As we have taken it to contain 360 degrees, its measure is 360°. What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the",
+      "similarity": 0.7245,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+      "similarity": 0.6897,
+      "concepts": null
+     },
+     {
+      "pdf_page": 38,
+      "excerpt": "2. Use a protractor to draw angles having the following degree measures: a. 110° b. 40° c. 75° d. 112° e. 134° 3. Draw an angle whose degree measure is the same as the angle given below: Also, write down the steps you followed to draw the angle. 2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°. How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.6784,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R06",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "इस इकाई भाग का प्रयोग किसी भी कोण को मापने के लिए किया जाता है। किसी कोण का माप इसमें निहित 1o इकाई भागों की संख्या होती है। उदाहरण के लिए, नीचे दिया गया चित्र देखिए— इसमें 1o कोण की 30 इकाइयाँ हैं और इसलिए हम कहते हैं कि इसका माप 30o है। विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा? जैसा कि ऊपर हमने 360 डिग्री माना तो इसका माप 360° है। एक सरल कोण का डिग्री माप क्या होगा? एक सरल कोण, पूर्ण घुमाव का आधा होता है। क्योंकि पूर्ण घुमाव 360° है तथा पूर्ण घुमाव का आधा 180° होता है। एक समकोण का डिग्री माप क्या होगा? दो समकोण मिलकर एक सरल कोण बनाते हैं। चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर",
+      "similarity": 0.642,
+      "concepts": null
+     },
+     {
+      "pdf_page": 20,
+      "excerpt": "आकृति 2.12 कोणों के यथावत माप नियत करने के लिए गणितज्ञों को एक विचार आया। उन्होंने वृत्त के केंद्र पर बने कोण को 360 बराबर कोणों या भागों में विभाजित किया। इन सभी बराबर इकाई भागों का माप 1 अंश है, जिसे 1o लिखा जाता है।",
+      "similarity": 0.6378,
+      "concepts": null
+     },
+     {
+      "pdf_page": 10,
+      "excerpt": "अध्यारोपण (superimposition) द्वारा कोणों की तुलना अध्यारोपण द्वारा किन्हीं दो कोणों की तुलना एक कोण को दूसरे पर रखकर की जा सकती है। अध्यारोपण करते हुए कोणों के शीर्ष एक दूसरे पर होने चाहिए। अध्यारोपण के बाद यह स्पष्ट हो जाता है कि कौन-सा कोण छोटा है और कौन-सा कोण बड़ा है। आकृति में दो कोणों को अध्यारोपित किया गया है। अत: आकृति से यह स्पष्ट है कि ∠PQR, ∠ABC से बड़ा है। समान कोण— आकृति में दर्शाए गए ∠AOB और ∠XOY में से कौन-सा बड़ा है? दोनों कोणों के शीर्ष एक समान हैं और दोनों कोणों की भुजाएँ एक दूसरे को पूरी तरह से अध्यारोपित कर रही हैं, जैसे— OA↔OX और OB↔OY। अतः ये दोनों कोण आकार में एक समान हैं। इन दोनों कोणों के माप एकसमान हैं क्योंकि ये",
+      "similarity": 0.6137,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R07",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "2. Use a protractor to draw angles having the following degree measures: a. 110° b. 40° c. 75° d. 112° e. 134° 3. Draw an angle whose degree measure is the same as the angle given below: Also, write down the steps you followed to draw the angle. 2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°. How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.594,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures. 2. Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+      "similarity": 0.5746,
+      "concepts": null
+     },
+     {
+      "pdf_page": 40,
+      "excerpt": "Mark the intended angles with curves to specify the angles. One has been done for you. 2. Use a protractor to find the measure of each angle. Then classify each angle as acute, obtuse, right, or reflex. a. ∠PTR b. ∠PTQ c. ∠PTW d. ∠WTP",
+      "similarity": 0.5738,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R08",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 42,
+      "excerpt": "की मात्रा या कोण की एक भुजा को शीर्ष से परत, दूसरी भुजा तक लाने के लिए जितना घुमाव आवश्यक होता है, वही कोण का आकार (size) होता है। कोणों के आकार को अंशों (डिग्री) में मापा जाता है। एक पूर्ण घुमाव या मोड 360 डिग्री माना जाता है जिसे ‘360o’ से व्यक्त किया जाता है। किसी कोण के डिग्री माप को चाँद की सहायता से माप सकते हैं। कोण, सरल कोण (180o), समकोण (90o), न्यून कोण (0o से अधिक और 90o से कम), अधिक कोण (90o से अधिक और 180o से कम) और प्रतिवर्ती कोण (180o से अधिक और 360o से कम), हो सकते हैं।",
+      "similarity": 0.6939,
+      "concepts": null
+     },
+     {
+      "pdf_page": 39,
+      "excerpt": "अधिक कोण (Obtuse angle)— वे कोण जो समकोण से बड़े हैं और सरल कोण से छोटे हैं अर्थात् 90o से अधिक और 180o से कम होते हैं, अधिक कोण कहलाते हैं। अधिक कोण के उदाहरण क्या हमने कोणों के सभी संभावित मानों का मापन किया? यहाँ एक अन्य प्रकार का कोण दिया है। प्रतिवर्ती कोण (Reflex angle)— वे कोण जो सरल कोण से बड़े हों और पूर्ण कोण से छोटे हों अर्थात् 180o से बड़े और 360o से छोटे होते हैं, प्रतिवर्ती कोण कहलाते हैं। 1. नीचे दिए गए प्रत्येक ग्रिड में, बिंदु A को ग्रिड के दूसरे बिंदुओं से एक सरल रेखा से इस प्रकार मिलान कीजिए कि हमें— a. एक न्यून कोण प्राप्त हो।",
+      "similarity": 0.6893,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "इस इकाई भाग का प्रयोग किसी भी कोण को मापने के लिए किया जाता है। किसी कोण का माप इसमें निहित 1o इकाई भागों की संख्या होती है। उदाहरण के लिए, नीचे दिया गया चित्र देखिए— इसमें 1o कोण की 30 इकाइयाँ हैं और इसलिए हम कहते हैं कि इसका माप 30o है। विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा? जैसा कि ऊपर हमने 360 डिग्री माना तो इसका माप 360° है। एक सरल कोण का डिग्री माप क्या होगा? एक सरल कोण, पूर्ण घुमाव का आधा होता है। क्योंकि पूर्ण घुमाव 360° है तथा पूर्ण घुमाव का आधा 180° होता है। एक समकोण का डिग्री माप क्या होगा? दो समकोण मिलकर एक सरल कोण बनाते हैं। चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर",
+      "similarity": 0.6797,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R09",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 9,
+      "excerpt": "Follow these steps and experience the magic for yourselves! Pick any 4-digit number having at least two different digits, say 6382. Make the largest number from these Make the smallest number from these A = 8632 A = 6642 A = 7641 A = B = 2368 B = 2466 B = 1467 B = C = 8632–2368 C = 6642–2466 C = 7641–1467 C = = 6264 = 4176 = 6174 Take different 4-digit numbers and try carrying out these steps. Find out what happens. Check with your friends what they got. You will always reach the magic number ‘6174’! The number ‘6174’ is now called the ‘Kaprekar constant’. Carry out these same steps with a few 3-digit numbers. What number will start",
+      "similarity": 0.5068,
+      "concepts": null
+     },
+     {
+      "pdf_page": 11,
+      "excerpt": "the sides (1500 + 1500 + 400 = 3400). The numbers in the middle can be used as many times as needed to get the desired sum. Draw arrows from the middle to the numbers on the sides to obtain the desired sums. Two examples are given. It is simpler to do it mentally! 38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400",
+      "similarity": 0.4835,
+      "concepts": null
+     },
+     {
+      "pdf_page": 12,
+      "excerpt": "5-digit to give a difference 4-digit + 4-digit to give a 6-digit sum 5-digit + 3-digit to give a 6-digit sum 5-digit + 5-digit to give a 6-digit sum 5-digit + 5-digit to give 18,500 5-digit − 5-digit to give 91,500",
+      "similarity": 0.46,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R10",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "सारणी में 50,000 से बड़ी, सबसे छोटी संख्या ____________ है। दी गई सारणी को पूरा भरकर, हजार के अंक के बाद उपयुक्त स्थान पर अल्प-विराम (,) लगाइए। 3.3 संख्या रेखा पर संख्याओं के पैटर्न अब हम संख्या रेखा से भली-भाँति परिचित हैं। आइए, देखते हैं कि क्या हम कुछ संख्याओं को संख्या रेखा पर उनके उपयुक्त स्थान पर रख सकते हैं। यहाँ संख्याएँ 2180, 2754, 1500, 3600, 9950, 9590, 1050, 3050, 5030, 5300 और 8400 हैं। 3000 4000 5000 6000 7000 8000 9000 10,000 नीचे दी गई संख्या रेखा पर चिह्नित संख्या को पहचानकर, नीचे दिए गए संख्या अनुक्रमों को पूरा कीजिए। उपरोक्त अनुक्रमों में सबसे छोटी संख्या पर गोला लगाइए तथा सबसे बड़ी संख्या पर बॉक्स बनाइए।",
+      "similarity": 0.5155,
+      "concepts": null
+     },
+     {
+      "pdf_page": 12,
+      "excerpt": "एक उदाहरण है— 48,952 – 24,547 = 24,405 1. नीचे दी गई प्रत्येक स्थिति के लिए जहाँ भी संभव हो, वहाँ एक उदाहरण लिखिए। 5 अंकों की संख्या + 5 अंकों की संख्या से प्राप्त 5 अंकों की 5 अंकों की संख्या + 3 अंकों की संख्या से 6 अंकों 4 अंकों की संख्या + 4 अंकों की संख्या से 6 अंकों 5 अंकों की संख्या + 5 अंकों की संख्या से 6 अंकों 5 अंकों की संख्या + 5 अंकों की संख्या से संख्या 5 अंकों की संख्या – 5 अंकों की संख्या 5 अंकों की संख्या – 3 अंकों की संख्या से 4 अंकों 5 अंकों की संख्या – 4 अंकों की संख्या से 4 अंकों 5 अंकों की संख्या – 5 अंकों की संख्या से संख्या 5 अंकों की संख्या – 5 अंकों की संख्या से 3 अंकों",
+      "similarity": 0.4908,
+      "concepts": null
+     },
+     {
+      "pdf_page": 10,
+      "excerpt": "चुनिए— a. सबसे बड़ी तथा सबसे छोटी संख्या का अंतर 5085 से अधिक हो। b. सबसे बड़ी तथा सबसे छोटी संख्या का अंतर 5085 से कम हो।",
+      "similarity": 0.4199,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R11",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 12,
+      "excerpt": "5-digit to give a difference 4-digit + 4-digit to give a 6-digit sum 5-digit + 3-digit to give a 6-digit sum 5-digit + 5-digit to give a 6-digit sum 5-digit + 5-digit to give 18,500 5-digit − 5-digit to give 91,500",
+      "similarity": 0.556,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "We start writing numbers from 1, 2, 3 ... and so on. There are nine 1-digit numbers. Find out how many numbers have two digits, three digits, four digits, and five digits. Komal observes that when she adds up digits of certain numbers the sum is the same. For example, adding the digits of the number 68 will be same as adding the digits of 176 or 545. 1. Digit sum 14 a. Write other numbers whose digits add up to 14. b. What is the smallest number whose digit sum is 14? c. What is the largest 5-digit whose digit sum is 14? d. How big a number can you form having the digit sum of 14? Can you make an even bigger number? 2. \u0007Find out the digit",
+      "similarity": 0.5453,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "sums of all the numbers from 40 to 70. Share your observations with the class. 3. Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345). Do you see a pattern? Will this pattern continue?",
+      "similarity": 0.4833,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R12",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "हम संख्याओं को 1, 2, 3, ... से लिखना शुरू करते हैं। 1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – – संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है। 1. अंकों का योग 14 a. अन्य संख्याएँ लिखिए जिनके अंकों का योगफल 14 है। b. वह सबसे छोटी संख्या कौन-सी है, जिसके अंकों का योगफल 14 है? c. 5 अंकों की वह सबसे बड़ी संख्या कौन-सी है, जिसके अंकों का योगफल 14 है? d. वह बड़ी से बड़ी कौन-सी संख्या बनाई जा सकती",
+      "similarity": 0.7755,
+      "concepts": null
+     },
+     {
+      "pdf_page": 7,
+      "excerpt": "अंक जासूस 1 से 100 तक संख्याएँ लिखने के पश्चात् दिनेश को आश्चर्य होता है कि उसने कितनी बार अंक ‘7’ लिखा। 1 से 100 तक की संख्याओं में, अंक ‘7’ कितनी बार आएगा? 1 से 1000 तक की संख्याओं में, अंक ‘7’ कितनी बार आएगा? 3.5 आकर्षक विलोमाक्षर पैटर्न (Palendromic Patterns) आप दी गई संख्याओं में क्या पैटर्न देखते हैं— 66, 848, 575, 797, 1111 इन संख्याओं को बाएँ से दाएँ तथा दाएँ से बाएँ एक जैसा पढ़ा जाता है, देखिए एवं प्रयास कीजिए। ऐसी संख्याओं को पैलिंड्रोम या पैलिंड्रोमिक संख्याएँ कहते हैं। 1, 2, 3 अंकों का प्रयोग करते हुए सभी पैलिंड्रोमिक संख्याएँ संख्याएँ 1, 2, 3 अंकों का प्रयोग करके बनी कुछ पैलिंड्रोम संख्याएँ 121, 313 और 222 हैं। इन अंकों की",
+      "similarity": 0.7219,
+      "concepts": null
+     },
+     {
+      "pdf_page": 13,
+      "excerpt": "है, एक 6 अंकों की संख्या। d. 5 अंकों की संख्या – 5 अंकों की संख्या से प्राप्त होती है, एक 5 अंकों की संख्या। e. 5 अंकों की संख्या – 2 अंकों की संख्या से प्राप्त होती है, एक 3 अंकों की संख्या। 3.9 संख्या पैटर्न के साथ खेलना नीचे कुछ संख्याओं को कुछ पैटर्नों में व्यवस्थित किया गया है। नीचे दी गई प्रत्येक आकृति में संख्याओं का योगफल ज्ञात कीजिए। क्या हमें उन्हें एक-एक करके जोड़ना चाहिए या इसके लिए हम किसी शीघ्र विधि का उपयोग कर हल कर सकते हैं? इन प्रश्नों को हल करने के लिए आपने जिन अलग-अलग विधियों का प्रयोग किया है, उसे कक्षा में साझा कीजिए और चर्चा कीजिए।",
+      "similarity": 0.709,
+      "concepts": null
+     }
+    ]
+   }
+  ],
+  "semantic": [
+   {
+    "case_id": "R01",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig.",
+      "similarity": 0.7248,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD.",
+      "similarity": 0.6845,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "To indicate an angle, we use a small curve at the vertex (refer to Fig.",
+      "similarity": 0.5875,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R02",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है। B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है।",
+      "similarity": 0.6329,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)।",
+      "similarity": 0.5852,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "यह O से शुरू होती है और बिंदु A से गुजरती है। यह बिंदु B से भी गुजरती है।",
+      "similarity": 0.5101,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R03",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD.",
+      "similarity": 0.7113,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig.",
+      "similarity": 0.646,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "Note that in specifying the angle, the vertex is always written as the middle letter.",
+      "similarity": 0.6442,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R04",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)।",
+      "similarity": 0.6607,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है। B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है।",
+      "similarity": 0.6448,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "यह O से शुरू होती है और बिंदु A से गुजरती है। यह बिंदु B से भी गुजरती है।",
+      "similarity": 0.5122,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R05",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees? As we have taken it to contain 360 degrees, its measure is 360°. What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°.",
+      "similarity": 0.7221,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "360 equal angles or parts. The angle measure of each of these unit parts is 1 degree, which is written as 1°. This unit part is used to assign measure to any angle: the measure of an angle is the number of 1° unit parts it contains inside it.",
+      "similarity": 0.6608,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "The division of a circle into",
+      "similarity": 0.3775,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R06",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा?",
+      "similarity": 0.6891,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "एक समकोण का डिग्री माप क्या होगा?",
+      "similarity": 0.6716,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "इस इकाई भाग का प्रयोग किसी भी कोण को मापने के लिए किया जाता है। किसी कोण का माप इसमें निहित 1o इकाई भागों की संख्या होती है।",
+      "similarity": 0.592,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R07",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 19,
+      "excerpt": "Identify acute, right, obtuse and straight angles in the previous figures.",
+      "similarity": 0.645,
+      "concepts": null
+     },
+     {
+      "pdf_page": 38,
+      "excerpt": "How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.628,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+      "similarity": 0.6016,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R08",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+      "similarity": 0.7848,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है।",
+      "similarity": 0.681,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए।",
+      "similarity": 0.6491,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R09",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 4,
+      "excerpt": "In Table 1, 8632 is greater than all its neighbours 4580, 8280, 4795 and 1944. Complete Table 2 with 5-digit numbers whose digits are ‘1’, ‘0’, ‘6’, ‘3’, and ‘9’ in some order.",
+      "similarity": 0.4941,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "The biggest number in the table is ____________ .",
+      "similarity": 0.412,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "6.",
+      "similarity": 0.344,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R10",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 4,
+      "excerpt": "सारणी में सबसे बड़ी संख्या __________ है। सारणी में सबसे छोटी सम संख्या _______ है।",
+      "similarity": 0.4032,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "एक सारणी में सबसे छोटी संख्या वाला कोष्ठ एक महाकोष्ठ हो सकता है?",
+      "similarity": 0.3064,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "1, 0, 6, 3 और 9 अंकों का किसी भी क्रम में प्रयोग करके पाँच अंकों की संख्याएँ बनाइए और सारणी 2 को पूरा कीजिए।",
+      "similarity": 0.3046,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R11",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345).",
+      "similarity": 0.7004,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "How big a number can you form having the digit sum",
+      "similarity": 0.6927,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "What is the largest 5-digit whose digit sum is 14?",
+      "similarity": 0.6509,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R12",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – – संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है।",
+      "similarity": 0.7567,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "वह बड़ी से बड़ी कौन-सी संख्या बनाई जा सकती है, जिसके अंकों का योगफल",
+      "similarity": 0.7452,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "हम संख्याओं को 1, 2, 3, ...",
+      "similarity": 0.6986,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R01",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 15,
+      "excerpt": "In this case, observe the arms of the angle formed.",
+      "similarity": 0.7488,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig.",
+      "similarity": 0.7248,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "Let’s look at some other examples where angles arise in real life by rotation or turn:\b • In a compass or divider, we turn the arms to form an angle. The vertex is the point where the two arms are joined. Identify the arms and vertex of the angle.",
+      "similarity": 0.718,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R02",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 33,
+      "excerpt": "कोण बनाती हैं।",
+      "similarity": 0.8597,
+      "concepts": null
+     },
+     {
+      "pdf_page": 33,
+      "excerpt": "कोण कहाँ हैं?",
+      "similarity": 0.8525,
+      "concepts": null
+     },
+     {
+      "pdf_page": 15,
+      "excerpt": "इस स्थिति में भुजाओं के बीच बने कोण का अवलोकन कीजिए। ऐसे कोण को सरल कोण (Straight Angle) कहते हैं।",
+      "similarity": 0.7975,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R03",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 34,
+      "excerpt": "What will be the arms of the angle and the vertex?",
+      "similarity": 0.7148,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD.",
+      "similarity": 0.7113,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "Identify the arms and the vertex of the angle.",
+      "similarity": 0.7015,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R04",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 33,
+      "excerpt": "कोण का शीर्ष और कोण की भुजाएँ क्या होंगी?",
+      "similarity": 0.746,
+      "concepts": null
+     },
+     {
+      "pdf_page": 23,
+      "excerpt": "निम्नलिखित कोणों के माप लिखिए a. ∠KAL ध्यान दीजिए कि इस कोण का शीर्ष बिंदु कोणमापक के केंद्रबिंदु पर संपाती है।",
+      "similarity": 0.7455,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "कोण की भुजाओं और शीर्ष को पहचानिए।",
+      "similarity": 0.7361,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R05",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 19,
+      "excerpt": "\u0007How many right angles do you have now?",
+      "similarity": 0.7525,
+      "concepts": null
+     },
+     {
+      "pdf_page": 38,
+      "excerpt": "Draw an angle whose degree measure is the same as the angle given below: Also, write down the steps you followed to draw the angle. 2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°.",
+      "similarity": 0.7301,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees? As we have taken it to contain 360 degrees, its measure is 360°. What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°.",
+      "similarity": 0.7221,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R06",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा?",
+      "similarity": 0.6891,
+      "concepts": null
+     },
+     {
+      "pdf_page": 29,
+      "excerpt": "नीचे दिए गए कोणों के अंश माप ज्ञात कीजिए।",
+      "similarity": 0.6721,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "एक समकोण का डिग्री माप क्या होगा?",
+      "similarity": 0.6716,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R07",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 41,
+      "excerpt": "Classify these angles as acute, right, obtuse or reflex angles.",
+      "similarity": 0.6918,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "Identify acute, right, obtuse and straight angles in the previous figures.",
+      "similarity": 0.645,
+      "concepts": null
+     },
+     {
+      "pdf_page": 38,
+      "excerpt": "How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.628,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R08",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+      "similarity": 0.7848,
+      "concepts": null
+     },
+     {
+      "pdf_page": 42,
+      "excerpt": "दो संलग्न तलियों के बीच कितने अंश माप का कोण होगा? दो तलियों के बीच सबसे बड़ा न्यून कोण क्या होगा?",
+      "similarity": 0.7646,
+      "concepts": null
+     },
+     {
+      "pdf_page": 41,
+      "excerpt": "निम्न अंश माप वाले कोणों को बनाए— a.",
+      "similarity": 0.7513,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R09",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 13,
+      "excerpt": "4-digit number + 2-digit number gives a 4-digit number",
+      "similarity": 0.6224,
+      "concepts": null
+     },
+     {
+      "pdf_page": 11,
+      "excerpt": "38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400",
+      "similarity": 0.6162,
+      "concepts": null
+     },
+     {
+      "pdf_page": 12,
+      "excerpt": "39,800 = 40,000 – 800 + 300 + 300 An example of adding two 5-digit numbers to get another 5-digit number is 12,350 + 24,545 = 36,895. An example of subtracting two 5-digit numbers to get another 5-digit number is 48,952 – 24,547 = 24,405.",
+      "similarity": 0.5998,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R10",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 13,
+      "excerpt": "4 अंकों की संख्या + 2 अंकों की संख्या से प्राप्त होती है, एक 4 अंकों की संख्या।",
+      "similarity": 0.5161,
+      "concepts": null
+     },
+     {
+      "pdf_page": 11,
+      "excerpt": "38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400",
+      "similarity": 0.5094,
+      "concepts": null
+     },
+     {
+      "pdf_page": 10,
+      "excerpt": "प्रतिभा अंकों ‘4’,‘7’,‘3’ और ‘2’ का उपयोग करके 4 अंकों की सबसे बड़ी संख्या 7432 तथा सबसे छोटी संख्या 2347 बनाती है। इन दोनों संख्याओं का अंतर 7432 – 2347 = 5085 है। इन दोनों संख्याओं का योगफल 9779 है।",
+      "similarity": 0.5069,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R11",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345).",
+      "similarity": 0.7004,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "How big a number can you form having the digit sum",
+      "similarity": 0.6927,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "What is the largest 5-digit whose digit sum is 14?",
+      "similarity": 0.6509,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R12",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – – संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है।",
+      "similarity": 0.7567,
+      "concepts": null
+     },
+     {
+      "pdf_page": 13,
+      "excerpt": "5 अंकों की संख्या – 2 अंकों की संख्या से प्राप्त होती है, एक 3 अंकों की संख्या। 3.9 संख्या पैटर्न के साथ खेलना नीचे कुछ संख्याओं को कुछ पैटर्नों में व्यवस्थित किया गया है। नीचे दी गई प्रत्येक आकृति में संख्याओं का योगफल ज्ञात कीजिए।",
+      "similarity": 0.7498,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "वह बड़ी से बड़ी कौन-सी संख्या बनाई जा सकती है, जिसके अंकों का योगफल",
+      "similarity": 0.7452,
+      "concepts": null
+     }
+    ]
+   }
+  ],
+  "semantic_tuned": [
+   {
+    "case_id": "R01",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "2.8). The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle.",
+      "similarity": 0.6617,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "Why or why not? An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig.",
+      "similarity": 0.6519,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig.",
+      "similarity": 0.634,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R02",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है।",
+      "similarity": 0.5674,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "क्या हम OA को AO लिख सकते हैं? क्यों अथवा क्यों प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है। B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं?",
+      "similarity": 0.4853,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "6. आकृति 2.7 में OA एक किरण है। यह O से शुरू होती है और बिंदु A से गुजरती है। यह बिंदु B से भी गुजरती है। a. क्या हम इसे OB भी नाम दे सकते हैं? क्यों? b.",
+      "similarity": 0.4578,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R03",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "2.8). The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle.",
+      "similarity": 0.7103,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig.",
+      "similarity": 0.6613,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "Why or why not? An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig.",
+      "similarity": 0.5461,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R04",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है।",
+      "similarity": 0.6356,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "क्या हम OA को AO लिख सकते हैं? क्यों अथवा क्यों प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है। B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं?",
+      "similarity": 0.5003,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "शब्द ‘कोण’ को चिह्न ‘∠’ से भी दर्शाया जा सकता है, जैसे— ∠DBE या ∠EBD। ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)।",
+      "similarity": 0.499,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R05",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°.",
+      "similarity": 0.7593,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "For example, see this figure: It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees?",
+      "similarity": 0.7063,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "As we have taken it to contain 360 degrees, its measure is 360°. What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°.",
+      "similarity": 0.6712,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R06",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "इस इकाई भाग का प्रयोग किसी भी कोण को मापने के लिए किया जाता है। किसी कोण का माप इसमें निहित 1o इकाई भागों की संख्या होती है। उदाहरण के लिए, नीचे दिया गया चित्र देखिए—",
+      "similarity": 0.6176,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "इसमें 1o कोण की 30 इकाइयाँ हैं और इसलिए हम कहते हैं कि इसका माप 30o है। विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा? जैसा कि ऊपर हमने 360 डिग्री माना तो इसका माप 360° है। एक सरल कोण का डिग्री माप क्या होगा? एक सरल कोण, पूर्ण घुमाव का आधा होता है।",
+      "similarity": 0.588,
+      "concepts": null
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "क्योंकि पूर्ण घुमाव 360° है तथा पूर्ण घुमाव का आधा 180° होता है। एक समकोण का डिग्री माप क्या होगा? दो समकोण मिलकर एक सरल कोण बनाते हैं। चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा।",
+      "similarity": 0.5626,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R07",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.628,
+      "concepts": null
+     },
+     {
+      "pdf_page": 38,
+      "excerpt": "2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°.",
+      "similarity": 0.6098,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle.",
+      "similarity": 0.5977,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R08",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+      "similarity": 0.7302,
+      "concepts": null
+     },
+     {
+      "pdf_page": 38,
+      "excerpt": "हमने इस अध्याय में विभिन्न प्रकार के कोणों के विषय में पढ़ा। हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे?",
+      "similarity": 0.7136,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए।",
+      "similarity": 0.6834,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R09",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 4,
+      "excerpt": "\u0007The rule remains the same­: a cell becomes a supercell if the number in it is greater than all the numbers in its neighbouring cells. In Table 1, 8632 is greater than all its neighbours 4580, 8280, 4795 and 1944.",
+      "similarity": 0.4049,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "Complete Table 2 with 5-digit numbers whose digits are ‘1’, ‘0’, ‘6’, ‘3’, and ‘9’ in some order. Only a coloured cell should have a number greater than all its neighbours. The biggest number in the table is ____________ .",
+      "similarity": 0.3973,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "Why or why not? 8. Fill a table such that the cell having the second largest number is not a supercell. 9. Fill a table such that the cell having the second largest number is not a supercell but the second smallest number is a supercell.",
+      "similarity": 0.3011,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R10",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 4,
+      "excerpt": "सारणी 1 में संख्या 8632 उसकी सभी समीपवर्ती संख्याओं 4580, 8280, 4795, 1944 से बड़ी है। 1, 0, 6, 3 और 9 अंकों का किसी भी क्रम में प्रयोग करके पाँच अंकों की संख्याएँ बनाइए और सारणी 2 को पूरा कीजिए।",
+      "similarity": 0.3947,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "क्या एक सारणी में सबसे छोटी संख्या वाला कोष्ठ एक महाकोष्ठ हो सकता है? क्यों या क्यों नहीं? 8. एक सारणी को इस प्रकार से भरिए कि दूसरी सबसे बड़ी संख्या वाला कोष्ठ,",
+      "similarity": 0.309,
+      "concepts": null
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "6. क्या आप संख्याओं को बिना दोहराए एक रिक्त महाकोष्ठ सारणी को इस प्रकार भर सकते हैं कि उसमें कोई महाकोष्ठ न हो? क्यों या क्यों नहीं? 7. क्या एक सारणी में सबसे बड़ी संख्या वाला कोष्ठ, हमेशा महाकोष्ठ होगा?",
+      "similarity": 0.302,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R11",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     true,
+     true,
+     true,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "2. \u0007Find out the digit sums of all the numbers from 40 to 70. Share your observations with the class. 3. Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345).",
+      "similarity": 0.5743,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "For example, adding the digits of the number 68 will be same as adding the digits of 176 or 545. 1. Digit sum 14 a. Write other numbers whose digits add up to 14.",
+      "similarity": 0.5699,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "We start writing numbers from 1, 2, 3 ... and so on. There are nine 1-digit numbers. Find out how many numbers have two digits, three digits, four digits, and five digits. Komal observes that when she adds up digits of certain numbers the sum is the same.",
+      "similarity": 0.4844,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R12",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true,
+     true,
+     true,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "हम संख्याओं को 1, 2, 3, ... से लिखना शुरू करते हैं। 1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – –",
+      "similarity": 0.8121,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है।",
+      "similarity": 0.7389,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "d. वह बड़ी से बड़ी कौन-सी संख्या बनाई जा सकती है, जिसके अंकों का योगफल 14 है? क्या आप इससे भी बड़ी संख्या बता सकते हैं? 2. 40 से 70 तक की सभी संख्याओं के अंकों का योगफल ज्ञात कीजिए।",
+      "similarity": 0.6587,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R01",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 15,
+      "excerpt": "In this case, observe the arms of the angle formed. They lie in a straight line. Such an angle is called a straight angle. Let us consider a straight angle ∠AOB. Observe that any ray OC divides it into two angles, ∠AOC and ∠COB.",
+      "similarity": 0.741,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "Let’s look at some other examples where angles arise in real life by rotation or turn:\b • In a compass or divider, we turn the arms to form an angle. The vertex is the point where the two arms are joined. Identify the arms and vertex of the angle.",
+      "similarity": 0.718,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle.",
+      "similarity": 0.6653,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R02",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 14,
+      "excerpt": "आइए, इस प्रक्रिया को कुछ और घूर्णन भुजाओं के साथ करें। झिरी कोण, (slit angle) भुजा कोण से बड़ा है। भुजाएँ, झिरी से है। भुजाएँ झिरी से गुजर रही हैं। घूर्णन भुजा का केवल वह युग्म झिरी से गुजरता है, जो झिरी कोण के समान है।",
+      "similarity": 0.7629,
+      "concepts": null
+     },
+     {
+      "pdf_page": 15,
+      "excerpt": "इस स्थिति में भुजाओं के बीच बने कोण का अवलोकन कीजिए। ऐसे कोण को सरल कोण (Straight Angle) कहते हैं। एक सरल कोण ∠AOB लीजिए। अवलोकन कीजिए कि कोई भी किरण OC उस कोण को दो कोणों ∠AOC और ∠COB में विभाजित करती है।",
+      "similarity": 0.7365,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "क्या आप प्रत्येक स्थिति में बनते हुए कोण को देख पा रहे हैं? क्या आप कोण को उसकी भुजाओं और शीर्ष के साथ अंकित कर सकते हैं? कौन-सा कोण बड़ा है— पहली स्थिति का कोण या दूसरी स्थिति का कोण?",
+      "similarity": 0.7309,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R03",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "2.8). The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle.",
+      "similarity": 0.7103,
+      "concepts": null
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig.",
+      "similarity": 0.6613,
+      "concepts": null
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+      "similarity": 0.64,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R04",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "कोण की भुजाओं और शीर्ष को पहचानिए।",
+      "similarity": 0.7361,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "शीर्ष वह बिंदु है जहाँ दोनों भुजाएँ मिलती या जुड़ती हैं। कोण की भुजाओं और शीर्ष को पहचानिए। • एक कैंची में दो ब्लेड होते हैं। जब हम उन्हें कुछ काटने के लिए खोलते (या घुमाते) हैं तो एक कोण बनता है।",
+      "similarity": 0.7241,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "क्या आप प्रत्येक स्थिति में बनते हुए कोण को देख पा रहे हैं? क्या आप कोण को उसकी भुजाओं और शीर्ष के साथ अंकित कर सकते हैं? कौन-सा कोण बड़ा है— पहली स्थिति का कोण या दूसरी स्थिति का कोण?",
+      "similarity": 0.6393,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R05",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°.",
+      "similarity": 0.7593,
+      "concepts": null
+     },
+     {
+      "pdf_page": 29,
+      "excerpt": "5. \u0007Measure and write the degree measures for each of the following angles:",
+      "similarity": 0.7217,
+      "concepts": null
+     },
+     {
+      "pdf_page": 41,
+      "excerpt": "a. 140° b. 82° c. 195° d. 70° e. 35° 2. Estimate the size of each angle and then measure it with a protractor: Classify these angles as acute, right, obtuse or reflex angles.",
+      "similarity": 0.7213,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R06",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 25,
+      "excerpt": "इन दो भुजाओं के बीच 1o कोण की कितनी इकाइयाँ सम्मिलित हैं? क्या यहाँ घटाने का उपयोग किया जा सकता है? हम कैसे बिना घटाए कोणों की माप सीधे ज्ञात कर सकते हैं?",
+      "similarity": 0.6656,
+      "concepts": null
+     },
+     {
+      "pdf_page": 27,
+      "excerpt": "आकृति में अर्धवृत्त के सिरों पर 45o और 135o सही स्थान पर लिखिए। 5. इसी प्रकार, अगले आधे घुमाव (आकृति 2.18 अनुसार) से हमें ________________ माप का कोण प्राप्त होता है। 6.",
+      "similarity": 0.6614,
+      "concepts": null
+     },
+     {
+      "pdf_page": 26,
+      "excerpt": "आकृति 2.15 के अनुसार, अर्धवृत्त को आधे से मोड़िए जिससे एक वृत्त का चतुर्थांश प्राप्त हो वृत्त के चतुर्थांश का माप, पूरे चक्कर का 1 4 होता है। पूरे चक्कर का 14 माप = 360o का 1 4 = __ या 1 4 घुमाव का माप = आधे घुमाव का 14 = 180o का 1 2 = __ अत: अर्ध वृत्त के ऊपरी सिरे पर 90o अंकित कीजिए।",
+      "similarity": 0.6273,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R07",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.628,
+      "concepts": null
+     },
+     {
+      "pdf_page": 41,
+      "excerpt": "a. 140° b. 82° c. 195° d. 70° e. 35° 2. Estimate the size of each angle and then measure it with a protractor: Classify these angles as acute, right, obtuse or reflex angles.",
+      "similarity": 0.6224,
+      "concepts": null
+     },
+     {
+      "pdf_page": 38,
+      "excerpt": "2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°.",
+      "similarity": 0.6098,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R08",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+      "similarity": 0.7302,
+      "concepts": null
+     },
+     {
+      "pdf_page": 15,
+      "excerpt": "इस स्थिति में भुजाओं के बीच बने कोण का अवलोकन कीजिए। ऐसे कोण को सरल कोण (Straight Angle) कहते हैं। एक सरल कोण ∠AOB लीजिए। अवलोकन कीजिए कि कोई भी किरण OC उस कोण को दो कोणों ∠AOC और ∠COB में विभाजित करती है।",
+      "similarity": 0.7172,
+      "concepts": null
+     },
+     {
+      "pdf_page": 38,
+      "excerpt": "हमने इस अध्याय में विभिन्न प्रकार के कोणों के विषय में पढ़ा। हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे?",
+      "similarity": 0.7136,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R09",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 9,
+      "excerpt": "A = 8632 A = 6642 A = 7641 A = B = 2368 B = 2466 B = 1467 B = C = 8632–2368 C = 6642–2466 C = 7641–1467 C = = 6264 = 4176 = 6174 Take different 4-digit numbers and try carrying out these steps.",
+      "similarity": 0.5733,
+      "concepts": null
+     },
+     {
+      "pdf_page": 13,
+      "excerpt": "Write your reasoning and discuss this with the class. a. 5-digit number + 5-digit number gives a 5-digit number b. 4-digit number + 2-digit number gives a 4-digit number",
+      "similarity": 0.5581,
+      "concepts": null
+     },
+     {
+      "pdf_page": 12,
+      "excerpt": "An example of subtracting two 5-digit numbers to get another 5-digit number is 48,952 – 24,547 = 24,405. 1. Write an example for each of the below scenarios whenever",
+      "similarity": 0.5355,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R10",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 11,
+      "excerpt": "38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400",
+      "similarity": 0.5094,
+      "concepts": null
+     },
+     {
+      "pdf_page": 13,
+      "excerpt": "c. 4 अंकों की संख्या + 2 अंकों की संख्या से प्राप्त होती है, एक 6 अंकों की संख्या। d. 5 अंकों की संख्या – 5 अंकों की संख्या से प्राप्त होती है, एक 5 अंकों की संख्या।",
+      "similarity": 0.4838,
+      "concepts": null
+     },
+     {
+      "pdf_page": 10,
+      "excerpt": "निम्नलिखित कथन को हल करने के लिए 4 अंकों को चुनिए— a. सबसे बड़ी तथा सबसे छोटी संख्या का अंतर 5085 से अधिक हो। b. सबसे बड़ी तथा सबसे छोटी संख्या का अंतर 5085 से कम हो।",
+      "similarity": 0.471,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R11",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 18,
+      "excerpt": "5. Estimate the number of liters a mug, a bucket and an overhead tank can hold. 6. Write one 5-digit number and two 3-digit numbers such that their sum is 18,670.",
+      "similarity": 0.5759,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "2. \u0007Find out the digit sums of all the numbers from 40 to 70. Share your observations with the class. 3. Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345).",
+      "similarity": 0.5743,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "For example, adding the digits of the number 68 will be same as adding the digits of 176 or 545. 1. Digit sum 14 a. Write other numbers whose digits add up to 14.",
+      "similarity": 0.5699,
+      "concepts": null
+     }
+    ]
+   },
+   {
+    "case_id": "R12",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "हम संख्याओं को 1, 2, 3, ... से लिखना शुरू करते हैं। 1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – –",
+      "similarity": 0.8121,
+      "concepts": null
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है।",
+      "similarity": 0.7389,
+      "concepts": null
+     },
+     {
+      "pdf_page": 13,
+      "excerpt": "e. 5 अंकों की संख्या – 2 अंकों की संख्या से प्राप्त होती है, एक 3 अंकों की संख्या। 3.9 संख्या पैटर्न के साथ खेलना नीचे कुछ संख्याओं को कुछ पैटर्नों में व्यवस्थित किया गया है। नीचे दी गई प्रत्येक आकृति में संख्याओं का योगफल ज्ञात कीजिए।",
+      "similarity": 0.7135,
+      "concepts": null
+     }
+    ]
+   }
+  ],
+  "graph": [
+   {
+    "case_id": "R01",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig. 2.8).",
+      "similarity": 0.7126,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig. 2.9). Vidya has just opened her book.",
+      "similarity": 0.6851,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "6. Here is a ray OA (Fig. 2.7). It starts at O and passes through the point A. It also passes through the point B. a. Can you also name it as OB ? Why? b. Can we write OAas AO? Why or why not?",
+      "similarity": 0.3237,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R02",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है। शब्द ‘कोण’ को चिह्न ‘∠’ से भी दर्शाया जा सकता है, जैसे— ∠DBE या ∠EBD। ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)। विद्या ने अभी अपनी पुस्तक खोली है।",
+      "similarity": 0.6032,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है।",
+      "similarity": 0.5057,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "6. आकृति 2.7 में OA एक किरण है। यह O से शुरू होती है और बिंदु A से गुजरती है। यह बिंदु B से भी गुजरती है। a. क्या हम इसे OB भी नाम दे सकते हैं? क्यों? b. क्या हम OA को AO लिख सकते हैं? क्यों अथवा क्यों",
+      "similarity": 0.3691,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R03",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig. 2.9). Vidya has just opened her book.",
+      "similarity": 0.7104,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig. 2.8).",
+      "similarity": 0.6415,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "6. Here is a ray OA (Fig. 2.7). It starts at O and passes through the point A. It also passes through the point B. a. Can you also name it as OB ? Why? b. Can we write OAas AO? Why or why not?",
+      "similarity": 0.306,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R04",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है। शब्द ‘कोण’ को चिह्न ‘∠’ से भी दर्शाया जा सकता है, जैसे— ∠DBE या ∠EBD। ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)। विद्या ने अभी अपनी पुस्तक खोली है।",
+      "similarity": 0.6552,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है।",
+      "similarity": 0.5203,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "आइए, पुस्तक के कवर को खोलते हुए भिन्न स्थितियों का अवलोकन करते हैं। स्थिति 1 स्थिति 2 स्थिति 3 स्थिति 4 स्थिति 5 स्थिति 6",
+      "similarity": 0.4032,
+      "concepts": []
+     }
+    ]
+   },
+   {
+    "case_id": "R05",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°.",
+      "similarity": 0.7593,
+      "concepts": [
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0029"
+      ]
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "360 equal angles or parts. The angle measure of each of these unit parts is 1 degree, which is written as 1°. This unit part is used to assign measure to any angle: the measure of an angle is the number of 1° unit parts it contains inside it. For example, see this figure: It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees? As we have taken it to contain 360 degrees, its measure is 360°. What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°.",
+      "similarity": 0.7152,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0028",
+       "MATH6_C0029",
+       "MATH6_C0034"
+      ]
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+      "similarity": 0.4206,
+      "concepts": [
+       "MATH6_C0028"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R06",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "इस इकाई भाग का प्रयोग किसी भी कोण को मापने के लिए किया जाता है। किसी कोण का माप इसमें निहित 1o इकाई भागों की संख्या होती है। उदाहरण के लिए, नीचे दिया गया चित्र देखिए— इसमें 1o कोण की 30 इकाइयाँ हैं और इसलिए हम कहते हैं कि इसका माप 30o है।",
+      "similarity": 0.63,
+      "concepts": [
+       "MATH6_C0020"
+      ]
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा? जैसा कि ऊपर हमने 360 डिग्री माना तो इसका माप 360° है। एक सरल कोण का डिग्री माप क्या होगा? एक सरल कोण, पूर्ण घुमाव का आधा होता है। क्योंकि पूर्ण घुमाव 360° है तथा पूर्ण घुमाव का आधा 180° होता है। एक समकोण का डिग्री माप क्या होगा? दो समकोण मिलकर एक सरल कोण बनाते हैं। चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है।",
+      "similarity": 0.5654,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0028",
+       "MATH6_C0029"
+      ]
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+      "similarity": 0.0732,
+      "concepts": []
+     }
+    ]
+   },
+   {
+    "case_id": "R07",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°. How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.6635,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0025",
+       "MATH6_C0026",
+       "MATH6_C0029"
+      ]
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle.",
+      "similarity": 0.6614,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0025"
+      ]
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures. 2. Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+      "similarity": 0.5668,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0025",
+       "MATH6_C0026",
+       "MATH6_C0034"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R08",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "2.11 कोणों के प्रकार और उनके माप हमने इस अध्याय में विभिन्न प्रकार के कोणों के विषय में पढ़ा। हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+      "similarity": 0.7615,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0025",
+       "MATH6_C0029"
+      ]
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है।",
+      "similarity": 0.681,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0025",
+       "MATH6_C0028",
+       "MATH6_C0034"
+      ]
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+      "similarity": 0.6427,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0025",
+       "MATH6_C0026"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R09",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 4,
+      "excerpt": "Here the neighbouring cells are those that are immediately to the left, right, top and bottom. \u0007The rule remains the same­: a cell becomes a supercell if the number in it is greater than all the numbers in its neighbouring cells. In Table 1, 8632 is greater than all its neighbours 4580, 8280, 4795 and 1944. Complete Table 2 with 5-digit numbers whose digits are ‘1’, ‘0’, ‘6’, ‘3’, and ‘9’ in some order. Only a coloured cell should have a number greater than all its neighbours. The biggest number in the table is ____________ .",
+      "similarity": 0.4107,
+      "concepts": [
+       "MATH6_C0051"
+      ]
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "6. Can you fill a supercell table without repeating numbers such that there are no supercells? Why or why not? 7. Will the cell having the largest number in a table always be a supercell? Can the cell having the smallest number in a table be a supercell? Why or why not? 8. Fill a table such that the cell having the second largest number is not a supercell. 9. Fill a table such that the cell having the second largest number is not a supercell but the second smallest number is a supercell. Is it possible? 10. Make other variations of this puzzle and challenge your classmates. Let’s do the supercells activity with more rows.",
+      "similarity": 0.2075,
+      "concepts": [
+       "MATH6_C0051"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R10",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 4,
+      "excerpt": "आइए, इस महाकोष्ठ वाले क्रियाकलाप को और अधिक पंक्तियों के साथ करते हैं। दी गई सारणियों में समीपवर्ती कोष्ठ वे हैं, जो एकदम बाएँ, दाएँ, ऊपर और नीचे हैं। नियम वही रहेंगे— एक कोष्ठ महाकोष्ठ होगा, यदि उसमें अंकित संख्या उसके समीपवर्ती कोष्ठों में अंकित संख्या से बड़ी हो। सारणी 1 में संख्या 8632 उसकी सभी समीपवर्ती संख्याओं 4580, 8280, 4795, 1944 से बड़ी है। 1, 0, 6, 3 और 9 अंकों का किसी भी क्रम में प्रयोग करके पाँच अंकों की संख्याएँ बनाइए और सारणी 2 को पूरा कीजिए। केवल रंगीन कोष्ठ में समीपवर्ती कोष्ठों की संख्याओं से बड़ी होनी चाहिए। सारणी में सबसे बड़ी संख्या __________ है। सारणी में सबसे छोटी सम संख्या _______ है।",
+      "similarity": 0.3284,
+      "concepts": [
+       "MATH6_C0051"
+      ]
+     },
+     {
+      "pdf_page": 4,
+      "excerpt": "6. क्या आप संख्याओं को बिना दोहराए एक रिक्त महाकोष्ठ सारणी को इस प्रकार भर सकते हैं कि उसमें कोई महाकोष्ठ न हो? क्यों या क्यों नहीं? 7. क्या एक सारणी में सबसे बड़ी संख्या वाला कोष्ठ, हमेशा महाकोष्ठ होगा? क्या एक सारणी में सबसे छोटी संख्या वाला कोष्ठ एक महाकोष्ठ हो सकता है? क्यों या क्यों नहीं? 8. एक सारणी को इस प्रकार से भरिए कि दूसरी सबसे बड़ी संख्या वाला कोष्ठ, महाकोष्ठ न हो। 9. एक सारणी को इस प्रकार से भरिए कि दूसरी सबसे बड़ी संख्या वाला कोष्ठ, महाकोष्ठ न हो, लेकिन दूसरी सबसे छोटी संख्या वाला कोष्ठ एक महाकोष्ठ हो? क्या यह संभव है? 10. इस पहेली के अन्य रूप बनाइए और अपने सहपाठियों को चुनौती दीजिए।",
+      "similarity": 0.2636,
+      "concepts": [
+       "MATH6_C0051"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R11",
+    "protocol": "scoped",
+    "flags": [
+     true,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "Digit sum 14 a. Write other numbers whose digits add up to 14. b. What is the smallest number whose digit sum is 14? c. What is the largest 5-digit whose digit sum is 14? d. How big a number can you form having the digit sum of 14? Can you make an even bigger number? 2. \u0007Find out the digit sums of all the numbers from 40 to 70. Share your observations with the class. 3. Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345). Do you see a pattern? Will this pattern continue?",
+      "similarity": 0.5083,
+      "concepts": [
+       "MATH6_C0039"
+      ]
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "We start writing numbers from 1, 2, 3 ... and so on. There are nine 1-digit numbers. Find out how many numbers have two digits, three digits, four digits, and five digits. Komal observes that when she adds up digits of certain numbers the sum is the same. For example, adding the digits of the number 68 will be same as adding the digits of 176 or 545. 1.",
+      "similarity": 0.4935,
+      "concepts": []
+     }
+    ]
+   },
+   {
+    "case_id": "R12",
+    "protocol": "scoped",
+    "flags": [
+     false,
+     true,
+     true
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "हम संख्याओं को 1, 2, 3, ... से लिखना शुरू करते हैं। 1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – –",
+      "similarity": 0.8121,
+      "concepts": []
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है। 1. अंकों का योग 14 a. अन्य संख्याएँ लिखिए जिनके अंकों का योगफल 14 है। b. वह सबसे छोटी संख्या कौन-सी है, जिसके अंकों का योगफल 14 है? c. 5 अंकों की वह सबसे बड़ी संख्या कौन-सी है, जिसके अंकों का योगफल 14 है? d. वह बड़ी से बड़ी कौन-सी संख्या बनाई जा सकती है, जिसके अंकों का योगफल 14 है? क्या आप इससे भी बड़ी संख्या बता सकते हैं? 2. 40 से 70 तक की सभी संख्याओं के अंकों का योगफल ज्ञात कीजिए। अपने अवलोकन को कक्षा के साथ साझा कीजिए। 3.",
+      "similarity": 0.6826,
+      "concepts": [
+       "MATH6_C0039"
+      ]
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "3 अंकों की उन संख्याओं का योगफल ज्ञात कीजिए, जिनके अंक क्रमागत (जैसे– 345) हों। क्या आप उनमें एक पैटर्न देखते हैं? क्या यह पैटर्न जारी रहेगा?",
+      "similarity": 0.6133,
+      "concepts": []
+     }
+    ]
+   },
+   {
+    "case_id": "R01",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "Let’s look at some other examples where angles arise in real life by rotation or turn:\b • In a compass or divider, we turn the arms to form an angle. The vertex is the point where the two arms are joined. Identify the arms and vertex of the angle. • A pair of scissors has two blades. When we open them (or ‘turn them’) to cut something, the blades form an angle. Identify the arms and the vertex of the angle.",
+      "similarity": 0.7373,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022",
+       "MATH6_C0034"
+      ]
+     },
+     {
+      "pdf_page": 17,
+      "excerpt": "Each of these equal angles formed are called right angles. So, a straight angle contains two right angles. If a straight angle is formed by half of a full turn, how much of a full turn will form a right angle? \b Observe that a right angle resembles the shape of an ‘L’. An angle is a right angle only if it is exactly half of a straight angle.",
+      "similarity": 0.7299,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0028"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig. 2.8).",
+      "similarity": 0.7126,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R02",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 15,
+      "excerpt": "इस स्थिति में भुजाओं के बीच बने कोण का अवलोकन कीजिए। ऐसे कोण को सरल कोण (Straight Angle) कहते हैं। एक सरल कोण ∠AOB लीजिए। अवलोकन कीजिए कि कोई भी किरण OC उस कोण को दो कोणों ∠AOC और ∠COB में विभाजित करती है।",
+      "similarity": 0.7365,
+      "concepts": [
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0022",
+       "MATH6_C0023"
+      ]
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "क्या आप प्रत्येक स्थिति में बनते हुए कोण को देख पा रहे हैं? क्या आप कोण को उसकी भुजाओं और शीर्ष के साथ अंकित कर सकते हैं? कौन-सा कोण बड़ा है— पहली स्थिति का कोण या दूसरी स्थिति का कोण?",
+      "similarity": 0.7309,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022"
+      ]
+     },
+     {
+      "pdf_page": 17,
+      "excerpt": "इस प्रकार बने दोनों समान कोणों को समकोण (Right Angle) कहते हैं। अतः एक सरल कोण में दो समकोण होते हैं। आपको 90o कोण से बहस क्यों नही करनी",
+      "similarity": 0.727,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R03",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 5,
+      "excerpt": "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig. 2.9). Vidya has just opened her book.",
+      "similarity": 0.7104,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig. 2.8).",
+      "similarity": 0.6415,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020"
+      ]
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures. 2. Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+      "similarity": 0.6355,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0025",
+       "MATH6_C0026",
+       "MATH6_C0034"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R04",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 10,
+      "excerpt": "अध्यारोपण (superimposition) द्वारा कोणों की तुलना अध्यारोपण द्वारा किन्हीं दो कोणों की तुलना एक कोण को दूसरे पर रखकर की जा सकती है। अध्यारोपण करते हुए कोणों के शीर्ष एक दूसरे पर होने चाहिए। अध्यारोपण के बाद यह स्पष्ट हो जाता है कि कौन-सा कोण छोटा है और कौन-सा कोण बड़ा है। आकृति में दो कोणों को अध्यारोपित किया गया है। अत: आकृति से यह स्पष्ट है कि ∠PQR, ∠ABC से बड़ा है। समान कोण— आकृति में दर्शाए गए ∠AOB और ∠XOY में से कौन-सा बड़ा है? दोनों कोणों के शीर्ष एक समान हैं और दोनों कोणों की भुजाएँ एक दूसरे को पूरी तरह से अध्यारोपित कर रही हैं, जैसे— OA↔OX और OB↔OY। अतः ये दोनों कोण आकार में एक समान हैं।",
+      "similarity": 0.6764,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022",
+       "MATH6_C0110"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है। शब्द ‘कोण’ को चिह्न ‘∠’ से भी दर्शाया जा सकता है, जैसे— ∠DBE या ∠EBD। ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)। विद्या ने अभी अपनी पुस्तक खोली है।",
+      "similarity": 0.6552,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022"
+      ]
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "जाने के लिए शीर्ष के परत आवश्यक है। घुमाव की मात्रा कोण का आकार है। शीर्ष किरण की प्रारंभिक स्थिति आइए, दैनिक जीवन से कुछ उदाहरण लेते हैं, जहाँ घूर्णन या घुमाव से कोण बनते हैं— • एक परकार (कम्पास) या डिवाइडर की भुजाओं को घुमाने पर एक कोण बनता है। शीर्ष वह बिंदु है जहाँ दोनों भुजाएँ मिलती या जुड़ती हैं। कोण की भुजाओं और शीर्ष को पहचानिए। • एक कैंची में दो ब्लेड होते हैं। जब हम उन्हें कुछ काटने के लिए खोलते (या घुमाते) हैं तो एक कोण बनता है। कोण की भुजाओं और शीर्ष को पहचानिए।",
+      "similarity": 0.6406,
+      "concepts": [
+       "MATH6_C0016",
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022",
+       "MATH6_C0034"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R05",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°.",
+      "similarity": 0.7593,
+      "concepts": [
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0029"
+      ]
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "360 equal angles or parts. The angle measure of each of these unit parts is 1 degree, which is written as 1°. This unit part is used to assign measure to any angle: the measure of an angle is the number of 1° unit parts it contains inside it. For example, see this figure: It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees? As we have taken it to contain 360 degrees, its measure is 360°. What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°.",
+      "similarity": 0.7152,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0028",
+       "MATH6_C0029",
+       "MATH6_C0034"
+      ]
+     },
+     {
+      "pdf_page": 41,
+      "excerpt": "Estimate the size of each angle and then measure it with a protractor: Classify these angles as acute, right, obtuse or reflex angles. 3. Make any figure with three acute angles, one right angle and two obtuse angles. 4. Draw the letter ‘M’ such that the angles on the sides are 40° each and the angle in the middle is 60°. 5. Draw the letter ‘Y’ such that the three angles formed are 150°, 60° and 150°.",
+      "similarity": 0.6854,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0024",
+       "MATH6_C0025",
+       "MATH6_C0026",
+       "MATH6_C0027",
+       "MATH6_C0030"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R06",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 21,
+      "excerpt": "इस इकाई भाग का प्रयोग किसी भी कोण को मापने के लिए किया जाता है। किसी कोण का माप इसमें निहित 1o इकाई भागों की संख्या होती है। उदाहरण के लिए, नीचे दिया गया चित्र देखिए— इसमें 1o कोण की 30 इकाइयाँ हैं और इसलिए हम कहते हैं कि इसका माप 30o है।",
+      "similarity": 0.63,
+      "concepts": [
+       "MATH6_C0020"
+      ]
+     },
+     {
+      "pdf_page": 17,
+      "excerpt": "इस प्रकार बने दोनों समान कोणों को समकोण (Right Angle) कहते हैं। अतः एक सरल कोण में दो समकोण होते हैं। आपको 90o कोण से बहस क्यों नही करनी",
+      "similarity": 0.6282,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024"
+      ]
+     },
+     {
+      "pdf_page": 10,
+      "excerpt": "अध्यारोपण (superimposition) द्वारा कोणों की तुलना अध्यारोपण द्वारा किन्हीं दो कोणों की तुलना एक कोण को दूसरे पर रखकर की जा सकती है। अध्यारोपण करते हुए कोणों के शीर्ष एक दूसरे पर होने चाहिए। अध्यारोपण के बाद यह स्पष्ट हो जाता है कि कौन-सा कोण छोटा है और कौन-सा कोण बड़ा है। आकृति में दो कोणों को अध्यारोपित किया गया है। अत: आकृति से यह स्पष्ट है कि ∠PQR, ∠ABC से बड़ा है। समान कोण— आकृति में दर्शाए गए ∠AOB और ∠XOY में से कौन-सा बड़ा है? दोनों कोणों के शीर्ष एक समान हैं और दोनों कोणों की भुजाएँ एक दूसरे को पूरी तरह से अध्यारोपित कर रही हैं, जैसे— OA↔OX और OB↔OY। अतः ये दोनों कोण आकार में एक समान हैं।",
+      "similarity": 0.6032,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0021",
+       "MATH6_C0022",
+       "MATH6_C0110"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R07",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°. How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+      "similarity": 0.6635,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0025",
+       "MATH6_C0026",
+       "MATH6_C0029"
+      ]
+     },
+     {
+      "pdf_page": 19,
+      "excerpt": "Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle.",
+      "similarity": 0.6614,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0025"
+      ]
+     },
+     {
+      "pdf_page": 41,
+      "excerpt": "Estimate the size of each angle and then measure it with a protractor: Classify these angles as acute, right, obtuse or reflex angles. 3. Make any figure with three acute angles, one right angle and two obtuse angles. 4. Draw the letter ‘M’ such that the angles on the sides are 40° each and the angle in the middle is 60°. 5. Draw the letter ‘Y’ such that the three angles formed are 150°, 60° and 150°.",
+      "similarity": 0.6203,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0024",
+       "MATH6_C0025",
+       "MATH6_C0026",
+       "MATH6_C0027",
+       "MATH6_C0030"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R08",
+    "protocol": "chapter",
+    "flags": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 38,
+      "excerpt": "2.11 कोणों के प्रकार और उनके माप हमने इस अध्याय में विभिन्न प्रकार के कोणों के विषय में पढ़ा। हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+      "similarity": 0.7615,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0025",
+       "MATH6_C0029"
+      ]
+     },
+     {
+      "pdf_page": 15,
+      "excerpt": "इस स्थिति में भुजाओं के बीच बने कोण का अवलोकन कीजिए। ऐसे कोण को सरल कोण (Straight Angle) कहते हैं। एक सरल कोण ∠AOB लीजिए। अवलोकन कीजिए कि कोई भी किरण OC उस कोण को दो कोणों ∠AOC और ∠COB में विभाजित करती है।",
+      "similarity": 0.7172,
+      "concepts": [
+       "MATH6_C0019",
+       "MATH6_C0020",
+       "MATH6_C0022",
+       "MATH6_C0023"
+      ]
+     },
+     {
+      "pdf_page": 21,
+      "excerpt": "विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा? जैसा कि ऊपर हमने 360 डिग्री माना तो इसका माप 360° है। एक सरल कोण का डिग्री माप क्या होगा? एक सरल कोण, पूर्ण घुमाव का आधा होता है। क्योंकि पूर्ण घुमाव 360° है तथा पूर्ण घुमाव का आधा 180° होता है। एक समकोण का डिग्री माप क्या होगा? दो समकोण मिलकर एक सरल कोण बनाते हैं। चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है।",
+      "similarity": 0.6824,
+      "concepts": [
+       "MATH6_C0020",
+       "MATH6_C0023",
+       "MATH6_C0024",
+       "MATH6_C0028",
+       "MATH6_C0029"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R09",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 13,
+      "excerpt": "5-digit number – 2-digit number gives a 3-digit number",
+      "similarity": 0.5465,
+      "concepts": []
+     },
+     {
+      "pdf_page": 9,
+      "excerpt": "Follow these steps and experience the magic for yourselves! Pick any 4-digit number having at least two different digits, say 6382. Make the largest number from these Make the smallest number from these A = 8632 A = 6642 A = 7641 A = B = 2368 B = 2466 B = 1467 B = C = 8632–2368 C = 6642–2466 C = 7641–1467 C = = 6264 = 4176 = 6174 Take different 4-digit numbers and try carrying out these steps. Find out what happens. Check with your friends what they got. You will always reach the magic number ‘6174’! The number ‘6174’ is now called the ‘Kaprekar constant’. Carry out these same steps with a few 3-digit numbers.",
+      "similarity": 0.5044,
+      "concepts": [
+       "MATH6_C0050"
+      ]
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "3.3 Patterns of Numbers on the Number Line We are quite familiar with number lines now. Let’s see if we can place some numbers in their appropriate positions on the number line. Here are the numbers: 2180, 2754, 1500, 3600, 9950, 9590, 1050, 3050, 5030, 5300 and 8400. 3000 4000 5000 6000 7000 8000 9000 10,000 \u0007Identify the numbers marked on the number lines below, and label the remaining positions. \u0007Put a circle around the smallest number and a box around the largest number in each of the sequences above.",
+      "similarity": 0.4669,
+      "concepts": [
+       "MATH6_C0041"
+      ]
+     }
+    ]
+   },
+   {
+    "case_id": "R10",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 13,
+      "excerpt": "4 अंकों की संख्या + 2 अंकों की संख्या से प्राप्त होती है, एक 6 अंकों की संख्या। d. 5 अंकों की संख्या – 5 अंकों की संख्या से प्राप्त होती है, एक 5 अंकों की संख्या। e. 5 अंकों की संख्या – 2 अंकों की संख्या से प्राप्त होती है, एक 3 अंकों की संख्या।",
+      "similarity": 0.4785,
+      "concepts": []
+     },
+     {
+      "pdf_page": 5,
+      "excerpt": "3.3 संख्या रेखा पर संख्याओं के पैटर्न अब हम संख्या रेखा से भली-भाँति परिचित हैं। आइए, देखते हैं कि क्या हम कुछ संख्याओं को संख्या रेखा पर उनके उपयुक्त स्थान पर रख सकते हैं। यहाँ संख्याएँ 2180, 2754, 1500, 3600, 9950, 9590, 1050, 3050, 5030, 5300 और 8400 हैं। 3000 4000 5000 6000 7000 8000 9000 10,000 नीचे दी गई संख्या रेखा पर चिह्नित संख्या को पहचानकर, नीचे दिए गए संख्या अनुक्रमों को पूरा कीजिए। उपरोक्त अनुक्रमों में सबसे छोटी संख्या पर गोला लगाइए तथा सबसे बड़ी संख्या पर बॉक्स बनाइए।",
+      "similarity": 0.4572,
+      "concepts": [
+       "MATH6_C0041"
+      ]
+     },
+     {
+      "pdf_page": 12,
+      "excerpt": "अंक और संक्रियाएँ 5 अंकों की दो संख्याओं को जोड़कर 5 अंकों की अन्य संख्या को प्राप्त करने का एक उदाहरण है— 12,350 +24,545 = 36,895 5 अंकों की दो संख्याओं को घंटाकर 5 अंकों की संख्या को प्राप्त करने का एक उदाहरण है— 48,952 – 24,547 = 24,405 1. नीचे दी गई प्रत्येक स्थिति के लिए जहाँ भी संभव हो, वहाँ एक उदाहरण लिखिए। 5 अंकों की संख्या + 5 अंकों की संख्या से प्राप्त 5 अंकों की 5 अंकों की संख्या + 3 अंकों की संख्या से 6 अंकों 4 अंकों की संख्या + 4 अंकों की संख्या से 6 अंकों 5 अंकों की संख्या + 5 अंकों की संख्या से 6 अंकों 5 अंकों की संख्या + 5 अंकों की संख्या से संख्या 5 अंकों की संख्या – 5 अंकों की संख्या",
+      "similarity": 0.4497,
+      "concepts": []
+     }
+    ]
+   },
+   {
+    "case_id": "R11",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 12,
+      "excerpt": "5-digit – 5-digit to give a difference 4-digit + 4-digit to give a 6-digit sum 5-digit + 3-digit to give a 6-digit sum 5-digit + 5-digit to give a 6-digit sum 5-digit + 5-digit to give 18,500 5-digit − 5-digit to give 91,500",
+      "similarity": 0.5347,
+      "concepts": [
+       "MATH6_C0039"
+      ]
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "Digit sum 14 a. Write other numbers whose digits add up to 14. b. What is the smallest number whose digit sum is 14? c. What is the largest 5-digit whose digit sum is 14? d. How big a number can you form having the digit sum of 14? Can you make an even bigger number? 2. \u0007Find out the digit sums of all the numbers from 40 to 70. Share your observations with the class. 3. Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345). Do you see a pattern? Will this pattern continue?",
+      "similarity": 0.5083,
+      "concepts": [
+       "MATH6_C0039"
+      ]
+     },
+     {
+      "pdf_page": 6,
+      "excerpt": "We start writing numbers from 1, 2, 3 ... and so on. There are nine 1-digit numbers. Find out how many numbers have two digits, three digits, four digits, and five digits. Komal observes that when she adds up digits of certain numbers the sum is the same. For example, adding the digits of the number 68 will be same as adding the digits of 176 or 545. 1.",
+      "similarity": 0.4935,
+      "concepts": []
+     }
+    ]
+   },
+   {
+    "case_id": "R12",
+    "protocol": "chapter",
+    "flags": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "top": [
+     {
+      "pdf_page": 6,
+      "excerpt": "हम संख्याओं को 1, 2, 3, ... से लिखना शुरू करते हैं। 1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – –",
+      "similarity": 0.8121,
+      "concepts": []
+     },
+     {
+      "pdf_page": 13,
+      "excerpt": "4 अंकों की संख्या + 2 अंकों की संख्या से प्राप्त होती है, एक 6 अंकों की संख्या। d. 5 अंकों की संख्या – 5 अंकों की संख्या से प्राप्त होती है, एक 5 अंकों की संख्या। e. 5 अंकों की संख्या – 2 अंकों की संख्या से प्राप्त होती है, एक 3 अंकों की संख्या।",
+      "similarity": 0.7302,
+      "concepts": []
+     },
+     {
+      "pdf_page": 7,
+      "excerpt": "अंक जासूस 1 से 100 तक संख्याएँ लिखने के पश्चात् दिनेश को आश्चर्य होता है कि उसने कितनी बार अंक ‘7’ लिखा। 1 से 100 तक की संख्याओं में, अंक ‘7’ कितनी बार आएगा? 1 से 1000 तक की संख्याओं में, अंक ‘7’ कितनी बार आएगा?",
+      "similarity": 0.6899,
+      "concepts": []
+     }
+    ]
+   }
+  ]
+ }
+}
