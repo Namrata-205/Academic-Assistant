@@ -1,0 +1,338 @@
+{
+ "version": "chunking-dev-v1",
+ "review_status": "AI-authored development (tuning) cases from chapters 1, 4, 5; disjoint from the chapter 2-3 test cases in rag_eval_cases_v1.json. Independent human review pending.",
+ "gold_rule": "pdf_pages = every body page whose kept text contains all evidence_all terms (normalised); computed once and frozen.",
+ "cases": [
+  {
+   "id": "D01",
+   "language": "en",
+   "chapter": 1,
+   "concept_id": "MATH6_C0105",
+   "question": "What do you get when you add up odd numbers: 1, 1+3, 1+3+5, ...?",
+   "evidence_all": [
+    "odd",
+    "square"
+   ],
+   "pdf_pages": [
+    3,
+    6,
+    7,
+    12
+   ]
+  },
+  {
+   "id": "D02",
+   "language": "hi",
+   "chapter": 1,
+   "concept_id": "MATH6_C0105",
+   "question": "विषम संख्याओं को 1, 1+3, 1+3+5 की तरह जोड़ने पर कौन-सी संख्याएँ मिलती हैं?",
+   "evidence_all": [
+    "विषम",
+    "वर्ग"
+   ],
+   "pdf_pages": [
+    3,
+    6,
+    7,
+    12
+   ]
+  },
+  {
+   "id": "D03",
+   "language": "en",
+   "chapter": 1,
+   "concept_id": "MATH6_ADD001",
+   "question": "What are Virahanka numbers?",
+   "evidence_all": [
+    "virah"
+   ],
+   "pdf_pages": [
+    3,
+    12
+   ]
+  },
+  {
+   "id": "D04",
+   "language": "hi",
+   "chapter": 1,
+   "concept_id": "MATH6_ADD001",
+   "question": "विरहांक संख्याएँ क्या हैं?",
+   "evidence_all": [
+    "विरहांक"
+   ],
+   "pdf_pages": [
+    3,
+    12
+   ]
+  },
+  {
+   "id": "D05",
+   "language": "en",
+   "chapter": 1,
+   "concept_id": "MATH6_C0008",
+   "question": "Why are 1, 3, 6, 10, 15 called triangular numbers?",
+   "evidence_all": [
+    "triangular",
+    "triangle"
+   ],
+   "pdf_pages": [
+    5,
+    12
+   ]
+  },
+  {
+   "id": "D06",
+   "language": "hi",
+   "chapter": 1,
+   "concept_id": "MATH6_C0008",
+   "question": "1, 3, 6, 10, 15 को त्रिभुजाकार संख्याएँ क्यों कहते हैं?",
+   "evidence_all": [
+    "त्रिभुजाकार",
+    "त्रिभुज"
+   ],
+   "pdf_pages": [
+    3,
+    5,
+    8,
+    9,
+    12
+   ]
+  },
+  {
+   "id": "D07",
+   "language": "en",
+   "chapter": 4,
+   "concept_id": "MATH6_C0119",
+   "question": "What is a pictograph?",
+   "evidence_all": [
+    "pictograph",
+    "pictures"
+   ],
+   "pdf_pages": [
+    7,
+    8,
+    10,
+    33
+   ]
+  },
+  {
+   "id": "D08",
+   "language": "hi",
+   "chapter": 4,
+   "concept_id": "MATH6_C0119",
+   "question": "चित्रालेख क्या होता है?",
+   "evidence_all": [
+    "चित्रालेख",
+    "चित्रों"
+   ],
+   "pdf_pages": [
+    7,
+    10,
+    33
+   ]
+  },
+  {
+   "id": "D09",
+   "language": "en",
+   "chapter": 4,
+   "concept_id": "MATH6_C0116",
+   "question": "How do we organise data using tally marks?",
+   "evidence_all": [
+    "tally"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    13,
+    22,
+    31,
+    32
+   ]
+  },
+  {
+   "id": "D10",
+   "language": "hi",
+   "chapter": 4,
+   "concept_id": "MATH6_C0116",
+   "question": "मिलान चिह्नों से आँकड़ों को कैसे व्यवस्थित करते हैं?",
+   "evidence_all": [
+    "मिलान चिह्न"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    22,
+    32
+   ]
+  },
+  {
+   "id": "D11",
+   "language": "en",
+   "chapter": 4,
+   "concept_id": "MATH6_C0120",
+   "question": "How do we choose the scale for a bar graph?",
+   "evidence_all": [
+    "scale",
+    "bar graph"
+   ],
+   "pdf_pages": [
+    14,
+    16,
+    17,
+    19,
+    21,
+    25,
+    27,
+    28,
+    33
+   ]
+  },
+  {
+   "id": "D12",
+   "language": "hi",
+   "chapter": 4,
+   "concept_id": "MATH6_C0120",
+   "question": "दंड आलेख के लिए पैमाना कैसे चुनते हैं?",
+   "evidence_all": [
+    "पैमान",
+    "दंड आलेख"
+   ],
+   "pdf_pages": [
+    14,
+    15,
+    16,
+    17,
+    19,
+    25,
+    27,
+    28,
+    33
+   ]
+  },
+  {
+   "id": "D13",
+   "language": "en",
+   "chapter": 5,
+   "concept_id": "MATH6_C0130",
+   "question": "What is a prime number?",
+   "evidence_all": [
+    "only two factors"
+   ],
+   "pdf_pages": [
+    6,
+    22
+   ]
+  },
+  {
+   "id": "D14",
+   "language": "hi",
+   "chapter": 5,
+   "concept_id": "MATH6_C0130",
+   "question": "अभाज्य संख्या क्या होती है?",
+   "evidence_all": [
+    "दो गुणनखंड"
+   ],
+   "pdf_pages": [
+    5,
+    6,
+    13,
+    22
+   ]
+  },
+  {
+   "id": "D15",
+   "language": "en",
+   "chapter": 5,
+   "concept_id": "MATH6_C0134",
+   "question": "When are two numbers called co-prime?",
+   "evidence_all": [
+    "co-prime",
+    "no common factor"
+   ],
+   "pdf_pages": [
+    10,
+    11
+   ]
+  },
+  {
+   "id": "D16",
+   "language": "hi",
+   "chapter": 5,
+   "concept_id": "MATH6_C0134",
+   "question": "दो संख्याएँ सह-अभाज्य कब कहलाती हैं?",
+   "evidence_all": [
+    "सह-अभाज्य",
+    "सार्व गुणनखंड"
+   ],
+   "pdf_pages": [
+    10,
+    11,
+    15,
+    22
+   ]
+  },
+  {
+   "id": "D17",
+   "language": "en",
+   "chapter": 5,
+   "concept_id": "MATH6_C0139",
+   "question": "How can we check if a number is divisible by 4?",
+   "evidence_all": [
+    "last two digits",
+    "4"
+   ],
+   "pdf_pages": [
+    18,
+    19
+   ]
+  },
+  {
+   "id": "D18",
+   "language": "hi",
+   "chapter": 5,
+   "concept_id": "MATH6_C0139",
+   "question": "कोई संख्या 4 से विभाज्य है या नहीं, यह कैसे जाँचें?",
+   "evidence_all": [
+    "अंतिम दो",
+    "4"
+   ],
+   "pdf_pages": [
+    18,
+    19
+   ]
+  },
+  {
+   "id": "D19",
+   "language": "en",
+   "chapter": 5,
+   "concept_id": "MATH6_C0135",
+   "question": "What is the prime factorisation of a number?",
+   "evidence_all": [
+    "prime factorisation",
+    "product"
+   ],
+   "pdf_pages": [
+    12,
+    13,
+    14,
+    22
+   ]
+  },
+  {
+   "id": "D20",
+   "language": "hi",
+   "chapter": 5,
+   "concept_id": "MATH6_C0135",
+   "question": "किसी संख्या का अभाज्य गुणनखंडन क्या होता है?",
+   "evidence_all": [
+    "अभाज्य गुणनखंडन",
+    "गुणनफल"
+   ],
+   "pdf_pages": [
+    12,
+    13,
+    14
+   ]
+  }
+ ]
+}

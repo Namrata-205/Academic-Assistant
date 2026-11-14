@@ -1,0 +1,607 @@
+{
+ "version": "rag-test-v2",
+ "review_status": "AI-authored held-out test cases (chapters 1-5), written and frozen before any chunking method was run on them; disjoint questions from chunking_dev_cases_v1. Independent human review pending.",
+ "gold_rule": "pdf_pages = every body page whose kept text contains all evidence_all terms (normalised); computed once and frozen.",
+ "cases": [
+  {
+   "id": "T01",
+   "language": "en",
+   "chapter": 1,
+   "concept_id": "MATH6_C0104",
+   "question": "What are hexagonal numbers?",
+   "evidence_all": [
+    "hexagonal"
+   ],
+   "pdf_pages": [
+    5,
+    9
+   ]
+  },
+  {
+   "id": "T02",
+   "language": "hi",
+   "chapter": 1,
+   "concept_id": "MATH6_C0104",
+   "question": "षड्भुजाकार संख्याएँ क्या हैं?",
+   "evidence_all": [
+    "षड्भुजाकार"
+   ],
+   "pdf_pages": [
+    5,
+    9
+   ]
+  },
+  {
+   "id": "T03",
+   "language": "en",
+   "chapter": 1,
+   "concept_id": "MATH6_C0014",
+   "question": "How many sides does each shape in the regular polygons sequence have?",
+   "evidence_all": [
+    "regular polygon",
+    "sides"
+   ],
+   "pdf_pages": [
+    11
+   ]
+  },
+  {
+   "id": "T04",
+   "language": "hi",
+   "chapter": 1,
+   "concept_id": "MATH6_C0014",
+   "question": "सम बहुभुजों के अनुक्रम में प्रत्येक आकार की कितनी भुजाएँ हैं?",
+   "evidence_all": [
+    "सम बहुभुज",
+    "भुजा"
+   ],
+   "pdf_pages": [
+    11,
+    12
+   ]
+  },
+  {
+   "id": "T05",
+   "language": "en",
+   "chapter": 1,
+   "concept_id": "MATH6_C0109",
+   "question": "How many line segments are there in each shape of the Koch snowflake?",
+   "evidence_all": [
+    "koch",
+    "line segment"
+   ],
+   "pdf_pages": [
+    12
+   ]
+  },
+  {
+   "id": "T06",
+   "language": "hi",
+   "chapter": 1,
+   "concept_id": "MATH6_C0109",
+   "question": "कोच हिमकण के प्रत्येक आकार में कितने रेखाखंड होते हैं?",
+   "evidence_all": [
+    "कोच हिमकण",
+    "रेखाखंड"
+   ],
+   "pdf_pages": [
+    12
+   ]
+  },
+  {
+   "id": "T07",
+   "language": "en",
+   "chapter": 1,
+   "concept_id": "MATH6_C0011",
+   "question": "What is the pattern in the powers of 2?",
+   "evidence_all": [
+    "powers of 2"
+   ],
+   "pdf_pages": [
+    3,
+    5,
+    6,
+    8,
+    12
+   ]
+  },
+  {
+   "id": "T08",
+   "language": "hi",
+   "chapter": 1,
+   "concept_id": "MATH6_C0011",
+   "question": "2 की घातों में क्या पैटर्न है?",
+   "evidence_all": [
+    "2 की घात"
+   ],
+   "pdf_pages": [
+    3,
+    5,
+    6,
+    8,
+    12
+   ]
+  },
+  {
+   "id": "T09",
+   "language": "en",
+   "chapter": 2,
+   "concept_id": "MATH6_C0018",
+   "question": "What is a line segment?",
+   "evidence_all": [
+    "shortest",
+    "line segment"
+   ],
+   "pdf_pages": [
+    2,
+    42
+   ]
+  },
+  {
+   "id": "T10",
+   "language": "hi",
+   "chapter": 2,
+   "concept_id": "MATH6_C0018",
+   "question": "रेखाखंड क्या होता है?",
+   "evidence_all": [
+    "रेखाखंड",
+    "सबसे छोटा"
+   ],
+   "pdf_pages": [
+    2
+   ]
+  },
+  {
+   "id": "T11",
+   "language": "en",
+   "chapter": 2,
+   "concept_id": "MATH6_C0031",
+   "question": "When are two lines called perpendicular?",
+   "evidence_all": [
+    "perpendicular",
+    "right angle"
+   ],
+   "pdf_pages": [
+    17,
+    19
+   ]
+  },
+  {
+   "id": "T12",
+   "language": "hi",
+   "chapter": 2,
+   "concept_id": "MATH6_C0031",
+   "question": "दो रेखाएँ लंब कब कहलाती हैं?",
+   "evidence_all": [
+    "लब रेखा",
+    "समकोण"
+   ],
+   "pdf_pages": [
+    17
+   ]
+  },
+  {
+   "id": "T13",
+   "language": "en",
+   "chapter": 2,
+   "concept_id": "MATH6_C0027",
+   "question": "What is a reflex angle?",
+   "evidence_all": [
+    "reflex",
+    "180"
+   ],
+   "pdf_pages": [
+    39,
+    41,
+    42
+   ]
+  },
+  {
+   "id": "T14",
+   "language": "hi",
+   "chapter": 2,
+   "concept_id": "MATH6_C0027",
+   "question": "प्रतिवर्ती कोण क्या होता है?",
+   "evidence_all": [
+    "प्रतिवर्ती",
+    "180"
+   ],
+   "pdf_pages": [
+    39,
+    41,
+    42
+   ]
+  },
+  {
+   "id": "T15",
+   "language": "en",
+   "chapter": 2,
+   "concept_id": "MATH6_C0029",
+   "question": "How many degrees are there in one full turn?",
+   "evidence_all": [
+    "360",
+    "full turn"
+   ],
+   "pdf_pages": [
+    21,
+    25,
+    26
+   ]
+  },
+  {
+   "id": "T16",
+   "language": "hi",
+   "chapter": 2,
+   "concept_id": "MATH6_C0029",
+   "question": "एक पूरे चक्कर में कितनी डिग्री होती हैं?",
+   "evidence_all": [
+    "360",
+    "चक्कर"
+   ],
+   "pdf_pages": [
+    25,
+    26,
+    27
+   ]
+  },
+  {
+   "id": "T17",
+   "language": "en",
+   "chapter": 3,
+   "concept_id": "MATH6_C0040",
+   "question": "What is a palindromic number?",
+   "evidence_all": [
+    "palindrom",
+    "same"
+   ],
+   "pdf_pages": [
+    7
+   ]
+  },
+  {
+   "id": "T18",
+   "language": "hi",
+   "chapter": 3,
+   "concept_id": "MATH6_C0040",
+   "question": "पैलिंड्रोम संख्या क्या होती है?",
+   "evidence_all": [
+    "पैलिंड्रोम",
+    "बाएँ से दाएँ"
+   ],
+   "pdf_pages": [
+    7
+   ]
+  },
+  {
+   "id": "T19",
+   "language": "en",
+   "chapter": 3,
+   "concept_id": "MATH6_C0050",
+   "question": "What is the Kaprekar constant?",
+   "evidence_all": [
+    "6174"
+   ],
+   "pdf_pages": [
+    9
+   ]
+  },
+  {
+   "id": "T20",
+   "language": "hi",
+   "chapter": 3,
+   "concept_id": "MATH6_C0050",
+   "question": "कापरेकर की जादुई संख्या क्या है?",
+   "evidence_all": [
+    "6174"
+   ],
+   "pdf_pages": [
+    9
+   ]
+  },
+  {
+   "id": "T21",
+   "language": "en",
+   "chapter": 3,
+   "concept_id": "MATH6_ADD002",
+   "question": "What is the rule of the Collatz conjecture?",
+   "evidence_all": [
+    "collatz",
+    "odd"
+   ],
+   "pdf_pages": [
+    15
+   ]
+  },
+  {
+   "id": "T22",
+   "language": "hi",
+   "chapter": 3,
+   "concept_id": "MATH6_ADD002",
+   "question": "कोलाट्ज़ अनुमान का नियम क्या है?",
+   "evidence_all": [
+    "कोलाट्ज़",
+    "विषम"
+   ],
+   "pdf_pages": [
+    15
+   ]
+  },
+  {
+   "id": "T23",
+   "language": "en",
+   "chapter": 3,
+   "concept_id": "MATH6_C0051",
+   "question": "When is a cell called a supercell?",
+   "evidence_all": [
+    "supercell"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    18
+   ]
+  },
+  {
+   "id": "T24",
+   "language": "hi",
+   "chapter": 3,
+   "concept_id": "MATH6_C0051",
+   "question": "कोई कोष्ठ महाकोष्ठ कब बनता है?",
+   "evidence_all": [
+    "महाकोष्ठ"
+   ],
+   "pdf_pages": [
+    3,
+    4,
+    18
+   ]
+  },
+  {
+   "id": "T25",
+   "language": "en",
+   "chapter": 4,
+   "concept_id": "MATH6_C0115",
+   "question": "What is data?",
+   "evidence_all": [
+    "data",
+    "facts"
+   ],
+   "pdf_pages": [
+    1,
+    32
+   ]
+  },
+  {
+   "id": "T26",
+   "language": "hi",
+   "chapter": 4,
+   "concept_id": "MATH6_C0115",
+   "question": "आँकड़े किसे कहते हैं?",
+   "evidence_all": [
+    "आँकड़",
+    "तथ्य"
+   ],
+   "pdf_pages": [
+    1,
+    28,
+    32
+   ]
+  },
+  {
+   "id": "T27",
+   "language": "en",
+   "chapter": 4,
+   "concept_id": "MATH6_C0121",
+   "question": "Why do all the bars in a bar graph have the same width?",
+   "evidence_all": [
+    "bar",
+    "width"
+   ],
+   "pdf_pages": [
+    13,
+    19,
+    27,
+    31,
+    33
+   ]
+  },
+  {
+   "id": "T28",
+   "language": "hi",
+   "chapter": 4,
+   "concept_id": "MATH6_C0121",
+   "question": "दंड आलेख में सभी दंडों की चौड़ाई समान क्यों होती है?",
+   "evidence_all": [
+    "समान चौड़ाई"
+   ],
+   "pdf_pages": [
+    13,
+    19,
+    31,
+    33
+   ]
+  },
+  {
+   "id": "T29",
+   "language": "en",
+   "chapter": 4,
+   "concept_id": "MATH6_C0124",
+   "question": "Why can infographics be misleading?",
+   "evidence_all": [
+    "infographic",
+    "mislead"
+   ],
+   "pdf_pages": [
+    31,
+    32
+   ]
+  },
+  {
+   "id": "T30",
+   "language": "hi",
+   "chapter": 4,
+   "concept_id": "MATH6_C0124",
+   "question": "इन्फोग्राफिक्स भ्रामक क्यों हो सकते हैं?",
+   "evidence_all": [
+    "इन्फोग्राफिक्स",
+    "भ्रम"
+   ],
+   "pdf_pages": [
+    32
+   ]
+  },
+  {
+   "id": "T31",
+   "language": "en",
+   "chapter": 4,
+   "concept_id": "MATH6_C0123",
+   "question": "When should we use vertical bars instead of horizontal bars?",
+   "evidence_all": [
+    "vertical",
+    "horizontal"
+   ],
+   "pdf_pages": [
+    13,
+    16,
+    18,
+    30,
+    33
+   ]
+  },
+  {
+   "id": "T32",
+   "language": "hi",
+   "chapter": 4,
+   "concept_id": "MATH6_C0123",
+   "question": "क्षैतिज दंडों के स्थान पर ऊर्ध्वाधर दंड कब उपयोग करें?",
+   "evidence_all": [
+    "ऊर्ध्वाधर",
+    "क्षैतिज"
+   ],
+   "pdf_pages": [
+    10,
+    13,
+    16,
+    18,
+    30,
+    33
+   ]
+  },
+  {
+   "id": "T33",
+   "language": "en",
+   "chapter": 5,
+   "concept_id": "MATH6_C0131",
+   "question": "What is a composite number?",
+   "evidence_all": [
+    "composite",
+    "more than two factors"
+   ],
+   "pdf_pages": [
+    6
+   ]
+  },
+  {
+   "id": "T34",
+   "language": "hi",
+   "chapter": 5,
+   "concept_id": "MATH6_C0131",
+   "question": "भाज्य संख्या क्या होती है?",
+   "evidence_all": [
+    "भाज्य संख्या",
+    "दो से अधिक"
+   ],
+   "pdf_pages": [
+    6,
+    22
+   ]
+  },
+  {
+   "id": "T35",
+   "language": "en",
+   "chapter": 5,
+   "concept_id": "MATH6_C0132",
+   "question": "How does the Sieve of Eratosthenes find prime numbers?",
+   "evidence_all": [
+    "sieve",
+    "cross out"
+   ],
+   "pdf_pages": [
+    7
+   ]
+  },
+  {
+   "id": "T36",
+   "language": "hi",
+   "chapter": 5,
+   "concept_id": "MATH6_C0132",
+   "question": "इराटोस्थेनीस की छलनी अभाज्य संख्याएँ कैसे ज्ञात करती है?",
+   "evidence_all": [
+    "छलनी",
+    "काट"
+   ],
+   "pdf_pages": [
+    7
+   ]
+  },
+  {
+   "id": "T37",
+   "language": "en",
+   "chapter": 5,
+   "concept_id": "MATH6_C0129",
+   "question": "What is a perfect number?",
+   "evidence_all": [
+    "perfect number",
+    "twice"
+   ],
+   "pdf_pages": [
+    5
+   ]
+  },
+  {
+   "id": "T38",
+   "language": "hi",
+   "chapter": 5,
+   "concept_id": "MATH6_C0129",
+   "question": "संपूर्ण संख्या क्या होती है?",
+   "evidence_all": [
+    "संपूर्ण संख्या",
+    "दुगना"
+   ],
+   "pdf_pages": [
+    5
+   ]
+  },
+  {
+   "id": "T39",
+   "language": "en",
+   "chapter": 5,
+   "concept_id": "MATH6_C0126",
+   "question": "What are common multiples of 3 and 5?",
+   "evidence_all": [
+    "common multiple"
+   ],
+   "pdf_pages": [
+    1,
+    2,
+    5,
+    10
+   ]
+  },
+  {
+   "id": "T40",
+   "language": "hi",
+   "chapter": 5,
+   "concept_id": "MATH6_C0126",
+   "question": "3 और 5 के सार्व गुणज क्या हैं?",
+   "evidence_all": [
+    "सार्व गुणज"
+   ],
+   "pdf_pages": [
+    1,
+    2,
+    10
+   ]
+  }
+ ]
+}

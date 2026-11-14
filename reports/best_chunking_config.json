@@ -1,0 +1,11 @@
+{
+  "best": "semantic_tuned+meta",
+  "method": "semantic_tuned",
+  "params": {
+    "mode": "relative",
+    "threshold": 0.0,
+    "max_chars": 300,
+    "min_chars": 150
+  },
+  "concept_boost_beta": 0.2
+}

@@ -1,0 +1,1308 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key for="node" attr.name="name_en" attr.type="string" id="d0" />
+  <key for="node" attr.name="name_hi" attr.type="string" id="d1" />
+  <key for="node" attr.name="chapter" attr.type="string" id="d2" />
+  <key for="node" attr.name="section" attr.type="string" id="d3" />
+  <key for="node" attr.name="kind" attr.type="string" id="d4" />
+  <key for="edge" attr.name="reasoning" attr.type="string" id="d5" />
+  <key for="edge" attr.name="validation_status" attr.type="string" id="d6" />
+  <key for="edge" attr.name="evidence" attr.type="string" id="d7" />
+  <graph edgedefault="directed">
+    <node id="MATH6_C0013">
+      <data key="d0">counting numbers</data>
+      <data key="d1">गणन संख्याएँ</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0036">
+      <data key="d0">whole numbers</data>
+      <data key="d1">पूर्ण संख्याएँ</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0037">
+      <data key="d0">digit</data>
+      <data key="d1">अंक</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0038">
+      <data key="d0">place value</data>
+      <data key="d1">स्थानीय मान</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0101">
+      <data key="d0">comparing numbers</data>
+      <data key="d1">संख्याओं की तुलना</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0046">
+      <data key="d0">addition</data>
+      <data key="d1">जोड़</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0047">
+      <data key="d0">subtraction</data>
+      <data key="d1">घटाव</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0102">
+      <data key="d0">multiplication</data>
+      <data key="d1">गुणा</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0103">
+      <data key="d0">division</data>
+      <data key="d1">भाग</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0012">
+      <data key="d0">consecutive numbers</data>
+      <data key="d1">क्रमागत संख्याएँ</data>
+      <data key="d2">PRIOR</data>
+      <data key="d3" />
+      <data key="d4">assumed</data>
+    </node>
+    <node id="MATH6_C0002">
+      <data key="d0">pattern</data>
+      <data key="d1">पैटर्न</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.1 What is Mathematics?</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0003">
+      <data key="d0">number pattern</data>
+      <data key="d1">संख्याओं में पैटर्न</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0005">
+      <data key="d0">number sequence</data>
+      <data key="d1">संख्या अनुक्रम</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0006">
+      <data key="d0">odd numbers</data>
+      <data key="d1">विषम संख्याएँ</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0007">
+      <data key="d0">even numbers</data>
+      <data key="d1">सम संख्याएँ</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0008">
+      <data key="d0">triangular numbers</data>
+      <data key="d1">त्रिभुजाकार संख्याएँ</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0009">
+      <data key="d0">square numbers</data>
+      <data key="d1">वर्ग संख्याएँ</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0010">
+      <data key="d0">cube numbers</data>
+      <data key="d1">घन संख्याएँ</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0011">
+      <data key="d0">powers of 2</data>
+      <data key="d1">2 की घातें</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_ADD001">
+      <data key="d0">Virahānka numbers</data>
+      <data key="d1">विरहांक संख्याएँ</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.2 Patterns in Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0015">
+      <data key="d0">visualising number sequences</data>
+      <data key="d1">संख्या अनुक्रमों का दृश्यांकन</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.3 Visualising Number Sequences</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0104">
+      <data key="d0">hexagonal numbers</data>
+      <data key="d1">षड्भुजाकार संख्याएँ</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.3 Visualising Number Sequences</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0105">
+      <data key="d0">relations among number sequences</data>
+      <data key="d1">संख्या अनुक्रमों के बीच संबंध</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.4 Relations among Number Sequences</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0004">
+      <data key="d0">shape sequences</data>
+      <data key="d1">आकारों में पैटर्न</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.5 Patterns in Shapes</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0014">
+      <data key="d0">regular polygons</data>
+      <data key="d1">सम बहुभुज</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.5 Patterns in Shapes</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0106">
+      <data key="d0">complete graphs</data>
+      <data key="d1">संपूर्ण ग्राफ</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.5 Patterns in Shapes</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0107">
+      <data key="d0">stacked squares</data>
+      <data key="d1">ढेरित वर्ग</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.5 Patterns in Shapes</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0108">
+      <data key="d0">stacked triangles</data>
+      <data key="d1">ढेरित त्रिभुज</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.5 Patterns in Shapes</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0109">
+      <data key="d0">Koch snowflake</data>
+      <data key="d1">कोच हिमकण</data>
+      <data key="d2">CH01</data>
+      <data key="d3">1.5 Patterns in Shapes</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0016">
+      <data key="d0">point</data>
+      <data key="d1">बिंदु</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.1 Point</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0018">
+      <data key="d0">line segment</data>
+      <data key="d1">रेखाखंड</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.2 Line Segment</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0017">
+      <data key="d0">line</data>
+      <data key="d1">रेखा</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.3 Line</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0019">
+      <data key="d0">ray</data>
+      <data key="d1">किरण</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.4 Ray</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0020">
+      <data key="d0">angle</data>
+      <data key="d1">कोण</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.5 Angle</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0021">
+      <data key="d0">vertex of an angle</data>
+      <data key="d1">शीर्ष</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.5 Angle</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0022">
+      <data key="d0">arms of an angle</data>
+      <data key="d1">कोण की भुजाएँ</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.5 Angle</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0110">
+      <data key="d0">comparing angles</data>
+      <data key="d1">कोणों की तुलना</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.6 Comparing Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0034">
+      <data key="d0">angle as amount of turn</data>
+      <data key="d1">घूर्णन</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.7 Making Rotating Arms</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0023">
+      <data key="d0">straight angle</data>
+      <data key="d1">सरल कोण</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.8 Special Types of Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0024">
+      <data key="d0">right angle</data>
+      <data key="d1">समकोण</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.8 Special Types of Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0031">
+      <data key="d0">perpendicular lines</data>
+      <data key="d1">लंब रेखाएँ</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.8 Special Types of Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0025">
+      <data key="d0">acute angle</data>
+      <data key="d1">न्यून कोण</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.8 Special Types of Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0026">
+      <data key="d0">obtuse angle</data>
+      <data key="d1">अधिक कोण</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.8 Special Types of Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0028">
+      <data key="d0">complete angle (full turn)</data>
+      <data key="d1">पूर्ण कोण</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.9 Measuring Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0029">
+      <data key="d0">degree (angle measure)</data>
+      <data key="d1">डिग्री (अंश)</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.9 Measuring Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0035">
+      <data key="d0">angle bisector</data>
+      <data key="d1">कोण समद्विभाजक</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.9 Measuring Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0030">
+      <data key="d0">protractor</data>
+      <data key="d1">चाँदा</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.9 Measuring Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0111">
+      <data key="d0">drawing angles of a given measure</data>
+      <data key="d1">कोणों को बनाना</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.10 Drawing Angles</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0027">
+      <data key="d0">reflex angle</data>
+      <data key="d1">प्रतिवर्ती कोण</data>
+      <data key="d2">CH02</data>
+      <data key="d3">2.11 Types of Angles and their Measures</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0051">
+      <data key="d0">supercell</data>
+      <data key="d1">महाकोष्ठ</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.2 Supercells</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0041">
+      <data key="d0">number line</data>
+      <data key="d1">संख्या रेखा</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.3 Patterns of Numbers on the Number Line</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0039">
+      <data key="d0">digit sum</data>
+      <data key="d1">अंकों का योग</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.4 Playing with Digits</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0040">
+      <data key="d0">palindromic numbers</data>
+      <data key="d1">पैलिंड्रोम (विलोमाक्षर) संख्याएँ</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.5 Pretty Palindromic Patterns</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0050">
+      <data key="d0">Kaprekar constant (6174)</data>
+      <data key="d1">कापरेकर की जादुई संख्या</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.6 The Magic Number of Kaprekar</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0112">
+      <data key="d0">clock and calendar numbers</data>
+      <data key="d1">घड़ी और कैलेंडर की संख्याएँ</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.7 Clock and Calendar Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0113">
+      <data key="d0">mental math</data>
+      <data key="d1">मानसिक गणित</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.8 Mental Math</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0049">
+      <data key="d0">quick sums using number patterns</data>
+      <data key="d1">संख्या पैटर्न के साथ खेलना</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.9 Playing with Number Patterns</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_ADD002">
+      <data key="d0">Collatz conjecture</data>
+      <data key="d1">कोलाट्ज़ अनुमान</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.10 An Unsolved Mystery — the Collatz Conjecture!</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0042">
+      <data key="d0">estimation</data>
+      <data key="d1">आकलन</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.11 Simple Estimation</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0114">
+      <data key="d0">winning strategy in number games</data>
+      <data key="d1">जीतने की रणनीति</data>
+      <data key="d2">CH03</data>
+      <data key="d3">3.12 Games and Winning Strategies</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0115">
+      <data key="d0">data</data>
+      <data key="d1">आँकड़े</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.1 Collecting and Organising Data</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0116">
+      <data key="d0">tally marks</data>
+      <data key="d1">मिलान चिह्न</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.1 Collecting and Organising Data</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0117">
+      <data key="d0">frequency</data>
+      <data key="d1">बारंबारता</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.1 Collecting and Organising Data</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0118">
+      <data key="d0">frequency table</data>
+      <data key="d1">बारंबारता सारणी</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.1 Collecting and Organising Data</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0119">
+      <data key="d0">pictograph</data>
+      <data key="d1">चित्रालेख</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.2 Pictographs</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0120">
+      <data key="d0">scale or key of a graph</data>
+      <data key="d1">पैमाना या कुंजी</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.2 Pictographs</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0121">
+      <data key="d0">bar graph</data>
+      <data key="d1">दंड आलेख</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.3 Bar Graphs</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0122">
+      <data key="d0">drawing a bar graph</data>
+      <data key="d1">दंड आलेख खींचना</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.4 Drawing a Bar Graph</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0123">
+      <data key="d0">vertical and horizontal bar graphs</data>
+      <data key="d1">स्तंभ आलेख (ऊर्ध्वाधर दंड)</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.5 Artistic and Aesthetic Considerations</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0124">
+      <data key="d0">infographics</data>
+      <data key="d1">इन्फोग्राफिक्स (सूचना ग्राफिक्स)</data>
+      <data key="d2">CH04</data>
+      <data key="d3">4.5 Artistic and Aesthetic Considerations</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0125">
+      <data key="d0">multiple</data>
+      <data key="d1">गुणज</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.1 Common Multiples and Common Factors</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0126">
+      <data key="d0">common multiple</data>
+      <data key="d1">सार्व गुणज</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.1 Common Multiples and Common Factors</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0127">
+      <data key="d0">factor (divisor)</data>
+      <data key="d1">गुणनखंड (भाजक)</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.1 Common Multiples and Common Factors</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0128">
+      <data key="d0">common factor</data>
+      <data key="d1">सार्व गुणनखंड</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.1 Common Multiples and Common Factors</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0129">
+      <data key="d0">perfect number</data>
+      <data key="d1">संपूर्ण संख्या</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.1 Common Multiples and Common Factors</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0130">
+      <data key="d0">prime number</data>
+      <data key="d1">अभाज्य संख्या</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.2 Prime Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0131">
+      <data key="d0">composite number</data>
+      <data key="d1">भाज्य संख्या</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.2 Prime Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0132">
+      <data key="d0">Sieve of Eratosthenes</data>
+      <data key="d1">इराटोस्थेनीस की छलनी</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.2 Prime Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0133">
+      <data key="d0">twin primes</data>
+      <data key="d1">अभाज्य युग्म (जुड़वाँ अभाज्य)</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.2 Prime Numbers</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0134">
+      <data key="d0">co-prime numbers</data>
+      <data key="d1">सह-अभाज्य संख्याएँ</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.3 Co-prime numbers for safekeeping treasures</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0135">
+      <data key="d0">prime factorisation</data>
+      <data key="d1">अभाज्य गुणनखंडन</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.4 Prime Factorisation</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0136">
+      <data key="d0">prime factor</data>
+      <data key="d1">अभाज्य गुणनखंड</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.4 Prime Factorisation</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0137">
+      <data key="d0">divisibility</data>
+      <data key="d1">विभाज्यता</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.4 Prime Factorisation</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0138">
+      <data key="d0">divisibility tests for 2, 5 and 10</data>
+      <data key="d1">2, 5 और 10 से विभाज्यता की जाँच</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.5 Divisibility Tests</data>
+      <data key="d4">taught</data>
+    </node>
+    <node id="MATH6_C0139">
+      <data key="d0">divisibility tests for 4 and 8</data>
+      <data key="d1">4 और 8 से विभाज्यता की जाँच</data>
+      <data key="d2">CH05</data>
+      <data key="d3">5.5 Divisibility Tests</data>
+      <data key="d4">taught</data>
+    </node>
+    <edge source="MATH6_C0013" target="MATH6_C0036">
+      <data key="d5">Whole numbers extend the counting numbers with 0.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_C0047">
+      <data key="d5">Subtraction is introduced as the inverse of addition.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_C0102">
+      <data key="d5">Multiplication is first understood as repeated addition.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_C0103">
+      <data key="d5">Division is the inverse of multiplication.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0037" target="MATH6_C0038">
+      <data key="d5">A digit's value depends on its place.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0038" target="MATH6_C0101">
+      <data key="d5">Comparing multi-digit numbers uses place value.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0013" target="MATH6_C0012">
+      <data key="d5">Consecutive numbers follow one another in the counting order.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0002" target="MATH6_C0003">
+      <data key="d5">Number patterns are a kind of pattern (1.2: patterns of numbers).</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0036" target="MATH6_C0003">
+      <data key="d5">1.2 studies patterns in whole numbers 0, 1, 2, 3, ...</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0003" target="MATH6_C0005">
+      <data key="d5">1.2: number sequences are the most basic type of number pattern.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0013" target="MATH6_C0006">
+      <data key="d5">Odd numbers are every other counting number (Table 1).</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0013" target="MATH6_C0007">
+      <data key="d5">Even numbers are every other counting number (Table 1).</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0005" target="MATH6_C0008">
+      <data key="d5">Triangular numbers are presented as a sequence in Table 1.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_C0008">
+      <data key="d5">Triangular numbers are sums 1, 1+2, 1+2+3, ...</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0005" target="MATH6_C0009">
+      <data key="d5">Squares are presented as a sequence in Table 1.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_C0009">
+      <data key="d5">A square number is a number multiplied by itself.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0005" target="MATH6_C0010">
+      <data key="d5">Cubes are presented as a sequence in Table 1.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_C0010">
+      <data key="d5">A cube number is a number multiplied by itself three times.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0005" target="MATH6_C0011">
+      <data key="d5">Powers of 2 are presented as a sequence in Table 1.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_C0011">
+      <data key="d5">Each power of 2 is the previous one multiplied by 2.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0005" target="MATH6_ADD001">
+      <data key="d5">Virahānka numbers are presented as a sequence in Table 1.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_ADD001">
+      <data key="d5">Each Virahānka number is the sum of the previous two.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0005" target="MATH6_C0015">
+      <data key="d5">1.3 draws pictures of the sequences listed in 1.2.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0008" target="MATH6_C0015">
+      <data key="d5">1.3 asks why 1, 3, 6, 10, ... are called triangular, using pictures.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0009" target="MATH6_C0015">
+      <data key="d5">1.3 explains square numbers with square dot arrays.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0015" target="MATH6_C0104">
+      <data key="d5">Hexagonal numbers are named from their pictorial (hexagon) arrangement in 1.3.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0006" target="MATH6_C0105">
+      <data key="d5">1.4: adding up odd numbers 1, 1+3, 1+3+5, ... gives squares.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0009" target="MATH6_C0105">
+      <data key="d5">1.4 relations produce the square numbers.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0008" target="MATH6_C0105">
+      <data key="d5">1.4: adding consecutive triangular numbers gives squares.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0015" target="MATH6_C0105">
+      <data key="d5">1.4 explains each relation with a picture.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0002" target="MATH6_C0004">
+      <data key="d5">1.5: patterns in shapes are the second kind of pattern.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0004" target="MATH6_C0014">
+      <data key="d5">Regular polygons appear as a shape sequence in Table 3.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0004" target="MATH6_C0106">
+      <data key="d5">Complete graphs appear as a shape sequence in Table 3.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0004" target="MATH6_C0107">
+      <data key="d5">Stacked squares appear as a shape sequence in Table 3.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0009" target="MATH6_C0107">
+      <data key="d5">1.6: counting little squares in stacked squares gives square numbers.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0004" target="MATH6_C0108">
+      <data key="d5">Stacked triangles appear as a shape sequence in Table 3.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0008" target="MATH6_C0108">
+      <data key="d5">1.6: rows of stacked triangles connect to triangular numbers.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0004" target="MATH6_C0109">
+      <data key="d5">The Koch snowflake appears as a shape sequence in Table 3.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_C0109">
+      <data key="d5">1.6: segment counts 3, 12, 48, ... are 3 times powers of 4.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0016" target="MATH6_C0018">
+      <data key="d5">2.2: a line segment is the shortest path between two points.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0018" target="MATH6_C0017">
+      <data key="d5">2.3: a line is a segment extended endlessly in both directions.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0016" target="MATH6_C0019">
+      <data key="d5">2.4: a ray starts at a point.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0017" target="MATH6_C0019">
+      <data key="d5">2.4: a ray goes endlessly in one direction along a line.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0019" target="MATH6_C0020">
+      <data key="d5">2.5: an angle is formed by two rays with a common starting point.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0020" target="MATH6_C0021">
+      <data key="d5">2.5: the common starting point is called the vertex of the angle.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0016" target="MATH6_C0021">
+      <data key="d5">The vertex is a point.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0020" target="MATH6_C0022">
+      <data key="d5">2.5: the rays forming the angle are called its arms.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0019" target="MATH6_C0022">
+      <data key="d5">The arms of an angle are rays.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0020" target="MATH6_C0110">
+      <data key="d5">2.6 compares sizes of angles.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0021" target="MATH6_C0110">
+      <data key="d5">Superimposing angles places vertex on vertex.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0022" target="MATH6_C0110">
+      <data key="d5">Superimposing angles places one arm on another.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0020" target="MATH6_C0034">
+      <data key="d5">2.7: the size of an angle is the amount of rotation of one arm.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0034" target="MATH6_C0023">
+      <data key="d5">2.8: a straight angle is a half turn.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0017" target="MATH6_C0023">
+      <data key="d5">The arms of a straight angle lie on one line.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0023" target="MATH6_C0024">
+      <data key="d5">2.8: folding a straight angle into two equal angles gives right angles.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0024" target="MATH6_C0031">
+      <data key="d5">2.8: lines that meet at right angles are perpendicular.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0017" target="MATH6_C0031">
+      <data key="d5">Perpendicularity is a relation between lines.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0024" target="MATH6_C0025">
+      <data key="d5">2.8: acute angles are smaller than a right angle.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0110" target="MATH6_C0025">
+      <data key="d5">Classifying as acute requires comparing with a right angle.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0024" target="MATH6_C0026">
+      <data key="d5">2.8: obtuse angles are greater than a right angle.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0023" target="MATH6_C0026">
+      <data key="d5">2.8: obtuse angles are less than a straight angle.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0110" target="MATH6_C0026">
+      <data key="d5">Classifying as obtuse requires comparing angles.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0034" target="MATH6_C0028">
+      <data key="d5">A complete angle is one full turn of the rotating arm.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0023" target="MATH6_C0028">
+      <data key="d5">Two straight angles make a full turn.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0028" target="MATH6_C0029">
+      <data key="d5">2.9: a full turn is divided into 360 equal parts, each 1 degree.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0110" target="MATH6_C0035">
+      <data key="d5">Bisecting (by folding) produces two equal angles.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0029" target="MATH6_C0035">
+      <data key="d5">2.9 halves 90° to 45° and 22½° by folding.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0029" target="MATH6_C0030">
+      <data key="d5">2.9: the protractor is the tool for measuring degrees.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0030" target="MATH6_C0111">
+      <data key="d5">2.10 draws angles of a given measure with a protractor.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0029" target="MATH6_C0025">
+      <data key="d5">2.11: acute angles measure more than 0° and less than 90°.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0029" target="MATH6_C0026">
+      <data key="d5">2.11: obtuse angles measure more than 90° and less than 180°.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0029" target="MATH6_C0027">
+      <data key="d5">2.11: reflex angles measure more than 180° and less than 360°.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0023" target="MATH6_C0027">
+      <data key="d5">Reflex angles are greater than a straight angle.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0028" target="MATH6_C0027">
+      <data key="d5">Reflex angles are less than a complete angle.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0101" target="MATH6_C0051">
+      <data key="d5">3.2: a supercell holds a number larger than all its neighbours.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0101" target="MATH6_C0041">
+      <data key="d5">3.3 places numbers on a number line in order.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0038" target="MATH6_C0041">
+      <data key="d5">Placing 2180, 2754, ... between marked thousands uses place value.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0037" target="MATH6_C0039">
+      <data key="d5">A digit sum adds the digits of a number.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_C0039">
+      <data key="d5">A digit sum is computed by addition.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0037" target="MATH6_C0040">
+      <data key="d5">A palindrome reads the same digits left-to-right and right-to-left.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_C0040">
+      <data key="d5">3.5: reverse-and-add produces palindromes.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0101" target="MATH6_C0050">
+      <data key="d5">Kaprekar's routine forms the largest and smallest numbers from the digits.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0047" target="MATH6_C0050">
+      <data key="d5">Kaprekar's routine subtracts the smallest from the largest.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0040" target="MATH6_C0112">
+      <data key="d5">3.7 looks for palindromic dates and times.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0037" target="MATH6_C0112">
+      <data key="d5">Clock and calendar puzzles rearrange digits.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_C0113">
+      <data key="d5">3.8 composes numbers mentally by addition.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0047" target="MATH6_C0113">
+      <data key="d5">3.8 also uses subtraction.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0038" target="MATH6_C0113">
+      <data key="d5">Mental math in 3.8 works with hundreds and thousands.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0003" target="MATH6_C0049">
+      <data key="d5">3.9 uses arrangements/patterns of numbers to find sums quickly.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0113" target="MATH6_C0049">
+      <data key="d5">3.9 replaces one-by-one addition by quicker mental methods.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0005" target="MATH6_ADD002">
+      <data key="d5">A Collatz sequence is a number sequence produced by a rule.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0006" target="MATH6_ADD002">
+      <data key="d5">The Collatz rule multiplies odd numbers by 3 and adds 1.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0007" target="MATH6_ADD002">
+      <data key="d5">The Collatz rule halves even numbers.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_ADD002">
+      <data key="d5">The odd step multiplies by 3.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0038" target="MATH6_C0042">
+      <data key="d5">Estimates are made to the nearest ten, hundred, thousand.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0113" target="MATH6_C0042">
+      <data key="d5">Estimation relies on quick mental calculation.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_C0114">
+      <data key="d5">3.12 games add 1, 2 or 3 to the previous number.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0003" target="MATH6_C0114">
+      <data key="d5">The winning strategy is a pattern of numbers to say.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0115" target="MATH6_C0116">
+      <data key="d5">4.1 records collected data with tally marks.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0115" target="MATH6_C0117">
+      <data key="d5">Frequencies are counts of occurrences of data values.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0013" target="MATH6_C0117">
+      <data key="d5">A frequency is a count.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0116" target="MATH6_C0118">
+      <data key="d5">A frequency table is filled using tally marks.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0117" target="MATH6_C0118">
+      <data key="d5">A frequency table lists the frequency of each category.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0117" target="MATH6_C0119">
+      <data key="d5">A pictograph shows the frequency of each category with pictures.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0119" target="MATH6_C0120">
+      <data key="d5">4.2 introduces the scale/key when one symbol stands for many students.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_C0120">
+      <data key="d5">Reading a scaled pictograph multiplies symbols by the scale (5 × 10 = 50).</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0117" target="MATH6_C0121">
+      <data key="d5">The length or height of a bar gives the frequency.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0119" target="MATH6_C0121">
+      <data key="d5">4.3: "Like pictographs, bar graphs..."</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0120" target="MATH6_C0121">
+      <data key="d5">4.3 bar graphs use a scale when frequencies are large.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0121" target="MATH6_C0122">
+      <data key="d5">4.4 draws the bar graph introduced in 4.3.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0118" target="MATH6_C0122">
+      <data key="d5">4.4 starts from Shri Nilesh's frequency table.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0031" target="MATH6_C0122">
+      <data key="d5">4.4: "Draw two perpendicular lines, one horizontal and one vertical."</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0121" target="MATH6_C0123">
+      <data key="d5">4.5 chooses vertical (column) or horizontal bars.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0121" target="MATH6_C0124">
+      <data key="d5">4.5: infographics are beautified bar graphs.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_C0125">
+      <data key="d5">Multiples of 3 are 3 × 1, 3 × 2, 3 × 3, ...</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0125" target="MATH6_C0126">
+      <data key="d5">5.1: numbers that are multiples of both 3 and 5 are common multiples.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0103" target="MATH6_C0127">
+      <data key="d5">5.1: factors divide a number exactly.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0125" target="MATH6_C0127">
+      <data key="d5">Jump sizes that land on 24 are its factors (24 is their multiple).</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0127" target="MATH6_C0128">
+      <data key="d5">5.1: jump sizes reaching both treasures are common factors.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0127" target="MATH6_C0129">
+      <data key="d5">A perfect number's factors sum to twice the number.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0046" target="MATH6_C0129">
+      <data key="d5">Perfect numbers are checked by adding the factors.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0127" target="MATH6_C0130">
+      <data key="d5">5.2: primes have exactly two factors.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0127" target="MATH6_C0131">
+      <data key="d5">5.2: composite numbers have more than two factors.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0130" target="MATH6_C0132">
+      <data key="d5">The sieve circles primes.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0131" target="MATH6_C0132">
+      <data key="d5">The sieve crosses out composites.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0125" target="MATH6_C0132">
+      <data key="d5">The sieve crosses out all multiples of each prime.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0130" target="MATH6_C0133">
+      <data key="d5">Twin primes are pairs of primes.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0128" target="MATH6_C0134">
+      <data key="d5">5.3: co-prime numbers have no common factor other than 1.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0130" target="MATH6_C0135">
+      <data key="d5">5.4: prime factorisation writes a number as a product of primes.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0131" target="MATH6_C0135">
+      <data key="d5">5.4 keeps breaking composite factors until only primes are left.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0102" target="MATH6_C0135">
+      <data key="d5">A factorisation is a product.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0135" target="MATH6_C0136">
+      <data key="d5">5.4: "The individual factors are called prime factors."</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0103" target="MATH6_C0137">
+      <data key="d5">5.4: 48 is divisible by 12 because the remainder is zero.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0127" target="MATH6_C0137">
+      <data key="d5">"If a number is divisible by another, the second is a factor of the first."</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0137" target="MATH6_C0138">
+      <data key="d5">5.5 tests divisibility without long division.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0125" target="MATH6_C0138">
+      <data key="d5">The tests come from patterns in the last digit of multiples of 10, 5, 2.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0007" target="MATH6_C0138">
+      <data key="d5">Numbers divisible by 2 are the even numbers (end in 0, 2, 4, 6, 8).</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0038" target="MATH6_C0139">
+      <data key="d5">Only the last two/three places matter for divisibility by 4/8.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">definitional</data>
+    </edge>
+    <edge source="MATH6_C0138" target="MATH6_C0139">
+      <data key="d5">5.5: the last-digit rule fails for 4, so more digits are examined.</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+    <edge source="MATH6_C0136" target="MATH6_C0134">
+      <data key="d5">5.4: no common prime factor ⇔ co-prime (systematic check).</data>
+      <data key="d6">PENDING_HUMAN_REVIEW</data>
+      <data key="d7">section reference</data>
+    </edge>
+  </graph>
+</graphml>
