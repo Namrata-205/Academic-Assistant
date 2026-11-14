@@ -1,0 +1,317 @@
+{
+  "created_utc": "2026-11-14T09:19:57.316288+00:00",
+  "metadata_version": "chunk-meta-v1",
+  "kg_version": "kg-v2-ch1-5",
+  "methods": {
+    "fixed": {
+      "params": {
+        "size": 900
+      },
+      "files": {
+        "en_ch01.jsonl": {
+          "chunks": 20,
+          "mean_chars": 560.9,
+          "min_chars": 10,
+          "max_chars": 899,
+          "share_over_token_limit": 0.6
+        },
+        "hi_ch01.jsonl": {
+          "chunks": 23,
+          "mean_chars": 533.6,
+          "min_chars": 31,
+          "max_chars": 899,
+          "share_over_token_limit": 0.565
+        },
+        "en_ch02.jsonl": {
+          "chunks": 56,
+          "mean_chars": 548.8,
+          "min_chars": 6,
+          "max_chars": 899,
+          "share_over_token_limit": 0.607
+        },
+        "hi_ch02.jsonl": {
+          "chunks": 55,
+          "mean_chars": 560.9,
+          "min_chars": 4,
+          "max_chars": 899,
+          "share_over_token_limit": 0.691
+        },
+        "en_ch03.jsonl": {
+          "chunks": 31,
+          "mean_chars": 613.7,
+          "min_chars": 11,
+          "max_chars": 899,
+          "share_over_token_limit": 0.645
+        },
+        "hi_ch03.jsonl": {
+          "chunks": 34,
+          "mean_chars": 616.7,
+          "min_chars": 15,
+          "max_chars": 899,
+          "share_over_token_limit": 0.676
+        },
+        "en_ch04.jsonl": {
+          "chunks": 50,
+          "mean_chars": 642.2,
+          "min_chars": 186,
+          "max_chars": 899,
+          "share_over_token_limit": 0.62
+        },
+        "hi_ch04.jsonl": {
+          "chunks": 52,
+          "mean_chars": 657.1,
+          "min_chars": 20,
+          "max_chars": 899,
+          "share_over_token_limit": 0.788
+        },
+        "en_ch05.jsonl": {
+          "chunks": 43,
+          "mean_chars": 673.5,
+          "min_chars": 12,
+          "max_chars": 899,
+          "share_over_token_limit": 0.767
+        },
+        "hi_ch05.jsonl": {
+          "chunks": 43,
+          "mean_chars": 703.7,
+          "min_chars": 64,
+          "max_chars": 899,
+          "share_over_token_limit": 0.791
+        }
+      }
+    },
+    "semantic": {
+      "params": {},
+      "files": {
+        "en_ch01.jsonl": {
+          "chunks": 134,
+          "mean_chars": 82.9,
+          "min_chars": 1,
+          "max_chars": 558,
+          "share_over_token_limit": 0.022
+        },
+        "hi_ch01.jsonl": {
+          "chunks": 133,
+          "mean_chars": 91.5,
+          "min_chars": 2,
+          "max_chars": 568,
+          "share_over_token_limit": 0.045
+        },
+        "en_ch02.jsonl": {
+          "chunks": 411,
+          "mean_chars": 73.9,
+          "min_chars": 1,
+          "max_chars": 570,
+          "share_over_token_limit": 0.007
+        },
+        "hi_ch02.jsonl": {
+          "chunks": 363,
+          "mean_chars": 84.1,
+          "min_chars": 2,
+          "max_chars": 544,
+          "share_over_token_limit": 0.017
+        },
+        "en_ch03.jsonl": {
+          "chunks": 296,
+          "mean_chars": 63.4,
+          "min_chars": 2,
+          "max_chars": 569,
+          "share_over_token_limit": 0.003
+        },
+        "hi_ch03.jsonl": {
+          "chunks": 276,
+          "mean_chars": 75.1,
+          "min_chars": 2,
+          "max_chars": 590,
+          "share_over_token_limit": 0.018
+        },
+        "en_ch04.jsonl": {
+          "chunks": 465,
+          "mean_chars": 68.2,
+          "min_chars": 1,
+          "max_chars": 563,
+          "share_over_token_limit": 0.002
+        },
+        "hi_ch04.jsonl": {
+          "chunks": 447,
+          "mean_chars": 75.6,
+          "min_chars": 2,
+          "max_chars": 614,
+          "share_over_token_limit": 0.009
+        },
+        "en_ch05.jsonl": {
+          "chunks": 431,
+          "mean_chars": 66.3,
+          "min_chars": 2,
+          "max_chars": 537,
+          "share_over_token_limit": 0.005
+        },
+        "hi_ch05.jsonl": {
+          "chunks": 379,
+          "mean_chars": 79.0,
+          "min_chars": 2,
+          "max_chars": 619,
+          "share_over_token_limit": 0.026
+        }
+      }
+    },
+    "semantic_tuned": {
+      "params": {
+        "mode": "relative",
+        "threshold": 0.0,
+        "max_chars": 300,
+        "min_chars": 150
+      },
+      "files": {
+        "en_ch01.jsonl": {
+          "chunks": 56,
+          "mean_chars": 199.7,
+          "min_chars": 53,
+          "max_chars": 296,
+          "share_over_token_limit": 0.0
+        },
+        "hi_ch01.jsonl": {
+          "chunks": 62,
+          "mean_chars": 197.3,
+          "min_chars": 6,
+          "max_chars": 292,
+          "share_over_token_limit": 0.016
+        },
+        "en_ch02.jsonl": {
+          "chunks": 161,
+          "mean_chars": 190.2,
+          "min_chars": 31,
+          "max_chars": 300,
+          "share_over_token_limit": 0.0
+        },
+        "hi_ch02.jsonl": {
+          "chunks": 160,
+          "mean_chars": 192.2,
+          "min_chars": 31,
+          "max_chars": 298,
+          "share_over_token_limit": 0.0
+        },
+        "en_ch03.jsonl": {
+          "chunks": 92,
+          "mean_chars": 206.1,
+          "min_chars": 49,
+          "max_chars": 300,
+          "share_over_token_limit": 0.0
+        },
+        "hi_ch03.jsonl": {
+          "chunks": 104,
+          "mean_chars": 200.9,
+          "min_chars": 46,
+          "max_chars": 300,
+          "share_over_token_limit": 0.0
+        },
+        "en_ch04.jsonl": {
+          "chunks": 157,
+          "mean_chars": 203.8,
+          "min_chars": 31,
+          "max_chars": 298,
+          "share_over_token_limit": 0.0
+        },
+        "hi_ch04.jsonl": {
+          "chunks": 168,
+          "mean_chars": 202.7,
+          "min_chars": 42,
+          "max_chars": 300,
+          "share_over_token_limit": 0.0
+        },
+        "en_ch05.jsonl": {
+          "chunks": 141,
+          "mean_chars": 204.7,
+          "min_chars": 31,
+          "max_chars": 299,
+          "share_over_token_limit": 0.0
+        },
+        "hi_ch05.jsonl": {
+          "chunks": 147,
+          "mean_chars": 205.1,
+          "min_chars": 7,
+          "max_chars": 297,
+          "share_over_token_limit": 0.0
+        }
+      }
+    },
+    "graph": {
+      "params": {
+        "max_chars": 450,
+        "min_chars": 200
+      },
+      "files": {
+        "en_ch01.jsonl": {
+          "chunks": 39,
+          "mean_chars": 287.1,
+          "min_chars": 55,
+          "max_chars": 425,
+          "share_over_token_limit": 0.0
+        },
+        "hi_ch01.jsonl": {
+          "chunks": 40,
+          "mean_chars": 306.4,
+          "min_chars": 31,
+          "max_chars": 450,
+          "share_over_token_limit": 0.125
+        },
+        "en_ch02.jsonl": {
+          "chunks": 99,
+          "mean_chars": 310.0,
+          "min_chars": 33,
+          "max_chars": 450,
+          "share_over_token_limit": 0.03
+        },
+        "hi_ch02.jsonl": {
+          "chunks": 103,
+          "mean_chars": 299.1,
+          "min_chars": 24,
+          "max_chars": 450,
+          "share_over_token_limit": 0.243
+        },
+        "en_ch03.jsonl": {
+          "chunks": 59,
+          "mean_chars": 322.0,
+          "min_chars": 59,
+          "max_chars": 450,
+          "share_over_token_limit": 0.034
+        },
+        "hi_ch03.jsonl": {
+          "chunks": 63,
+          "mean_chars": 332.3,
+          "min_chars": 41,
+          "max_chars": 447,
+          "share_over_token_limit": 0.206
+        },
+        "en_ch04.jsonl": {
+          "chunks": 99,
+          "mean_chars": 323.8,
+          "min_chars": 30,
+          "max_chars": 450,
+          "share_over_token_limit": 0.02
+        },
+        "hi_ch04.jsonl": {
+          "chunks": 106,
+          "mean_chars": 321.8,
+          "min_chars": 31,
+          "max_chars": 450,
+          "share_over_token_limit": 0.189
+        },
+        "en_ch05.jsonl": {
+          "chunks": 94,
+          "mean_chars": 307.6,
+          "min_chars": 39,
+          "max_chars": 448,
+          "share_over_token_limit": 0.011
+        },
+        "hi_ch05.jsonl": {
+          "chunks": 94,
+          "mean_chars": 321.4,
+          "min_chars": 73,
+          "max_chars": 450,
+          "share_over_token_limit": 0.309
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+﻿id,name_en,name_hi,chapter,section,kind,mentions_en,mentions_hi,name_en_in_text,name_hi_in_text,first_page_en,first_page_hi
+MATH6_C0013,counting numbers,गणन संख्याएँ,PRIOR,,assumed,6,7,True,True,CH1p3,CH1p3
+MATH6_C0036,whole numbers,पूर्ण संख्याएँ,PRIOR,,assumed,6,9,True,True,CH1p2,CH2p22
+MATH6_C0037,digit,अंक,PRIOR,,assumed,138,175,True,True,CH3p3,CH2p1
+MATH6_C0038,place value,स्थानीय मान,PRIOR,,assumed,4,1,False,False,CH1p2,CH3p8
+MATH6_C0101,comparing numbers,संख्याओं की तुलना,PRIOR,,assumed,52,89,False,False,CH2p6,CH2p14
+MATH6_C0046,addition,जोड़,PRIOR,,assumed,70,184,True,True,CH1p7,CH1p1
+MATH6_C0047,subtraction,घटाव,PRIOR,,assumed,19,33,True,False,CH2p25,CH2p1
+MATH6_C0102,multiplication,गुणा,PRIOR,,assumed,21,26,True,True,CH1p9,CH1p9
+MATH6_C0103,division,भाग,PRIOR,,assumed,17,3,True,True,CH2p15,CH5p15
+MATH6_C0012,consecutive numbers,क्रमागत संख्याएँ,PRIOR,,assumed,4,5,True,True,CH1p8,CH1p8
+MATH6_C0002,pattern,पैटर्न,CH01,1.1 What is Mathematics?,taught,63,67,True,True,CH1p1,CH1p1
+MATH6_C0003,number pattern,संख्याओं में पैटर्न,CH01,1.2 Patterns in Numbers,taught,7,7,False,True,CH1p2,CH1p2
+MATH6_C0005,number sequence,संख्या अनुक्रम,CH01,1.2 Patterns in Numbers,taught,107,109,True,True,CH1p2,CH1p2
+MATH6_C0006,odd numbers,विषम संख्याएँ,CH01,1.2 Patterns in Numbers,taught,10,12,True,True,CH1p3,CH1p3
+MATH6_C0007,even numbers,सम संख्याएँ,CH01,1.2 Patterns in Numbers,taught,7,9,True,True,CH1p3,CH1p3
+MATH6_C0008,triangular numbers,त्रिभुजाकार संख्याएँ,CH01,1.2 Patterns in Numbers,taught,7,6,True,True,CH1p3,CH1p3
+MATH6_C0009,square numbers,वर्ग संख्याएँ,CH01,1.2 Patterns in Numbers,taught,15,9,True,True,CH1p3,CH1p3
+MATH6_C0010,cube numbers,घन संख्याएँ,CH01,1.2 Patterns in Numbers,taught,4,4,True,True,CH1p3,CH1p3
+MATH6_C0011,powers of 2,2 की घातें,CH01,1.2 Patterns in Numbers,taught,6,6,True,True,CH1p3,CH1p3
+MATH6_ADD001,Virahānka numbers,विरहांक संख्याएँ,CH01,1.2 Patterns in Numbers,taught,2,2,True,True,CH1p3,CH1p3
+MATH6_C0015,visualising number sequences,संख्या अनुक्रमों का दृश्यांकन,CH01,1.3 Visualising Number Sequences,taught,9,8,True,True,CH1p3,CH1p3
+MATH6_C0104,hexagonal numbers,षड्भुजाकार संख्याएँ,CH01,1.3 Visualising Number Sequences,taught,2,2,True,True,CH1p5,CH1p5
+MATH6_C0105,relations among number sequences,संख्या अनुक्रमों के बीच संबंध,CH01,1.4 Relations among Number Sequences,taught,10,5,True,True,CH1p6,CH1p6
+MATH6_C0004,shape sequences,आकारों में पैटर्न,CH01,1.5 Patterns in Shapes,taught,17,8,True,True,CH1p9,CH1p9
+MATH6_C0014,regular polygons,सम बहुभुज,CH01,1.5 Patterns in Shapes,taught,5,5,True,True,CH1p10,CH1p10
+MATH6_C0106,complete graphs,संपूर्ण ग्राफ,CH01,1.5 Patterns in Shapes,taught,3,1,True,True,CH1p10,CH1p12
+MATH6_C0107,stacked squares,ढेरित वर्ग,CH01,1.5 Patterns in Shapes,taught,2,1,True,True,CH1p10,CH1p10
+MATH6_C0108,stacked triangles,ढेरित त्रिभुज,CH01,1.5 Patterns in Shapes,taught,3,3,True,True,CH1p10,CH1p10
+MATH6_C0109,Koch snowflake,कोच हिमकण,CH01,1.5 Patterns in Shapes,taught,4,8,True,True,CH1p10,CH1p10
+MATH6_C0016,point,बिंदु,CH02,2.1 Point,taught,71,86,True,True,CH2p1,CH1p5
+MATH6_C0018,line segment,रेखाखंड,CH02,2.2 Line Segment,taught,18,18,True,True,CH1p12,CH1p12
+MATH6_C0017,line,रेखा,CH02,2.3 Line,taught,92,93,True,True,CH1p11,CH1p11
+MATH6_C0019,ray,किरण,CH02,2.4 Ray,taught,31,34,True,True,CH2p1,CH2p1
+MATH6_C0020,angle,कोण,CH02,2.5 Angle,taught,331,373,True,True,CH1p11,CH1p11
+MATH6_C0021,vertex of an angle,शीर्ष,CH02,2.5 Angle,taught,26,28,False,True,CH2p5,CH2p5
+MATH6_C0022,arms of an angle,कोण की भुजाएँ,CH02,2.5 Angle,taught,57,72,False,True,CH2p5,CH1p11
+MATH6_C0110,comparing angles,कोणों की तुलना,CH02,2.6 Comparing Angles,taught,20,20,True,True,CH2p9,CH2p9
+MATH6_C0034,angle as amount of turn,घूर्णन,CH02,2.7 Making Rotating Arms,taught,60,50,False,True,CH2p6,CH2p6
+MATH6_C0023,straight angle,सरल कोण,CH02,2.8 Special Types of Angles,taught,20,21,True,True,CH2p15,CH2p15
+MATH6_C0024,right angle,समकोण,CH02,2.8 Special Types of Angles,taught,23,28,True,True,CH2p17,CH2p17
+MATH6_C0031,perpendicular lines,लंब रेखाएँ,CH02,2.8 Special Types of Angles,taught,3,2,True,False,CH2p17,CH2p17
+MATH6_C0025,acute angle,न्यून कोण,CH02,2.8 Special Types of Angles,taught,35,18,True,True,CH2p19,CH2p19
+MATH6_C0026,obtuse angle,अधिक कोण,CH02,2.8 Special Types of Angles,taught,23,12,True,True,CH2p19,CH2p19
+MATH6_C0028,complete angle (full turn),पूर्ण कोण,CH02,2.9 Measuring Angles,taught,10,12,False,True,CH2p15,CH2p17
+MATH6_C0029,degree (angle measure),डिग्री (अंश),CH02,2.9 Measuring Angles,taught,35,22,True,True,CH2p21,CH2p21
+MATH6_C0035,angle bisector,कोण समद्विभाजक,CH02,2.9 Measuring Angles,taught,10,6,True,True,CH2p28,CH2p28
+MATH6_C0030,protractor,चाँदा,CH02,2.9 Measuring Angles,taught,35,24,True,True,CH2p22,CH2p22
+MATH6_C0111,drawing angles of a given measure,कोणों को बनाना,CH02,2.10 Drawing Angles,taught,4,7,False,True,CH2p34,CH2p8
+MATH6_C0027,reflex angle,प्रतिवर्ती कोण,CH02,2.11 Types of Angles and their Measures,taught,12,7,True,True,CH2p39,CH2p39
+MATH6_C0051,supercell,महाकोष्ठ,CH03,3.2 Supercells,taught,18,18,True,True,CH3p3,CH3p3
+MATH6_C0041,number line,संख्या रेखा,CH03,3.3 Patterns of Numbers on the Number Line,taught,4,4,True,True,CH3p5,CH3p5
+MATH6_C0039,digit sum,अंकों का योग,CH03,3.4 Playing with Digits,taught,11,10,True,True,CH3p6,CH3p6
+MATH6_C0040,palindromic numbers,पैलिंड्रोम (विलोमाक्षर) संख्याएँ,CH03,3.5 Pretty Palindromic Patterns,taught,16,19,True,True,CH3p7,CH3p7
+MATH6_C0050,Kaprekar constant (6174),कापरेकर की जादुई संख्या,CH03,3.6 The Magic Number of Kaprekar,taught,8,8,True,True,CH3p8,CH3p8
+MATH6_C0112,clock and calendar numbers,घड़ी और कैलेंडर की संख्याएँ,CH03,3.7 Clock and Calendar Numbers,taught,23,21,True,True,CH1p2,CH1p2
+MATH6_C0113,mental math,मानसिक गणित,CH03,3.8 Mental Math,taught,1,1,True,True,CH3p11,CH3p11
+MATH6_C0049,quick sums using number patterns,संख्या पैटर्न के साथ खेलना,CH03,3.9 Playing with Number Patterns,taught,2,3,False,True,CH3p13,CH3p13
+MATH6_ADD002,Collatz conjecture,कोलाट्ज़ अनुमान,CH03,3.10 An Unsolved Mystery — the Collatz Conjecture!,taught,9,5,True,True,CH3p14,CH3p14
+MATH6_C0042,estimation,आकलन,CH03,3.11 Simple Estimation,taught,17,11,True,True,CH2p37,CH3p15
+MATH6_C0114,winning strategy in number games,जीतने की रणनीति,CH03,3.12 Games and Winning Strategies,taught,6,3,False,True,CH3p17,CH3p17
+MATH6_C0115,data,आँकड़े,CH04,4.1 Collecting and Organising Data,taught,86,88,True,True,CH4p1,CH4p1
+MATH6_C0116,tally marks,मिलान चिह्न,CH04,4.1 Collecting and Organising Data,taught,5,5,True,True,CH4p3,CH4p3
+MATH6_C0117,frequency,बारंबारता,CH04,4.1 Collecting and Organising Data,taught,27,24,True,True,CH4p4,CH4p4
+MATH6_C0118,frequency table,बारंबारता सारणी,CH04,4.1 Collecting and Organising Data,taught,6,2,True,True,CH4p16,CH4p16
+MATH6_C0119,pictograph,चित्रालेख,CH04,4.2 Pictographs,taught,35,35,True,True,CH4p6,CH4p6
+MATH6_C0120,scale or key of a graph,पैमाना या कुंजी,CH04,4.2 Pictographs,taught,28,22,False,True,CH1p2,CH2p35
+MATH6_C0121,bar graph,दंड आलेख,CH04,4.3 Bar Graphs,taught,41,41,True,True,CH4p12,CH4p11
+MATH6_C0122,drawing a bar graph,दंड आलेख खींचना,CH04,4.4 Drawing a Bar Graph,taught,4,7,True,True,CH4p16,CH4p16
+MATH6_C0123,vertical and horizontal bar graphs,स्तंभ आलेख (ऊर्ध्वाधर दंड),CH04,4.5 Artistic and Aesthetic Considerations,taught,12,12,False,True,CH4p29,CH4p28
+MATH6_C0124,infographics,इन्फोग्राफिक्स (सूचना ग्राफिक्स),CH04,4.5 Artistic and Aesthetic Considerations,taught,10,5,True,True,CH4p30,CH4p30
+MATH6_C0125,multiple,गुणज,CH05,5.1 Common Multiples and Common Factors,taught,53,48,True,True,CH4p10,CH4p10
+MATH6_C0126,common multiple,सार्व गुणज,CH05,5.1 Common Multiples and Common Factors,taught,7,5,True,True,CH5p1,CH5p1
+MATH6_C0127,factor (divisor),गुणनखंड (भाजक),CH05,5.1 Common Multiples and Common Factors,taught,79,136,True,True,CH5p3,CH5p3
+MATH6_C0128,common factor,सार्व गुणनखंड,CH05,5.1 Common Multiples and Common Factors,taught,14,12,True,True,CH5p1,CH5p1
+MATH6_C0129,perfect number,संपूर्ण संख्या,CH05,5.1 Common Multiples and Common Factors,taught,3,3,True,True,CH5p5,CH5p5
+MATH6_C0130,prime number,अभाज्य संख्या,CH05,5.2 Prime Numbers,taught,205,229,True,True,CH5p1,CH5p1
+MATH6_C0131,composite number,भाज्य संख्या,CH05,5.2 Prime Numbers,taught,17,75,True,True,CH5p6,CH5p6
+MATH6_C0132,Sieve of Eratosthenes,इराटोस्थेनीस की छलनी,CH05,5.2 Prime Numbers,taught,3,3,True,True,CH5p7,CH5p7
+MATH6_C0133,twin primes,अभाज्य युग्म (जुड़वाँ अभाज्य),CH05,5.2 Prime Numbers,taught,3,3,True,True,CH5p8,CH5p8
+MATH6_C0134,co-prime numbers,सह-अभाज्य संख्याएँ,CH05,5.3 Co-prime numbers for safekeeping treasures,taught,29,30,True,True,CH5p10,CH5p10
+MATH6_C0135,prime factorisation,अभाज्य गुणनखंडन,CH05,5.4 Prime Factorisation,taught,45,39,True,True,CH5p11,CH5p11
+MATH6_C0136,prime factor,अभाज्य गुणनखंड,CH05,5.4 Prime Factorisation,taught,21,62,True,True,CH5p12,CH5p12
+MATH6_C0137,divisibility,विभाज्यता,CH05,5.4 Prime Factorisation,taught,58,26,True,True,CH2p22,CH5p16
+MATH6_C0138,"divisibility tests for 2, 5 and 10","2, 5 और 10 से विभाज्यता की जाँच",CH05,5.5 Divisibility Tests,taught,10,10,False,False,CH5p17,CH5p17
+MATH6_C0139,divisibility tests for 4 and 8,4 और 8 से विभाज्यता की जाँच,CH05,5.5 Divisibility Tests,taught,11,9,False,False,CH5p18,CH5p18

@@ -1,0 +1,4947 @@
+{
+  "meta": {
+    "version": "kg-v2-ch1-5",
+    "created_utc": "2026-11-14T06:32:39.506549+00:00",
+    "source": "assets/extracted/{en,hi}/*_clean.txt chapters 1-5 (body pages; appended solutions excluded)",
+    "review_status": "AI-authored from the textbook text; independent human review pending",
+    "concepts": 85,
+    "taught": 75,
+    "assumed": 10,
+    "edges": 140,
+    "cross_chapter_edges": 40,
+    "nodes_in_cycles": [],
+    "retired_v1_concepts": {
+      "MATH6_C0032": "parallel lines: not taught in chapters 1-5 (no occurrence in Ch2 text).",
+      "MATH6_C0033": "intersecting lines: not taught in chapters 1-5 (no occurrence in Ch2 text).",
+      "MATH6_C0043": "rounding: not taught in chapters 1-5 (\"round\" occurs only as \"around\").",
+      "MATH6_C0048": "magic square: not in chapters 1-5 (\"magic\" refers to Kaprekar's number).",
+      "MATH6_ADD003": "plane geometry: not a concept introduced in chapters 1-5.",
+      "MATH6_C0044": "odd number (CH03 duplicate): merged into MATH6_C0006.",
+      "MATH6_C0045": "even number (CH03 duplicate): merged into MATH6_C0007."
+    },
+    "merged_v1_concepts": {
+      "MATH6_C0044": "MATH6_C0006",
+      "MATH6_C0045": "MATH6_C0007"
+    }
+  },
+  "nodes": [
+    {
+      "id": "MATH6_C0013",
+      "name_en": "counting numbers",
+      "name_hi": "गणन संख्याएँ",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "counting number",
+        "natural number"
+      ],
+      "anchors_hi": [
+        "गणन संख्या",
+        "प्राकृत संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "(Counting numbers) 1, 3, 5, 7, 9, 11, 13, ..."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,…. (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, …. (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, …. (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, …. (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, …. (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, …. (वर्ग संख्याएँ) 1, 8, 27, 64, "
+      },
+      "mentions_en": 6,
+      "mentions_hi": 7,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 0,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0036",
+      "name_en": "whole numbers",
+      "name_hi": "पूर्ण संख्याएँ",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "whole number"
+      ],
+      "anchors_hi": [
+        "पूर्ण संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "(You might think of examples involving: carrying out scientific experiments; running our economy and democracy; building bridges, houses or other complex structures; making TVs, mobile phones, computers, bicycles, trains, cars, planes, calendars, clocks, etc.) 1.2 Patterns in Numbers Among the most "
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 22,
+        "sentence": "अत: कोई वृत्त को 1, 2, 3, 4, 5, 6, 8, 9 या 10 भागों में बराबर बाँट सकता है, और बाँटने के बाद भी प्रत्येक भाग में पूर्ण संख्या प्राप्त करता है!"
+      },
+      "mentions_en": 6,
+      "mentions_hi": 9,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 6,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0037",
+      "name_en": "digit",
+      "name_hi": "अंक",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "digit"
+      ],
+      "anchors_hi": [
+        "अंक"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 3,
+        "sentence": "Fill the table below with only 4-digit numbers such that the supercells are exactly the coloured cells."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 1,
+        "sentence": "2.1 बिंदु कागज पर एक पेंसिल के नुकीले सिरे से एक बिंदु (Do t) अंकित कीजिए।"
+      },
+      "mentions_en": 138,
+      "mentions_hi": 175,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 1,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0038",
+      "name_en": "place value",
+      "name_hi": "स्थानीय मान",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "place value",
+        "hundreds",
+        "thousands"
+      ],
+      "anchors_hi": [
+        "स्थानीय मान",
+        "सैकड़",
+        "हज़ार"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "Ganita Prakash | Grade 6 2 For example, the understanding of patterns in the motion of stars, planets, and their satellites led humankind to develop the theory of gravitation, allowing us to launch our own satellites and send rockets to the Moon and to Mars; similarly, understanding patterns in geno"
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 8,
+        "sentence": "मेरा सैकड़े का अंक, दहाई के अंक से दो गुना है।"
+      },
+      "mentions_en": 4,
+      "mentions_hi": 1,
+      "name_en_in_text": false,
+      "name_hi_in_text": false,
+      "topological_rank": 10,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0101",
+      "name_en": "comparing numbers",
+      "name_hi": "संख्याओं की तुलना",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "larger than",
+        "greater than",
+        "smaller than",
+        "largest number",
+        "smallest number"
+      ],
+      "anchors_hi": [
+        "से बड़ी",
+        "से छोटी",
+        "सबसे बड़ी",
+        "सबसे छोटी"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 6,
+        "sentence": "Similarly, the angle in Case 3 is even larger than that of Case 2, because there is even more rotation, and Cases 4, 5, and 6 are successively larger angles with more and more rotation."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 14,
+        "sentence": "ध्यान दीजिए कि झिरी से गुजरने की संभावना केवल घूर्णन भुजाओं के बीच बने कोण पर निर्भर करती है, उनकी लंबाइयों पर नहीं (जब तक वह झिरी की लंबाई से छोटी हो)।"
+      },
+      "mentions_en": 52,
+      "mentions_hi": 89,
+      "name_en_in_text": false,
+      "name_hi_in_text": false,
+      "topological_rank": 20,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0046",
+      "name_en": "addition",
+      "name_hi": "जोड़",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "addition",
+        "add",
+        "adding",
+        "sum"
+      ],
+      "anchors_hi": [
+        "जोड़",
+        "योग"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 7,
+        "sentence": "By drawing a similar picture, can you say what is the sum of the first 10 odd numbers?"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 1,
+        "sentence": "इसके साथ ही यह मौसम चक्र को समझने एवं प्रौद्योगिकी का उपयोग करने में हमारी सहायता करते हैं।"
+      },
+      "mentions_en": 70,
+      "mentions_hi": 184,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 2,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0047",
+      "name_en": "subtraction",
+      "name_hi": "घटाव",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "subtraction",
+        "subtract",
+        "difference"
+      ],
+      "anchors_hi": [
+        "घटा",
+        "अंतर"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 25,
+        "sentence": "Can subtraction be used here?"
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 1,
+        "sentence": "एक बिंदु के कुछ प्रतिरूप (मॉडल) निम्नलिखित हैं— परकार की नोक पेंसिल का नुकीला सिरा एक सुई का नुकीला सिरा P Z यदि आप किसी कागज पर तीन बिंदु अंकित करते हैं, तो आपको उनमें अंतर बताने की आवश्यकता होगी।"
+      },
+      "mentions_en": 19,
+      "mentions_hi": 33,
+      "name_en_in_text": true,
+      "name_hi_in_text": false,
+      "topological_rank": 11,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0102",
+      "name_en": "multiplication",
+      "name_hi": "गुणा",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "multiplication",
+        "multiply",
+        "product"
+      ],
+      "anchors_hi": [
+        "गुणा",
+        "गुणनफल"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 9,
+        "sentence": "What happens when you multiply the triangular numbers by 6 and add 1?"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 9,
+        "sentence": "7. जब आप त्रिभुजाकार संख्याओं को 6 से गुणा करते हैं और 1 जोड़ते हैं तो क्या होता है?"
+      },
+      "mentions_en": 21,
+      "mentions_hi": 26,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 12,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0103",
+      "name_en": "division",
+      "name_hi": "भाग",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "division",
+        "divide",
+        "remainder"
+      ],
+      "anchors_hi": [
+        "भाग दे",
+        "भाग कर",
+        "शेषफल"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 15,
+        "sentence": "Observe that any ray OC divides it into two angles, ∠AOC and ∠COB."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 15,
+        "sentence": "हम कहते हैं कि 48, संख्या 12 से विभाजित होती है क्योंकि जब हम 48 को 12 से भाग देते हैं तो शेषफल शून्य प्राप्त होता है।"
+      },
+      "mentions_en": 17,
+      "mentions_hi": 3,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 22,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0012",
+      "name_en": "consecutive numbers",
+      "name_hi": "क्रमागत संख्याएँ",
+      "chapter": "PRIOR",
+      "section": "",
+      "kind": "assumed",
+      "anchors_en": [
+        "consecutive"
+      ],
+      "anchors_hi": [
+        "क्रमागत"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 8,
+        "sentence": "What happens when you add up pairs of consecutive triangular numbers?"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 8,
+        "sentence": "5. जब आप क्रमागत त्रिभुजाकार संख्याओं के युग्मों को जोड़ते हैं तब क्या होता है?"
+      },
+      "mentions_en": 4,
+      "mentions_hi": 5,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 7,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0002",
+      "name_en": "pattern",
+      "name_hi": "पैटर्न",
+      "chapter": "CH01",
+      "section": "1.1 What is Mathematics?",
+      "kind": "taught",
+      "anchors_en": [
+        "pattern"
+      ],
+      "anchors_hi": [
+        "पैटर्न",
+        "प्रतिरूप"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 1,
+        "sentence": "PATTERNS IN MATHEMATICS 1 1.1 What is Mathematics?"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 1,
+        "sentence": "1 गणित में पैटर्न 1.1 गणित क्या है?"
+      },
+      "mentions_en": 63,
+      "mentions_hi": 67,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 3,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0003",
+      "name_en": "number pattern",
+      "name_hi": "संख्याओं में पैटर्न",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "number pattern",
+        "patterns of numbers",
+        "patterns in numbers",
+        "patterns in whole numbers"
+      ],
+      "anchors_hi": [
+        "संख्या पैटर्न",
+        "संख्याओं के पैटर्न",
+        "संख्याओं में पैटर्न"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "(You might think of examples involving: carrying out scientific experiments; running our economy and democracy; building bridges, houses or other complex structures; making TVs, mobile phones, computers, bicycles, trains, cars, planes, calendars, clocks, etc.) 1.2 Patterns in Numbers Among the most "
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "(आप उन उदाहरणों के विषय में विचार कर सकते हैं जिनमें वैज्ञानिक प्रयोग करना; अपनी अर्थव्यवस्था और लोकतंत्र को चलाना; पुलों, घरों या अन्य जटिल भवनों को निर्मित करना; टी.वी., मोबाइल फोन, कम्प्यूटरों, साइकिलों, रेलगाड़ियों, कारों, वायुयानों, कैलेंडरों, घड़ियों इत्यादि को बनाना सम्मिलित हैं।) 1.2 संख्याओ"
+      },
+      "mentions_en": 7,
+      "mentions_hi": 7,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 19,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0005",
+      "name_en": "number sequence",
+      "name_hi": "संख्या अनुक्रम",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "number sequence",
+        "sequence"
+      ],
+      "anchors_hi": [
+        "संख्या अनुक्रम",
+        "अनुक्रम"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "Number sequences are the most basic and among the most fascinating types of patterns that mathematicians study."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "संख्या अनुक्रम (sequences) सबसे अधिक मौलिक एवं सबसे अधिक आकर्षित करने वाले पैटर्नों के प्रकारों में हैं, जिनका अध्ययन गणितज्ञ करते हैं।"
+      },
+      "mentions_en": 107,
+      "mentions_hi": 109,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 31,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0006",
+      "name_en": "odd numbers",
+      "name_hi": "विषम संख्याएँ",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "odd number"
+      ],
+      "anchors_hi": [
+        "विषम संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "(Odd numbers) 2, 4, 6, 8, 10, 12, 14, ..."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,…. (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, …. (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, …. (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, …. (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, …. (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, …. (वर्ग संख्याएँ) 1, 8, 27, 64, "
+      },
+      "mentions_en": 10,
+      "mentions_hi": 12,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 8,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0007",
+      "name_en": "even numbers",
+      "name_hi": "सम संख्याएँ",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "even number"
+      ],
+      "anchors_hi": [
+        "सम संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "(Even numbers) 1, 3, 6, 10, 15, 21, 28, ..."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,…. (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, …. (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, …. (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, …. (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, …. (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, …. (वर्ग संख्याएँ) 1, 8, 27, 64, "
+      },
+      "mentions_en": 7,
+      "mentions_hi": 9,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 9,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0008",
+      "name_en": "triangular numbers",
+      "name_hi": "त्रिभुजाकार संख्याएँ",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "triangular number"
+      ],
+      "anchors_hi": [
+        "त्रिभुजाकार संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "(Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ..."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,…. (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, …. (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, …. (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, …. (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, …. (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, …. (वर्ग संख्याएँ) 1, 8, 27, 64, "
+      },
+      "mentions_en": 7,
+      "mentions_hi": 6,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 42,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0009",
+      "name_en": "square numbers",
+      "name_hi": "वर्ग संख्याएँ",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "square number",
+        "squares"
+      ],
+      "anchors_hi": [
+        "वर्ग संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "(Squares) 1, 8, 27, 64, 125, 216, ..."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,…. (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, …. (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, …. (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, …. (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, …. (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, …. (वर्ग संख्याएँ) 1, 8, 27, 64, "
+      },
+      "mentions_en": 15,
+      "mentions_hi": 9,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 43,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0010",
+      "name_en": "cube numbers",
+      "name_hi": "घन संख्याएँ",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "cube number",
+        "cubes"
+      ],
+      "anchors_hi": [
+        "घन संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "(Cubes) 1, 2, 3, 5, 8, 13, 21, ..."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,…. (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, …. (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, …. (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, …. (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, …. (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, …. (वर्ग संख्याएँ) 1, 8, 27, 64, "
+      },
+      "mentions_en": 4,
+      "mentions_hi": 4,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 44,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0011",
+      "name_en": "powers of 2",
+      "name_hi": "2 की घातें",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "powers of 2",
+        "power of 2"
+      ],
+      "anchors_hi": [
+        "2 की घात"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "(Powers of 2) 1, 3, 9, 27, 81, 243, 729, ..."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,…. (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, …. (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, …. (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, …. (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, …. (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, …. (वर्ग संख्याएँ) 1, 8, 27, 64, "
+      },
+      "mentions_en": 6,
+      "mentions_hi": 6,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 45,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_ADD001",
+      "name_en": "Virahānka numbers",
+      "name_hi": "विरहांक संख्याएँ",
+      "chapter": "CH01",
+      "section": "1.2 Patterns in Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "virahānka number",
+        "virahanka number"
+      ],
+      "anchors_hi": [
+        "विरहांक"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "(Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ..."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,…. (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, …. (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, …. (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, …. (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, …. (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, …. (वर्ग संख्याएँ) 1, 8, 27, 64, "
+      },
+      "mentions_en": 2,
+      "mentions_hi": 2,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 46,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0015",
+      "name_en": "visualising number sequences",
+      "name_hi": "संख्या अनुक्रमों का दृश्यांकन",
+      "chapter": "CH01",
+      "section": "1.3 Visualising Number Sequences",
+      "kind": "taught",
+      "anchors_en": [
+        "pictorial representation",
+        "visualise",
+        "visualising"
+      ],
+      "anchors_hi": [
+        "दृश्यांकन",
+        "चित्रात्मक"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "1.3 Visualising Number Sequences Many number sequences can be visualised using pictures."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 3,
+        "sentence": "1.3 संख्या अनुक्रमों का दृश्यांकन चित्रों का उपयोग करते हुए अनेक संख्या अनुक्रमों का दृश्यांकन किया जा सकता है।"
+      },
+      "mentions_en": 9,
+      "mentions_hi": 8,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 56,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0104",
+      "name_en": "hexagonal numbers",
+      "name_hi": "षड्भुजाकार संख्याएँ",
+      "chapter": "CH01",
+      "section": "1.3 Visualising Number Sequences",
+      "kind": "taught",
+      "anchors_en": [
+        "hexagonal number"
+      ],
+      "anchors_hi": [
+        "षड्भुजाकार"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 5,
+        "sentence": "1 7 19 37 That’s right, they are called hexagonal numbers!"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 5,
+        "sentence": "1 7 19 37 इन्हें षड्भुजाकार (hexagonal) संख्याएँ कहते हैं।"
+      },
+      "mentions_en": 2,
+      "mentions_hi": 2,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 67,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0105",
+      "name_en": "relations among number sequences",
+      "name_hi": "संख्या अनुक्रमों के बीच संबंध",
+      "chapter": "CH01",
+      "section": "1.4 Relations among Number Sequences",
+      "kind": "taught",
+      "anchors_en": [
+        "relations among number sequences",
+        "adding up",
+        "add up"
+      ],
+      "anchors_hi": [
+        "अनुक्रमों के बीच संबंध",
+        "जोड़ने पर"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 6,
+        "sentence": "Ganita Prakash | Grade 6 6 Here is one possible way of thinking about Powers of 2: 1 16 8 4 2 1.4 Relations among Number Sequences \u0007Sometimes, number sequences can be related to each other in surprising ways."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 6,
+        "sentence": "यहाँ ‘2 की घात’ के चित्रात्मक प्रस्तुतीकरण का एक संभावित तरीका दिया है— 1 4 2 8 16 1.4 संख्या अनुक्रमों के बीच संबंध कभी-कभी संख्या अनुक्रम आश्चर्यजनक तरीकों से एक-दूसरे से संबंधित हो सकते हैं।"
+      },
+      "mentions_en": 10,
+      "mentions_hi": 5,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 68,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0004",
+      "name_en": "shape sequences",
+      "name_hi": "आकारों में पैटर्न",
+      "chapter": "CH01",
+      "section": "1.5 Patterns in Shapes",
+      "kind": "taught",
+      "anchors_en": [
+        "patterns in shapes",
+        "shape sequence",
+        "sequence of shapes",
+        "geometry"
+      ],
+      "anchors_hi": [
+        "आकारों में पैटर्न",
+        "आकारों के पैटर्न",
+        "ज्यामिति"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 9,
+        "sentence": "1.5 Patterns in Shapes Other important and basic patterns that occur in Mathematics are patterns of shapes."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 9,
+        "sentence": "1.5 आकारों में पैटर्न गणित में पाए जाने वाले अन्य महत्वपूर्ण और बुनियादी पैटर्न आकारों के पैटर्न हैं।"
+      },
+      "mentions_en": 17,
+      "mentions_hi": 8,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 15,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0014",
+      "name_en": "regular polygons",
+      "name_hi": "सम बहुभुज",
+      "chapter": "CH01",
+      "section": "1.5 Patterns in Shapes",
+      "kind": "taught",
+      "anchors_en": [
+        "regular polygon"
+      ],
+      "anchors_hi": [
+        "सम बहुभुज"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "Ganita Prakash | Grade 6 10 Table 3: Examples of shape sequences Stacked Triangles Complete Graphs K2 K3 K4 K6 K5 Stacked Squares Koch Snowflake Triangle Heptagon Hexagon Decagon Pentagon Nonagon Octagon Quadrilateral Regular Polygons Reprint 2026-27"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "सारणी 3— आकार अनुक्रम के उदाहरण त्रिभुज पंचभुज षड्भुज चतुर्भुज सम बहुभुज सप्तभुज अष्टभुज नवभुज दशभुज संपूर्ण आलेख K2 K3 K4 K5 K6 ढेरित वर्ग ढेरित त्रिभुज कोच हिमकण"
+      },
+      "mentions_en": 5,
+      "mentions_hi": 5,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 25,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0106",
+      "name_en": "complete graphs",
+      "name_hi": "संपूर्ण ग्राफ",
+      "chapter": "CH01",
+      "section": "1.5 Patterns in Shapes",
+      "kind": "taught",
+      "anchors_en": [
+        "complete graph"
+      ],
+      "anchors_hi": [
+        "संपूर्ण ग्राफ"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "Ganita Prakash | Grade 6 10 Table 3: Examples of shape sequences Stacked Triangles Complete Graphs K2 K3 K4 K6 K5 Stacked Squares Koch Snowflake Triangle Heptagon Hexagon Decagon Pentagon Nonagon Octagon Quadrilateral Regular Polygons Reprint 2026-27"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 12,
+        "sentence": "आकार अनुक्रमों के कुछ महत्वपूर्ण उदाहरणों में सम बहुभुज, संपूर्ण ग्राफ, ढेरित त्रिभुज और वर्ग तथा कोच हिमकण (snowflake) पुनरावृत्तियाँ सम्मिलित होती हैं।"
+      },
+      "mentions_en": 3,
+      "mentions_hi": 1,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 26,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0107",
+      "name_en": "stacked squares",
+      "name_hi": "ढेरित वर्ग",
+      "chapter": "CH01",
+      "section": "1.5 Patterns in Shapes",
+      "kind": "taught",
+      "anchors_en": [
+        "stacked square"
+      ],
+      "anchors_hi": [
+        "ढेरित वर्ग"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "Ganita Prakash | Grade 6 10 Table 3: Examples of shape sequences Stacked Triangles Complete Graphs K2 K3 K4 K6 K5 Stacked Squares Koch Snowflake Triangle Heptagon Hexagon Decagon Pentagon Nonagon Octagon Quadrilateral Regular Polygons Reprint 2026-27"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "सारणी 3— आकार अनुक्रम के उदाहरण त्रिभुज पंचभुज षड्भुज चतुर्भुज सम बहुभुज सप्तभुज अष्टभुज नवभुज दशभुज संपूर्ण आलेख K2 K3 K4 K5 K6 ढेरित वर्ग ढेरित त्रिभुज कोच हिमकण"
+      },
+      "mentions_en": 2,
+      "mentions_hi": 1,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 57,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0108",
+      "name_en": "stacked triangles",
+      "name_hi": "ढेरित त्रिभुज",
+      "chapter": "CH01",
+      "section": "1.5 Patterns in Shapes",
+      "kind": "taught",
+      "anchors_en": [
+        "stacked triangle"
+      ],
+      "anchors_hi": [
+        "ढेरित त्रिभुज"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "Ganita Prakash | Grade 6 10 Table 3: Examples of shape sequences Stacked Triangles Complete Graphs K2 K3 K4 K6 K5 Stacked Squares Koch Snowflake Triangle Heptagon Hexagon Decagon Pentagon Nonagon Octagon Quadrilateral Regular Polygons Reprint 2026-27"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "सारणी 3— आकार अनुक्रम के उदाहरण त्रिभुज पंचभुज षड्भुज चतुर्भुज सम बहुभुज सप्तभुज अष्टभुज नवभुज दशभुज संपूर्ण आलेख K2 K3 K4 K5 K6 ढेरित वर्ग ढेरित त्रिभुज कोच हिमकण"
+      },
+      "mentions_en": 3,
+      "mentions_hi": 3,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 55,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0109",
+      "name_en": "Koch snowflake",
+      "name_hi": "कोच हिमकण",
+      "chapter": "CH01",
+      "section": "1.5 Patterns in Shapes",
+      "kind": "taught",
+      "anchors_en": [
+        "koch snowflake"
+      ],
+      "anchors_hi": [
+        "कोच हिमकण",
+        "हिमकण"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "Ganita Prakash | Grade 6 10 Table 3: Examples of shape sequences Stacked Triangles Complete Graphs K2 K3 K4 K6 K5 Stacked Squares Koch Snowflake Triangle Heptagon Hexagon Decagon Pentagon Nonagon Octagon Quadrilateral Regular Polygons Reprint 2026-27"
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 10,
+        "sentence": "सारणी 3— आकार अनुक्रम के उदाहरण त्रिभुज पंचभुज षड्भुज चतुर्भुज सम बहुभुज सप्तभुज अष्टभुज नवभुज दशभुज संपूर्ण आलेख K2 K3 K4 K5 K6 ढेरित वर्ग ढेरित त्रिभुज कोच हिमकण"
+      },
+      "mentions_en": 4,
+      "mentions_hi": 8,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 27,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0016",
+      "name_en": "point",
+      "name_hi": "बिंदु",
+      "chapter": "CH02",
+      "section": "2.1 Point",
+      "kind": "taught",
+      "anchors_en": [
+        "point"
+      ],
+      "anchors_hi": [
+        "बिंदु"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 1,
+        "sentence": "Lines and Angles 2 \u0007In this chapter, we will explore some of the most basic ideas of geometry including points, lines, rays, line segments and angles."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 5,
+        "sentence": "अर्थात् 36 बिंदुओं को त्रिभुज और वर्ग दोनों में पूरी तरह व्यवस्थित किया जा सकता है।"
+      },
+      "mentions_en": 71,
+      "mentions_hi": 86,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 4,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0018",
+      "name_en": "line segment",
+      "name_hi": "रेखाखंड",
+      "chapter": "CH02",
+      "section": "2.2 Line Segment",
+      "kind": "taught",
+      "anchors_en": [
+        "line segment",
+        "end point"
+      ],
+      "anchors_hi": [
+        "रेखाखंड",
+        "अंत्य बिंदु"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 12,
+        "sentence": "To get from one shape to the next shape in the Koch Snowflake sequence, one replaces each line segment­ ‘—’ by a ‘speed bump’ ."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 12,
+        "sentence": "(संकेत— अनुक्रम के प्रत्येक आकार में, प्रत्येक पंक्ति में कितने त्रिभुज हैं?) 5. कोच हिमकण (Koch snowflake) वाले अनुक्रम में, एक आकार से अगला आकार प्राप्त करने कि लिए प्रत्येक रेखाखंड ‘ __ ’ को एक ‘गति उभार (speed bump)’ से प्रतिस्थापित करना पड़ता है।"
+      },
+      "mentions_en": 18,
+      "mentions_hi": 18,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 16,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0017",
+      "name_en": "line",
+      "name_hi": "रेखा",
+      "chapter": "CH02",
+      "section": "2.3 Line",
+      "kind": "taught",
+      "anchors_en": [
+        "line"
+      ],
+      "anchors_hi": [
+        "रेखा"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 11,
+        "sentence": "Count the number of lines in each shape in the sequence of Complete Graphs."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 11,
+        "sentence": "2. संपूर्ण आलेखों के प्रत्येक आकार अनुक्रम में रेखाओं की संख्याओं की गणना कीजिए।"
+      },
+      "mentions_en": 92,
+      "mentions_hi": 93,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 28,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0019",
+      "name_en": "ray",
+      "name_hi": "किरण",
+      "chapter": "CH02",
+      "section": "2.4 Ray",
+      "kind": "taught",
+      "anchors_en": [
+        "ray"
+      ],
+      "anchors_hi": [
+        "किरण",
+        "किरणों"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 1,
+        "sentence": "Lines and Angles 2 \u0007In this chapter, we will explore some of the most basic ideas of geometry including points, lines, rays, line segments and angles."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 1,
+        "sentence": "2 रेखाएँ और कोण इस अध्याय में हम ज्यामिति की कुछ आधारभूत अवधारणाओं को जानेंगे इनमें बिंदु, रेखाएँ, किरणें, रेखाखंड और कोण सम्मिलित हैं।"
+      },
+      "mentions_en": 31,
+      "mentions_hi": 34,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 40,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0020",
+      "name_en": "angle",
+      "name_hi": "कोण",
+      "chapter": "CH02",
+      "section": "2.5 Angle",
+      "kind": "taught",
+      "anchors_en": [
+        "angle"
+      ],
+      "anchors_hi": [
+        "कोण"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 11,
+        "sentence": "The word ‘regular’ refers to the fact that these shapes have equal-length sides and also equal ‘angles’ (i.e., the sides look the same and the corners also look the same)."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 11,
+        "sentence": "शब्द ‘सम’ यह इंगित करता है कि इन आकारों में ‘भुजाओं’ की लंबाइयाँ समान हैं और साथ ही ‘कोण’ भी एक समान हैं (अर्थात् भुजाएँ बराबर दिखाई देती हैं तथा कोने भी समान दिखाई देते हैं)।"
+      },
+      "mentions_en": 331,
+      "mentions_hi": 373,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 53,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0021",
+      "name_en": "vertex of an angle",
+      "name_hi": "शीर्ष",
+      "chapter": "CH02",
+      "section": "2.5 Angle",
+      "kind": "taught",
+      "anchors_en": [
+        "vertex",
+        "vertices"
+      ],
+      "anchors_hi": [
+        "शीर्ष"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 5,
+        "sentence": "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 5,
+        "sentence": "शीर्ष भुजा E आकृति 2.8 B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं।"
+      },
+      "mentions_en": 26,
+      "mentions_hi": 28,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 62,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0022",
+      "name_en": "arms of an angle",
+      "name_hi": "कोण की भुजाएँ",
+      "chapter": "CH02",
+      "section": "2.5 Angle",
+      "kind": "taught",
+      "anchors_en": [
+        "arms of the angle",
+        "arm"
+      ],
+      "anchors_hi": [
+        "भुजा"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 5,
+        "sentence": "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle."
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 11,
+        "sentence": "उदाहरण— सम बहुभुजों (regular polygons) के आकार अनुक्रम में, भुजाओं की संख्याएँ 3 से प्रारंभ करते हुए, अर्थात् 3, 4, 5, 6, 7, 8, 9, 10, ... गणन संख्याओं द्वारा दी जाती हैं।"
+      },
+      "mentions_en": 57,
+      "mentions_hi": 72,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 63,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0110",
+      "name_en": "comparing angles",
+      "name_hi": "कोणों की तुलना",
+      "chapter": "CH02",
+      "section": "2.6 Comparing Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "comparing angles",
+        "compare the angles",
+        "superimpos*"
+      ],
+      "anchors_hi": [
+        "कोणों की तुलना",
+        "अध्यारोपण"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 9,
+        "sentence": "2.6 Comparing Angles Look at these animals opening their mouths."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 9,
+        "sentence": "2.6 कोणों की तुलना नीचे दिए गए जानवरों को देखिए जिनका मुँह खुला है।"
+      },
+      "mentions_en": 20,
+      "mentions_hi": 20,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 71,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0034",
+      "name_en": "angle as amount of turn",
+      "name_hi": "घूर्णन",
+      "chapter": "CH02",
+      "section": "2.7 Making Rotating Arms",
+      "kind": "taught",
+      "anchors_en": [
+        "rotating arm",
+        "rotation",
+        "amount of turn",
+        "turn"
+      ],
+      "anchors_hi": [
+        "घूर्णन",
+        "घुमाव"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 6,
+        "sentence": "Just as we talk about the size of a line based on its length, we also talk about the size of an angle based on its amount of rotation."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 6,
+        "sentence": "जिस प्रकार हम एक रेखा की लंबाई के आधार पर उसके आकार के विषय में चर्चा करते हैं, उसी प्रकार हम घुमाव की मात्रा के आधार पर एक कोण के आकार के विषय में भी चर्चा करते हैं।"
+      },
+      "mentions_en": 60,
+      "mentions_hi": 50,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 64,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0023",
+      "name_en": "straight angle",
+      "name_hi": "सरल कोण",
+      "chapter": "CH02",
+      "section": "2.8 Special Types of Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "straight angle"
+      ],
+      "anchors_hi": [
+        "सरल कोण"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 15,
+        "sentence": "Such an angle is called a straight angle."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 15,
+        "sentence": "ऐसे कोण को सरल कोण (Straight Angle) कहते हैं।"
+      },
+      "mentions_en": 20,
+      "mentions_hi": 21,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 72,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0024",
+      "name_en": "right angle",
+      "name_hi": "समकोण",
+      "chapter": "CH02",
+      "section": "2.8 Special Types of Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "right angle"
+      ],
+      "anchors_hi": [
+        "समकोण"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 17,
+        "sentence": "Each of these equal angles formed are called right angles."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 17,
+        "sentence": "इस प्रकार बने दोनों समान कोणों को समकोण (Right Angle) कहते हैं।"
+      },
+      "mentions_en": 23,
+      "mentions_hi": 28,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 74,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0031",
+      "name_en": "perpendicular lines",
+      "name_hi": "लंब रेखाएँ",
+      "chapter": "CH02",
+      "section": "2.8 Special Types of Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "perpendicular"
+      ],
+      "anchors_hi": [
+        "लंब रेखा",
+        "लब रेखा",
+        "परस्पर लंब"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 17,
+        "sentence": "Two lines that meet at right angles are called perpendicular lines."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 17,
+        "sentence": "दो रेखाएँ जब समकोण पर मिलती हैं तब वह लब रेखाएँ (Perpendicular Lines) कहलाती हैं।"
+      },
+      "mentions_en": 3,
+      "mentions_hi": 2,
+      "name_en_in_text": true,
+      "name_hi_in_text": false,
+      "topological_rank": 76,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0025",
+      "name_en": "acute angle",
+      "name_hi": "न्यून कोण",
+      "chapter": "CH02",
+      "section": "2.8 Special Types of Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "acute angle",
+        "acute"
+      ],
+      "anchors_hi": [
+        "न्यून कोण"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 19,
+        "sentence": "Such angles are called acute angles."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 19,
+        "sentence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं।"
+      },
+      "mentions_en": 35,
+      "mentions_hi": 18,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 81,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0026",
+      "name_en": "obtuse angle",
+      "name_hi": "अधिक कोण",
+      "chapter": "CH02",
+      "section": "2.8 Special Types of Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "obtuse angle",
+        "obtuse"
+      ],
+      "anchors_hi": [
+        "अधिक कोण"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 19,
+        "sentence": "Such angles are called obtuse angles."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 19,
+        "sentence": "इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं।"
+      },
+      "mentions_en": 23,
+      "mentions_hi": 12,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 82,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0028",
+      "name_en": "complete angle (full turn)",
+      "name_hi": "पूर्ण कोण",
+      "chapter": "CH02",
+      "section": "2.9 Measuring Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "complete angle",
+        "full turn"
+      ],
+      "anchors_hi": [
+        "पूर्ण कोण",
+        "पूरा चक्कर",
+        "पूर्ण घुमाव"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 15,
+        "sentence": "She makes a full turn of the cover when she has to write while holding the book in her hand."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 17,
+        "sentence": "यदि एक सरल कोण, एक पूर्ण घुमाव के आधे से बनता है, तो एक समकोण, पूर्ण घुमाव का कितना होगा?"
+      },
+      "mentions_en": 10,
+      "mentions_hi": 12,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 75,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0029",
+      "name_en": "degree (angle measure)",
+      "name_hi": "डिग्री (अंश)",
+      "chapter": "CH02",
+      "section": "2.9 Measuring Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "degree"
+      ],
+      "anchors_hi": [
+        "डिग्री"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 21,
+        "sentence": "The angle measure of each of these unit parts is 1 degree, which is written as 1°."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 21,
+        "sentence": "विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा?"
+      },
+      "mentions_en": 35,
+      "mentions_hi": 22,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 77,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0035",
+      "name_en": "angle bisector",
+      "name_hi": "कोण समद्विभाजक",
+      "chapter": "CH02",
+      "section": "2.9 Measuring Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "bisect*",
+        "angle bisector"
+      ],
+      "anchors_hi": [
+        "समद्विभाजक",
+        "समद्विभाजित"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 28,
+        "sentence": "Angle Bisector At each step, we folded in halves."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 28,
+        "sentence": "कोण समद्विभाजक प्रत्येक चरण में, हमने आधे में मोड़ किए हैं।"
+      },
+      "mentions_en": 10,
+      "mentions_hi": 6,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 79,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0030",
+      "name_en": "protractor",
+      "name_hi": "चाँदा",
+      "chapter": "CH02",
+      "section": "2.9 Measuring Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "protractor"
+      ],
+      "anchors_hi": [
+        "चाँदा",
+        "चाँदे"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 22,
+        "sentence": "It is for this purpose that we have a tool called a protractor that is either a circle divided into 360 equal parts as shown in Fig."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 22,
+        "sentence": "इसके लिए हमारे पास एक उपकरण है जिसे चाँदा (Protractor) या कोणमापक कहते हैं।"
+      },
+      "mentions_en": 35,
+      "mentions_hi": 24,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 80,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0111",
+      "name_en": "drawing angles of a given measure",
+      "name_hi": "कोणों को बनाना",
+      "chapter": "CH02",
+      "section": "2.10 Drawing Angles",
+      "kind": "taught",
+      "anchors_en": [
+        "drawing angles",
+        "draw an angle",
+        "draw angles"
+      ],
+      "anchors_hi": [
+        "कोणों को बनाना",
+        "कोण बनाना",
+        "कोण बनाइए"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 34,
+        "sentence": "Teacher’s Note 2.10 Drawing Angles Vidya wants to draw a 30° angle and name it ∠TIN using a protractor."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 8,
+        "sentence": "2. भुजा ST और SR को चिह्नित करते हुए कोण बनाइए।"
+      },
+      "mentions_en": 4,
+      "mentions_hi": 7,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 84,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0027",
+      "name_en": "reflex angle",
+      "name_hi": "प्रतिवर्ती कोण",
+      "chapter": "CH02",
+      "section": "2.11 Types of Angles and their Measures",
+      "kind": "taught",
+      "anchors_en": [
+        "reflex angle",
+        "reflex"
+      ],
+      "anchors_hi": [
+        "प्रतिवर्ती कोण"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 39,
+        "sentence": "Reflex angle: Angles that are greater than the straight angle and less than the whole angle, i.e., greater than 180° and less than 360°, are called reflex angles."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 39,
+        "sentence": "प्रतिवर्ती कोण (Reflex angle)— वे कोण जो सरल कोण से बड़े हों और पूर्ण कोण से छोटे हों अर्थात् 180º से बड़े और 360º से छोटे होते हैं, प्रतिवर्ती कोण कहलाते हैं।"
+      },
+      "mentions_en": 12,
+      "mentions_hi": 7,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 83,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0051",
+      "name_en": "supercell",
+      "name_hi": "महाकोष्ठ",
+      "chapter": "CH03",
+      "section": "3.2 Supercells",
+      "kind": "taught",
+      "anchors_en": [
+        "supercell"
+      ],
+      "anchors_hi": [
+        "महाकोष्ठ"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 3,
+        "sentence": "Number Play 57 3.2 Supercells Observe the numbers written in the table below."
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 3,
+        "sentence": "संख्याओं का खेल 3.2 महाकोष्ठ (Supercells) नीचे दी गई सारणी में लिखी गई संख्याओं का अवलोकन कीजिए।"
+      },
+      "mentions_en": 18,
+      "mentions_hi": 18,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 33,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0041",
+      "name_en": "number line",
+      "name_hi": "संख्या रेखा",
+      "chapter": "CH03",
+      "section": "3.3 Patterns of Numbers on the Number Line",
+      "kind": "taught",
+      "anchors_en": [
+        "number line"
+      ],
+      "anchors_hi": [
+        "संख्या रेखा"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 5,
+        "sentence": "3.3 Patterns of Numbers on the Number Line We are quite familiar with number lines now."
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 5,
+        "sentence": "3.3 संख्या रेखा पर संख्याओं के पैटर्न अब हम संख्या रेखा से भली-भाँति परिचित हैं।"
+      },
+      "mentions_en": 4,
+      "mentions_hi": 4,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 34,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0039",
+      "name_en": "digit sum",
+      "name_hi": "अंकों का योग",
+      "chapter": "CH03",
+      "section": "3.4 Playing with Digits",
+      "kind": "taught",
+      "anchors_en": [
+        "digit sum"
+      ],
+      "anchors_hi": [
+        "अंकों का योग",
+        "अंकों के योग"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 6,
+        "sentence": "1-digit numbers From 1–9 2-digit numbers 3-digit numbers 4-digit numbers 5-digit numbers 9 Digit sums of numbers Komal observes that when she adds up digits of certain numbers the sum is the same."
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 6,
+        "sentence": "2 अंकों वाली संख्याएँ 3 अंकों वाली संख्याएँ 4 अंकों वाली संख्याएँ 5 अंकों वाली संख्याएँ 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – 9 संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है।"
+      },
+      "mentions_en": 11,
+      "mentions_hi": 10,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 13,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0040",
+      "name_en": "palindromic numbers",
+      "name_hi": "पैलिंड्रोम (विलोमाक्षर) संख्याएँ",
+      "chapter": "CH03",
+      "section": "3.5 Pretty Palindromic Patterns",
+      "kind": "taught",
+      "anchors_en": [
+        "palindrom*"
+      ],
+      "anchors_hi": [
+        "पैलिंड्रोम",
+        "विलोमाक्षर"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 7,
+        "sentence": "3.5 Pretty Palindromic Patterns What pattern do you see in these numbers: 66, 848, 575, 797, 1111?"
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 7,
+        "sentence": "3.5 आकर्षक विलोमाक्षर पैटर्न (Palendromic Patterns) आप दी गई संख्याओं में क्या पैटर्न देखते हैं— 66, 848, 575, 797, 1111 इन संख्याओं को बाएँ से दाएँ तथा दाएँ से बाएँ एक जैसा पढ़ा जाता है, देखिए एवं प्रयास कीजिए।"
+      },
+      "mentions_en": 16,
+      "mentions_hi": 19,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 14,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0050",
+      "name_en": "Kaprekar constant (6174)",
+      "name_hi": "कापरेकर की जादुई संख्या",
+      "chapter": "CH03",
+      "section": "3.6 The Magic Number of Kaprekar",
+      "kind": "taught",
+      "anchors_en": [
+        "kaprekar",
+        "6174"
+      ],
+      "anchors_hi": [
+        "कापरेकर",
+        "6174"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 8,
+        "sentence": "Who am I? _________________ 3.6 The Magic Number of Kaprekar D.R."
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 8,
+        "sentence": "________________ 3.6 कापरेकर की जादुई संख्या डी.आर. कापरेकर, महाराष्ट्र के देवलाली में एक सरकारी स्कूल में गणित के अध्यापक थे।"
+      },
+      "mentions_en": 8,
+      "mentions_hi": 8,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 35,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0112",
+      "name_en": "clock and calendar numbers",
+      "name_hi": "घड़ी और कैलेंडर की संख्याएँ",
+      "chapter": "CH03",
+      "section": "3.7 Clock and Calendar Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "calendar",
+        "clock"
+      ],
+      "anchors_hi": [
+        "कैलेंडर",
+        "घड़ी"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "(You might think of examples involving: carrying out scientific experiments; running our economy and democracy; building bridges, houses or other complex structures; making TVs, mobile phones, computers, bicycles, trains, cars, planes, calendars, clocks, etc.) 1.2 Patterns in Numbers Among the most "
+      },
+      "first_mention_hi": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "(आप उन उदाहरणों के विषय में विचार कर सकते हैं जिनमें वैज्ञानिक प्रयोग करना; अपनी अर्थव्यवस्था और लोकतंत्र को चलाना; पुलों, घरों या अन्य जटिल भवनों को निर्मित करना; टी.वी., मोबाइल फोन, कम्प्यूटरों, साइकिलों, रेलगाड़ियों, कारों, वायुयानों, कैलेंडरों, घड़ियों इत्यादि को बनाना सम्मिलित हैं।) 1.2 संख्याओ"
+      },
+      "mentions_en": 23,
+      "mentions_hi": 21,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 24,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0113",
+      "name_en": "mental math",
+      "name_hi": "मानसिक गणित",
+      "chapter": "CH03",
+      "section": "3.8 Mental Math",
+      "kind": "taught",
+      "anchors_en": [
+        "mental math"
+      ],
+      "anchors_hi": [
+        "मानसिक गणित"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 11,
+        "sentence": "3.8 Mental Math Observe the figure below."
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 11,
+        "sentence": "3.8 मानसिक गणित नीचे दी गई आकृति का अवलोकन कीजिए।"
+      },
+      "mentions_en": 1,
+      "mentions_hi": 1,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 21,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0049",
+      "name_en": "quick sums using number patterns",
+      "name_hi": "संख्या पैटर्न के साथ खेलना",
+      "chapter": "CH03",
+      "section": "3.9 Playing with Number Patterns",
+      "kind": "taught",
+      "anchors_en": [
+        "playing with number patterns",
+        "quicker way"
+      ],
+      "anchors_hi": [
+        "संख्या पैटर्न के साथ खेल",
+        "शीघ्र"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 13,
+        "sentence": "5-digit number – 2-digit number gives a 3-digit number 3.9 Playing with Number Patterns Here are some numbers arranged in some patterns."
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 13,
+        "sentence": "3.9 संख्या पैटर्न के साथ खेलना नीचे कुछ संख्याओं को कुछ पैटर्नों में व्यवस्थित किया गया है।"
+      },
+      "mentions_en": 2,
+      "mentions_hi": 3,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 36,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_ADD002",
+      "name_en": "Collatz conjecture",
+      "name_hi": "कोलाट्ज़ अनुमान",
+      "chapter": "CH03",
+      "section": "3.10 An Unsolved Mystery — the Collatz Conjecture!",
+      "kind": "taught",
+      "anchors_en": [
+        "collatz"
+      ],
+      "anchors_hi": [
+        "कोलाट्ज़"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 14,
+        "sentence": "3.10 An Unsolved Mystery — the Collatz Conjecture!"
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 14,
+        "sentence": "c. d. 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 35 15 15 25 25 35 35 125 125 125 15 25 25 35 15 e. f. 25 25 125 35 125 25 250 25 15 15 125 250 35 35 250 125 25 15 500 25 25 15 15 125 35 35 125 15 15"
+      },
+      "mentions_en": 9,
+      "mentions_hi": 5,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 47,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0042",
+      "name_en": "estimation",
+      "name_hi": "आकलन",
+      "chapter": "CH03",
+      "section": "3.11 Simple Estimation",
+      "kind": "taught",
+      "anchors_en": [
+        "estimat*"
+      ],
+      "anchors_hi": [
+        "आकलन"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 37,
+        "sentence": "Return to this game at least once or twice on different days to build practice in estimating angles."
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 15,
+        "sentence": "3.11 सरल आकलन कई बार हम वस्तुओं की सही संख्या को नहीं जानते और न ही उनकी आवश्यकता होती है और एक अनुमान ही उद्देश्य के लिए पर्याप्त होता है।"
+      },
+      "mentions_en": 17,
+      "mentions_hi": 11,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 37,
+      "v1_id_reused": true
+    },
+    {
+      "id": "MATH6_C0114",
+      "name_en": "winning strategy in number games",
+      "name_hi": "जीतने की रणनीति",
+      "chapter": "CH03",
+      "section": "3.12 Games and Winning Strategies",
+      "kind": "taught",
+      "anchors_en": [
+        "winning strateg*"
+      ],
+      "anchors_hi": [
+        "जीतने की रणनीति",
+        "रणनीति"
+      ],
+      "first_mention_en": {
+        "chapter": 3,
+        "pdf_page": 17,
+        "sentence": "3.12 Games and Winning Strategies Numbers can also be used to play games and develop winning strategies."
+      },
+      "first_mention_hi": {
+        "chapter": 3,
+        "pdf_page": 17,
+        "sentence": "देखिए क्या आप जीतने की संगत रणनीति को समझ पा रहे हैं?"
+      },
+      "mentions_en": 6,
+      "mentions_hi": 3,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 32,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0115",
+      "name_en": "data",
+      "name_hi": "आँकड़े",
+      "chapter": "CH04",
+      "section": "4.1 Collecting and Organising Data",
+      "kind": "taught",
+      "anchors_en": [
+        "data"
+      ],
+      "anchors_hi": [
+        "आँकड़",
+        "आंकड़"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 1,
+        "sentence": "This list is an example of data."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 1,
+        "sentence": "आँकड़ों का प्रबंधन और प्रस्तुतिकरण 4 यदि आप अपने कक्षा-सहपाठियों से उनकी पसंद के रंगों के बारे में पूछेंगे, तो आपको रंगों की एक सूची प्राप्त हो जाएगी।"
+      },
+      "mentions_en": 86,
+      "mentions_hi": 88,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 5,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0116",
+      "name_en": "tally marks",
+      "name_hi": "मिलान चिह्न",
+      "chapter": "CH04",
+      "section": "4.1 Collecting and Organising Data",
+      "kind": "taught",
+      "anchors_en": [
+        "tally"
+      ],
+      "anchors_hi": [
+        "मिलान चिह्न"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 3,
+        "sentence": "He put a tally mark ‘|’ for each student and when the count reached 5, he put a line through the previous four and marked it as ||||."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 3,
+        "sentence": "उन्होंने प्रत्येक विद्यार्थी के लिए एक मिलान चिह्न (tally mark) ‘।"
+      },
+      "mentions_en": 5,
+      "mentions_hi": 5,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 17,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0117",
+      "name_en": "frequency",
+      "name_hi": "बारंबारता",
+      "chapter": "CH04",
+      "section": "4.1 Collecting and Organising Data",
+      "kind": "taught",
+      "anchors_en": [
+        "frequency",
+        "frequencies"
+      ],
+      "anchors_hi": [
+        "बारंबारता"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 4,
+        "sentence": "The numbers 6, 9, … are the frequencies of the sweet preferences for jalebi, gulab jamun … respectively."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 4,
+        "sentence": "संख्याएँ 6, 9, ... चुनी गई मिठाइयों जलेबी, गुलाब जामुन, .... की क्रमश: बारंबारताएँ (frequencies) हैं।"
+      },
+      "mentions_en": 27,
+      "mentions_hi": 24,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 18,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0118",
+      "name_en": "frequency table",
+      "name_hi": "बारंबारता सारणी",
+      "chapter": "CH04",
+      "section": "4.1 Collecting and Organising Data",
+      "kind": "taught",
+      "anchors_en": [
+        "frequency table",
+        "frequency distribution table"
+      ],
+      "anchors_hi": [
+        "बारंबारता सारणी",
+        "बारंबारता बंटन सारणी"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 16,
+        "sentence": "4.4 Drawing a Bar Graph In a previous example, Shri Nilesh prepared a frequency table representing the sweet preferences of the students in his class."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 16,
+        "sentence": "4.4 दंड आलेख खींचना पिछले एक उदाहरण में, श्री नीलेश ने अपनी कक्षा के विद्यार्थियों की पसंद की मिठाइयों के लिए, एक बारंबारता सारणी तैयार की थी।"
+      },
+      "mentions_en": 6,
+      "mentions_hi": 2,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 29,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0119",
+      "name_en": "pictograph",
+      "name_hi": "चित्रालेख",
+      "chapter": "CH04",
+      "section": "4.2 Pictographs",
+      "kind": "taught",
+      "anchors_en": [
+        "pictograph"
+      ],
+      "anchors_hi": [
+        "चित्रालेख"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 6,
+        "sentence": "Teacher’s Note 4.2 Pictographs Pictographs are one visual and suggestive way to represent data without writing any numbers."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 6,
+        "sentence": "4.2 चित्रालेख चित्रालेख (pictographs) बिना कोई संख्या लिखे आँकड़ों को दर्शाने की चित्रीय और सुझावित विधि है।"
+      },
+      "mentions_en": 35,
+      "mentions_hi": 35,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 30,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0120",
+      "name_en": "scale or key of a graph",
+      "name_hi": "पैमाना या कुंजी",
+      "chapter": "CH04",
+      "section": "4.2 Pictographs",
+      "kind": "taught",
+      "anchors_en": [
+        "scale",
+        "key"
+      ],
+      "anchors_hi": [
+        "पैमान",
+        "कुंजी"
+      ],
+      "first_mention_en": {
+        "chapter": 1,
+        "pdf_page": 2,
+        "sentence": "Table 1 shows some key number sequences that are studied in Mathematics."
+      },
+      "first_mention_hi": {
+        "chapter": 2,
+        "pdf_page": 35,
+        "sentence": "90 80 100 70 110 90 80 100 60 120 70 110 60 50 120 60 130 50 T 130 40 50 140 40 140 30 1 50 30 1 50 2 0 1 6 0 2 0 1 6 0 1 0 1 7 0 1 0 1 7 0 0 0 1 8 0 1 8 0 I N चरण 4— पैमाने (रूलर) का प्रयोग करते हुए I को T से जोड़िए।"
+      },
+      "mentions_en": 28,
+      "mentions_hi": 22,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 41,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0121",
+      "name_en": "bar graph",
+      "name_hi": "दंड आलेख",
+      "chapter": "CH04",
+      "section": "4.3 Bar Graphs",
+      "kind": "taught",
+      "anchors_en": [
+        "bar graph"
+      ],
+      "anchors_hi": [
+        "दंड आलेख",
+        "दंड आरेख"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 12,
+        "sentence": "4.3 Bar Graphs Have you seen graphs like this on TV or in a newspaper?"
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 11,
+        "sentence": "4.3 दंड आलेख क्या आपने टी.वी. या समाचार पत्र में इस प्रकार के आलेख देखे हैं?"
+      },
+      "mentions_en": 41,
+      "mentions_hi": 41,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 54,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0122",
+      "name_en": "drawing a bar graph",
+      "name_hi": "दंड आलेख खींचना",
+      "chapter": "CH04",
+      "section": "4.4 Drawing a Bar Graph",
+      "kind": "taught",
+      "anchors_en": [
+        "drawing a bar graph",
+        "draw a bar graph",
+        "prepare a bar graph"
+      ],
+      "anchors_hi": [
+        "दंड आलेख खींच",
+        "दंड आलेख बना",
+        "दंड आलेख तैयार"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 16,
+        "sentence": "4.4 Drawing a Bar Graph In a previous example, Shri Nilesh prepared a frequency table representing the sweet preferences of the students in his class."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 16,
+        "sentence": "4.4 दंड आलेख खींचना पिछले एक उदाहरण में, श्री नीलेश ने अपनी कक्षा के विद्यार्थियों की पसंद की मिठाइयों के लिए, एक बारंबारता सारणी तैयार की थी।"
+      },
+      "mentions_en": 4,
+      "mentions_hi": 7,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 78,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0123",
+      "name_en": "vertical and horizontal bar graphs",
+      "name_hi": "स्तंभ आलेख (ऊर्ध्वाधर दंड)",
+      "chapter": "CH04",
+      "section": "4.5 Artistic and Aesthetic Considerations",
+      "kind": "taught",
+      "anchors_en": [
+        "column graph",
+        "vertical bar",
+        "horizontal bar"
+      ],
+      "anchors_hi": [
+        "स्तंभ आलेख",
+        "ऊर्ध्वाधर दंड",
+        "क्षैतिज दंड"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 29,
+        "sentence": "A bar graph with vertical bars is also called a column graph."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 28,
+        "sentence": "यहाँ प्रत्येक मान को एक क्षैतिज दंड के रूप प्रदर्शित किया गया है।"
+      },
+      "mentions_en": 12,
+      "mentions_hi": 12,
+      "name_en_in_text": false,
+      "name_hi_in_text": true,
+      "topological_rank": 65,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0124",
+      "name_en": "infographics",
+      "name_hi": "इन्फोग्राफिक्स (सूचना ग्राफिक्स)",
+      "chapter": "CH04",
+      "section": "4.5 Artistic and Aesthetic Considerations",
+      "kind": "taught",
+      "anchors_en": [
+        "infographic",
+        "information graphic"
+      ],
+      "anchors_hi": [
+        "इन्फोग्राफिक्स",
+        "सूचना ग्राफिक्स"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 30,
+        "sentence": "Infographics When data visualisations such as bar graphs are further beautified with more extensive artistic and visual imagery, they are called information graphics or infographics for short."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 30,
+        "sentence": "इन्फोग्राफिक्स जब दंड आलेखों जैसे आँकड़ों के चित्रीयकरणों को अधिक विस्तृत कलात्मक और चित्रीयकल्पना के साथ और अधिक सुंदर बना दिया जाता है, तो ये सूचना ग्राफिक्स (Information graphics) या संक्षेप में इन्फोग्राफिक्स (Infographics) कहलाती है।"
+      },
+      "mentions_en": 10,
+      "mentions_hi": 5,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 66,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0125",
+      "name_en": "multiple",
+      "name_hi": "गुणज",
+      "chapter": "CH05",
+      "section": "5.1 Common Multiples and Common Factors",
+      "kind": "taught",
+      "anchors_en": [
+        "multiple"
+      ],
+      "anchors_hi": [
+        "गुणज"
+      ],
+      "first_mention_en": {
+        "chapter": 4,
+        "pdf_page": 10,
+        "sentence": "Each symbol or picture can represent one unit or multiple units. •• \u0007It can be more challenging to prepare a pictograph when the amount of data is large or when the frequencies are not exact multiples of the scale or key."
+      },
+      "first_mention_hi": {
+        "chapter": 4,
+        "pdf_page": 10,
+        "sentence": "• एक ऐसे चित्रालेख को बनाना चुनौतीपूर्ण हो सकता है जिसके आँकड़ों की मात्रा अधिक है या उसकी बारंबारता पैमाने के ठीक गुणज न हों।"
+      },
+      "mentions_en": 53,
+      "mentions_hi": 48,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 23,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0126",
+      "name_en": "common multiple",
+      "name_hi": "सार्व गुणज",
+      "chapter": "CH05",
+      "section": "5.1 Common Multiples and Common Factors",
+      "kind": "taught",
+      "anchors_en": [
+        "common multiple"
+      ],
+      "anchors_hi": [
+        "सार्व गुणज"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 1,
+        "sentence": "Idli-Vada Game PRIME TIME 5 5.1 Common Multiples and Common Factors Reprint 2026-27"
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 1,
+        "sentence": "अभाज्य समय 5 5.1 सार्व गुणज और सार्व गुणनखंड इडली-वड़ा खेल बच्चे वृत्ताकार बैठे हैं और संख्या का खेल, खेल रहे हैं।"
+      },
+      "mentions_en": 7,
+      "mentions_hi": 5,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 38,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0127",
+      "name_en": "factor (divisor)",
+      "name_hi": "गुणनखंड (भाजक)",
+      "chapter": "CH05",
+      "section": "5.1 Common Multiples and Common Factors",
+      "kind": "taught",
+      "anchors_en": [
+        "factor",
+        "divisor"
+      ],
+      "anchors_hi": [
+        "गुणनखंड",
+        "भाजक"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 3,
+        "sentence": "Recall that such numbers are called factors or divisors of 24."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 3,
+        "sentence": "ऐसी संख्याओं को याद कीजिए जिन्हें 24 के गुणनखंड या भाजक कहा जाता है।"
+      },
+      "mentions_en": 79,
+      "mentions_hi": 136,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 39,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0128",
+      "name_en": "common factor",
+      "name_hi": "सार्व गुणनखंड",
+      "chapter": "CH05",
+      "section": "5.1 Common Multiples and Common Factors",
+      "kind": "taught",
+      "anchors_en": [
+        "common factor"
+      ],
+      "anchors_hi": [
+        "सार्व गुणनखंड"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 1,
+        "sentence": "Idli-Vada Game PRIME TIME 5 5.1 Common Multiples and Common Factors Reprint 2026-27"
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 1,
+        "sentence": "अभाज्य समय 5 5.1 सार्व गुणज और सार्व गुणनखंड इडली-वड़ा खेल बच्चे वृत्ताकार बैठे हैं और संख्या का खेल, खेल रहे हैं।"
+      },
+      "mentions_en": 14,
+      "mentions_hi": 12,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 48,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0129",
+      "name_en": "perfect number",
+      "name_hi": "संपूर्ण संख्या",
+      "chapter": "CH05",
+      "section": "5.1 Common Multiples and Common Factors",
+      "kind": "taught",
+      "anchors_en": [
+        "perfect number"
+      ],
+      "anchors_hi": [
+        "संपूर्ण संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 5,
+        "sentence": "A number for which the sum of all its factors is equal to twice the number is called a perfect number."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 5,
+        "sentence": "3. एक संख्या जिसके सभी गुणनखंडों का योग उस संख्या से दुगना हो, संपूर्ण संख्या (Perfect Number) कहलाती है।"
+      },
+      "mentions_en": 3,
+      "mentions_hi": 3,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 49,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0130",
+      "name_en": "prime number",
+      "name_hi": "अभाज्य संख्या",
+      "chapter": "CH05",
+      "section": "5.2 Prime Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "prime number",
+        "prime"
+      ],
+      "anchors_hi": [
+        "अभाज्य संख्या",
+        "अभाज्य"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 1,
+        "sentence": "Idli-Vada Game PRIME TIME 5 5.1 Common Multiples and Common Factors Reprint 2026-27"
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 1,
+        "sentence": "अभाज्य समय 5 5.1 सार्व गुणज और सार्व गुणनखंड इडली-वड़ा खेल बच्चे वृत्ताकार बैठे हैं और संख्या का खेल, खेल रहे हैं।"
+      },
+      "mentions_en": 205,
+      "mentions_hi": 229,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 50,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0131",
+      "name_en": "composite number",
+      "name_hi": "भाज्य संख्या",
+      "chapter": "CH05",
+      "section": "5.2 Prime Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "composite"
+      ],
+      "anchors_hi": [
+        "भाज्य संख्या"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 6,
+        "sentence": "They are called composite numbers."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 6,
+        "sentence": "उन्हें भाज्य संख्याएँ (Composite numbers) कहते हैं।"
+      },
+      "mentions_en": 17,
+      "mentions_hi": 75,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 51,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0132",
+      "name_en": "Sieve of Eratosthenes",
+      "name_hi": "इराटोस्थेनीस की छलनी",
+      "chapter": "CH05",
+      "section": "5.2 Prime Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "sieve of eratosthenes",
+        "eratosthenes"
+      ],
+      "anchors_hi": [
+        "छलनी",
+        "इराटोस्थेनीस"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 7,
+        "sentence": "This method is called the Sieve of Eratosthenes."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 7,
+        "sentence": "यह विधि इराटोस्थेनीस की छलनी (Sieve of Eratosthenes) कहलाती है।"
+      },
+      "mentions_en": 3,
+      "mentions_hi": 3,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 59,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0133",
+      "name_en": "twin primes",
+      "name_hi": "अभाज्य युग्म (जुड़वाँ अभाज्य)",
+      "chapter": "CH05",
+      "section": "5.2 Prime Numbers",
+      "kind": "taught",
+      "anchors_en": [
+        "twin prime"
+      ],
+      "anchors_hi": [
+        "अभाज्य युग्म"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 8,
+        "sentence": "Twin primes are pairs of primes having a difference of 2."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 8,
+        "sentence": "8. अभाज्य संख्याओं के युग्म जिनका अंतर 2 हो जुड़वाँ अभाज्य युग्म (Twin Primes) कहलाती हैं।"
+      },
+      "mentions_en": 3,
+      "mentions_hi": 3,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 58,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0134",
+      "name_en": "co-prime numbers",
+      "name_hi": "सह-अभाज्य संख्याएँ",
+      "chapter": "CH05",
+      "section": "5.3 Co-prime numbers for safekeeping treasures",
+      "kind": "taught",
+      "anchors_en": [
+        "co-prime",
+        "coprime"
+      ],
+      "anchors_hi": [
+        "सह-अभाज्य",
+        "सहअभाज्य"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 10,
+        "sentence": "Two numbers are said to be co-prime to each other if they have no common factor other than 1."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 10,
+        "sentence": "उदाहरण— चूँकि 15 और 39 में 3 एक सार्व गुणनखंड है, अत: ये सह-अभाज्य नहीं है।"
+      },
+      "mentions_en": 29,
+      "mentions_hi": 30,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 73,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0135",
+      "name_en": "prime factorisation",
+      "name_hi": "अभाज्य गुणनखंडन",
+      "chapter": "CH05",
+      "section": "5.4 Prime Factorisation",
+      "kind": "taught",
+      "anchors_en": [
+        "prime factorisation",
+        "prime factorization"
+      ],
+      "anchors_hi": [
+        "अभाज्य गुणनखंडन"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 11,
+        "sentence": "8 pegs, thread-gap of 3 5.4 Prime Factorisation Checking if two numbers are co-prime Teacher: \u0007Are 56 and 63 co-prime?"
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 11,
+        "sentence": "अभाज्य समय निम्नलिखित के लिए ऐसी ही आकृतियाँ बनाइए— a. 15 खूँटी, धागे का अंतर 10 b. 10 खूँटी, धागे का अंतर 7 c. 14 खूँटी, धागे का अंतर 6 d. 8 खूँटी, धागे का अंतर 7 5.4 अभाज्य गुणनखंडन दो संख्याओं की सह-अभाज्यता की जाँच करना शिक्षक— क्या 56 और 63 सह-अभाज्य हैं?"
+      },
+      "mentions_en": 45,
+      "mentions_hi": 39,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 60,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0136",
+      "name_en": "prime factor",
+      "name_hi": "अभाज्य गुणनखंड",
+      "chapter": "CH05",
+      "section": "5.4 Prime Factorisation",
+      "kind": "taught",
+      "anchors_en": [
+        "prime factor"
+      ],
+      "anchors_hi": [
+        "अभाज्य गुणनखंड"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 12,
+        "sentence": "The individual factors are called prime factors."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 12,
+        "sentence": "एक गुणनखंड, अभाज्य गुणनखंड (Prime factors) कहलाते हैं।"
+      },
+      "mentions_en": 21,
+      "mentions_hi": 62,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 69,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0137",
+      "name_en": "divisibility",
+      "name_hi": "विभाज्यता",
+      "chapter": "CH05",
+      "section": "5.4 Prime Factorisation",
+      "kind": "taught",
+      "anchors_en": [
+        "divisible",
+        "divisibility"
+      ],
+      "anchors_hi": [
+        "विभाज्य"
+      ],
+      "first_mention_en": {
+        "chapter": 2,
+        "pdf_page": 22,
+        "sentence": "Note that 360 is also evenly divisible by 12, the number of months in a year, and by 24, the number of hours in a day."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 16,
+        "sentence": "5.5 संख्याओं की विभाज्यता की जाँच अभी तक, हमने विभिन्न संदर्भों में संख्याओं के गुणनखंड ज्ञात किए हैं, यह पता लगाने के लिए कि वह अभाज्य संख्या है या नहीं, अथवा संख्या युग्म सह-अभाज्य है या नहीं।"
+      },
+      "mentions_en": 58,
+      "mentions_hi": 26,
+      "name_en_in_text": true,
+      "name_hi_in_text": true,
+      "topological_rank": 52,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0138",
+      "name_en": "divisibility tests for 2, 5 and 10",
+      "name_hi": "2, 5 और 10 से विभाज्यता की जाँच",
+      "chapter": "CH05",
+      "section": "5.5 Divisibility Tests",
+      "kind": "taught",
+      "anchors_en": [
+        "divisibility by 10",
+        "divisibility by 5",
+        "divisibility by 2",
+        "last digit"
+      ],
+      "anchors_hi": [
+        "10 से विभाज्यता",
+        "5 से विभाज्यता",
+        "2 से विभाज्यता",
+        "अंतिम अंक"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 17,
+        "sentence": "Divisibility by 10 Let us take 10."
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 17,
+        "sentence": "10 से विभाज्यता आइए, 10 को उदाहरण के रूप में लेते हैं।"
+      },
+      "mentions_en": 10,
+      "mentions_hi": 10,
+      "name_en_in_text": false,
+      "name_hi_in_text": false,
+      "topological_rank": 61,
+      "v1_id_reused": false
+    },
+    {
+      "id": "MATH6_C0139",
+      "name_en": "divisibility tests for 4 and 8",
+      "name_hi": "4 और 8 से विभाज्यता की जाँच",
+      "chapter": "CH05",
+      "section": "5.5 Divisibility Tests",
+      "kind": "taught",
+      "anchors_en": [
+        "divisibility by 4",
+        "divisibility by 8",
+        "last two digits",
+        "last three digits"
+      ],
+      "anchors_hi": [
+        "4 से विभाज्यता",
+        "8 से विभाज्यता",
+        "अंतिम दो अंक",
+        "अंतिम तीन अंक"
+      ],
+      "first_mention_en": {
+        "chapter": 5,
+        "pdf_page": 18,
+        "sentence": "Divisibility by 4 Checking if a number is divisible by 4 can also be done easily!"
+      },
+      "first_mention_hi": {
+        "chapter": 5,
+        "pdf_page": 18,
+        "sentence": "4 से विभाज्यता कोई संख्या 4 से विभाजित होती है, इसकी जाँच भी आसानी से की जा सकती है।"
+      },
+      "mentions_en": 11,
+      "mentions_hi": 9,
+      "name_en_in_text": false,
+      "name_hi_in_text": false,
+      "topological_rank": 70,
+      "v1_id_reused": false
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "MATH6_C0013",
+      "target_id": "MATH6_C0036",
+      "source_en": "counting numbers",
+      "target_en": "whole numbers",
+      "source_hi": "गणन संख्याएँ",
+      "target_hi": "पूर्ण संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "PRIOR",
+      "relation": "prerequisite_of",
+      "reasoning": "Whole numbers extend the counting numbers with 0.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_C0047",
+      "source_en": "addition",
+      "target_en": "subtraction",
+      "source_hi": "जोड़",
+      "target_hi": "घटाव",
+      "source_chapter": "PRIOR",
+      "target_chapter": "PRIOR",
+      "relation": "prerequisite_of",
+      "reasoning": "Subtraction is introduced as the inverse of addition.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_C0102",
+      "source_en": "addition",
+      "target_en": "multiplication",
+      "source_hi": "जोड़",
+      "target_hi": "गुणा",
+      "source_chapter": "PRIOR",
+      "target_chapter": "PRIOR",
+      "relation": "prerequisite_of",
+      "reasoning": "Multiplication is first understood as repeated addition.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_C0103",
+      "source_en": "multiplication",
+      "target_en": "division",
+      "source_hi": "गुणा",
+      "target_hi": "भाग",
+      "source_chapter": "PRIOR",
+      "target_chapter": "PRIOR",
+      "relation": "prerequisite_of",
+      "reasoning": "Division is the inverse of multiplication.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0037",
+      "target_id": "MATH6_C0038",
+      "source_en": "digit",
+      "target_en": "place value",
+      "source_hi": "अंक",
+      "target_hi": "स्थानीय मान",
+      "source_chapter": "PRIOR",
+      "target_chapter": "PRIOR",
+      "relation": "prerequisite_of",
+      "reasoning": "A digit's value depends on its place.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0038",
+      "target_id": "MATH6_C0101",
+      "source_en": "place value",
+      "target_en": "comparing numbers",
+      "source_hi": "स्थानीय मान",
+      "target_hi": "संख्याओं की तुलना",
+      "source_chapter": "PRIOR",
+      "target_chapter": "PRIOR",
+      "relation": "prerequisite_of",
+      "reasoning": "Comparing multi-digit numbers uses place value.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0013",
+      "target_id": "MATH6_C0012",
+      "source_en": "counting numbers",
+      "target_en": "consecutive numbers",
+      "source_hi": "गणन संख्याएँ",
+      "target_hi": "क्रमागत संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "PRIOR",
+      "relation": "prerequisite_of",
+      "reasoning": "Consecutive numbers follow one another in the counting order.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0002",
+      "target_id": "MATH6_C0003",
+      "source_en": "pattern",
+      "target_en": "number pattern",
+      "source_hi": "पैटर्न",
+      "target_hi": "संख्याओं में पैटर्न",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Number patterns are a kind of pattern (1.2: patterns of numbers).",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0036",
+      "target_id": "MATH6_C0003",
+      "source_en": "whole numbers",
+      "target_en": "number pattern",
+      "source_hi": "पूर्ण संख्याएँ",
+      "target_hi": "संख्याओं में पैटर्न",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.2 studies patterns in whole numbers 0, 1, 2, 3, ...",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0003",
+      "target_id": "MATH6_C0005",
+      "source_en": "number pattern",
+      "target_en": "number sequence",
+      "source_hi": "संख्याओं में पैटर्न",
+      "target_hi": "संख्या अनुक्रम",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.2: number sequences are the most basic type of number pattern.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0013",
+      "target_id": "MATH6_C0006",
+      "source_en": "counting numbers",
+      "target_en": "odd numbers",
+      "source_hi": "गणन संख्याएँ",
+      "target_hi": "विषम संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Odd numbers are every other counting number (Table 1).",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0013",
+      "target_id": "MATH6_C0007",
+      "source_en": "counting numbers",
+      "target_en": "even numbers",
+      "source_hi": "गणन संख्याएँ",
+      "target_hi": "सम संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Even numbers are every other counting number (Table 1).",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0005",
+      "target_id": "MATH6_C0008",
+      "source_en": "number sequence",
+      "target_en": "triangular numbers",
+      "source_hi": "संख्या अनुक्रम",
+      "target_hi": "त्रिभुजाकार संख्याएँ",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Triangular numbers are presented as a sequence in Table 1.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_C0008",
+      "source_en": "addition",
+      "target_en": "triangular numbers",
+      "source_hi": "जोड़",
+      "target_hi": "त्रिभुजाकार संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Triangular numbers are sums 1, 1+2, 1+2+3, ...",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0005",
+      "target_id": "MATH6_C0009",
+      "source_en": "number sequence",
+      "target_en": "square numbers",
+      "source_hi": "संख्या अनुक्रम",
+      "target_hi": "वर्ग संख्याएँ",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Squares are presented as a sequence in Table 1.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_C0009",
+      "source_en": "multiplication",
+      "target_en": "square numbers",
+      "source_hi": "गुणा",
+      "target_hi": "वर्ग संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "A square number is a number multiplied by itself.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0005",
+      "target_id": "MATH6_C0010",
+      "source_en": "number sequence",
+      "target_en": "cube numbers",
+      "source_hi": "संख्या अनुक्रम",
+      "target_hi": "घन संख्याएँ",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Cubes are presented as a sequence in Table 1.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_C0010",
+      "source_en": "multiplication",
+      "target_en": "cube numbers",
+      "source_hi": "गुणा",
+      "target_hi": "घन संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "A cube number is a number multiplied by itself three times.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0005",
+      "target_id": "MATH6_C0011",
+      "source_en": "number sequence",
+      "target_en": "powers of 2",
+      "source_hi": "संख्या अनुक्रम",
+      "target_hi": "2 की घातें",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Powers of 2 are presented as a sequence in Table 1.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_C0011",
+      "source_en": "multiplication",
+      "target_en": "powers of 2",
+      "source_hi": "गुणा",
+      "target_hi": "2 की घातें",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Each power of 2 is the previous one multiplied by 2.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0005",
+      "target_id": "MATH6_ADD001",
+      "source_en": "number sequence",
+      "target_en": "Virahānka numbers",
+      "source_hi": "संख्या अनुक्रम",
+      "target_hi": "विरहांक संख्याएँ",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Virahānka numbers are presented as a sequence in Table 1.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_ADD001",
+      "source_en": "addition",
+      "target_en": "Virahānka numbers",
+      "source_hi": "जोड़",
+      "target_hi": "विरहांक संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Each Virahānka number is the sum of the previous two.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0005",
+      "target_id": "MATH6_C0015",
+      "source_en": "number sequence",
+      "target_en": "visualising number sequences",
+      "source_hi": "संख्या अनुक्रम",
+      "target_hi": "संख्या अनुक्रमों का दृश्यांकन",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.3 draws pictures of the sequences listed in 1.2.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0008",
+      "target_id": "MATH6_C0015",
+      "source_en": "triangular numbers",
+      "target_en": "visualising number sequences",
+      "source_hi": "त्रिभुजाकार संख्याएँ",
+      "target_hi": "संख्या अनुक्रमों का दृश्यांकन",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.3 asks why 1, 3, 6, 10, ... are called triangular, using pictures.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0009",
+      "target_id": "MATH6_C0015",
+      "source_en": "square numbers",
+      "target_en": "visualising number sequences",
+      "source_hi": "वर्ग संख्याएँ",
+      "target_hi": "संख्या अनुक्रमों का दृश्यांकन",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.3 explains square numbers with square dot arrays.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0015",
+      "target_id": "MATH6_C0104",
+      "source_en": "visualising number sequences",
+      "target_en": "hexagonal numbers",
+      "source_hi": "संख्या अनुक्रमों का दृश्यांकन",
+      "target_hi": "षड्भुजाकार संख्याएँ",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Hexagonal numbers are named from their pictorial (hexagon) arrangement in 1.3.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0006",
+      "target_id": "MATH6_C0105",
+      "source_en": "odd numbers",
+      "target_en": "relations among number sequences",
+      "source_hi": "विषम संख्याएँ",
+      "target_hi": "संख्या अनुक्रमों के बीच संबंध",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.4: adding up odd numbers 1, 1+3, 1+3+5, ... gives squares.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0009",
+      "target_id": "MATH6_C0105",
+      "source_en": "square numbers",
+      "target_en": "relations among number sequences",
+      "source_hi": "वर्ग संख्याएँ",
+      "target_hi": "संख्या अनुक्रमों के बीच संबंध",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.4 relations produce the square numbers.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0008",
+      "target_id": "MATH6_C0105",
+      "source_en": "triangular numbers",
+      "target_en": "relations among number sequences",
+      "source_hi": "त्रिभुजाकार संख्याएँ",
+      "target_hi": "संख्या अनुक्रमों के बीच संबंध",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.4: adding consecutive triangular numbers gives squares.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0015",
+      "target_id": "MATH6_C0105",
+      "source_en": "visualising number sequences",
+      "target_en": "relations among number sequences",
+      "source_hi": "संख्या अनुक्रमों का दृश्यांकन",
+      "target_hi": "संख्या अनुक्रमों के बीच संबंध",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.4 explains each relation with a picture.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0002",
+      "target_id": "MATH6_C0004",
+      "source_en": "pattern",
+      "target_en": "shape sequences",
+      "source_hi": "पैटर्न",
+      "target_hi": "आकारों में पैटर्न",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.5: patterns in shapes are the second kind of pattern.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0004",
+      "target_id": "MATH6_C0014",
+      "source_en": "shape sequences",
+      "target_en": "regular polygons",
+      "source_hi": "आकारों में पैटर्न",
+      "target_hi": "सम बहुभुज",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Regular polygons appear as a shape sequence in Table 3.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0004",
+      "target_id": "MATH6_C0106",
+      "source_en": "shape sequences",
+      "target_en": "complete graphs",
+      "source_hi": "आकारों में पैटर्न",
+      "target_hi": "संपूर्ण ग्राफ",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Complete graphs appear as a shape sequence in Table 3.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0004",
+      "target_id": "MATH6_C0107",
+      "source_en": "shape sequences",
+      "target_en": "stacked squares",
+      "source_hi": "आकारों में पैटर्न",
+      "target_hi": "ढेरित वर्ग",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Stacked squares appear as a shape sequence in Table 3.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0009",
+      "target_id": "MATH6_C0107",
+      "source_en": "square numbers",
+      "target_en": "stacked squares",
+      "source_hi": "वर्ग संख्याएँ",
+      "target_hi": "ढेरित वर्ग",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.6: counting little squares in stacked squares gives square numbers.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0004",
+      "target_id": "MATH6_C0108",
+      "source_en": "shape sequences",
+      "target_en": "stacked triangles",
+      "source_hi": "आकारों में पैटर्न",
+      "target_hi": "ढेरित त्रिभुज",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "Stacked triangles appear as a shape sequence in Table 3.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0008",
+      "target_id": "MATH6_C0108",
+      "source_en": "triangular numbers",
+      "target_en": "stacked triangles",
+      "source_hi": "त्रिभुजाकार संख्याएँ",
+      "target_hi": "ढेरित त्रिभुज",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.6: rows of stacked triangles connect to triangular numbers.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0004",
+      "target_id": "MATH6_C0109",
+      "source_en": "shape sequences",
+      "target_en": "Koch snowflake",
+      "source_hi": "आकारों में पैटर्न",
+      "target_hi": "कोच हिमकण",
+      "source_chapter": "CH01",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "The Koch snowflake appears as a shape sequence in Table 3.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_C0109",
+      "source_en": "multiplication",
+      "target_en": "Koch snowflake",
+      "source_hi": "गुणा",
+      "target_hi": "कोच हिमकण",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH01",
+      "relation": "prerequisite_of",
+      "reasoning": "1.6: segment counts 3, 12, 48, ... are 3 times powers of 4.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0016",
+      "target_id": "MATH6_C0018",
+      "source_en": "point",
+      "target_en": "line segment",
+      "source_hi": "बिंदु",
+      "target_hi": "रेखाखंड",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.2: a line segment is the shortest path between two points.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0018",
+      "target_id": "MATH6_C0017",
+      "source_en": "line segment",
+      "target_en": "line",
+      "source_hi": "रेखाखंड",
+      "target_hi": "रेखा",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.3: a line is a segment extended endlessly in both directions.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0016",
+      "target_id": "MATH6_C0019",
+      "source_en": "point",
+      "target_en": "ray",
+      "source_hi": "बिंदु",
+      "target_hi": "किरण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.4: a ray starts at a point.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0017",
+      "target_id": "MATH6_C0019",
+      "source_en": "line",
+      "target_en": "ray",
+      "source_hi": "रेखा",
+      "target_hi": "किरण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.4: a ray goes endlessly in one direction along a line.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0019",
+      "target_id": "MATH6_C0020",
+      "source_en": "ray",
+      "target_en": "angle",
+      "source_hi": "किरण",
+      "target_hi": "कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.5: an angle is formed by two rays with a common starting point.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0020",
+      "target_id": "MATH6_C0021",
+      "source_en": "angle",
+      "target_en": "vertex of an angle",
+      "source_hi": "कोण",
+      "target_hi": "शीर्ष",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.5: the common starting point is called the vertex of the angle.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0016",
+      "target_id": "MATH6_C0021",
+      "source_en": "point",
+      "target_en": "vertex of an angle",
+      "source_hi": "बिंदु",
+      "target_hi": "शीर्ष",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "The vertex is a point.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0020",
+      "target_id": "MATH6_C0022",
+      "source_en": "angle",
+      "target_en": "arms of an angle",
+      "source_hi": "कोण",
+      "target_hi": "कोण की भुजाएँ",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.5: the rays forming the angle are called its arms.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0019",
+      "target_id": "MATH6_C0022",
+      "source_en": "ray",
+      "target_en": "arms of an angle",
+      "source_hi": "किरण",
+      "target_hi": "कोण की भुजाएँ",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "The arms of an angle are rays.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0020",
+      "target_id": "MATH6_C0110",
+      "source_en": "angle",
+      "target_en": "comparing angles",
+      "source_hi": "कोण",
+      "target_hi": "कोणों की तुलना",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.6 compares sizes of angles.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0021",
+      "target_id": "MATH6_C0110",
+      "source_en": "vertex of an angle",
+      "target_en": "comparing angles",
+      "source_hi": "शीर्ष",
+      "target_hi": "कोणों की तुलना",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Superimposing angles places vertex on vertex.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0022",
+      "target_id": "MATH6_C0110",
+      "source_en": "arms of an angle",
+      "target_en": "comparing angles",
+      "source_hi": "कोण की भुजाएँ",
+      "target_hi": "कोणों की तुलना",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Superimposing angles places one arm on another.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0020",
+      "target_id": "MATH6_C0034",
+      "source_en": "angle",
+      "target_en": "angle as amount of turn",
+      "source_hi": "कोण",
+      "target_hi": "घूर्णन",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.7: the size of an angle is the amount of rotation of one arm.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0034",
+      "target_id": "MATH6_C0023",
+      "source_en": "angle as amount of turn",
+      "target_en": "straight angle",
+      "source_hi": "घूर्णन",
+      "target_hi": "सरल कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.8: a straight angle is a half turn.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0017",
+      "target_id": "MATH6_C0023",
+      "source_en": "line",
+      "target_en": "straight angle",
+      "source_hi": "रेखा",
+      "target_hi": "सरल कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "The arms of a straight angle lie on one line.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0023",
+      "target_id": "MATH6_C0024",
+      "source_en": "straight angle",
+      "target_en": "right angle",
+      "source_hi": "सरल कोण",
+      "target_hi": "समकोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.8: folding a straight angle into two equal angles gives right angles.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0024",
+      "target_id": "MATH6_C0031",
+      "source_en": "right angle",
+      "target_en": "perpendicular lines",
+      "source_hi": "समकोण",
+      "target_hi": "लंब रेखाएँ",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.8: lines that meet at right angles are perpendicular.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0017",
+      "target_id": "MATH6_C0031",
+      "source_en": "line",
+      "target_en": "perpendicular lines",
+      "source_hi": "रेखा",
+      "target_hi": "लंब रेखाएँ",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Perpendicularity is a relation between lines.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0024",
+      "target_id": "MATH6_C0025",
+      "source_en": "right angle",
+      "target_en": "acute angle",
+      "source_hi": "समकोण",
+      "target_hi": "न्यून कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.8: acute angles are smaller than a right angle.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0110",
+      "target_id": "MATH6_C0025",
+      "source_en": "comparing angles",
+      "target_en": "acute angle",
+      "source_hi": "कोणों की तुलना",
+      "target_hi": "न्यून कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Classifying as acute requires comparing with a right angle.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0024",
+      "target_id": "MATH6_C0026",
+      "source_en": "right angle",
+      "target_en": "obtuse angle",
+      "source_hi": "समकोण",
+      "target_hi": "अधिक कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.8: obtuse angles are greater than a right angle.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0023",
+      "target_id": "MATH6_C0026",
+      "source_en": "straight angle",
+      "target_en": "obtuse angle",
+      "source_hi": "सरल कोण",
+      "target_hi": "अधिक कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.8: obtuse angles are less than a straight angle.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0110",
+      "target_id": "MATH6_C0026",
+      "source_en": "comparing angles",
+      "target_en": "obtuse angle",
+      "source_hi": "कोणों की तुलना",
+      "target_hi": "अधिक कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Classifying as obtuse requires comparing angles.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0034",
+      "target_id": "MATH6_C0028",
+      "source_en": "angle as amount of turn",
+      "target_en": "complete angle (full turn)",
+      "source_hi": "घूर्णन",
+      "target_hi": "पूर्ण कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "A complete angle is one full turn of the rotating arm.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0023",
+      "target_id": "MATH6_C0028",
+      "source_en": "straight angle",
+      "target_en": "complete angle (full turn)",
+      "source_hi": "सरल कोण",
+      "target_hi": "पूर्ण कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Two straight angles make a full turn.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0028",
+      "target_id": "MATH6_C0029",
+      "source_en": "complete angle (full turn)",
+      "target_en": "degree (angle measure)",
+      "source_hi": "पूर्ण कोण",
+      "target_hi": "डिग्री (अंश)",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.9: a full turn is divided into 360 equal parts, each 1 degree.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0110",
+      "target_id": "MATH6_C0035",
+      "source_en": "comparing angles",
+      "target_en": "angle bisector",
+      "source_hi": "कोणों की तुलना",
+      "target_hi": "कोण समद्विभाजक",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Bisecting (by folding) produces two equal angles.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0029",
+      "target_id": "MATH6_C0035",
+      "source_en": "degree (angle measure)",
+      "target_en": "angle bisector",
+      "source_hi": "डिग्री (अंश)",
+      "target_hi": "कोण समद्विभाजक",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.9 halves 90° to 45° and 22½° by folding.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0029",
+      "target_id": "MATH6_C0030",
+      "source_en": "degree (angle measure)",
+      "target_en": "protractor",
+      "source_hi": "डिग्री (अंश)",
+      "target_hi": "चाँदा",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.9: the protractor is the tool for measuring degrees.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0030",
+      "target_id": "MATH6_C0111",
+      "source_en": "protractor",
+      "target_en": "drawing angles of a given measure",
+      "source_hi": "चाँदा",
+      "target_hi": "कोणों को बनाना",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.10 draws angles of a given measure with a protractor.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0029",
+      "target_id": "MATH6_C0025",
+      "source_en": "degree (angle measure)",
+      "target_en": "acute angle",
+      "source_hi": "डिग्री (अंश)",
+      "target_hi": "न्यून कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.11: acute angles measure more than 0° and less than 90°.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0029",
+      "target_id": "MATH6_C0026",
+      "source_en": "degree (angle measure)",
+      "target_en": "obtuse angle",
+      "source_hi": "डिग्री (अंश)",
+      "target_hi": "अधिक कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.11: obtuse angles measure more than 90° and less than 180°.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0029",
+      "target_id": "MATH6_C0027",
+      "source_en": "degree (angle measure)",
+      "target_en": "reflex angle",
+      "source_hi": "डिग्री (अंश)",
+      "target_hi": "प्रतिवर्ती कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "2.11: reflex angles measure more than 180° and less than 360°.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0023",
+      "target_id": "MATH6_C0027",
+      "source_en": "straight angle",
+      "target_en": "reflex angle",
+      "source_hi": "सरल कोण",
+      "target_hi": "प्रतिवर्ती कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Reflex angles are greater than a straight angle.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0028",
+      "target_id": "MATH6_C0027",
+      "source_en": "complete angle (full turn)",
+      "target_en": "reflex angle",
+      "source_hi": "पूर्ण कोण",
+      "target_hi": "प्रतिवर्ती कोण",
+      "source_chapter": "CH02",
+      "target_chapter": "CH02",
+      "relation": "prerequisite_of",
+      "reasoning": "Reflex angles are less than a complete angle.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0101",
+      "target_id": "MATH6_C0051",
+      "source_en": "comparing numbers",
+      "target_en": "supercell",
+      "source_hi": "संख्याओं की तुलना",
+      "target_hi": "महाकोष्ठ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.2: a supercell holds a number larger than all its neighbours.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0101",
+      "target_id": "MATH6_C0041",
+      "source_en": "comparing numbers",
+      "target_en": "number line",
+      "source_hi": "संख्याओं की तुलना",
+      "target_hi": "संख्या रेखा",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.3 places numbers on a number line in order.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0038",
+      "target_id": "MATH6_C0041",
+      "source_en": "place value",
+      "target_en": "number line",
+      "source_hi": "स्थानीय मान",
+      "target_hi": "संख्या रेखा",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "Placing 2180, 2754, ... between marked thousands uses place value.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0037",
+      "target_id": "MATH6_C0039",
+      "source_en": "digit",
+      "target_en": "digit sum",
+      "source_hi": "अंक",
+      "target_hi": "अंकों का योग",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "A digit sum adds the digits of a number.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_C0039",
+      "source_en": "addition",
+      "target_en": "digit sum",
+      "source_hi": "जोड़",
+      "target_hi": "अंकों का योग",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "A digit sum is computed by addition.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0037",
+      "target_id": "MATH6_C0040",
+      "source_en": "digit",
+      "target_en": "palindromic numbers",
+      "source_hi": "अंक",
+      "target_hi": "पैलिंड्रोम (विलोमाक्षर) संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "A palindrome reads the same digits left-to-right and right-to-left.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_C0040",
+      "source_en": "addition",
+      "target_en": "palindromic numbers",
+      "source_hi": "जोड़",
+      "target_hi": "पैलिंड्रोम (विलोमाक्षर) संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.5: reverse-and-add produces palindromes.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0101",
+      "target_id": "MATH6_C0050",
+      "source_en": "comparing numbers",
+      "target_en": "Kaprekar constant (6174)",
+      "source_hi": "संख्याओं की तुलना",
+      "target_hi": "कापरेकर की जादुई संख्या",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "Kaprekar's routine forms the largest and smallest numbers from the digits.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0047",
+      "target_id": "MATH6_C0050",
+      "source_en": "subtraction",
+      "target_en": "Kaprekar constant (6174)",
+      "source_hi": "घटाव",
+      "target_hi": "कापरेकर की जादुई संख्या",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "Kaprekar's routine subtracts the smallest from the largest.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0040",
+      "target_id": "MATH6_C0112",
+      "source_en": "palindromic numbers",
+      "target_en": "clock and calendar numbers",
+      "source_hi": "पैलिंड्रोम (विलोमाक्षर) संख्याएँ",
+      "target_hi": "घड़ी और कैलेंडर की संख्याएँ",
+      "source_chapter": "CH03",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.7 looks for palindromic dates and times.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0037",
+      "target_id": "MATH6_C0112",
+      "source_en": "digit",
+      "target_en": "clock and calendar numbers",
+      "source_hi": "अंक",
+      "target_hi": "घड़ी और कैलेंडर की संख्याएँ",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "Clock and calendar puzzles rearrange digits.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_C0113",
+      "source_en": "addition",
+      "target_en": "mental math",
+      "source_hi": "जोड़",
+      "target_hi": "मानसिक गणित",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.8 composes numbers mentally by addition.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0047",
+      "target_id": "MATH6_C0113",
+      "source_en": "subtraction",
+      "target_en": "mental math",
+      "source_hi": "घटाव",
+      "target_hi": "मानसिक गणित",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.8 also uses subtraction.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0038",
+      "target_id": "MATH6_C0113",
+      "source_en": "place value",
+      "target_en": "mental math",
+      "source_hi": "स्थानीय मान",
+      "target_hi": "मानसिक गणित",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "Mental math in 3.8 works with hundreds and thousands.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0003",
+      "target_id": "MATH6_C0049",
+      "source_en": "number pattern",
+      "target_en": "quick sums using number patterns",
+      "source_hi": "संख्याओं में पैटर्न",
+      "target_hi": "संख्या पैटर्न के साथ खेलना",
+      "source_chapter": "CH01",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.9 uses arrangements/patterns of numbers to find sums quickly.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0113",
+      "target_id": "MATH6_C0049",
+      "source_en": "mental math",
+      "target_en": "quick sums using number patterns",
+      "source_hi": "मानसिक गणित",
+      "target_hi": "संख्या पैटर्न के साथ खेलना",
+      "source_chapter": "CH03",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.9 replaces one-by-one addition by quicker mental methods.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0005",
+      "target_id": "MATH6_ADD002",
+      "source_en": "number sequence",
+      "target_en": "Collatz conjecture",
+      "source_hi": "संख्या अनुक्रम",
+      "target_hi": "कोलाट्ज़ अनुमान",
+      "source_chapter": "CH01",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "A Collatz sequence is a number sequence produced by a rule.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0006",
+      "target_id": "MATH6_ADD002",
+      "source_en": "odd numbers",
+      "target_en": "Collatz conjecture",
+      "source_hi": "विषम संख्याएँ",
+      "target_hi": "कोलाट्ज़ अनुमान",
+      "source_chapter": "CH01",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "The Collatz rule multiplies odd numbers by 3 and adds 1.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0007",
+      "target_id": "MATH6_ADD002",
+      "source_en": "even numbers",
+      "target_en": "Collatz conjecture",
+      "source_hi": "सम संख्याएँ",
+      "target_hi": "कोलाट्ज़ अनुमान",
+      "source_chapter": "CH01",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "The Collatz rule halves even numbers.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_ADD002",
+      "source_en": "multiplication",
+      "target_en": "Collatz conjecture",
+      "source_hi": "गुणा",
+      "target_hi": "कोलाट्ज़ अनुमान",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "The odd step multiplies by 3.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0038",
+      "target_id": "MATH6_C0042",
+      "source_en": "place value",
+      "target_en": "estimation",
+      "source_hi": "स्थानीय मान",
+      "target_hi": "आकलन",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "Estimates are made to the nearest ten, hundred, thousand.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0113",
+      "target_id": "MATH6_C0042",
+      "source_en": "mental math",
+      "target_en": "estimation",
+      "source_hi": "मानसिक गणित",
+      "target_hi": "आकलन",
+      "source_chapter": "CH03",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "Estimation relies on quick mental calculation.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_C0114",
+      "source_en": "addition",
+      "target_en": "winning strategy in number games",
+      "source_hi": "जोड़",
+      "target_hi": "जीतने की रणनीति",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "3.12 games add 1, 2 or 3 to the previous number.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0003",
+      "target_id": "MATH6_C0114",
+      "source_en": "number pattern",
+      "target_en": "winning strategy in number games",
+      "source_hi": "संख्याओं में पैटर्न",
+      "target_hi": "जीतने की रणनीति",
+      "source_chapter": "CH01",
+      "target_chapter": "CH03",
+      "relation": "prerequisite_of",
+      "reasoning": "The winning strategy is a pattern of numbers to say.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0115",
+      "target_id": "MATH6_C0116",
+      "source_en": "data",
+      "target_en": "tally marks",
+      "source_hi": "आँकड़े",
+      "target_hi": "मिलान चिह्न",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.1 records collected data with tally marks.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0115",
+      "target_id": "MATH6_C0117",
+      "source_en": "data",
+      "target_en": "frequency",
+      "source_hi": "आँकड़े",
+      "target_hi": "बारंबारता",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "Frequencies are counts of occurrences of data values.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0013",
+      "target_id": "MATH6_C0117",
+      "source_en": "counting numbers",
+      "target_en": "frequency",
+      "source_hi": "गणन संख्याएँ",
+      "target_hi": "बारंबारता",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "A frequency is a count.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0116",
+      "target_id": "MATH6_C0118",
+      "source_en": "tally marks",
+      "target_en": "frequency table",
+      "source_hi": "मिलान चिह्न",
+      "target_hi": "बारंबारता सारणी",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "A frequency table is filled using tally marks.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0117",
+      "target_id": "MATH6_C0118",
+      "source_en": "frequency",
+      "target_en": "frequency table",
+      "source_hi": "बारंबारता",
+      "target_hi": "बारंबारता सारणी",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "A frequency table lists the frequency of each category.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0117",
+      "target_id": "MATH6_C0119",
+      "source_en": "frequency",
+      "target_en": "pictograph",
+      "source_hi": "बारंबारता",
+      "target_hi": "चित्रालेख",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "A pictograph shows the frequency of each category with pictures.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0119",
+      "target_id": "MATH6_C0120",
+      "source_en": "pictograph",
+      "target_en": "scale or key of a graph",
+      "source_hi": "चित्रालेख",
+      "target_hi": "पैमाना या कुंजी",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.2 introduces the scale/key when one symbol stands for many students.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_C0120",
+      "source_en": "multiplication",
+      "target_en": "scale or key of a graph",
+      "source_hi": "गुणा",
+      "target_hi": "पैमाना या कुंजी",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "Reading a scaled pictograph multiplies symbols by the scale (5 × 10 = 50).",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0117",
+      "target_id": "MATH6_C0121",
+      "source_en": "frequency",
+      "target_en": "bar graph",
+      "source_hi": "बारंबारता",
+      "target_hi": "दंड आलेख",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "The length or height of a bar gives the frequency.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0119",
+      "target_id": "MATH6_C0121",
+      "source_en": "pictograph",
+      "target_en": "bar graph",
+      "source_hi": "चित्रालेख",
+      "target_hi": "दंड आलेख",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.3: \"Like pictographs, bar graphs...\"",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0120",
+      "target_id": "MATH6_C0121",
+      "source_en": "scale or key of a graph",
+      "target_en": "bar graph",
+      "source_hi": "पैमाना या कुंजी",
+      "target_hi": "दंड आलेख",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.3 bar graphs use a scale when frequencies are large.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0121",
+      "target_id": "MATH6_C0122",
+      "source_en": "bar graph",
+      "target_en": "drawing a bar graph",
+      "source_hi": "दंड आलेख",
+      "target_hi": "दंड आलेख खींचना",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.4 draws the bar graph introduced in 4.3.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0118",
+      "target_id": "MATH6_C0122",
+      "source_en": "frequency table",
+      "target_en": "drawing a bar graph",
+      "source_hi": "बारंबारता सारणी",
+      "target_hi": "दंड आलेख खींचना",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.4 starts from Shri Nilesh's frequency table.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0031",
+      "target_id": "MATH6_C0122",
+      "source_en": "perpendicular lines",
+      "target_en": "drawing a bar graph",
+      "source_hi": "लंब रेखाएँ",
+      "target_hi": "दंड आलेख खींचना",
+      "source_chapter": "CH02",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.4: \"Draw two perpendicular lines, one horizontal and one vertical.\"",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0121",
+      "target_id": "MATH6_C0123",
+      "source_en": "bar graph",
+      "target_en": "vertical and horizontal bar graphs",
+      "source_hi": "दंड आलेख",
+      "target_hi": "स्तंभ आलेख (ऊर्ध्वाधर दंड)",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.5 chooses vertical (column) or horizontal bars.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0121",
+      "target_id": "MATH6_C0124",
+      "source_en": "bar graph",
+      "target_en": "infographics",
+      "source_hi": "दंड आलेख",
+      "target_hi": "इन्फोग्राफिक्स (सूचना ग्राफिक्स)",
+      "source_chapter": "CH04",
+      "target_chapter": "CH04",
+      "relation": "prerequisite_of",
+      "reasoning": "4.5: infographics are beautified bar graphs.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_C0125",
+      "source_en": "multiplication",
+      "target_en": "multiple",
+      "source_hi": "गुणा",
+      "target_hi": "गुणज",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "Multiples of 3 are 3 × 1, 3 × 2, 3 × 3, ...",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0125",
+      "target_id": "MATH6_C0126",
+      "source_en": "multiple",
+      "target_en": "common multiple",
+      "source_hi": "गुणज",
+      "target_hi": "सार्व गुणज",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.1: numbers that are multiples of both 3 and 5 are common multiples.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0103",
+      "target_id": "MATH6_C0127",
+      "source_en": "division",
+      "target_en": "factor (divisor)",
+      "source_hi": "भाग",
+      "target_hi": "गुणनखंड (भाजक)",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.1: factors divide a number exactly.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0125",
+      "target_id": "MATH6_C0127",
+      "source_en": "multiple",
+      "target_en": "factor (divisor)",
+      "source_hi": "गुणज",
+      "target_hi": "गुणनखंड (भाजक)",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "Jump sizes that land on 24 are its factors (24 is their multiple).",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0127",
+      "target_id": "MATH6_C0128",
+      "source_en": "factor (divisor)",
+      "target_en": "common factor",
+      "source_hi": "गुणनखंड (भाजक)",
+      "target_hi": "सार्व गुणनखंड",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.1: jump sizes reaching both treasures are common factors.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0127",
+      "target_id": "MATH6_C0129",
+      "source_en": "factor (divisor)",
+      "target_en": "perfect number",
+      "source_hi": "गुणनखंड (भाजक)",
+      "target_hi": "संपूर्ण संख्या",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "A perfect number's factors sum to twice the number.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0046",
+      "target_id": "MATH6_C0129",
+      "source_en": "addition",
+      "target_en": "perfect number",
+      "source_hi": "जोड़",
+      "target_hi": "संपूर्ण संख्या",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "Perfect numbers are checked by adding the factors.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0127",
+      "target_id": "MATH6_C0130",
+      "source_en": "factor (divisor)",
+      "target_en": "prime number",
+      "source_hi": "गुणनखंड (भाजक)",
+      "target_hi": "अभाज्य संख्या",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.2: primes have exactly two factors.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0127",
+      "target_id": "MATH6_C0131",
+      "source_en": "factor (divisor)",
+      "target_en": "composite number",
+      "source_hi": "गुणनखंड (भाजक)",
+      "target_hi": "भाज्य संख्या",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.2: composite numbers have more than two factors.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0130",
+      "target_id": "MATH6_C0132",
+      "source_en": "prime number",
+      "target_en": "Sieve of Eratosthenes",
+      "source_hi": "अभाज्य संख्या",
+      "target_hi": "इराटोस्थेनीस की छलनी",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "The sieve circles primes.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0131",
+      "target_id": "MATH6_C0132",
+      "source_en": "composite number",
+      "target_en": "Sieve of Eratosthenes",
+      "source_hi": "भाज्य संख्या",
+      "target_hi": "इराटोस्थेनीस की छलनी",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "The sieve crosses out composites.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0125",
+      "target_id": "MATH6_C0132",
+      "source_en": "multiple",
+      "target_en": "Sieve of Eratosthenes",
+      "source_hi": "गुणज",
+      "target_hi": "इराटोस्थेनीस की छलनी",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "The sieve crosses out all multiples of each prime.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0130",
+      "target_id": "MATH6_C0133",
+      "source_en": "prime number",
+      "target_en": "twin primes",
+      "source_hi": "अभाज्य संख्या",
+      "target_hi": "अभाज्य युग्म (जुड़वाँ अभाज्य)",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "Twin primes are pairs of primes.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0128",
+      "target_id": "MATH6_C0134",
+      "source_en": "common factor",
+      "target_en": "co-prime numbers",
+      "source_hi": "सार्व गुणनखंड",
+      "target_hi": "सह-अभाज्य संख्याएँ",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.3: co-prime numbers have no common factor other than 1.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0130",
+      "target_id": "MATH6_C0135",
+      "source_en": "prime number",
+      "target_en": "prime factorisation",
+      "source_hi": "अभाज्य संख्या",
+      "target_hi": "अभाज्य गुणनखंडन",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.4: prime factorisation writes a number as a product of primes.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0131",
+      "target_id": "MATH6_C0135",
+      "source_en": "composite number",
+      "target_en": "prime factorisation",
+      "source_hi": "भाज्य संख्या",
+      "target_hi": "अभाज्य गुणनखंडन",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.4 keeps breaking composite factors until only primes are left.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0102",
+      "target_id": "MATH6_C0135",
+      "source_en": "multiplication",
+      "target_en": "prime factorisation",
+      "source_hi": "गुणा",
+      "target_hi": "अभाज्य गुणनखंडन",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "A factorisation is a product.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0135",
+      "target_id": "MATH6_C0136",
+      "source_en": "prime factorisation",
+      "target_en": "prime factor",
+      "source_hi": "अभाज्य गुणनखंडन",
+      "target_hi": "अभाज्य गुणनखंड",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.4: \"The individual factors are called prime factors.\"",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0103",
+      "target_id": "MATH6_C0137",
+      "source_en": "division",
+      "target_en": "divisibility",
+      "source_hi": "भाग",
+      "target_hi": "विभाज्यता",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.4: 48 is divisible by 12 because the remainder is zero.",
+      "evidence": "section reference",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0127",
+      "target_id": "MATH6_C0137",
+      "source_en": "factor (divisor)",
+      "target_en": "divisibility",
+      "source_hi": "गुणनखंड (भाजक)",
+      "target_hi": "विभाज्यता",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "\"If a number is divisible by another, the second is a factor of the first.\"",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0137",
+      "target_id": "MATH6_C0138",
+      "source_en": "divisibility",
+      "target_en": "divisibility tests for 2, 5 and 10",
+      "source_hi": "विभाज्यता",
+      "target_hi": "2, 5 और 10 से विभाज्यता की जाँच",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.5 tests divisibility without long division.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0125",
+      "target_id": "MATH6_C0138",
+      "source_en": "multiple",
+      "target_en": "divisibility tests for 2, 5 and 10",
+      "source_hi": "गुणज",
+      "target_hi": "2, 5 और 10 से विभाज्यता की जाँच",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "The tests come from patterns in the last digit of multiples of 10, 5, 2.",
+      "evidence": "definitional",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0007",
+      "target_id": "MATH6_C0138",
+      "source_en": "even numbers",
+      "target_en": "divisibility tests for 2, 5 and 10",
+      "source_hi": "सम संख्याएँ",
+      "target_hi": "2, 5 और 10 से विभाज्यता की जाँच",
+      "source_chapter": "CH01",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "Numbers divisible by 2 are the even numbers (end in 0, 2, 4, 6, 8).",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0038",
+      "target_id": "MATH6_C0139",
+      "source_en": "place value",
+      "target_en": "divisibility tests for 4 and 8",
+      "source_hi": "स्थानीय मान",
+      "target_hi": "4 और 8 से विभाज्यता की जाँच",
+      "source_chapter": "PRIOR",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "Only the last two/three places matter for divisibility by 4/8.",
+      "evidence": "definitional",
+      "cross_chapter": true,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0138",
+      "target_id": "MATH6_C0139",
+      "source_en": "divisibility tests for 2, 5 and 10",
+      "target_en": "divisibility tests for 4 and 8",
+      "source_hi": "2, 5 और 10 से विभाज्यता की जाँच",
+      "target_hi": "4 और 8 से विभाज्यता की जाँच",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.5: the last-digit rule fails for 4, so more digits are examined.",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    },
+    {
+      "source_id": "MATH6_C0136",
+      "target_id": "MATH6_C0134",
+      "source_en": "prime factor",
+      "target_en": "co-prime numbers",
+      "source_hi": "अभाज्य गुणनखंड",
+      "target_hi": "सह-अभाज्य संख्याएँ",
+      "source_chapter": "CH05",
+      "target_chapter": "CH05",
+      "relation": "prerequisite_of",
+      "reasoning": "5.4: no common prime factor ⇔ co-prime (systematic check).",
+      "evidence": "section reference",
+      "cross_chapter": false,
+      "validation_status": "PENDING_HUMAN_REVIEW",
+      "model": "claude-opus-5-5 (manual reading of clean text)"
+    }
+  ]
+}
