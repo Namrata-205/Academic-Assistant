@@ -12,7 +12,7 @@ python server.py
 Open http://127.0.0.1:8000. For frontend development, run `python server.py`
 and `npm run dev` in separate terminals; Vite proxies API requests to port 8000.
 
-The public landing page has keyboard-operable 3D shapes. Students can sign in
+The public landing page has an animated 3D orbital sculpture that follows the device’s reduced-motion setting. Students can sign in
 with a provisioned username and password or choose **Create account**. The account
 keeps textbook chat, topic practice, and progress available across browsers on
 the same server. **My space** recommends what to review using recent practice and
