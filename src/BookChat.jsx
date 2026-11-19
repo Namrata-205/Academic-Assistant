@@ -11,8 +11,8 @@ async function request(path,body){
 }
 const starters=['What is an acute angle?','Explain the vertex of an angle.','स्थानीय मान कैसे समझें?'];
 
-export default function BookChat({data,preferredLanguage}){
-  const learner=localStorage.getItem('atlas-learner-code');
+export default function BookChat({data,preferredLanguage,learnerCode}){
+  const learner=learnerCode||localStorage.getItem('atlas-learner-code');
   const [language,setLanguage]=useState(()=>['hi','hinglish'].includes(localStorage.getItem('atlas-chat-language'))?localStorage.getItem('atlas-chat-language'):'en'),[input,setInput]=useState(''),[turns,setTurns]=useState([]),[threads,setThreads]=useState([]),[threadId,setThreadId]=useState(null),[busy,setBusy]=useState(false),[error,setError]=useState(''),[showHistory,setShowHistory]=useState(false);
   const textLanguage=language==='hinglish'?'en':language;
   const ui=chatText(language);

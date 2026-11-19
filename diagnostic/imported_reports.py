@@ -112,6 +112,9 @@ def profile_summary(profile):
             'practice_topics':terms(student.get('weak_topics_by_severity')),
             'subjects':subjects,
             'revision_topics':terms(student.get('recommended_revision')),
+            'revision_concepts':list(dict.fromkeys(
+                concept for topic in terms(student.get('recommended_revision'))
+                for concept in TOPICS.get(topic.casefold(), ([], None))[0])),
             'gap_count':len(profile['gaps']),
             'notice':'Earlier imported report linked. It informs feedback, not current scores or confirmed understanding.'}
 

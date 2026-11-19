@@ -112,7 +112,8 @@ class ImportedReportTests(unittest.TestCase):
     def test_profile_api_links_only_the_requested_learner(self):
         original_connect=e.connect
         with patch.object(ir,'STORE',self.store), patch('diagnostic.engine.connect',side_effect=lambda:original_connect(self.root/'api-history.sqlite3')):
-            http=ThreadingHTTPServer(('127.0.0.1',0),Handler)
+            legacy_handler=type('LegacyProfileHandler',(Handler,),{'allow_legacy_profiles':True})
+            http=ThreadingHTTPServer(('127.0.0.1',0),legacy_handler)
             thread=threading.Thread(target=http.serve_forever,daemon=True);thread.start()
             def call(path,body=None):
                 req=Request(f'http://127.0.0.1:{http.server_port}/api'+path,data=json.dumps(body).encode() if body is not None else None,headers={'Content-Type':'application/json'})

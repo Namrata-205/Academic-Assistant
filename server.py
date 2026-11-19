@@ -6,6 +6,7 @@ import re
 import socket
 from contextlib import contextmanager
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from http.cookies import SimpleCookie, CookieError
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
 from diagnostic import engine as e
@@ -15,6 +16,8 @@ from diagnostic import learner_study
 from diagnostic.progress import learner_progress
 from diagnostic import book_chat
 from diagnostic import practice
+from diagnostic import accounts
+from diagnostic import mock_exams, revision
 
 DOWNLOADS = {'question_bank.json': e.BANK_PATH, **{name: e.ROOT / 'reports' / name for name in (
     'question_bank.csv', 'review_checklist.csv', 'review_notes.md', 'pilot_cases.json',
@@ -25,6 +28,7 @@ DOWNLOADS = {'question_bank.json': e.BANK_PATH, **{name: e.ROOT / 'reports' / na
 def database():
     conn = e.connect()
     try:
+        accounts.ensure(conn)
         yield conn
     finally:
         conn.close()
@@ -66,23 +70,41 @@ def session_view(conn, sid, learner):
 
 
 class Handler(BaseHTTPRequestHandler):
-    def send_json(self, data, status=200):
-        self.send_bytes(json.dumps(data, ensure_ascii=False).encode('utf-8'), 'application/json; charset=utf-8', status)
+    allow_legacy_profiles = False
 
-    def send_bytes(self, data, content_type, status=200):
+    def send_json(self, data, status=200, cookie=None):
+        self.send_bytes(json.dumps(data, ensure_ascii=False).encode('utf-8'), 'application/json; charset=utf-8', status, cookie)
+
+    def send_bytes(self, data, content_type, status=200, cookie=None):
         self.send_response(status)
         self.send_header('Content-Type', content_type)
         self.send_header('Content-Length', str(len(data)))
         self.send_header('X-Content-Type-Options', 'nosniff')
         self.send_header('Cache-Control', 'no-store' if 'json' in content_type else 'no-cache')
+        if cookie is not None:
+            age = accounts.SESSION_AGE if cookie else 0
+            self.send_header('Set-Cookie', f'{accounts.COOKIE}={cookie}; Path=/; Max-Age={age}; HttpOnly; SameSite=Lax')
         self.end_headers()
         self.wfile.write(data)
+
+    def _token(self):
+        try:
+            cookies = SimpleCookie(self.headers.get('Cookie', ''))
+        except CookieError:
+            return ''
+        return cookies[accounts.COOKIE].value if accounts.COOKIE in cookies else ''
 
     def do_GET(self):
         path = urlparse(self.path)
         query = parse_qs(path.query)
         try:
-            if path.path == '/api/bootstrap':
+            if 'learner' in query and path.path.startswith('/api/'):
+                with database() as conn:
+                    accounts.authorize(conn, query['learner'][0].strip(), self._token(), self.allow_legacy_profiles)
+            if path.path == '/api/auth/session':
+                with database() as conn:
+                    self.send_json({'account': accounts.public(accounts.current(conn, self._token()))})
+            elif path.path == '/api/bootstrap':
                 nodes, edges = e.load_graph()
                 links = [{'id': f'e{i}', 'source': r['source_id'], 'target': r['target_id'],
                           'reasoning': r['reasoning'], 'confidence': r['confidence'],
@@ -122,6 +144,19 @@ class Handler(BaseHTTPRequestHandler):
                     self.send_json(learner_progress(conn,query.get('learner',[''])[0].strip()))
             elif path.path == '/api/practice/analytics':
                 with database() as conn:self.send_json(practice.analytics(conn,query.get('learner',[''])[0].strip()))
+            elif path.path in ('/api/revision', '/api/exams') or re.fullmatch(r'/api/exams/[a-f0-9]{32}', path.path):
+                learner = query.get('learner', [''])[0].strip()
+                with database() as conn:
+                    account = accounts.current(conn, self._token())
+                    if not account or account[1] != learner:
+                        raise PermissionError('Sign in to access this learning space.')
+                    if path.path == '/api/revision':
+                        result = revision.notebook(conn, learner)
+                    elif path.path == '/api/exams':
+                        result = mock_exams.summary(conn, learner)
+                    else:
+                        result = mock_exams.view(conn, learner, path.path.rsplit('/', 1)[-1])
+                    self.send_json(result)
             elif path.path.startswith('/api/practice/sessions/'):
                 with database() as conn:self.send_json(practice.view(conn,query.get('learner',[''])[0].strip(),path.path.rsplit('/',1)[-1]))
             elif path.path == '/api/study/export':
@@ -130,7 +165,7 @@ class Handler(BaseHTTPRequestHandler):
             elif path.path.startswith('/api/concepts/'):
                 nodes, edges = e.load_graph()
                 self.send_json(e.describe_concept(path.path.rsplit('/',1)[-1],nodes,edges))
-            elif path.path == '/api/profiles':
+            elif path.path == '/api/profiles' and self.allow_legacy_profiles:
                 self.send_json(imported_reports.list_profiles(
                     query.get('search',[''])[0][:100],
                     int(query.get('page',['1'])[0]),
@@ -164,6 +199,8 @@ class Handler(BaseHTTPRequestHandler):
                     self.send_bytes(b'React build missing. Run npm install and npm run build.', 'text/plain', 503)
                 else:
                     self.send_bytes(file.read_bytes(), mimetypes.guess_type(file.name)[0] or 'application/octet-stream')
+        except PermissionError as ex:
+            self.send_json({'error': str(ex)}, 403)
         except LookupError as ex:
             self.send_json({'error': str(ex)}, 404)
         except Exception:
@@ -181,7 +218,24 @@ class Handler(BaseHTTPRequestHandler):
             if length < 1 or length > 65536:
                 raise ValueError('Request is empty or too large.')
             body = json.loads(self.rfile.read(length))
+            if not isinstance(body, dict):
+                raise ValueError('Send a JSON object.')
             path = urlparse(self.path).path
+            if path in ('/api/auth/login', '/api/auth/signup', '/api/auth/logout'):
+                with database() as conn:
+                    token = self._token()
+                    if path.endswith('/logout'):
+                        accounts.end(conn, token)
+                        self.send_json({'account': None}, cookie='')
+                        return
+                    signup = path.endswith('/signup')
+                    account = accounts.create(conn, body) if signup else accounts.authenticate(conn, body)
+                    if account is None:
+                        self.send_json({'error': 'Check your username and password.'}, 401)
+                        return
+                    self.send_json({'account': accounts.public(account)}, 201 if signup else 200,
+                                   cookie=accounts.start(conn, account[0], token))
+                return
             if path == '/api/map':
                 nodes, edges = e.load_graph()
                 mapping=e.map_question(str(body.get('question', ''))[:4000], nodes, edges)
@@ -199,8 +253,13 @@ class Handler(BaseHTTPRequestHandler):
             if not learner or len(learner) > 100:
                 raise ValueError('Enter a learner code of 1–100 characters.')
             with database() as conn:
+                accounts.authorize(conn, learner, self._token(), self.allow_legacy_profiles)
+                if path.startswith(('/api/revision/', '/api/exams')):
+                    account = accounts.current(conn, self._token())
+                    if not account or account[1] != learner:
+                        raise PermissionError('Sign in to access this learning space.')
                 if path == '/api/reset':
-                    practice.ensure(conn)
+                    revision.ensure(conn)
                     book_chat.ensure(conn)
                     with conn:
                         for table in ('book_chat_tutoring','book_chat_check_answers','book_chat_practice'):
@@ -210,9 +269,12 @@ class Handler(BaseHTTPRequestHandler):
                         conn.execute('DELETE FROM responses WHERE session_id IN (SELECT id FROM sessions WHERE learner=?)',(learner,))
                         conn.execute('DELETE FROM session_external_context WHERE session_id IN (SELECT id FROM sessions WHERE learner=?)',(learner,))
                         conn.execute('DELETE FROM sessions WHERE learner=?',(learner,))
-                        conn.execute('DELETE FROM external_profile_links WHERE learner=?',(learner,))
+                        conn.execute('DELETE FROM external_profile_links WHERE learner=? AND learner NOT IN (SELECT learner FROM student_accounts)',(learner,))
                         conn.execute('DELETE FROM practice_items WHERE session_id IN (SELECT id FROM practice_sessions WHERE learner=?)',(learner,))
                         conn.execute('DELETE FROM practice_sessions WHERE learner=?',(learner,))
+                        conn.execute('DELETE FROM mistake_reviews WHERE learner=?', (learner,))
+                        conn.execute('DELETE FROM mock_exam_items WHERE exam IN (SELECT id FROM mock_exams WHERE learner=?)', (learner,))
+                        conn.execute('DELETE FROM mock_exams WHERE learner=?', (learner,))
                     self.send_json({'cleared': True})
                 elif path == '/api/chat/message':
                     self.send_json(book_chat.send(conn,learner,body.get('message',''),body.get('language','en'),body.get('thread_id'),body.get('concept_id')))
@@ -220,11 +282,20 @@ class Handler(BaseHTTPRequestHandler):
                     self.send_json(practice.create(conn,learner,body.get('concept_id'),body.get('language','en')),201)
                 elif path.startswith('/api/practice/sessions/') and path.endswith('/answer'):
                     self.send_json(practice.respond(conn,learner,path.split('/')[-2],body.get('ordinal'),body.get('response','')))
-                elif path == '/api/profile/select':
+                elif path == '/api/revision/start':
+                    self.send_json(revision.start(conn, learner, body.get('mistake')))
+                elif path == '/api/revision/answer':
+                    self.send_json(revision.answer(conn, learner, body.get('mistake'), body.get('retry'), body.get('response')))
+                elif path == '/api/exams':
+                    self.send_json(mock_exams.create(conn, learner, body.get('mode'), body.get('language')), 201)
+                elif re.fullmatch(r'/api/exams/[a-f0-9]{32}/(?:answer|submit)', path):
+                    _, _, _, exam, action = path.split('/')
+                    self.send_json(mock_exams.view(conn, learner, exam, action, body.get('ordinal'), body.get('response')))
+                elif path == '/api/profile/select' and self.allow_legacy_profiles:
                     student_id=str(body.get('student_id','')).strip()
                     if not student_id or len(student_id)>100:raise ValueError('Choose a learner profile.')
                     self.send_json(imported_reports.select_learning_space(conn,student_id))
-                elif path == '/api/profile/link':
+                elif path == '/api/profile/link' and self.allow_legacy_profiles:
                     student_id = str(body.get('student_id','')).strip()
                     if not student_id or len(student_id)>100:
                         raise ValueError('Enter the student ID from your earlier report.')
@@ -232,7 +303,7 @@ class Handler(BaseHTTPRequestHandler):
                     with conn:
                         conn.execute('INSERT OR REPLACE INTO external_profile_links VALUES (?,?)',(learner,student_id))
                     self.send_json({'profile':imported_reports.profile_summary(profile)})
-                elif path == '/api/profile/unlink':
+                elif path == '/api/profile/unlink' and self.allow_legacy_profiles:
                     with conn:
                         conn.execute('DELETE FROM external_profile_links WHERE learner=?',(learner,))
                     self.send_json({'profile':None})
@@ -266,6 +337,8 @@ class Handler(BaseHTTPRequestHandler):
                     self.send_json(session_view(conn, sid, learner))
                 else:
                     raise LookupError('Endpoint not found.')
+        except PermissionError as ex:
+            self.send_json({'error': str(ex)}, 403)
         except (ValueError, json.JSONDecodeError) as ex:
             self.send_json({'error': str(ex)}, 400)
         except LookupError as ex:

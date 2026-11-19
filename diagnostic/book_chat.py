@@ -105,12 +105,13 @@ def retrieve_sources(target,language,question,limit=2):
                         'section':version['section'] if page==version['read_pdf_page'] else '2.11 Types of Angles and their Measures',
                         'printed_page':page+offset,'pdf_page':page,'language':language,
                         'url':f'/api/textbooks/{language}/{filename}#page={page}',
-                        'concept_id':target,'sha256':source_hash,'edition':cat['edition']}))
+                        'concept_id':target,'concept_en':nodes[target]['en'],'concept_hi':nodes[target]['hi'],'sha256':source_hash,'edition':cat['edition']}))
     from diagnostic.extraction import normalize_query
     query=normalize_query(question,language)        # same Unicode form as the cleaned book text
     try:
         sources=rank_pages(candidates,query+' '+nodes[target]['en']+' '+nodes[target]['hi'],limit=limit)
-        for source in sources:source['retrieval']='semantic cosine similarity'
+        for source in sources:
+            source['retrieval']='semantic cosine similarity'
     except (ImportError,RuntimeError,OSError):
         # Explicitly degraded operation when the local embedding runtime is unavailable.
         sources=[dict(meta,excerpt=' '.join(page_content(filename,page,mtime))[:1800],retrieval='page excerpt fallback') for filename,page,mtime,meta in candidates]

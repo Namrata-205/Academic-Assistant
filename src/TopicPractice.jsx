@@ -2,10 +2,10 @@ import React,{useEffect,useState} from 'react';
 import { ArrowRight,CheckCircle2,LoaderCircle,Search } from 'lucide-react';
 import {studentApi} from './studentApi';
 
-export default function TopicPractice({data,learner,language,onSaved,summary,onNavigate}){
-  const hi=language==='hi';const [search,setSearch]=useState(''),[chapter,setChapter]=useState('all'),[session,setSession]=useState(null),[response,setResponse]=useState(''),[busy,setBusy]=useState(false),[error,setError]=useState(''),[feedback,setFeedback]=useState(null),[practiceLanguage,setPracticeLanguage]=useState(language);
+export default function TopicPractice({data,learner,language,onSaved,summary,onNavigate,initialTopic}){
+  const hi=language==='hi';const [search,setSearch]=useState(()=>data.nodes.find(n=>n.id===initialTopic)?.[language]||''),[chapter,setChapter]=useState('all'),[session,setSession]=useState(null),[response,setResponse]=useState(''),[busy,setBusy]=useState(false),[error,setError]=useState(''),[feedback,setFeedback]=useState(null),[practiceLanguage,setPracticeLanguage]=useState(language);
   const nodes=Object.fromEntries(data.nodes.map(n=>[n.id,n]));
-  useEffect(()=>{const id=localStorage.getItem('atlas-practice:'+learner);if(id)studentApi('/practice/sessions/'+id+'?learner='+encodeURIComponent(learner)).then(setSession).catch(()=>localStorage.removeItem('atlas-practice:'+learner));},[learner]);
+  useEffect(()=>{if(initialTopic)return;const id=localStorage.getItem('atlas-practice:'+learner);if(id)studentApi('/practice/sessions/'+id+'?learner='+encodeURIComponent(learner)).then(setSession).catch(()=>localStorage.removeItem('atlas-practice:'+learner));},[learner,initialTopic]);
   useEffect(()=>{if(!session)setPracticeLanguage(language);},[language,session]);
   async function start(id){setBusy(true);setError('');setFeedback(null);try{const value=await studentApi('/practice/sessions',{learner,concept_id:id,language:practiceLanguage});setSession(value);localStorage.setItem('atlas-practice:'+learner,value.id);onSaved();}catch(e){setError(e.message);}finally{setBusy(false);}}
   async function submit(answer=response){if(!session?.question||busy)return;setBusy(true);setError('');try{const value=await studentApi('/practice/sessions/'+session.id+'/answer',{learner,ordinal:session.question.ordinal,response:answer});setFeedback(value.history[value.history.length-1]);setSession(value);setResponse('');onSaved();}catch(e){setError(e.message);}finally{setBusy(false);}}

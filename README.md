@@ -12,12 +12,36 @@ python server.py
 Open http://127.0.0.1:8000. For frontend development, run `python server.py`
 and `npm run dev` in separate terminals; Vite proxies API requests to port 8000.
 
-Learners can open **My learning**, **My concept map**, and **Ask my book**.
-The check guides them through choosing a topic, answering at most three questions,
-and reading their results. A browser-local pseudonymous code is created automatically.
-Progress is saved in SQLite and can be reopened on the same browser through Previous
-checks. Clearing browser storage removes the browser's link to its saved learner code;
-learner codes are lookup identifiers, not authentication.
+The public landing page has keyboard-operable 3D shapes. Students can sign in
+with a provisioned username and password or choose **Create account**. The account
+keeps textbook chat, topic practice, and progress available across browsers on
+the same server. **My space** recommends what to review using recent practice and
+mapped topics from the student's own earlier report. **My progress** lists saved
+practice results by topic and language.
+
+**Revision** brings scored mistakes from practice and mock exams into a notebook.
+Each entry includes the original response, a worked solution and a different question
+on the same concept. The daily plan shows up to five due entries at a time. Correct
+reviews are followed by reviews after one day and three days. A third correct review
+completes an entry. A topic is marked understood when all its entries are complete.
+An incorrect retry returns the entry to the due list.
+
+**Mock exams** offers an 8-minute chapter paper or a 12-minute mixed paper in
+English or Hindi. Use **Save & next** or the question navigation to save answers.
+An unfinished paper can be resumed on the same account while its timer keeps
+running. The server closes the paper at its deadline and grades the saved answers.
+Fullscreen is available while taking the paper and viewing the solutions.
+
+To provision newly imported students, export a fresh private CSV:
+
+```powershell
+python -m scripts.provision_students tmp/student-logins.csv
+```
+
+The command creates credentials only for students who lack an account. It refuses
+to overwrite an existing export. Use `--resume` with the same path if provisioning
+is interrupted. Keep the CSV private and give each student only their own row.
+The SQLite database stores password hashes and session token hashes.
 
 Question bank and pilot materials are developer files and are not learner navigation
 screens. A 13-page bilingual diagnostic review pack is available at
@@ -132,8 +156,16 @@ Implementation references: [Gemini model](https://ai.google.dev/gemini-api/docs/
 [generateContent](https://ai.google.dev/api/generate-content).
 
 Retrieval uses catalogued, hash-checked uploaded textbook pages in the selected
-language. Sentences are grouped using adjacent multilingual embedding similarity
-(split below cosine .48, maximum 650 characters, preserving page boundaries).
+language. Sentences form a weighted graph with multilingual cosine-similarity edges at
+.48 or above. Contiguous communities merge by strongest mean cross-community
+edge weight (missing edges count as zero), including links between non-adjacent
+sentences. Chunks preserve reading order and page boundaries, with a 650-character
+safety ceiling. The active chunker version is `graph-metadata-page-v2`.
+Retrieval combines evidence cosine (75%), metadata-context cosine (15%), and
+language-specific concept-term coverage (10%). Context includes chapter, section,
+concept labels and language; evidence excerpts remain exact. Sources retain stable
+chunk IDs, chunk index/count and character offsets in the normalized page text.
+Run `python -m diagnostic.evaluate_chunking` for a three-way development comparison.
 Query-to-chunk cosine similarity retrieves up to two target chunks and one chunk
 for each of at most two direct prerequisites. Page embeddings are cached in memory.
 This searches catalogued concept pages, not every page of every chapter. The chunk
@@ -290,10 +322,8 @@ hashes are retained. Neither source CSV is changed. Reimport with:
 python -m diagnostic.imported_reports "path/to/student_report.csv" "path/to/student_gap_report.csv"
 ```
 
-Learners can expand **Have an earlier learning report? (optional)**, enter the source
-student ID and choose **Use my report** before starting a new check. The match must
-be exact; no student is assigned automatically to a browser. Unlinking affects new
-checks, while previous checks retain their original source context.
+The provisioning command links each student account to its imported report.
+The linked summary appears under **My space** after signing in.
 
 Relevant imported findings enrich the result's **From your earlier learning report**
 section. An explicit vocabulary crosswalk distinguishes exact and related concepts;
@@ -303,21 +333,18 @@ report. The imported files contain retrospective aggregate findings and no origi
 item responses or assessment dates, so they do not become scored answers, establish
 current mastery, change question selection, or support claims of improvement.
 
-Only per-learner relevant context is returned to the UI, not the whole imported
-cohort. Links and session snapshots are persisted locally alongside the existing
-history. This remains a single-computer development app without authenticated user
-accounts; student IDs are lookup keys, not access control for a hosted deployment.
+The student API checks the signed-in account before returning private reports
+or saved work. Links and session snapshots live in the SQLite history database.
+The server binds to localhost by default.
 
 Validation: `python -m unittest discover -s tests -p test_imported_reports.py -v`.
 
 ## Student learning spaces and graph workspace
 
-The student screens use **My learning**, **My concept map** and **quick checks**.
-Profile names are generated display aliases; the CSVs contain IDs, not real student
-names. Aliases are deterministic and searchable; original IDs remain the storage keys.
-Selecting a profile displays the source report's strong/practice subjects, topic
-suggestions, earlier percentages and recorded subject trends. Missing percentages
-remain unavailable. No improvement is inferred from a single current check.
+The student screens include **My space**, **Practice**, **My progress**,
+**Ask my book**, and **Concept map**. Imported profiles use deterministic display
+aliases because the source CSVs supply student IDs. The report summary shows
+recorded strengths, topics for practice, earlier percentages, and subject trends.
 
 Map controls: drag a sphere to move and pin it; drag the background to orbit;
 scroll to zoom; right-drag to pan. Select an idea and choose Expand connections,
@@ -400,11 +427,8 @@ change is shown only for fully scored, identical item sets in the current bank v
 different item sets are flagged as not directly comparable. Repeated-item gains are
 not proof of learning or mastery.
 
-Imported student profiles now resolve to a stable server-side learning space rather
-than depending only on a browser-generated mapping. On first selection, an existing
-linked space with saved checks is reused where available. Student aliases and original
-source IDs remain distinct. Profile search shows names only, without report IDs or
-recommendation counts. This local app still does not provide authenticated accounts.
+Provisioned accounts reuse an existing canonical learning space when available.
+This keeps prior saved work accessible after the student signs in.
 
 **Start again** and **Check another topic** preserve saved performance. **Clear all &
 start again** intentionally deletes the current learner's saved checks after confirmation.

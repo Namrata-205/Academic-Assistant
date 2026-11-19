@@ -1,0 +1,435 @@
+{
+  "cases": 12,
+  "dataset_sha256": "eea8fc479242b8b2eb93a68f1d51d62550d337eecaf4139a8cf8eae992727777",
+  "review_status": "AI-authored development cases; independent human review pending. Cases were written after development inspections, not an unseen holdout.",
+  "baseline": "HEAD semantic-page-v1 adjacent-sentence chunker",
+  "candidate": "graph-page-v1",
+  "results": {
+    "previous": {
+      "metrics": {
+        "hit_at_1": 0.5833333333333334,
+        "hit_at_2": 0.75,
+        "mrr_at_2": 0.6666666666666666,
+        "precision_at_2": 0.4583333333333333,
+        "recall_at_2": 0.7571428571428571
+      },
+      "by_language": {
+        "en": {
+          "hit_at_1": 0.6666666666666666,
+          "hit_at_2": 0.8333333333333334,
+          "mrr_at_2": 0.75,
+          "precision_at_2": 0.5,
+          "recall_at_2": 0.8571428571428571
+        },
+        "hi": {
+          "hit_at_1": 0.5,
+          "hit_at_2": 0.6666666666666666,
+          "mrr_at_2": 0.5833333333333334,
+          "precision_at_2": 0.4166666666666667,
+          "recall_at_2": 0.6571428571428571
+        }
+      },
+      "rows": [
+        {
+          "case_id": "R01",
+          "language": "en",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 18,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig.",
+            "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD."
+          ]
+        },
+        {
+          "case_id": "R02",
+          "language": "hi",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 13,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है। B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है।",
+            "ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)।"
+          ]
+        },
+        {
+          "case_id": "R03",
+          "language": "en",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 18,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD. The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD.",
+            "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig."
+          ]
+        },
+        {
+          "case_id": "R04",
+          "language": "hi",
+          "hit_at_1": 0.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 0.5,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 13,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)।",
+            "प्रारंभिक बिंदु वाली दो किरणों से एक उभयनिष्ठ कोण बनता है। आकृति 2.8 में किरण BD और किरण BE से एक कोण बना है, जिनमें उभयनिष्ठ प्रारंभिक बिंदु B है। B कोण का शीर्ष है और किरणें BDऔर BE कोण की भुजाएँ हैं। हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है।"
+          ]
+        },
+        {
+          "case_id": "R05",
+          "language": "en",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 6,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees? As we have taken it to contain 360 degrees, its measure is 360°. What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°.",
+            "360 equal angles or parts. The angle measure of each of these unit parts is 1 degree, which is written as 1°. This unit part is used to assign measure to any angle: the measure of an angle is the number of 1° unit parts it contains inside it."
+          ]
+        },
+        {
+          "case_id": "R06",
+          "language": "hi",
+          "hit_at_1": 0.0,
+          "hit_at_2": 0.0,
+          "mrr_at_2": 0.0,
+          "precision_at_2": 0.0,
+          "recall_at_2": 0.0,
+          "chunks": 11,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा?",
+            "एक समकोण का डिग्री माप क्या होगा?"
+          ]
+        },
+        {
+          "case_id": "R07",
+          "language": "en",
+          "hit_at_1": 0.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 0.5,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 24,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "Identify acute, right, obtuse and straight angles in the previous figures.",
+            "How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles."
+          ]
+        },
+        {
+          "case_id": "R08",
+          "language": "hi",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 22,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+            "पहले समूह में सभी कोण समकोण से कम हैं। अर्थात् दूसरे शब्दों में कह सकते हैं कि एक कोण पूर्ण घुमाव के चतुर्थांश से कम है। इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं।"
+          ]
+        },
+        {
+          "case_id": "R09",
+          "language": "en",
+          "hit_at_1": 0.0,
+          "hit_at_2": 0.0,
+          "mrr_at_2": 0.0,
+          "precision_at_2": 0.0,
+          "recall_at_2": null,
+          "chunks": 18,
+          "relevant_chunks": 0,
+          "top_excerpts": [
+            "In Table 1, 8632 is greater than all its neighbours 4580, 8280, 4795 and 1944. Complete Table 2 with 5-digit numbers whose digits are ‘1’, ‘0’, ‘6’, ‘3’, and ‘9’ in some order.",
+            "The biggest number in the table is ____________ ."
+          ]
+        },
+        {
+          "case_id": "R10",
+          "language": "hi",
+          "hit_at_1": 0.0,
+          "hit_at_2": 0.0,
+          "mrr_at_2": 0.0,
+          "precision_at_2": 0.0,
+          "recall_at_2": null,
+          "chunks": 23,
+          "relevant_chunks": 0,
+          "top_excerpts": [
+            "सारणी में सबसे बड़ी संख्या __________ है। सारणी में सबसे छोटी सम संख्या _______ है।",
+            "एक सारणी में सबसे छोटी संख्या वाला कोष्ठ एक महाकोष्ठ हो सकता है?"
+          ]
+        },
+        {
+          "case_id": "R11",
+          "language": "en",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 1.0,
+          "recall_at_2": 0.2857142857142857,
+          "chunks": 20,
+          "relevant_chunks": 7,
+          "top_excerpts": [
+            "Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345).",
+            "How big a number can you form having the digit sum"
+          ]
+        },
+        {
+          "case_id": "R12",
+          "language": "hi",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 1.0,
+          "recall_at_2": 0.2857142857142857,
+          "chunks": 17,
+          "relevant_chunks": 7,
+          "top_excerpts": [
+            "1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – – संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है।",
+            "वह बड़ी से बड़ी कौन-सी संख्या बनाई जा सकती है, जिसके अंकों का योगफल"
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "metrics": {
+        "hit_at_1": 0.4166666666666667,
+        "hit_at_2": 0.6666666666666666,
+        "mrr_at_2": 0.5416666666666666,
+        "precision_at_2": 0.4166666666666667,
+        "recall_at_2": 0.6071428571428571
+      },
+      "by_language": {
+        "en": {
+          "hit_at_1": 0.5,
+          "hit_at_2": 0.8333333333333334,
+          "mrr_at_2": 0.6666666666666666,
+          "precision_at_2": 0.5,
+          "recall_at_2": 0.8571428571428571
+        },
+        "hi": {
+          "hit_at_1": 0.3333333333333333,
+          "hit_at_2": 0.5,
+          "mrr_at_2": 0.4166666666666667,
+          "precision_at_2": 0.3333333333333333,
+          "recall_at_2": 0.35714285714285715
+        }
+      },
+      "rows": [
+        {
+          "case_id": "R01",
+          "language": "en",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 19,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig.",
+            "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD."
+          ]
+        },
+        {
+          "case_id": "R02",
+          "language": "hi",
+          "hit_at_1": 0.0,
+          "hit_at_2": 0.0,
+          "mrr_at_2": 0.0,
+          "precision_at_2": 0.0,
+          "recall_at_2": 0.0,
+          "chunks": 15,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)।",
+            "हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है।"
+          ]
+        },
+        {
+          "case_id": "R03",
+          "language": "en",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 19,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is the Angle B. To be clearer, we use a point on each of the arms together with the vertex to name the angle. In this case, we name the angle as Angle DBE or Angle EBD.",
+            "An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig."
+          ]
+        },
+        {
+          "case_id": "R04",
+          "language": "hi",
+          "hit_at_1": 0.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 0.5,
+          "precision_at_2": 0.5,
+          "recall_at_2": 0.5,
+          "chunks": 15,
+          "relevant_chunks": 2,
+          "top_excerpts": [
+            "ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)।",
+            "हम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक बिंदु का प्रयोग कर कोण का नाम भी लिख सकते हैं। इस स्थिति में इस कोण को कोण DBE या कोण EBD कहा जा सकता है।"
+          ]
+        },
+        {
+          "case_id": "R05",
+          "language": "en",
+          "hit_at_1": 0.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 0.5,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 8,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees?",
+            "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°."
+          ]
+        },
+        {
+          "case_id": "R06",
+          "language": "hi",
+          "hit_at_1": 0.0,
+          "hit_at_2": 0.0,
+          "mrr_at_2": 0.0,
+          "precision_at_2": 0.0,
+          "recall_at_2": 0.0,
+          "chunks": 12,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "विभिन्न कोणों के माप— एक पूर्ण घुमाव का डिग्री में कितना माप होगा?",
+            "एक समकोण का डिग्री माप क्या होगा?"
+          ]
+        },
+        {
+          "case_id": "R07",
+          "language": "en",
+          "hit_at_1": 0.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 0.5,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 26,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "Identify acute, right, obtuse and straight angles in the previous figures.",
+            "How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles."
+          ]
+        },
+        {
+          "case_id": "R08",
+          "language": "hi",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 0.5,
+          "recall_at_2": 1.0,
+          "chunks": 24,
+          "relevant_chunks": 1,
+          "top_excerpts": [
+            "हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून कोण (Acute Angle)— वे कोण जो समकोण से छोटे हैं, अर्थात् 90o से कम और 0o से अधिक होते हैं न्यून कोण कहलाते हैं।",
+            "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं।"
+          ]
+        },
+        {
+          "case_id": "R09",
+          "language": "en",
+          "hit_at_1": 0.0,
+          "hit_at_2": 0.0,
+          "mrr_at_2": 0.0,
+          "precision_at_2": 0.0,
+          "recall_at_2": null,
+          "chunks": 18,
+          "relevant_chunks": 0,
+          "top_excerpts": [
+            "In Table 1, 8632 is greater than all its neighbours 4580, 8280, 4795 and 1944. Complete Table 2 with 5-digit numbers whose digits are ‘1’, ‘0’, ‘6’, ‘3’, and ‘9’ in some order.",
+            "The biggest number in the table is ____________ ."
+          ]
+        },
+        {
+          "case_id": "R10",
+          "language": "hi",
+          "hit_at_1": 0.0,
+          "hit_at_2": 0.0,
+          "mrr_at_2": 0.0,
+          "precision_at_2": 0.0,
+          "recall_at_2": null,
+          "chunks": 23,
+          "relevant_chunks": 0,
+          "top_excerpts": [
+            "सारणी में सबसे बड़ी संख्या __________ है। सारणी में सबसे छोटी सम संख्या _______ है।",
+            "एक सारणी में सबसे छोटी संख्या वाला कोष्ठ एक महाकोष्ठ हो सकता है?"
+          ]
+        },
+        {
+          "case_id": "R11",
+          "language": "en",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 1.0,
+          "recall_at_2": 0.2857142857142857,
+          "chunks": 20,
+          "relevant_chunks": 7,
+          "top_excerpts": [
+            "Calculate the digit sums of 3-digit numbers whose digits are consecutive (for example, 345).",
+            "How big a number can you form having the digit sum"
+          ]
+        },
+        {
+          "case_id": "R12",
+          "language": "hi",
+          "hit_at_1": 1.0,
+          "hit_at_2": 1.0,
+          "mrr_at_2": 1.0,
+          "precision_at_2": 1.0,
+          "recall_at_2": 0.2857142857142857,
+          "chunks": 18,
+          "relevant_chunks": 7,
+          "top_excerpts": [
+            "1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली संख्याएँ 1 से 9 तक – – – – – – – संख्याओं के अंकों के योग कोमल जब कुछ संख्याओं के अंकों का योग करती है, तो देखती है कि इन सभी का योगफल समान है। उदाहरण के लिए, संख्या 68 के अंकों का योगफल वही है, जो संख्या 176 या 545 के अंकों का योग है।",
+            "वह बड़ी से बड़ी कौन-सी संख्या बनाई जा सकती है, जिसके अंकों का योगफल"
+          ]
+        }
+      ]
+    }
+  },
+  "delta": {
+    "hit_at_1": -0.16666666666666669,
+    "hit_at_2": -0.08333333333333337,
+    "mrr_at_2": -0.125,
+    "precision_at_2": -0.04166666666666663,
+    "recall_at_2": -0.15000000000000002
+  },
+  "limitations": [
+    "Development cases; independent review pending.",
+    "Page-and-substring retrieval relevance proxy; does not measure generated answer correctness.",
+    "Recall denominators vary with chunk boundaries."
+  ]
+}
