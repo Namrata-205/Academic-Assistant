@@ -28,7 +28,7 @@ with gold CER (or --poppler) as well, not OOV alone.
 Outputs (in tmp/, ignored by git):
     hi_<chapter>_raw.txt      raw PyMuPDF text
     hi_<chapter>_clean.txt    cleaned text
-    hi_<chapter>_oov.txt      unknown words with counts      (review these!)
+    hi_<chapter>_oov.txt      unknown words with counts      (review these)
     hi_<chapter>_blocks.tsv   per block: chosen engine, scores, both candidates
 """
 import argparse
