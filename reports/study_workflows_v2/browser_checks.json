@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "name": "exam setup and paper upload",
+      "violations": []
+    },
+    {
+      "name": "fullscreen entry",
+      "nativeFullscreen": true,
+      "focused": true,
+      "violations": []
+    },
+    {
+      "name": "active easy-to-difficult paper",
+      "violations": []
+    },
+    {
+      "name": "saved exam results",
+      "violations": []
+    },
+    {
+      "name": "unanswered exam revision cards",
+      "violations": []
+    },
+    {
+      "name": "revision retry grading",
+      "violations": []
+    },
+    {
+      "name": "full-page chat",
+      "violations": []
+    },
+    {
+      "name": "progress refreshed after checks, exam and revision",
+      "violations": []
+    },
+    {
+      "name": "daily problem and streak calendar",
+      "violations": []
+    },
+    {
+      "name": "selected-language graph",
+      "violations": []
+    },
+    {
+      "name": "mobile selected-language graph",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

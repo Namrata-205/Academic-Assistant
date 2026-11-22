@@ -16,6 +16,7 @@ def ensure(conn):
 
 
 def generated_items(cid,language,nodes,count):
+    if cid not in nodes:raise ValueError('Choose a concept in the current curriculum.')
     sources,_=book_chat.retrieve_sources(cid,language,nodes[cid][language])
     sources=book_chat.clean_sources(sources)
     if not sources:raise ValueError('Complete textbook evidence is not available for this topic yet. Try Ask my book or another topic.')
@@ -72,11 +73,13 @@ def create(conn,learner,cid,language):
     return view(conn,learner,sid)
 
 
-def view(conn,learner,sid):
+def view(conn,learner,sid,language=None):
     ensure(conn)
     row=conn.execute('SELECT concept_id,language,created,completed FROM practice_sessions WHERE id=? AND learner=?',(sid,learner)).fetchone()
     if not row:raise LookupError('Practice not found for this learner.')
-    cid,lang,created,completed=row;records=conn.execute('SELECT ordinal,payload,response,score,answered FROM practice_items WHERE session_id=? ORDER BY ordinal',(sid,)).fetchall()
+    cid,lang,created,completed=row
+    if language in ('en','hi'):lang=language
+    records=conn.execute('SELECT ordinal,payload,response,score,answered FROM practice_items WHERE session_id=? ORDER BY ordinal',(sid,)).fetchall()
     pending=next((r for r in records if r[4] is None),None);history=[]
     for ordinal,payload,response,score,answered in records:
         if answered:
@@ -89,7 +92,7 @@ def view(conn,learner,sid):
             'question':({'id':q['id'],'ordinal':pending[0],'text':q[lang],'type':q['type'],'origin':q['origin']} if q else None)}
 
 
-def respond(conn,learner,sid,ordinal,response):
+def respond(conn,learner,sid,ordinal,response,language=None):
     current=view(conn,learner,sid);q=current['question']
     if not q or ordinal!=q['ordinal']:raise ValueError('This question has already been answered. Reload the current practice.')
     if not isinstance(response,str) or len(response)>500:raise ValueError('Enter a short answer.')
@@ -99,7 +102,7 @@ def respond(conn,learner,sid,ordinal,response):
         changed=conn.execute('UPDATE practice_items SET response=?,score=?,answered=? WHERE session_id=? AND ordinal=? AND answered IS NULL',(response,score,now,sid,ordinal)).rowcount
         if not changed:raise ValueError('Answer was already saved.')
         if current['answered']+1==current['total']:conn.execute('UPDATE practice_sessions SET completed=? WHERE id=?',(now,sid))
-    return view(conn,learner,sid)
+    return view(conn,learner,sid,language)
 
 
 def analytics(conn,learner):
@@ -115,7 +118,7 @@ def analytics(conn,learner):
     for cid,rows in by_topic.items():
         scored=[r for r in rows if r['scorable']];recent=scored[-1] if scored else None
         total=sum(r['scorable'] for r in rows);correct=sum(r['correct'] for r in rows)
-        topics.append({'concept_id':cid,'en':nodes[cid]['en'],'hi':nodes[cid]['hi'],'attempts':len(rows),
+        topics.append({'concept_id':cid,'en':nodes.get(cid,{}).get('en',cid),'hi':nodes.get(cid,{}).get('hi',cid),'attempts':len(rows),
             'accuracy':round(correct/total*100,1) if total else None,'scorable':total,'latest_accuracy':recent['accuracy'] if recent else None})
     return {'attempts':attempts,'topics':topics,'total_answers':sum(r['answered'] for r in attempts),
             'completed_sessions':sum(r['completed'] for r in attempts),

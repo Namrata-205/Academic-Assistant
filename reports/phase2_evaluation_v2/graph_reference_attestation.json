@@ -1,0 +1,9 @@
+{
+  "path": "E:\\Capstone\\assets\\NCERT_Knowledge_Graph\\prerequisite_edges_v2.csv",
+  "sha256": "78ce0f45a9d551c530eab41f84ff235b3cc7969ddc531c7744e387c9384709f5",
+  "review_authority": "User confirmed this file is reviewed in chat.",
+  "csv_review_flags": {
+    "PENDING_HUMAN_REVIEW": 211
+  },
+  "negative_pairs_independently_reviewed": false
+}

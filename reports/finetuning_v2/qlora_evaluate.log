@@ -1,0 +1,11 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{"method": "qlora", "case": "R01", "source_checked": true, "seconds": 4.5}
+{"method": "qlora", "case": "R02", "source_checked": true, "seconds": 10.32}
+{"method": "qlora", "case": "R03", "source_checked": true, "seconds": 4.73}
+{"method": "qlora", "case": "R04", "source_checked": true, "seconds": 10.45}
+{"method": "qlora", "case": "R05", "source_checked": false, "seconds": 5.93}
+{"method": "qlora", "case": "R06", "source_checked": false, "seconds": 13.97}
+{"method": "qlora", "case": "R07", "source_checked": true, "seconds": 6.56}
+{"method": "qlora", "case": "R08", "source_checked": true, "seconds": 14.84}
+{"method": "qlora", "case": "R12", "source_checked": false, "seconds": 21.13}

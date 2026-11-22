@@ -1,0 +1,424 @@
+{
+  "created_utc": "2026-11-21T17:26:07.684993+00:00",
+  "graph": {
+    "reference": {
+      "path": "E:\\Capstone\\assets\\NCERT_Knowledge_Graph\\prerequisite_edges_v2.csv",
+      "sha256": "78ce0f45a9d551c530eab41f84ff235b3cc7969ddc531c7744e387c9384709f5",
+      "review_authority": "User confirmed this file is reviewed in chat.",
+      "csv_review_flags": {
+        "PENDING_HUMAN_REVIEW": 211
+      },
+      "negative_pairs_independently_reviewed": false
+    },
+    "concepts": 144,
+    "edges": 211,
+    "chapter_counts": {
+      "PRIOR": 14,
+      "CH01": 19,
+      "CH02": 20,
+      "CH03": 11,
+      "CH04": 10,
+      "CH05": 15,
+      "CH06": 15,
+      "CH07": 14,
+      "CH08": 9,
+      "CH09": 6,
+      "CH10": 11
+    },
+    "duplicate_edges": 0,
+    "self_links": 0,
+    "acyclic": true,
+    "bilingual_labels_present": 144,
+    "semantic_bilingual_matching": "User-reviewed graph; no separate blind bilingual ratings supplied.",
+    "original_graph_comparison": {
+      "compatible_concepts": 44,
+      "original_predicted_links": 222,
+      "reviewed_positive_links": 45,
+      "true_positive": 38,
+      "unmatched_original_links": 184,
+      "missed_reviewed_links": 7,
+      "positive_link_recall": 0.8444444444444444,
+      "conditional_precision": 0.17117117117117117,
+      "conditional_f1": 0.2846441947565543,
+      "interpretation": "Precision/F1 assume absent links are negative. This is conditional agreement, not independently validated prerequisite precision. Direct-link graphs may differ in transitive redundancy.",
+      "excluded_semantic_changes": [
+        "MATH6_C0036",
+        "MATH6_C0049"
+      ]
+    },
+    "v2_prerequisite_retrieval": {
+      "targets": 134,
+      "recall_at_3": 0.996268656716418,
+      "recall_at_5": 1.0,
+      "interpretation": "Macro recall of reviewed direct positive links in the deployed selector. Same graph defines candidate eligibility: tests ranking/bank coverage, not independent educational importance."
+    }
+  },
+  "diagnosis": {
+    "scope": "60 synthetic development scenarios x two languages x three methods. Not learner accuracy. Language answers use equivalent keys: identical diagnosis metrics are expected.",
+    "policy": "Max three asked items per method; no unseen responses or labels provided to selectors. No prior learner evidence. All arms access the whole bank. Fixed/adaptive prioritise target then same chapter without edges; graph prioritises direct prerequisites.",
+    "limitations": "Synthetic response packs are graph-derived and baselines are simple target-first heuristics, not optimised models. Exact gap-set agreement counts an empty predicted set as correct for non-gap cases even when evidence is insufficient; interpret together with unresolved rate. This is not an unbiased causal estimate of graph benefit.",
+    "reviewed_learner_scenarios": 0,
+    "by_language": {
+      "en": {
+        "fixed": {
+          "cases": 60,
+          "exact_gap_set_agreement": 0.8,
+          "gap_detection_rate": 0,
+          "false_gap_rate": 0,
+          "unresolved_rate": 0.2,
+          "average_questions": 3,
+          "profile_breakdown": {
+            "prerequisite_gap": {
+              "exact_gap_set_agreement": 0,
+              "unresolved_rate": 0
+            },
+            "no_apparent_gap": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0
+            },
+            "calculation_slip": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0
+            },
+            "language_confusion": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0
+            },
+            "insufficient_evidence": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            }
+          }
+        },
+        "adaptive_without_graph": {
+          "cases": 60,
+          "exact_gap_set_agreement": 0.8,
+          "gap_detection_rate": 0,
+          "false_gap_rate": 0,
+          "unresolved_rate": 1,
+          "average_questions": 3,
+          "profile_breakdown": {
+            "prerequisite_gap": {
+              "exact_gap_set_agreement": 0,
+              "unresolved_rate": 1
+            },
+            "no_apparent_gap": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            },
+            "calculation_slip": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            },
+            "language_confusion": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            },
+            "insufficient_evidence": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            }
+          }
+        },
+        "graph_guided": {
+          "cases": 60,
+          "exact_gap_set_agreement": 0.95,
+          "gap_detection_rate": 0.75,
+          "false_gap_rate": 0,
+          "unresolved_rate": 0.6,
+          "average_questions": 2.7666666666666666,
+          "profile_breakdown": {
+            "prerequisite_gap": {
+              "exact_gap_set_agreement": 0.75,
+              "unresolved_rate": 0.4166666666666667
+            },
+            "no_apparent_gap": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0.4166666666666667
+            },
+            "calculation_slip": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            },
+            "language_confusion": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0.16666666666666666
+            },
+            "insufficient_evidence": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            }
+          }
+        }
+      },
+      "hi": {
+        "fixed": {
+          "cases": 60,
+          "exact_gap_set_agreement": 0.8,
+          "gap_detection_rate": 0,
+          "false_gap_rate": 0,
+          "unresolved_rate": 0.2,
+          "average_questions": 3,
+          "profile_breakdown": {
+            "prerequisite_gap": {
+              "exact_gap_set_agreement": 0,
+              "unresolved_rate": 0
+            },
+            "no_apparent_gap": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0
+            },
+            "calculation_slip": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0
+            },
+            "language_confusion": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0
+            },
+            "insufficient_evidence": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            }
+          }
+        },
+        "adaptive_without_graph": {
+          "cases": 60,
+          "exact_gap_set_agreement": 0.8,
+          "gap_detection_rate": 0,
+          "false_gap_rate": 0,
+          "unresolved_rate": 1,
+          "average_questions": 3,
+          "profile_breakdown": {
+            "prerequisite_gap": {
+              "exact_gap_set_agreement": 0,
+              "unresolved_rate": 1
+            },
+            "no_apparent_gap": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            },
+            "calculation_slip": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            },
+            "language_confusion": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            },
+            "insufficient_evidence": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            }
+          }
+        },
+        "graph_guided": {
+          "cases": 60,
+          "exact_gap_set_agreement": 0.95,
+          "gap_detection_rate": 0.75,
+          "false_gap_rate": 0,
+          "unresolved_rate": 0.6,
+          "average_questions": 2.7666666666666666,
+          "profile_breakdown": {
+            "prerequisite_gap": {
+              "exact_gap_set_agreement": 0.75,
+              "unresolved_rate": 0.4166666666666667
+            },
+            "no_apparent_gap": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0.4166666666666667
+            },
+            "calculation_slip": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            },
+            "language_confusion": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 0.16666666666666666
+            },
+            "insufficient_evidence": {
+              "exact_gap_set_agreement": 1,
+              "unresolved_rate": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "retrieval": {
+    "scope": "AI-authored development cases; independent human review pending. Cases were written after development inspections, not an unseen holdout.",
+    "recall_denominator": "Relevant chunks in the concept-scoped candidate pool, not all textbook passages. Zero-denominator cases reported separately, never counted as perfect recall.",
+    "span_metric": "Lexical reference-term occurrence coverage in page-matching chunks; independent human support-span coverage pending.",
+    "by_language": {
+      "en": {
+        "1": {
+          "precision": 0.8333333333333334,
+          "recall": 0.20719298245614035,
+          "support_span_coverage_proxy": 0.20818796484110885
+        },
+        "2": {
+          "precision": 0.8333333333333334,
+          "recall": 0.4143859649122807,
+          "support_span_coverage_proxy": 0.4163759296822177
+        },
+        "3": {
+          "precision": 0.7777777777777778,
+          "recall": 0.5815789473684211,
+          "support_span_coverage_proxy": 0.5799391480730223
+        },
+        "5": {
+          "precision": 0.6666666666666666,
+          "recall": 0.7726315789473684,
+          "support_span_coverage_proxy": 0.7787018255578093
+        }
+      },
+      "hi": {
+        "1": {
+          "precision": 0.8333333333333334,
+          "recall": 0.2011111111111111,
+          "support_span_coverage_proxy": 0.2214679682882676
+        },
+        "2": {
+          "precision": 0.8333333333333334,
+          "recall": 0.4022222222222222,
+          "support_span_coverage_proxy": 0.4173781272459064
+        },
+        "3": {
+          "precision": 0.7222222222222222,
+          "recall": 0.48666666666666664,
+          "support_span_coverage_proxy": 0.5023814440722435
+        },
+        "5": {
+          "precision": 0.7,
+          "recall": 0.7822222222222223,
+          "support_span_coverage_proxy": 0.7954798599219388
+        }
+      }
+    },
+    "zero_evidence_cases": [
+      "R09",
+      "R10"
+    ]
+  },
+  "bilingual": {
+    "definitions": 144,
+    "question_pairs": 432,
+    "definition_number_unit_pass_rate": 1,
+    "question_number_unit_pass_rate": 1,
+    "canonical_term_match_rate": 1,
+    "translation_accuracy": null,
+    "semantic_terminology_consistency": null,
+    "reason": "Numbers, units, presence of Hindi and canonical labels are automated checks; meaning and terminology suitability still need blind bilingual review."
+  },
+  "explanation": {
+    "samples": 20,
+    "limited_math_check_pass_rate": 1,
+    "citation_reference_integrity_rate": 1,
+    "correctness": null,
+    "citation_entailment": null,
+    "difficulty_alignment": null,
+    "interpretation": "Offline authored fallback only. Arithmetic/angle assertion checks and citation IDs do not establish mathematical correctness, relevance or citation entailment.",
+    "controlled_comparison": "Three offline generator arms saved with equal context ceilings; live model comparison unavailable and blind ratings pending."
+  },
+  "feedback": {
+    "mode_cases": 8,
+    "answer_success_rate": 1,
+    "transfer_checks": 8,
+    "transfer_pass_rate": 1,
+    "appropriate_next_action_rate": null,
+    "interpretation": "Branch execution and rotated-question scoring tested; useful pedagogical next-action ratings require independent review."
+  },
+  "workflow": {
+    "by_language": {
+      "en": {
+        "cases": 10,
+        "offline_answer_success_rate": 1,
+        "median_seconds": 12.022881049997522,
+        "p95_seconds": 18.44789920000767
+      },
+      "hi": {
+        "cases": 10,
+        "offline_answer_success_rate": 1,
+        "median_seconds": 12.89193294999859,
+        "p95_seconds": 17.093925900000613
+      }
+    },
+    "scope": "In-process actual retrieval and offline answer path, first pass with shared caches. Includes local computation; excludes network model latency. Browser/quiz end-to-end coverage recorded separately.",
+    "complete_chat_cycles": {
+      "scope": "Five synthetic profiles in both languages through actual persisted chat send/check/inline-grade/feedback paths; offline generation.",
+      "by_language": {
+        "en": {
+          "cases": 5,
+          "workflow_success_rate": 1,
+          "median_cycle_seconds": 0.214750200000708,
+          "p95_cycle_seconds": 10.115518300008262,
+          "inline_grade_rate": 1,
+          "new_followup_rate": 1
+        },
+        "hi": {
+          "cases": 5,
+          "workflow_success_rate": 1,
+          "median_cycle_seconds": 0.29987590000382625,
+          "p95_cycle_seconds": 7.785846800004947,
+          "inline_grade_rate": 1,
+          "new_followup_rate": 1
+        }
+      }
+    },
+    "timing_limitations": "First-pass ten-chapter measurements shared CPU with other evaluation processes; complete-chat cycles reuse popular angle caches. Not an isolated production latency benchmark; no external-model latency included."
+  },
+  "provider": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "configured": true,
+    "ok": false,
+    "error": "provider_error",
+    "seconds": 1.8696
+  },
+  "regression": {
+    "tests_run": 163,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "passed": true,
+    "external_generation": "disabled"
+  },
+  "document_coverage": {
+    "source": "C:\\Users\\Namrata Dalvi\\Downloads\\Phase 2 Workflow.docx",
+    "scope_resolution": "Document original three chapters used for diagnosis comparison; user later explicitly expanded deployed application to ten chapters.",
+    "covered": [
+      "Original graph, original bank and old reports preserved; v2 hashes and selection traces saved.",
+      "Reviewed-positive graph comparison and retrieval at ranks 3/5, including missed links.",
+      "Three diagnosis methods: same bank, no hidden responses, max three questions, English/Hindi separately.",
+      "60 distinct paired development scenarios, five evidence profiles, label reasons and textbook locations.",
+      "Evidence precision/recall at k=1,2,3,5, zero-evidence cases, lexical support coverage proxy.",
+      "Three explanation contexts under same offline generator and context ceiling; blind review file.",
+      "All 144 glossary entries, all 432 bilingual question pairs, four feedback actions and new rotated checks.",
+      "Five diagnostic demonstration traces and ten-chapter bilingual retrieval/answer workflow timing.",
+      "162 regression tests passed, one skipped; separate browser and accessibility reports retained."
+    ],
+    "pending_or_limited": [
+      "Independent negative graph pairs needed for unqualified prerequisite precision/F1.",
+      "CSV review flags remain pending despite user attestation; no flags silently changed.",
+      "Scenario labels, item suitability, explanations and translations await independent review; 0 independently reviewed learner scenarios supplied.",
+      "Existing original final-candidate split untouched; this run is development only, not a frozen final benchmark.",
+      "Live-model three-arm explanation comparison blocked by configured provider error; no fabricated model scores.",
+      "Mathematical correctness, citation entailment, pedagogical difficulty and appropriate next action need blind ratings.",
+      "Slip/language are synthetic causes; runtime reports uncertainty rather than claiming to establish those causes.",
+      "Follow-up branch/rotated diagrams tested, but no real learner follow-up or learning-gain experiment performed.",
+      "Existing LoRA/QLoRA/full-FT artifacts are historical; not a new controlled expanded-curriculum model comparison.",
+      "Paper draft and independent teammate setup verification are separate deliverables, not completed by automated tests."
+    ],
+    "paragraph_audit": {
+      "paragraphs_checked": 30,
+      "checklist": "workflow_document_checklist.json"
+    }
+  },
+  "reproduction": {
+    "command": ".\\venv\\Scripts\\python.exe scripts\\evaluate_phase2_v2.py",
+    "source_sha256": "283c3956f4cc9d6fb540c583e8fe1740bea16ea7e83082c713f91b4188b1b4ef",
+    "bank_sha256": "b2e13049307e8603f2d8fffcfa10eca087685984b0c5565d4f83abd5de1436b6",
+    "no_external_generation": true,
+    "database": "Temporary isolated synthetic learner database; deleted on exit."
+  }
+}

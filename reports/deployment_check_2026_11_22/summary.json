@@ -1,0 +1,52 @@
+{
+  "date_ist": "2026-11-22",
+  "build": {
+    "passed": true,
+    "command": "npm run build"
+  },
+  "regression": {
+    "tests_run": 171,
+    "passed": 170,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "successful": true,
+    "generation": "network disabled at provider transport; provider functions tested normally",
+    "failure_details": [],
+    "skip_details": [
+      {
+        "test": "test_page1_clean (test_hindi_text.Chapter1.test_page1_clean)",
+        "reason": "needs fhgp101.pdf and pypdfium2"
+      }
+    ]
+  },
+  "browser": {
+    "curriculum_checks": 8,
+    "study_workflow_checks": 11,
+    "inline_chat_checks": 7,
+    "accessibility_screens": 21,
+    "serious_or_critical_accessibility_violations": 0,
+    "console_errors": []
+  },
+  "live_generation": [
+    {
+      "language": "en",
+      "passed": true,
+      "mode": "generated",
+      "seconds": 12.834
+    },
+    {
+      "language": "hi",
+      "passed": true,
+      "mode": "generated",
+      "seconds": 9.717
+    }
+  ],
+  "test_data": "Isolated synthetic SQLite databases; no production learner records modified",
+  "test_maintenance": [
+    "Scoped concept-directory selection to distinguish it from recent-concept shortcuts.",
+    "Updated exam picker expectation to the current ten-chapter checkbox group.",
+    "Replaced broad provider-function mocking in the runner with transport-level offline mocking, allowing provider unit tests to execute."
+  ],
+  "deployment_scope": "Local production build and runtime checks. External hosting configuration not evaluated. Local ONNX model assets are gitignored and must be provisioned on deployment; the server currently binds to 127.0.0.1."
+}

@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "new topic asks an understanding question before explaining",
+    "initial answers and grading stay in their cards",
+    "practice answer adds no user or assistant chat bubble",
+    "inline results survive reopening",
+    "confusion with a foundation focus gives teaching instead of excerpts",
+    "Hindi check-first and skip-to-explanation",
+    "mobile layout and accessibility"
+  ],
+  "errors": []
+}

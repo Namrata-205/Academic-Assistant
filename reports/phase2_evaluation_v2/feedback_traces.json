@@ -1,0 +1,310 @@
+{
+  "feedback": [
+    {
+      "language": "en",
+      "action": "another_example",
+      "answered": true,
+      "paragraphs": [
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try a new example: 35°. First check that it is greater than 0°. It is. Next compare it with 90°: 35° is smaller than 90°, so both conditions hold. It is acute.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "mode": "guided_local"
+    },
+    {
+      "language": "en",
+      "action": "language_help",
+      "answered": true,
+      "paragraphs": [
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Imagine opening a book a little, then opening it to a square corner. The smaller opening is acute. The length of the pages does not determine the angle; the amount of opening does.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "mode": "guided_local"
+    },
+    {
+      "language": "en",
+      "action": "simpler",
+      "answered": true,
+      "paragraphs": [
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try a new example: 35°. First check that it is greater than 0°. It is. Next compare it with 90°: 35° is smaller than 90°, so both conditions hold. It is acute.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "mode": "guided_local"
+    },
+    {
+      "language": "en",
+      "action": "still_confused",
+      "answered": true,
+      "paragraphs": [
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try a new example: 35°. First check that it is greater than 0°. It is. Next compare it with 90°: 35° is smaller than 90°, so both conditions hold. It is acute.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "mode": "guided_local"
+    },
+    {
+      "language": "hi",
+      "action": "another_example",
+      "answered": true,
+      "paragraphs": [
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक नया उदाहरण: 35°। पहले जाँचें: यह 0° से अधिक है। अब 90° से तुलना करें: 35° 90° से कम है, इसलिए दोनों शर्तें पूरी हैं। यह न्यून कोण है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "mode": "guided_local"
+    },
+    {
+      "language": "hi",
+      "action": "language_help",
+      "answered": true,
+      "paragraphs": [
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किताब को थोड़ा खोलिए, फिर समकोण जितना खोलिए। पहले वाला छोटा खुलाव न्यून कोण है। पन्नों की लंबाई नहीं, उनके बीच का खुलाव देखिए।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "mode": "guided_local"
+    },
+    {
+      "language": "hi",
+      "action": "simpler",
+      "answered": true,
+      "paragraphs": [
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक नया उदाहरण: 35°। पहले जाँचें: यह 0° से अधिक है। अब 90° से तुलना करें: 35° 90° से कम है, इसलिए दोनों शर्तें पूरी हैं। यह न्यून कोण है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "mode": "guided_local"
+    },
+    {
+      "language": "hi",
+      "action": "still_confused",
+      "answered": true,
+      "paragraphs": [
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक नया उदाहरण: 35°। पहले जाँचें: यह 0° से अधिक है। अब 90° से तुलना करें: 35° 90° से कम है, इसलिए दोनों शर्तें पूरी हैं। यह न्यून कोण है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "mode": "guided_local"
+    }
+  ],
+  "transfer": [
+    {
+      "straight": false,
+      "new_id": true,
+      "new_orientation": true,
+      "correct_key_scores_one": true,
+      "wrong_key_scores_zero": true,
+      "item": {
+        "id": "transfer-3e05318ad12d48fa817a2be11262c470",
+        "concept_id": "MATH6_C0024",
+        "concept_en": "right angle",
+        "concept_hi": "समकोण",
+        "type": "mcq",
+        "answer": "A",
+        "en": "Identify the angle in the diagram. A: right angle; B: straight angle.",
+        "hi": "चित्र में कोण पहचानें। A: समकोण; B: सरल कोण।",
+        "diagram": {
+          "kind": "angle",
+          "degrees": 90,
+          "rotation": 137
+        },
+        "feedback_en": "The angle measures 90°. Turning the whole diagram does not change its measure.",
+        "feedback_hi": "कोण का माप 90° है। पूरे चित्र को घुमाने से उसका माप नहीं बदलता।",
+        "review_status": "PENDING",
+        "possible_difficulty": "May confuse angle measure with orientation; confirm before drawing conclusions.",
+        "source_references": [],
+        "scoring_rule": "Exact MCQ key; other input unscorable."
+      }
+    },
+    {
+      "straight": true,
+      "new_id": true,
+      "new_orientation": true,
+      "correct_key_scores_one": true,
+      "wrong_key_scores_zero": true,
+      "item": {
+        "id": "transfer-d4fa77c23ce2432c8428f13914604e00",
+        "concept_id": "MATH6_C0024",
+        "concept_en": "right angle",
+        "concept_hi": "समकोण",
+        "type": "mcq",
+        "answer": "B",
+        "en": "Identify the angle in the diagram. A: right angle; B: straight angle.",
+        "hi": "चित्र में कोण पहचानें। A: समकोण; B: सरल कोण।",
+        "diagram": {
+          "kind": "angle",
+          "degrees": 180,
+          "rotation": 137
+        },
+        "feedback_en": "The angle measures 180°. Turning the whole diagram does not change its measure.",
+        "feedback_hi": "कोण का माप 180° है। पूरे चित्र को घुमाने से उसका माप नहीं बदलता।",
+        "review_status": "PENDING",
+        "possible_difficulty": "May confuse angle measure with orientation; confirm before drawing conclusions.",
+        "source_references": [],
+        "scoring_rule": "Exact MCQ key; other input unscorable."
+      }
+    }
+  ]
+}

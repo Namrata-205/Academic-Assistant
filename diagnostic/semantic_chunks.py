@@ -5,9 +5,27 @@ import unicodedata
 from functools import lru_cache
 from diagnostic import semantic_mapper as sm
 
-VERSION='graph-metadata-page-v2'
+VERSION='graph-cross-encoder-page-v6'
 BREAK_SIMILARITY=.48
 MAX_CHARS=650
+
+
+def evidence_context(chunks,index):
+    """Expand a ranked community with at most two whole neighbors per side.
+
+    Ranking uses the anchor, while the reader receives the adjacent explanation
+    too. Source order, page boundaries and the evidence budget are preserved.
+    A question heading includes its following answer when space permits.
+    """
+    start=index;end=index+1;size=len(chunks[index])
+    for distance in (1,2):
+        for neighbor in (index+distance,index-distance):
+            if neighbor<0 or neighbor>=len(chunks):continue
+            if neighbor not in (start-1,end):continue
+            if size+len(chunks[neighbor])+1>MAX_CHARS:continue
+            start=min(start,neighbor);end=max(end,neighbor+1)
+            size+=len(chunks[neighbor])+1
+    return ' '.join(chunks[start:end]),start,end
 
 
 def units(blocks):
@@ -79,12 +97,43 @@ def contextual_vectors(texts,context):
 
 
 def _terms(text):
-    return set(re.findall(r'[^\W_]+',unicodedata.normalize('NFKC',text).casefold()))
+    # Python's \w excludes combining marks: it breaks Hindi words into letters.
+    words=[];current=[]
+    for char in unicodedata.normalize('NFKC',text).casefold():
+        if unicodedata.category(char)[0] in 'LNM':current.append(char)
+        elif current:words.append(''.join(current));current=[]
+    if current:words.append(''.join(current))
+    return set(words)
 
 
-def rank_pages(pages,query,limit=3):
+@lru_cache(maxsize=1024)
+def embedding_windows(text):
+    """Keep evidence after token 128 searchable, including Hindi subword runs."""
+    _,_,tokenizer=sm.runtime()
+    # The shared tokenizer has truncation enabled. A clone avoids changing it
+    # while another learner's query is being encoded.
+    from tokenizers import Tokenizer
+    full=Tokenizer.from_str(tokenizer.to_str());full.no_truncation();full.no_padding()
+    encoded=full.encode(text,add_special_tokens=False)
+    if len(encoded.ids)<=112:return (text,)
+    windows=[]
+    for start in range(0,len(encoded.ids),88):
+        end=min(start+112,len(encoded.ids))
+        a=encoded.offsets[start][0];b=encoded.offsets[end-1][1]
+        windows.append(text[a:b])
+        if end==len(encoded.ids):break
+    return tuple(windows)
+
+
+@lru_cache(maxsize=1024)
+def window_vectors(text):
+    return sm.embed(list(embedding_windows(text)))
+
+
+def rank_pages(pages,query,limit=3,*,hybrid=True,diversify=True,cross_encoder=None,rerank_query=None):
     """Rank graph chunks using evidence, contextual metadata and concept coverage."""
     query_vector=sm.embed([query])[0];ranked=[]
+    query_terms=_terms(query)
     for filename,page,mtime,metadata in pages:
         chunks,vectors=page_index(filename,page,mtime)
         if not chunks:continue
@@ -97,14 +146,37 @@ def rank_pages(pages,query,limit=3):
         offset=0
         for index,(text,score,context_score) in enumerate(zip(chunks,vectors@query_vector,contextual@query_vector)):
             coverage=len(label_terms & _terms(text))/len(label_terms) if label_terms else 0.
-            # Fixed weights: do not fit them to the development evaluation cases.
-            combined=.75*float(score)+.15*float(context_score)+.10*coverage if context else float(score)
-            identity=f"{metadata.get('sha256',filename)}:{page}:{index}:{VERSION}:{text}"
-            ranked.append(dict(metadata,excerpt=text,similarity=round(float(score),4),
+            # Query-word overlap complements multilingual similarity; combining
+            # marks are retained rather than treating Hindi letters as words.
+            overlap=len(query_terms & _terms(text))/len(query_terms) if query_terms else 0.
+            # Long passages can hide their answer beyond the encoder limit.
+            if len(text)>112 and len(embedding_windows(text))>1:
+                score=max(float(score),float((window_vectors(text)@query_vector).max()))
+            combined=.65*float(score)+.15*float(context_score)+.10*coverage+.10*overlap if context else float(score)
+            evidence,start,end=evidence_context(chunks,index)
+            identity=f"{metadata.get('sha256',filename)}:{page}:{VERSION}:{evidence}"
+            ranked.append(dict(metadata,excerpt=evidence,matched_excerpt=text,similarity=round(float(score),4),
                                retrieval_score=round(combined,4),metadata_similarity=round(float(context_score),4),
-                               concept_coverage=round(coverage,4),chunking=VERSION,
+                               concept_coverage=round(coverage,4),query_coverage=round(overlap,4),chunking=VERSION,
                                chunk_id=hashlib.sha256(identity.encode('utf-8')).hexdigest()[:24],
                                chunk_index=index,chunk_count=len(chunks),
-                               char_start=offset,char_end=offset+len(text)))
+                               context_start_index=start,context_end_index=end,
+                               context_char_start=sum(len(t)+1 for t in chunks[:start]),
+                               context_char_end=sum(len(t)+1 for t in chunks[:start])+len(evidence),
+                               char_start=offset,char_end=offset+len(text),offset_basis='reconstructed anchor sequence'))
             offset+=len(text)+1
-    return sorted(ranked,key=lambda item:(-item['retrieval_score'],item['url'],item['excerpt']))[:limit]
+    if hybrid:
+        from diagnostic.hybrid_retrieval import fuse
+        ranked=fuse(ranked,query)
+    else:
+        ranked=sorted(ranked,key=lambda item:(-item['retrieval_score'],item['url'],item['excerpt']))
+    unique={}
+    for item in ranked:
+        unique.setdefault((item['url'],item['excerpt']),item)
+    ranked=list(unique.values())
+    if diversify:
+        from diagnostic.retrieval_diversity import rerank
+        ranked=rerank(ranked)
+    from diagnostic.passage_reranker import apply_if_available
+    ranked=apply_if_available(ranked,rerank_query if rerank_query is not None else query,enabled=cross_encoder)
+    return ranked[:limit]

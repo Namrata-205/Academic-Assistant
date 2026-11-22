@@ -1,0 +1,106 @@
+[
+  {
+    "language": "en",
+    "status": "answered",
+    "mode": "generated",
+    "fallback_reason": null,
+    "paragraphs": [
+      {
+        "text": "An acute angle is a special kind of slope or opening that is narrower than a square corner. Think of the sharp corner of a slice of pizza before you take a bite.",
+        "citations": [
+          "S2"
+        ],
+        "evidence": "Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+        "kind": "explanation"
+      },
+      {
+        "text": "To be exact, an acute angle is greater than 0 degrees and less than 90 degrees. A right angle is 90 degrees, so any opening smaller than that square corner fits our description.",
+        "citations": [
+          "S2"
+        ],
+        "evidence": "Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+        "kind": "explanation"
+      },
+      {
+        "text": "Let us look at a quick question to check our idea. Is an angle measuring 0 degrees considered acute? Remember that an acute angle must be strictly greater than 0 degrees and less than 90 degrees.",
+        "citations": [
+          "S2"
+        ],
+        "evidence": "Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+        "kind": "explanation"
+      }
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "url": "/api/textbooks/en/fegp102.pdf#page=19"
+      },
+      {
+        "id": "S2",
+        "url": "/api/textbooks/en/fegp102.pdf#page=38"
+      },
+      {
+        "id": "S3",
+        "url": "/api/textbooks/en/fegp102.pdf#page=21"
+      },
+      {
+        "id": "S4",
+        "url": "/api/textbooks/en/fegp102.pdf#page=21"
+      }
+    ],
+    "passed": true,
+    "seconds": 12.834
+  },
+  {
+    "language": "hi",
+    "status": "answered",
+    "mode": "generated",
+    "fallback_reason": null,
+    "paragraphs": [
+      {
+        "text": "न्यून कोण वह कोण होता है जो समकोण से कम होता है। इसे समझने के लिए याद रखें कि एक समकोण 90° का होता है।",
+        "citations": [
+          "S2"
+        ],
+        "evidence": "पहले समूह में सभी कोण समकोण से कम हैं।",
+        "kind": "explanation"
+      },
+      {
+        "text": "क्या 0° का कोण न्यून है? इसका उत्तर यह है कि न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+        "citations": [
+          "S2"
+        ],
+        "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं।",
+        "kind": "explanation"
+      },
+      {
+        "text": "चूँकि एक समकोण का माप 90° होता है, इसलिए 90° से छोटे सभी कोण न्यून कोण कहलाते हैं। क्या आप बता सकते हैं कि 45° का कोण न्यून कोण है या नहीं?",
+        "citations": [
+          "S3"
+        ],
+        "evidence": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा।",
+        "kind": "explanation"
+      }
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "url": "/api/textbooks/hi/fhgp102.pdf#page=19"
+      },
+      {
+        "id": "S2",
+        "url": "/api/textbooks/hi/fhgp102.pdf#page=19"
+      },
+      {
+        "id": "S3",
+        "url": "/api/textbooks/hi/fhgp102.pdf#page=21"
+      },
+      {
+        "id": "S4",
+        "url": "/api/textbooks/hi/fhgp102.pdf#page=21"
+      }
+    ],
+    "passed": true,
+    "seconds": 9.717
+  }
+]

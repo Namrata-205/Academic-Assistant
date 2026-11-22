@@ -8,7 +8,8 @@ def explanation(question, language):
         return saved
 
     key = question['answer']
-    topic = question.get('concept_en')
+    from diagnostic.curriculum import teaching_name
+    topic = teaching_name(question.get('concept_en',''))
     numbers = [int(n) for n in re.findall(r'\d+', question['en'])]
     hi = language == 'hi'
     if topic == 'number pattern' and len(numbers) >= 4:

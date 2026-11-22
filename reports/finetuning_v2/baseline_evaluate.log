@@ -1,0 +1,11 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+{"method": "baseline", "case": "R01", "source_checked": false, "seconds": 2.91}
+{"method": "baseline", "case": "R02", "source_checked": false, "seconds": 11.68}
+{"method": "baseline", "case": "R03", "source_checked": false, "seconds": 2.44}
+{"method": "baseline", "case": "R04", "source_checked": false, "seconds": 5.08}
+{"method": "baseline", "case": "R05", "source_checked": false, "seconds": 11.59}
+{"method": "baseline", "case": "R06", "source_checked": false, "seconds": 6.33}
+{"method": "baseline", "case": "R07", "source_checked": false, "seconds": 6.59}
+{"method": "baseline", "case": "R08", "source_checked": false, "seconds": 11.69}
+{"method": "baseline", "case": "R12", "source_checked": false, "seconds": 11.39}

@@ -1,0 +1,396 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Athena Phase 2 evaluation</title><style>body{font:16px/1.5 system-ui;max-width:1120px;margin:32px auto;padding:0 20px;color:#173335}h1,h2{color:#126b61}section{border-top:1px solid #aac9c4;margin-top:24px;padding-top:12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.5 ui-monospace}a{color:#075eab;overflow-wrap:anywhere}.table-wrap{max-width:100%;overflow-x:auto}.table-wrap:focus{outline:3px solid #126b61}table{width:100%;min-width:640px;border-collapse:collapse;font-size:14px}th,td{text-align:left;border:1px solid #b6cec9;padding:10px;vertical-align:top}th{background:#e7f3f0}summary{font-weight:650;cursor:pointer}td{overflow-wrap:anywhere}</style><h1>Athena: Phase 2 evaluation</h1><p>Reviewed positive graph reference; automated development evaluation. Synthetic scenarios and mechanical checks are not independently reviewed learner accuracy or learning gains.</p><p>Generated 2026-11-21T17:26:07.684993+00:00</p><div class="table-wrap" role="region" aria-label="Scrollable results table" tabindex="0"><h2>Nine-test results</h2><table><thead><tr><th>Test</th><th>Measured result</th><th>Scope</th></tr></thead><tbody><tr><td>1. Concept graph</td><td>144 bilingual concepts; 211 links; acyclic, no duplicate/self links</td><td>User-reviewed positive links. Independently labelled negatives needed for unconditional precision/F1.</td></tr><tr><td>2. Prerequisite retrieval</td><td>Recall@3 99.6%; Recall@5 100.0%</td><td>134 targets; direct-link reference also defines candidate eligibility. Ranking/coverage test.</td></tr><tr><td>3. Question selection</td><td>2.77 questions on average; three maximum</td><td>60 synthetic development scenarios, paired languages, three selection arms.</td></tr><tr><td>4. Diagnosis</td><td>Gap detection 75.0%; false-gap 0.0%; some tested evidence unresolved 60.0%</td><td>Synthetic, graph-derived labels; no independent learner accuracy claim.</td></tr><tr><td>5. Evidence retrieval</td><td>English and Hindi precision/recall at k=1,2,3,5 below</td><td>12 development queries; candidate-pool recall. Independent semantic support-span review pending.</td></tr><tr><td>6. Explanation quality</td><td>Citation-ID integrity 100.0%; limited math checks 100.0%</td><td>20 offline answers. Full correctness, entailment and difficulty ratings pending; cloud comparison failed.</td></tr><tr><td>7. Bilingual consistency</td><td>144 definitions and 432 question pairs checked; canonical term match 100.0%</td><td>Number/unit parity and labels are structural checks; translation accuracy is unscored.</td></tr><tr><td>8. Feedback/follow-up</td><td>Four actions × two languages; rotated-check assertions 100.0%</td><td>Branch execution and grading checked. Pedagogical usefulness needs human ratings.</td></tr><tr><td>9. Complete workflow</td><td>10/10 offline chat cycles passed, including inline grading and a fresh question</td><td>Temporary synthetic accounts; offline model fallback; no learner-history disclosure.</td></tr></tbody></table></div><div class="table-wrap" role="region" aria-label="Scrollable results table" tabindex="0"><h2>Diagnosis by language and method</h2><p>Exact gap-set agreement also counts empty gap sets; read with the unresolved rate. These are development simulations.</p><table><thead><tr><th>Language</th><th>Method</th><th>Gap detection</th><th>False gap</th><th>Some evidence unresolved</th><th>Avg questions</th></tr></thead><tbody><tr><td>en</td><td>fixed</td><td>0.0%</td><td>0.0%</td><td>20.0%</td><td>3.00</td></tr><tr><td>en</td><td>adaptive_without_graph</td><td>0.0%</td><td>0.0%</td><td>100.0%</td><td>3.00</td></tr><tr><td>en</td><td>graph_guided</td><td>75.0%</td><td>0.0%</td><td>60.0%</td><td>2.77</td></tr><tr><td>hi</td><td>fixed</td><td>0.0%</td><td>0.0%</td><td>20.0%</td><td>3.00</td></tr><tr><td>hi</td><td>adaptive_without_graph</td><td>0.0%</td><td>0.0%</td><td>100.0%</td><td>3.00</td></tr><tr><td>hi</td><td>graph_guided</td><td>75.0%</td><td>0.0%</td><td>60.0%</td><td>2.77</td></tr></tbody></table></div><div class="table-wrap" role="region" aria-label="Scrollable results table" tabindex="0"><h2>Evidence retrieval by language and k</h2><p>Precision divides by k, including missing slots. Recall excludes cases with no relevant chunk in the candidate pool. Zero-evidence cases: R09, R10.</p><table><thead><tr><th>Language</th><th>k</th><th>Precision</th><th>Pool recall</th><th>Lexical coverage proxy</th></tr></thead><tbody><tr><td>en</td><td>1</td><td>83.3%</td><td>20.7%</td><td>20.8%</td></tr><tr><td>en</td><td>2</td><td>83.3%</td><td>41.4%</td><td>41.6%</td></tr><tr><td>en</td><td>3</td><td>77.8%</td><td>58.2%</td><td>58.0%</td></tr><tr><td>en</td><td>5</td><td>66.7%</td><td>77.3%</td><td>77.9%</td></tr><tr><td>hi</td><td>1</td><td>83.3%</td><td>20.1%</td><td>22.1%</td></tr><tr><td>hi</td><td>2</td><td>83.3%</td><td>40.2%</td><td>41.7%</td></tr><tr><td>hi</td><td>3</td><td>72.2%</td><td>48.7%</td><td>50.2%</td></tr><tr><td>hi</td><td>5</td><td>70.0%</td><td>78.2%</td><td>79.5%</td></tr></tbody></table></div><div class="table-wrap" role="region" aria-label="Scrollable results table" tabindex="0"><h2>Local response time</h2><p>Seconds, external generation disabled. Ten-chapter first-pass answers and cached angle chat cycles use different scopes. Concurrent evaluation load and cache state affect these measurements.</p><table><thead><tr><th>Language</th><th>Ten-chapter answer median</th><th>Ten-chapter answer p95</th><th>Complete cycle median</th><th>Complete cycle p95</th></tr></thead><tbody><tr><td>en</td><td>12.02</td><td>18.45</td><td>0.21</td><td>10.12</td></tr><tr><td>hi</td><td>12.89</td><td>17.09</td><td>0.30</td><td>7.79</td></tr></tbody></table></div><h2>Detailed methods and limitations</h2><section><details><summary>1. Concept graph validation</summary><pre>{
+  &quot;reference&quot;: {
+    &quot;path&quot;: &quot;E:\\Capstone\\assets\\NCERT_Knowledge_Graph\\prerequisite_edges_v2.csv&quot;,
+    &quot;sha256&quot;: &quot;78ce0f45a9d551c530eab41f84ff235b3cc7969ddc531c7744e387c9384709f5&quot;,
+    &quot;review_authority&quot;: &quot;User confirmed this file is reviewed in chat.&quot;,
+    &quot;csv_review_flags&quot;: {
+      &quot;PENDING_HUMAN_REVIEW&quot;: 211
+    },
+    &quot;negative_pairs_independently_reviewed&quot;: false
+  },
+  &quot;concepts&quot;: 144,
+  &quot;edges&quot;: 211,
+  &quot;chapter_counts&quot;: {
+    &quot;PRIOR&quot;: 14,
+    &quot;CH01&quot;: 19,
+    &quot;CH02&quot;: 20,
+    &quot;CH03&quot;: 11,
+    &quot;CH04&quot;: 10,
+    &quot;CH05&quot;: 15,
+    &quot;CH06&quot;: 15,
+    &quot;CH07&quot;: 14,
+    &quot;CH08&quot;: 9,
+    &quot;CH09&quot;: 6,
+    &quot;CH10&quot;: 11
+  },
+  &quot;duplicate_edges&quot;: 0,
+  &quot;self_links&quot;: 0,
+  &quot;acyclic&quot;: true,
+  &quot;bilingual_labels_present&quot;: 144,
+  &quot;semantic_bilingual_matching&quot;: &quot;User-reviewed graph; no separate blind bilingual ratings supplied.&quot;,
+  &quot;original_graph_comparison&quot;: {
+    &quot;compatible_concepts&quot;: 44,
+    &quot;original_predicted_links&quot;: 222,
+    &quot;reviewed_positive_links&quot;: 45,
+    &quot;true_positive&quot;: 38,
+    &quot;unmatched_original_links&quot;: 184,
+    &quot;missed_reviewed_links&quot;: 7,
+    &quot;positive_link_recall&quot;: 0.8444444444444444,
+    &quot;conditional_precision&quot;: 0.17117117117117117,
+    &quot;conditional_f1&quot;: 0.2846441947565543,
+    &quot;interpretation&quot;: &quot;Precision/F1 assume absent links are negative. This is conditional agreement, not independently validated prerequisite precision. Direct-link graphs may differ in transitive redundancy.&quot;,
+    &quot;excluded_semantic_changes&quot;: [
+      &quot;MATH6_C0036&quot;,
+      &quot;MATH6_C0049&quot;
+    ]
+  },
+  &quot;v2_prerequisite_retrieval&quot;: {
+    &quot;targets&quot;: 134,
+    &quot;recall_at_3&quot;: 0.996268656716418,
+    &quot;recall_at_5&quot;: 1.0,
+    &quot;interpretation&quot;: &quot;Macro recall of reviewed direct positive links in the deployed selector. Same graph defines candidate eligibility: tests ranking/bank coverage, not independent educational importance.&quot;
+  }
+}</pre></details></section><section><details><summary>2. Prerequisite retrieval</summary><pre>{
+  &quot;targets&quot;: 134,
+  &quot;recall_at_3&quot;: 0.996268656716418,
+  &quot;recall_at_5&quot;: 1.0,
+  &quot;interpretation&quot;: &quot;Macro recall of reviewed direct positive links in the deployed selector. Same graph defines candidate eligibility: tests ranking/bank coverage, not independent educational importance.&quot;
+}</pre></details></section><section><details><summary>3–4. Diagnostic selection and accuracy</summary><pre>{
+  &quot;scope&quot;: &quot;60 synthetic development scenarios x two languages x three methods. Not learner accuracy. Language answers use equivalent keys: identical diagnosis metrics are expected.&quot;,
+  &quot;policy&quot;: &quot;Max three asked items per method; no unseen responses or labels provided to selectors. No prior learner evidence. All arms access the whole bank. Fixed/adaptive prioritise target then same chapter without edges; graph prioritises direct prerequisites.&quot;,
+  &quot;limitations&quot;: &quot;Synthetic response packs are graph-derived and baselines are simple target-first heuristics, not optimised models. Exact gap-set agreement counts an empty predicted set as correct for non-gap cases even when evidence is insufficient; interpret together with unresolved rate. This is not an unbiased causal estimate of graph benefit.&quot;,
+  &quot;reviewed_learner_scenarios&quot;: 0,
+  &quot;by_language&quot;: {
+    &quot;en&quot;: {
+      &quot;fixed&quot;: {
+        &quot;cases&quot;: 60,
+        &quot;exact_gap_set_agreement&quot;: 0.8,
+        &quot;gap_detection_rate&quot;: 0,
+        &quot;false_gap_rate&quot;: 0,
+        &quot;unresolved_rate&quot;: 0.2,
+        &quot;average_questions&quot;: 3,
+        &quot;profile_breakdown&quot;: {
+          &quot;prerequisite_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 0,
+            &quot;unresolved_rate&quot;: 0
+          },
+          &quot;no_apparent_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0
+          },
+          &quot;calculation_slip&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0
+          },
+          &quot;language_confusion&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0
+          },
+          &quot;insufficient_evidence&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          }
+        }
+      },
+      &quot;adaptive_without_graph&quot;: {
+        &quot;cases&quot;: 60,
+        &quot;exact_gap_set_agreement&quot;: 0.8,
+        &quot;gap_detection_rate&quot;: 0,
+        &quot;false_gap_rate&quot;: 0,
+        &quot;unresolved_rate&quot;: 1,
+        &quot;average_questions&quot;: 3,
+        &quot;profile_breakdown&quot;: {
+          &quot;prerequisite_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 0,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;no_apparent_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;calculation_slip&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;language_confusion&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;insufficient_evidence&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          }
+        }
+      },
+      &quot;graph_guided&quot;: {
+        &quot;cases&quot;: 60,
+        &quot;exact_gap_set_agreement&quot;: 0.95,
+        &quot;gap_detection_rate&quot;: 0.75,
+        &quot;false_gap_rate&quot;: 0,
+        &quot;unresolved_rate&quot;: 0.6,
+        &quot;average_questions&quot;: 2.7666666666666666,
+        &quot;profile_breakdown&quot;: {
+          &quot;prerequisite_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 0.75,
+            &quot;unresolved_rate&quot;: 0.4166666666666667
+          },
+          &quot;no_apparent_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0.4166666666666667
+          },
+          &quot;calculation_slip&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;language_confusion&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0.16666666666666666
+          },
+          &quot;insufficient_evidence&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          }
+        }
+      }
+    },
+    &quot;hi&quot;: {
+      &quot;fixed&quot;: {
+        &quot;cases&quot;: 60,
+        &quot;exact_gap_set_agreement&quot;: 0.8,
+        &quot;gap_detection_rate&quot;: 0,
+        &quot;false_gap_rate&quot;: 0,
+        &quot;unresolved_rate&quot;: 0.2,
+        &quot;average_questions&quot;: 3,
+        &quot;profile_breakdown&quot;: {
+          &quot;prerequisite_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 0,
+            &quot;unresolved_rate&quot;: 0
+          },
+          &quot;no_apparent_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0
+          },
+          &quot;calculation_slip&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0
+          },
+          &quot;language_confusion&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0
+          },
+          &quot;insufficient_evidence&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          }
+        }
+      },
+      &quot;adaptive_without_graph&quot;: {
+        &quot;cases&quot;: 60,
+        &quot;exact_gap_set_agreement&quot;: 0.8,
+        &quot;gap_detection_rate&quot;: 0,
+        &quot;false_gap_rate&quot;: 0,
+        &quot;unresolved_rate&quot;: 1,
+        &quot;average_questions&quot;: 3,
+        &quot;profile_breakdown&quot;: {
+          &quot;prerequisite_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 0,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;no_apparent_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;calculation_slip&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;language_confusion&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;insufficient_evidence&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          }
+        }
+      },
+      &quot;graph_guided&quot;: {
+        &quot;cases&quot;: 60,
+        &quot;exact_gap_set_agreement&quot;: 0.95,
+        &quot;gap_detection_rate&quot;: 0.75,
+        &quot;false_gap_rate&quot;: 0,
+        &quot;unresolved_rate&quot;: 0.6,
+        &quot;average_questions&quot;: 2.7666666666666666,
+        &quot;profile_breakdown&quot;: {
+          &quot;prerequisite_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 0.75,
+            &quot;unresolved_rate&quot;: 0.4166666666666667
+          },
+          &quot;no_apparent_gap&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0.4166666666666667
+          },
+          &quot;calculation_slip&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          },
+          &quot;language_confusion&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 0.16666666666666666
+          },
+          &quot;insufficient_evidence&quot;: {
+            &quot;exact_gap_set_agreement&quot;: 1,
+            &quot;unresolved_rate&quot;: 1
+          }
+        }
+      }
+    }
+  }
+}</pre></details></section><section><details><summary>5. Evidence retrieval</summary><pre>{
+  &quot;scope&quot;: &quot;AI-authored development cases; independent human review pending. Cases were written after development inspections, not an unseen holdout.&quot;,
+  &quot;recall_denominator&quot;: &quot;Relevant chunks in the concept-scoped candidate pool, not all textbook passages. Zero-denominator cases reported separately, never counted as perfect recall.&quot;,
+  &quot;span_metric&quot;: &quot;Lexical reference-term occurrence coverage in page-matching chunks; independent human support-span coverage pending.&quot;,
+  &quot;by_language&quot;: {
+    &quot;en&quot;: {
+      &quot;1&quot;: {
+        &quot;precision&quot;: 0.8333333333333334,
+        &quot;recall&quot;: 0.20719298245614035,
+        &quot;support_span_coverage_proxy&quot;: 0.20818796484110885
+      },
+      &quot;2&quot;: {
+        &quot;precision&quot;: 0.8333333333333334,
+        &quot;recall&quot;: 0.4143859649122807,
+        &quot;support_span_coverage_proxy&quot;: 0.4163759296822177
+      },
+      &quot;3&quot;: {
+        &quot;precision&quot;: 0.7777777777777778,
+        &quot;recall&quot;: 0.5815789473684211,
+        &quot;support_span_coverage_proxy&quot;: 0.5799391480730223
+      },
+      &quot;5&quot;: {
+        &quot;precision&quot;: 0.6666666666666666,
+        &quot;recall&quot;: 0.7726315789473684,
+        &quot;support_span_coverage_proxy&quot;: 0.7787018255578093
+      }
+    },
+    &quot;hi&quot;: {
+      &quot;1&quot;: {
+        &quot;precision&quot;: 0.8333333333333334,
+        &quot;recall&quot;: 0.2011111111111111,
+        &quot;support_span_coverage_proxy&quot;: 0.2214679682882676
+      },
+      &quot;2&quot;: {
+        &quot;precision&quot;: 0.8333333333333334,
+        &quot;recall&quot;: 0.4022222222222222,
+        &quot;support_span_coverage_proxy&quot;: 0.4173781272459064
+      },
+      &quot;3&quot;: {
+        &quot;precision&quot;: 0.7222222222222222,
+        &quot;recall&quot;: 0.48666666666666664,
+        &quot;support_span_coverage_proxy&quot;: 0.5023814440722435
+      },
+      &quot;5&quot;: {
+        &quot;precision&quot;: 0.7,
+        &quot;recall&quot;: 0.7822222222222223,
+        &quot;support_span_coverage_proxy&quot;: 0.7954798599219388
+      }
+    }
+  },
+  &quot;zero_evidence_cases&quot;: [
+    &quot;R09&quot;,
+    &quot;R10&quot;
+  ]
+}</pre></details></section><section><details><summary>6. Explanation quality</summary><pre>{
+  &quot;samples&quot;: 20,
+  &quot;limited_math_check_pass_rate&quot;: 1,
+  &quot;citation_reference_integrity_rate&quot;: 1,
+  &quot;correctness&quot;: null,
+  &quot;citation_entailment&quot;: null,
+  &quot;difficulty_alignment&quot;: null,
+  &quot;interpretation&quot;: &quot;Offline authored fallback only. Arithmetic/angle assertion checks and citation IDs do not establish mathematical correctness, relevance or citation entailment.&quot;,
+  &quot;controlled_comparison&quot;: &quot;Three offline generator arms saved with equal context ceilings; live model comparison unavailable and blind ratings pending.&quot;
+}</pre></details></section><section><details><summary>7. Bilingual consistency</summary><pre>{
+  &quot;definitions&quot;: 144,
+  &quot;question_pairs&quot;: 432,
+  &quot;definition_number_unit_pass_rate&quot;: 1,
+  &quot;question_number_unit_pass_rate&quot;: 1,
+  &quot;canonical_term_match_rate&quot;: 1,
+  &quot;translation_accuracy&quot;: null,
+  &quot;semantic_terminology_consistency&quot;: null,
+  &quot;reason&quot;: &quot;Numbers, units, presence of Hindi and canonical labels are automated checks; meaning and terminology suitability still need blind bilingual review.&quot;
+}</pre></details></section><section><details><summary>8. Feedback and follow-up</summary><pre>{
+  &quot;mode_cases&quot;: 8,
+  &quot;answer_success_rate&quot;: 1,
+  &quot;transfer_checks&quot;: 8,
+  &quot;transfer_pass_rate&quot;: 1,
+  &quot;appropriate_next_action_rate&quot;: null,
+  &quot;interpretation&quot;: &quot;Branch execution and rotated-question scoring tested; useful pedagogical next-action ratings require independent review.&quot;
+}</pre></details></section><section><details><summary>9. End-to-end workflow</summary><pre>{
+  &quot;by_language&quot;: {
+    &quot;en&quot;: {
+      &quot;cases&quot;: 10,
+      &quot;offline_answer_success_rate&quot;: 1,
+      &quot;median_seconds&quot;: 12.022881049997522,
+      &quot;p95_seconds&quot;: 18.44789920000767
+    },
+    &quot;hi&quot;: {
+      &quot;cases&quot;: 10,
+      &quot;offline_answer_success_rate&quot;: 1,
+      &quot;median_seconds&quot;: 12.89193294999859,
+      &quot;p95_seconds&quot;: 17.093925900000613
+    }
+  },
+  &quot;scope&quot;: &quot;In-process actual retrieval and offline answer path, first pass with shared caches. Includes local computation; excludes network model latency. Browser/quiz end-to-end coverage recorded separately.&quot;,
+  &quot;complete_chat_cycles&quot;: {
+    &quot;scope&quot;: &quot;Five synthetic profiles in both languages through actual persisted chat send/check/inline-grade/feedback paths; offline generation.&quot;,
+    &quot;by_language&quot;: {
+      &quot;en&quot;: {
+        &quot;cases&quot;: 5,
+        &quot;workflow_success_rate&quot;: 1,
+        &quot;median_cycle_seconds&quot;: 0.214750200000708,
+        &quot;p95_cycle_seconds&quot;: 10.115518300008262,
+        &quot;inline_grade_rate&quot;: 1,
+        &quot;new_followup_rate&quot;: 1
+      },
+      &quot;hi&quot;: {
+        &quot;cases&quot;: 5,
+        &quot;workflow_success_rate&quot;: 1,
+        &quot;median_cycle_seconds&quot;: 0.29987590000382625,
+        &quot;p95_cycle_seconds&quot;: 7.785846800004947,
+        &quot;inline_grade_rate&quot;: 1,
+        &quot;new_followup_rate&quot;: 1
+      }
+    }
+  },
+  &quot;timing_limitations&quot;: &quot;First-pass ten-chapter measurements shared CPU with other evaluation processes; complete-chat cycles reuse popular angle caches. Not an isolated production latency benchmark; no external-model latency included.&quot;
+}</pre></details></section><section><details><summary>Workflow document coverage and remaining review</summary><pre>{
+  &quot;source&quot;: &quot;C:\\Users\\Namrata Dalvi\\Downloads\\Phase 2 Workflow.docx&quot;,
+  &quot;scope_resolution&quot;: &quot;Document original three chapters used for diagnosis comparison; user later explicitly expanded deployed application to ten chapters.&quot;,
+  &quot;covered&quot;: [
+    &quot;Original graph, original bank and old reports preserved; v2 hashes and selection traces saved.&quot;,
+    &quot;Reviewed-positive graph comparison and retrieval at ranks 3/5, including missed links.&quot;,
+    &quot;Three diagnosis methods: same bank, no hidden responses, max three questions, English/Hindi separately.&quot;,
+    &quot;60 distinct paired development scenarios, five evidence profiles, label reasons and textbook locations.&quot;,
+    &quot;Evidence precision/recall at k=1,2,3,5, zero-evidence cases, lexical support coverage proxy.&quot;,
+    &quot;Three explanation contexts under same offline generator and context ceiling; blind review file.&quot;,
+    &quot;All 144 glossary entries, all 432 bilingual question pairs, four feedback actions and new rotated checks.&quot;,
+    &quot;Five diagnostic demonstration traces and ten-chapter bilingual retrieval/answer workflow timing.&quot;,
+    &quot;162 regression tests passed, one skipped; separate browser and accessibility reports retained.&quot;
+  ],
+  &quot;pending_or_limited&quot;: [
+    &quot;Independent negative graph pairs needed for unqualified prerequisite precision/F1.&quot;,
+    &quot;CSV review flags remain pending despite user attestation; no flags silently changed.&quot;,
+    &quot;Scenario labels, item suitability, explanations and translations await independent review; 0 independently reviewed learner scenarios supplied.&quot;,
+    &quot;Existing original final-candidate split untouched; this run is development only, not a frozen final benchmark.&quot;,
+    &quot;Live-model three-arm explanation comparison blocked by configured provider error; no fabricated model scores.&quot;,
+    &quot;Mathematical correctness, citation entailment, pedagogical difficulty and appropriate next action need blind ratings.&quot;,
+    &quot;Slip/language are synthetic causes; runtime reports uncertainty rather than claiming to establish those causes.&quot;,
+    &quot;Follow-up branch/rotated diagrams tested, but no real learner follow-up or learning-gain experiment performed.&quot;,
+    &quot;Existing LoRA/QLoRA/full-FT artifacts are historical; not a new controlled expanded-curriculum model comparison.&quot;,
+    &quot;Paper draft and independent teammate setup verification are separate deliverables, not completed by automated tests.&quot;
+  ],
+  &quot;paragraph_audit&quot;: {
+    &quot;paragraphs_checked&quot;: 30,
+    &quot;checklist&quot;: &quot;workflow_document_checklist.json&quot;
+  }
+}</pre></details></section><h2>Reproducible logs and review files</h2><ul><li><a href="arm_review_key.json">arm_review_key.json</a></li><li><a href="bilingual_checks.json">bilingual_checks.json</a></li><li><a href="blind_arm_review.json">blind_arm_review.json</a></li><li><a href="blind_explanation_review.json">blind_explanation_review.json</a></li><li><a href="complete_chat_cycle_summary.json">complete_chat_cycle_summary.json</a></li><li><a href="complete_chat_cycles.json">complete_chat_cycles.json</a></li><li><a href="development_cases.json">development_cases.json</a></li><li><a href="diagnosis_summary.json">diagnosis_summary.json</a></li><li><a href="diagnostic_traces.json">diagnostic_traces.json</a></li><li><a href="evaluation_manifest.json">evaluation_manifest.json</a></li><li><a href="evidence_traces.json">evidence_traces.json</a></li><li><a href="explanation_ablations.json">explanation_ablations.json</a></li><li><a href="failure_examples.json">failure_examples.json</a></li><li><a href="feedback_traces.json">feedback_traces.json</a></li><li><a href="five_demonstrations.json">five_demonstrations.json</a></li><li><a href="graph_reference_attestation.json">graph_reference_attestation.json</a></li><li><a href="partial_results.json">partial_results.json</a></li><li><a href="prerequisite_ranking.json">prerequisite_ranking.json</a></li><li><a href="provider_status.json">provider_status.json</a></li><li><a href="results.json">results.json</a></li><li><a href="workflow_document_checklist.json">workflow_document_checklist.json</a></li><li><a href="workflow_traces.json">workflow_traces.json</a></li></ul></html>

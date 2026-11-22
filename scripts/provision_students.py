@@ -43,7 +43,7 @@ def provision(output, resume=False):
                     learner = previous[0] if previous else 'account-' + secrets.token_hex(16)
                     conn.execute('INSERT OR IGNORE INTO student_learning_spaces VALUES (?,?)', (student_id, learner))
                     conn.execute('INSERT OR REPLACE INTO external_profile_links VALUES (?,?)', (learner, student_id))
-                    conn.execute('INSERT INTO student_accounts VALUES (?,?,?,?,?,?)',
+                    conn.execute('INSERT INTO student_accounts (username,learner,display_name,salt,password_hash,student_id) VALUES (?,?,?,?,?,?)',
                                  (username, learner, imported_reports.display_name(student_id), salt, password_hash, student_id))
                     if student_id not in saved:
                         writer.writerow((student_id, username, password))

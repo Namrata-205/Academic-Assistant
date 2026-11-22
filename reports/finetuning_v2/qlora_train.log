@@ -1,0 +1,21 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+{"method": "qlora", "trainable": 5046272, "total": 601096192, "examples": 72, "validation_before": 0.9323223291551666}
+{"method": "qlora", "step": 1, "examples_seen": 4, "loss": 0.70541, "allocated_gib": 0.841}
+{"method": "qlora", "step": 2, "examples_seen": 8, "loss": 0.77909, "allocated_gib": 0.841}
+{"method": "qlora", "step": 3, "examples_seen": 12, "loss": 0.74724, "allocated_gib": 0.839}
+{"method": "qlora", "step": 4, "examples_seen": 16, "loss": 0.50773, "allocated_gib": 0.842}
+{"method": "qlora", "step": 5, "examples_seen": 20, "loss": 1.25075, "allocated_gib": 0.84}
+{"method": "qlora", "step": 6, "examples_seen": 24, "loss": 0.41335, "allocated_gib": 0.841}
+{"method": "qlora", "step": 7, "examples_seen": 28, "loss": 0.55094, "allocated_gib": 0.84}
+{"method": "qlora", "step": 8, "examples_seen": 32, "loss": 0.52688, "allocated_gib": 0.841}
+{"method": "qlora", "step": 9, "examples_seen": 36, "loss": 0.47632, "allocated_gib": 0.84}
+{"method": "qlora", "step": 10, "examples_seen": 40, "loss": 0.37656, "allocated_gib": 0.84}
+{"method": "qlora", "step": 11, "examples_seen": 44, "loss": 0.54475, "allocated_gib": 0.84}
+{"method": "qlora", "step": 12, "examples_seen": 48, "loss": 0.294, "allocated_gib": 0.842}
+{"method": "qlora", "step": 13, "examples_seen": 52, "loss": 0.61483, "allocated_gib": 0.842}
+{"method": "qlora", "step": 14, "examples_seen": 56, "loss": 0.74832, "allocated_gib": 0.84}
+{"method": "qlora", "step": 15, "examples_seen": 60, "loss": 0.39709, "allocated_gib": 0.841}
+{"method": "qlora", "step": 16, "examples_seen": 64, "loss": 0.30005, "allocated_gib": 0.84}
+{"method": "qlora", "step": 17, "examples_seen": 68, "loss": 0.32735, "allocated_gib": 0.841}
+{"method": "qlora", "step": 18, "examples_seen": 72, "loss": 0.24289, "allocated_gib": 0.84}
+{"method": "qlora", "status": "completed", "examples": 72, "epochs": 1, "optimizer_steps": 18, "total_parameters": 601096192, "trainable_parameters": 5046272, "trainable_percent": 0.8395115569123419, "train_seconds": 60.17080749999968, "peak_allocated_gib": 2.5386600494384766, "peak_reserved_gib": 7.595703125, "training_loss": 0.5291118265916175, "validation_loss_before": 0.9323223291551666, "validation_loss_after": 0.38178483572210375, "validation_precision": "NF4 base for QLoRA; BF16 otherwise. Common-BF16 validation is reported separately at evaluation.", "training_base_precision": "4-bit NF4, double quantization", "optimizer": "AdamW8bit", "checkpoint_bytes": 36125422, "encoded_dataset_sha256": "daa3ad14d7195ed3d4c7fd85f8ef343022a332f2e4a3810098405af834f726e6", "config": {"seed": 42, "epochs": 1, "max_sequence_tokens": 768, "micro_batch": 1, "gradient_accumulation": 4, "learning_rate": 0.0001, "optimizer": "bitsandbytes AdamW8bit, all three methods", "lora_rank": 8, "lora_alpha": 16, "lora_dropout": 0.05, "training_dtype": "bfloat16", "evaluation_dtype": "bfloat16, including QLoRA adapter on an unquantized base", "generation_max_new_tokens": 320, "generation_do_sample": false, "dropped_for_shared_length_or_pairing": ["train-MATH6_C0037-hi-0", "train-MATH6_C0037-hi-1", "train-MATH6_C0037-hi-2"], "dataset_sha256": "112c8b1d0a5de510fb1e6b87166c5354b635114d79626313661ede639f517047", "base_manifest_sha256": "5ea54d005987e3ad2b8eb801fbfbd3a583d75d016ea3b0fdbeed663dc99ce15c"}, "base_manifest_sha256": "5ea54d005987e3ad2b8eb801fbfbd3a583d75d016ea3b0fdbeed663dc99ce15c", "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU", "torch": "2.8.0+cu128"}

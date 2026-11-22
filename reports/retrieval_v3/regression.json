@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-21T06:21:41.953423+00:00",
+  "tests_run": 114,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "passed": true,
+  "external_generation": "disabled",
+  "source_hashes": {
+    "diagnostic/semantic_chunks.py": "ff392c48f83a7fdfa3fe80e1eb8ba3f21927b21bccf5fe30db009c7f44d9887d",
+    "tests/test_graph_chunks.py": "1253f50e48e8ccff36e9008754787ac9a2a4cf830a24c29a3a82c997e98dadca"
+  }
+}

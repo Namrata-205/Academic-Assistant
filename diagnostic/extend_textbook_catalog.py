@@ -53,6 +53,9 @@ def compact(text):return re.sub(r'[\s\u200c\u200d\u00ad]+','',text).casefold()
 
 
 def extend():
+    if (ROOT/'assets/NCERT_Knowledge_Graph/prerequisite_edges_v2.csv').exists():
+        from diagnostic.upgrade_curriculum import build
+        return build()
     path=ROOT/'diagnostic/textbook_catalog.json'
     cat=json.loads(path.read_text(encoding='utf-8'))
     nodes,_=load_graph();audit=[]

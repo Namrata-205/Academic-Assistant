@@ -1,0 +1,400 @@
+{
+  "method": "baseline",
+  "status": "completed",
+  "evaluation_precision": "BF16 for all methods",
+  "validation_loss_common_precision": 0.9014468196699743,
+  "summary": {
+    "cases": 9,
+    "json_valid": 0.0,
+    "source_checked": 0.0,
+    "terminology_present": 0.0,
+    "json_valid_count": 0,
+    "source_checked_count": 0,
+    "mean_latency_seconds": 7.74591656666669
+  },
+  "by_language": {
+    "en": {
+      "cases": 4,
+      "json_valid": 0.0,
+      "source_checked": 0.0,
+      "terminology_present": 0.0,
+      "json_valid_count": 0,
+      "source_checked_count": 0,
+      "mean_latency_seconds": 5.882735675000049
+    },
+    "hi": {
+      "cases": 5,
+      "json_valid": 0.0,
+      "source_checked": 0.0,
+      "terminology_present": 0.0,
+      "json_valid_count": 0,
+      "source_checked_count": 0,
+      "mean_latency_seconds": 9.236461280000004
+    }
+  },
+  "deterministic_pipeline_cases": 3,
+  "encoded_dataset_sha256": "daa3ad14d7195ed3d4c7fd85f8ef343022a332f2e4a3810098405af834f726e6",
+  "base_manifest_sha256": "5ea54d005987e3ad2b8eb801fbfbd3a583d75d016ea3b0fdbeed663dc99ce15c",
+  "rows": [
+    {
+      "id": "R01",
+      "language": "en",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 2.9082766000001357,
+      "generated_tokens": 76,
+      "output": "```json\n{\n  \"paragraphs\": [\n    {\n      \"text\": \"An angle is formed by two rays having a common starting point. Here is an angle formed by rays BD and BE where B is the common starting point (Fig.).\",\n      \"citations\": [\"S1\"],\n      \"evidence\": \"S1\"\n    }\n  ]\n}\n```",
+      "prompt_sha256": "7c16d61c325bca3adbb0863f087779d6a90f389e9fd825baebf99e2d0350c6ba",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R02",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.67982690000008,
+      "generated_tokens": 320,
+      "output": "```json\n{\n  \"paragraphs\": [\n    {\n      \"text\": \"कोण कोण शीर्ष वाले अक्षर के बारे में लिखा जाता है और एक छोटी चाप के प्रयोग के साथ दर्शाया जाता है। आकृति 2.9 में देखिए।\",\n      \"citations\": [\"S1\"],\n      \"evidence\": \"S1\\n\\nहम इस कोण का नामकरण कैसे कर सकते हैं? साधारण रूप में केवल शीर्ष का प्रयोग करते हुए हम इस कोण को कोण B कह सकते हैं। अधिक स्पष्ट करने के लिए हम शीर्ष के साथ प्रत्येक भुजा पर स्थित एक छोटी चाप का प्रयोग किया",
+      "prompt_sha256": "7f480032e424521c32e323b2c68a1049bec863375f0032863911bf54b7a8abec",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R03",
+      "language": "en",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 2.444481800000176,
+      "generated_tokens": 63,
+      "output": "```json\n{\"paragraphs\":[{\"text\":\"The common endpoint of an angle is called the vertex.\"}, {\"citations\":[\"S1\"],\"evidence\":\"S1: The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle.\"}]}\n```",
+      "prompt_sha256": "727f31a72ce0b54e721117e425c72d42ec81053e233b692f47db36e1fad5a629",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R04",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 5.084055899999839,
+      "generated_tokens": 140,
+      "output": "```json\n{\n  \"paragraphs\": [\n    {\n      \"text\": \"कोण की भुजाओं का उभयनिष्ठ बिंदु शीर्ष वाले अक्षर के बाद एक छोटी चाप के द्वारा दर्शाया जाता है।\",\n      \"citations\": [\"S1\", \"S2\"],\n      \"evidence\": \"S1, S2\"\n    }\n  ]\n}\n```",
+      "prompt_sha256": "aaeea0694178a7afb1cd5edef7442c0af9988aa31b1e022682457320d0e86b96",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R05",
+      "language": "en",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.587013499999557,
+      "generated_tokens": 320,
+      "output": "```json\n{\"paragraphs\":[{\"text\":\"A right angle measures 90 degrees. It is formed by two rays that meet at a common endpoint, forming a 90° angle. The measure of a right angle is a fundamental concept in geometry, as it is defined as 90° in degrees. The source S1 provides the exact definition of a right angle as 90°, which is a direct reference to the mathematical definition of a right angle. The source S2 explains that a right angle contains 30 units of 1° angle, which aligns with the standard measure of 90°. The source S3 describes the geometric properties of a right angle, confirming its measure as 90°. The evidence includes S1, S2, and S3, all of which support the correct answer of 90°.\"},{\"citations\":[\"S1\",\"S2\",\"S3\"],\"evidence\":\"S1: 'A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees?'\"},{\"citations\":[\"S2\",\"S3\"],\"evidence\":\"S2: 'It contains 30 units of 1° angle and so we say that its angle measure is 30°. Measures of different angles: What is the measure of a full turn in degrees?\"},{\"citations\":[\"S3\"],\"evidence\":\"S3: 'The point B is called the vertex of",
+      "prompt_sha256": "94bc9403211df9cbce5a944233f9404ede7fd1191657880d8a057a4bcb5e86cd",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R06",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 6.334354900000108,
+      "generated_tokens": 173,
+      "output": "```json\n{\n  \"paragraphs\": [\n    {\n      \"text\": \"कोण के अंश शीर्ष वाले अक्षर के बाहरी अंश होते हैं। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)।\",\n      \"citations\": [\"S1\"],\n      \"evidence\": \"S1\"\n    }\n  ]\n}\n```",
+      "prompt_sha256": "2f76bb64b1c8b9db3c25674aa7e6179d2ed04127d012c7912ac767bf977460d9",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R07",
+      "language": "en",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 6.591170800000327,
+      "generated_tokens": 178,
+      "output": "```json\n{\"paragraphs\":[{\"text\":\"An acute angle is an angle that measures less than 90°, while a right angle measures exactly 90°. The degree boundaries are defined by these specific measures.\"}, {\"citations\":[\"S1\"],\"evidence\":\"S1: Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° an\"},{\"citations\":[\"S2\"],\"evidence\":\"S2: Identify acute, right, obtuse, and straight angles in the previous figures.\"},{\"citations\":[\"S3\"],\"evidence\":\"S3: The point B is called the vertex of the angle, and the rays BD and BE are called the arms of the angle. How can we name this angle? We can simply use the vertex and say that it is \"90°.\"\"}]}}\n```",
+      "prompt_sha256": "55dd9c125699a901ba8f0796f5df63ffcccc4f0531bd3cacade1931a125d6238",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R08",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.691858899999716,
+      "generated_tokens": 320,
+      "output": "```json\n{\n  \"paragraphs\": [\n    {\n      \"text\": \"एक न्यून कोण के माप के बीच अंशों के बीच एक छोटा अक्षर लिखा जाता है। यह शीर्ष वाले अक्षर के बीच छोटा अंश वर्णित करता है। न्यून कोण के माप के बीच अंशों के बीच एक छोटा अक्षर लिखा जाता है।\",\n      \"citations\": [\"S1\"],\n      \"evidence\": \"S1: हमने देखा कि एक सरल कोण 180o तथा समकोण 90o का होता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन कर",
+      "prompt_sha256": "c8ba39b7d173f72891482c7177bd5a08294c80cf9f8a9ae50693a62cf7bf7985",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R09",
+      "language": "en",
+      "pipeline_status": "answered",
+      "model_called": false,
+      "deterministic_output": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0038",
+          "en": "place value",
+          "hi": "स्थानीय मान",
+          "chapter": "CH03"
+        },
+        "language": "en",
+        "mode": "calculated",
+        "paragraphs": [
+          {
+            "text": "The value of a digit depends on its position. In 3452, count places from the right: ones, tens, hundreds, then thousands. The digit 4 is in the hundreds place. That means 4 groups of 100: 4 × 100 = 400. So 4 contributes 400 to the number, rather than just 4.",
+            "citations": [],
+            "kind": "calculated_example"
+          }
+        ],
+        "sources": [],
+        "terms": [
+          {
+            "en": "place value",
+            "hi": "स्थानीय मान"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "selected_for_explanation": true
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0013",
+            "MATH6_C0037"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0038",
+              "concept": "place value",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses."
+        },
+        "fallback_reason": null,
+        "notice": "This worked example is calculated directly, not quoted from NCERT. The current textbook link covers related number practice, not a verified direct place-value lesson."
+      }
+    },
+    {
+      "id": "R10",
+      "language": "hi",
+      "pipeline_status": "insufficient_sources",
+      "model_called": false,
+      "deterministic_output": {
+        "status": "insufficient_sources",
+        "concept": {
+          "id": "MATH6_C0038",
+          "en": "place value",
+          "hi": "स्थानीय मान",
+          "chapter": "CH03"
+        },
+        "language": "hi",
+        "message": "संबंधित पाठ्यपुस्तक गतिविधियाँ मिली हैं, लेकिन इस व्याख्या के लिए सत्यापित प्रत्यक्ष अंश उपलब्ध नहीं है।",
+        "sources": [
+          {
+            "chapter_title": "संख्याओं का खेल",
+            "section": "3.2 महाकोष्ठ: संबंधित अभ्यास",
+            "printed_page": 58,
+            "pdf_page": 4,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp103.pdf#page=4",
+            "concept_id": "MATH6_C0038",
+            "concept_en": "place value",
+            "concept_hi": "स्थानीय मान",
+            "support_relation": "related",
+            "sha256": "2b4cfa9b7e03dc868dc649543c934253528c5cb2c0a77ad00fa6f0d6ff64f4e6",
+            "edition": "Reprint 2026-27",
+            "excerpt": "सारणी में सबसे बड़ी संख्या __________ है। सारणी में सबसे छोटी सम संख्या _______ है।",
+            "similarity": 0.4348,
+            "retrieval_score": 0.4571,
+            "metadata_similarity": 0.4732,
+            "concept_coverage": 0.6,
+            "chunking": "graph-metadata-page-v2",
+            "chunk_id": "5163ed269b1a158c9790a56a",
+            "chunk_index": 22,
+            "chunk_count": 23,
+            "char_start": 1140,
+            "char_end": 1223,
+            "retrieval": "semantic cosine similarity",
+            "id": "S1"
+          },
+          {
+            "chapter_title": "संख्याओं का खेल",
+            "section": "3.2 महाकोष्ठ: संबंधित अभ्यास",
+            "printed_page": 58,
+            "pdf_page": 4,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp103.pdf#page=4",
+            "concept_id": "MATH6_C0038",
+            "concept_en": "place value",
+            "concept_hi": "स्थानीय मान",
+            "support_relation": "related",
+            "sha256": "2b4cfa9b7e03dc868dc649543c934253528c5cb2c0a77ad00fa6f0d6ff64f4e6",
+            "edition": "Reprint 2026-27",
+            "excerpt": "क्या आप संख्याओं को बिना दोहराए एक रिक्त महाकोष्ठ सारणी को इस प्रकार भर",
+            "similarity": 0.3108,
+            "retrieval_score": 0.3685,
+            "metadata_similarity": 0.5027,
+            "concept_coverage": 0.6,
+            "chunking": "graph-metadata-page-v2",
+            "chunk_id": "50a3d7e2304c6bb06c6e9c61",
+            "chunk_index": 1,
+            "chunk_count": 23,
+            "char_start": 3,
+            "char_end": 74,
+            "retrieval": "semantic cosine similarity",
+            "id": "S2"
+          }
+        ],
+        "paragraphs": [],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0038",
+            "en": "place value",
+            "hi": "स्थानीय मान",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "selected_for_explanation": true
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0013",
+            "MATH6_C0037"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0038",
+              "concept": "place value",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses."
+        }
+      }
+    },
+    {
+      "id": "R11",
+      "language": "en",
+      "pipeline_status": "insufficient_sources",
+      "model_called": false,
+      "deterministic_output": {
+        "status": "insufficient_sources",
+        "concept": {
+          "id": "MATH6_C0039",
+          "en": "digit sum",
+          "hi": "अंकों का योग",
+          "chapter": "CH03"
+        },
+        "language": "en",
+        "message": "I could not find a complete supporting passage for this explanation. Please try another topic.",
+        "sources": [],
+        "paragraphs": [],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0039",
+            "en": "digit sum",
+            "hi": "अंकों का योग",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0037",
+            "en": "digit",
+            "hi": "अंक",
+            "review_status": "PENDING"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R12",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.392209800000273,
+      "generated_tokens": 320,
+      "output": "```json\n{\n  \"paragraphs\": [\n    {\n      \"text\": \"एक संख्या के अंकों का योग निकालने के लिए अंकों के अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालकर अंकों के योग निकालक",
+      "prompt_sha256": "17a2bb954e2505b7a1183f95f88562294874960a56369ac0b051f5bcd7dc1b73",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    }
+  ]
+}

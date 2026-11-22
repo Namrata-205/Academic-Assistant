@@ -1,0 +1,178 @@
+{
+  "kind": "Validator failure analysis, not independent correctness labels",
+  "methods": {
+    "baseline": {
+      "error_counts": {
+        "invalid_json": 9
+      },
+      "reached_output_token_limit": [
+        "R02",
+        "R05",
+        "R08",
+        "R12"
+      ],
+      "failed_cases": [
+        {
+          "id": "R01",
+          "language": "en",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R02",
+          "language": "hi",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R03",
+          "language": "en",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R04",
+          "language": "hi",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R05",
+          "language": "en",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R06",
+          "language": "hi",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R07",
+          "language": "en",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R08",
+          "language": "hi",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R12",
+          "language": "hi",
+          "error": "invalid_json"
+        }
+      ]
+    },
+    "lora": {
+      "error_counts": {
+        "invalid_json": 2,
+        "Evidence is not present in cited text": 2,
+        "Incorrect angle measure assertion": 1
+      },
+      "reached_output_token_limit": [
+        "R12"
+      ],
+      "failed_cases": [
+        {
+          "id": "R03",
+          "language": "en",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R05",
+          "language": "en",
+          "error": "Evidence is not present in cited text"
+        },
+        {
+          "id": "R06",
+          "language": "hi",
+          "error": "Incorrect angle measure assertion"
+        },
+        {
+          "id": "R08",
+          "language": "hi",
+          "error": "Evidence is not present in cited text"
+        },
+        {
+          "id": "R12",
+          "language": "hi",
+          "error": "invalid_json"
+        }
+      ]
+    },
+    "qlora": {
+      "error_counts": {
+        "Evidence is not present in cited text": 1,
+        "Incorrect angle measure assertion": 1,
+        "invalid_json": 1
+      },
+      "reached_output_token_limit": [
+        "R12"
+      ],
+      "failed_cases": [
+        {
+          "id": "R05",
+          "language": "en",
+          "error": "Evidence is not present in cited text"
+        },
+        {
+          "id": "R06",
+          "language": "hi",
+          "error": "Incorrect angle measure assertion"
+        },
+        {
+          "id": "R12",
+          "language": "hi",
+          "error": "invalid_json"
+        }
+      ]
+    },
+    "full": {
+      "error_counts": {
+        "invalid_json": 5,
+        "Canonical technical term missing": 1,
+        "Evidence is not present in cited text": 1
+      },
+      "reached_output_token_limit": [
+        "R02",
+        "R04",
+        "R07",
+        "R08",
+        "R12"
+      ],
+      "failed_cases": [
+        {
+          "id": "R02",
+          "language": "hi",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R03",
+          "language": "en",
+          "error": "Canonical technical term missing"
+        },
+        {
+          "id": "R04",
+          "language": "hi",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R06",
+          "language": "hi",
+          "error": "Evidence is not present in cited text"
+        },
+        {
+          "id": "R07",
+          "language": "en",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R08",
+          "language": "hi",
+          "error": "invalid_json"
+        },
+        {
+          "id": "R12",
+          "language": "hi",
+          "error": "invalid_json"
+        }
+      ]
+    }
+  }
+}

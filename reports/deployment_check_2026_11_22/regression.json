@@ -1,0 +1,16 @@
+{
+  "tests_run": 171,
+  "passed": 170,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "successful": true,
+  "generation": "network disabled at provider transport; provider functions tested normally",
+  "failure_details": [],
+  "skip_details": [
+    {
+      "test": "test_page1_clean (test_hindi_text.Chapter1.test_page1_clean)",
+      "reason": "needs fhgp101.pdf and pypdfium2"
+    }
+  ]
+}

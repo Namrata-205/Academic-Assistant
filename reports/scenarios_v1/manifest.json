@@ -1,0 +1,58 @@
+{
+  "cases_sha256": "7f9e481f8c0879ab7cee3936be4a224bea548e31f5cab5af216b70a2f427a063",
+  "validation": {
+    "scenarios": 60,
+    "variants": 120,
+    "families": 12,
+    "reviewed": 0
+  },
+  "protocol": {
+    "distinct_scenarios": 60,
+    "language_variants": 120,
+    "development": 30,
+    "final_candidate": 30,
+    "split_unit": "concept family; both languages and all five profiles stay together",
+    "response_access": "A method receives only the response for the item it actually asks.",
+    "limitations": [
+      "Same fixed question bank across cases; these are synthetic response profiles, not learners.",
+      "Final candidates are not an unseen human benchmark. Do not tune settings against them.",
+      "A calculation-slip or language-confusion cause cannot be established by score patterns alone.",
+      "Related-only source records are not direct lessons. Review source suitability independently."
+    ]
+  },
+  "settings": {
+    "files": {
+      "diagnostic/chat_tutor.py": "6f282747ed7b87323ff2a9717c8af26134020d7b13a12760cb9be43470c51db2",
+      "diagnostic/tutor_selection.py": "f6770a566136fb87e83541c48a03cf75c169a650d7d856bd3967ade1953aba84",
+      "diagnostic/tutor_bank.py": "1851f7271cf69331efe44f18b9a57341a11fcb7d47d7510ceb7939b0fd93409d",
+      "diagnostic/book_chat.py": "cb13d20fdcf6c7e4c5f5940546513ed5148715e3e08f9e8e9e33f11bf7c44d09",
+      "diagnostic/chat_provider.py": "a7e3bb0bf668c0122a0cb2217ef081fad75206f4bf2fe6284449bcdbda8360e2",
+      "diagnostic/chat_router.py": "8eae12893f532f86ea55a7381b165a66373ce6e100f569a836a9ece493fa5551",
+      "diagnostic/semantic_chunks.py": "e0ae0802ad609b1103f9fd6353323efb72549899005c239929f1f1d0c4e3f5e2",
+      "diagnostic/semantic_mapper.py": "109de2244d44ed0065319f273eb53551d4149db0c62fda017549b4b075f91213",
+      "diagnostic/bilingual_glossary.json": "088e133211dbcb1a8b1a5ae953c5d6291158c823d60ab9b42a8a8b2a3627f355",
+      "diagnostic/bilingual_quality.py": "cb7b9e8ecd2fd750dca98d5d5156cd27bd42510b18efd1268072c8d0d4095ea8",
+      "diagnostic/teaching_feedback.py": "1d0b93a6d3bd479f83411f155b96c1e4117d96fa73ace06e3a66cf3414fd5eb0",
+      "diagnostic/question_bank.json": "5ba7bd839512b8db0a9f9a51a4aa008e6d819bd967d9d2d166aaa036247ed79d",
+      "diagnostic/textbook_catalog.json": "dd99da2ec1009f341e0fe69f6d2a99bc19776cc96dd827cac8c16f478622ffe8",
+      "src/AngleDiagram.jsx": "0588e1e073b99fdb41cdbd1f40b760ede23113053276a43bdad822db26d2bf38",
+      "src/ChatTutor.jsx": "5b50e165512e864fd64bd54eda28174a9a05fed319cb02a33d97d0c1f750b0f7",
+      "src/BookChat.jsx": "dbe6b22a2c9bbb04f51f4b74e28b198152812648895b9db620312926cfb3f539",
+      "requirements.txt": "1a347347d679468f1800b9757e330c692590b8fa59576ef39f79e81a615d819d",
+      "requirements-semantic.txt": "b0264be0c5a89d4dcaa2700ba1c9eac7833ca4b3f6b32fb73d25787ba7cc0509",
+      "package-lock.json": "170ed3c4c3d43f7d2a70037be1c6ebb9ed66aa95399de08696e01d071edc4087"
+    },
+    "graph_sha256": "f18e807af1c7df491acabebceef952516de9b951d507bea6197547338719d190",
+    "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+    "packages": {
+      "PyMuPDF": "1.28.2",
+      "pypdfium2": "not installed in venv",
+      "wordfreq": "3.1.1",
+      "numpy": "2.5.4"
+    },
+    "embedding_model_manifest_sha256": "3d1256006da217e01a2c59f9979a72c6f45efe4849f3804f3b116c3504251999",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "question_limit": 3
+  }
+}

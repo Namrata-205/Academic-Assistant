@@ -1,0 +1,10 @@
+{
+  "diagnostic/book_chat.py": "acb8985ba880e5e7faae91ccac151e7481d0bebd0300bbfc78d17f738fdff255",
+  "diagnostic/chat_tutor.py": "02fc50bf0f19c5c184210bb2eddd1db458504e5e0b38634bf51030ac8cb79142",
+  "diagnostic/local_teaching.py": "836ce74455f8abdd5e9c18826d8609906270171f6606bd9b79801277c1ca31b0",
+  "server.py": "3dde01d9ef298f4546e51f48885f4491c63e6aaba59b8c0ba7b70803198283b1",
+  "src/BookChat.jsx": "86c9514f77d6453079a36b6407ab982d16644a064351006433645abfb9e9de3a",
+  "src/ChatAnswer.jsx": "de6185fe43164b829fe9bc07b451db1db9c9c66ffa00d4e351e6dc74df758051",
+  "src/ChatTutor.jsx": "94e191744183d1df5157a6809f3624b5794ef15e2ca4fcc728d9df3876337b1a",
+  "src/ChatCheckBatch.jsx": "3eb3531fef7b7b4855a931ad178ef17b357daf4a20e8aac09daf24972f1fec0d"
+}

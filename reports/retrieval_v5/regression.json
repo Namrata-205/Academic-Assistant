@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-21T08:24:24.066279+00:00",
+  "tests_run": 126,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "passed": true,
+  "external_generation": "disabled",
+  "source_hashes": {
+    "diagnostic/semantic_chunks.py": "1a676d625a9829ad9077ceb29d05879886d0ed62b9f09bf06ded537684eb05d5",
+    "diagnostic/hybrid_retrieval.py": "f4271e8513cad91809df4aa0d789e27797c64c6c42d100d6487a42ea0c6283ec",
+    "diagnostic/book_chat.py": "9d4d48a33b6ef24f5b42d5312303ac296b1235696ae05a3dfe1982293fbfe42d",
+    "diagnostic/retrieval_diversity.py": "b5b709a7768b3c3c3a9c3d3709fae2f10bb879cb51a7df13116f9aec9a40b077"
+  }
+}

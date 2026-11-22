@@ -1,3 +1,4 @@
+from tests.legacy_curriculum import frozen_v1
 import json
 import tempfile
 import unittest
@@ -8,6 +9,7 @@ from diagnostic import engine as e
 class DiagnosticTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        cls._legacy=frozen_v1();cls._legacy.__enter__();cls.addClassCleanup(cls._legacy.__exit__,None,None,None)
         cls.nodes, cls.edges = e.load_graph()
         cls.bank = e.load_bank()
 

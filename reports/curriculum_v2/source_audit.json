@@ -1,0 +1,1398 @@
+[
+  {
+    "concept_id": "MATH6_C0013",
+    "chapter": "PRIOR",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0036",
+    "en": "whole numbers",
+    "hi": "पूर्ण संख्याएँ",
+    "chapter": "PRIOR",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0046",
+    "chapter": "PRIOR",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0047",
+    "chapter": "PRIOR",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0102",
+    "en": "multiplication",
+    "hi": "गुणा",
+    "chapter": "PRIOR",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0103",
+    "en": "division",
+    "hi": "भाग",
+    "chapter": "PRIOR",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0037",
+    "chapter": "PRIOR",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0038",
+    "chapter": "PRIOR",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0101",
+    "en": "comparing numbers",
+    "hi": "संख्याओं की तुलना",
+    "chapter": "PRIOR",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0012",
+    "chapter": "PRIOR",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0002",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0003",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0005",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0006",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0007",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0008",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0009",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0010",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0011",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_ADD001",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0015",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0104",
+    "en": "hexagonal numbers",
+    "hi": "षड्भुजाकार संख्याएँ",
+    "chapter": "CH01",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0105",
+    "en": "relations among number sequences",
+    "hi": "संख्या अनुक्रमों के बीच संबंध",
+    "chapter": "CH01",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0004",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0014",
+    "chapter": "CH01",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0106",
+    "en": "complete graphs",
+    "hi": "संपूर्ण ग्राफ",
+    "chapter": "CH01",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0107",
+    "en": "stacked squares",
+    "hi": "ढेरित वर्ग",
+    "chapter": "CH01",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0108",
+    "en": "stacked triangles",
+    "hi": "ढेरित त्रिभुज",
+    "chapter": "CH01",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0109",
+    "en": "Koch snowflake",
+    "hi": "कोच हिमकण",
+    "chapter": "CH01",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0016",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0018",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0017",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0019",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0020",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0021",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0022",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0110",
+    "en": "comparing angles",
+    "hi": "कोणों की तुलना",
+    "chapter": "CH02",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0034",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0023",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0024",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0031",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0025",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0026",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0028",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0029",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0035",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0030",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0111",
+    "en": "drawing angles of a given measure",
+    "hi": "कोणों को बनाना",
+    "chapter": "CH02",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0027",
+    "chapter": "CH02",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0051",
+    "chapter": "CH03",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0041",
+    "chapter": "CH03",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0039",
+    "chapter": "CH03",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0040",
+    "chapter": "CH03",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0050",
+    "chapter": "CH03",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0112",
+    "en": "clock and calendar numbers",
+    "hi": "घड़ी और कैलेंडर की संख्याएँ",
+    "chapter": "CH03",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0113",
+    "en": "mental math",
+    "hi": "मानसिक गणित",
+    "chapter": "CH03",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0049",
+    "en": "quick sums using number patterns",
+    "hi": "संख्या पैटर्न के साथ खेलना",
+    "chapter": "CH03",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_ADD002",
+    "chapter": "CH03",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0042",
+    "chapter": "CH03",
+    "status": "existing_source_locations",
+    "languages": [
+      "en",
+      "hi"
+    ]
+  },
+  {
+    "concept_id": "MATH6_C0114",
+    "en": "winning strategy in number games",
+    "hi": "जीतने की रणनीति",
+    "chapter": "CH03",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0115",
+    "en": "data",
+    "hi": "आँकड़े",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0116",
+    "en": "tally marks",
+    "hi": "मिलान चिह्न",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0117",
+    "en": "frequency",
+    "hi": "बारंबारता",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0118",
+    "en": "frequency table",
+    "hi": "बारंबारता सारणी",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0119",
+    "en": "pictograph",
+    "hi": "चित्रालेख",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0120",
+    "en": "scale or key of a graph",
+    "hi": "पैमाना या कुंजी",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0121",
+    "en": "bar graph",
+    "hi": "दंड आलेख",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0122",
+    "en": "drawing a bar graph",
+    "hi": "दंड आलेख खींचना",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0123",
+    "en": "vertical and horizontal bar graphs",
+    "hi": "स्तंभ आलेख (ऊर्ध्वाधर दंड)",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0124",
+    "en": "infographics",
+    "hi": "इन्फोग्राफिक्स (सूचना ग्राफिक्स)",
+    "chapter": "CH04",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0125",
+    "en": "multiple",
+    "hi": "गुणज",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0126",
+    "en": "common multiple",
+    "hi": "सार्व गुणज",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0127",
+    "en": "factor (divisor)",
+    "hi": "गुणनखंड (भाजक)",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0128",
+    "en": "common factor",
+    "hi": "सार्व गुणनखंड",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0129",
+    "en": "perfect number",
+    "hi": "संपूर्ण संख्या",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0130",
+    "en": "prime number",
+    "hi": "अभाज्य संख्या",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0131",
+    "en": "composite number",
+    "hi": "भाज्य संख्या",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0132",
+    "en": "Sieve of Eratosthenes",
+    "hi": "इराटोस्थेनीस की छलनी",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0133",
+    "en": "twin primes",
+    "hi": "अभाज्य युग्म (जुड़वाँ अभाज्य)",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0134",
+    "en": "co-prime numbers",
+    "hi": "सह-अभाज्य संख्याएँ",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0135",
+    "en": "prime factorisation",
+    "hi": "अभाज्य गुणनखंडन",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0136",
+    "en": "prime factor",
+    "hi": "अभाज्य गुणनखंड",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0137",
+    "en": "divisibility",
+    "hi": "विभाज्यता",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0138",
+    "en": "divisibility tests for 2, 5 and 10",
+    "hi": "2, 5 और 10 से विभाज्यता की जाँच",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0139",
+    "en": "divisibility tests for 4 and 8",
+    "hi": "4 और 8 से विभाज्यता की जाँच",
+    "chapter": "CH05",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0140",
+    "en": "rectangle",
+    "hi": "आयत",
+    "chapter": "PRIOR",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0141",
+    "en": "square (shape)",
+    "hi": "वर्ग",
+    "chapter": "PRIOR",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0143",
+    "en": "length and its units",
+    "hi": "लंबाई",
+    "chapter": "PRIOR",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0150",
+    "en": "perimeter",
+    "hi": "परिमाप",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0151",
+    "en": "perimeter of a rectangle",
+    "hi": "आयत का परिमाप",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0152",
+    "en": "perimeter of a square",
+    "hi": "वर्ग का परिमाप",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0153",
+    "en": "perimeter of a triangle",
+    "hi": "त्रिभुज का परिमाप",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0142",
+    "en": "triangle",
+    "hi": "त्रिभुज",
+    "chapter": "PRIOR",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0154",
+    "en": "equilateral triangle",
+    "hi": "समबाहु त्रिभुज",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0155",
+    "en": "perimeter of a regular polygon",
+    "hi": "सम बहुभुज का परिमाप",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0157",
+    "en": "square unit",
+    "hi": "वर्ग इकाई",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0156",
+    "en": "area",
+    "hi": "क्षेत्रफल",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0158",
+    "en": "area of a rectangle",
+    "hi": "आयत का क्षेत्रफल",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0159",
+    "en": "area of a square",
+    "hi": "वर्ग का क्षेत्रफल",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0160",
+    "en": "area by counting squares on grid paper",
+    "hi": "ग्रिड पेपर",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0161",
+    "en": "tangram",
+    "hi": "टैनग्राम",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0162",
+    "en": "same perimeter, different area",
+    "hi": "समान परिमाप",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0163",
+    "en": "area of a triangle",
+    "hi": "त्रिभुज का क्षेत्रफल",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0164",
+    "en": "area of composite figures (split into rectangles and triangles)",
+    "hi": "आयत और त्रिभुजों में विभाजित करके क्षेत्रफल",
+    "chapter": "CH06",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0172",
+    "en": "equal shares",
+    "hi": "समान भाग",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0171",
+    "en": "fractional unit (unit fraction)",
+    "hi": "भिन्नात्मक इकाई",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0170",
+    "en": "fraction",
+    "hi": "भिन्न",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0173",
+    "en": "fraction as part of a whole",
+    "hi": "संपूर्ण के हिस्सों",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0174",
+    "en": "numerator and denominator",
+    "hi": "अंश और हर",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0175",
+    "en": "fractions on the number line",
+    "hi": "संख्या रेखा पर भिन्न",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0176",
+    "en": "mixed fraction (mixed number)",
+    "hi": "मिश्रित भिन्न",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0177",
+    "en": "equivalent fractions",
+    "hi": "तुल्य भिन्न",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0178",
+    "en": "lowest terms (simplest form)",
+    "hi": "सरलतम रूप",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0179",
+    "en": "comparing fractions",
+    "hi": "भिन्नों की तुलना",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0180",
+    "en": "addition of fractions",
+    "hi": "भिन्नों को जोड़ना",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0181",
+    "en": "subtraction of fractions",
+    "hi": "भिन्नों को घटाना",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0182",
+    "en": "Brahmagupta's method for fractions",
+    "hi": "ब्रह्मगुप्त विधि",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0183",
+    "en": "Egyptian fractions",
+    "hi": "मिस्र भिन्न",
+    "chapter": "CH07",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0190",
+    "en": "circle",
+    "hi": "वृत्त",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0191",
+    "en": "centre and radius of a circle",
+    "hi": "केंद्र और त्रिज्या",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0192",
+    "en": "compass",
+    "hi": "परकार",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0193",
+    "en": "arc",
+    "hi": "चाप",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0194",
+    "en": "properties of rectangles and squares",
+    "hi": "सम्मुख भुजाएँ और कोण",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0198",
+    "en": "rough diagram",
+    "hi": "रफ आकृति",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0195",
+    "en": "constructing squares and rectangles",
+    "hi": "वर्ग और आयत की रचना",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0196",
+    "en": "diagonal",
+    "hi": "विकर्ण",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0197",
+    "en": "points equidistant from two given points",
+    "hi": "समदूरस्थ बिंदु",
+    "chapter": "CH08",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0200",
+    "en": "symmetry",
+    "hi": "सममिति",
+    "chapter": "CH09",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0201",
+    "en": "line of symmetry",
+    "hi": "सममिति की रेखा",
+    "chapter": "CH09",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0202",
+    "en": "reflection symmetry",
+    "hi": "परावर्तीय सममिति",
+    "chapter": "CH09",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0203",
+    "en": "rotational symmetry",
+    "hi": "घूर्णन सममिति",
+    "chapter": "CH09",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0204",
+    "en": "centre of rotation",
+    "hi": "घूर्णन का केंद्र",
+    "chapter": "CH09",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0205",
+    "en": "angle of symmetry",
+    "hi": "सममिति का कोण",
+    "chapter": "CH09",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0210",
+    "en": "positive numbers",
+    "hi": "धनात्मक संख्याएँ",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0211",
+    "en": "negative numbers",
+    "hi": "ऋणात्मक संख्याएँ",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0213",
+    "en": "integers",
+    "hi": "पूर्णांक",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0212",
+    "en": "additive inverse",
+    "hi": "योज्य प्रतिलोम",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0217",
+    "en": "integers on the number line",
+    "hi": "संख्या रेखा पर पूर्णांक",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0214",
+    "en": "comparing integers",
+    "hi": "पूर्णांकों की तुलना",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0215",
+    "en": "addition of integers",
+    "hi": "पूर्णांकों का योग",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0216",
+    "en": "subtraction of integers",
+    "hi": "पूर्णांकों का घटाव",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0218",
+    "en": "token model (zero pair)",
+    "hi": "टोकन मॉडल",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0219",
+    "en": "integers in other places (credits, debits, sea level, temperature)",
+    "hi": "अन्य स्थानों पर पूर्णांक",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  },
+  {
+    "concept_id": "MATH6_C0220",
+    "en": "Brahmagupta's rules for integers",
+    "hi": "ब्रह्मगुप्त के नियम",
+    "chapter": "CH10",
+    "status": {
+      "en": "anchored",
+      "hi": "anchored"
+    }
+  }
+]

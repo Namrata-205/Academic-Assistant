@@ -1,0 +1,426 @@
+{
+  "missed_synthetic_gaps": [
+    {
+      "case_id": "DEV006",
+      "profile": "prerequisite_gap",
+      "target": "MATH6_C0009",
+      "focus": "MATH6_C0102",
+      "language": "en",
+      "method": "graph_guided",
+      "questions_asked": 3,
+      "observations": [
+        {
+          "question_id": "CQ2_MATH6_C0005_1",
+          "concept_id": "MATH6_C0005",
+          "response": "D",
+          "score": 1
+        },
+        {
+          "question_id": "CQ2_MATH6_C0005_2",
+          "concept_id": "MATH6_C0005",
+          "response": "C",
+          "score": 1
+        },
+        {
+          "question_id": "CQ2_MATH6_C0102_1",
+          "concept_id": "MATH6_C0102",
+          "response": "46.0",
+          "score": 0
+        }
+      ],
+      "selection_log": [
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 1,
+          "target": "MATH6_C0009",
+          "selected_item_id": "CQ2_MATH6_C0005_1",
+          "selected_concept_id": "MATH6_C0005",
+          "reason": "graph_prerequisite_with_available_item",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0005",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0005_1"
+            },
+            {
+              "concept_id": "MATH6_C0102",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0102_1"
+            }
+          ],
+          "question_budget_remaining": 3
+        },
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 2,
+          "target": "MATH6_C0009",
+          "selected_item_id": "CQ2_MATH6_C0005_2",
+          "selected_concept_id": "MATH6_C0005",
+          "reason": "confirm_unclear_or_single_observation",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0005",
+              "graph_confidence": 0.0,
+              "valid_observations": 1,
+              "available_items": 2,
+              "needs_confirmation": true,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0005_2"
+            },
+            {
+              "concept_id": "MATH6_C0102",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0102_1"
+            }
+          ],
+          "question_budget_remaining": 2
+        },
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 3,
+          "target": "MATH6_C0009",
+          "selected_item_id": "CQ2_MATH6_C0102_1",
+          "selected_concept_id": "MATH6_C0102",
+          "reason": "graph_prerequisite_with_available_item",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0005",
+              "graph_confidence": 0.0,
+              "valid_observations": 2,
+              "available_items": 1,
+              "needs_confirmation": false,
+              "unresolved": false,
+              "next_item_id": "CQ2_MATH6_C0005_3"
+            },
+            {
+              "concept_id": "MATH6_C0102",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0102_1"
+            }
+          ],
+          "question_budget_remaining": 1
+        }
+      ],
+      "statuses": {
+        "MATH6_C0005": "Evidence supports understanding",
+        "MATH6_C0102": "Insufficient evidence"
+      },
+      "predicted_gaps": [],
+      "correct_gap_identification": false,
+      "unresolved": true,
+      "focus_tested": true
+    },
+    {
+      "case_id": "DEV026",
+      "profile": "prerequisite_gap",
+      "target": "MATH6_C0025",
+      "focus": "MATH6_C0110",
+      "language": "en",
+      "method": "graph_guided",
+      "questions_asked": 3,
+      "observations": [
+        {
+          "question_id": "DQ_0024_1",
+          "concept_id": "MATH6_C0024",
+          "response": "90",
+          "score": 1
+        },
+        {
+          "question_id": "DQ_0024_2",
+          "concept_id": "MATH6_C0024",
+          "response": "C",
+          "score": 1
+        },
+        {
+          "question_id": "CQ2_MATH6_C0029_1",
+          "concept_id": "MATH6_C0029",
+          "response": "D",
+          "score": 1
+        }
+      ],
+      "selection_log": [
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 1,
+          "target": "MATH6_C0025",
+          "selected_item_id": "DQ_0024_1",
+          "selected_concept_id": "MATH6_C0024",
+          "reason": "graph_prerequisite_with_available_item",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0024",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "DQ_0024_1"
+            },
+            {
+              "concept_id": "MATH6_C0029",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0029_1"
+            },
+            {
+              "concept_id": "MATH6_C0110",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0110_1"
+            }
+          ],
+          "question_budget_remaining": 3
+        },
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 2,
+          "target": "MATH6_C0025",
+          "selected_item_id": "DQ_0024_2",
+          "selected_concept_id": "MATH6_C0024",
+          "reason": "confirm_unclear_or_single_observation",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0024",
+              "graph_confidence": 0.0,
+              "valid_observations": 1,
+              "available_items": 2,
+              "needs_confirmation": true,
+              "unresolved": true,
+              "next_item_id": "DQ_0024_2"
+            },
+            {
+              "concept_id": "MATH6_C0029",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0029_1"
+            },
+            {
+              "concept_id": "MATH6_C0110",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0110_1"
+            }
+          ],
+          "question_budget_remaining": 2
+        },
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 3,
+          "target": "MATH6_C0025",
+          "selected_item_id": "CQ2_MATH6_C0029_1",
+          "selected_concept_id": "MATH6_C0029",
+          "reason": "graph_prerequisite_with_available_item",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0024",
+              "graph_confidence": 0.0,
+              "valid_observations": 2,
+              "available_items": 1,
+              "needs_confirmation": false,
+              "unresolved": false,
+              "next_item_id": "DQ_0024_3"
+            },
+            {
+              "concept_id": "MATH6_C0029",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0029_1"
+            },
+            {
+              "concept_id": "MATH6_C0110",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0110_1"
+            }
+          ],
+          "question_budget_remaining": 1
+        }
+      ],
+      "statuses": {
+        "MATH6_C0029": "Insufficient evidence",
+        "MATH6_C0024": "Evidence supports understanding"
+      },
+      "predicted_gaps": [],
+      "correct_gap_identification": false,
+      "unresolved": true,
+      "focus_tested": false
+    },
+    {
+      "case_id": "DEV046",
+      "profile": "prerequisite_gap",
+      "target": "MATH6_C0039",
+      "focus": "MATH6_C0046",
+      "language": "en",
+      "method": "graph_guided",
+      "questions_asked": 3,
+      "observations": [
+        {
+          "question_id": "CQ2_MATH6_C0037_1",
+          "concept_id": "MATH6_C0037",
+          "response": "D",
+          "score": 1
+        },
+        {
+          "question_id": "CQ2_MATH6_C0037_2",
+          "concept_id": "MATH6_C0037",
+          "response": "C",
+          "score": 1
+        },
+        {
+          "question_id": "CQ2_MATH6_C0046_1",
+          "concept_id": "MATH6_C0046",
+          "response": "20.0",
+          "score": 0
+        }
+      ],
+      "selection_log": [
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 1,
+          "target": "MATH6_C0039",
+          "selected_item_id": "CQ2_MATH6_C0037_1",
+          "selected_concept_id": "MATH6_C0037",
+          "reason": "graph_prerequisite_with_available_item",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0037",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0037_1"
+            },
+            {
+              "concept_id": "MATH6_C0046",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0046_1"
+            }
+          ],
+          "question_budget_remaining": 3
+        },
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 2,
+          "target": "MATH6_C0039",
+          "selected_item_id": "CQ2_MATH6_C0037_2",
+          "selected_concept_id": "MATH6_C0037",
+          "reason": "confirm_unclear_or_single_observation",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0037",
+              "graph_confidence": 0.0,
+              "valid_observations": 1,
+              "available_items": 2,
+              "needs_confirmation": true,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0037_2"
+            },
+            {
+              "concept_id": "MATH6_C0046",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0046_1"
+            }
+          ],
+          "question_budget_remaining": 2
+        },
+        {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 3,
+          "target": "MATH6_C0039",
+          "selected_item_id": "CQ2_MATH6_C0046_1",
+          "selected_concept_id": "MATH6_C0046",
+          "reason": "graph_prerequisite_with_available_item",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0037",
+              "graph_confidence": 0.0,
+              "valid_observations": 2,
+              "available_items": 1,
+              "needs_confirmation": false,
+              "unresolved": false,
+              "next_item_id": "CQ2_MATH6_C0037_3"
+            },
+            {
+              "concept_id": "MATH6_C0046",
+              "graph_confidence": 0.0,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "CQ2_MATH6_C0046_1"
+            }
+          ],
+          "question_budget_remaining": 1
+        }
+      ],
+      "statuses": {
+        "MATH6_C0037": "Evidence supports understanding",
+        "MATH6_C0046": "Insufficient evidence"
+      },
+      "predicted_gaps": [],
+      "correct_gap_identification": false,
+      "unresolved": true,
+      "focus_tested": true
+    }
+  ],
+  "zero_evidence_queries": [
+    "R09",
+    "R10"
+  ],
+  "provider": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "configured": true,
+    "ok": false,
+    "error": "provider_error",
+    "seconds": 1.8696
+  },
+  "notes": [
+    "Three questions cannot confirm every prerequisite when several foundations compete.",
+    "Place-value reference cases lack a direct NCERT lesson and appropriately abstain.",
+    "Citation existence and numeric parity cannot certify explanation quality."
+  ]
+}

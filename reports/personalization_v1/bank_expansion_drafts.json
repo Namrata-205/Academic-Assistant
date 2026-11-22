@@ -1,0 +1,2950 @@
+{
+  "status": "AI-authored original drafts; independent educator review required. NOT loaded into the diagnostic bank.",
+  "runtime_bank_items": 41,
+  "runtime_bank_concepts": 14,
+  "followup_supported_concepts": 51,
+  "graph_concepts": 53,
+  "proposed_additional_concepts": 37,
+  "draft_items": [
+    {
+      "en": "Add 1 each time. Continue: 2, 3, 4, 5, __.",
+      "hi": "हर बार 1 जोड़ें। क्रम आगे बढ़ाएँ: 2, 3, 4, 5, __।",
+      "type": "numeric",
+      "answer": "6",
+      "feedback_en": "5 + 1 = 6.",
+      "feedback_hi": "5 + 1 = 6।",
+      "id": "REVIEW-MATH6_C0002-1",
+      "concept_id": "MATH6_C0002",
+      "concept_en": "pattern",
+      "concept_hi": "पैटर्न",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Add 1 each time. Continue: 3, 4, 5, 6, __.",
+      "hi": "हर बार 1 जोड़ें। क्रम आगे बढ़ाएँ: 3, 4, 5, 6, __।",
+      "type": "numeric",
+      "answer": "7",
+      "feedback_en": "6 + 1 = 7.",
+      "feedback_hi": "6 + 1 = 7।",
+      "id": "REVIEW-MATH6_C0002-2",
+      "concept_id": "MATH6_C0002",
+      "concept_en": "pattern",
+      "concept_hi": "पैटर्न",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A triangle, square, circle repeat in that order. What is the position of circle number 2?",
+      "hi": "त्रिभुज, वर्ग, वृत्त इसी क्रम में दोहरते हैं। 2वें वृत्त का स्थान क्या है?",
+      "type": "numeric",
+      "answer": "6",
+      "feedback_en": "Circles occupy every third position: 3 × 2 = 6.",
+      "feedback_hi": "वृत्त हर तीसरे स्थान पर है: 3 × 2 = 6।",
+      "id": "REVIEW-MATH6_C0004-1",
+      "concept_id": "MATH6_C0004",
+      "concept_en": "shape pattern",
+      "concept_hi": "आकृति पैटर्न",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "read_pdf_page": 10,
+          "section": "1.5 Patterns in Shapes"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "read_pdf_page": 10,
+          "section": "1.5 Patterns in Shapes"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A triangle, square, circle repeat in that order. What is the position of circle number 3?",
+      "hi": "त्रिभुज, वर्ग, वृत्त इसी क्रम में दोहरते हैं। 3वें वृत्त का स्थान क्या है?",
+      "type": "numeric",
+      "answer": "9",
+      "feedback_en": "Circles occupy every third position: 3 × 3 = 9.",
+      "feedback_hi": "वृत्त हर तीसरे स्थान पर है: 3 × 3 = 9।",
+      "id": "REVIEW-MATH6_C0004-2",
+      "concept_id": "MATH6_C0004",
+      "concept_en": "shape pattern",
+      "concept_hi": "आकृति पैटर्न",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "read_pdf_page": 10,
+          "section": "1.5 Patterns in Shapes"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "read_pdf_page": 10,
+          "section": "1.5 Patterns in Shapes"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Add 1 each time. Continue: 2, 3, 4, 5, __.",
+      "hi": "हर बार 1 जोड़ें। क्रम आगे बढ़ाएँ: 2, 3, 4, 5, __।",
+      "type": "numeric",
+      "answer": "6",
+      "feedback_en": "5 + 1 = 6.",
+      "feedback_hi": "5 + 1 = 6।",
+      "id": "REVIEW-MATH6_C0005-1",
+      "concept_id": "MATH6_C0005",
+      "concept_en": "sequence",
+      "concept_hi": "अनुक्रम",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Add 1 each time. Continue: 3, 4, 5, 6, __.",
+      "hi": "हर बार 1 जोड़ें। क्रम आगे बढ़ाएँ: 3, 4, 5, 6, __।",
+      "type": "numeric",
+      "answer": "7",
+      "feedback_en": "6 + 1 = 7.",
+      "feedback_hi": "6 + 1 = 7।",
+      "id": "REVIEW-MATH6_C0005-2",
+      "concept_id": "MATH6_C0005",
+      "concept_en": "sequence",
+      "concept_hi": "अनुक्रम",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A triangular dot arrangement has rows of 1 through 2 dots. How many dots?",
+      "hi": "त्रिभुजाकार बिंदु व्यवस्था की पंक्तियों में 1 से 2 तक बिंदु हैं। कुल कितने बिंदु हैं?",
+      "type": "numeric",
+      "answer": "3",
+      "feedback_en": "1 + 2 = 3.",
+      "feedback_hi": "1 + 2 = 3।",
+      "id": "REVIEW-MATH6_C0008-1",
+      "concept_id": "MATH6_C0008",
+      "concept_en": "triangular number",
+      "concept_hi": "त्रिभुजाकार संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2–1.3 Number sequences"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2–1.3 Number sequences"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A triangular dot arrangement has rows of 1 through 3 dots. How many dots?",
+      "hi": "त्रिभुजाकार बिंदु व्यवस्था की पंक्तियों में 1 से 3 तक बिंदु हैं। कुल कितने बिंदु हैं?",
+      "type": "numeric",
+      "answer": "6",
+      "feedback_en": "1 + 2 + 3 = 6.",
+      "feedback_hi": "1 + 2 + 3 = 6।",
+      "id": "REVIEW-MATH6_C0008-2",
+      "concept_id": "MATH6_C0008",
+      "concept_en": "triangular number",
+      "concept_hi": "त्रिभुजाकार संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2–1.3 Number sequences"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2–1.3 Number sequences"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Calculate 2 × 2 × 2.",
+      "hi": "2 × 2 × 2 का मान निकालें।",
+      "type": "numeric",
+      "answer": "8",
+      "feedback_en": "2 × 2 × 2 = 8.",
+      "feedback_hi": "2 × 2 × 2 = 8।",
+      "id": "REVIEW-MATH6_C0010-1",
+      "concept_id": "MATH6_C0010",
+      "concept_en": "cube number",
+      "concept_hi": "घन संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2–1.3 Number sequences"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2–1.3 Number sequences"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Calculate 3 × 3 × 3.",
+      "hi": "3 × 3 × 3 का मान निकालें।",
+      "type": "numeric",
+      "answer": "27",
+      "feedback_en": "3 × 3 × 3 = 27.",
+      "feedback_hi": "3 × 3 × 3 = 27।",
+      "id": "REVIEW-MATH6_C0010-2",
+      "concept_id": "MATH6_C0010",
+      "concept_en": "cube number",
+      "concept_hi": "घन संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2–1.3 Number sequences"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2–1.3 Number sequences"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Start at 1 and double 2 times. What number do you obtain?",
+      "hi": "1 से शुरू करके 2 बार दुगुना करें। कौन-सी संख्या मिलेगी?",
+      "type": "numeric",
+      "answer": "4",
+      "feedback_en": "2 × 2 = 4.",
+      "feedback_hi": "2 × 2 = 4।",
+      "id": "REVIEW-MATH6_C0011-1",
+      "concept_id": "MATH6_C0011",
+      "concept_en": "powers of 2",
+      "concept_hi": "2 की घातें",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Start at 1 and double 3 times. What number do you obtain?",
+      "hi": "1 से शुरू करके 3 बार दुगुना करें। कौन-सी संख्या मिलेगी?",
+      "type": "numeric",
+      "answer": "8",
+      "feedback_en": "2 × 2 × 2 = 8.",
+      "feedback_hi": "2 × 2 × 2 = 8।",
+      "id": "REVIEW-MATH6_C0011-2",
+      "concept_id": "MATH6_C0011",
+      "concept_en": "powers of 2",
+      "concept_hi": "2 की घातें",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Does 213 read the same forwards and backwards? A: yes; B: no.",
+      "hi": "क्या 213 आगे और पीछे से समान पढ़ी जाती है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "B",
+      "feedback_en": "Reversing its digits gives 312.",
+      "feedback_hi": "अंकों को उलटने पर 312 मिलता है।",
+      "id": "REVIEW-MATH6_C0040-1",
+      "concept_id": "MATH6_C0040",
+      "concept_en": "palindrome",
+      "concept_hi": "पैलिंड्रोम",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=7",
+          "read_pdf_page": 7,
+          "section": "3.5 Pretty Palindromic Patterns"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=7",
+          "read_pdf_page": 7,
+          "section": "3.5 Pretty Palindromic Patterns"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Does 313 read the same forwards and backwards? A: yes; B: no.",
+      "hi": "क्या 313 आगे और पीछे से समान पढ़ी जाती है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Reversing its digits gives 313.",
+      "feedback_hi": "अंकों को उलटने पर 313 मिलता है।",
+      "id": "REVIEW-MATH6_C0040-2",
+      "concept_id": "MATH6_C0040",
+      "concept_en": "palindrome",
+      "concept_hi": "पैलिंड्रोम",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=7",
+          "read_pdf_page": 7,
+          "section": "3.5 Pretty Palindromic Patterns"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=7",
+          "read_pdf_page": 7,
+          "section": "3.5 Pretty Palindromic Patterns"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Add 1 each time. Continue: 2, 3, 4, 5, __.",
+      "hi": "हर बार 1 जोड़ें। क्रम आगे बढ़ाएँ: 2, 3, 4, 5, __।",
+      "type": "numeric",
+      "answer": "6",
+      "feedback_en": "5 + 1 = 6.",
+      "feedback_hi": "5 + 1 = 6।",
+      "id": "REVIEW-MATH6_C0049-1",
+      "concept_id": "MATH6_C0049",
+      "concept_en": "pattern",
+      "concept_hi": "पैटर्न",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Add 1 each time. Continue: 3, 4, 5, 6, __.",
+      "hi": "हर बार 1 जोड़ें। क्रम आगे बढ़ाएँ: 3, 4, 5, 6, __।",
+      "type": "numeric",
+      "answer": "7",
+      "feedback_en": "6 + 1 = 7.",
+      "feedback_hi": "6 + 1 = 7।",
+      "id": "REVIEW-MATH6_C0049-2",
+      "concept_id": "MATH6_C0049",
+      "concept_en": "pattern",
+      "concept_hi": "पैटर्न",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Each next term is the sum of the preceding two. Continue: 1, 2, 3, 5, __.",
+      "hi": "अगला पद पिछले दो पदों का योग है। आगे बढ़ाएँ: 1, 2, 3, 5, __।",
+      "type": "numeric",
+      "answer": "8",
+      "feedback_en": "3 + 5 = 8.",
+      "feedback_hi": "3 + 5 = 8।",
+      "id": "REVIEW-MATH6_ADD001-1",
+      "concept_id": "MATH6_ADD001",
+      "concept_en": "Virahanka numbers",
+      "concept_hi": "विरहांक संख्याएँ",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Each next term is the sum of the preceding two. Continue: 2, 3, 5, 8, __.",
+      "hi": "अगला पद पिछले दो पदों का योग है। आगे बढ़ाएँ: 2, 3, 5, 8, __।",
+      "type": "numeric",
+      "answer": "13",
+      "feedback_en": "5 + 8 = 13.",
+      "feedback_hi": "5 + 8 = 13।",
+      "id": "REVIEW-MATH6_ADD001-2",
+      "concept_id": "MATH6_ADD001",
+      "concept_en": "Virahanka numbers",
+      "concept_hi": "विरहांक संख्याएँ",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "For an even number divide by 2; for an odd number use 3 × n + 1. Starting at 3, what is the next number?",
+      "hi": "सम संख्या को 2 से भाग दें; विषम संख्या के लिए 3 × n + 1 करें। 3 से शुरू करने पर अगली संख्या क्या होगी?",
+      "type": "numeric",
+      "answer": "10",
+      "feedback_en": "This single step gives 10; it does not prove the conjecture.",
+      "feedback_hi": "इस एक चरण में 10 मिलता है; इससे अनुमान सिद्ध नहीं होता।",
+      "id": "REVIEW-MATH6_ADD002-1",
+      "concept_id": "MATH6_ADD002",
+      "concept_en": "Collatz conjecture",
+      "concept_hi": "कोलाट्ज़ अनुमान",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.10 The Collatz Conjecture"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.10 The Collatz Conjecture"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "For an even number divide by 2; for an odd number use 3 × n + 1. Starting at 4, what is the next number?",
+      "hi": "सम संख्या को 2 से भाग दें; विषम संख्या के लिए 3 × n + 1 करें। 4 से शुरू करने पर अगली संख्या क्या होगी?",
+      "type": "numeric",
+      "answer": "2",
+      "feedback_en": "This single step gives 2; it does not prove the conjecture.",
+      "feedback_hi": "इस एक चरण में 2 मिलता है; इससे अनुमान सिद्ध नहीं होता।",
+      "id": "REVIEW-MATH6_ADD002-2",
+      "concept_id": "MATH6_ADD002",
+      "concept_en": "Collatz conjecture",
+      "concept_hi": "कोलाट्ज़ अनुमान",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.10 The Collatz Conjecture"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.10 The Collatz Conjecture"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Calculate 2 + 1.",
+      "hi": "2 + 1 का मान निकालें।",
+      "type": "numeric",
+      "answer": "3",
+      "feedback_en": "2 + 1 = 3.",
+      "feedback_hi": "2 + 1 = 3।",
+      "id": "REVIEW-MATH6_C0013-1",
+      "concept_id": "MATH6_C0013",
+      "concept_en": "natural number",
+      "concept_hi": "प्राकृत संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Counting-number row"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Counting-number row"
+        }
+      },
+      "support_relation": "related",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Calculate 3 + 1.",
+      "hi": "3 + 1 का मान निकालें।",
+      "type": "numeric",
+      "answer": "4",
+      "feedback_en": "3 + 1 = 4.",
+      "feedback_hi": "3 + 1 = 4।",
+      "id": "REVIEW-MATH6_C0013-2",
+      "concept_id": "MATH6_C0013",
+      "concept_en": "natural number",
+      "concept_hi": "प्राकृत संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Counting-number row"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Counting-number row"
+        }
+      },
+      "support_relation": "related",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A polygon has 3 equal sides and all angles equal. Is it regular? A: yes; B: no.",
+      "hi": "बहुभुज की 3 भुजाएँ बराबर हैं और सभी कोण बराबर हैं। क्या यह सम बहुभुज है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Both equal sides and equal angles are required.",
+      "feedback_hi": "सभी भुजाएँ और सभी कोण बराबर होने चाहिए।",
+      "id": "REVIEW-MATH6_C0014-1",
+      "concept_id": "MATH6_C0014",
+      "concept_en": "regular polygon",
+      "concept_hi": "सम बहुभुज",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=11",
+          "read_pdf_page": 11,
+          "section": "1.6 Relation to Number Sequences"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=11",
+          "read_pdf_page": 11,
+          "section": "1.6 Relation to Number Sequences"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A polygon has 4 equal sides and all angles equal. Is it regular? A: yes; B: no.",
+      "hi": "बहुभुज की 4 भुजाएँ बराबर हैं और सभी कोण बराबर हैं। क्या यह सम बहुभुज है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Both equal sides and equal angles are required.",
+      "feedback_hi": "सभी भुजाएँ और सभी कोण बराबर होने चाहिए।",
+      "id": "REVIEW-MATH6_C0014-2",
+      "concept_id": "MATH6_C0014",
+      "concept_en": "regular polygon",
+      "concept_hi": "सम बहुभुज",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=11",
+          "read_pdf_page": 11,
+          "section": "1.6 Relation to Number Sequences"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=11",
+          "read_pdf_page": 11,
+          "section": "1.6 Relation to Number Sequences"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A rectangle labelled A is a plane figure. How many dimensions does it have?",
+      "hi": "A नाम वाला आयत समतल आकृति है। इसकी कितनी विमाएँ हैं?",
+      "type": "numeric",
+      "answer": "2",
+      "feedback_en": "A plane figure has two dimensions.",
+      "feedback_hi": "समतल आकृति की दो विमाएँ होती हैं।",
+      "id": "REVIEW-MATH6_ADD003-1",
+      "concept_id": "MATH6_ADD003",
+      "concept_en": "plane geometry",
+      "concept_hi": "समतल ज्यामिति",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=1",
+          "read_pdf_page": 1,
+          "section": "Chapter 2: plane geometry foundations"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=1",
+          "read_pdf_page": 1,
+          "section": "Chapter 2: plane geometry foundations"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A rectangle labelled B is a plane figure. How many dimensions does it have?",
+      "hi": "B नाम वाला आयत समतल आकृति है। इसकी कितनी विमाएँ हैं?",
+      "type": "numeric",
+      "answer": "2",
+      "feedback_en": "A plane figure has two dimensions.",
+      "feedback_hi": "समतल आकृति की दो विमाएँ होती हैं।",
+      "id": "REVIEW-MATH6_ADD003-2",
+      "concept_id": "MATH6_ADD003",
+      "concept_en": "plane geometry",
+      "concept_hi": "समतल ज्यामिति",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=1",
+          "read_pdf_page": 1,
+          "section": "Chapter 2: plane geometry foundations"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=1",
+          "read_pdf_page": 1,
+          "section": "Chapter 2: plane geometry foundations"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Calculate 2 + 1.",
+      "hi": "2 + 1 का मान निकालें।",
+      "type": "numeric",
+      "answer": "3",
+      "feedback_en": "2 + 1 = 3.",
+      "feedback_hi": "2 + 1 = 3।",
+      "id": "REVIEW-MATH6_C0046-1",
+      "concept_id": "MATH6_C0046",
+      "concept_en": "addition",
+      "concept_hi": "जोड़",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=11",
+          "read_pdf_page": 11,
+          "section": "3.8 Mental Math"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+          "read_pdf_page": 11,
+          "section": "3.8 Mental Math"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Calculate 3 + 1.",
+      "hi": "3 + 1 का मान निकालें।",
+      "type": "numeric",
+      "answer": "4",
+      "feedback_en": "3 + 1 = 4.",
+      "feedback_hi": "3 + 1 = 4।",
+      "id": "REVIEW-MATH6_C0046-2",
+      "concept_id": "MATH6_C0046",
+      "concept_en": "addition",
+      "concept_hi": "जोड़",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=11",
+          "read_pdf_page": 11,
+          "section": "3.8 Mental Math"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+          "read_pdf_page": 11,
+          "section": "3.8 Mental Math"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Calculate 3 − 1.",
+      "hi": "3 − 1 का मान निकालें।",
+      "type": "numeric",
+      "answer": "2",
+      "feedback_en": "3 − 1 = 2.",
+      "feedback_hi": "3 − 1 = 2।",
+      "id": "REVIEW-MATH6_C0047-1",
+      "concept_id": "MATH6_C0047",
+      "concept_en": "subtraction",
+      "concept_hi": "घटाव",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=12",
+          "read_pdf_page": 12,
+          "section": "3.8 Mental Math: Adding and Subtracting"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=12",
+          "read_pdf_page": 12,
+          "section": "3.8 Mental Math: Adding and Subtracting"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Calculate 4 − 1.",
+      "hi": "4 − 1 का मान निकालें।",
+      "type": "numeric",
+      "answer": "3",
+      "feedback_en": "4 − 1 = 3.",
+      "feedback_hi": "4 − 1 = 3।",
+      "id": "REVIEW-MATH6_C0047-2",
+      "concept_id": "MATH6_C0047",
+      "concept_en": "subtraction",
+      "concept_hi": "घटाव",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=12",
+          "read_pdf_page": 12,
+          "section": "3.8 Mental Math: Adding and Subtracting"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=12",
+          "read_pdf_page": 12,
+          "section": "3.8 Mental Math: Adding and Subtracting"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Is 20 an odd number? A: yes; B: no.",
+      "hi": "क्या 20 एक विषम संख्या है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "B",
+      "feedback_en": "Dividing 20 by 2 leaves remainder 0.",
+      "feedback_hi": "20 को 2 से भाग देने पर शेष 0 है।",
+      "id": "REVIEW-MATH6_C0044-1",
+      "concept_id": "MATH6_C0044",
+      "concept_en": "odd number",
+      "concept_hi": "विषम संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Is 21 an odd number? A: yes; B: no.",
+      "hi": "क्या 21 एक विषम संख्या है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Dividing 21 by 2 leaves remainder 1.",
+      "feedback_hi": "21 को 2 से भाग देने पर शेष 1 है।",
+      "id": "REVIEW-MATH6_C0044-2",
+      "concept_id": "MATH6_C0044",
+      "concept_en": "odd number",
+      "concept_hi": "विषम संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "One Kaprekar-routine step sorts the digits of 1234 in decreasing and increasing order and subtracts. What is 4321 − 1234?",
+      "hi": "कापरेकर प्रक्रिया के एक चरण में 1234 के अंक घटते और बढ़ते क्रम में रखें और घटाएँ। 4321 − 1234 कितना है?",
+      "type": "numeric",
+      "answer": "3087",
+      "feedback_en": "4321 − 1234 = 3087.",
+      "feedback_hi": "4321 − 1234 = 3087।",
+      "id": "REVIEW-MATH6_C0050-1",
+      "concept_id": "MATH6_C0050",
+      "concept_en": "Kaprekar number",
+      "concept_hi": "कापरेकर संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=9",
+          "read_pdf_page": 9,
+          "section": "3.6 The Magic Number of Kaprekar"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=9",
+          "read_pdf_page": 9,
+          "section": "3.6 The Magic Number of Kaprekar"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "One Kaprekar-routine step sorts the digits of 2345 in decreasing and increasing order and subtracts. What is 5432 − 2345?",
+      "hi": "कापरेकर प्रक्रिया के एक चरण में 2345 के अंक घटते और बढ़ते क्रम में रखें और घटाएँ। 5432 − 2345 कितना है?",
+      "type": "numeric",
+      "answer": "3087",
+      "feedback_en": "5432 − 2345 = 3087.",
+      "feedback_hi": "5432 − 2345 = 3087।",
+      "id": "REVIEW-MATH6_C0050-2",
+      "concept_id": "MATH6_C0050",
+      "concept_en": "Kaprekar number",
+      "concept_hi": "कापरेकर संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=9",
+          "read_pdf_page": 9,
+          "section": "3.6 The Magic Number of Kaprekar"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=9",
+          "read_pdf_page": 9,
+          "section": "3.6 The Magic Number of Kaprekar"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Is 190° greater than 180° and less than 360°? A: yes; B: no.",
+      "hi": "क्या 190° 180° से अधिक और 360° से कम है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Compare the measure with the two stated bounds.",
+      "feedback_hi": "माप की तुलना दी गई दोनों सीमाओं से करें।",
+      "id": "REVIEW-MATH6_C0027-1",
+      "concept_id": "MATH6_C0027",
+      "concept_en": "reflex angle",
+      "concept_hi": "प्रतिवर्ती कोण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=39",
+          "read_pdf_page": 39,
+          "section": "2.11 Types of Angles and their Measures"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=39",
+          "read_pdf_page": 39,
+          "section": "2.11 Types of Angles and their Measures"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Is 200° greater than 180° and less than 360°? A: yes; B: no.",
+      "hi": "क्या 200° 180° से अधिक और 360° से कम है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Compare the measure with the two stated bounds.",
+      "feedback_hi": "माप की तुलना दी गई दोनों सीमाओं से करें।",
+      "id": "REVIEW-MATH6_C0027-2",
+      "concept_id": "MATH6_C0027",
+      "concept_en": "reflex angle",
+      "concept_hi": "प्रतिवर्ती कोण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=39",
+          "read_pdf_page": 39,
+          "section": "2.11 Types of Angles and their Measures"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=39",
+          "read_pdf_page": 39,
+          "section": "2.11 Types of Angles and their Measures"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "One full turn measures 360°. How many degrees do 1 such turns total?",
+      "hi": "एक पूरा घुमाव का माप 360° है। ऐसे 1 घुमावों का कुल माप कितने अंश होगा?",
+      "type": "numeric",
+      "answer": "360",
+      "feedback_en": "1 × 360 = 360 degrees.",
+      "feedback_hi": "1 × 360 = 360 अंश।",
+      "id": "REVIEW-MATH6_C0028-1",
+      "concept_id": "MATH6_C0028",
+      "concept_en": "complete angle",
+      "concept_hi": "पूर्ण कोण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=21",
+          "read_pdf_page": 21,
+          "section": "2.9 Measuring Angles: full turn"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+          "read_pdf_page": 21,
+          "section": "2.9 Measuring Angles: full turn"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "One full turn measures 360°. How many degrees do 2 such turns total?",
+      "hi": "एक पूरा घुमाव का माप 360° है। ऐसे 2 घुमावों का कुल माप कितने अंश होगा?",
+      "type": "numeric",
+      "answer": "720",
+      "feedback_en": "2 × 360 = 720 degrees.",
+      "feedback_hi": "2 × 360 = 720 अंश।",
+      "id": "REVIEW-MATH6_C0028-2",
+      "concept_id": "MATH6_C0028",
+      "concept_en": "complete angle",
+      "concept_hi": "पूर्ण कोण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=21",
+          "read_pdf_page": 21,
+          "section": "2.9 Measuring Angles: full turn"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+          "read_pdf_page": 21,
+          "section": "2.9 Measuring Angles: full turn"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "One full turn measures 360°. How many degrees do 1 such turns total?",
+      "hi": "एक पूरा घुमाव का माप 360° है। ऐसे 1 घुमावों का कुल माप कितने अंश होगा?",
+      "type": "numeric",
+      "answer": "360",
+      "feedback_en": "1 × 360 = 360 degrees.",
+      "feedback_hi": "1 × 360 = 360 अंश।",
+      "id": "REVIEW-MATH6_C0029-1",
+      "concept_id": "MATH6_C0029",
+      "concept_en": "degree",
+      "concept_hi": "डिग्री",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=21",
+          "read_pdf_page": 21,
+          "section": "2.9 Measuring Angles"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+          "read_pdf_page": 21,
+          "section": "2.9 Measuring Angles"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "One full turn measures 360°. How many degrees do 2 such turns total?",
+      "hi": "एक पूरा घुमाव का माप 360° है। ऐसे 2 घुमावों का कुल माप कितने अंश होगा?",
+      "type": "numeric",
+      "answer": "720",
+      "feedback_en": "2 × 360 = 720 degrees.",
+      "feedback_hi": "2 × 360 = 720 अंश।",
+      "id": "REVIEW-MATH6_C0029-2",
+      "concept_id": "MATH6_C0029",
+      "concept_en": "degree",
+      "concept_hi": "डिग्री",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=21",
+          "read_pdf_page": 21,
+          "section": "2.9 Measuring Angles"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+          "read_pdf_page": 21,
+          "section": "2.9 Measuring Angles"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A ray is aligned at 0° on a protractor; the other crosses 20° on the same scale. What is the angle?",
+      "hi": "चाँदे पर एक किरण 0° पर है; दूसरी उसी पैमाने पर 20° पर है। कोण का माप क्या है?",
+      "type": "numeric",
+      "answer": "20",
+      "feedback_en": "Read 20 degrees from the aligned zero.",
+      "feedback_hi": "उसी शून्य से 20 अंश पढ़ें।",
+      "id": "REVIEW-MATH6_C0030-1",
+      "concept_id": "MATH6_C0030",
+      "concept_en": "protractor",
+      "concept_hi": "चाँदा",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=25",
+          "read_pdf_page": 25,
+          "section": "2.9 Measuring Angles: protractor"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=25",
+          "read_pdf_page": 25,
+          "section": "2.9 Measuring Angles: protractor"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A ray is aligned at 0° on a protractor; the other crosses 30° on the same scale. What is the angle?",
+      "hi": "चाँदे पर एक किरण 0° पर है; दूसरी उसी पैमाने पर 30° पर है। कोण का माप क्या है?",
+      "type": "numeric",
+      "answer": "30",
+      "feedback_en": "Read 30 degrees from the aligned zero.",
+      "feedback_hi": "उसी शून्य से 30 अंश पढ़ें।",
+      "id": "REVIEW-MATH6_C0030-2",
+      "concept_id": "MATH6_C0030",
+      "concept_en": "protractor",
+      "concept_hi": "चाँदा",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=25",
+          "read_pdf_page": 25,
+          "section": "2.9 Measuring Angles: protractor"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=25",
+          "read_pdf_page": 25,
+          "section": "2.9 Measuring Angles: protractor"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Round 100 to the nearest ten; round up when the units digit is 5.",
+      "hi": "100 को निकटतम दहाई में लिखें; इकाई का अंक 5 हो तो ऊपर की दहाई लें।",
+      "type": "numeric",
+      "answer": "100",
+      "feedback_en": "The nearest ten is 100.",
+      "feedback_hi": "निकटतम दहाई 100 है।",
+      "id": "REVIEW-MATH6_C0042-1",
+      "concept_id": "MATH6_C0042",
+      "concept_en": "estimation",
+      "concept_hi": "आकलन",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.11 Simple Estimation"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.11 Simple Estimation"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Round 101 to the nearest ten; round up when the units digit is 5.",
+      "hi": "101 को निकटतम दहाई में लिखें; इकाई का अंक 5 हो तो ऊपर की दहाई लें।",
+      "type": "numeric",
+      "answer": "100",
+      "feedback_en": "The nearest ten is 100.",
+      "feedback_hi": "निकटतम दहाई 100 है।",
+      "id": "REVIEW-MATH6_C0042-2",
+      "concept_id": "MATH6_C0042",
+      "concept_en": "estimation",
+      "concept_hi": "आकलन",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.11 Simple Estimation"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.11 Simple Estimation"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Round 100 to the nearest ten; round up when the units digit is 5.",
+      "hi": "100 को निकटतम दहाई में लिखें; इकाई का अंक 5 हो तो ऊपर की दहाई लें।",
+      "type": "numeric",
+      "answer": "100",
+      "feedback_en": "The nearest ten is 100.",
+      "feedback_hi": "निकटतम दहाई 100 है।",
+      "id": "REVIEW-MATH6_C0043-1",
+      "concept_id": "MATH6_C0043",
+      "concept_en": "rounding",
+      "concept_hi": "निकटतम मान तक पूर्णांकन",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.11 Simple Estimation (related only)"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.11 Simple Estimation (related only)"
+        }
+      },
+      "support_relation": "related",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Round 101 to the nearest ten; round up when the units digit is 5.",
+      "hi": "101 को निकटतम दहाई में लिखें; इकाई का अंक 5 हो तो ऊपर की दहाई लें।",
+      "type": "numeric",
+      "answer": "100",
+      "feedback_en": "The nearest ten is 100.",
+      "feedback_hi": "निकटतम दहाई 100 है।",
+      "id": "REVIEW-MATH6_C0043-2",
+      "concept_id": "MATH6_C0043",
+      "concept_en": "rounding",
+      "concept_hi": "निकटतम मान तक पूर्णांकन",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.11 Simple Estimation (related only)"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "3.11 Simple Estimation (related only)"
+        }
+      },
+      "support_relation": "related",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Is 20 an even number? A: yes; B: no.",
+      "hi": "क्या 20 एक सम संख्या है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Dividing 20 by 2 leaves remainder 0.",
+      "feedback_hi": "20 को 2 से भाग देने पर शेष 0 है।",
+      "id": "REVIEW-MATH6_C0045-1",
+      "concept_id": "MATH6_C0045",
+      "concept_en": "even number",
+      "concept_hi": "सम संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Is 21 an even number? A: yes; B: no.",
+      "hi": "क्या 21 एक सम संख्या है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "B",
+      "feedback_en": "Dividing 21 by 2 leaves remainder 1.",
+      "feedback_hi": "21 को 2 से भाग देने पर शेष 1 है।",
+      "id": "REVIEW-MATH6_C0045-2",
+      "concept_id": "MATH6_C0045",
+      "concept_en": "even number",
+      "concept_hi": "सम संख्या",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 Patterns in Numbers"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "1.2 संख्याओं में पैटर्न"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A cell contains 12. Its immediate neighbours contain 2 and 1. Is it greater than both? A: yes; B: no.",
+      "hi": "एक खाने में 12 है। उसके पास के खानों में 2 और 1 हैं। क्या यह दोनों से बड़ा है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "12 exceeds both neighbouring values.",
+      "feedback_hi": "12 दोनों पास की संख्याओं से बड़ा है।",
+      "id": "REVIEW-MATH6_C0051-1",
+      "concept_id": "MATH6_C0051",
+      "concept_en": "supercell",
+      "concept_hi": "महाकोष्ठ",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "3.2 Supercells"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "3.2 Supercells"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A cell contains 13. Its immediate neighbours contain 3 and 1. Is it greater than both? A: yes; B: no.",
+      "hi": "एक खाने में 13 है। उसके पास के खानों में 3 और 1 हैं। क्या यह दोनों से बड़ा है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "13 exceeds both neighbouring values.",
+      "feedback_hi": "13 दोनों पास की संख्याओं से बड़ा है।",
+      "id": "REVIEW-MATH6_C0051-2",
+      "concept_id": "MATH6_C0051",
+      "concept_en": "supercell",
+      "concept_hi": "महाकोष्ठ",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH03",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "3.2 Supercells"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "3.2 Supercells"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "How many dimensions does the point P have?",
+      "hi": "बिंदु P की कितनी विमाएँ होती हैं?",
+      "type": "numeric",
+      "answer": "0",
+      "feedback_en": "A point has position but no size.",
+      "feedback_hi": "बिंदु का स्थान होता है, आकार नहीं।",
+      "id": "REVIEW-MATH6_C0016-1",
+      "concept_id": "MATH6_C0016",
+      "concept_en": "point",
+      "concept_hi": "बिंदु",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=1",
+          "read_pdf_page": 1,
+          "section": "2.1 Point"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=1",
+          "read_pdf_page": 1,
+          "section": "2.1 Point"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "How many dimensions does the point Q have?",
+      "hi": "बिंदु Q की कितनी विमाएँ होती हैं?",
+      "type": "numeric",
+      "answer": "0",
+      "feedback_en": "A point has position but no size.",
+      "feedback_hi": "बिंदु का स्थान होता है, आकार नहीं।",
+      "id": "REVIEW-MATH6_C0016-2",
+      "concept_id": "MATH6_C0016",
+      "concept_en": "point",
+      "concept_hi": "बिंदु",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=1",
+          "read_pdf_page": 1,
+          "section": "2.1 Point"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=1",
+          "read_pdf_page": 1,
+          "section": "2.1 Point"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "How many endpoints does a line labelled P have?",
+      "hi": "P नाम वाली रेखा के कितने अंत बिंदु होते हैं?",
+      "type": "numeric",
+      "answer": "0",
+      "feedback_en": "The number of endpoints is 0.",
+      "feedback_hi": "अंत बिंदुओं की संख्या 0 है।",
+      "id": "REVIEW-MATH6_C0017-1",
+      "concept_id": "MATH6_C0017",
+      "concept_en": "line",
+      "concept_hi": "रेखा",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=2",
+          "read_pdf_page": 2,
+          "section": "2.3 Line"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=2",
+          "read_pdf_page": 2,
+          "section": "2.3 Line"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "How many endpoints does a line labelled Q have?",
+      "hi": "Q नाम वाली रेखा के कितने अंत बिंदु होते हैं?",
+      "type": "numeric",
+      "answer": "0",
+      "feedback_en": "The number of endpoints is 0.",
+      "feedback_hi": "अंत बिंदुओं की संख्या 0 है।",
+      "id": "REVIEW-MATH6_C0017-2",
+      "concept_id": "MATH6_C0017",
+      "concept_en": "line",
+      "concept_hi": "रेखा",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=2",
+          "read_pdf_page": 2,
+          "section": "2.3 Line"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=2",
+          "read_pdf_page": 2,
+          "section": "2.3 Line"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Two rays start at P and form an angle. How many arms does this angle have?",
+      "hi": "P से दो किरणें निकलकर कोण बनाती हैं। इस कोण की कितनी भुजाएँ हैं?",
+      "type": "numeric",
+      "answer": "2",
+      "feedback_en": "The two rays are the arms; P is their common vertex.",
+      "feedback_hi": "दोनों किरणें भुजाएँ हैं; P उभयनिष्ठ शीर्ष है।",
+      "id": "REVIEW-MATH6_C0021-1",
+      "concept_id": "MATH6_C0021",
+      "concept_en": "vertex",
+      "concept_hi": "शीर्ष",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=5",
+          "read_pdf_page": 5,
+          "section": "2.5 Angle"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+          "read_pdf_page": 5,
+          "section": "2.5 कोण"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Two rays start at Q and form an angle. How many arms does this angle have?",
+      "hi": "Q से दो किरणें निकलकर कोण बनाती हैं। इस कोण की कितनी भुजाएँ हैं?",
+      "type": "numeric",
+      "answer": "2",
+      "feedback_en": "The two rays are the arms; Q is their common vertex.",
+      "feedback_hi": "दोनों किरणें भुजाएँ हैं; Q उभयनिष्ठ शीर्ष है।",
+      "id": "REVIEW-MATH6_C0021-2",
+      "concept_id": "MATH6_C0021",
+      "concept_en": "vertex",
+      "concept_hi": "शीर्ष",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=5",
+          "read_pdf_page": 5,
+          "section": "2.5 Angle"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+          "read_pdf_page": 5,
+          "section": "2.5 कोण"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A quarter turn measures 90°. How many degrees do 1 such turns total?",
+      "hi": "चौथाई घुमाव का माप 90° है। ऐसे 1 घुमावों का कुल माप कितने अंश होगा?",
+      "type": "numeric",
+      "answer": "90",
+      "feedback_en": "1 × 90 = 90 degrees.",
+      "feedback_hi": "1 × 90 = 90 अंश।",
+      "id": "REVIEW-MATH6_C0034-1",
+      "concept_id": "MATH6_C0034",
+      "concept_en": "rotation",
+      "concept_hi": "घूर्णन",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=13",
+          "read_pdf_page": 13,
+          "section": "2.7 Making Rotating Arms"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=13",
+          "read_pdf_page": 13,
+          "section": "2.7 Making Rotating Arms"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A quarter turn measures 90°. How many degrees do 2 such turns total?",
+      "hi": "चौथाई घुमाव का माप 90° है। ऐसे 2 घुमावों का कुल माप कितने अंश होगा?",
+      "type": "numeric",
+      "answer": "180",
+      "feedback_en": "2 × 90 = 180 degrees.",
+      "feedback_hi": "2 × 90 = 180 अंश।",
+      "id": "REVIEW-MATH6_C0034-2",
+      "concept_id": "MATH6_C0034",
+      "concept_en": "rotation",
+      "concept_hi": "घूर्णन",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=13",
+          "read_pdf_page": 13,
+          "section": "2.7 Making Rotating Arms"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=13",
+          "read_pdf_page": 13,
+          "section": "2.7 Making Rotating Arms"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Add 1 each time. Continue: 2, 3, 4, 5, __.",
+      "hi": "हर बार 1 जोड़ें। क्रम आगे बढ़ाएँ: 2, 3, 4, 5, __।",
+      "type": "numeric",
+      "answer": "6",
+      "feedback_en": "5 + 1 = 6.",
+      "feedback_hi": "5 + 1 = 6।",
+      "id": "REVIEW-MATH6_C0015-1",
+      "concept_id": "MATH6_C0015",
+      "concept_en": "visual pattern",
+      "concept_hi": "दृश्य पैटर्न",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=4",
+          "read_pdf_page": 4,
+          "section": "1.3 Visualising Number Sequences"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=4",
+          "read_pdf_page": 4,
+          "section": "1.3 Visualising Number Sequences"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Add 1 each time. Continue: 3, 4, 5, 6, __.",
+      "hi": "हर बार 1 जोड़ें। क्रम आगे बढ़ाएँ: 3, 4, 5, 6, __।",
+      "type": "numeric",
+      "answer": "7",
+      "feedback_en": "6 + 1 = 7.",
+      "feedback_hi": "6 + 1 = 7।",
+      "id": "REVIEW-MATH6_C0015-2",
+      "concept_id": "MATH6_C0015",
+      "concept_en": "visual pattern",
+      "concept_hi": "दृश्य पैटर्न",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH01",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=4",
+          "read_pdf_page": 4,
+          "section": "1.3 Visualising Number Sequences"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=4",
+          "read_pdf_page": 4,
+          "section": "1.3 Visualising Number Sequences"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "How many endpoints does a ray labelled P have?",
+      "hi": "P नाम वाली किरण के कितने अंत बिंदु होते हैं?",
+      "type": "numeric",
+      "answer": "1",
+      "feedback_en": "The number of endpoints is 1.",
+      "feedback_hi": "अंत बिंदुओं की संख्या 1 है।",
+      "id": "REVIEW-MATH6_C0019-1",
+      "concept_id": "MATH6_C0019",
+      "concept_en": "ray",
+      "concept_hi": "किरण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "2.4 Ray"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "2.4 Ray"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "How many endpoints does a ray labelled Q have?",
+      "hi": "Q नाम वाली किरण के कितने अंत बिंदु होते हैं?",
+      "type": "numeric",
+      "answer": "1",
+      "feedback_en": "The number of endpoints is 1.",
+      "feedback_hi": "अंत बिंदुओं की संख्या 1 है।",
+      "id": "REVIEW-MATH6_C0019-2",
+      "concept_id": "MATH6_C0019",
+      "concept_en": "ray",
+      "concept_hi": "किरण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "2.4 Ray"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=3",
+          "read_pdf_page": 3,
+          "section": "2.4 Ray"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Two rays start at P and form an angle. How many arms does this angle have?",
+      "hi": "P से दो किरणें निकलकर कोण बनाती हैं। इस कोण की कितनी भुजाएँ हैं?",
+      "type": "numeric",
+      "answer": "2",
+      "feedback_en": "The two rays are the arms; P is their common vertex.",
+      "feedback_hi": "दोनों किरणें भुजाएँ हैं; P उभयनिष्ठ शीर्ष है।",
+      "id": "REVIEW-MATH6_C0022-1",
+      "concept_id": "MATH6_C0022",
+      "concept_en": "arm of angle",
+      "concept_hi": "कोण की भुजा",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=5",
+          "read_pdf_page": 5,
+          "section": "2.5 Angle"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+          "read_pdf_page": 5,
+          "section": "2.5 कोण"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Two rays start at Q and form an angle. How many arms does this angle have?",
+      "hi": "Q से दो किरणें निकलकर कोण बनाती हैं। इस कोण की कितनी भुजाएँ हैं?",
+      "type": "numeric",
+      "answer": "2",
+      "feedback_en": "The two rays are the arms; Q is their common vertex.",
+      "feedback_hi": "दोनों किरणें भुजाएँ हैं; Q उभयनिष्ठ शीर्ष है।",
+      "id": "REVIEW-MATH6_C0022-2",
+      "concept_id": "MATH6_C0022",
+      "concept_en": "arm of angle",
+      "concept_hi": "कोण की भुजा",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=5",
+          "read_pdf_page": 5,
+          "section": "2.5 Angle"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+          "read_pdf_page": 5,
+          "section": "2.5 कोण"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A half turn measures 180°. How many degrees do 1 such turns total?",
+      "hi": "आधा घुमाव का माप 180° है। ऐसे 1 घुमावों का कुल माप कितने अंश होगा?",
+      "type": "numeric",
+      "answer": "180",
+      "feedback_en": "1 × 180 = 180 degrees.",
+      "feedback_hi": "1 × 180 = 180 अंश।",
+      "id": "REVIEW-MATH6_C0023-1",
+      "concept_id": "MATH6_C0023",
+      "concept_en": "straight angle",
+      "concept_hi": "सरल कोण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "2.8 Special Types of Angles"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "2.8 Special Types of Angles"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A half turn measures 180°. How many degrees do 2 such turns total?",
+      "hi": "आधा घुमाव का माप 180° है। ऐसे 2 घुमावों का कुल माप कितने अंश होगा?",
+      "type": "numeric",
+      "answer": "360",
+      "feedback_en": "2 × 180 = 360 degrees.",
+      "feedback_hi": "2 × 180 = 360 अंश।",
+      "id": "REVIEW-MATH6_C0023-2",
+      "concept_id": "MATH6_C0023",
+      "concept_en": "straight angle",
+      "concept_hi": "सरल कोण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "2.8 Special Types of Angles"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=15",
+          "read_pdf_page": 15,
+          "section": "2.8 Special Types of Angles"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Is 100° greater than 90° and less than 180°? A: yes; B: no.",
+      "hi": "क्या 100° 90° से अधिक और 180° से कम है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Compare the measure with the two stated bounds.",
+      "feedback_hi": "माप की तुलना दी गई दोनों सीमाओं से करें।",
+      "id": "REVIEW-MATH6_C0026-1",
+      "concept_id": "MATH6_C0026",
+      "concept_en": "obtuse angle",
+      "concept_hi": "अधिक कोण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=39",
+          "read_pdf_page": 39,
+          "section": "2.11 Types of Angles and their Measures"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=39",
+          "read_pdf_page": 39,
+          "section": "2.11 Types of Angles and their Measures"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Is 110° greater than 90° and less than 180°? A: yes; B: no.",
+      "hi": "क्या 110° 90° से अधिक और 180° से कम है? A: हाँ; B: नहीं.",
+      "type": "mcq",
+      "answer": "A",
+      "feedback_en": "Compare the measure with the two stated bounds.",
+      "feedback_hi": "माप की तुलना दी गई दोनों सीमाओं से करें।",
+      "id": "REVIEW-MATH6_C0026-2",
+      "concept_id": "MATH6_C0026",
+      "concept_en": "obtuse angle",
+      "concept_hi": "अधिक कोण",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=39",
+          "read_pdf_page": 39,
+          "section": "2.11 Types of Angles and their Measures"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=39",
+          "read_pdf_page": 39,
+          "section": "2.11 Types of Angles and their Measures"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Perpendicular lines meet at A. What is their angle in degrees?",
+      "hi": "लंब रेखाएँ A पर मिलती हैं। उनके बीच का कोण कितने अंश का है?",
+      "type": "numeric",
+      "answer": "90",
+      "feedback_en": "Perpendicular lines form a right angle of 90 degrees.",
+      "feedback_hi": "लंब रेखाएँ 90 अंश का समकोण बनाती हैं।",
+      "id": "REVIEW-MATH6_C0031-1",
+      "concept_id": "MATH6_C0031",
+      "concept_en": "perpendicular",
+      "concept_hi": "लंबवत रेखाएँ",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=17",
+          "read_pdf_page": 17,
+          "section": "2.8 Right angles and perpendicular lines"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=17",
+          "read_pdf_page": 17,
+          "section": "2.8 Right angles and perpendicular lines"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Perpendicular lines meet at B. What is their angle in degrees?",
+      "hi": "लंब रेखाएँ B पर मिलती हैं। उनके बीच का कोण कितने अंश का है?",
+      "type": "numeric",
+      "answer": "90",
+      "feedback_en": "Perpendicular lines form a right angle of 90 degrees.",
+      "feedback_hi": "लंब रेखाएँ 90 अंश का समकोण बनाती हैं।",
+      "id": "REVIEW-MATH6_C0031-2",
+      "concept_id": "MATH6_C0031",
+      "concept_en": "perpendicular",
+      "concept_hi": "लंबवत रेखाएँ",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=17",
+          "read_pdf_page": 17,
+          "section": "2.8 Right angles and perpendicular lines"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=17",
+          "read_pdf_page": 17,
+          "section": "2.8 Right angles and perpendicular lines"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A bisector divides an angle of 40° into equal parts. What is each part?",
+      "hi": "समद्विभाजक 40° के कोण को बराबर भागों में बाँटता है। हर भाग का माप क्या है?",
+      "type": "numeric",
+      "answer": "20",
+      "feedback_en": "40 ÷ 2 = 20 degrees.",
+      "feedback_hi": "40 ÷ 2 = 20 अंश।",
+      "id": "REVIEW-MATH6_C0035-1",
+      "concept_id": "MATH6_C0035",
+      "concept_en": "angle bisector",
+      "concept_hi": "कोण समद्विभाजक",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=28",
+          "read_pdf_page": 28,
+          "section": "2.9 Angle Bisector"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=28",
+          "read_pdf_page": 28,
+          "section": "2.9 Angle Bisector"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "A bisector divides an angle of 42° into equal parts. What is each part?",
+      "hi": "समद्विभाजक 42° के कोण को बराबर भागों में बाँटता है। हर भाग का माप क्या है?",
+      "type": "numeric",
+      "answer": "21",
+      "feedback_en": "42 ÷ 2 = 21 degrees.",
+      "feedback_hi": "42 ÷ 2 = 21 अंश।",
+      "id": "REVIEW-MATH6_C0035-2",
+      "concept_id": "MATH6_C0035",
+      "concept_en": "angle bisector",
+      "concept_hi": "कोण समद्विभाजक",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=28",
+          "read_pdf_page": 28,
+          "section": "2.9 Angle Bisector"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=28",
+          "read_pdf_page": 28,
+          "section": "2.9 Angle Bisector"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Two distinct straight lines cross at P. How many common points do they have?",
+      "hi": "दो अलग सीधी रेखाएँ P पर काटती हैं। उनके कितने उभयनिष्ठ बिंदु हैं?",
+      "type": "numeric",
+      "answer": "1",
+      "feedback_en": "Two distinct intersecting straight lines share one point.",
+      "feedback_hi": "दो अलग प्रतिच्छेदी सीधी रेखाओं का एक उभयनिष्ठ बिंदु होता है।",
+      "id": "REVIEW-MATH6_C0033-1",
+      "concept_id": "MATH6_C0033",
+      "concept_en": "intersecting lines",
+      "concept_hi": "प्रतिच्छेदी रेखाएँ",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=4",
+          "read_pdf_page": 4,
+          "section": "2.4 Figure it Out: intersecting lines"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
+          "read_pdf_page": 4,
+          "section": "2.4 Figure it Out: intersecting lines"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    },
+    {
+      "en": "Two distinct straight lines cross at Q. How many common points do they have?",
+      "hi": "दो अलग सीधी रेखाएँ Q पर काटती हैं। उनके कितने उभयनिष्ठ बिंदु हैं?",
+      "type": "numeric",
+      "answer": "1",
+      "feedback_en": "Two distinct intersecting straight lines share one point.",
+      "feedback_hi": "दो अलग प्रतिच्छेदी सीधी रेखाओं का एक उभयनिष्ठ बिंदु होता है।",
+      "id": "REVIEW-MATH6_C0033-2",
+      "concept_id": "MATH6_C0033",
+      "concept_en": "intersecting lines",
+      "concept_hi": "प्रतिच्छेदी रेखाएँ",
+      "review_status": "PENDING",
+      "source_references": [],
+      "scoring_rule": "Exact key; other input unscorable.",
+      "possible_difficulty": "Original transfer draft; confirm independently before inferring a difficulty.",
+      "chapter": "CH02",
+      "catalog_references": {
+        "en": {
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=4",
+          "read_pdf_page": 4,
+          "section": "2.4 Figure it Out: intersecting lines"
+        },
+        "hi": {
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
+          "read_pdf_page": 4,
+          "section": "2.4 Figure it Out: intersecting lines"
+        }
+      },
+      "support_relation": "direct",
+      "bilingual_checks": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "reviewer": "",
+      "reviewed_at": "",
+      "independence_review": "PENDING: parameter and label variations may test the same skill.",
+      "source_support_review": "PENDING: catalogue links are not proof this item is supported."
+    }
+  ],
+  "followup_concept_ids": [
+    "MATH6_C0002",
+    "MATH6_C0003",
+    "MATH6_C0004",
+    "MATH6_C0005",
+    "MATH6_C0006",
+    "MATH6_C0007",
+    "MATH6_C0008",
+    "MATH6_C0009",
+    "MATH6_C0010",
+    "MATH6_C0011",
+    "MATH6_C0040",
+    "MATH6_C0049",
+    "MATH6_ADD001",
+    "MATH6_ADD002",
+    "MATH6_C0012",
+    "MATH6_C0013",
+    "MATH6_C0014",
+    "MATH6_C0036",
+    "MATH6_C0037",
+    "MATH6_C0038",
+    "MATH6_C0041",
+    "MATH6_ADD003",
+    "MATH6_C0046",
+    "MATH6_C0047",
+    "MATH6_C0044",
+    "MATH6_C0050",
+    "MATH6_C0027",
+    "MATH6_C0028",
+    "MATH6_C0029",
+    "MATH6_C0030",
+    "MATH6_C0039",
+    "MATH6_C0042",
+    "MATH6_C0043",
+    "MATH6_C0045",
+    "MATH6_C0051",
+    "MATH6_C0016",
+    "MATH6_C0017",
+    "MATH6_C0018",
+    "MATH6_C0021",
+    "MATH6_C0034",
+    "MATH6_C0015",
+    "MATH6_C0019",
+    "MATH6_C0020",
+    "MATH6_C0022",
+    "MATH6_C0023",
+    "MATH6_C0024",
+    "MATH6_C0025",
+    "MATH6_C0026",
+    "MATH6_C0031",
+    "MATH6_C0035",
+    "MATH6_C0033"
+  ],
+  "runtime_bank_sha256": "5ba7bd839512b8db0a9f9a51a4aa008e6d819bd967d9d2d166aaa036247ed79d"
+}

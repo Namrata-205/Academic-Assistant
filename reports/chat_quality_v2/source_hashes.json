@@ -1,0 +1,9 @@
+{
+  "diagnostic/book_chat.py": "d39e100d5a5121ddc5ecc5b4b1c974fdb2278c92130d2808663274f370bcce3a",
+  "diagnostic/chat_tutor.py": "c722f4c34c94e0074e2709715f558ed585b9d450cc503c52cd0de281087eed75",
+  "diagnostic/chat_router.py": "cb4307fb7a831ac410a07bca1571c6992504bc1aa1f5c5d4b2ac316669e83f71",
+  "diagnostic/conversation.py": "3567d86db7ab3000f61165963122d47c1ccaf5a4aee980f8cb7348ae92cef301",
+  "diagnostic/local_teaching.py": "dbda5e76f12e7c99ba48308d18c7c5e80cc0ccd9371aff499eb024b57916f728",
+  "src/BookChat.jsx": "08702aeb5765356636b4b2e5d021fa873ed5435d92ed6163ab96a6b8226eddc1",
+  "src/chatText.js": "3beda71fac1cae983e2fc649a88afb697d6a5318ba150a8126f9e2c57e3d2e77"
+}

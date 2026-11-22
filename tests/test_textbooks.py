@@ -55,16 +55,22 @@ class TextbookTests(unittest.TestCase):
         self.assertIn('not checked directly',plan[1]['reason'])
 
     @unittest.skipUnless(importlib.util.find_spec('fitz'),'PyMuPDF required only for source-verification checks')
-    def test_verified_anchors_in_pdf_pages(self):
+    def test_verified_anchors_in_cleaned_pdf_pages(self):
         import fitz
+        from diagnostic.extraction import get_pages
         anchors=[('en','fegp102.pdf',5,'vertex'),('hi','fhgp102.pdf',5,'शीर्ष'),
                  ('en','fegp102.pdf',7,'name the vertex'),('hi','fhgp102.pdf',7,'शीर्ष'),
                  ('en','fegp102.pdf',19,'acute angles'),('hi','fhgp102.pdf',19,'न्यून'),
                  ('en','fegp103.pdf',6,'Digit sums'),('hi','fhgp103.pdf',6,'योग'),
                  ('en','fegp101.pdf',3,'Odd numbers'),('hi','fhgp101.pdf',3,'विषम')]
         for lang,file,page,anchor in anchors:
-            with fitz.open(ROOT/'assets'/'textbooks'/lang/file) as pdf:
-                self.assertIn(anchor,pdf[page-1].get_text())
+            path=ROOT/'assets'/'textbooks'/lang/file
+            with fitz.open(path) as pdf:
+                self.assertLessEqual(page,len(pdf))
+            # RAG uses the frozen, repaired text; the legacy Hindi PDF's raw
+            # Unicode text layer is known to corrupt words such as nyoon.
+            pages=get_pages(path,lang)
+            self.assertIn(anchor,next(p['text'] for p in pages if p['page']==page))
 
 
 if __name__=='__main__':

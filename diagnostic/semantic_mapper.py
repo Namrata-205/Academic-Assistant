@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 MODEL=ROOT/'assets'/'models'/'multilingual-minilm'
 RUNTIME=ROOT/'.dist'/'semantic-runtime'
-MAPPER_VERSION='semantic-v2'
+MAPPER_VERSION='semantic-v3-curriculum2'
 MIN_SIMILARITY=.57
 MIN_MARGIN=.07
 LOCK=threading.RLock()
@@ -69,11 +69,8 @@ DEFINITIONS={
  'plane geometry':'The study of points, lines, angles and figures in a flat two-dimensional plane.',
 }
 UNSUPPORTED={
- 'fractions':'Adding, subtracting, multiplying or dividing fractions; numerator and denominator; equivalent fractions.',
  'algebra':'Solving an equation for an unknown letter, algebraic expressions or simultaneous equations.',
- 'area':'Calculate the area or perimeter of rectangles, triangles and shapes using measurements.',
- 'probability':'Find the probability or chance of an event or interpret statistics and charts.',
- 'prime factors':'Find prime numbers, factors, HCF or LCM of given numbers.',
+ 'probability':'Calculate the probability or chance of a random event, such as throwing a die or flipping a coin.',
 }
 
 
@@ -122,9 +119,12 @@ def index(serialized_nodes):
     nodes=json.loads(serialized_nodes)
     keys=[];texts=[]
     for node in nodes:
-        definition=DEFINITIONS.get(node['en'],node['en'])
+        from diagnostic.curriculum_content import fact
+        from diagnostic.curriculum import teaching_name
+        info=fact(node['id'])
+        definition=info[0] if info else DEFINITIONS.get(teaching_name(node['en']),node['en'])
         keys.extend([node['id'],node['id']])
-        texts.extend([node['en']+'. '+definition,node['hi']+'. '+definition])
+        texts.extend([node['en']+'. '+definition,node['hi']+'. '+(info[1] if info else definition)])
     for key,definition in UNSUPPORTED.items():keys.append('outside:'+key);texts.append(definition)
     return keys,embed(texts)
 
@@ -134,14 +134,30 @@ def mapping(text,nodes):
     def clarify(reason,candidates=(),**extra):
         return {'status':'clarify','candidates':list(candidates),'reason':reason,'mapper_version':MAPPER_VERSION,**extra}
     if not text:return clarify('Enter a question in English or Hindi.')
+    if 'MATH6_C0170' not in nodes and re.search(r'fraction|भिन्न',text):return clarify('Fractions are outside this graph version.',scope='outside current graph')
+    if 'MATH6_C0032' not in nodes and contains(text,'parallel'):return clarify('Parallel lines are not represented in this graph version.',scope='outside current graph')
     # Unsupported intent must not collapse into a generic term such as addition.
-    if any(contains(text,t) for t in ['fraction','fractions','भिन्न','भिन्नों','equation','equations','समीकरण','बीजगणित','probability']):
-        return clarify('This question includes a topic outside the current prerequisite graph. Rephrase for a supported concept or choose the topic you intended.',scope='outside current graph')
+    if any(contains(text,t) for t in ['equation','equations','algebra','probability','\u0938\u092e\u0940\u0915\u0930\u0923','\u092c\u0940\u091c\u0917\u0923\u093f\u0924']):
+        return clarify('This topic is outside the current curriculum graph.',scope='outside current graph')
+    hints=[]
+    if re.search(r'fraction|\u092d\u093f\u0928\u094d\u0928',text):
+        for pattern,cid in [(r'add|sum|\u091c\u094b\u0921','MATH6_C0180'),(r'subtract|difference|\u0918\u091f','MATH6_C0181'),(r'compar|greater|larger|\u0924\u0941\u0932\u0928\u093e','MATH6_C0179'),(r'equivalent|\u0938\u092e\u0924\u0941\u0932\u094d\u092f','MATH6_C0177'),(r'simplest|lowest|\u0938\u0930\u0932\u0924\u092e','MATH6_C0178')]:
+            if re.search(pattern,text):hints.append(cid)
+        if not hints:hints.append('MATH6_C0170')
+    if 'prime factor' in text or 'factorisation' in text or 'factorization' in text:hints.append('MATH6_C0135')
+    for term,groups in [('area',{'rectangle':'MATH6_C0158','square':'MATH6_C0159','triangle':'MATH6_C0163'}),('perimeter',{'rectangle':'MATH6_C0151','square':'MATH6_C0152','triangle':'MATH6_C0153'})]:
+        if term in text:
+            matches=[cid for shape,cid in groups.items() if shape in text]
+            hints.extend(matches or ['MATH6_C0156' if term=='area' else 'MATH6_C0150'])
+    hints=list(dict.fromkeys(cid for cid in hints if cid in nodes))
+    if len(hints)==1:return {'status':'mapped','concept_id':hints[0],'candidates':hints,'mapper_version':MAPPER_VERSION,'method':'curriculum mathematical intent'}
+    if len(hints)>1:return clarify('Which of these topics should we work on first?',hints)
     if re.search(r'not\s+(?:less|smaller|greater|larger)|(?:कम|अधिक)\s+नहीं',text):
         return clarify('Please state the intended angle range explicitly. The negated comparison can describe several angle types.')
     # Mathematical constraints prevent embedding similarity from reversing inequalities
     # or confusing a ray with a finite segment. Multiple constraints remain ambiguous.
     constraints=[]
+    if re.search(r'round.*nearest',text):constraints.append('MATH6_C0043' if 'MATH6_C0043' in nodes else 'MATH6_C0042')
     # Natural place-value questions need not use the phrase "value of".
     # E.g. "why the 4 in 3452 means 400" or "the 6 in 268 is worth 60".
     position_question=re.search(r'(?<!\d)(\d)\s+(?:in|within)\s+(\d{2,})\s+(?:means?|represents?|is\s+worth|stands?\s+for)\b',text)
@@ -159,7 +175,8 @@ def mapping(text,nodes):
         return {'status':'mapped','concept_id':key,'candidates':[key],'mapper_version':MAPPER_VERSION,'method':'explicit mathematical intent constraints'}
     hits=[]
     for key,node in nodes.items():
-        terms=[node['en'],node['hi']]
+        from diagnostic.curriculum import search_terms
+        terms=search_terms(node)
         if node['en'].endswith(('number','angle','segment','pattern','digit','ray','line','sum')):
             terms.append(node['en']+'s')
         matched=[t for t in terms if contains(text,t)]

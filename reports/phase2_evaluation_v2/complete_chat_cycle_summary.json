@@ -1,0 +1,21 @@
+{
+  "scope": "Five synthetic profiles in both languages through actual persisted chat send/check/inline-grade/feedback paths; offline generation.",
+  "by_language": {
+    "en": {
+      "cases": 5,
+      "workflow_success_rate": 1,
+      "median_cycle_seconds": 0.214750200000708,
+      "p95_cycle_seconds": 10.115518300008262,
+      "inline_grade_rate": 1,
+      "new_followup_rate": 1
+    },
+    "hi": {
+      "cases": 5,
+      "workflow_success_rate": 1,
+      "median_cycle_seconds": 0.29987590000382625,
+      "p95_cycle_seconds": 7.785846800004947,
+      "inline_grade_rate": 1,
+      "new_followup_rate": 1
+    }
+  }
+}

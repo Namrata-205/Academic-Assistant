@@ -1,0 +1,32 @@
+[
+  {
+    "candidate_id": "EX001",
+    "arm": "ordinary_rag",
+    "language": "hi"
+  },
+  {
+    "candidate_id": "EX002",
+    "arm": "graph_rag_no_diagnosis",
+    "language": "en"
+  },
+  {
+    "candidate_id": "EX003",
+    "arm": "full_diagnosis_graph_rag",
+    "language": "en"
+  },
+  {
+    "candidate_id": "EX004",
+    "arm": "full_diagnosis_graph_rag",
+    "language": "hi"
+  },
+  {
+    "candidate_id": "EX005",
+    "arm": "ordinary_rag",
+    "language": "en"
+  },
+  {
+    "candidate_id": "EX006",
+    "arm": "graph_rag_no_diagnosis",
+    "language": "hi"
+  }
+]

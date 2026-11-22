@@ -1,0 +1,2309 @@
+{
+  "version": "bilingual-glossary-v2",
+  "concepts": {
+    "MATH6_C0013": {
+      "concept_id": "MATH6_C0013",
+      "en": "counting numbers",
+      "hi": "गणन संख्याएँ",
+      "definition_en": "Counting numbers are 1, 2, 3, 4 and so on.",
+      "definition_hi": "गणन संख्याएँ 1, 2, 3, 4 आदि हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0036": {
+      "concept_id": "MATH6_C0036",
+      "en": "whole numbers",
+      "hi": "पूर्ण संख्याएँ",
+      "definition_en": "Whole numbers are 0, 1, 2, 3 and so on; they do not include negative numbers or fractional parts.",
+      "definition_hi": "पूर्ण संख्याएँ 0, 1, 2, 3 आदि हैं। इनमें ऋण संख्याएँ या भिन्नात्मक भाग शामिल नहीं हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0046": {
+      "concept_id": "MATH6_C0046",
+      "en": "addition",
+      "hi": "जोड़",
+      "definition_en": "Addition combines quantities to find their total.",
+      "definition_hi": "जोड़ में मात्राएँ मिलाकर कुल मात्रा निकालते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0047": {
+      "concept_id": "MATH6_C0047",
+      "en": "subtraction",
+      "hi": "घटाव",
+      "definition_en": "Subtraction finds what remains after removing a quantity, or the difference between quantities.",
+      "definition_hi": "घटाव में एक मात्रा निकालने के बाद बची मात्रा या दो मात्राओं का अंतर पता करते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0102": {
+      "concept_id": "MATH6_C0102",
+      "en": "multiplication",
+      "hi": "गुणा",
+      "definition_en": "Multiplication combines equal groups: three groups of four contain twelve objects.",
+      "definition_hi": "गुणा बराबर समूहों को जोड़ता है। चार वस्तुओं के तीन समूहों में बारह वस्तुएँ होती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0103": {
+      "concept_id": "MATH6_C0103",
+      "en": "division",
+      "hi": "भाग",
+      "definition_en": "Division shares a quantity equally or finds how many equal groups it contains.",
+      "definition_hi": "भाग किसी मात्रा को बराबर बाँटता है या उसमें बराबर समूहों की संख्या बताता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0037": {
+      "concept_id": "MATH6_C0037",
+      "en": "digit",
+      "hi": "अंक",
+      "definition_en": "Digits are symbols from 0 to 9 used to write numbers.",
+      "definition_hi": "अंक 0 से 9 तक के चिह्न हैं जिनसे संख्याएँ लिखते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0038": {
+      "concept_id": "MATH6_C0038",
+      "en": "place value",
+      "hi": "स्थानीय मान",
+      "definition_en": "Place value depends on position, such as ones, tens and hundreds.",
+      "definition_hi": "अंक का स्थानीय मान उसके स्थान पर निर्भर करता है, जैसे इकाई, दहाई और सैकड़ा।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0101": {
+      "concept_id": "MATH6_C0101",
+      "en": "comparing numbers",
+      "hi": "संख्याओं की तुलना",
+      "definition_en": "Compare numbers by their place values; on a number line, the number farther right is greater.",
+      "definition_hi": "स्थानीय मान से संख्याओं की तुलना करें। संख्या रेखा पर अधिक दाईं ओर की संख्या बड़ी होती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0012": {
+      "concept_id": "MATH6_C0012",
+      "en": "consecutive numbers",
+      "hi": "क्रमागत संख्याएँ",
+      "definition_en": "Consecutive numbers follow without gaps, such as 5, 6, 7.",
+      "definition_hi": "क्रमागत संख्याएँ बिना अंतर छोड़े एक के बाद एक आती हैं, जैसे 5, 6, 7।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0002": {
+      "concept_id": "MATH6_C0002",
+      "en": "pattern",
+      "hi": "पैटर्न",
+      "definition_en": "A pattern is an arrangement that repeats or changes according to a rule.",
+      "definition_hi": "बार-बार आने वाली या नियम के अनुसार बदलने वाली व्यवस्था पैटर्न है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0003": {
+      "concept_id": "MATH6_C0003",
+      "en": "number pattern",
+      "hi": "संख्याओं में पैटर्न",
+      "definition_en": "A number pattern follows a rule, such as adding 2 each time.",
+      "definition_hi": "संख्या पैटर्न में संख्याएँ किसी नियम के अनुसार आती हैं, जैसे हर बार 2 जोड़ना।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0005": {
+      "concept_id": "MATH6_C0005",
+      "en": "number sequence",
+      "hi": "संख्या अनुक्रम",
+      "definition_en": "A sequence is a list of terms arranged in an order.",
+      "definition_hi": "अनुक्रम किसी क्रम में रखे पदों की सूची है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0006": {
+      "concept_id": "MATH6_C0006",
+      "en": "odd numbers",
+      "hi": "विषम संख्याएँ",
+      "definition_en": "Dividing an odd number by 2 leaves remainder 1.",
+      "definition_hi": "विषम संख्या को 2 से भाग देने पर शेष 1 रहता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0007": {
+      "concept_id": "MATH6_C0007",
+      "en": "even numbers",
+      "hi": "सम संख्याएँ",
+      "definition_en": "Dividing an even number by 2 leaves remainder 0.",
+      "definition_hi": "सम संख्या को 2 से भाग देने पर शेष 0 रहता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0008": {
+      "concept_id": "MATH6_C0008",
+      "en": "triangular numbers",
+      "hi": "त्रिभुजाकार संख्याएँ",
+      "definition_en": "Triangular numbers count dots in triangular rows of 1, 2, 3 and so on.",
+      "definition_hi": "1, 2, 3 आदि बिंदुओं वाली पंक्तियों को त्रिभुज के रूप में रखने से त्रिभुज संख्या मिलती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0009": {
+      "concept_id": "MATH6_C0009",
+      "en": "square numbers",
+      "hi": "वर्ग संख्याएँ",
+      "definition_en": "A square number is a whole number multiplied by itself.",
+      "definition_hi": "किसी पूर्ण संख्या को उसी से गुणा करने पर वर्ग संख्या मिलती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0010": {
+      "concept_id": "MATH6_C0010",
+      "en": "cube numbers",
+      "hi": "घन संख्याएँ",
+      "definition_en": "A cube number uses the same number as a factor three times.",
+      "definition_hi": "किसी संख्या को तीन बार गुणनखंड के रूप में लेने पर उसकी घन संख्या मिलती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0011": {
+      "concept_id": "MATH6_C0011",
+      "en": "powers of 2",
+      "hi": "2 की घातें",
+      "definition_en": "Powers of 2 repeatedly double: 1, 2, 4, 8 and so on.",
+      "definition_hi": "2 की घातों के अनुक्रम में हर पद पिछले पद का दुगुना है: 1, 2, 4, 8 आदि।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_ADD001": {
+      "concept_id": "MATH6_ADD001",
+      "en": "Virahānka numbers",
+      "hi": "विरहांक संख्याएँ",
+      "definition_en": "Each new Virahanka term is the sum of the previous two: 1, 2, 3, 5, 8 and so on.",
+      "definition_hi": "विरहांक अनुक्रम में हर नया पद पिछले दो पदों का योग है: 1, 2, 3, 5, 8 आदि।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0015": {
+      "concept_id": "MATH6_C0015",
+      "en": "visualising number sequences",
+      "hi": "संख्या अनुक्रमों का दृश्यांकन",
+      "definition_en": "Number sequence rules can be shown with dots, pictures and shapes.",
+      "definition_hi": "संख्याओं के नियम को बिंदुओं, चित्रों या आकृतियों से दिखा सकते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0104": {
+      "concept_id": "MATH6_C0104",
+      "en": "hexagonal numbers",
+      "hi": "षड्भुजाकार संख्याएँ",
+      "definition_en": "The hexagonal number sequence begins 1, 7, 19, 37; the gaps grow by 6 each time.",
+      "definition_hi": "षट्भुजीय संख्या अनुक्रम 1, 7, 19, 37 से शुरू होता है। क्रमागत अंतर हर बार 6 बढ़ता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0105": {
+      "concept_id": "MATH6_C0105",
+      "en": "relations among number sequences",
+      "hi": "संख्या अनुक्रमों के बीच संबंध",
+      "definition_en": "Number sequences can be related; adding the first n odd numbers gives the nth square number.",
+      "definition_hi": "संख्या अनुक्रम आपस में जुड़े हो सकते हैं। पहली n विषम संख्याओं का योग nवीं वर्ग संख्या देता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0004": {
+      "concept_id": "MATH6_C0004",
+      "en": "shape sequences",
+      "hi": "आकारों में पैटर्न",
+      "definition_en": "A shape sequence follows a rule for repeating or changing shapes.",
+      "definition_hi": "आकृतियों का अनुक्रम किसी दोहराव या बदलाव के नियम का पालन करता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0014": {
+      "concept_id": "MATH6_C0014",
+      "en": "regular polygons",
+      "hi": "सम बहुभुज",
+      "definition_en": "A regular polygon has all sides equal and all angles equal.",
+      "definition_hi": "सम बहुभुज की सभी भुजाएँ और सभी कोण बराबर होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0106": {
+      "concept_id": "MATH6_C0106",
+      "en": "complete graphs",
+      "hi": "संपूर्ण ग्राफ",
+      "definition_en": "In a complete graph, every pair of distinct points is joined by one edge.",
+      "definition_hi": "पूर्ण ग्राफ में हर दो अलग बिंदुओं को एक किनारे से जोड़ा जाता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0107": {
+      "concept_id": "MATH6_C0107",
+      "en": "stacked squares",
+      "hi": "ढेरित वर्ग",
+      "definition_en": "Stacking square layers of sizes 1, 4, 9 and so on gives cumulative totals of square numbers.",
+      "definition_hi": "1, 4, 9 जैसी वर्गाकार परतों को जमाने पर वर्ग संख्याओं के क्रमिक योग मिलते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0108": {
+      "concept_id": "MATH6_C0108",
+      "en": "stacked triangles",
+      "hi": "ढेरित त्रिभुज",
+      "definition_en": "Stacking triangular layers adds triangular numbers such as 1, 3, 6 and 10.",
+      "definition_hi": "त्रिभुजाकार परतों को जमाने में 1, 3, 6 और 10 जैसी त्रिभुज संख्याएँ जुड़ती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0109": {
+      "concept_id": "MATH6_C0109",
+      "en": "Koch snowflake",
+      "hi": "कोच हिमकण",
+      "definition_en": "A Koch snowflake starts with an equilateral triangle; each side is repeatedly replaced by four shorter segments forming a triangular bump.",
+      "definition_hi": "कोख हिमकण समबाहु त्रिभुज से शुरू होता है। हर चरण में हर भुजा की जगह त्रिभुजीय उभार वाले चार छोटे रेखाखंड बनते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0016": {
+      "concept_id": "MATH6_C0016",
+      "en": "point",
+      "hi": "बिंदु",
+      "definition_en": "A point marks an exact position and has no length or width.",
+      "definition_hi": "बिंदु एक निश्चित स्थान दिखाता है। उसकी लंबाई या चौड़ाई नहीं होती।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0018": {
+      "concept_id": "MATH6_C0018",
+      "en": "line segment",
+      "hi": "रेखाखंड",
+      "definition_en": "A line segment is a straight part between two endpoints with a fixed length.",
+      "definition_hi": "रेखाखंड दो अंतिम बिंदुओं के बीच का सीधा भाग है। उसकी निश्चित लंबाई होती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0017": {
+      "concept_id": "MATH6_C0017",
+      "en": "line",
+      "hi": "रेखा",
+      "definition_en": "A line extends endlessly in both directions and has no endpoints.",
+      "definition_hi": "रेखा दोनों दिशाओं में अनंत तक जाती है। उसके अंतिम बिंदु नहीं होते।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0019": {
+      "concept_id": "MATH6_C0019",
+      "en": "ray",
+      "hi": "किरण",
+      "definition_en": "A ray starts at one endpoint and extends endlessly in one direction.",
+      "definition_hi": "किरण एक अंतिम बिंदु से शुरू होकर एक दिशा में अनंत तक जाती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0020": {
+      "concept_id": "MATH6_C0020",
+      "en": "angle",
+      "hi": "कोण",
+      "definition_en": "Two rays with the same endpoint form an angle.",
+      "definition_hi": "एक ही अंतिम बिंदु वाली दो किरणें कोण बनाती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0021": {
+      "concept_id": "MATH6_C0021",
+      "en": "vertex of an angle",
+      "hi": "शीर्ष",
+      "definition_en": "The shared endpoint of the two arms of an angle is its vertex.",
+      "definition_hi": "कोण की दोनों भुजाओं का साझा अंतिम बिंदु उसका शीर्ष है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0022": {
+      "concept_id": "MATH6_C0022",
+      "en": "arms of an angle",
+      "hi": "कोण की भुजाएँ",
+      "definition_en": "The two rays forming an angle are its arms.",
+      "definition_hi": "कोण बनाने वाली दोनों किरणें उसकी भुजाएँ हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0110": {
+      "concept_id": "MATH6_C0110",
+      "en": "comparing angles",
+      "hi": "कोणों की तुलना",
+      "definition_en": "Compare angles by their opening or amount of turn, not by the lengths of their arms.",
+      "definition_hi": "कोणों की तुलना उनके खुलाव या घुमाव से होती है, भुजाओं की लंबाई से नहीं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0034": {
+      "concept_id": "MATH6_C0034",
+      "en": "angle as amount of turn",
+      "hi": "घूर्णन",
+      "definition_en": "Rotation is turning around a fixed point.",
+      "definition_hi": "किसी स्थिर बिंदु के चारों ओर घूमना घूर्णन है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0023": {
+      "concept_id": "MATH6_C0023",
+      "en": "straight angle",
+      "hi": "सरल कोण",
+      "definition_en": "A straight angle is a half turn of 180 degrees.",
+      "definition_hi": "सरल कोण 180 अंश का आधा घुमाव है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0024": {
+      "concept_id": "MATH6_C0024",
+      "en": "right angle",
+      "hi": "समकोण",
+      "definition_en": "A right angle is a quarter turn of 90 degrees.",
+      "definition_hi": "समकोण 90 अंश का एक चौथाई घुमाव है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0031": {
+      "concept_id": "MATH6_C0031",
+      "en": "perpendicular lines",
+      "hi": "लंब रेखाएँ",
+      "definition_en": "Perpendicular lines meet at a right angle of 90 degrees.",
+      "definition_hi": "लंब रेखाएँ 90 अंश के समकोण पर मिलती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0025": {
+      "concept_id": "MATH6_C0025",
+      "en": "acute angle",
+      "hi": "न्यून कोण",
+      "definition_en": "An acute angle is greater than 0 degrees and less than 90 degrees.",
+      "definition_hi": "न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0026": {
+      "concept_id": "MATH6_C0026",
+      "en": "obtuse angle",
+      "hi": "अधिक कोण",
+      "definition_en": "An obtuse angle is greater than 90 degrees and less than 180 degrees.",
+      "definition_hi": "अधिक कोण 90 अंश से अधिक और 180 अंश से कम होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0028": {
+      "concept_id": "MATH6_C0028",
+      "en": "complete angle (full turn)",
+      "hi": "पूर्ण कोण",
+      "definition_en": "A complete angle is a full turn of 360 degrees.",
+      "definition_hi": "पूर्ण कोण 360 अंश का पूरा घुमाव है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0029": {
+      "concept_id": "MATH6_C0029",
+      "en": "degree (angle measure)",
+      "hi": "डिग्री (अंश)",
+      "definition_en": "Degrees measure angles; a full turn contains 360 degrees.",
+      "definition_hi": "अंश कोण मापने की इकाई है। पूरे घुमाव में 360 अंश होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0035": {
+      "concept_id": "MATH6_C0035",
+      "en": "angle bisector",
+      "hi": "कोण समद्विभाजक",
+      "definition_en": "An angle bisector divides an angle into two equal angles.",
+      "definition_hi": "कोण समद्विभाजक कोण को बराबर माप के दो कोणों में बाँटता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0030": {
+      "concept_id": "MATH6_C0030",
+      "en": "protractor",
+      "hi": "चाँदा",
+      "definition_en": "A protractor measures angles and helps draw a given angle.",
+      "definition_hi": "चाँदे से कोण का माप पढ़ते और दिया गया कोण बनाते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0111": {
+      "concept_id": "MATH6_C0111",
+      "en": "drawing angles of a given measure",
+      "hi": "कोणों को बनाना",
+      "definition_en": "To draw a given angle, mark its vertex, draw one ray, align the protractor, mark the required measure, and draw the second ray.",
+      "definition_hi": "दिया गया कोण बनाने के लिए शीर्ष और पहली किरण बनाएँ। चाँदा सही रखकर आवश्यक माप पर निशान लगाएँ और दूसरी किरण खींचें।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0027": {
+      "concept_id": "MATH6_C0027",
+      "en": "reflex angle",
+      "hi": "प्रतिवर्ती कोण",
+      "definition_en": "A reflex angle is greater than 180 degrees and less than 360 degrees.",
+      "definition_hi": "प्रतिवर्ती कोण 180 अंश से अधिक और 360 अंश से कम होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0051": {
+      "concept_id": "MATH6_C0051",
+      "en": "supercell",
+      "hi": "महाकोष्ठ",
+      "definition_en": "A supercell contains a number greater than its neighbouring cells.",
+      "definition_hi": "महाकोष्ठ की संख्या उसके पास वाले पड़ोसी कोष्ठों की संख्याओं से बड़ी होती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0041": {
+      "concept_id": "MATH6_C0041",
+      "en": "number line",
+      "hi": "संख्या रेखा",
+      "definition_en": "Numbers are arranged in order on a number line; the number farther right is greater.",
+      "definition_hi": "संख्या रेखा पर संख्याएँ क्रम में होती हैं। दाईं ओर की संख्या बड़ी होती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0039": {
+      "concept_id": "MATH6_C0039",
+      "en": "digit sum",
+      "hi": "अंकों का योग",
+      "definition_en": "Find a digit sum by adding the individual digits of a number.",
+      "definition_hi": "अंकों का योग निकालने के लिए संख्या के अलग-अलग अंक जोड़ते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0040": {
+      "concept_id": "MATH6_C0040",
+      "en": "palindromic numbers",
+      "hi": "पैलिंड्रोम (विलोमाक्षर) संख्याएँ",
+      "definition_en": "A palindromic number reads the same forwards and backwards, such as 121.",
+      "definition_hi": "विलोम संख्या को आगे या पीछे से पढ़ने पर वही संख्या मिलती है, जैसे 121।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0050": {
+      "concept_id": "MATH6_C0050",
+      "en": "Kaprekar constant (6174)",
+      "hi": "कापरेकर की जादुई संख्या",
+      "definition_en": "For four-digit numbers whose digits are not all equal, Kaprekar’s rearrange-and-subtract process reaches 6174.",
+      "definition_hi": "चार अंकों को घटते और बढ़ते क्रम में लिखकर उनका अंतर निकालने की कापरेकर प्रक्रिया 6174 तक पहुँचती है, जब सभी अंक समान न हों।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0112": {
+      "concept_id": "MATH6_C0112",
+      "en": "clock and calendar numbers",
+      "hi": "घड़ी और कैलेंडर की संख्याएँ",
+      "definition_en": "Clock and calendar numbers can form patterns; a twelve-hour clock repeats after twelve hours.",
+      "definition_hi": "घड़ी और कैलेंडर की संख्याएँ पैटर्न बनाती हैं। बारह घंटे वाली घड़ी बारह घंटे बाद दोहराती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0113": {
+      "concept_id": "MATH6_C0113",
+      "en": "mental math",
+      "hi": "मानसिक गणित",
+      "definition_en": "Mental math uses number relationships to simplify calculations, such as adding 9 by adding 10 and subtracting 1.",
+      "definition_hi": "मौखिक गणना में संख्या संबंधों से हिसाब आसान करते हैं। जैसे 9 जोड़ने के लिए 10 जोड़कर 1 घटाएँ।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0049": {
+      "concept_id": "MATH6_C0049",
+      "en": "quick sums using number patterns",
+      "hi": "संख्या पैटर्न के साथ खेलना",
+      "definition_en": "Recognising number patterns can turn a long sum into equal pairs with the same total.",
+      "definition_hi": "संख्या पैटर्न पहचानने से लंबे योग को बराबर योग वाले जोड़ों में बदल सकते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_ADD002": {
+      "concept_id": "MATH6_ADD002",
+      "en": "Collatz conjecture",
+      "hi": "कोलाट्ज़ अनुमान",
+      "definition_en": "The Collatz process divides an even number by 2, or multiplies an odd number by 3 and adds 1. Reaching 1 for every positive integer remains unproved.",
+      "definition_hi": "कोलाट्ज प्रक्रिया में सम संख्या को 2 से भाग और विषम संख्या को 3 से गुणा करके 1 जोड़ते हैं। सभी धन पूर्णांकों के लिए 1 तक पहुँचने का दावा अभी सिद्ध नहीं है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0042": {
+      "concept_id": "MATH6_C0042",
+      "en": "estimation",
+      "hi": "आकलन",
+      "definition_en": "Estimation finds a reasonable approximate value instead of an exact calculation.",
+      "definition_hi": "आकलन में सटीक गणना के बजाय उचित लगभग मान निकालते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0114": {
+      "concept_id": "MATH6_C0114",
+      "en": "winning strategy in number games",
+      "hi": "जीतने की रणनीति",
+      "definition_en": "A winning strategy plans moves using the rules of a number game rather than choosing moves at random.",
+      "definition_hi": "जीत की रणनीति में संख्या खेल के नियमों के अनुसार चालें तय करते हैं, केवल अनुमान से नहीं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0115": {
+      "concept_id": "MATH6_C0115",
+      "en": "data",
+      "hi": "आँकड़े",
+      "definition_en": "Data are collected observations or information, such as the favourite fruits chosen by students.",
+      "definition_hi": "आँकड़े एकत्र की गई जानकारी हैं, जैसे विद्यार्थियों के पसंदीदा फल।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0116": {
+      "concept_id": "MATH6_C0116",
+      "en": "tally marks",
+      "hi": "मिलान चिह्न",
+      "definition_en": "Tally marks count occurrences in groups of five; the fifth stroke crosses the first four.",
+      "definition_hi": "मिलान चिह्न घटनाओं को पाँच-पाँच के समूह में गिनते हैं। पाँचवीं रेखा पहली चार रेखाओं को काटती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0117": {
+      "concept_id": "MATH6_C0117",
+      "en": "frequency",
+      "hi": "बारंबारता",
+      "definition_en": "Frequency is the number of times a value or category occurs in the data.",
+      "definition_hi": "बारंबारता बताती है कि कोई मान या श्रेणी आँकड़ों में कितनी बार आती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0118": {
+      "concept_id": "MATH6_C0118",
+      "en": "frequency table",
+      "hi": "बारंबारता सारणी",
+      "definition_en": "A frequency table lists each value or category alongside its number of occurrences.",
+      "definition_hi": "बारंबारता सारणी में हर मान या श्रेणी के सामने उसकी गिनती लिखते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0119": {
+      "concept_id": "MATH6_C0119",
+      "en": "pictograph",
+      "hi": "चित्रालेख",
+      "definition_en": "A pictograph represents data with pictures or symbols whose value is explained by a key.",
+      "definition_hi": "चित्रालेख में चित्रों या चिह्नों से आँकड़े दिखाते हैं। संकेत बताता है कि हर चित्र का मान कितना है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0120": {
+      "concept_id": "MATH6_C0120",
+      "en": "scale or key of a graph",
+      "hi": "पैमाना या कुंजी",
+      "definition_en": "The scale or key states how many objects one symbol or one unit of graph length represents.",
+      "definition_hi": "पैमाना या संकेत बताता है कि एक चिह्न या ग्राफ की एक इकाई कितनी वस्तुएँ दिखाती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0121": {
+      "concept_id": "MATH6_C0121",
+      "en": "bar graph",
+      "hi": "दंड आलेख",
+      "definition_en": "A bar graph uses equal-width bars with lengths or heights proportional to the frequencies.",
+      "definition_hi": "दंड आलेख में बराबर चौड़ाई के दंडों की लंबाई या ऊँचाई बारंबारता के अनुसार होती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0122": {
+      "concept_id": "MATH6_C0122",
+      "en": "drawing a bar graph",
+      "hi": "दंड आलेख खींचना",
+      "definition_en": "Draw a bar graph by labelling categories and a number scale, then drawing equal-width, equally spaced bars to the correct heights.",
+      "definition_hi": "दंड आलेख में श्रेणियाँ और संख्या पैमाना लिखें। फिर सही ऊँचाई के बराबर चौड़ाई और बराबर अंतर वाले दंड बनाएँ।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0123": {
+      "concept_id": "MATH6_C0123",
+      "en": "vertical and horizontal bar graphs",
+      "hi": "स्तंभ आलेख (ऊर्ध्वाधर दंड)",
+      "definition_en": "Bars may be vertical or horizontal; their measured height or length still represents the data value.",
+      "definition_hi": "दंड खड़े या आड़े हो सकते हैं। उनकी मापी गई ऊँचाई या लंबाई आँकड़े का मान बताती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0124": {
+      "concept_id": "MATH6_C0124",
+      "en": "infographics",
+      "hi": "इन्फोग्राफिक्स (सूचना ग्राफिक्स)",
+      "definition_en": "An infographic combines data, pictures and short explanations to communicate information clearly; scales and labels should be checked.",
+      "definition_hi": "सूचना चित्र में आँकड़े, चित्र और छोटे विवरण मिलकर जानकारी देते हैं। पैमाना और नाम जाँचना आवश्यक है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0125": {
+      "concept_id": "MATH6_C0125",
+      "en": "multiple",
+      "hi": "गुणज",
+      "definition_en": "A multiple of a number is obtained by multiplying it by a whole number.",
+      "definition_hi": "किसी संख्या को पूर्ण संख्या से गुणा करने पर उसका गुणज मिलता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0126": {
+      "concept_id": "MATH6_C0126",
+      "en": "common multiple",
+      "hi": "सार्व गुणज",
+      "definition_en": "A common multiple is a number that is a multiple of each of the given numbers.",
+      "definition_hi": "सार्व गुणज वह संख्या है जो दी गई हर संख्या का गुणज हो।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0127": {
+      "concept_id": "MATH6_C0127",
+      "en": "factor (divisor)",
+      "hi": "गुणनखंड (भाजक)",
+      "definition_en": "A factor divides a whole number exactly, leaving no remainder.",
+      "definition_hi": "गुणनखंड किसी पूर्ण संख्या को बिना शेष के पूरा भाग देता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0128": {
+      "concept_id": "MATH6_C0128",
+      "en": "common factor",
+      "hi": "सार्व गुणनखंड",
+      "definition_en": "A common factor divides each of the given numbers exactly.",
+      "definition_hi": "सार्व गुणनखंड दी गई हर संख्या को बिना शेष के भाग देता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0129": {
+      "concept_id": "MATH6_C0129",
+      "en": "perfect number",
+      "hi": "संपूर्ण संख्या",
+      "definition_en": "A perfect number equals the sum of its positive proper factors; for example, 6 equals 1 + 2 + 3.",
+      "definition_hi": "पूर्ण संख्या अपने धन उचित गुणनखंडों के योग के बराबर होती है। उदाहरण: 6 का मान 1 + 2 + 3 के बराबर है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0130": {
+      "concept_id": "MATH6_C0130",
+      "en": "prime number",
+      "hi": "अभाज्य संख्या",
+      "definition_en": "A prime number is a whole number greater than 1 with exactly two positive factors: 1 and itself.",
+      "definition_hi": "अभाज्य संख्या 1 से बड़ी पूर्ण संख्या है जिसके केवल दो धन गुणनखंड होते हैं: 1 और स्वयं वह संख्या।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0131": {
+      "concept_id": "MATH6_C0131",
+      "en": "composite number",
+      "hi": "भाज्य संख्या",
+      "definition_en": "A composite number is a whole number greater than 1 with more than two positive factors.",
+      "definition_hi": "भाज्य संख्या 1 से बड़ी पूर्ण संख्या है जिसके दो से अधिक धन गुणनखंड होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0132": {
+      "concept_id": "MATH6_C0132",
+      "en": "Sieve of Eratosthenes",
+      "hi": "इराटोस्थेनीस की छलनी",
+      "definition_en": "The Sieve of Eratosthenes finds primes by successively crossing out multiples of prime numbers, starting with 2.",
+      "definition_hi": "एराटोस्थनीज की छलनी में 2 से शुरू करके अभाज्य संख्याओं के गुणज काटते हुए अभाज्य संख्याएँ खोजते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0133": {
+      "concept_id": "MATH6_C0133",
+      "en": "twin primes",
+      "hi": "अभाज्य युग्म (जुड़वाँ अभाज्य)",
+      "definition_en": "Twin primes are two prime numbers that differ by 2, such as 11 and 13.",
+      "definition_hi": "जुड़वाँ अभाज्य दो अभाज्य संख्याएँ हैं जिनका अंतर 2 होता है, जैसे 11 और 13।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0134": {
+      "concept_id": "MATH6_C0134",
+      "en": "co-prime numbers",
+      "hi": "सह-अभाज्य संख्याएँ",
+      "definition_en": "Two numbers are co-prime when their only common positive factor is 1; they need not both be prime.",
+      "definition_hi": "दो संख्याएँ सह-अभाज्य होती हैं जब उनका एकमात्र धन सार्व गुणनखंड 1 हो। दोनों का अभाज्य होना जरूरी नहीं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0135": {
+      "concept_id": "MATH6_C0135",
+      "en": "prime factorisation",
+      "hi": "अभाज्य गुणनखंडन",
+      "definition_en": "Prime factorisation writes a number as a product of prime numbers; the prime factors are unique apart from their order.",
+      "definition_hi": "अभाज्य गुणनखंडन में संख्या को अभाज्य संख्याओं के गुणनफल के रूप में लिखते हैं। क्रम बदलने से अभाज्य गुणनखंड नहीं बदलते।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0136": {
+      "concept_id": "MATH6_C0136",
+      "en": "prime factor",
+      "hi": "अभाज्य गुणनखंड",
+      "definition_en": "A prime factor is a factor that is also a prime number.",
+      "definition_hi": "अभाज्य गुणनखंड ऐसा गुणनखंड है जो अभाज्य संख्या भी हो।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0137": {
+      "concept_id": "MATH6_C0137",
+      "en": "divisibility",
+      "hi": "विभाज्यता",
+      "definition_en": "A number is divisible by another nonzero number when division leaves remainder zero.",
+      "definition_hi": "कोई संख्या दूसरी अशून्य संख्या से विभाज्य होती है जब भाग देने पर शेष शून्य हो।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0138": {
+      "concept_id": "MATH6_C0138",
+      "en": "divisibility tests for 2, 5 and 10",
+      "hi": "2, 5 और 10 से विभाज्यता की जाँच",
+      "definition_en": "A whole number is divisible by 2 if its last digit is even, by 5 if it ends in 0 or 5, and by 10 if it ends in 0.",
+      "definition_hi": "अंतिम अंक सम हो तो संख्या 2 से, अंतिम अंक 0 या 5 हो तो 5 से, और अंतिम अंक 0 हो तो 10 से विभाज्य है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0139": {
+      "concept_id": "MATH6_C0139",
+      "en": "divisibility tests for 4 and 8",
+      "hi": "4 और 8 से विभाज्यता की जाँच",
+      "definition_en": "Divisibility by 4 depends on the last two digits, and divisibility by 8 depends on the last three digits.",
+      "definition_hi": "4 से विभाज्यता अंतिम दो अंकों और 8 से विभाज्यता अंतिम तीन अंकों से जाँची जाती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0140": {
+      "concept_id": "MATH6_C0140",
+      "en": "rectangle",
+      "hi": "आयत",
+      "definition_en": "A rectangle has four right angles and opposite sides of equal length.",
+      "definition_hi": "आयत में चार समकोण होते हैं और सामने की भुजाएँ बराबर लंबाई की होती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0141": {
+      "concept_id": "MATH6_C0141",
+      "en": "square (shape)",
+      "hi": "वर्ग",
+      "definition_en": "A square has four equal sides and four right angles.",
+      "definition_hi": "वर्ग की चारों भुजाएँ बराबर होती हैं और चारों कोण समकोण होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0143": {
+      "concept_id": "MATH6_C0143",
+      "en": "length and its units",
+      "hi": "लंबाई",
+      "definition_en": "Length measures distance; one metre contains 100 cm.",
+      "definition_hi": "लंबाई दूरी का माप है। एक मीटर में 100 सेंटीमीटर होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0150": {
+      "concept_id": "MATH6_C0150",
+      "en": "perimeter",
+      "hi": "परिमाप",
+      "definition_en": "Perimeter is the total length of the boundary of a closed figure.",
+      "definition_hi": "किसी बंद आकृति की सीमा की कुल लंबाई उसका परिमाप है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0151": {
+      "concept_id": "MATH6_C0151",
+      "en": "perimeter of a rectangle",
+      "hi": "आयत का परिमाप",
+      "definition_en": "The perimeter of a rectangle is twice the sum of its length and breadth.",
+      "definition_hi": "आयत का परिमाप उसकी लंबाई और चौड़ाई के योग का दुगुना है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0152": {
+      "concept_id": "MATH6_C0152",
+      "en": "perimeter of a square",
+      "hi": "वर्ग का परिमाप",
+      "definition_en": "The perimeter of a square is four times its side length.",
+      "definition_hi": "वर्ग का परिमाप उसकी भुजा की लंबाई का चार गुना है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0153": {
+      "concept_id": "MATH6_C0153",
+      "en": "perimeter of a triangle",
+      "hi": "त्रिभुज का परिमाप",
+      "definition_en": "The perimeter of a triangle is the sum of the lengths of its three sides.",
+      "definition_hi": "त्रिभुज का परिमाप उसकी तीनों भुजाओं की लंबाइयों का योग है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0142": {
+      "concept_id": "MATH6_C0142",
+      "en": "triangle",
+      "hi": "त्रिभुज",
+      "definition_en": "A triangle is a closed figure made from three line segments.",
+      "definition_hi": "त्रिभुज तीन रेखाखंडों से बनी बंद आकृति है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0154": {
+      "concept_id": "MATH6_C0154",
+      "en": "equilateral triangle",
+      "hi": "समबाहु त्रिभुज",
+      "definition_en": "An equilateral triangle has three equal sides and three equal angles.",
+      "definition_hi": "समबाहु त्रिभुज की तीनों भुजाएँ और तीनों कोण बराबर होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0155": {
+      "concept_id": "MATH6_C0155",
+      "en": "perimeter of a regular polygon",
+      "hi": "सम बहुभुज का परिमाप",
+      "definition_en": "The perimeter of a regular polygon equals its number of sides multiplied by the length of one side.",
+      "definition_hi": "सम बहुभुज का परिमाप उसकी भुजाओं की संख्या और एक भुजा की लंबाई का गुणनफल है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0157": {
+      "concept_id": "MATH6_C0157",
+      "en": "square unit",
+      "hi": "वर्ग इकाई",
+      "definition_en": "One square unit is the area of a square with side length one unit.",
+      "definition_hi": "एक इकाई भुजा वाले वर्ग का क्षेत्रफल एक वर्ग इकाई होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0156": {
+      "concept_id": "MATH6_C0156",
+      "en": "area",
+      "hi": "क्षेत्रफल",
+      "definition_en": "Area measures how much surface a flat figure covers, using square units.",
+      "definition_hi": "क्षेत्रफल बताता है कि समतल आकृति कितनी सतह ढकती है। इसे वर्ग इकाइयों में मापते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0158": {
+      "concept_id": "MATH6_C0158",
+      "en": "area of a rectangle",
+      "hi": "आयत का क्षेत्रफल",
+      "definition_en": "The area of a rectangle is its length multiplied by its breadth.",
+      "definition_hi": "आयत का क्षेत्रफल उसकी लंबाई और चौड़ाई का गुणनफल है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0159": {
+      "concept_id": "MATH6_C0159",
+      "en": "area of a square",
+      "hi": "वर्ग का क्षेत्रफल",
+      "definition_en": "The area of a square is its side length multiplied by itself.",
+      "definition_hi": "वर्ग का क्षेत्रफल उसकी भुजा की लंबाई को उसी से गुणा करने पर मिलता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0160": {
+      "concept_id": "MATH6_C0160",
+      "en": "area by counting squares on grid paper",
+      "hi": "ग्रिड पेपर",
+      "definition_en": "Estimate area on grid paper by counting whole squares and combining partial squares.",
+      "definition_hi": "ग्रिड कागज पर पूरे वर्ग गिनकर और अधूरे वर्गों को मिलाकर क्षेत्रफल का अनुमान लगाते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0161": {
+      "concept_id": "MATH6_C0161",
+      "en": "tangram",
+      "hi": "टैनग्राम",
+      "definition_en": "A tangram is a seven-piece dissection puzzle whose pieces can be rearranged to make different figures.",
+      "definition_hi": "टैंग्राम सात टुकड़ों की पहेली है। इन टुकड़ों को अलग ढंग से रखकर नई आकृतियाँ बनाते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0162": {
+      "concept_id": "MATH6_C0162",
+      "en": "same perimeter, different area",
+      "hi": "समान परिमाप",
+      "definition_en": "Figures with the same perimeter can enclose different areas; boundary length alone does not determine area.",
+      "definition_hi": "बराबर परिमाप वाली आकृतियों के क्षेत्रफल अलग हो सकते हैं। केवल सीमा की लंबाई से क्षेत्रफल तय नहीं होता।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0163": {
+      "concept_id": "MATH6_C0163",
+      "en": "area of a triangle",
+      "hi": "त्रिभुज का क्षेत्रफल",
+      "definition_en": "A triangle is half of a rectangle with the same base and perpendicular height.",
+      "definition_hi": "समान आधार और लंबवत ऊँचाई वाले आयत का आधा क्षेत्रफल त्रिभुज का होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0164": {
+      "concept_id": "MATH6_C0164",
+      "en": "area of composite figures (split into rectangles and triangles)",
+      "hi": "आयत और त्रिभुजों में विभाजित करके क्षेत्रफल",
+      "definition_en": "Find a composite area by splitting the figure into non-overlapping simpler parts and adding their areas.",
+      "definition_hi": "मिश्रित आकृति को बिना चढ़ाव वाले सरल भागों में बाँटकर उनके क्षेत्रफल जोड़ें।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0172": {
+      "concept_id": "MATH6_C0172",
+      "en": "equal shares",
+      "hi": "समान भाग",
+      "definition_en": "Equal shares divide the same whole into parts of equal size, not merely the same number of pieces.",
+      "definition_hi": "बराबर हिस्सों में एक ही पूर्ण को बराबर आकार के भागों में बाँटते हैं, केवल टुकड़ों की संख्या बराबर करना पर्याप्त नहीं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0171": {
+      "concept_id": "MATH6_C0171",
+      "en": "fractional unit (unit fraction)",
+      "hi": "भिन्नात्मक इकाई",
+      "definition_en": "A unit fraction has numerator 1 and represents one equal part of a whole.",
+      "definition_hi": "इकाई भिन्न का अंश 1 होता है। यह पूर्ण के बराबर भागों में से एक भाग दिखाती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0170": {
+      "concept_id": "MATH6_C0170",
+      "en": "fraction",
+      "hi": "भिन्न",
+      "definition_en": "A fraction represents a quantity in fractional units, such as three one-quarter units making three quarters.",
+      "definition_hi": "भिन्न किसी मात्रा को भिन्नात्मक इकाइयों में दिखाती है। जैसे एक-चौथाई की तीन इकाइयाँ तीन-चौथाई होती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0173": {
+      "concept_id": "MATH6_C0173",
+      "en": "fraction as part of a whole",
+      "hi": "संपूर्ण के हिस्सों",
+      "definition_en": "For a fraction of a whole, the whole must first be divided into equal parts.",
+      "definition_hi": "पूर्ण का भिन्नात्मक भाग बताने के लिए पहले पूर्ण को बराबर भागों में बाँटना चाहिए।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0174": {
+      "concept_id": "MATH6_C0174",
+      "en": "numerator and denominator",
+      "hi": "अंश और हर",
+      "definition_en": "The denominator gives the number of equal parts in a whole; the numerator counts how many of those parts are taken.",
+      "definition_hi": "हर बताता है कि पूर्ण के कितने बराबर भाग हैं। अंश बताता है कि उनमें से कितने भाग लिए गए हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0175": {
+      "concept_id": "MATH6_C0175",
+      "en": "fractions on the number line",
+      "hi": "संख्या रेखा पर भिन्न",
+      "definition_en": "Place fractions on a number line by dividing each unit interval into equal parts according to the denominator.",
+      "definition_hi": "संख्या रेखा पर भिन्न दिखाने के लिए हर के अनुसार हर इकाई अंतराल को बराबर भागों में बाँटें।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0176": {
+      "concept_id": "MATH6_C0176",
+      "en": "mixed fraction (mixed number)",
+      "hi": "मिश्रित भिन्न",
+      "definition_en": "A mixed number combines a whole-number part with a proper fraction, such as one and a half.",
+      "definition_hi": "मिश्र भिन्न में पूर्ण संख्या और उचित भिन्न दोनों होते हैं, जैसे एक और आधा।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0177": {
+      "concept_id": "MATH6_C0177",
+      "en": "equivalent fractions",
+      "hi": "तुल्य भिन्न",
+      "definition_en": "Equivalent fractions represent the same quantity; multiplying numerator and denominator by the same nonzero number keeps the value unchanged.",
+      "definition_hi": "समतुल्य भिन्न एक ही मात्रा बताती हैं। अंश और हर को एक ही अशून्य संख्या से गुणा करने पर मान नहीं बदलता।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0178": {
+      "concept_id": "MATH6_C0178",
+      "en": "lowest terms (simplest form)",
+      "hi": "सरलतम रूप",
+      "definition_en": "A fraction is in lowest terms when numerator and denominator have no common positive factor other than 1.",
+      "definition_hi": "भिन्न सरलतम रूप में होती है जब अंश और हर का 1 के अलावा कोई धन सार्व गुणनखंड न हो।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0179": {
+      "concept_id": "MATH6_C0179",
+      "en": "comparing fractions",
+      "hi": "भिन्नों की तुलना",
+      "definition_en": "Compare fractions using equal-sized fractional units or equivalent fractions with a common denominator.",
+      "definition_hi": "भिन्नों की तुलना बराबर आकार की इकाइयों या समान हर वाली समतुल्य भिन्नों से करें।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0180": {
+      "concept_id": "MATH6_C0180",
+      "en": "addition of fractions",
+      "hi": "भिन्नों को जोड़ना",
+      "definition_en": "To add fractions, use a common denominator and add the numerators while keeping that denominator.",
+      "definition_hi": "भिन्न जोड़ने के लिए हर समान करें। फिर अंश जोड़ें और वही हर रखें।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0181": {
+      "concept_id": "MATH6_C0181",
+      "en": "subtraction of fractions",
+      "hi": "भिन्नों को घटाना",
+      "definition_en": "To subtract fractions, use a common denominator and subtract the numerators while keeping that denominator.",
+      "definition_hi": "भिन्न घटाने के लिए हर समान करें। फिर अंश घटाएँ और वही हर रखें।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0182": {
+      "concept_id": "MATH6_C0182",
+      "en": "Brahmagupta's method for fractions",
+      "hi": "ब्रह्मगुप्त विधि",
+      "definition_en": "Brahmagupta described converting fractions to a common denominator before adding or subtracting their numerators.",
+      "definition_hi": "ब्रह्मगुप्त ने भिन्नों को समान हर में बदलकर उनके अंश जोड़ने या घटाने की विधि बताई।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0183": {
+      "concept_id": "MATH6_C0183",
+      "en": "Egyptian fractions",
+      "hi": "मिस्र भिन्न",
+      "definition_en": "Egyptian fractions express a quantity as a sum of distinct unit fractions, such as one half plus one third.",
+      "definition_hi": "मिस्री भिन्नों में मात्रा को अलग-अलग इकाई भिन्नों के योग के रूप में लिखते हैं, जैसे आधा और एक-तिहाई।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0190": {
+      "concept_id": "MATH6_C0190",
+      "en": "circle",
+      "hi": "वृत्त",
+      "definition_en": "A circle consists of all points in a plane at a fixed distance from one fixed point.",
+      "definition_hi": "वृत्त समतल के उन सभी बिंदुओं से बनता है जो एक निश्चित बिंदु से बराबर दूरी पर हों।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0191": {
+      "concept_id": "MATH6_C0191",
+      "en": "centre and radius of a circle",
+      "hi": "केंद्र और त्रिज्या",
+      "definition_en": "The fixed point is the centre; the distance from the centre to any point on the circle is the radius.",
+      "definition_hi": "निश्चित बिंदु केंद्र है। केंद्र से वृत्त के किसी बिंदु तक की दूरी त्रिज्या है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0192": {
+      "concept_id": "MATH6_C0192",
+      "en": "compass",
+      "hi": "परकार",
+      "definition_en": "A compass draws circles and arcs and transfers a chosen distance while keeping its opening fixed.",
+      "definition_hi": "परकार से वृत्त और चाप बनाते हैं। उसका खुलाव स्थिर रखकर चुनी हुई दूरी भी उतार सकते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0193": {
+      "concept_id": "MATH6_C0193",
+      "en": "arc",
+      "hi": "चाप",
+      "definition_en": "An arc is a part of the circumference of a circle.",
+      "definition_hi": "चाप वृत्त की परिधि का एक भाग है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0194": {
+      "concept_id": "MATH6_C0194",
+      "en": "properties of rectangles and squares",
+      "hi": "सम्मुख भुजाएँ और कोण",
+      "definition_en": "Rectangles and squares have four right angles; a square also has all four sides equal.",
+      "definition_hi": "आयत और वर्ग दोनों में चार समकोण होते हैं। वर्ग में चारों भुजाएँ भी बराबर होती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0198": {
+      "concept_id": "MATH6_C0198",
+      "en": "rough diagram",
+      "hi": "रफ आकृति",
+      "definition_en": "A rough diagram records the intended shape and given measurements; its drawn lengths need not be exactly to scale.",
+      "definition_hi": "रफ चित्र में आकृति और दिए हुए माप दिखाते हैं। उसकी खींची हुई लंबाइयों का ठीक पैमाने पर होना जरूरी नहीं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0195": {
+      "concept_id": "MATH6_C0195",
+      "en": "constructing squares and rectangles",
+      "hi": "वर्ग और आयत की रचना",
+      "definition_en": "Construct squares and rectangles by drawing measured sides and right angles, checking the defining properties.",
+      "definition_hi": "नापी गई भुजाओं और समकोणों से वर्ग व आयत बनाएँ और उनके आवश्यक गुण जाँचें।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0196": {
+      "concept_id": "MATH6_C0196",
+      "en": "diagonal",
+      "hi": "विकर्ण",
+      "definition_en": "A diagonal joins two vertices of a polygon that are not next to each other.",
+      "definition_hi": "विकर्ण बहुभुज के ऐसे दो शीर्षों को जोड़ता है जो पास-पास न हों।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0197": {
+      "concept_id": "MATH6_C0197",
+      "en": "points equidistant from two given points",
+      "hi": "समदूरस्थ बिंदु",
+      "definition_en": "Points equally distant from two fixed points lie on the perpendicular bisector of the segment joining those points.",
+      "definition_hi": "दो निश्चित बिंदुओं से बराबर दूरी वाले बिंदु उन्हें जोड़ने वाले रेखाखंड के लंब समद्विभाजक पर होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0200": {
+      "concept_id": "MATH6_C0200",
+      "en": "symmetry",
+      "hi": "सममिति",
+      "definition_en": "A figure has symmetry when a reflection or a rotation can make it match itself exactly.",
+      "definition_hi": "किसी आकृति को प्रतिबिंबित या घुमाने पर वह अपने ऊपर पूरी तरह मिल जाए तो उसमें सममिति होती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0201": {
+      "concept_id": "MATH6_C0201",
+      "en": "line of symmetry",
+      "hi": "सममिति की रेखा",
+      "definition_en": "A line of symmetry divides a figure into two halves that match exactly when folded along that line.",
+      "definition_hi": "सममिति रेखा आकृति को दो ऐसे भागों में बाँटती है जो उस रेखा पर मोड़ने पर ठीक मिलते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0202": {
+      "concept_id": "MATH6_C0202",
+      "en": "reflection symmetry",
+      "hi": "परावर्तीय सममिति",
+      "definition_en": "Reflection symmetry means a figure matches its mirror image across a line.",
+      "definition_hi": "प्रतिबिंब सममिति में आकृति किसी रेखा के आर-पार अपने दर्पण प्रतिबिंब से मिलती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0203": {
+      "concept_id": "MATH6_C0203",
+      "en": "rotational symmetry",
+      "hi": "घूर्णन सममिति",
+      "definition_en": "Rotational symmetry occurs when a turn smaller than a full turn makes a figure match itself.",
+      "definition_hi": "घूर्णन सममिति में पूरे घुमाव से कम घुमाने पर आकृति अपने ऊपर मिलती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0204": {
+      "concept_id": "MATH6_C0204",
+      "en": "centre of rotation",
+      "hi": "घूर्णन का केंद्र",
+      "definition_en": "The centre of rotation is the fixed point about which a figure turns.",
+      "definition_hi": "घूर्णन केंद्र वह स्थिर बिंदु है जिसके चारों ओर आकृति घूमती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0205": {
+      "concept_id": "MATH6_C0205",
+      "en": "angle of symmetry",
+      "hi": "सममिति का कोण",
+      "definition_en": "An angle of symmetry is a positive turn that makes a figure match itself; the smallest one determines its rotational order.",
+      "definition_hi": "सममिति कोण ऐसा धन घुमाव है जिससे आकृति अपने ऊपर मिले। सबसे छोटा ऐसा कोण घूर्णन क्रम तय करता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0210": {
+      "concept_id": "MATH6_C0210",
+      "en": "positive numbers",
+      "hi": "धनात्मक संख्याएँ",
+      "definition_en": "Positive numbers are greater than zero and lie to the right of zero on a number line.",
+      "definition_hi": "धन संख्याएँ शून्य से बड़ी होती हैं और संख्या रेखा पर शून्य के दाईं ओर होती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0211": {
+      "concept_id": "MATH6_C0211",
+      "en": "negative numbers",
+      "hi": "ऋणात्मक संख्याएँ",
+      "definition_en": "Negative numbers are less than zero and lie to the left of zero on a number line.",
+      "definition_hi": "ऋण संख्याएँ शून्य से छोटी होती हैं और संख्या रेखा पर शून्य के बाईं ओर होती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0213": {
+      "concept_id": "MATH6_C0213",
+      "en": "integers",
+      "hi": "पूर्णांक",
+      "definition_en": "Integers include zero, positive counting numbers and their negative counterparts.",
+      "definition_hi": "पूर्णांकों में शून्य, धन गिनती की संख्याएँ और उनकी ऋण संख्याएँ शामिल होती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0212": {
+      "concept_id": "MATH6_C0212",
+      "en": "additive inverse",
+      "hi": "योज्य प्रतिलोम",
+      "definition_en": "Additive inverses are two numbers whose sum is zero, such as 4 and negative 4.",
+      "definition_hi": "योगात्मक प्रतिलोम ऐसी दो संख्याएँ हैं जिनका योग शून्य हो, जैसे 4 और ऋण 4।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0217": {
+      "concept_id": "MATH6_C0217",
+      "en": "integers on the number line",
+      "hi": "संख्या रेखा पर पूर्णांक",
+      "definition_en": "Integers occupy equally spaced positions on a number line, with zero between the positive and negative sides.",
+      "definition_hi": "पूर्णांक संख्या रेखा पर बराबर दूरी पर होते हैं। शून्य धन और ऋण पक्षों के बीच होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0214": {
+      "concept_id": "MATH6_C0214",
+      "en": "comparing integers",
+      "hi": "पूर्णांकों की तुलना",
+      "definition_en": "On an integer number line, the number farther right is greater, even when both numbers are negative.",
+      "definition_hi": "पूर्णांक संख्या रेखा पर दाईं ओर की संख्या बड़ी होती है, भले दोनों संख्याएँ ऋण हों।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0215": {
+      "concept_id": "MATH6_C0215",
+      "en": "addition of integers",
+      "hi": "पूर्णांकों का योग",
+      "definition_en": "Integer addition combines signed changes; opposite changes can cancel to zero.",
+      "definition_hi": "पूर्णांकों का जोड़ चिह्न वाली बढ़त और कमी को मिलाता है। विपरीत बदलाव एक-दूसरे को शून्य कर सकते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0216": {
+      "concept_id": "MATH6_C0216",
+      "en": "subtraction of integers",
+      "hi": "पूर्णांकों का घटाव",
+      "definition_en": "Subtracting an integer is equivalent to adding its additive inverse.",
+      "definition_hi": "किसी पूर्णांक को घटाना उसके योगात्मक प्रतिलोम को जोड़ने के बराबर है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0218": {
+      "concept_id": "MATH6_C0218",
+      "en": "token model (zero pair)",
+      "hi": "टोकन मॉडल",
+      "definition_en": "In a signed-token model, one positive token and one negative token make a zero pair.",
+      "definition_hi": "चिह्न वाले टोकन मॉडल में एक धन और एक ऋण टोकन मिलकर शून्य युग्म बनाते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0219": {
+      "concept_id": "MATH6_C0219",
+      "en": "integers in other places (credits, debits, sea level, temperature)",
+      "hi": "अन्य स्थानों पर पूर्णांक",
+      "definition_en": "Signed numbers describe changes and positions, such as temperature below zero, debts, or heights below sea level.",
+      "definition_hi": "चिह्न वाली संख्याएँ बदलाव और स्थिति बताती हैं, जैसे शून्य से नीचे तापमान, ऋण या समुद्र तल से नीचे ऊँचाई।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    },
+    "MATH6_C0220": {
+      "concept_id": "MATH6_C0220",
+      "en": "Brahmagupta's rules for integers",
+      "hi": "ब्रह्मगुप्त के नियम",
+      "definition_en": "Brahmagupta described rules for operations on positive numbers, negative numbers and zero.",
+      "definition_hi": "ब्रह्मगुप्त ने धन संख्याओं, ऋण संख्याओं और शून्य पर संक्रियाओं के नियम बताए।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "Original bilingual curriculum-v2 draft; source references are separately audited."
+    }
+  }
+}

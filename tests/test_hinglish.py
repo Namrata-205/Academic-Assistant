@@ -14,6 +14,8 @@ class HinglishTests(unittest.TestCase):
         self.assertEqual(hinglish.detect('Explain acute angles simply'),'en')
         self.assertEqual(hinglish.detect('mujhe pattern nahi samajhta','hi'),'hi')
         self.assertEqual(hinglish.detect('2','hinglish'),'hinglish')
+        self.assertEqual(hinglish.detect('Fractions samjhao','auto'),'hinglish')
+        self.assertEqual(hinglish.detect('भिन्न समझाइए','auto'),'hi')
 
     def test_question_math_tokens_and_keys_are_preserved(self):
         for q in load():
@@ -31,9 +33,17 @@ class HinglishTests(unittest.TestCase):
             self.assertIn('basics',start['message']['message'])
             self.assertTrue(start['message']['check_question']['translations']['hinglish'])
             with patch.object(chat,'generate',side_effect=RuntimeError('offline')):
-                reply=chat.send(conn,'a','__check_batch__:'+__import__('json').dumps(['7']*len(start['message']['check_questions'])),'hinglish',start['thread_id'])
+                reply=chat.send(conn,'a','7','auto',start['thread_id'])
+                while reply['message'].get('check_question'):
+                    reply=chat.send(conn,'a','7','auto',start['thread_id'])
             self.assertEqual(reply['message']['language'],'hinglish')
             self.assertNotIn('answer',reply['message']['practice_question'])
+            paragraphs=reply['message']['paragraphs']
+            self.assertTrue(any('hai' in p['text'] for p in paragraphs if p.get('kind')!='textbook_excerpt'))
+            self.assertFalse(any(re.search('[\u0900-\u097f]',p['text']) for p in paragraphs))
+            example=chat.send(conn,'a','2468 mein 6 ki place value kya hai?','auto',concept_id='MATH6_C0038')['message']
+            self.assertEqual(example['mode'],'calculated')
+            self.assertIn('6 × 10 = 60',example['paragraphs'][0]['text'])
             self.assertEqual(hinglish.STYLE.get(),'en')
             self.assertEqual(e.history(conn,'a'),[]);conn.close()
 

@@ -1,0 +1,8 @@
+{
+  "sha256": "112c8b1d0a5de510fb1e6b87166c5354b635114d79626313661ede639f517047",
+  "train": 75,
+  "validation": 4,
+  "test": 12,
+  "test_model_cases": 9,
+  "final_scenarios_used": false
+}

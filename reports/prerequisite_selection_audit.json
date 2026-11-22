@@ -1,0 +1,2064 @@
+{
+  "policy": "adaptive-chat-v2",
+  "reviewed_targets": 0,
+  "targets": [
+    {
+      "target": "MATH6_ADD001",
+      "target_en": "Virahanka numbers",
+      "target_hi": "विरहांक संख्याएँ",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0005",
+        "MATH6_C0013",
+        "MATH6_C0015",
+        "MATH6_C0036",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0005",
+        "MATH6_C0013",
+        "MATH6_C0015",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.89,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_ADD002",
+      "target_en": "Collatz conjecture",
+      "target_hi": "कोलाट्ज़ अनुमान",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0005",
+        "MATH6_C0006",
+        "MATH6_C0007",
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0044",
+        "MATH6_C0045",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0005",
+        "MATH6_C0013",
+        "MATH6_C0044",
+        "MATH6_C0045",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0007",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0007_1"
+        },
+        {
+          "concept_id": "MATH6_C0006",
+          "graph_confidence": 0.92,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0006_1"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_ADD003",
+      "target_en": "plane geometry",
+      "target_hi": "समतल ज्यामिति",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0018",
+        "MATH6_C0019",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0018",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0018_1"
+        },
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0003",
+      "target_en": "number pattern",
+      "target_hi": "संख्या पैटर्न",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0012",
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038",
+        "MATH6_C0041"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.88,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.86,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0041",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_07"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.84,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        },
+        {
+          "concept_id": "MATH6_C0012",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_05"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0004",
+      "target_en": "shape pattern",
+      "target_hi": "आकृति पैटर्न",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0002"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0002"
+      ],
+      "candidate_ranking": [],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0005",
+      "target_en": "sequence",
+      "target_hi": "अनुक्रम",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0006",
+        "MATH6_C0007",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038",
+        "MATH6_C0046",
+        "MATH6_C0047"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0046",
+        "MATH6_C0047"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        },
+        {
+          "concept_id": "MATH6_C0006",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0006_1"
+        },
+        {
+          "concept_id": "MATH6_C0007",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0007_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0006",
+      "target_en": "odd number",
+      "target_hi": "विषम संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0013",
+        "MATH6_C0036"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.96,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.86,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0007",
+      "target_en": "even number",
+      "target_hi": "सम संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0013"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.86,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0008",
+      "target_en": "triangular number",
+      "target_hi": "त्रिभुजाकार संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0005",
+        "MATH6_C0012",
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0046",
+        "MATH6_C0047"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0005",
+        "MATH6_C0013",
+        "MATH6_C0046",
+        "MATH6_C0047"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.91,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0012",
+          "graph_confidence": 0.88,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_05"
+        },
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.84,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0009",
+      "target_en": "square number",
+      "target_hi": "वर्ग संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0005",
+        "MATH6_C0006",
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0046",
+        "MATH6_C0047"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0005",
+        "MATH6_C0013",
+        "MATH6_C0046",
+        "MATH6_C0047"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        },
+        {
+          "concept_id": "MATH6_C0006",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0006_1"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0010",
+      "target_en": "cube number",
+      "target_hi": "घन संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0005",
+        "MATH6_C0009",
+        "MATH6_C0013",
+        "MATH6_C0036"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0005",
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.84,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.78,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0009",
+          "graph_confidence": 0.75,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0009_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0011",
+      "target_en": "powers of 2",
+      "target_hi": "2 की घातें",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0005",
+        "MATH6_C0012",
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0038",
+        "MATH6_C0041",
+        "MATH6_C0046",
+        "MATH6_C0047",
+        "MATH6_C0048"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0005",
+        "MATH6_C0013",
+        "MATH6_C0046",
+        "MATH6_C0047",
+        "MATH6_C0048"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.83,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0012",
+          "graph_confidence": 0.78,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_05"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        },
+        {
+          "concept_id": "MATH6_C0041",
+          "graph_confidence": 0.65,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_07"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0012",
+      "target_en": "consecutive number",
+      "target_hi": "क्रमागत संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.82,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.78,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0014",
+      "target_en": "regular polygon",
+      "target_hi": "सम बहुभुज",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0003",
+        "MATH6_C0004",
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0018",
+        "MATH6_C0021",
+        "MATH6_C0034",
+        "MATH6_C0036"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0004",
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0021",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0018",
+          "graph_confidence": 0.88,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0018_1"
+        },
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0017",
+      "target_en": "line",
+      "target_hi": "रेखा",
+      "all_graph_prerequisites": [
+        "MATH6_C0016"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016"
+      ],
+      "candidate_ranking": [],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0018",
+      "target_en": "line segment",
+      "target_hi": "रेखाखंड",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0017"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0017"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0018",
+          "graph_confidence": 0.0,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0018_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0019",
+      "target_en": "ray",
+      "target_hi": "किरण",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0017"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0017"
+      ],
+      "candidate_ranking": [],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0020",
+      "target_en": "angle",
+      "target_hi": "कोण",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0019"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0019"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.0,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0021",
+      "target_en": "vertex",
+      "target_hi": "शीर्ष",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0018",
+        "MATH6_C0019",
+        "MATH6_C0020"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0018",
+          "graph_confidence": 0.78,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0018_1"
+        },
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.78,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0022",
+      "target_en": "arm of angle",
+      "target_hi": "कोण की भुजा",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0018",
+        "MATH6_C0019",
+        "MATH6_C0020"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        },
+        {
+          "concept_id": "MATH6_C0018",
+          "graph_confidence": 0.73,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0018_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0023",
+      "target_en": "straight angle",
+      "target_hi": "सरल कोण",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.88,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0024",
+      "target_en": "right angle",
+      "target_hi": "समकोण",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.96,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0025",
+      "target_en": "acute angle",
+      "target_hi": "न्यून कोण",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0024",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.96,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        },
+        {
+          "concept_id": "MATH6_C0024",
+          "graph_confidence": 0.94,
+          "valid_observations": 0,
+          "available_items": 6,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0024_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0026",
+      "target_en": "obtuse angle",
+      "target_hi": "अधिक कोण",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0024",
+        "MATH6_C0029",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0029",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.96,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        },
+        {
+          "concept_id": "MATH6_C0024",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 6,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0024_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0027",
+      "target_en": "reflex angle",
+      "target_hi": "प्रतिवर्ती कोण",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0028",
+        "MATH6_C0029",
+        "MATH6_C0030",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0028",
+        "MATH6_C0029",
+        "MATH6_C0030",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0028",
+      "target_en": "complete angle",
+      "target_hi": "पूर्ण कोण",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0024",
+        "MATH6_C0029",
+        "MATH6_C0034",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038",
+        "MATH6_C0039"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0029",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        },
+        {
+          "concept_id": "MATH6_C0024",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 6,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0024_1"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        },
+        {
+          "concept_id": "MATH6_C0039",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0039_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0029",
+      "target_en": "degree",
+      "target_hi": "डिग्री",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.96,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0030",
+      "target_en": "protractor",
+      "target_hi": "चाँदा",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0024",
+        "MATH6_C0029",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0013",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0029",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.94,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        },
+        {
+          "concept_id": "MATH6_C0024",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 6,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0024_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0031",
+      "target_en": "perpendicular",
+      "target_hi": "लंबवत रेखाएँ",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0024",
+        "MATH6_C0029",
+        "MATH6_C0030",
+        "MATH6_C0033",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0023",
+        "MATH6_C0029",
+        "MATH6_C0030",
+        "MATH6_C0033",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        },
+        {
+          "concept_id": "MATH6_C0024",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 6,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0024_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0032",
+      "target_en": "parallel lines",
+      "target_hi": "समांतर रेखाएँ",
+      "all_graph_prerequisites": [
+        "MATH6_C0017",
+        "MATH6_C0020",
+        "MATH6_C0022",
+        "MATH6_C0028",
+        "MATH6_C0033"
+      ],
+      "without_bank_items": [
+        "MATH6_C0017",
+        "MATH6_C0022",
+        "MATH6_C0028",
+        "MATH6_C0033"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.78,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0033",
+      "target_en": "intersecting lines",
+      "target_hi": "प्रतिच्छेदी रेखाएँ",
+      "all_graph_prerequisites": [
+        "MATH6_C0017",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0028"
+      ],
+      "without_bank_items": [
+        "MATH6_C0017",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0028"
+      ],
+      "candidate_ranking": [],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0034",
+      "target_en": "rotation",
+      "target_hi": "घूर्णन",
+      "all_graph_prerequisites": [
+        "MATH6_C0016",
+        "MATH6_C0019",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0029",
+        "MATH6_C0033"
+      ],
+      "without_bank_items": [
+        "MATH6_C0016",
+        "MATH6_C0019",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0029",
+        "MATH6_C0033"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.81,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0035",
+      "target_en": "angle bisector",
+      "target_hi": "कोण समद्विभाजक",
+      "all_graph_prerequisites": [
+        "MATH6_ADD003",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0020",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0029",
+        "MATH6_C0030",
+        "MATH6_C0033",
+        "MATH6_C0034"
+      ],
+      "without_bank_items": [
+        "MATH6_ADD003",
+        "MATH6_C0016",
+        "MATH6_C0017",
+        "MATH6_C0019",
+        "MATH6_C0021",
+        "MATH6_C0022",
+        "MATH6_C0029",
+        "MATH6_C0030",
+        "MATH6_C0033",
+        "MATH6_C0034"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0020",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0020_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0036",
+      "target_en": "number",
+      "target_hi": "संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0037"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.81,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0037",
+      "target_en": "digit",
+      "target_hi": "अंक",
+      "all_graph_prerequisites": [
+        "MATH6_C0013"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.0,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0038",
+      "target_en": "place value",
+      "target_hi": "स्थानीय मान",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0037"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0039",
+      "target_en": "digit sum",
+      "target_hi": "अंकों का योग",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038",
+        "MATH6_C0046"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0046"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.84,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0040",
+      "target_en": "palindrome",
+      "target_hi": "पैलिंड्रोम",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0003",
+        "MATH6_C0013",
+        "MATH6_C0015",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0013",
+        "MATH6_C0015",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0003",
+          "graph_confidence": 0.82,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0003_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0041",
+      "target_en": "number line",
+      "target_hi": "संख्या रेखा",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038",
+        "MATH6_C0046",
+        "MATH6_C0047"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0046",
+        "MATH6_C0047"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.75,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0042",
+      "target_en": "estimation",
+      "target_hi": "आकलन",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0043"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0043"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0043",
+      "target_en": "rounding",
+      "target_hi": "निकटतम मान तक पूर्णांकन",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.6,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0044",
+      "target_en": "odd number",
+      "target_hi": "विषम संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0006",
+        "MATH6_C0007",
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0046"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0046"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0006",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0006_1"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0007",
+          "graph_confidence": 0.6,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0007_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0045",
+      "target_en": "even number",
+      "target_hi": "सम संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0046"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0046"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0046",
+      "target_en": "addition",
+      "target_hi": "जोड़",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0047",
+      "target_en": "subtraction",
+      "target_hi": "घटाव",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038",
+        "MATH6_C0046"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0046"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.95,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.8,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0048",
+      "target_en": "magic square",
+      "target_hi": "जादुई वर्ग",
+      "all_graph_prerequisites": [
+        "MATH6_C0009",
+        "MATH6_C0036",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "without_bank_items": [
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.92,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0009",
+          "graph_confidence": 0.55,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0009_1"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0049",
+      "target_en": "pattern",
+      "target_hi": "पैटर्न",
+      "all_graph_prerequisites": [
+        "MATH6_C0002",
+        "MATH6_C0015",
+        "MATH6_C0036"
+      ],
+      "without_bank_items": [
+        "MATH6_C0002",
+        "MATH6_C0015"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.88,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0050",
+      "target_en": "Kaprekar number",
+      "target_hi": "कापरेकर संख्या",
+      "all_graph_prerequisites": [
+        "MATH6_C0009",
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0046",
+        "MATH6_C0049"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.94,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0009",
+          "graph_confidence": 0.75,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0009_1"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.7,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.65,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        }
+      ],
+      "review_status": "PENDING"
+    },
+    {
+      "target": "MATH6_C0051",
+      "target_en": "supercell",
+      "target_hi": "महाकोष्ठ",
+      "all_graph_prerequisites": [
+        "MATH6_C0013",
+        "MATH6_C0036",
+        "MATH6_C0037",
+        "MATH6_C0038",
+        "MATH6_C0044",
+        "MATH6_C0045",
+        "MATH6_C0048",
+        "MATH6_C0049"
+      ],
+      "without_bank_items": [
+        "MATH6_C0013",
+        "MATH6_C0044",
+        "MATH6_C0045",
+        "MATH6_C0048",
+        "MATH6_C0049"
+      ],
+      "candidate_ranking": [
+        {
+          "concept_id": "MATH6_C0036",
+          "graph_confidence": 0.9,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_01"
+        },
+        {
+          "concept_id": "MATH6_C0037",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 2,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "TQ_FOUNDATION_03"
+        },
+        {
+          "concept_id": "MATH6_C0038",
+          "graph_confidence": 0.85,
+          "valid_observations": 0,
+          "available_items": 3,
+          "needs_confirmation": false,
+          "unresolved": true,
+          "next_item_id": "DQ_0038_1"
+        }
+      ],
+      "review_status": "PENDING"
+    }
+  ],
+  "interpretation": "No prerequisite recall is claimed without independently reviewed important-prerequisite labels. These are graph and bank coverage diagnostics."
+}

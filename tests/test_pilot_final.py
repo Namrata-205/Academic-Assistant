@@ -1,3 +1,4 @@
+from tests.legacy_curriculum import frozen_v1
 import unittest
 from unittest.mock import patch
 from diagnostic import engine as e
@@ -7,7 +8,9 @@ import json
 
 class DevelopmentPilotTests(unittest.TestCase):
     @classmethod
-    def setUpClass(cls):cls.nodes,cls.edges=e.load_graph();cls.bank=e.load_bank()
+    def setUpClass(cls):
+        cls._legacy=frozen_v1();cls._legacy.__enter__();cls.addClassCleanup(cls._legacy.__exit__,None,None,None)
+        cls.nodes,cls.edges=e.load_graph();cls.bank=e.load_bank()
 
     def fixture(self,mode='correct'):
         responses={q['id']:q['answer'] if mode=='correct' else 'not sure' for q in self.bank}

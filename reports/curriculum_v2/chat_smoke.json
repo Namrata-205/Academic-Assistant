@@ -1,0 +1,684 @@
+{
+  "scope": "Real local retrieval and offline teaching; not a measured learning-effectiveness result.",
+  "passed": true,
+  "cases": [
+    {
+      "concept_id": "MATH6_C0106",
+      "chapter": "CH01",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "In a complete graph, every pair of distinct points is joined by one edge.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Can you explain why this happens? 2. Count the number of lines in each shape in the sequence of Complete Graphs. Which number sequence do you get? Can you explain why?",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Join every pair of 4 distinct points once. How many edges? Answer: 6. 6",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Can you explain why this happens? 2. Count the number of lines in each shape in the sequence of Complete Graphs. Which number sequence do you get? Can you explain why?",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp101.pdf#page=11",
+        "/api/textbooks/en/fegp101.pdf#page=12",
+        "/api/textbooks/en/fegp101.pdf#page=11",
+        "/api/textbooks/en/fegp101.pdf#page=10"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0106",
+      "chapter": "CH01",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "पूर्ण ग्राफ में हर दो अलग बिंदुओं को एक किनारे से जोड़ा जाता है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "चित्रों का उपयोग करके संख्या अनुक्रमों के दृश्यांकन से अनुक्रमों और उनके बीच संबंधों को समझने में सहायता प्राप्त हो सकती है। आकार अनुक्रम गणित में पैटर्न का एक और मौलिक प्रकार है। आकार अनुक्रमों के कुछ महत्वपूर्ण उदाहरणों में सम बहुभुज, संपूर्ण ग्राफ, ढेरित त्रिभुज और वर्ग तथा कोच हिमकण (snowflake) पुनरावृत्तियाँ सम्मिलित होती हैं। आकार अनुक्रम, संख्या अनुक्रमों के साथ अनेक रोचक संबंध भी प्रदर्शित करते हैं।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: 4 अलग बिंदुओं के हर जोड़े को एक बार जोड़ें। किनारे कितने होंगे? उत्तर: 6. 6",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "चित्रों का उपयोग करके संख्या अनुक्रमों के दृश्यांकन से अनुक्रमों और उनके बीच संबंधों को समझने में सहायता प्राप्त हो सकती है। आकार अनुक्रम गणित में पैटर्न का एक और मौलिक प्रकार है। आकार अनुक्रमों के कुछ महत्वपूर्ण उदाहरणों में सम बहुभुज, संपूर्ण ग्राफ, ढेरित त्रिभुज और वर्ग तथा कोच हिमकण (snowflake) पुनरावृत्तियाँ सम्मिलित होती हैं। आकार अनुक्रम, संख्या अनुक्रमों के साथ अनेक रोचक संबंध भी प्रदर्शित करते हैं।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp101.pdf#page=12",
+        "/api/textbooks/hi/fhgp101.pdf#page=12"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0111",
+      "chapter": "CH02",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "To draw a given angle, mark its vertex, draw one ray, align the protractor, mark the required measure, and draw the second ray.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "It is important that students see the application of each mathematical concept in their daily lives. Teacher can organise some activities where students can appreciate the practical applications of angles in real-life situations, e.g., clocks, doors, swings, concepts of uphill and downhill, location of the sun, the giving of directions, etc. Vidya wants to draw a 30° angle and name it ∠TIN using a protractor. In will be the vertex, IT and IN will be the arms of the angle. Keeping one arm, say IN, as the reference (base), the other arm IT should take a turn of 30°.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Which concept is described here? To draw a given angle, mark its vertex, draw one ray, align the protractor, mark the required measure, and draw the second ray. Answer: drawing angles of a given measure. To draw a given angle, mark its vertex, draw one ray, align the protractor, mark the required measure, and draw the second ray.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "It is important that students see the application of each mathematical concept in their daily lives. Teacher can organise some activities where students can appreciate the practical applications of angles in real-life situations, e.g., clocks, doors, swings, concepts of uphill and downhill, location of the sun, the giving of directions, etc. Vidya wants to draw a 30° angle and name it ∠TIN using a protractor. In will be the vertex, IT and IN will be the arms of the angle. Keeping one arm, say IN, as the reference (base), the other arm IT should take a turn of 30°.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp102.pdf#page=34",
+        "/api/textbooks/en/fegp102.pdf#page=34",
+        "/api/textbooks/en/fegp102.pdf#page=25"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0111",
+      "chapter": "CH02",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "दिया गया कोण बनाने के लिए शीर्ष और पहली किरण बनाएँ। चाँदा सही रखकर आवश्यक माप पर निशान लगाएँ और दूसरी किरण खींचें।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "यह आवश्यक है कि विद्यार्थी प्रत्येक गणितीय अवधारणा के अनुप्रयोग को दैनिक जीवन में देख सके। अध्यापक ऐसे कुछ कार्यकलाप करा सकते हैं, जिसे विद्यार्थी कोणों के अनुप्रयोग को व्यावहारिक जीवन से जोड़ सकें। उदाहरण के लिए— घड़ी, दरवाजे, झूले, उतार-चढ़ाव की अवधारणा, सूर्य की स्थिति, दिशाएँ इत्यादि। विद्या चाँदे का प्रयोग कर 30° का एक कोण बनाना चाहती है और उसे ∠TIN नाम देना चाहती है। ∠TIN में, I शीर्ष होगा और IT तथा IN कोण की भुजाएँ होंगी। भुजा IN को आधार मान लेते हुए, दूसरी भुजा IT को 30° का मोड़ लेना चाहिए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: यह किस अवधारणा का वर्णन है? दिया गया कोण बनाने के लिए शीर्ष और पहली किरण बनाएँ। चाँदा सही रखकर आवश्यक माप पर निशान लगाएँ और दूसरी किरण खींचें। उत्तर: कोणों को बनाना. दिया गया कोण बनाने के लिए शीर्ष और पहली किरण बनाएँ। चाँदा सही रखकर आवश्यक माप पर निशान लगाएँ और दूसरी किरण खींचें।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "यह आवश्यक है कि विद्यार्थी प्रत्येक गणितीय अवधारणा के अनुप्रयोग को दैनिक जीवन में देख सके। अध्यापक ऐसे कुछ कार्यकलाप करा सकते हैं, जिसे विद्यार्थी कोणों के अनुप्रयोग को व्यावहारिक जीवन से जोड़ सकें। उदाहरण के लिए— घड़ी, दरवाजे, झूले, उतार-चढ़ाव की अवधारणा, सूर्य की स्थिति, दिशाएँ इत्यादि। विद्या चाँदे का प्रयोग कर 30° का एक कोण बनाना चाहती है और उसे ∠TIN नाम देना चाहती है। ∠TIN में, I शीर्ष होगा और IT तथा IN कोण की भुजाएँ होंगी। भुजा IN को आधार मान लेते हुए, दूसरी भुजा IT को 30° का मोड़ लेना चाहिए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp102.pdf#page=34",
+        "/api/textbooks/hi/fhgp102.pdf#page=34",
+        "/api/textbooks/hi/fhgp102.pdf#page=34",
+        "/api/textbooks/hi/fhgp102.pdf#page=25"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0113",
+      "chapter": "CH03",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "Mental math uses number relationships to simplify calculations, such as adding 9 by adding 10 and subtracting 1.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Two examples are given. It is simpler to do it mentally! 38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Calculate 52 + 9 mentally. Answer: 61. Add 10, then subtract 1.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Two examples are given. It is simpler to do it mentally! 38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp103.pdf#page=11",
+        "/api/textbooks/en/fegp103.pdf#page=11",
+        "/api/textbooks/en/fegp103.pdf#page=11",
+        "/api/textbooks/en/fegp103.pdf#page=12"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0113",
+      "chapter": "CH03",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "मौखिक गणना में संख्या संबंधों से हिसाब आसान करते हैं। जैसे 9 जोड़ने के लिए 10 जोड़कर 1 घटाएँ।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "c. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से अधिक हो। d. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से कम हो। 2.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: 52 + 9 का मौखिक हिसाब करें। उत्तर: 61. 10 जोड़ें, फिर 1 घटाएँ।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "c. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से अधिक हो। d. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से कम हो। 2.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp103.pdf#page=11",
+        "/api/textbooks/hi/fhgp103.pdf#page=11",
+        "/api/textbooks/hi/fhgp103.pdf#page=11",
+        "/api/textbooks/hi/fhgp103.pdf#page=12"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0117",
+      "chapter": "CH04",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "Frequency is the number of times a value or category occurs in the data.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Letter c e i r x Any other letter Number of times found in the news item a. The letter found the most number of times is ________. b.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Data: [5, 6, 5, 6, 7, 5, 6, 6]. What is the frequency of 5? Answer: 3. 3",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Letter c e i r x Any other letter Number of times found in the news item a. The letter found the most number of times is ________. b.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp104.pdf#page=5",
+        "/api/textbooks/en/fegp104.pdf#page=16",
+        "/api/textbooks/en/fegp104.pdf#page=10",
+        "/api/textbooks/en/fegp104.pdf#page=1"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0117",
+      "chapter": "CH04",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "बारंबारता बताती है कि कोई मान या श्रेणी आँकड़ों में कितनी बार आती है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "संख्याएँ 6, 9, ... चुनी गई मिठाइयों जलेबी, गुलाब जामुन, .... की क्रमश: बारंबारताएँ (frequencies) हैं। सुश्री संध्या ने अपने विद्यार्थियों से उनके जूतों के साइज के विषय में पूछा। उन्होंने प्राप्त आँकड़ों को बोर्ड पर लिखा—",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: आँकड़े: [5, 6, 5, 6, 7, 5, 6, 6]। 5 की बारंबारता कितनी है? उत्तर: 3. 3",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "संख्याएँ 6, 9, ... चुनी गई मिठाइयों जलेबी, गुलाब जामुन, .... की क्रमश: बारंबारताएँ (frequencies) हैं। सुश्री संध्या ने अपने विद्यार्थियों से उनके जूतों के साइज के विषय में पूछा। उन्होंने प्राप्त आँकड़ों को बोर्ड पर लिखा—",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp104.pdf#page=4",
+        "/api/textbooks/hi/fhgp104.pdf#page=4",
+        "/api/textbooks/hi/fhgp104.pdf#page=4",
+        "/api/textbooks/hi/fhgp104.pdf#page=1"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0130",
+      "chapter": "CH05",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "A prime number is a whole number greater than 1 with exactly two positive factors: 1 and itself.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Which of the following numbers are prime: 23, 51, 37, 26? 5. Write three pairs of prime numbers less than 20 whose sum is a multiple of 5. 6. The numbers 13 and 31 are prime numbers. Both these numbers have same digits 1 and 3.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Is 16 prime? Answer: No. Positive factors of 16: 1, 2, 4, 8, 16. A prime number is a whole number greater than 1 with exactly two positive factors: 1 and itself.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Which of the following numbers are prime: 23, 51, 37, 26? 5. Write three pairs of prime numbers less than 20 whose sum is a multiple of 5. 6. The numbers 13 and 31 are prime numbers. Both these numbers have same digits 1 and 3.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp105.pdf#page=8",
+        "/api/textbooks/en/fegp105.pdf#page=8",
+        "/api/textbooks/en/fegp105.pdf#page=6",
+        "/api/textbooks/en/fegp105.pdf#page=3"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0130",
+      "chapter": "CH05",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "अभाज्य संख्या 1 से बड़ी पूर्ण संख्या है जिसके केवल दो धन गुणनखंड होते हैं: 1 और स्वयं वह संख्या।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इनमें से कौन-सी संख्याएँ अभाज्य हैं— 23, 51, 37, 26? 5. अभाज्य संख्याओं के तीन युग्म लिखिए, जो 20 से कम हों और उनका योग 5 का गुणज हो। 6. संख्या 13 और 31 अभाज्य संख्याएँ हैं। इन दोनों संख्याओं में अंक 1 और 3 समान हैं। 100 तक की संख्याओं में से ऐसे अन्य सभी अभाज्य संख्याओं के युग्म ज्ञात कीजिए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: क्या 16 अभाज्य है? उत्तर: नहीं. 16 के धन गुणनखंड: 1, 2, 4, 8, 16। अभाज्य संख्या 1 से बड़ी पूर्ण संख्या है जिसके केवल दो धन गुणनखंड होते हैं: 1 और स्वयं वह संख्या।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इनमें से कौन-सी संख्याएँ अभाज्य हैं— 23, 51, 37, 26? 5. अभाज्य संख्याओं के तीन युग्म लिखिए, जो 20 से कम हों और उनका योग 5 का गुणज हो। 6. संख्या 13 और 31 अभाज्य संख्याएँ हैं। इन दोनों संख्याओं में अंक 1 और 3 समान हैं। 100 तक की संख्याओं में से ऐसे अन्य सभी अभाज्य संख्याओं के युग्म ज्ञात कीजिए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp105.pdf#page=8",
+        "/api/textbooks/hi/fhgp105.pdf#page=6",
+        "/api/textbooks/hi/fhgp105.pdf#page=8",
+        "/api/textbooks/hi/fhgp105.pdf#page=3"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0158",
+      "chapter": "CH06",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "The area of a rectangle is its length multiplied by its breadth.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "\u0007The area of a closed figure is the measure of the region enclosed by the figure. \u0007Area is generally measured in square units. \u0007The area of a rectangle is its length times its width. The area of a square is the length of any one of its sides multiplied by itself. \u0007Two closed figures can have the same area with different perimeters, or the same perimeter with different areas. \u0007Areas of regions can be estimated (or even determined exactly) by breaking up such regions into unit squares, or into more general- shaped rectangles and triangles whose areas can be calculated.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: A rectangle is 8 cm by 3 cm. Find its area in square cm. Answer: 24. 8 × 3 = 24",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "\u0007The area of a closed figure is the measure of the region enclosed by the figure. \u0007Area is generally measured in square units. \u0007The area of a rectangle is its length times its width. The area of a square is the length of any one of its sides multiplied by itself. \u0007Two closed figures can have the same area with different perimeters, or the same perimeter with different areas. \u0007Areas of regions can be estimated (or even determined exactly) by breaking up such regions into unit squares, or into more general- shaped rectangles and triangles whose areas can be calculated.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp106.pdf#page=22",
+        "/api/textbooks/en/fegp106.pdf#page=22",
+        "/api/textbooks/en/fegp105.pdf#page=13",
+        "/api/textbooks/en/fegp106.pdf#page=12"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0158",
+      "chapter": "CH06",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "आयत का क्षेत्रफल उसकी लंबाई और चौड़ाई का गुणनफल है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "यदि आप 32 वर्ग सेमी क्षेत्रफल का आयत लेते, तो आपका उत्तर क्या होता? किसी भी क्षेत्रफल को देखते हुए, अधिकतम और न्यूनतम परिमाप वाले आयत के आकार की पहचान बताना संभव है? अपने उत्तर के लिए उदाहरण और कारण दीजिए। कागज के एक टुकडे पर आयत खींचिए और इसका एक विकर्ण बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: आयत के माप 8 सेमी और 3 सेमी हैं। क्षेत्रफल वर्ग सेमी में निकालें। उत्तर: 24. 8 × 3 = 24",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "यदि आप 32 वर्ग सेमी क्षेत्रफल का आयत लेते, तो आपका उत्तर क्या होता? किसी भी क्षेत्रफल को देखते हुए, अधिकतम और न्यूनतम परिमाप वाले आयत के आकार की पहचान बताना संभव है? अपने उत्तर के लिए उदाहरण और कारण दीजिए। कागज के एक टुकडे पर आयत खींचिए और इसका एक विकर्ण बनाइए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp106.pdf#page=14",
+        "/api/textbooks/hi/fhgp106.pdf#page=9",
+        "/api/textbooks/hi/fhgp106.pdf#page=14",
+        "/api/textbooks/hi/fhgp105.pdf#page=6",
+        "/api/textbooks/hi/fhgp106.pdf#page=12"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0180",
+      "chapter": "CH07",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "To add fractions, use a common denominator and add the numerators while keeping that denominator.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "This method of addition, which works for adding any number of fractions, was first explicitly described in general by Brahmagupta in the year 628 CE! We will describe the history of the development of fractions in more detail later in the chapter. For now, we simply summarise the steps in Brahmagupta’s method for addition of fractions. Brahmagupta’s method for adding fractions 1. Find equivalent fractions so that the fractional unit is common for all fractions. This can be done by finding a common multiple of the denominators (e.g., the product of the denominators, or the smallest common multiple of the denominators). 2.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Find 1/5 + 1/8. Answer: 13/40. To add fractions, use a common denominator and add the numerators while keeping that denominator.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "This method of addition, which works for adding any number of fractions, was first explicitly described in general by Brahmagupta in the year 628 CE! We will describe the history of the development of fractions in more detail later in the chapter. For now, we simply summarise the steps in Brahmagupta’s method for addition of fractions. Brahmagupta’s method for adding fractions 1. Find equivalent fractions so that the fractional unit is common for all fractions. This can be done by finding a common multiple of the denominators (e.g., the product of the denominators, or the smallest common multiple of the denominators). 2.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp107.pdf#page=28",
+        "/api/textbooks/en/fegp107.pdf#page=28",
+        "/api/textbooks/en/fegp107.pdf#page=14"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0180",
+      "chapter": "CH07",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "भिन्न जोड़ने के लिए हर समान करें। फिर अंश जोड़ें और वही हर रखें।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "7.8 भिन्नों को जोड़नाना और घटानाना ममीना के पिता ने कुछ चिकी बनाई। ममीना ने इसका 1 2 भाग खाया और उसके छोटे भाई ने इसका 1 4 भाग खाया। ममीना और उसके भाई ने मिलकर चिकी का कितना भाग खाया? हम दृश्ीकरण के माध्यम से उत्तर तक पहुँच सकते हैं।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: 1/5 + 1/8 निकालें। उत्तर: 13/40. भिन्न जोड़ने के लिए हर समान करें। फिर अंश जोड़ें और वही हर रखें।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "7.8 भिन्नों को जोड़नाना और घटानाना ममीना के पिता ने कुछ चिकी बनाई। ममीना ने इसका 1 2 भाग खाया और उसके छोटे भाई ने इसका 1 4 भाग खाया। ममीना और उसके भाई ने मिलकर चिकी का कितना भाग खाया? हम दृश्ीकरण के माध्यम से उत्तर तक पहुँच सकते हैं।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp107.pdf#page=25",
+        "/api/textbooks/hi/fhgp107.pdf#page=25",
+        "/api/textbooks/hi/fhgp107.pdf#page=25",
+        "/api/textbooks/hi/fhgp107.pdf#page=15"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0191",
+      "chapter": "CH08",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "The fixed point is the centre; the distance from the centre to any point on the circle is the radius.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "It is a circle! Take a point on the circle. What will be its distance from P—equal to 4 cm, less than 4 cm or greater than 4 cm? Similarly, what will be the distance between P and another point on the circle? As shown in the figure, the point P is called the centre of the circle and the distance between the centre and any point on the circle is called the radius of the circle. Having explored the use of a compass, go ahead and recreate the images in Fig. 8.1.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: A circle has diameter 10 cm. Find its radius in cm. Answer: 5. 5",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "It is a circle! Take a point on the circle. What will be its distance from P—equal to 4 cm, less than 4 cm or greater than 4 cm? Similarly, what will be the distance between P and another point on the circle? As shown in the figure, the point P is called the centre of the circle and the distance between the centre and any point on the circle is called the radius of the circle. Having explored the use of a compass, go ahead and recreate the images in Fig. 8.1.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp108.pdf#page=3",
+        "/api/textbooks/en/fegp108.pdf#page=3",
+        "/api/textbooks/en/fegp106.pdf#page=2",
+        "/api/textbooks/en/fegp108.pdf#page=2"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0191",
+      "chapter": "CH08",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "निश्चित बिंदु केंद्र है। केंद्र से वृत्त के किसी बिंदु तक की दूरी त्रिज्या है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इसी प्रकार P तथा वृत्त पर एक अन्य बिंदु के बीच की दूरी क्ा होगी? जैसा कि आकृति में दिखाया गया है, बिंदु P वृत्त का केंद्र कहलाता है, केंद्र और वृत्त पर स्थित किसी बिंदु के बीच की दूरी, इसकी (वृत्त की) त्रिज्या कहलाती है। परकार के प्रयोग का पता लगाने के बाद आगे बढ़ें और चित्र 8.1 में दिए गए चित्रों को पुन: बनाएँ। क्ा आप इन आकृतियों को वहाँ दिखाई गई आकृतियों के समान बना सकते हैं? यदि आप चाहते हैं, तो पुन: प्रयास कीजिए। क्ा उपकरणों का प्रयोग रचना को और आसान बनाता है? अब अग्रलिखित आकृतियों को बनाने का प्रयास कीजिए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: वृत्त का व्यास 10 सेमी है। त्रिज्या सेमी में निकालें। उत्तर: 5. 5",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इसी प्रकार P तथा वृत्त पर एक अन्य बिंदु के बीच की दूरी क्ा होगी? जैसा कि आकृति में दिखाया गया है, बिंदु P वृत्त का केंद्र कहलाता है, केंद्र और वृत्त पर स्थित किसी बिंदु के बीच की दूरी, इसकी (वृत्त की) त्रिज्या कहलाती है। परकार के प्रयोग का पता लगाने के बाद आगे बढ़ें और चित्र 8.1 में दिए गए चित्रों को पुन: बनाएँ। क्ा आप इन आकृतियों को वहाँ दिखाई गई आकृतियों के समान बना सकते हैं? यदि आप चाहते हैं, तो पुन: प्रयास कीजिए। क्ा उपकरणों का प्रयोग रचना को और आसान बनाता है? अब अग्रलिखित आकृतियों को बनाने का प्रयास कीजिए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp108.pdf#page=3",
+        "/api/textbooks/hi/fhgp108.pdf#page=3",
+        "/api/textbooks/hi/fhgp106.pdf#page=3"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0203",
+      "chapter": "CH09",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "Rotational symmetry occurs when a turn smaller than a full turn makes a figure match itself.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "For each figure draw two more lines to make a shape that has a line of symmetry. The paper windmill in the picture looks symmetrical but there is no line of symmetry! However, if you fold it, the two halves will not exactly overlap. On the other hand, if you rotate it by 90° about the red point at the centre, the windmill looks exactly the same. We say that the windmill has rotational symmetry. When talking of rotational symmetry, there is always a fixed point about which the object is rotated. This fixed point is called the centre of rotation.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: A regular 8-sided polygon turns about its centre. Find its rotational order. Answer: 8. 8",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "For each figure draw two more lines to make a shape that has a line of symmetry. The paper windmill in the picture looks symmetrical but there is no line of symmetry! However, if you fold it, the two halves will not exactly overlap. On the other hand, if you rotate it by 90° about the red point at the centre, the windmill looks exactly the same. We say that the windmill has rotational symmetry. When talking of rotational symmetry, there is always a fixed point about which the object is rotated. This fixed point is called the centre of rotation.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp109.pdf#page=14",
+        "/api/textbooks/en/fegp109.pdf#page=14",
+        "/api/textbooks/en/fegp102.pdf#page=13",
+        "/api/textbooks/en/fegp109.pdf#page=2"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0203",
+      "chapter": "CH09",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "घूर्णन सममिति में पूरे घुमाव से कम घुमाने पर आकृति अपने ऊपर मिलती है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "अत: हम कहते हैं कि इस आकृति में घूर्णन सममिति नहीं है। किरण-संबंधी भुजाओं (radial arm) वाली आकृतियों में घूर्णन सममिति दी गई आकृति को देखिए, इसमें 4 किरण-संबंधी भुजाएँ हैं। इसकी सममिति के कितने कोण हैं? वे कौन-से हैं? ध्यान दीजिए कि प्रत्येक दो आसन्न केंद्रीय बिंदुकित रेखाओं के बीच का कोण 90o है।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: सम 8-भुज अपने केंद्र के चारों ओर घूमता है। घूर्णन क्रम निकालें। उत्तर: 8. 8",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "अत: हम कहते हैं कि इस आकृति में घूर्णन सममिति नहीं है। किरण-संबंधी भुजाओं (radial arm) वाली आकृतियों में घूर्णन सममिति दी गई आकृति को देखिए, इसमें 4 किरण-संबंधी भुजाएँ हैं। इसकी सममिति के कितने कोण हैं? वे कौन-से हैं? ध्यान दीजिए कि प्रत्येक दो आसन्न केंद्रीय बिंदुकित रेखाओं के बीच का कोण 90o है।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp109.pdf#page=16",
+        "/api/textbooks/hi/fhgp109.pdf#page=16",
+        "/api/textbooks/hi/fhgp109.pdf#page=16",
+        "/api/textbooks/hi/fhgp102.pdf#page=13",
+        "/api/textbooks/hi/fhgp109.pdf#page=2"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0216",
+      "chapter": "CH10",
+      "language": "en",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "Subtracting an integer is equivalent to adding its additive inverse.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Floor +3 is lower than Floor +4. So, we write +3 < +4. We also write +4 > +3. Should we write –3 < – 4 or – 4 < – 3? Floor – 4 is lower than Floor – 3. So, – 4 < – 3. It is also correct to write – 3 > – 4 1.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Calculate 5 − (−3). Answer: 8. Subtracting −3 means adding 3.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Floor +3 is lower than Floor +4. So, we write +3 < +4. We also write +4 > +3. Should we write –3 < – 4 or – 4 < – 3? Floor – 4 is lower than Floor – 3. So, – 4 < – 3. It is also correct to write – 3 > – 4 1.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/en/fegp110.pdf#page=6",
+        "/api/textbooks/en/fegp110.pdf#page=6",
+        "/api/textbooks/en/fegp110.pdf#page=6",
+        "/api/textbooks/en/fegp103.pdf#page=12",
+        "/api/textbooks/en/fegp110.pdf#page=28"
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0216",
+      "chapter": "CH10",
+      "language": "hi",
+      "passed": true,
+      "status": "answered",
+      "mode": "guided_local",
+      "paragraphs": [
+        {
+          "text": "किसी पूर्णांक को घटाना उसके योगात्मक प्रतिलोम को जोड़ने के बराबर है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "किन्हीं भी संख्याओं का योग, घटाना और तुलना करना बड़े पूर्णांकों को जोड़ने और घटाने के लिए हम बड़ी लिफ्ट की कलपना कर सकते हैं। वास्तव में, हम ऐसी लिफ्ट की कलपना कर सकते हैं जो शून्य (0) स्तर से आरंभ हो तथा ऊपर और नीचे की ओर हमेशा के लिए बढ़ाई जा सके। भले ही वहाँ कोई भवन या खदान न हो सिर्फ एक ‘अनंत लिफ्ट’ हो! हम इस कलपना का प्रयोग पूर्णांकों को जोड़ने या घटाने के लिए कर सकते हैं। उदाहरण के लिए, हमें + 2000 – (– 200) को हल करना है। हम एक ऐसी लिफ्ट की कलपना कर सकते हैं जो भूतल से 2000 स्तर ऊपर हो तथा 200 तल भूतल से नीचे हो। याद कीजिए कि—",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: 5 − (−3) निकालें। उत्तर: 8. −3 घटाने का अर्थ 3 जोड़ना है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "किन्हीं भी संख्याओं का योग, घटाना और तुलना करना बड़े पूर्णांकों को जोड़ने और घटाने के लिए हम बड़ी लिफ्ट की कलपना कर सकते हैं। वास्तव में, हम ऐसी लिफ्ट की कलपना कर सकते हैं जो शून्य (0) स्तर से आरंभ हो तथा ऊपर और नीचे की ओर हमेशा के लिए बढ़ाई जा सके। भले ही वहाँ कोई भवन या खदान न हो सिर्फ एक ‘अनंत लिफ्ट’ हो! हम इस कलपना का प्रयोग पूर्णांकों को जोड़ने या घटाने के लिए कर सकते हैं। उदाहरण के लिए, हमें + 2000 – (– 200) को हल करना है। हम एक ऐसी लिफ्ट की कलपना कर सकते हैं जो भूतल से 2000 स्तर ऊपर हो तथा 200 तल भूतल से नीचे हो। याद कीजिए कि—",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ],
+      "sources": [
+        "/api/textbooks/hi/fhgp110.pdf#page=10",
+        "/api/textbooks/hi/fhgp110.pdf#page=10",
+        "/api/textbooks/hi/fhgp103.pdf#page=12",
+        "/api/textbooks/hi/fhgp110.pdf#page=5"
+      ]
+    }
+  ]
+}

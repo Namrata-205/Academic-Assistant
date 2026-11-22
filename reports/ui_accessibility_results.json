@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "name": "registration desktop",
+      "violations": []
+    },
+    {
+      "name": "registration mobile",
+      "violations": []
+    },
+    {
+      "name": "dashboard desktop",
+      "violations": []
+    },
+    {
+      "name": "practice chapter",
+      "violations": []
+    },
+    {
+      "name": "populated progress chart and table",
+      "violations": []
+    },
+    {
+      "name": "My progress desktop",
+      "violations": []
+    },
+    {
+      "name": "Revision desktop",
+      "violations": []
+    },
+    {
+      "name": "Mock exams desktop",
+      "violations": []
+    },
+    {
+      "name": "Concept map desktop",
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "seriousOrCritical": 0
+}

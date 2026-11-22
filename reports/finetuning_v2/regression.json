@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-20T16:10:04.194556+00:00",
+  "tests_run": 108,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "passed": true,
+  "external_generation": "disabled; actual fine-tuning model generation was evaluated separately on the local GPU"
+}

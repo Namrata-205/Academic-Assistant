@@ -1,0 +1,90 @@
+{
+  "checks": [
+    {
+      "name": "registration desktop",
+      "violations": []
+    },
+    {
+      "name": "registration mobile",
+      "violations": []
+    },
+    {
+      "name": "dashboard desktop",
+      "violations": []
+    },
+    {
+      "name": "practice chapter",
+      "violations": []
+    },
+    {
+      "name": "populated progress chart and table",
+      "violations": []
+    },
+    {
+      "name": "My progress desktop",
+      "violations": []
+    },
+    {
+      "name": "Revision desktop",
+      "violations": []
+    },
+    {
+      "name": "Mock exams desktop",
+      "violations": []
+    },
+    {
+      "name": "Concept map desktop",
+      "violations": []
+    },
+    {
+      "name": "chat diagnostic question",
+      "violations": []
+    },
+    {
+      "name": "chat explanation",
+      "violations": []
+    },
+    {
+      "name": "dashboard mobile",
+      "violations": []
+    },
+    {
+      "name": "Practice mobile",
+      "violations": []
+    },
+    {
+      "name": "My progress mobile",
+      "violations": []
+    },
+    {
+      "name": "Ask my book mobile",
+      "violations": []
+    },
+    {
+      "name": "Revision mobile",
+      "violations": []
+    },
+    {
+      "name": "Mock exams mobile",
+      "violations": []
+    },
+    {
+      "name": "Concept map mobile",
+      "violations": []
+    },
+    {
+      "name": "dashboard Hindi mobile",
+      "violations": []
+    },
+    {
+      "name": "dashboard Hindi 320px",
+      "violations": []
+    },
+    {
+      "name": "bootstrap failure recovery",
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "seriousOrCritical": 0
+}

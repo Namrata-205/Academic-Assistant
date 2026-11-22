@@ -1,0 +1,400 @@
+{
+  "method": "full",
+  "status": "completed",
+  "evaluation_precision": "BF16 for all methods",
+  "validation_loss_common_precision": 0.5261850427232386,
+  "summary": {
+    "cases": 9,
+    "json_valid": 0.4444444444444444,
+    "source_checked": 0.2222222222222222,
+    "terminology_present": 0.3333333333333333,
+    "json_valid_count": 4,
+    "source_checked_count": 2,
+    "mean_latency_seconds": 7.4422032111111145
+  },
+  "by_language": {
+    "en": {
+      "cases": 4,
+      "json_valid": 0.75,
+      "source_checked": 0.5,
+      "terminology_present": 0.5,
+      "json_valid_count": 3,
+      "source_checked_count": 2,
+      "mean_latency_seconds": 4.273395325000138
+    },
+    "hi": {
+      "cases": 5,
+      "json_valid": 0.2,
+      "source_checked": 0.0,
+      "terminology_present": 0.2,
+      "json_valid_count": 1,
+      "source_checked_count": 0,
+      "mean_latency_seconds": 9.977249519999896
+    }
+  },
+  "deterministic_pipeline_cases": 3,
+  "encoded_dataset_sha256": "daa3ad14d7195ed3d4c7fd85f8ef343022a332f2e4a3810098405af834f726e6",
+  "base_manifest_sha256": "5ea54d005987e3ad2b8eb801fbfbd3a583d75d016ea3b0fdbeed663dc99ce15c",
+  "rows": [
+    {
+      "id": "R01",
+      "language": "en",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 2.197948400000314,
+      "generated_tokens": 53,
+      "output": "{\"paragraphs\": [{\"text\": \"An angle measures 180 degrees.\", \"citations\": [\"S1\"], \"evidence\": \"An angle is formed by two rays having a common starting point. Here is an angle formed by rays \"}]}",
+      "prompt_sha256": "7c16d61c325bca3adbb0863f087779d6a90f389e9fd825baebf99e2d0350c6ba",
+      "json_valid": true,
+      "source_checked": true,
+      "terminology_present": true,
+      "error": null
+    },
+    {
+      "id": "R02",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.78499600000032,
+      "generated_tokens": 320,
+      "output": "{\"paragraphs\": [{\"text\": \"किसी समूह में कितनी घुमाव में 360 अंश होते है।\", \"citations\": [\"S1\"], \"evidence\": \"ध्यान रखिए कि कोण का लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाएण और एक कोण का नामकरण कैसे कर सकते है यह एक घुमाव में 360 अंश होता है।\", \"citations\": [\"S1\"], \"evidence\": \"ध्यान रखिए कि कोण का लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाएण और एक कोण का नामकरण कैसे कर सकते है यह एक घुमाव में 360 अ",
+      "prompt_sha256": "7f480032e424521c32e323b2c68a1049bec863375f0032863911bf54b7a8abec",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R03",
+      "language": "en",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 1.7816245000003619,
+      "generated_tokens": 49,
+      "output": "{\"paragraphs\": [{\"text\": \"The 2 rays forming an angle are its arms.\", \"citations\": [\"S1\"], \"evidence\": \"The point B is called the vertex of the angle, and the rays \"}]}",
+      "prompt_sha256": "727f31a72ce0b54e721117e425c72d42ec81053e233b692f47db36e1fad5a629",
+      "json_valid": true,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "Canonical technical term missing"
+    },
+    {
+      "id": "R04",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.650278299999627,
+      "generated_tokens": 320,
+      "output": "{\"paragraphs\": [{\"text\": \"किसी घुमाव में 180 अंश होते है।\", \"citations\": [\"S1\"], \"evidence\": \"ध्यान रखिए कि कोण का लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण का उभयनिष्ठ बिंदु क्या कहलाता है। एक किरण बता रहता है कि किसी घुमाव में 180 अंश होता है।\", \"citations\": [\"S1\"], \"evidence\": \"ध्यान रखिए कि कोण का लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण का उभयनिष्ठ बिंदु क्या कहलाता है। एक कोण क",
+      "prompt_sha256": "aaeea0694178a7afb1cd5edef7442c0af9988aa31b1e022682457320d0e86b96",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R05",
+      "language": "en",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 1.888643499999489,
+      "generated_tokens": 51,
+      "output": "{\"paragraphs\": [{\"text\": \"A right angle measures 90 degrees and measures 180 degrees in one turn.\", \"citations\": [\"S1\"], \"evidence\": \"What is the measure of a strai\"}]}",
+      "prompt_sha256": "94bc9403211df9cbce5a944233f9404ede7fd1191657880d8a057a4bcb5e86cd",
+      "json_valid": true,
+      "source_checked": true,
+      "terminology_present": true,
+      "error": null
+    },
+    {
+      "id": "R06",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 3.0741284999994605,
+      "generated_tokens": 85,
+      "output": "{\"paragraphs\": [{\"text\": \"समकोण का माप कितने अंश होता है।\", \"citations\": [\"S1\"], \"evidence\": \"ध्यान रखिए कि कोण का माप कितने अंश होता\"}]}",
+      "prompt_sha256": "2f76bb64b1c8b9db3c25674aa7e6179d2ed04127d012c7912ac767bf977460d9",
+      "json_valid": true,
+      "source_checked": false,
+      "terminology_present": true,
+      "error": "Evidence is not present in cited text"
+    },
+    {
+      "id": "R07",
+      "language": "en",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.225364900000386,
+      "generated_tokens": 320,
+      "output": "{\"paragraphs\": [{\"text\": \"An acute angle measures 180 degrees and is smaller than 90 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees and is smaller than 180 degrees and is greater than 0 degrees",
+      "prompt_sha256": "55dd9c125699a901ba8f0796f5df63ffcccc4f0531bd3cacade1931a125d6238",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R08",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.520588800000041,
+      "generated_tokens": 320,
+      "output": "{\"paragraphs\": [{\"text\": \"न्यून का 180 अंश बता रहता है।\", \"citations\": [\"S1\"], \"evidence\": \"हमने देखा कि एक सरल कोण 180 अंश बता रहता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून का 180 अंश बता रहता है। अन्य प्रकार के कोण न्यून और अधिक का डिग्री माप में हम किस प्रकार वर्णन करेंगे? न्यून का 180 अंश बता रहता है। अन्य प्रकार के कोण न्यून और अधिक का ड",
+      "prompt_sha256": "c8ba39b7d173f72891482c7177bd5a08294c80cf9f8a9ae50693a62cf7bf7985",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    },
+    {
+      "id": "R09",
+      "language": "en",
+      "pipeline_status": "answered",
+      "model_called": false,
+      "deterministic_output": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0038",
+          "en": "place value",
+          "hi": "स्थानीय मान",
+          "chapter": "CH03"
+        },
+        "language": "en",
+        "mode": "calculated",
+        "paragraphs": [
+          {
+            "text": "The value of a digit depends on its position. In 3452, count places from the right: ones, tens, hundreds, then thousands. The digit 4 is in the hundreds place. That means 4 groups of 100: 4 × 100 = 400. So 4 contributes 400 to the number, rather than just 4.",
+            "citations": [],
+            "kind": "calculated_example"
+          }
+        ],
+        "sources": [],
+        "terms": [
+          {
+            "en": "place value",
+            "hi": "स्थानीय मान"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "selected_for_explanation": true
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0013",
+            "MATH6_C0037"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0038",
+              "concept": "place value",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses."
+        },
+        "fallback_reason": null,
+        "notice": "This worked example is calculated directly, not quoted from NCERT. The current textbook link covers related number practice, not a verified direct place-value lesson."
+      }
+    },
+    {
+      "id": "R10",
+      "language": "hi",
+      "pipeline_status": "insufficient_sources",
+      "model_called": false,
+      "deterministic_output": {
+        "status": "insufficient_sources",
+        "concept": {
+          "id": "MATH6_C0038",
+          "en": "place value",
+          "hi": "स्थानीय मान",
+          "chapter": "CH03"
+        },
+        "language": "hi",
+        "message": "संबंधित पाठ्यपुस्तक गतिविधियाँ मिली हैं, लेकिन इस व्याख्या के लिए सत्यापित प्रत्यक्ष अंश उपलब्ध नहीं है।",
+        "sources": [
+          {
+            "chapter_title": "संख्याओं का खेल",
+            "section": "3.2 महाकोष्ठ: संबंधित अभ्यास",
+            "printed_page": 58,
+            "pdf_page": 4,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp103.pdf#page=4",
+            "concept_id": "MATH6_C0038",
+            "concept_en": "place value",
+            "concept_hi": "स्थानीय मान",
+            "support_relation": "related",
+            "sha256": "2b4cfa9b7e03dc868dc649543c934253528c5cb2c0a77ad00fa6f0d6ff64f4e6",
+            "edition": "Reprint 2026-27",
+            "excerpt": "सारणी में सबसे बड़ी संख्या __________ है। सारणी में सबसे छोटी सम संख्या _______ है।",
+            "similarity": 0.4348,
+            "retrieval_score": 0.4571,
+            "metadata_similarity": 0.4732,
+            "concept_coverage": 0.6,
+            "chunking": "graph-metadata-page-v2",
+            "chunk_id": "5163ed269b1a158c9790a56a",
+            "chunk_index": 22,
+            "chunk_count": 23,
+            "char_start": 1140,
+            "char_end": 1223,
+            "retrieval": "semantic cosine similarity",
+            "id": "S1"
+          },
+          {
+            "chapter_title": "संख्याओं का खेल",
+            "section": "3.2 महाकोष्ठ: संबंधित अभ्यास",
+            "printed_page": 58,
+            "pdf_page": 4,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp103.pdf#page=4",
+            "concept_id": "MATH6_C0038",
+            "concept_en": "place value",
+            "concept_hi": "स्थानीय मान",
+            "support_relation": "related",
+            "sha256": "2b4cfa9b7e03dc868dc649543c934253528c5cb2c0a77ad00fa6f0d6ff64f4e6",
+            "edition": "Reprint 2026-27",
+            "excerpt": "क्या आप संख्याओं को बिना दोहराए एक रिक्त महाकोष्ठ सारणी को इस प्रकार भर",
+            "similarity": 0.3108,
+            "retrieval_score": 0.3685,
+            "metadata_similarity": 0.5027,
+            "concept_coverage": 0.6,
+            "chunking": "graph-metadata-page-v2",
+            "chunk_id": "50a3d7e2304c6bb06c6e9c61",
+            "chunk_index": 1,
+            "chunk_count": 23,
+            "char_start": 3,
+            "char_end": 74,
+            "retrieval": "semantic cosine similarity",
+            "id": "S2"
+          }
+        ],
+        "paragraphs": [],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0038",
+            "en": "place value",
+            "hi": "स्थानीय मान",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "selected_for_explanation": true
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0013",
+            "MATH6_C0037"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0038",
+              "concept": "place value",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses."
+        }
+      }
+    },
+    {
+      "id": "R11",
+      "language": "en",
+      "pipeline_status": "insufficient_sources",
+      "model_called": false,
+      "deterministic_output": {
+        "status": "insufficient_sources",
+        "concept": {
+          "id": "MATH6_C0039",
+          "en": "digit sum",
+          "hi": "अंकों का योग",
+          "chapter": "CH03"
+        },
+        "language": "en",
+        "message": "I could not find a complete supporting passage for this explanation. Please try another topic.",
+        "sources": [],
+        "paragraphs": [],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0039",
+            "en": "digit sum",
+            "hi": "अंकों का योग",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0037",
+            "en": "digit",
+            "hi": "अंक",
+            "review_status": "PENDING"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R12",
+      "language": "hi",
+      "pipeline_status": "model",
+      "model_called": true,
+      "latency_seconds": 11.85625600000003,
+      "generated_tokens": 320,
+      "output": "{\"paragraphs\": [{\"text\": \"किसी समूह में कितनी वस्तुएँ हैं।\", \"citations\": [\"S1\"], \"evidence\": \"1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्याएँ होगी ज्ञात कीजिए। 1 अंक वाली 9 संख्याएँ हैं। 2 अंक, 3 अंक, 4 अंक और 5 अंकों वाली कुल कितनी संख्य",
+      "prompt_sha256": "17a2bb954e2505b7a1183f95f88562294874960a56369ac0b051f5bcd7dc1b73",
+      "json_valid": false,
+      "source_checked": false,
+      "terminology_present": false,
+      "error": "invalid_json"
+    }
+  ]
+}

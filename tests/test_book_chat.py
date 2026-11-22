@@ -6,6 +6,14 @@ from diagnostic import engine as e,book_chat as chat
 
 
 class BookChatTests(unittest.TestCase):
+    def test_offline_page_fallback_remains_available_with_target_budget(self):
+        with patch('diagnostic.semantic_chunks.rank_pages',side_effect=RuntimeError('runtime unavailable')):
+            sources,_=chat.retrieve_sources('MATH6_C0025','en','Explain acute angles',limit=3,max_chars=1300)
+        self.assertTrue(sources)
+        self.assertTrue(all(s['retrieval']=='page excerpt fallback' for s in sources))
+        self.assertTrue(all(len(s['excerpt'])<=650 for s in sources))
+        self.assertLessEqual(sum(len(s['excerpt']) for s in sources),1300)
+
     def setUp(self):
         p=patch('diagnostic.chat_router.gemini_generate',side_effect=RuntimeError('offline test'))
         p.start();self.addCleanup(p.stop)
@@ -49,8 +57,9 @@ class BookChatTests(unittest.TestCase):
                 self.assertEqual(result['paragraphs'][0]['text'],result['sources'][0]['excerpt'])
                 self.assertIn('न्यून',result['terms'][0]['hi'])
     def test_unavailable_sources_and_out_of_scope_queries_abstain(self):
-        self.assertEqual(chat.answer('Explain parallel lines','en','MATH6_C0032')['status'],'insufficient_sources')
-        self.assertEqual(chat.answer('How do I add fractions?')['status'],'clarify')
+        with self.assertRaises(ValueError):chat.answer('Explain parallel lines','en','MATH6_C0032')
+        with patch('diagnostic.book_chat.generate',side_effect=RuntimeError('offline')):
+            self.assertEqual(chat.answer('How do I add fractions?')['concept']['id'],'MATH6_C0180')
         with self.assertRaises(ValueError):chat.answer('','en')
         with self.assertRaises(ValueError):chat.answer('hello','xx')
     def test_chat_history_is_saved_and_learner_scoped(self):

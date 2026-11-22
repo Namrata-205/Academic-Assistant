@@ -129,9 +129,11 @@ class ImportedReportTests(unittest.TestCase):
                 state=call('/sessions',{'learner':'local','target':'MATH6_C0038'})
                 self.assertEqual(state['external_context']['items'][0]['source_status'],'confirmed')
                 sid=state['id']
-                for answer in ('400','700'):
-                    state=call(f'/sessions/{sid}/answer',{'learner':'local','question_id':state['question']['id'],'response':answer})
-                self.assertEqual(state['report']['question_count'],2)
+                count=0
+                while state['question']:
+                    state=call(f'/sessions/{sid}/answer',{'learner':'local','question_id':state['question']['id'],'response':'not sure'})
+                    count+=1;self.assertLessEqual(count,3)
+                self.assertEqual(state['report']['question_count'],count)
                 self.assertEqual(state['report']['external_context']['student_id'],'s1')
                 call('/profile/unlink',{'learner':'local'})
                 self.assertIsNone(call('/profile?learner=local')['profile'])

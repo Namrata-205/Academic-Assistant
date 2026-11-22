@@ -1,4 +1,6 @@
 """Per-learner performance from persisted responses, never inferred target scores."""
+import json
+import time
 from collections import defaultdict
 from diagnostic.engine import VERSION
 
@@ -45,3 +47,60 @@ def learner_progress(conn,learner):
             'completed_checks':sum(s['complete'] for s in sessions),
             'total_answers':len(observations),'current_version':VERSION,
             'notice':'Scores describe the concepts actually asked, not an untested target. Different items may have different difficulty. Repeated-item gains can reflect familiarity and are not proof of learning.'}
+
+
+def workspace_progress(conn, learner):
+    from diagnostic import daily_problem, learner_evidence, mock_exams, practice, revision
+
+    practice_data = practice.analytics(conn, learner)
+    exam_summary = mock_exams.summary(conn, learner)
+    exams, active_exam = exam_summary['history'], exam_summary['active']
+    review_cards = revision.notebook(conn, learner)
+    checks = {'answered': 0, 'scored': 0, 'correct': 0}
+    concepts = {}
+    for row in learner_evidence.collect(conn, learner, deduplicate=False):
+        cid, score, source = row.get('concept_id'), row.get('score'), row['origin']
+        if source in ('diagnostic', 'chat_check', 'followup'):
+            checks['answered'] += 1
+            checks['scored'] += score in (0, 1)
+            checks['correct'] += score == 1
+        if cid:
+            activity = concepts.setdefault(cid, {'answered': 0, 'scored': 0, 'correct': 0})
+            activity['answered'] += 1
+            activity['scored'] += score in (0, 1)
+            activity['correct'] += score == 1
+            if score in (0, 1) or 'latest_score' not in activity:
+                activity.update(latest_score=score, source=source)
+    daily_problem.ensure(conn)
+    daily_answers = daily_correct = 0
+    topics_attempted = set(concepts)
+    for item, attempts, solved in conn.execute(
+        'SELECT item,attempts,solved FROM daily_problems WHERE learner=?', (learner,),
+    ):
+        daily_answers += attempts
+        daily_correct += solved
+        if attempts:
+            topics_attempted.add(json.loads(item)['concept_id'])
+    exam_answers = sum(exam['answered'] for exam in exams)
+    scored = sum(attempt['scorable'] for attempt in practice_data['attempts']) + checks['scored'] + exam_answers + daily_answers
+    correct = sum(attempt['correct'] for attempt in practice_data['attempts']) + checks['correct'] + sum(exam['correct'] for exam in exams) + daily_correct
+    return {
+        **practice_data,
+        'overview': {
+            'completed': practice_data['completed_sessions'] + len(exams) + daily_correct,
+            'answers': practice_data['total_answers'] + checks['answered'] + exam_answers + daily_answers,
+            'accuracy': round(correct / scored * 100, 1) if scored else None,
+            'topics': len(topics_attempted),
+        },
+        'checks': checks,
+        'exams': {
+            'completed': len(exams), 'recent': exams[:5], 'active': active_exam,
+            'refresh_after_ms': max(0, round((active_exam['deadline']-time.time())*1000))
+                                if active_exam and active_exam['deadline'] else None,
+        },
+        'daily': {'solved': daily_correct, 'attempts': daily_answers},
+        'revision': {'reviewed': sum(card['reviewed'] for card in review_cards['mistakes']),
+                     'completed': sum(card['due'] is None for card in review_cards['mistakes']),
+                     'due': review_cards['due_count']},
+        'concept_activity': concepts,
+    }

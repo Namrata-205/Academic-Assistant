@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1160" viewBox="0 0 1640 1160" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Concept Atlas system architecture</title><desc id="desc">NCERT source preparation feeds a personalized tutoring loop. The loop maps requests, checks prerequisites, generates a cited LLM lesson and scores a fresh follow-up. Saved learner evidence informs later tutoring and study recommendations.</desc>
+<defs><marker id="slate" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8.7" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#52697c"/></marker><marker id="teal" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8.7" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#247d69"/></marker><marker id="violet" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="8.7" refY="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7664a5"/></marker></defs>
+<rect x="0" y="0" width="1640" height="1160" rx="0" fill="#f7fafb" stroke="none" stroke-width="1.4"/>
+<rect x="36" y="31" width="8" height="68" rx="4" fill="#177763" stroke="none" stroke-width="1.4"/>
+<text x="61" y="63" text-anchor="start" font-size="43" font-weight="750" fill="#162b3e">Concept Atlas System Architecture</text>
+<text x="63" y="94" text-anchor="start" font-size="20" font-weight="400" fill="#344b5d">Personalized Grade 6 maths tutoring  •  NCERT Ganita Prakash  •  English and Hindi, with Hinglish chat</text>
+<rect x="36" y="126" width="1568" height="185" rx="17" fill="#eaf6ef" stroke="#96c5b0" stroke-width="1.4"/>
+<text x="58" y="157" text-anchor="start" font-size="23" font-weight="740" fill="#116554">Curriculum and knowledge preparation</text>
+<rect x="57" y="173" width="354" height="112" rx="11" fill="#fff" stroke="#9bcbb7" stroke-width="1.4"/>
+<text x="74" y="202" text-anchor="start" font-size="20" font-weight="700" fill="#116554">NCERT textbooks</text>
+<text x="74" y="228" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">English and Hindi PDFs</text>
+<text x="74" y="251" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Page-wise extraction and cleanup</text>
+<text x="74" y="274" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Chapter and page references</text>
+<rect x="441" y="173" width="354" height="112" rx="11" fill="#fff" stroke="#9bcbb7" stroke-width="1.4"/>
+<text x="458" y="202" text-anchor="start" font-size="20" font-weight="700" fill="#116554">Searchable textbook passages</text>
+<text x="458" y="228" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Graph-based, page-bounded chunks</text>
+<text x="458" y="251" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Multilingual embeddings + BM25</text>
+<text x="458" y="274" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Concept tags and citation metadata</text>
+<rect x="825" y="173" width="354" height="112" rx="11" fill="#fff" stroke="#9bcbb7" stroke-width="1.4"/>
+<text x="842" y="202" text-anchor="start" font-size="20" font-weight="700" fill="#116554">Prerequisite knowledge graph</text>
+<text x="842" y="228" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">144 concepts and 211 links</text>
+<text x="842" y="251" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Incoming links guide checks</text>
+<text x="842" y="274" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Concept map shows learning paths</text>
+<rect x="1209" y="173" width="373" height="112" rx="11" fill="#fff" stroke="#9bcbb7" stroke-width="1.4"/>
+<text x="1226" y="202" text-anchor="start" font-size="20" font-weight="700" fill="#116554">Question bank and source catalogue</text>
+<text x="1226" y="228" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">432 bilingual draft items and answer keys</text>
+<text x="1226" y="251" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Concept IDs link items, graph and sources</text>
+<text x="1226" y="274" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Textbook page links for citations</text>
+<path d="M411 229H438" fill="none" stroke="#247d69" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
+<path d="M1002 285V298H617V285" fill="none" stroke="#247d69" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#teal)"/>
+<path d="M1002 285V298H1395V285" fill="none" stroke="#247d69" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#teal)"/>
+<rect x="36" y="329" width="1568" height="78" rx="17" fill="#eaf2f8" stroke="#a9c4d6" stroke-width="1.4"/>
+<text x="58" y="360" text-anchor="start" font-size="23" font-weight="740" fill="#215572">Learner workspace</text>
+<text x="58" y="387" text-anchor="start" font-size="18" font-weight="400" fill="#344b5d">Continue learning   •   Ask my book   •   Knowledge graph   •   Practice   •   Revision   •   Daily Problem   •   Mock exams   •   My Progress</text>
+<path d="M234 407V426" fill="none" stroke="#52697c" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#slate)"/>
+<rect x="36" y="428" width="1568" height="421" rx="17" fill="#edf7f3" stroke="#7bb8a2" stroke-width="1.4"/>
+<text x="58" y="459" text-anchor="start" font-size="23" font-weight="740" fill="#116554">Personalized tutoring loop</text>
+<text x="58" y="486" text-anchor="start" font-size="18" font-weight="400" fill="#344b5d">The student’s answers help determine what to check, where to start teaching, and what to try next.</text>
+<rect x="57" y="508" width="354" height="175" rx="11" fill="#fff" stroke="#9fcbbb" stroke-width="1.4"/>
+<text x="74" y="537" text-anchor="start" font-size="20" font-weight="700" fill="#116554">1   Understand the request</text>
+<text x="74" y="563" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Map the question to a concept.</text>
+<text x="74" y="586" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Route to explain, check, practise</text>
+<text x="74" y="609" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">or clarify. Use the current chat</text>
+<text x="74" y="632" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">topic to interpret short follow-ups.</text>
+<rect x="441" y="508" width="354" height="175" rx="11" fill="#fff" stroke="#9fcbbb" stroke-width="1.4"/>
+<text x="458" y="537" text-anchor="start" font-size="20" font-weight="700" fill="#116554">2   Check the foundations</text>
+<text x="458" y="563" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Use prerequisite links and saved</text>
+<text x="458" y="586" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">evidence to select up to 3 items.</text>
+<text x="458" y="609" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Score answers locally and choose</text>
+<text x="458" y="632" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">the teaching starting point.</text>
+<rect x="825" y="508" width="354" height="175" rx="11" fill="#f6f2fc" stroke="#b6a6d4" stroke-width="1.4"/>
+<text x="842" y="537" text-anchor="start" font-size="20" font-weight="700" fill="#514387">3   Teach with the LLM</text>
+<text x="842" y="563" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Retrieve relevant NCERT passages.</text>
+<text x="842" y="586" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Use sources and the teaching focus</text>
+<text x="842" y="609" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">to generate a cited explanation.</text>
+<text x="842" y="632" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Validate citations and selected maths.</text>
+<rect x="1209" y="508" width="373" height="175" rx="11" fill="#fff" stroke="#9fcbbb" stroke-width="1.4"/>
+<text x="1226" y="537" text-anchor="start" font-size="20" font-weight="700" fill="#116554">4   Check understanding</text>
+<text x="1226" y="563" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Offer a fresh transfer question.</text>
+<text x="1226" y="586" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Score and save the answer locally.</text>
+<text x="1226" y="609" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Offer a harder comparison or a</text>
+<text x="1226" y="632" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">different worked example.</text>
+<path d="M411 597H438" fill="none" stroke="#52697c" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#slate)"/>
+<path d="M795 597H822" fill="none" stroke="#52697c" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#slate)"/>
+<path d="M1179 597H1206" fill="none" stroke="#52697c" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#slate)"/>
+<text x="1002" y="710" text-anchor="middle" font-size="15" font-weight="400" fill="#514387">Fallback: local teaching or labelled textbook excerpts</text>
+<path d="M1395 683V746H617V686" fill="none" stroke="#247d69" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="735" y="731" width="543" height="27" rx="6" fill="#edf7f3" stroke="none" stroke-width="1.4"/>
+<text x="1006" y="750" text-anchor="middle" font-size="16" font-weight="650" fill="#116554">New answers and student feedback shape later checks and lessons</text>
+<rect x="58" y="771" width="1524" height="56" rx="9" fill="#dfeee7" stroke="none" stroke-width="1.4"/>
+<text x="75" y="805" text-anchor="start" font-size="18" font-weight="700" fill="#116554">Example</text>
+<text x="163" y="805" text-anchor="start" font-size="17" font-weight="400" fill="#162b3e">Rotated angle identified correctly → compare angle measures.  Missed answer → revisit a half-turn with a clock-hand example.</text>
+<path d="M234 849V865" fill="none" stroke="#247d69" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
+<path d="M617 865V849" fill="none" stroke="#247d69" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="36" y="867" width="1568" height="222" rx="17" fill="#edf2f7" stroke="#aec3d2" stroke-width="1.4"/>
+<text x="58" y="898" text-anchor="start" font-size="23" font-weight="740" fill="#215572">Saved learner evidence and study tools</text>
+<rect x="57" y="914" width="476" height="137" rx="11" fill="#fff" stroke="#b5c9d7" stroke-width="1.4"/>
+<text x="74" y="943" text-anchor="start" font-size="20" font-weight="700" fill="#215572">Learner record in SQLite</text>
+<text x="74" y="969" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Stores checks, chat follow-ups, practice, exams,</text>
+<text x="74" y="992" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">revision and daily solves by student account.</text>
+<text x="74" y="1015" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Saved scores and reports stay on the server.</text>
+<rect x="568" y="914" width="476" height="137" rx="11" fill="#fff" stroke="#b5c9d7" stroke-width="1.4"/>
+<text x="585" y="943" text-anchor="start" font-size="20" font-weight="700" fill="#215572">Recommendations and review</text>
+<text x="585" y="969" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Continue learning suggests a useful next topic.</text>
+<text x="585" y="992" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Revision schedules fresh retries on past mistakes.</text>
+<text x="585" y="1015" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">My Progress shows charts and the daily streak.</text>
+<rect x="1079" y="914" width="503" height="137" rx="11" fill="#fff9ed" stroke="#d4b486" stroke-width="1.4"/>
+<text x="1096" y="943" text-anchor="start" font-size="20" font-weight="700" fill="#81500d">Personalized mock exams</text>
+<text x="1096" y="969" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Student chooses chapters, question count and time.</text>
+<text x="1096" y="992" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">Past mistakes and a saved past-paper pattern</text>
+<text x="1096" y="1015" text-anchor="start" font-size="17" font-weight="400" fill="#344b5d">influence topic selection and supported formats.</text>
+<path d="M533 980H565" fill="none" stroke="#52697c" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#slate)"/>
+<path d="M533 1022H550V1069H1331V1054" fill="none" stroke="#52697c" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5" marker-end="url(#slate)"/>
+<text x="58" y="1128" text-anchor="start" font-size="16" font-weight="400" fill="#344b5d">Draft bank items and proposed prerequisite links are flagged for teacher review.</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "configured": true,
+  "request_scope": "Synthetic arithmetic only; no learner data",
+  "ok": true,
+  "seconds": 1.515
+}

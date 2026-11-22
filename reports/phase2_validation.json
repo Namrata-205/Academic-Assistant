@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-11-20T15:29:08.339986+00:00",
+  "tests_run": 105,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "passed": true,
+  "external_generation": "disabled; provider requests mocked or forced offline",
+  "limitations": [
+    "Automated functional checks do not establish semantic equivalence, independent scenario validity, or learning improvement."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "configured": true,
+  "ok": false,
+  "error": "provider_error",
+  "seconds": 1.8696
+}

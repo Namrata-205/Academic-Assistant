@@ -27,7 +27,7 @@ def run():
             with patch.object(chunks,'rank_pages',rank):
                 for case in dataset['cases']:
                     sources,_=chat.retrieve_sources(case['concept_id'],case['language'],case['question'],limit=None)
-                    if not sources or any(s.get('retrieval')!='semantic cosine similarity' for s in sources):
+                    if not sources or any(s.get('retrieval') not in ('semantic cosine similarity','hybrid BM25 + semantic RRF') for s in sources):
                         raise RuntimeError('Embedding retrieval unavailable: '+case['id'])
                     flags=[relevant(s,case) for s in sources]
                     rows.append({'case_id':case['id'],'language':case['language'],**retrieval_scores(flags),

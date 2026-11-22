@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-21T09:10:12.427701+00:00",
+  "tests_run": 138,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "passed": true,
+  "external_generation": "disabled",
+  "source_hashes": {
+    "diagnostic/teaching_feedback.py": "d100c957109e37b41cffb2940dfb5c1f12a75832410c66901881404a270d7baa",
+    "diagnostic/chat_tutor.py": "d71bc3edb418c3f6accb45d6c788469dbdea0669b6dc0ec46c5fc52f290f8f38",
+    "diagnostic/chat_context.py": "4846cb39817b5aee5e6b62976f8d15432b82ced8fed0db49489abdb9b8a988a5",
+    "diagnostic/book_chat.py": "0a05e4d17bc606ea18804e1dd682fc4b8e9972c64abb566c8f3d9ee7df8a8853",
+    "diagnostic/learner_evidence.py": "ea86a6556836ab17f24092f1697f5f90d4200ed430d7bc5a495f86ae579941d7",
+    "diagnostic/followup_templates.py": "4bc9ef596f6d49295bb9c47c67268222615f645a97b97e2c7ee2465271b4a745",
+    "diagnostic/tutor_selection.py": "bcab6fd449fdaacb3adb2ec602393234c5141ae7148064e5ee20a9145f5f0d6e"
+  }
+}

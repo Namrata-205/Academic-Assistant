@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 VERSION = 'diagnostic-v1'
 STATUS_CODES = {'Evidence supports understanding': 1, 'Possible prerequisite difficulty': 2,
                 'Insufficient evidence': 3}
-BANK_PATH = ROOT / 'diagnostic' / 'question_bank.json'
+BANK_PATH = ROOT / 'diagnostic' / 'question_bank_v2.json'
 RULES = ('Maximum 3 new questions. Eligible concepts: target plus direct incoming '
          'prerequisites with bank items; exclude self-loops. Fixed: concept ID then item ID. '
          'Graph-guided: finish checking a concept with one valid observation first; '
@@ -36,7 +36,7 @@ def normalize(value):
 
 def graph_source_path():
     directory=ROOT/'assets'/'NCERT_Knowledge_Graph'
-    for name in ('prerequisite_edges.csv','prerequisite_edges.xlsx'):
+    for name in ('prerequisite_edges_v2.csv','prerequisite_edges.csv','prerequisite_edges.xlsx'):
         if (directory/name).exists():return directory/name
     raise FileNotFoundError('Graph source missing: expected prerequisite_edges.csv or prerequisite_edges.xlsx.')
 
@@ -80,10 +80,13 @@ def load_graph():
     edges=load_graph_rows()
     nodes = {}
     for e in edges:
+        e['confidence_available']=bool(str(e.get('confidence','')).strip())
+        e['confidence']=e.get('confidence') or '0'
         for side in ('source', 'target'):
             key = e[side + '_id']
-            nodes[key] = {'id': key, 'en': e[side + '_en'], 'hi': e[side + '_hi'],
-                          'chapter': e[side + '_chapter']}
+            node={'id':key,'en':e[side+'_en'],'hi':e[side+'_hi'],'chapter':e[side+'_chapter']}
+            if key in nodes and nodes[key]!=node:raise ValueError('Conflicting graph labels for '+key)
+            nodes[key]=node
     return nodes, edges
 
 
@@ -141,7 +144,8 @@ def legacy_map_question(text, nodes, edges):
                'MATH6_C0003': ['number series', 'संख्या श्रृंखला']}
     hits = []
     for key, node in nodes.items():
-        terms = [node['en'], node['hi'], *aliases.get(key, [])]
+        from diagnostic.curriculum import search_terms
+        terms = [*search_terms(node), *aliases.get(key, [])]
         if node['en'].endswith('number'):
             terms.append(node['en'] + 's')
         matches = [t for t in terms if re.search(r'(?<!\w)' + re.escape(normalize(t)) + r'(?!\w)', text)]

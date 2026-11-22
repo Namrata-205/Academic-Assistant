@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "hands-on vertex explanation and compact footer",
+    "references remain available",
+    "feedback works at end of answer",
+    "Hindi student answer",
+    "mobile wrapping",
+    "no serious accessibility violations"
+  ],
+  "errors": []
+}

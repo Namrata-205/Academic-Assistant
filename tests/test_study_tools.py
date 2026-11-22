@@ -51,8 +51,8 @@ class StudyToolsTests(unittest.TestCase):
         with patch.object(mock_exams.time, 'time', return_value=1000):
             initial = mock_exams.create(self.conn, LEARNER, 'mixed', 'hi')
             exam = initial['id']
-            self.assertEqual(initial['deadline'], 1720)
-            self.assertEqual(len(initial['questions']), 6)
+            self.assertEqual(initial['deadline'], 2800)
+            self.assertEqual(len(initial['questions']), 20)
             self.assertNotIn('correct_answer', initial['questions'][0])
             with self.assertRaises(LookupError):
                 mock_exams.view(self.conn, 'other', exam)
@@ -60,10 +60,10 @@ class StudyToolsTests(unittest.TestCase):
             wrong = '99999' if initial['questions'][0]['type'] == 'numeric' else 'Z'
             saved = mock_exams.view(self.conn, LEARNER, exam, 'answer', 0, wrong)
             self.assertEqual(saved['questions'][0]['response'], wrong)
-        with patch.object(mock_exams.time, 'time', return_value=1721):
+        with patch.object(mock_exams.time, 'time', return_value=2801):
             expired = mock_exams.view(self.conn, LEARNER, exam, 'answer', 0, 'A')
             self.assertEqual(expired['questions'][0]['response'], wrong)
-            self.assertEqual(expired['finished'], 1720)
+            self.assertEqual(expired['finished'], 2800)
             self.assertEqual(expired['reason'], 'expired')
             self.assertEqual(expired['correct'], 0)
             self.assertIn('correct_answer', expired['questions'][0])

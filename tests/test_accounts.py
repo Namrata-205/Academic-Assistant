@@ -40,7 +40,7 @@ class AccountAPITests(unittest.TestCase):
                 return json.load(response)
 
         owner, other = client(), client()
-        credentials = {'username': 'alice-test', 'password': 'a-long-test-password', 'display_name': 'Alice'}
+        credentials = {'email': 'alice@example.test', 'password': 'a-long-test-password', 'name': 'Alice'}
         account = call(owner, '/auth/signup', credentials)['account']
         learner = account['learner']
         self.assertEqual(call(owner, '/auth/session')['account'], account)
@@ -48,7 +48,7 @@ class AccountAPITests(unittest.TestCase):
         path = '/practice/sessions/' + session['id'] + '?learner=' + learner
         self.assertEqual(call(owner, path)['id'], session['id'])
 
-        call(other, '/auth/signup', dict(credentials, username='another-test'))
+        call(other, '/auth/signup', dict(credentials, email='another@example.test'))
         for endpoint in ('/revision', '/exams'):
             account_path = endpoint + '?learner=' + learner
             self.assertIsInstance(call(owner, account_path), dict)

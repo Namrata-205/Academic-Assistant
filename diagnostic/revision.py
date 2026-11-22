@@ -1,6 +1,8 @@
 ﻿"""Reviews derive from saved mistakes; spacing and retry grading stay on the server."""
 import json
+import hashlib
 import time
+from datetime import datetime
 from uuid import uuid4
 
 from diagnostic import chat_tutor, engine, mock_exams, practice
@@ -19,7 +21,7 @@ def ensure(conn):
 
 
 def source_rows(conn, learner):
-    return conn.execute("""
+    rows=conn.execute("""
         SELECT 'practice', s.id, i.ordinal, s.concept_id, s.language, i.payload, i.response,
                CAST(strftime('%s', i.answered) AS REAL) AS missed
         FROM practice_sessions s JOIN practice_items i ON s.id=i.session_id
@@ -27,35 +29,53 @@ def source_rows(conn, learner):
         UNION ALL
         SELECT 'exam', e.id, i.ordinal, NULL, e.language, i.payload, i.response, e.finished
         FROM mock_exams e JOIN mock_exam_items i ON e.id=i.exam
-        WHERE e.learner=? AND e.finished IS NOT NULL AND i.score=0 AND i.response IS NOT NULL
+        WHERE e.learner=? AND e.finished IS NOT NULL AND i.score=0
         ORDER BY missed DESC
-        """, (learner, learner))
+        """, (learner, learner)).fetchall()
+    from diagnostic.tutor_bank import load
+    bank={q['id']:q for q in load()}
+    for sid,ordinal,qid,cid,response,created in conn.execute(
+        'SELECT s.id,r.ordinal,r.question_id,r.concept_id,r.response,s.created FROM responses r JOIN sessions s ON s.id=r.session_id WHERE s.learner=? AND s.version=? AND r.score=0',(learner,engine.VERSION)):
+        if qid in bank:rows.append(('check',sid,ordinal,cid,'en',json.dumps(bank[qid]),response,datetime.fromisoformat(created).timestamp()))
+    tables={r[0] for r in conn.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+    if {'book_chat_check_answers','book_chat_threads'}<=tables:
+        for sid,ordinal,qid,cid,response,created in conn.execute(
+            'SELECT a.attempt_id,a.ordinal,a.question_id,a.concept_id,a.response,a.created FROM book_chat_check_answers a JOIN book_chat_threads t ON t.id=a.thread_id WHERE t.learner=? AND a.version=? AND a.score=0',(learner,engine.VERSION)):
+            if qid in bank:rows.append(('chat',sid,ordinal,cid,'en',json.dumps(bank[qid]),response,datetime.fromisoformat(created).timestamp()))
+    if {'book_chat_tutor_events','book_chat_threads'}<=tables:
+        for eid,payload,created in conn.execute(
+            "SELECT a.id,a.payload,a.created FROM book_chat_tutor_events a JOIN book_chat_threads t ON t.id=a.thread_id WHERE t.learner=? AND a.kind='followup_answer'",(learner,)):
+            event=json.loads(payload);q=event.get('item')
+            if q and event.get('version')==engine.VERSION and event.get('score')==0:
+                rows.append(('chat',eid,0,q['concept_id'],'en',json.dumps(q),event.get('response'),datetime.fromisoformat(created).timestamp()))
+    return sorted(rows,key=lambda r:r[-1] or 0,reverse=True)
 
 
-def entries(conn, learner):
+def entries(conn, learner,language=None):
     ensure(conn)
     with conn:
         conn.execute('BEGIN IMMEDIATE')
         now = time.time()
         mock_exams.expire(conn, learner, now)
-        rows = source_rows(conn, learner).fetchall()
+        rows = source_rows(conn, learner)
         states = {row[0]: row[1:] for row in conn.execute(
             'SELECT mistake,streak,due,retry_id,retry_payload,last_text FROM mistake_reviews WHERE learner=?', (learner,))}
     mistakes = []
-    for source, session, ordinal, cid, language, payload, answer, _ in rows:
+    for source, session, ordinal, cid, original_language, payload, answer, _ in rows:
         key = f'{source}-{session}-{ordinal}'
         q = json.loads(payload)
+        display_language=language if language in ('en','hi') and q.get('en')!=q.get('hi') else original_language
         streak, due, retry_id, retry_payload, last_text = states.get(key, (0, 0, None, None, None))
-        mistakes.append((dict(id=key, source=source, concept_id=cid or q['concept_id'], language=language,
-                              question=q[language], response=answer, correct_answer=q['answer'],
-                              explanation=explanation(q, language), reference=q.get('source'), streak=streak,
-                              due=due, ready=due is not None and due <= now),
+        mistakes.append((dict(id=key, source=source, concept_id=cid or q['concept_id'], language=display_language,
+                              question=q[display_language], response=answer, correct_answer=q['answer'],
+                              explanation=explanation(q, display_language), reference=q.get('source'), streak=streak,
+                              due=due, ready=due is not None and due <= now, diagram=q.get('diagram'), reviewed=last_text is not None),
                          retry_id, retry_payload, last_text))
     return mistakes
 
 
-def notebook(conn, learner):
-    cards = [card for card, *_ in entries(conn, learner)]
+def notebook(conn, learner,language=None):
+    cards = [card for card, *_ in entries(conn, learner,language)]
     due = sorted((card for card in reversed(cards) if card['ready']), key=lambda card: card['due'])
     return {'mistakes': cards, 'daily': due[:DAILY_LIMIT], 'due_count': len(due)}
 
@@ -78,8 +98,8 @@ def variant(card, last_text):
     raise ValueError('A different question is unavailable for this topic right now.')
 
 
-def start(conn, learner, key):
-    entry = next((row for row in entries(conn, learner) if row[0]['id'] == key), None)
+def start(conn, learner, key,language=None):
+    entry = next((row for row in entries(conn, learner,language) if row[0]['id'] == key), None)
     if entry is None:
         raise LookupError('Mistake not found.')
     card, retry, payload, last_text = entry
@@ -104,13 +124,13 @@ def start(conn, learner, key):
     return {'id': retry, 'text': q[card['language']], 'type': q['type'], 'language': card['language']}
 
 
-def answer(conn, learner, key, retry, response):
+def answer(conn, learner, key, retry, response,language=None):
     if not isinstance(retry, str) or not isinstance(response, str) or not response.strip() or len(response) > 500:
         raise ValueError('Enter a short answer to the review question.')
     entry = next((row for row in entries(conn, learner) if row[0]['id'] == key), None)
     if entry is None:
         raise LookupError('Mistake not found.')
-    language = entry[0]['language']
+    language = language if language in ('en','hi') else entry[0]['language']
     with conn:
         conn.execute('BEGIN IMMEDIATE')
         saved = conn.execute('SELECT streak,retry_payload FROM mistake_reviews WHERE learner=? AND mistake=? AND retry_id=?',

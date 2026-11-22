@@ -32,7 +32,7 @@ class RouterTests(unittest.TestCase):
             with self.assertRaises(ValueError):router.validate(draft,self.nodes,local)
         self.assertEqual(router.validate({'action':'check','concept_id':'MATH6_C0025','confidence':.4},self.nodes,local)['action'],'clarify')
         mapping=e.map_question('odd number',self.nodes,self.edges)
-        self.assertEqual(router.validate({'action':'explain','concept_id':'MATH6_C0006','confidence':1},self.nodes,mapping)['action'],'clarify')
+        self.assertEqual(router.validate({'action':'explain','concept_id':'MATH6_C0006','confidence':1},self.nodes,mapping)['action'],'explain')
 
     def test_planner_uses_query_and_public_concepts_only(self):
         with patch.object(router,'configuration',return_value={'GEMINI_API_KEY':'test-key'}),patch.object(router,'gemini_generate',return_value={'action':'check','concept_id':'MATH6_C0025','confidence':.95}) as call:
@@ -49,7 +49,7 @@ class RouterTests(unittest.TestCase):
             self.assertEqual(start['message']['mode'],'learning_check')
             calls=planner.call_count
             with patch.object(chat,'generate',side_effect=RuntimeError('offline')):
-                chat.send(conn,'a','__check_batch__:'+__import__('json').dumps(['2']*len(start['message']['check_questions'])),'en',start['thread_id'])
+                chat.send(conn,'a','2','en',start['thread_id'])
             self.assertEqual(planner.call_count,calls)
             self.assertEqual(e.history(conn,'a'),[]);conn.close()
 

@@ -1,0 +1,389 @@
+{
+  "version": "bilingual-glossary-v1",
+  "concepts": {
+    "MATH6_C0003": {
+      "concept_id": "MATH6_C0003",
+      "en": "number pattern",
+      "hi": "संख्या पैटर्न",
+      "definition_en": "A number pattern follows a rule. For example: 2, 4, 6, 8 adds 2 each time.",
+      "definition_hi": "संख्या पैटर्न एक नियम का पालन करता है। उदाहरण: 2, 4, 6, 8 में हर बार 2 जोड़ते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0006": {
+      "concept_id": "MATH6_C0006",
+      "en": "odd number",
+      "hi": "विषम संख्या",
+      "definition_en": "An odd number leaves remainder 1 on division by 2.",
+      "definition_hi": "विषम संख्या को 2 से भाग देने पर शेष 1 रहता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0007": {
+      "concept_id": "MATH6_C0007",
+      "en": "even number",
+      "hi": "सम संख्या",
+      "definition_en": "An even number leaves remainder 0 on division by 2.",
+      "definition_hi": "सम संख्या को 2 से भाग देने पर शेष 0 रहता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0009": {
+      "concept_id": "MATH6_C0009",
+      "en": "square number",
+      "hi": "वर्ग संख्या",
+      "definition_en": "A square number is a number multiplied by itself: 4 × 4 = 16.",
+      "definition_hi": "किसी संख्या को उसी से गुणा करने पर वर्ग संख्या मिलती है: 4 × 4 = 16।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0037": {
+      "concept_id": "MATH6_C0037",
+      "en": "digit",
+      "hi": "अंक",
+      "definition_en": "A digit is one of the symbols 0 to 9.",
+      "definition_hi": "अंक 0 से 9 तक के चिह्नों में से एक है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0038": {
+      "concept_id": "MATH6_C0038",
+      "en": "place value",
+      "hi": "स्थानीय मान",
+      "definition_en": "In 3452, the digit 4 is in the hundreds place: 4 × 100 = 400.",
+      "definition_hi": "3452 में अंक 4 सैकड़े के स्थान पर है: 4 × 100 = 400।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0044": {
+      "concept_id": "MATH6_C0044",
+      "en": "odd number",
+      "hi": "विषम संख्या",
+      "definition_en": "An odd number leaves remainder 1 on division by 2.",
+      "definition_hi": "विषम संख्या को 2 से भाग देने पर शेष 1 रहता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0039": {
+      "concept_id": "MATH6_C0039",
+      "en": "digit sum",
+      "hi": "अंकों का योग",
+      "definition_en": "The digit sum of 352 is 3 + 5 + 2 = 10.",
+      "definition_hi": "352 के अंकों का योग 3 + 5 + 2 = 10 है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0045": {
+      "concept_id": "MATH6_C0045",
+      "en": "even number",
+      "hi": "सम संख्या",
+      "definition_en": "An even number leaves remainder 0 on division by 2.",
+      "definition_hi": "सम संख्या को 2 से भाग देने पर शेष 0 रहता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0018": {
+      "concept_id": "MATH6_C0018",
+      "en": "line segment",
+      "hi": "रेखाखंड",
+      "definition_en": "A line segment has 2 endpoints.",
+      "definition_hi": "रेखाखंड के 2 अंत बिंदु होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0021": {
+      "concept_id": "MATH6_C0021",
+      "en": "vertex",
+      "hi": "शीर्ष",
+      "definition_en": "The common endpoint of the rays forming an angle is its vertex.",
+      "definition_hi": "कोण बनाने वाली किरणों का उभयनिष्ठ प्रारंभिक बिंदु उसका शीर्ष है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0019": {
+      "concept_id": "MATH6_C0019",
+      "en": "ray",
+      "hi": "किरण",
+      "definition_en": "A ray has 1 starting point and extends endlessly in one direction.",
+      "definition_hi": "किरण का 1 प्रारंभिक बिंदु होता है और यह एक दिशा में अनंत तक जाती है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0020": {
+      "concept_id": "MATH6_C0020",
+      "en": "angle",
+      "hi": "कोण",
+      "definition_en": "Two rays with a common endpoint form an angle.",
+      "definition_hi": "एक उभयनिष्ठ प्रारंभिक बिंदु वाली दो किरणें कोण बनाती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0023": {
+      "concept_id": "MATH6_C0023",
+      "en": "straight angle",
+      "hi": "सरल कोण",
+      "definition_en": "A straight angle measures 180 degrees.",
+      "definition_hi": "सरल कोण का माप 180 अंश है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0024": {
+      "concept_id": "MATH6_C0024",
+      "en": "right angle",
+      "hi": "समकोण",
+      "definition_en": "A right angle measures 90 degrees.",
+      "definition_hi": "समकोण का माप 90 अंश है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0025": {
+      "concept_id": "MATH6_C0025",
+      "en": "acute angle",
+      "hi": "न्यून कोण",
+      "definition_en": "An acute angle is greater than 0 degrees and smaller than 90 degrees.",
+      "definition_hi": "न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0026": {
+      "concept_id": "MATH6_C0026",
+      "en": "obtuse angle",
+      "hi": "अधिक कोण",
+      "definition_en": "An obtuse angle is greater than 90 degrees and smaller than 180 degrees.",
+      "definition_hi": "अधिक कोण 90 अंश से अधिक और 180 अंश से कम होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0012": {
+      "concept_id": "MATH6_C0012",
+      "en": "consecutive number",
+      "hi": "क्रमागत संख्या",
+      "definition_en": "Consecutive whole numbers differ by 1.",
+      "definition_hi": "क्रमागत पूर्ण संख्याओं में 1 का अंतर होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0036": {
+      "concept_id": "MATH6_C0036",
+      "en": "number",
+      "hi": "संख्या",
+      "definition_en": "A number can describe how many objects a collection contains.",
+      "definition_hi": "संख्या बता सकती है कि किसी समूह में कितनी वस्तुएँ हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0041": {
+      "concept_id": "MATH6_C0041",
+      "en": "number line",
+      "hi": "संख्या रेखा",
+      "definition_en": "Numbers increase as we move right on a number line.",
+      "definition_hi": "संख्या रेखा पर दाईं ओर जाने पर संख्याएँ बढ़ती हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0027": {
+      "concept_id": "MATH6_C0027",
+      "en": "reflex angle",
+      "hi": "प्रतिवर्ती कोण",
+      "definition_en": "A reflex angle is greater than 180 degrees and smaller than 360 degrees.",
+      "definition_hi": "प्रतिवर्ती कोण 180 अंश से अधिक और 360 अंश से कम होता है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0028": {
+      "concept_id": "MATH6_C0028",
+      "en": "complete angle",
+      "hi": "पूर्ण कोण",
+      "definition_en": "A complete angle measures 360 degrees.",
+      "definition_hi": "पूर्ण कोण का माप 360 अंश है।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0029": {
+      "concept_id": "MATH6_C0029",
+      "en": "degree",
+      "hi": "अंश (डिग्री)",
+      "definition_en": "One full turn contains 360 degrees.",
+      "definition_hi": "एक पूर्ण घुमाव में 360 अंश होते हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    },
+    "MATH6_C0022": {
+      "concept_id": "MATH6_C0022",
+      "en": "arm of angle",
+      "hi": "कोण की भुजा",
+      "definition_en": "The 2 rays forming an angle are its arms.",
+      "definition_hi": "कोण बनाने वाली 2 किरणें उसकी भुजाएँ हैं।",
+      "invariant_check": {
+        "passed": true,
+        "errors": [],
+        "semantic_review": "PENDING"
+      },
+      "review_status": "PENDING",
+      "reviewer": "",
+      "reviewed_at": "",
+      "provenance": "AI-authored glossary draft; textbook support remains separately cited."
+    }
+  }
+}

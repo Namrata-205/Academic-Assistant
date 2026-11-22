@@ -1,3 +1,4 @@
+from tests.legacy_curriculum import frozen_v1
 import tempfile
 import unittest
 import threading
@@ -11,6 +12,9 @@ from server import Handler
 
 
 class LearnerStudyTests(unittest.TestCase):
+    def setUp(self):
+        self.enterContext(frozen_v1())
+
     def test_study_http_flow_and_export(self):
         with tempfile.TemporaryDirectory() as tmp:
             original=e.connect

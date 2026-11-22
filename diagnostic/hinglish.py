@@ -5,12 +5,66 @@ from contextvars import ContextVar
 STYLE=ContextVar('chat_response_style',default='en')
 
 
+MARKERS = set(('mujhe muje mujhko mera meri mere nahi nahin nhi nai samajh samajhta samajhti samjhta '
+               'samjhti samjha samjhao samjhana samjhaao samjhaiye samjhaaye kaise kese kya mein main hai hain '
+               'hota hoti hote aata aati sawal sawaal batao bataiye bataye thoda thodi aur karo karein kijiye '
+               'likho nikalo wala wali hum tum aap yeh ye isko usko yaani kyun kyu kyon matlab zyada kam tak').split())
+STRONG = set('mujhe muje mujhko nahi nahin nhi samajh samjha samjhao samjhaao samjhaiye batao bataiye bataye kaise kese kya'.split())
+
+
 def detect(text,requested='en'):
-    if requested=='hi':return 'hi'
-    if requested=='hinglish':return 'hinglish'
+    if requested in ('hi','hinglish'):
+        return requested
     tokens=set(re.findall(r'[a-z]+',text.casefold()))
-    markers={'mujhe','mujhko','mera','meri','mere','nahi','nahin','samajh','samajhta','samajhti','samjhta','samjhti','samjha','samjhao','samjhana','theek','kaise','kya','mein','hain','hai','hota','hoti','aata','aati','sawal','sawaal','batao','thoda','ache','achhe','samajhta','samajhata'}
-    return 'hinglish' if len(tokens&markers)>=2 else 'en'
+    if tokens & STRONG or len(tokens & MARKERS)>=2:
+        return 'hinglish'
+    if re.search(r'[\u0900-\u097f]',text):
+        return 'hi'
+    return 'en'
+
+
+_CONSONANTS = dict(zip('कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळक़ख़ग़ज़ड़ढ़फ़',
+    'k kh g gh ng ch chh j jh ny t th d dh n t th d dh n p ph b bh m y r l v sh sh s h l q kh g z r rh f'.split()))
+_VOWELS = dict(zip('अआइईउऊऋएऐओऔऑ', 'a aa i ee u oo ri e ai o au o'.split()))
+_MARKS = dict(zip('ािीुूृेैोौॉ', 'aa i ee u oo ri e ai o au o'.split()))
+_TERMS = {'समकोण':'right angle','सरल कोण':'straight angle','न्यून कोण':'acute angle','अधिक कोण':'obtuse angle',
+          'रेखाखंड':'line segment','स्थानीय मान':'place value','अंकों का योग':'digit sum','संख्या पैटर्न':'number pattern',
+          'पूर्ण घुमाव':'full turn','घड़ी की सुई':'clock hand','चित्र':'diagram','कोण':'angle','सवाल':'sawaal',
+          'प्रश्न':'question','उदाहरण':'example','उत्तर':'answer','में':'mein','नहीं':'nahi','हैं':'hain',
+          'है':'hai','कहते':'kehte','लिए':'liye','कीजिए':'kijiye','देखिए':'dekhiye','खुलाव':'khulaav'}
+
+
+def romanize(text):
+    for term, label in sorted(_TERMS.items(), key=lambda pair:-len(pair[0])):
+        text=re.sub(r'(?<![\u0900-\u097f])'+re.escape(term)+r'(?![\u0900-\u097f])',label,text)
+    def word(match):
+        value=match[0]
+        output=[]
+        for i,char in enumerate(value):
+            following=value[i+1:i+2]
+            if char in _CONSONANTS:
+                output.append(_CONSONANTS[char]+('a' if following and following not in _MARKS and following!='्' else ''))
+            elif char in _VOWELS:
+                output.append(_VOWELS[char])
+            elif char in _MARKS:
+                output.append(_MARKS[char])
+            elif char in 'ंँ':
+                output.append('n')
+            elif char=='ः':
+                output.append('h')
+            elif char not in '़्':
+                output.append(char)
+        return ''.join(output)
+    text=text.translate(str.maketrans('०१२३४५६७८९।॥','0123456789..'))
+    return re.sub(r'[\u0900-\u0963]+',word,text)
+
+
+def authored(paragraphs):
+    return [dict(p,text=romanize(p['text'])) for p in paragraphs]
+
+
+def feedback(q, language):
+    return romanize(q.get('feedback_hi') or q.get('feedback_en','')) if STYLE.get()=='hinglish' else q.get('feedback_'+language,'')
 
 
 QUESTIONS={
@@ -52,7 +106,12 @@ def question(q):
     if match:return f'{match[1]} ke saare digits ko jodne par kitna milega?'
     match=re.search(r'(?:What is|Calculate) (\d+) squared',text)
     if match:return f'{match[1]} ka square, yaani {match[1]} × {match[1]}, kitna hoga?'
-    return 'Chalo, yeh sawal try karo: '+text
+    translated = romanize(q.get('hi',''))
+    numbers = lambda value: sorted(re.findall(r'\d+',value))
+    options = lambda value: re.findall(r'\b[A-D]:',value)
+    if translated and numbers(translated)==numbers(text) and options(translated)==options(text):
+        return translated
+    return 'Chalo, yeh sawaal try karo: '+text
 
 
 def localize(result):
@@ -71,6 +130,15 @@ def localize(result):
         if result.get('routing',{}).get('topic_assumption'):result['message']='Number patterns samjhane se pehle numbers aur digits ke basics check karte hain. Agar tumhara matlab shapes se hai, toh bata dena.'
         result['notice']='Ye answers isi chat mein save honge. Diagnostic scores alag rahenge.'
     if result.get('mode')=='practice_feedback':
-        result['message']=('Bilkul sahi! ' if result.get('practice_score')==1 else 'Chalo, isko step by step dekhte hain. ')+result.get('message','')
+        message=result.get('message','').removeprefix('Correct. ').removeprefix('Let’s work through it. ')
+        result['message']=('Bilkul sahi! ' if result.get('practice_score')==1 else 'Chalo, isko step by step dekhte hain. ')+message
+    if result.get('status')=='clarify':
+        result['message']='Aap kis concept ke baare mein pooch rahe hain?'
+    if result.get('status')=='insufficient_sources':
+        result['message']='Is topic ko samjhane ke liye textbook mein seedha reference nahi mila.'
+    if result.get('mode')=='extractive':
+        result['message']='Abhi Hinglish mein explanation tayyar nahi ho paayi. Kitab ke asli passages neeche hain.'
+    if result.get('mode')=='practice_unavailable':
+        result['message']='Abhi is topic ka naya practice sawaal nahi mila. Explanation maango ya doosra topic chuno.'
     if result.get('mode')=='practice':result['message']='Yeh sawal try karo; phir tumhara answer check karenge.'
     return result

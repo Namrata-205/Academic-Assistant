@@ -36,24 +36,26 @@ class LearnerAPIFlowTests(unittest.TestCase):
                     self.assertEqual(call('/map',{'question':'unknown topic abc'})['status'],'clarify')
                     state = call('/sessions', {'learner':'browser-test','target':mapping['concept_id']})
                     sid = state['id']
-                    for answer in ('400', '७००'):
-                        question = state['question']
-                        self.assertNotIn('answer', question)
-                        state = call(f'/sessions/{sid}/answer', {'learner':'browser-test','question_id':question['id'],'response':answer})
-                    self.assertIsNone(state['question'])
-                    self.assertEqual(state['report']['question_count'],2)
+                    first_question_id=state['question']['id']
+                    bank={q['id']:q for q in e.load_bank()}
+                    answered=0
+                    while state['question']:
+                        question=state['question'];self.assertNotIn('answer',question)
+                        state=call(f'/sessions/{sid}/answer',{'learner':'browser-test','question_id':question['id'],'response':bank[question['id']]['answer']})
+                        answered+=1;self.assertLessEqual(answered,3)
+                    self.assertEqual(state['report']['question_count'],answered)
                     self.assertEqual(state['report']['selection_method'],'graph-guided')
-                    self.assertEqual(next(c for c in state['report']['concepts'] if c['role']=='target')['status_code'],1)
+                    self.assertEqual(next(c for c in state['report']['concepts'] if c['role']=='target')['status_code'],3)
                     self.assertIn('study_plan',state['report'])
                     self.assertTrue(state['report']['study_plan'])
                     self.assertEqual(call(f'/sessions/{sid}?learner=browser-test')['report'],state['report'])
-                    self.assertEqual(call('/sessions?learner=browser-test')['response_count'],2)
+                    self.assertEqual(call('/sessions?learner=browser-test')['response_count'],answered)
                     progress=call('/progress?learner=browser-test')
                     self.assertEqual(progress['completed_checks'],1)
-                    self.assertEqual(progress['total_answers'],2)
+                    self.assertEqual(progress['total_answers'],answered)
                     self.assertTrue(progress['sessions'][0]['target_assessed'])
                     with self.assertRaises(HTTPError) as caught:
-                        call('/sessions',{'learner':'browser-test','target':'MATH6_C0036'})
+                        call('/sessions',{'learner':'browser-test','target':'UNKNOWN_CONCEPT'})
                     self.assertEqual(caught.exception.code,400)
                     with urlopen(base+'/textbooks/en/fegp102.pdf') as pdf:
                         self.assertEqual(pdf.headers['Content-Type'],'application/pdf')
@@ -64,7 +66,10 @@ class LearnerAPIFlowTests(unittest.TestCase):
                     with patch('diagnostic.book_chat.generate',side_effect=RuntimeError('offline')):
                         chat=call('/chat/message',{'learner':'browser-test','message':'Explain place value','language':'en','concept_id':'MATH6_C0038'})
                         other_chat=call('/chat/message',{'learner':'another-learner','message':'Explain place value','language':'hi','concept_id':'MATH6_C0038'})
-                    self.assertEqual(chat['message']['mode'],'extractive')
+                    self.assertEqual(chat['message']['status'],'answered')
+                    self.assertEqual(chat['message']['mode'],'calculated')
+                    self.assertEqual(chat['message']['sources'],[])
+                    self.assertTrue(chat['message']['paragraphs'])
                     self.assertEqual(len(call('/chat/threads?learner=browser-test')['threads']),1)
                     self.assertEqual(len(call('/chat/threads/'+chat['thread_id']+'?learner=browser-test')['messages']),2)
                     with self.assertRaises(HTTPError) as denied:
@@ -79,7 +84,7 @@ class LearnerAPIFlowTests(unittest.TestCase):
                     self.assertEqual(call('/progress?learner=browser-test')['total_answers'],0)
                     self.assertEqual(len(call('/sessions?learner=another-learner')['sessions']),1)
                     fresh=call('/sessions',{'learner':'browser-test','target':'MATH6_C0038'})
-                    self.assertEqual(fresh['question']['id'],'DQ_0038_1')
+                    self.assertEqual(fresh['question']['id'],first_question_id)
                     self.assertEqual(fresh['history_count'],0)
                 finally:
                     http.shutdown();http.server_close();thread.join()

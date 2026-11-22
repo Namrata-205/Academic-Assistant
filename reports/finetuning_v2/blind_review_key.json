@@ -1,0 +1,182 @@
+[
+  {
+    "method": "baseline",
+    "case_id": "R01",
+    "blind_id": "1302d9fab073"
+  },
+  {
+    "method": "baseline",
+    "case_id": "R02",
+    "blind_id": "8641a2b7a3f6"
+  },
+  {
+    "method": "baseline",
+    "case_id": "R03",
+    "blind_id": "e52cb599f040"
+  },
+  {
+    "method": "baseline",
+    "case_id": "R04",
+    "blind_id": "71a8fd104518"
+  },
+  {
+    "method": "baseline",
+    "case_id": "R05",
+    "blind_id": "b775a4ce9e35"
+  },
+  {
+    "method": "baseline",
+    "case_id": "R06",
+    "blind_id": "e898aeabdb96"
+  },
+  {
+    "method": "baseline",
+    "case_id": "R07",
+    "blind_id": "822ada15ee24"
+  },
+  {
+    "method": "baseline",
+    "case_id": "R08",
+    "blind_id": "6f79300327d6"
+  },
+  {
+    "method": "baseline",
+    "case_id": "R12",
+    "blind_id": "79266498b899"
+  },
+  {
+    "method": "lora",
+    "case_id": "R01",
+    "blind_id": "3852d8c02e18"
+  },
+  {
+    "method": "lora",
+    "case_id": "R02",
+    "blind_id": "bcb655aa8db3"
+  },
+  {
+    "method": "lora",
+    "case_id": "R03",
+    "blind_id": "488413910762"
+  },
+  {
+    "method": "lora",
+    "case_id": "R04",
+    "blind_id": "071949adc0ad"
+  },
+  {
+    "method": "lora",
+    "case_id": "R05",
+    "blind_id": "bb9ef386ac04"
+  },
+  {
+    "method": "lora",
+    "case_id": "R06",
+    "blind_id": "e0dbb4e00b67"
+  },
+  {
+    "method": "lora",
+    "case_id": "R07",
+    "blind_id": "552e8f963181"
+  },
+  {
+    "method": "lora",
+    "case_id": "R08",
+    "blind_id": "24f1d365f131"
+  },
+  {
+    "method": "lora",
+    "case_id": "R12",
+    "blind_id": "d2ffd597eaef"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R01",
+    "blind_id": "466822b3537e"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R02",
+    "blind_id": "da01edd76b3b"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R03",
+    "blind_id": "065829ca99f7"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R04",
+    "blind_id": "e7845810be25"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R05",
+    "blind_id": "de24e0c37de3"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R06",
+    "blind_id": "67bed367644f"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R07",
+    "blind_id": "695089414b9b"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R08",
+    "blind_id": "9cb0a89772db"
+  },
+  {
+    "method": "qlora",
+    "case_id": "R12",
+    "blind_id": "c33652a3bb8d"
+  },
+  {
+    "method": "full",
+    "case_id": "R01",
+    "blind_id": "0a9aec667f1d"
+  },
+  {
+    "method": "full",
+    "case_id": "R02",
+    "blind_id": "c4806f389dc6"
+  },
+  {
+    "method": "full",
+    "case_id": "R03",
+    "blind_id": "f58bf208b089"
+  },
+  {
+    "method": "full",
+    "case_id": "R04",
+    "blind_id": "465edc5f60ae"
+  },
+  {
+    "method": "full",
+    "case_id": "R05",
+    "blind_id": "657cd4d03da5"
+  },
+  {
+    "method": "full",
+    "case_id": "R06",
+    "blind_id": "3c70a7dbc133"
+  },
+  {
+    "method": "full",
+    "case_id": "R07",
+    "blind_id": "23db13767c81"
+  },
+  {
+    "method": "full",
+    "case_id": "R08",
+    "blind_id": "7c1e22bd3f66"
+  },
+  {
+    "method": "full",
+    "case_id": "R12",
+    "blind_id": "7ced0dc47eed"
+  }
+]

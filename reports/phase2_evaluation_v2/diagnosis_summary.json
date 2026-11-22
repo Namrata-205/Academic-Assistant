@@ -1,0 +1,192 @@
+{
+  "scope": "60 synthetic development scenarios x two languages x three methods. Not learner accuracy. Language answers use equivalent keys: identical diagnosis metrics are expected.",
+  "policy": "Max three asked items per method; no unseen responses or labels provided to selectors. No prior learner evidence. All arms access the whole bank. Fixed/adaptive prioritise target then same chapter without edges; graph prioritises direct prerequisites.",
+  "limitations": "Synthetic response packs are graph-derived and baselines are simple target-first heuristics, not optimised models. Exact gap-set agreement counts an empty predicted set as correct for non-gap cases even when evidence is insufficient; interpret together with unresolved rate. This is not an unbiased causal estimate of graph benefit.",
+  "reviewed_learner_scenarios": 0,
+  "by_language": {
+    "en": {
+      "fixed": {
+        "cases": 60,
+        "exact_gap_set_agreement": 0.8,
+        "gap_detection_rate": 0,
+        "false_gap_rate": 0,
+        "unresolved_rate": 0.2,
+        "average_questions": 3,
+        "profile_breakdown": {
+          "prerequisite_gap": {
+            "exact_gap_set_agreement": 0,
+            "unresolved_rate": 0
+          },
+          "no_apparent_gap": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0
+          },
+          "calculation_slip": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0
+          },
+          "language_confusion": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0
+          },
+          "insufficient_evidence": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          }
+        }
+      },
+      "adaptive_without_graph": {
+        "cases": 60,
+        "exact_gap_set_agreement": 0.8,
+        "gap_detection_rate": 0,
+        "false_gap_rate": 0,
+        "unresolved_rate": 1,
+        "average_questions": 3,
+        "profile_breakdown": {
+          "prerequisite_gap": {
+            "exact_gap_set_agreement": 0,
+            "unresolved_rate": 1
+          },
+          "no_apparent_gap": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          },
+          "calculation_slip": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          },
+          "language_confusion": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          },
+          "insufficient_evidence": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          }
+        }
+      },
+      "graph_guided": {
+        "cases": 60,
+        "exact_gap_set_agreement": 0.95,
+        "gap_detection_rate": 0.75,
+        "false_gap_rate": 0,
+        "unresolved_rate": 0.6,
+        "average_questions": 2.7666666666666666,
+        "profile_breakdown": {
+          "prerequisite_gap": {
+            "exact_gap_set_agreement": 0.75,
+            "unresolved_rate": 0.4166666666666667
+          },
+          "no_apparent_gap": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0.4166666666666667
+          },
+          "calculation_slip": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          },
+          "language_confusion": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0.16666666666666666
+          },
+          "insufficient_evidence": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          }
+        }
+      }
+    },
+    "hi": {
+      "fixed": {
+        "cases": 60,
+        "exact_gap_set_agreement": 0.8,
+        "gap_detection_rate": 0,
+        "false_gap_rate": 0,
+        "unresolved_rate": 0.2,
+        "average_questions": 3,
+        "profile_breakdown": {
+          "prerequisite_gap": {
+            "exact_gap_set_agreement": 0,
+            "unresolved_rate": 0
+          },
+          "no_apparent_gap": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0
+          },
+          "calculation_slip": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0
+          },
+          "language_confusion": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0
+          },
+          "insufficient_evidence": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          }
+        }
+      },
+      "adaptive_without_graph": {
+        "cases": 60,
+        "exact_gap_set_agreement": 0.8,
+        "gap_detection_rate": 0,
+        "false_gap_rate": 0,
+        "unresolved_rate": 1,
+        "average_questions": 3,
+        "profile_breakdown": {
+          "prerequisite_gap": {
+            "exact_gap_set_agreement": 0,
+            "unresolved_rate": 1
+          },
+          "no_apparent_gap": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          },
+          "calculation_slip": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          },
+          "language_confusion": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          },
+          "insufficient_evidence": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          }
+        }
+      },
+      "graph_guided": {
+        "cases": 60,
+        "exact_gap_set_agreement": 0.95,
+        "gap_detection_rate": 0.75,
+        "false_gap_rate": 0,
+        "unresolved_rate": 0.6,
+        "average_questions": 2.7666666666666666,
+        "profile_breakdown": {
+          "prerequisite_gap": {
+            "exact_gap_set_agreement": 0.75,
+            "unresolved_rate": 0.4166666666666667
+          },
+          "no_apparent_gap": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0.4166666666666667
+          },
+          "calculation_slip": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          },
+          "language_confusion": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 0.16666666666666666
+          },
+          "insufficient_evidence": {
+            "exact_gap_set_agreement": 1,
+            "unresolved_rate": 1
+          }
+        }
+      }
+    }
+  }
+}

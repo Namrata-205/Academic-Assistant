@@ -1,6 +1,8 @@
+from diagnostic.curriculum import teaching_name
 """Local check -> explanation -> generated practice, using existing evidence rules."""
 import json
 import re
+import hashlib
 from uuid import uuid4
 from datetime import datetime,timezone
 from diagnostic import engine as e
@@ -12,6 +14,38 @@ def ensure(conn):
     conn.execute('CREATE TABLE IF NOT EXISTS book_chat_tutoring (thread_id TEXT PRIMARY KEY, payload TEXT NOT NULL)')
     conn.execute('CREATE TABLE IF NOT EXISTS book_chat_check_answers (thread_id TEXT, attempt_id TEXT, ordinal INTEGER, question_id TEXT, concept_id TEXT, response TEXT, score INTEGER, version TEXT, created TEXT, PRIMARY KEY(attempt_id,ordinal))')
     conn.execute('CREATE TABLE IF NOT EXISTS book_chat_practice (thread_id TEXT, item_id TEXT, response TEXT, score INTEGER)')
+    conn.execute('CREATE TABLE IF NOT EXISTS book_chat_tutor_events (id TEXT PRIMARY KEY, thread_id TEXT, kind TEXT, payload TEXT, created TEXT)')
+
+
+def event(conn,thread,kind,payload):
+    with conn:conn.execute('INSERT INTO book_chat_tutor_events VALUES (?,?,?,?,?)',
+        (uuid4().hex,thread,kind,json.dumps(payload,ensure_ascii=False),datetime.now(timezone.utc).isoformat()))
+
+
+def followup_evidence(conn,learner):
+    rows=conn.execute("SELECT a.payload FROM book_chat_tutor_events a JOIN book_chat_threads t ON t.id=a.thread_id WHERE t.learner=? AND a.kind='followup_answer' ORDER BY a.created",(learner,))
+    unique={}
+    for (payload,) in rows:
+        item=json.loads(payload)
+        if item.get('version')==e.VERSION:
+            unique.pop(item['question_id'],None);unique[item['question_id']]=item
+    return list(unique.values())
+
+
+def next_check(conn,thread,state,bank,edges,current,language):
+    from diagnostic.tutor_selection import choose
+    q,audit=choose(state['target'],bank,edges,current,state['prior'],state.get('angle_contrast',False),
+                   exposed=state.get('exposed_item_ids',()))
+    event(conn,thread,'selection',audit)
+    state.setdefault('selection_log',[]).append(audit)
+    state['pending_item_id']=q['id'] if q else None
+    save(conn,thread,state)
+    if not q:return None
+    return {'status':'answered','mode':'learning_check','tutor_stage':'checking','language':language,
+            'concept':e.load_graph()[0][state['target']],
+            'message':'One short question at a time helps choose the next step.' if language=='en' else 'एक-एक छोटे सवाल से अगला कदम चुनने में मदद मिलती है।',
+            'check_question':public_question(q,language),'check_number':len(current)+1,
+            'selection':audit,'paragraphs':[],'sources':[]}
 
 
 def save(conn,thread,state):
@@ -48,7 +82,8 @@ def public_question(q,language):
     return {'id':q['id'],'text':hinglish.question(q) if hinglish.STYLE.get()=='hinglish' else q[language],'type':q['type'],'concept_id':q['concept_id'],
             'concept':q['concept_hi' if language=='hi' else 'concept_en'],
             'translations':{'en':q['en'],'hi':q['hi'],'hinglish':hinglish.question(q)},
-            'concept_names':{'en':q['concept_en'],'hi':q['concept_hi']}}
+            'concept_names':{'en':q['concept_en'],'hi':q['concept_hi']},
+            **({'diagram':q['diagram']} if q.get('diagram') else {})}
 
 
 def check_batch(target,bank,edges,prior):
@@ -76,8 +111,16 @@ def tutoring_mapping(text,nodes,edges,concept_id=None):
 
 def practice(target,nodes):
     """Parameterised original items with exact keys, not alleged NCERT quotations."""
+    if target not in nodes:return None
     seed=int(uuid4().hex[:8],16);n=25+(seed%5)*10
-    name=nodes[target]['en'];question=None
+    from diagnostic.curriculum_items import make as curriculum_question
+    if target not in {'MATH6_C0003','MATH6_C0006','MATH6_C0007','MATH6_C0009','MATH6_C0018','MATH6_C0020','MATH6_C0024','MATH6_C0025','MATH6_C0038','MATH6_C0039'}:
+        item=curriculum_question(target,nodes,seed)
+        if item:return item
+    from diagnostic.followup_templates import expanded
+    item=expanded(target,nodes,seed)
+    if item:return item
+    name=teaching_name(nodes[target]['en']);question=None
     if name=='acute angle':
         question={'en':f'Is an angle measuring {n}° acute? A: yes; B: no.',
                   'hi':f'क्या {n}° का कोण न्यून कोण है? A: हाँ; B: नहीं।','type':'mcq','answer':'A',
@@ -128,41 +171,130 @@ def practice(target,nodes):
                   'hi':'एक सीधे पथ के दो अंत बिंदु M और N हैं। क्या यह रेखाखंड है? A: हाँ; B: नहीं।','type':'mcq','answer':'A',
                   'feedback_en':'A line segment is bounded by two endpoints.','feedback_hi':'एक रेखाखंड दो अंत बिंदुओं से घिरा होता है।'}
     if not question:return None
-    return dict(question,id='practice-'+uuid4().hex,concept_id=target,concept_en=nodes[target]['en'],concept_hi=nodes[target]['hi'])
+    return dict(question,id='practice-'+uuid4().hex,concept_id=target,concept_en=nodes[target]['en'],concept_hi=nodes[target]['hi'],
+                scoring_rule='Exact key; other text unscorable.',source_references=[],review_status='PENDING',
+                possible_difficulty='A follow-up observation; a slip or wording difficulty is also possible.')
+
+
+def fresh_practice(target,nodes,state,conn=None):
+    from diagnostic.learner_evidence import content_id,collect
+    seen=set(state.get('seen_practice',[]))
+    if conn is not None:
+        seen.update(content_id(row['item']) for row in collect(conn,state['learner']) if row.get('item'))
+    for _ in range(80):
+        item=practice(target,nodes)
+        if item is None:return None
+        identity=content_id(item)
+        if identity not in seen:
+            state['seen_practice']=list(state.get('seen_practice',[]))+[identity]
+            return item
+    return None
 
 
 def finish(conn,thread,state,language):
     from diagnostic.book_chat import answer
     nodes,edges=e.load_graph();current=observations(conn,state['session_id']);bank=load_tutor_bank()
+    known={q['id'] for q in bank}
+    bank+= [dict(row['item'],scoring_rule=row['item'].get('scoring_rule','Exact key; other text unscorable.'),
+                 source_references=row['item'].get('source_references',[]),
+                 possible_difficulty=row['item'].get('possible_difficulty','Follow-up evidence, not proof of mastery.'))
+            for row in state['prior'] if row.get('item') and row['question_id'] not in known]
+    from diagnostic.learner_evidence import assessment
+    state['prior']=assessment(state['prior'])
     report=e.make_report(state['target'],bank,edges,current,state['prior'])
     state['report']=report
-    result=answer(state['original'],language,state['target'],conn=conn,learner=state['learner'],chat_evidence=history(conn,state['learner']))
+    from diagnostic.teaching_feedback import teaching_decision
+    decision=teaching_decision(report,state['target']);focus=decision['focus_concept_id']
+    state['example_variant']=0;state['teaching_decision']=decision
+    from diagnostic.teaching_feedback import contrast_explanation,angle_item
+    result=contrast_explanation(language) if state.get('angle_contrast') else None
+    if result is None:
+        result=answer(state['original'],language,state['target'],conn=conn,learner=state['learner'],chat_evidence=history(conn,state['learner'])+followup_evidence(conn,state['learner']),
+                      teaching_request=dict(decision,example_variant=0))
+    effective=result.get('learning_context',{}).get('teaching_request',{}).get('focus',{}).get('id')
+    if effective in nodes:focus=effective
+    result['teaching_decision']=decision
     result['tutor_summary']={'questions_asked':len(current),'concepts':[{
         'concept':nodes[r['concept_id']][language], 'status':r['status'] if r['assessment']=='Assessed' else 'Unassessed',
         'concept_id':r['concept_id']} for r in report['concepts']],
         'answers':[{'question':next(q for q in bank if q['id']==r['question_id'])[language],
                     'response':r['response'],'score':r['score']} for r in current]}
-    focus=next((r['concept_id'] for r in report['concepts'] if r['assessment']=='Assessed'
-                and r['status']=='Possible prerequisite difficulty'),state['target'])
-    followup=practice(focus,nodes)
+    state['focus']=focus
+    followup=angle_item(55,False) if state.get('angle_contrast') else fresh_practice(focus,nodes,state,conn)
     state.update(phase='practice' if followup else 'done',practice=followup)
     if followup:
         result['practice_question']=public_question(followup,language)
         result['practice_question']['source_ids']=[s['id'] for s in result.get('sources',[]) if focus in s.get('concept_ids',[s.get('concept_id')])]
-        result['practice_notice']='New practice variation, not copied from NCERT. It is not used to diagnose a difficulty. Human review pending.'
+        result['practice_notice']='Original transfer question. Its response is saved as follow-up evidence; one response alone cannot establish a diagnosis. Human review pending.'
+    else:result['practice_notice']='No fresh local transfer item is available for this concept. Earlier answers are not counted again.'
+    result['feedback_actions']=['simpler','another_example','still_confused','language_help']
+    result['selection_log']=state.get('selection_log',[])
     result['tutor_stage']='explanation';save(conn,thread,state)
     return result
 
 
-def handle(conn,learner,thread,text,language,concept_id=None,previous=None):
+def handle(conn,learner,thread,text,language,concept_id=None,previous=None,check_first=False):
     """Return None for normal chat; all learner answers/evidence remain local."""
     ensure(conn);row=conn.execute('SELECT payload FROM book_chat_tutoring WHERE thread_id=?',(thread,)).fetchone()
     state=json.loads(row[0]) if row else None;nodes,edges=e.load_graph();bank=load_tutor_bank()
-    if text.startswith('__chat_query__:'):
+    if state and state.get('target') not in nodes:state=None
+    composer_query=text.startswith('__chat_query__:')
+    if composer_query:
         text=text[len('__chat_query__:'):].strip()
         if not text:raise ValueError('Enter a question.')
-        if state and state['phase']=='practice':
+        if state and state['phase'] in ('practice','checking'):
             state['phase']='done';save(conn,thread,state)
+    from diagnostic.conversation import feedback,is_followup
+    # Natural-language repair requests use the same teaching path as feedback buttons.
+    # A newly named concept must still be routed as a topic change.
+    natural_feedback=None if text.startswith('__') else feedback(text)
+    if state and natural_feedback and not text.startswith('__'):
+        mapping=tutoring_mapping(text,nodes,edges,concept_id)
+        if mapping.get('scope')!='outside current graph' and mapping.get('concept_id') in (None,state['target']) and not (concept_id and concept_id!=state['target']):
+            if state['phase']=='checking':state['phase']='done';save(conn,thread,state)
+            text='__feedback__:'+natural_feedback
+    if state and state['phase']=='practice' and is_followup(text):
+        state['phase']='done';save(conn,thread,state)
+    if text == '__angle_compare__' and state and state.get('angle_contrast') and state['phase']=='done':
+        from diagnostic.teaching_feedback import angle_comparison_item
+        from diagnostic.learner_evidence import collect
+        offset = sum(bool(row.get('item', {}).get('comparison')) for row in collect(conn, learner))
+        q = angle_comparison_item(offset)
+        state.update(phase='practice', practice=q)
+        save(conn, thread, state)
+        return {'status':'answered','mode':'practice','language':language,'concept':nodes[state['target']],
+                'paragraphs':[],'sources':[],'practice_question':public_question(q,language)}
+    if text.startswith('__feedback__:'):
+        from diagnostic.teaching_feedback import ACTIONS,angle_item,contrast_explanation
+        action=text.split(':',1)[1]
+        if action not in ACTIONS or not state or state['phase']=='checking':raise ValueError('Feedback is available after an explanation.')
+        event(conn,thread,'feedback',{'action':action,'target':state['target']})
+        focus=state.get('focus',state['target'])
+        previous_variant=state.get('example_variant',0)
+        state['example_variant']=previous_variant+1
+        instruction={'simpler':'Briefly explain using short sentences and define the terms. ',
+                     'another_example':'Show a different complete worked example. ',
+                     'still_confused':'Explain the foundation step by step before the target. ',
+                     'language_help':'Explain the meaning of the mathematical terms simply. '}[action]
+        from diagnostic.book_chat import answer
+        result=contrast_explanation(language,action) if state.get('angle_contrast') else None
+        if result is None:
+            result=answer(instruction+nodes[state['target']][language],language,state['target'],conn=conn,learner=learner,
+                          chat_evidence=history(conn,learner)+followup_evidence(conn,learner),
+                          teaching_request={'mode':action,'focus_concept_id':focus,
+                              'example_variant':state.get('example_variant',0),
+                              'previous_example_variant':previous_variant})
+        rotation=(state.get('transfer_rotation',55)+35)%360
+        q=angle_item(rotation,bool(state.get('followup_count',0)%2)) if state.get('angle_contrast') else fresh_practice(focus,nodes,state,conn)
+        if action in ('still_confused','simpler','language_help'):
+            q=None
+        state.update(phase='practice' if q else 'done',practice=q,transfer_rotation=rotation)
+        save(conn,thread,state)
+        if q:result['practice_question']=public_question(q,language)
+        result['feedback_action']=action;result['feedback_actions']=sorted(ACTIONS)
+        return result
+    if state and state['phase']=='checking' and text=='__explain_now__':
+        return finish(conn,thread,state,language)
     if state and state['phase']=='checking' and state.get('batch_ids'):
         if not text.startswith('__check_batch__:'):
             raise ValueError('Complete the answers in the question card before submitting.')
@@ -182,14 +314,30 @@ def handle(conn,learner,thread,text,language,concept_id=None,previous=None):
             with conn:
                 conn.execute('CREATE TABLE IF NOT EXISTS book_chat_practice (thread_id TEXT, item_id TEXT, response TEXT, score INTEGER)')
                 conn.execute('INSERT INTO book_chat_practice VALUES (?,?,?,?)',(thread,q['id'],text,score))
+            observation={'question_id':q['id'],'concept_id':q['concept_id'],'response':text,'score':score,
+                         'assessment_eligible':False,
+                         'version':e.VERSION,'origin':'followup','item':q}
+            # Repeating an identical generated item is not independent evidence.
+            identity=json.dumps({key:q.get(key) for key in ('concept_id','en','hi','diagram')},sort_keys=True,ensure_ascii=False)
+            observation['question_id']='followup-'+hashlib.sha256(identity.encode('utf-8')).hexdigest()[:24]
+            observation['item']=dict(q,id=observation['question_id'])
+            event(conn,thread,'followup_answer',observation)
+            state['followup_count']=state.get('followup_count',0)+1
             state['phase']='done';save(conn,thread,state)
             return {'status':'answered','mode':'practice_feedback','language':language,'concept':nodes[state['target']],
-                    'message':('Correct. ' if score==1 else 'Let’s work through it. ')+q['feedback_'+language],
+                    'message':(('सही। ' if score==1 else 'आइए, इसे साथ में समझें। ') if language=='hi' else
+                               ('Correct. ' if score==1 else 'Let’s work through it. '))+hinglish.feedback(q,language),
                     'paragraphs':[],'sources':[],'practice_score':score,
-                    'notice':'Practice feedback only; this answer does not establish a new diagnosis.'}
+                    'next_action': ('compare_angles' if score == 1 and not q.get('comparison') else
+                                    'another_example' if score == 1 else 'review_half_turn')
+                                   if state.get('angle_contrast') else ('another_example' if score == 1 else 'review'),
+                    'followup_evidence':{'concept_id':q['concept_id'],'score':score,'origin':'followup'},
+                    'feedback_actions':['simpler','another_example','still_confused','language_help'],
+                    'notice':'Saved as new follow-up evidence. One response alone does not establish a diagnosis.'}
     if state and state['phase']=='checking':
         current=observations(conn,state['session_id'])
-        q=select_question(state['target'],bank,edges,current,state['prior'],state.get('check_style'))
+        q=next((q for q in bank if q['id']==state.get('pending_item_id')),None)
+        if q is None:q=select_question(state['target'],bank,edges,current,state['prior'],state.get('check_style'))
         if text=='__explain_now__':return finish(conn,thread,state,language)
         if q:
             # Do not consume a learning-check slot when the learner starts a different question.
@@ -198,46 +346,103 @@ def handle(conn,learner,thread,text,language,concept_id=None,previous=None):
             else:
                 record(conn,thread,state['session_id'],q,text)
                 current=observations(conn,state['session_id'])
-                q=select_question(state['target'],bank,edges,current,state['prior'],state.get('check_style'))
-                if q:
-                    return {'status':'answered','mode':'learning_check','tutor_stage':'checking','language':language,
-                            'concept':nodes[state['target']],'message':'One more short question will help me choose where to start.' if language=='en' else 'एक छोटा सवाल और, ताकि समझाने की सही शुरुआत चुन सकूँ।',
-                            'check_question':public_question(q,language),'check_number':len(current)+1,'paragraphs':[],'sources':[]}
+                result=next_check(conn,thread,state,bank,edges,current,language)
+                if result:return result
                 return finish(conn,thread,state,language)
     from diagnostic.chat_router import plan
-    routing=plan(text,nodes,edges,concept_id,previous or (state or {}).get('target'))
+    contrast=bool((re.search(r'right\s+angle',text,re.I) and re.search(r'straight\s+angle',text,re.I)) or ('समकोण' in text and 'सरल कोण' in text))
+    if text.startswith('__continue_angle__:'):
+        from diagnostic.teaching_feedback import angle_item, angle_comparison_item, contrast_explanation
+        from diagnostic.learner_evidence import collect, content_id
+        compare = text.endswith(':compare')
+        seen = {content_id(row['item']) for row in collect(conn, learner) if row.get('item')}
+        q = next((item for i in range(2) if content_id(item := angle_comparison_item(i)) not in seen), None) if compare else None
+        if not q or content_id(q) in seen:
+            q = next((item for i in range(72) if content_id(item := angle_item(i*5, bool(i%2))) not in seen), None)
+        target = 'MATH6_C0024'
+        result = (contrast_explanation(language, 'another_example') if not compare else None) or {
+            'status':'answered','mode':'practice','language':language,'concept':nodes[target],
+            'paragraphs':[],'sources':[]}
+        save(conn, thread, dict(target=target, focus=target, learner=learner,
+                                original=nodes[target][language], angle_contrast=True,
+                                phase='practice' if q else 'done', practice=q))
+        if q:
+            result['practice_question'] = public_question(q, language)
+        else:
+            result['message'] = (
+                'अभी कोई नया चित्र प्रश्न उपलब्ध नहीं है।' if language=='hi' else 'No fresh diagram question is available.')
+        return result
+    quick_check = text.startswith('__quick_check__:')
+    if quick_check or text.startswith(('__continue_topic__:', '__advance_topic__:')):
+        if not isinstance(concept_id, str) or concept_id not in nodes:
+            raise ValueError('Choose a curriculum topic for the quick check.')
+        if not quick_check:
+            from diagnostic.book_chat import answer
+            state = dict(target=concept_id, focus=concept_id, learner=learner, original=nodes[concept_id][language])
+            mode = 'build_on_understanding' if text.startswith('__advance_topic__:') else 'review_practice'
+            result = answer(nodes[concept_id][language], language, concept_id, conn=conn, learner=learner,
+                            teaching_request={'mode':mode,'focus_concept_id':concept_id,'example_variant':0})
+            q = fresh_practice(concept_id, nodes, state, conn)
+            state.update(practice=q, phase='practice' if q else 'done')
+            save(conn, thread, state)
+            if q:
+                result['practice_question'] = public_question(q, language)
+            result['feedback_actions'] = ['simpler','another_example','still_confused','language_help']
+            return result
+        routing = {'action':'check','concept_id':concept_id,'check_style':'foundations','planner':'local_quick_check'}
+    else:
+        routing=({'action':'check','concept_id':'MATH6_C0024','planner':'local_angle_contrast'} if contrast else
+                 plan(text,nodes,edges,concept_id,previous or (state or {}).get('target')))
     target=routing.get('concept_id')
+    no_check=bool(re.search(r'without (?:a |any )?(?:quiz|test|questions|check)|just explain|explain only|बिना.*(?:सवाल|जाँच|प्रश्न)',text,re.I))
+    if check_first and routing['action']=='explain' and target and target!=(state or {}).get('target') and not no_check:
+        routing=dict(routing,action='check',check_style='foundations',reason='new_topic_understanding_check')
     if routing['action']=='clarify':
         local=tutoring_mapping(text,nodes,edges,concept_id)
         return {'status':'clarify','language':language,'paragraphs':[],'sources':[],
                 'candidates':[nodes[c] for c in local.get('candidates',[]) if c in nodes],'routing':routing}
     if routing['action']=='explain':
         from diagnostic.book_chat import answer
-        result=answer(text,language,target,previous,conn,learner,chat_evidence=history(conn,learner))
+        result=answer(text,language,target,previous,conn,learner,chat_evidence=history(conn,learner)+followup_evidence(conn,learner))
+        # Retain an explanation state so feedback works even without diagnostics.
+        focus=result.get('learning_context',{}).get('teaching_request',{}).get('focus',{}).get('id',target)
+        save(conn,thread,{'target':target,'original':text,'learner':learner,'phase':'done','focus':focus,'example_variant':0})
+        result['feedback_actions']=['simpler','another_example','still_confused','language_help']
         result['routing']=routing
         return result
     if routing['action']=='practice':
-        q=practice(target,nodes)
+        state={'target':target,'original':text,'learner':learner,'phase':'practice'}
+        q=fresh_practice(target,nodes,state,conn)
         if q:
-            state={'target':target,'original':text,'learner':learner,'phase':'practice','practice':q}
+            state['practice']=q
             save(conn,thread,state)
             return {'status':'answered','mode':'practice','language':language,'concept':nodes[target],
                     'message':'Try this, and I’ll check your answer.' if language=='en' else 'इसे हल करें, फिर आपका उत्तर जाँचूँगा।',
                     'practice_question':public_question(q,language),'practice_notice':'New original practice variation, not copied from NCERT.',
                     'paragraphs':[],'sources':[],'routing':routing}
-    prior=e.history(conn,learner)+history(conn,learner)
-    batch=check_batch(target,bank,edges,prior)
-    q=batch[0] if batch else None
+        state['phase']='done';save(conn,thread,state)
+        return {'status':'answered','mode':'practice_unavailable','language':language,'concept':nodes[target],
+                'message':'No fresh local practice variation is available. Ask for an explanation or choose another topic.' if language=='en' else
+                          'कोई नया स्थानीय अभ्यास प्रश्न उपलब्ध नहीं है। व्याख्या माँगें या दूसरा विषय चुनें।',
+                'paragraphs':[],'sources':[],'routing':routing}
+    from diagnostic.learner_evidence import collect,assessment
+    evidence=collect(conn,learner);prior=assessment(evidence)
+    exposed=[r['question_id'] for r in evidence]
+    from diagnostic.tutor_selection import choose
+    q,_=choose(target,bank,edges,prior=prior,contrast=contrast,exposed=exposed)
     if not q:
         from diagnostic.book_chat import answer
         result=answer(text,language,target,conn=conn,learner=learner,chat_evidence=history(conn,learner))
         result['routing']=dict(routing,executed_action='explain',reason='no_unseen_bank_items')
+        save(conn,thread,{'target':target,'original':text,'learner':learner,'phase':'done','focus':target})
+        result['feedback_actions']=['simpler','another_example','still_confused','language_help']
         return result
     sid=uuid4().hex
-    state={'target':target,'original':text,'learner':learner,'session_id':sid,'prior':prior,'phase':'checking','check_style':routing.get('check_style')}
-    state['batch_ids']=[item['id'] for item in batch]
-    save(conn,thread,state)
-    return {'status':'answered','mode':'learning_check','tutor_stage':'checking','language':language,'concept':nodes[target],
+    state={'target':target,'original':text,'learner':learner,'session_id':sid,'prior':prior,'phase':'checking','check_style':routing.get('check_style'),'angle_contrast':contrast,
+           'exposed_item_ids':exposed}
+    result=next_check(conn,thread,state,bank,edges,[],language)
+    result.update({
             'message':(('Before explaining number patterns, let’s check a few basics about numbers and digits. If you mean shape patterns, tell me.' if language=='en' else 'संख्या पैटर्न समझाने से पहले संख्याओं और अंकों की कुछ बुनियादी बातें जाँचें। यदि आपका मतलब आकृतियों के पैटर्न से है, तो बताइए।') if routing.get('topic_assumption') else ('Before I explain, let’s check a foundation so I can choose the right starting point.' if language=='en' else 'समझाने से पहले एक आधारभूत बात जाँचें, ताकि सही शुरुआत चुन सकूँ।')),
-            'check_question':public_question(q,language),'check_questions':[public_question(item,language) for item in batch],'check_number':1,'paragraphs':[],'sources':[],'routing':routing,
-            'notice':'Tutoring answers are saved in this chat, separately from diagnostic scores. Question bank and rules await final review.'}
+            'routing':routing,
+            'notice':'Tutoring answers are saved in this chat, separately from diagnostic scores. Question bank and rules await final review.'})
+    return result

@@ -1,0 +1,3014 @@
+{
+  "checks": [
+    "authored explanation instead of excerpt dump",
+    "natural confusion retains topic",
+    "fresh example, no prose grading",
+    "explicit topic change",
+    "composer interrupts check",
+    "Hindi contextual repair",
+    "chat accessibility",
+    "no browser errors"
+  ],
+  "errors": [],
+  "transcript": [
+    {
+      "question": "What is an acute angle?",
+      "answer": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0025",
+          "en": "acute angle",
+          "hi": "न्यून कोण",
+          "chapter": "CH02"
+        },
+        "language": "en",
+        "mode": "guided_local",
+        "paragraphs": [
+          {
+            "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "kind": "authored_explanation",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "Imagine opening a book a little, then opening it to a square corner. The smaller opening is acute. The length of the pages does not determine the angle; the amount of opening does.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "kind": "authored_explanation",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "Which part should we unpack next: the words, or a step in the example?",
+            "citations": [],
+            "kind": "teaching_question"
+          },
+          {
+            "text": "Original worked example: Is an angle of 0° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "kind": "original_worked_example",
+            "review_status": "PENDING"
+          }
+        ],
+        "sources": [
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.8 Special Types of Angles: Classifying Angles",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "matched_excerpt": "Such angles are called obtuse angles.",
+            "similarity": 0.6091,
+            "retrieval_score": 0.01171875,
+            "metadata_similarity": 0.6044,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "90874f8dc8be5eed49b12319",
+            "chunk_index": 12,
+            "chunk_count": 17,
+            "context_start_index": 10,
+            "context_end_index": 15,
+            "context_char_start": 514,
+            "context_char_end": 931,
+            "char_start": 816,
+            "char_end": 853,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.4866,
+            "semantic_rank": 4,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.015625,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 8,
+            "pre_cross_encoder_rank": 8,
+            "cross_encoder_score": 2.646353006362915,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S1",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.11 Types of Angles and their Measures",
+            "printed_page": 50,
+            "pdf_page": 38,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=38",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°. How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+            "matched_excerpt": "How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+            "similarity": 0.6606,
+            "retrieval_score": 0.03278688524590164,
+            "metadata_similarity": 0.6501,
+            "concept_coverage": 1,
+            "query_coverage": 0.2857,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "2b39a401c4fd927189719907",
+            "chunk_index": 8,
+            "chunk_count": 9,
+            "context_start_index": 6,
+            "context_end_index": 9,
+            "context_char_start": 246,
+            "context_char_end": 644,
+            "char_start": 417,
+            "char_end": 644,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.6555,
+            "semantic_rank": 1,
+            "bm25_score": 3.164589,
+            "bm25_rank": 1,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.03278688524590164,
+            "source_overlap": 0,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 1,
+            "pre_cross_encoder_rank": 1,
+            "cross_encoder_score": 2.229057550430298,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S2",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.5 Angle",
+            "printed_page": 17,
+            "pdf_page": 5,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=5",
+            "concept_id": "MATH6_C0020",
+            "concept_en": "angle",
+            "concept_hi": "कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig. 2.9). Vidya has just opened her book. Let us observe her opening the cover of the book in different scenarios.",
+            "matched_excerpt": "To indicate an angle, we use a small curve at the vertex (refer to Fig.",
+            "similarity": 0.6026,
+            "retrieval_score": 0.027674101046882112,
+            "metadata_similarity": 0.6608,
+            "concept_coverage": 1,
+            "query_coverage": 0.3333,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "e6de7b909dc624b80f790aed",
+            "chunk_index": 15,
+            "chunk_count": 19,
+            "context_start_index": 13,
+            "context_end_index": 18,
+            "context_char_start": 693,
+            "context_char_end": 1031,
+            "char_start": 849,
+            "char_end": 920,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.6241,
+            "semantic_rank": 3,
+            "bm25_score": 1.183754,
+            "bm25_rank": 5,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.03125763125763126,
+            "source_overlap": 0.45857988165680474,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 4,
+            "pre_cross_encoder_rank": 3,
+            "cross_encoder_score": 0.08334259688854218,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S3",
+            "concept_ids": [
+              "MATH6_C0020"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.9 Measuring Angles",
+            "printed_page": 33,
+            "pdf_page": 21,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=21",
+            "concept_id": "MATH6_C0024",
+            "concept_en": "right angle",
+            "concept_hi": "समकोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+            "matched_excerpt": "Why 360? The reason why we use 360° today is not fully known.",
+            "similarity": 0.2722,
+            "retrieval_score": 0.011029411764705881,
+            "metadata_similarity": 0.542,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "80cc59a3d1bb287cd492494b",
+            "chunk_index": 6,
+            "chunk_count": 8,
+            "context_start_index": 4,
+            "context_end_index": 8,
+            "context_char_start": 493,
+            "context_char_end": 942,
+            "char_start": 851,
+            "char_end": 912,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.2583,
+            "semantic_rank": 8,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.014705882352941176,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 8,
+            "pre_cross_encoder_rank": 8,
+            "cross_encoder_score": -0.8909264802932739,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S4",
+            "concept_ids": [
+              "MATH6_C0024"
+            ]
+          }
+        ],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0025",
+            "en": "acute angle",
+            "hi": "न्यून कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0020",
+            "en": "angle",
+            "hi": "कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0021",
+            "en": "vertex",
+            "hi": "शीर्ष",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0022",
+            "en": "arm of angle",
+            "hi": "कोण की भुजा",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0024",
+            "en": "right angle",
+            "hi": "समकोण",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "selected_for_explanation": false
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0020",
+            "MATH6_C0024"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0025",
+              "concept": "acute angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "activity_evidence": [],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses.",
+          "teaching_request": {
+            "mode": "check_uncertainty",
+            "instruction": "Evidence is limited or mixed. Explain the target cautiously, clarify the named foundation, and ask a fresh check. Do not label a prerequisite gap.",
+            "focus": {
+              "id": "MATH6_C0025",
+              "en": "acute angle",
+              "hi": "न्यून कोण"
+            },
+            "example_variant": 0,
+            "worked_example": {
+              "en": "Is an angle of 0° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+              "hi": "क्या 0° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            }
+          },
+          "teaching_decision": {
+            "mode": "check_uncertainty",
+            "focus_concept_id": "MATH6_C0025",
+            "reason": "limited_saved_evidence"
+          },
+          "unsupported_prerequisites": []
+        },
+        "generation": {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "local_only": false
+        },
+        "fallback_reason": "offline_ui_test",
+        "notice": "Local teaching explanation with original examples. Textbook references are below. Teacher review is pending.",
+        "feedback_actions": [
+          "simpler",
+          "another_example",
+          "still_confused",
+          "language_help"
+        ],
+        "routing": {
+          "action": "explain",
+          "concept_id": "MATH6_C0025",
+          "planner": "local_fallback",
+          "version": "tutor-planner-v3"
+        }
+      }
+    },
+    {
+      "question": "I didn't understand",
+      "answer": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0025",
+          "en": "acute angle",
+          "hi": "न्यून कोण",
+          "chapter": "CH02"
+        },
+        "language": "en",
+        "mode": "guided_local",
+        "paragraphs": [
+          {
+            "text": "Imagine opening a book a little, then opening it to a square corner. The smaller opening is acute. The length of the pages does not determine the angle; the amount of opening does.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "kind": "authored_explanation",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "Try a new example: 50°. First check that it is greater than 0°. It is. Next compare it with 90°: 50° is smaller than 90°, so both conditions hold. It is acute.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "kind": "original_worked_example",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "Which part should we unpack next: the words, or a step in the example?",
+            "citations": [],
+            "kind": "teaching_question"
+          }
+        ],
+        "sources": [
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.8 Special Types of Angles: Classifying Angles",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "matched_excerpt": "Such angles are called obtuse angles.",
+            "similarity": 0.4753,
+            "retrieval_score": 0.011363636363636364,
+            "metadata_similarity": 0.444,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "90874f8dc8be5eed49b12319",
+            "chunk_index": 12,
+            "chunk_count": 17,
+            "context_start_index": 10,
+            "context_end_index": 15,
+            "context_char_start": 514,
+            "context_char_end": 931,
+            "char_start": 816,
+            "char_end": 853,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.3755,
+            "semantic_rank": 6,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.015151515151515152,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 8,
+            "pre_cross_encoder_rank": 8,
+            "cross_encoder_score": -2.606997489929199,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S1",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.11 Types of Angles and their Measures",
+            "printed_page": 50,
+            "pdf_page": 38,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=38",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "Draw an angle whose degree measure is the same as the angle given below: Also, write down the steps you followed to draw the angle. 2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°. How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+            "matched_excerpt": "We have seen that a straight angle is 180° and a right angle is 90°.",
+            "similarity": 0.3618,
+            "retrieval_score": 0.022934173669467785,
+            "metadata_similarity": 0.4505,
+            "concept_coverage": 0.5,
+            "query_coverage": 0.0909,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "9a6d28bb8eb439cfbb422677",
+            "chunk_index": 7,
+            "chunk_count": 9,
+            "context_start_index": 5,
+            "context_end_index": 9,
+            "context_char_start": 114,
+            "context_char_end": 644,
+            "char_start": 348,
+            "char_end": 416,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.3618,
+            "semantic_rank": 8,
+            "bm25_score": 2.131715,
+            "bm25_rank": 3,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.03057889822595705,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 6,
+            "pre_cross_encoder_rank": 6,
+            "cross_encoder_score": -4.603878498077393,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S2",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.8 Special Types of Angles: Classifying Angles",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "1. Identify acute, right, obtuse and straight angles in the previous figures. 2. Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+            "matched_excerpt": "2.",
+            "similarity": 0.2882,
+            "retrieval_score": 0.010135135135135136,
+            "metadata_similarity": 0.4513,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "26df3ceeaa72ef271bd67661",
+            "chunk_index": 15,
+            "chunk_count": 17,
+            "context_start_index": 13,
+            "context_end_index": 17,
+            "context_char_start": 854,
+            "context_char_end": 1020,
+            "char_start": 932,
+            "char_end": 934,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.255,
+            "semantic_rank": 14,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.013513513513513514,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 14,
+            "pre_cross_encoder_rank": 14,
+            "cross_encoder_score": -4.690649509429932,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S3",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.5 Angle",
+            "printed_page": 17,
+            "pdf_page": 5,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=5",
+            "concept_id": "MATH6_C0020",
+            "concept_en": "angle",
+            "concept_hi": "कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig. 2.9). Vidya has just opened her book. Let us observe her opening the cover of the book in different scenarios.",
+            "matched_excerpt": "To indicate an angle, we use a small curve at the vertex (refer to Fig.",
+            "similarity": 0.6026,
+            "retrieval_score": 0.027674101046882112,
+            "metadata_similarity": 0.6608,
+            "concept_coverage": 1,
+            "query_coverage": 0.3333,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "e6de7b909dc624b80f790aed",
+            "chunk_index": 15,
+            "chunk_count": 19,
+            "context_start_index": 13,
+            "context_end_index": 18,
+            "context_char_start": 693,
+            "context_char_end": 1031,
+            "char_start": 849,
+            "char_end": 920,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.6241,
+            "semantic_rank": 3,
+            "bm25_score": 1.183754,
+            "bm25_rank": 5,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.03125763125763126,
+            "source_overlap": 0.45857988165680474,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 4,
+            "pre_cross_encoder_rank": 3,
+            "cross_encoder_score": 0.08334259688854218,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S4",
+            "concept_ids": [
+              "MATH6_C0020"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.9 Measuring Angles",
+            "printed_page": 33,
+            "pdf_page": 21,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=21",
+            "concept_id": "MATH6_C0024",
+            "concept_en": "right angle",
+            "concept_hi": "समकोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+            "matched_excerpt": "Why 360? The reason why we use 360° today is not fully known.",
+            "similarity": 0.2722,
+            "retrieval_score": 0.011029411764705881,
+            "metadata_similarity": 0.542,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "80cc59a3d1bb287cd492494b",
+            "chunk_index": 6,
+            "chunk_count": 8,
+            "context_start_index": 4,
+            "context_end_index": 8,
+            "context_char_start": 493,
+            "context_char_end": 942,
+            "char_start": 851,
+            "char_end": 912,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.2583,
+            "semantic_rank": 8,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.014705882352941176,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 8,
+            "pre_cross_encoder_rank": 8,
+            "cross_encoder_score": -0.8909264802932739,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S5",
+            "concept_ids": [
+              "MATH6_C0024"
+            ]
+          }
+        ],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0025",
+            "en": "acute angle",
+            "hi": "न्यून कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0020",
+            "en": "angle",
+            "hi": "कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0021",
+            "en": "vertex",
+            "hi": "शीर्ष",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0022",
+            "en": "arm of angle",
+            "hi": "कोण की भुजा",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0024",
+            "en": "right angle",
+            "hi": "समकोण",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "selected_for_explanation": false
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0020",
+            "MATH6_C0024"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0025",
+              "concept": "acute angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "activity_evidence": [],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses.",
+          "teaching_request": {
+            "mode": "still_confused",
+            "instruction": "Start with the named foundation, explain it step by step, then connect it to the target. Do not infer a diagnosis.",
+            "focus": {
+              "id": "MATH6_C0025",
+              "en": "acute angle",
+              "hi": "न्यून कोण"
+            },
+            "example_variant": 1,
+            "worked_example": {
+              "en": "Is an angle of 55° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+              "hi": "क्या 55° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            },
+            "previous_example_variant": 0,
+            "previous_worked_example": {
+              "en": "Is an angle of 0° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+              "hi": "क्या 0° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            }
+          },
+          "teaching_decision": {
+            "mode": "still_confused",
+            "focus_concept_id": "MATH6_C0025"
+          },
+          "unsupported_prerequisites": []
+        },
+        "generation": {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "local_only": false
+        },
+        "fallback_reason": null,
+        "notice": "Local teaching explanation with original examples. Textbook references are below. Teacher review is pending.",
+        "feedback_action": "still_confused",
+        "feedback_actions": [
+          "another_example",
+          "language_help",
+          "simpler",
+          "still_confused"
+        ]
+      }
+    },
+    {
+      "question": "I still don't understand",
+      "answer": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0025",
+          "en": "acute angle",
+          "hi": "न्यून कोण",
+          "chapter": "CH02"
+        },
+        "language": "en",
+        "mode": "guided_local",
+        "paragraphs": [
+          {
+            "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "kind": "authored_explanation",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "Try a new example: 70°. First check that it is greater than 0°. It is. Next compare it with 90°: 70° is smaller than 90°, so both conditions hold. It is acute.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "kind": "original_worked_example",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "Which part should we unpack next: the words, or a step in the example?",
+            "citations": [],
+            "kind": "teaching_question"
+          }
+        ],
+        "sources": [
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.8 Special Types of Angles: Classifying Angles",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+            "matched_excerpt": "Such angles are called obtuse angles.",
+            "similarity": 0.4753,
+            "retrieval_score": 0.011363636363636364,
+            "metadata_similarity": 0.444,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "90874f8dc8be5eed49b12319",
+            "chunk_index": 12,
+            "chunk_count": 17,
+            "context_start_index": 10,
+            "context_end_index": 15,
+            "context_char_start": 514,
+            "context_char_end": 931,
+            "char_start": 816,
+            "char_end": 853,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.3755,
+            "semantic_rank": 6,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.015151515151515152,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 8,
+            "pre_cross_encoder_rank": 8,
+            "cross_encoder_score": -2.606997489929199,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S1",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.11 Types of Angles and their Measures",
+            "printed_page": 50,
+            "pdf_page": 38,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=38",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "Draw an angle whose degree measure is the same as the angle given below: Also, write down the steps you followed to draw the angle. 2.11 Types of Angles and their Measures We have read about different types of angles in this chapter. We have seen that a straight angle is 180° and a right angle is 90°. How can other types of angles — acute and obtuse — be described in terms of their degree measures? Acute Angle: Angles that are smaller than the right angle, i.e., less than 90° and are greater than 0°, are called acute angles.",
+            "matched_excerpt": "We have seen that a straight angle is 180° and a right angle is 90°.",
+            "similarity": 0.3618,
+            "retrieval_score": 0.022934173669467785,
+            "metadata_similarity": 0.4505,
+            "concept_coverage": 0.5,
+            "query_coverage": 0.0909,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "9a6d28bb8eb439cfbb422677",
+            "chunk_index": 7,
+            "chunk_count": 9,
+            "context_start_index": 5,
+            "context_end_index": 9,
+            "context_char_start": 114,
+            "context_char_end": 644,
+            "char_start": 348,
+            "char_end": 416,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.3618,
+            "semantic_rank": 8,
+            "bm25_score": 2.131715,
+            "bm25_rank": 3,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.03057889822595705,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 6,
+            "pre_cross_encoder_rank": 6,
+            "cross_encoder_score": -4.603878498077393,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S2",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.8 Special Types of Angles: Classifying Angles",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "1. Identify acute, right, obtuse and straight angles in the previous figures. 2. Make a few acute angles and a few obtuse angles. Draw them in different orientations.",
+            "matched_excerpt": "2.",
+            "similarity": 0.2882,
+            "retrieval_score": 0.010135135135135136,
+            "metadata_similarity": 0.4513,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "26df3ceeaa72ef271bd67661",
+            "chunk_index": 15,
+            "chunk_count": 17,
+            "context_start_index": 13,
+            "context_end_index": 17,
+            "context_char_start": 854,
+            "context_char_end": 1020,
+            "char_start": 932,
+            "char_end": 934,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.255,
+            "semantic_rank": 14,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.013513513513513514,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 14,
+            "pre_cross_encoder_rank": 14,
+            "cross_encoder_score": -4.690649509429932,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S3",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.5 Angle",
+            "printed_page": 17,
+            "pdf_page": 5,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=5",
+            "concept_id": "MATH6_C0020",
+            "concept_en": "angle",
+            "concept_hi": "कोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "The word angle can be replaced by the symbol ‘∠’, i.e., ∠DBE or ∠EBD. Note that in specifying the angle, the vertex is always written as the middle letter. To indicate an angle, we use a small curve at the vertex (refer to Fig. 2.9). Vidya has just opened her book. Let us observe her opening the cover of the book in different scenarios.",
+            "matched_excerpt": "To indicate an angle, we use a small curve at the vertex (refer to Fig.",
+            "similarity": 0.6026,
+            "retrieval_score": 0.027674101046882112,
+            "metadata_similarity": 0.6608,
+            "concept_coverage": 1,
+            "query_coverage": 0.3333,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "e6de7b909dc624b80f790aed",
+            "chunk_index": 15,
+            "chunk_count": 19,
+            "context_start_index": 13,
+            "context_end_index": 18,
+            "context_char_start": 693,
+            "context_char_end": 1031,
+            "char_start": 849,
+            "char_end": 920,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.6241,
+            "semantic_rank": 3,
+            "bm25_score": 1.183754,
+            "bm25_rank": 5,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.03125763125763126,
+            "source_overlap": 0.45857988165680474,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 4,
+            "pre_cross_encoder_rank": 3,
+            "cross_encoder_score": 0.08334259688854218,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S4",
+            "concept_ids": [
+              "MATH6_C0020"
+            ]
+          },
+          {
+            "chapter_title": "Lines and Angles",
+            "section": "2.9 Measuring Angles",
+            "printed_page": 33,
+            "pdf_page": 21,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp102.pdf#page=21",
+            "concept_id": "MATH6_C0024",
+            "concept_en": "right angle",
+            "concept_hi": "समकोण",
+            "support_relation": "direct",
+            "sha256": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+            "edition": "Reprint 2026-27",
+            "excerpt": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+            "matched_excerpt": "Why 360? The reason why we use 360° today is not fully known.",
+            "similarity": 0.2722,
+            "retrieval_score": 0.011029411764705881,
+            "metadata_similarity": 0.542,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "80cc59a3d1bb287cd492494b",
+            "chunk_index": 6,
+            "chunk_count": 8,
+            "context_start_index": 4,
+            "context_end_index": 8,
+            "context_char_start": 493,
+            "context_char_end": 942,
+            "char_start": 851,
+            "char_end": 912,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.2583,
+            "semantic_rank": 8,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.014705882352941176,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 8,
+            "pre_cross_encoder_rank": 8,
+            "cross_encoder_score": -0.8909264802932739,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S5",
+            "concept_ids": [
+              "MATH6_C0024"
+            ]
+          }
+        ],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0025",
+            "en": "acute angle",
+            "hi": "न्यून कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0020",
+            "en": "angle",
+            "hi": "कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0021",
+            "en": "vertex",
+            "hi": "शीर्ष",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0022",
+            "en": "arm of angle",
+            "hi": "कोण की भुजा",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0024",
+            "en": "right angle",
+            "hi": "समकोण",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "selected_for_explanation": false
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0020",
+            "MATH6_C0024"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0025",
+              "concept": "acute angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "activity_evidence": [],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses.",
+          "teaching_request": {
+            "mode": "still_confused",
+            "instruction": "Start with the named foundation, explain it step by step, then connect it to the target. Do not infer a diagnosis.",
+            "focus": {
+              "id": "MATH6_C0025",
+              "en": "acute angle",
+              "hi": "न्यून कोण"
+            },
+            "example_variant": 2,
+            "worked_example": {
+              "en": "Is an angle of 180° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+              "hi": "क्या 180° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            },
+            "previous_example_variant": 1,
+            "previous_worked_example": {
+              "en": "Is an angle of 55° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+              "hi": "क्या 55° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            }
+          },
+          "teaching_decision": {
+            "mode": "still_confused",
+            "focus_concept_id": "MATH6_C0025"
+          },
+          "unsupported_prerequisites": []
+        },
+        "generation": {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "local_only": false
+        },
+        "fallback_reason": null,
+        "notice": "Local teaching explanation with original examples. Textbook references are below. Teacher review is pending.",
+        "feedback_action": "still_confused",
+        "feedback_actions": [
+          "another_example",
+          "language_help",
+          "simpler",
+          "still_confused"
+        ]
+      }
+    },
+    {
+      "question": "What is a square number?",
+      "answer": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0009",
+          "en": "square number",
+          "hi": "वर्ग संख्या",
+          "chapter": "CH01"
+        },
+        "language": "en",
+        "mode": "extractive",
+        "paragraphs": [
+          {
+            "text": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1.",
+            "kind": "textbook_excerpt"
+          }
+        ],
+        "sources": [
+          {
+            "chapter_title": "Patterns in Mathematics",
+            "section": "1.2 Patterns in Numbers",
+            "printed_page": 3,
+            "pdf_page": 3,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp101.pdf#page=3",
+            "concept_id": "MATH6_C0003",
+            "concept_en": "number pattern",
+            "concept_hi": "संख्या पैटर्न",
+            "support_relation": "direct",
+            "sha256": "9a2ff6ddbbd42bbd140a340c20ab27d4e7b8626148518acbb5adca7b93644347",
+            "edition": "Reprint 2026-27",
+            "excerpt": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1.",
+            "matched_excerpt": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ...",
+            "similarity": 0.6454,
+            "retrieval_score": 0.03120138600232277,
+            "metadata_similarity": 0.756,
+            "concept_coverage": 0.5,
+            "query_coverage": 0.2,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "a15d10ec7c60548593eee6a8",
+            "chunk_index": 0,
+            "chunk_count": 9,
+            "context_start_index": 0,
+            "context_end_index": 3,
+            "context_char_start": 0,
+            "context_char_end": 462,
+            "char_start": 0,
+            "char_end": 400,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.6029,
+            "semantic_rank": 1,
+            "bm25_score": 0.562136,
+            "bm25_rank": 3,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.032266458495966696,
+            "source_overlap": 0.13203463203463203,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 2,
+            "pre_cross_encoder_rank": 2,
+            "cross_encoder_score": -2.2426540851593018,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S1",
+            "concept_ids": [
+              "MATH6_C0003",
+              "MATH6_C0006"
+            ]
+          }
+        ],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0009",
+            "en": "square number",
+            "hi": "वर्ग संख्या",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0003",
+            "en": "number pattern",
+            "hi": "संख्या पैटर्न",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0006",
+            "en": "odd number",
+            "hi": "विषम संख्या",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_C0002",
+              "concept": "pattern",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0003",
+              "concept": "number pattern",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0005",
+              "concept": "sequence",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0006",
+              "concept": "odd number",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0036",
+              "concept": "number",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0046",
+              "concept": "addition",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0047",
+              "concept": "subtraction",
+              "selected_for_explanation": false
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0003",
+            "MATH6_C0006"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_C0002",
+              "concept": "pattern",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0003",
+              "concept": "number pattern",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0005",
+              "concept": "sequence",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0006",
+              "concept": "odd number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0009",
+              "concept": "square number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0036",
+              "concept": "number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0046",
+              "concept": "addition",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0047",
+              "concept": "subtraction",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "activity_evidence": [],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses.",
+          "teaching_request": {
+            "mode": "check_uncertainty",
+            "instruction": "Evidence is limited or mixed. Explain the target cautiously, clarify the named foundation, and ask a fresh check. Do not label a prerequisite gap.",
+            "focus": {
+              "id": "MATH6_C0009",
+              "en": "square number",
+              "hi": "वर्ग संख्या"
+            },
+            "example_variant": 0,
+            "worked_example": {
+              "en": "Calculate 5 × 5. 5 × 5 = 25.",
+              "hi": "5 × 5 का मान निकालें। 5 × 5 = 25।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            }
+          },
+          "teaching_decision": {
+            "mode": "check_uncertainty",
+            "focus_concept_id": "MATH6_C0009",
+            "reason": "limited_saved_evidence"
+          },
+          "unsupported_prerequisites": []
+        },
+        "generation": {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "local_only": false
+        },
+        "fallback_reason": "offline_ui_test",
+        "notice": "Direct textbook excerpts are shown because generation was unavailable or did not pass the source checks. These are extracts, not a newly generated answer.",
+        "feedback_actions": [
+          "simpler",
+          "another_example",
+          "still_confused",
+          "language_help"
+        ],
+        "routing": {
+          "action": "explain",
+          "concept_id": "MATH6_C0009",
+          "planner": "local_fallback",
+          "version": "tutor-planner-v3"
+        }
+      }
+    },
+    {
+      "question": "I am confused about acute angles",
+      "answer": {
+        "status": "answered",
+        "mode": "learning_check",
+        "tutor_stage": "checking",
+        "language": "en",
+        "concept": {
+          "id": "MATH6_C0025",
+          "en": "acute angle",
+          "hi": "न्यून कोण",
+          "chapter": "CH02"
+        },
+        "message": "Before I explain, let’s check a foundation so I can choose the right starting point.",
+        "check_question": {
+          "id": "DQ_0020_1",
+          "text": "How many arms form an angle?",
+          "type": "numeric",
+          "concept_id": "MATH6_C0020",
+          "concept": "angle",
+          "translations": {
+            "en": "How many arms form an angle?",
+            "hi": "एक कोण की कितनी भुजाएँ होती हैं?",
+            "hinglish": "Ek angle banane ke liye kitni arms chahiye?"
+          },
+          "concept_names": {
+            "en": "angle",
+            "hi": "कोण"
+          }
+        },
+        "check_number": 1,
+        "selection": {
+          "policy": "adaptive-chat-v3",
+          "ordinal": 1,
+          "target": "MATH6_C0025",
+          "selected_item_id": "DQ_0020_1",
+          "selected_concept_id": "MATH6_C0020",
+          "reason": "graph_prerequisite_with_available_item",
+          "candidates": [
+            {
+              "concept_id": "MATH6_C0020",
+              "graph_confidence": 0.96,
+              "valid_observations": 0,
+              "available_items": 3,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "DQ_0020_1"
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "graph_confidence": 0.94,
+              "valid_observations": 0,
+              "available_items": 6,
+              "needs_confirmation": false,
+              "unresolved": true,
+              "next_item_id": "DQ_0024_1"
+            }
+          ],
+          "question_budget_remaining": 3
+        },
+        "paragraphs": [],
+        "sources": [],
+        "routing": {
+          "action": "check",
+          "concept_id": "MATH6_C0025",
+          "planner": "local_fallback",
+          "version": "tutor-planner-v3"
+        },
+        "notice": "Tutoring answers are saved in this chat, separately from diagnostic scores. Question bank and rules await final review."
+      }
+    },
+    {
+      "question": "Explain a square number",
+      "answer": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0009",
+          "en": "square number",
+          "hi": "वर्ग संख्या",
+          "chapter": "CH01"
+        },
+        "language": "en",
+        "mode": "extractive",
+        "paragraphs": [
+          {
+            "text": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1.",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1.",
+            "kind": "textbook_excerpt"
+          }
+        ],
+        "sources": [
+          {
+            "chapter_title": "Patterns in Mathematics",
+            "section": "1.2 Patterns in Numbers",
+            "printed_page": 3,
+            "pdf_page": 3,
+            "language": "en",
+            "url": "/api/textbooks/en/fegp101.pdf#page=3",
+            "concept_id": "MATH6_C0003",
+            "concept_en": "number pattern",
+            "concept_hi": "संख्या पैटर्न",
+            "support_relation": "direct",
+            "sha256": "9a2ff6ddbbd42bbd140a340c20ab27d4e7b8626148518acbb5adca7b93644347",
+            "edition": "Reprint 2026-27",
+            "excerpt": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1.",
+            "matched_excerpt": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ...",
+            "similarity": 0.6454,
+            "retrieval_score": 0.03120138600232277,
+            "metadata_similarity": 0.756,
+            "concept_coverage": 0.5,
+            "query_coverage": 0.2,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "a15d10ec7c60548593eee6a8",
+            "chunk_index": 0,
+            "chunk_count": 9,
+            "context_start_index": 0,
+            "context_end_index": 3,
+            "context_char_start": 0,
+            "context_char_end": 462,
+            "char_start": 0,
+            "char_end": 400,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.6029,
+            "semantic_rank": 1,
+            "bm25_score": 0.562136,
+            "bm25_rank": 3,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.032266458495966696,
+            "source_overlap": 0.13203463203463203,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 2,
+            "pre_cross_encoder_rank": 2,
+            "cross_encoder_score": -2.2426540851593018,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S1",
+            "concept_ids": [
+              "MATH6_C0003",
+              "MATH6_C0006"
+            ]
+          }
+        ],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0009",
+            "en": "square number",
+            "hi": "वर्ग संख्या",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0003",
+            "en": "number pattern",
+            "hi": "संख्या पैटर्न",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0006",
+            "en": "odd number",
+            "hi": "विषम संख्या",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_C0002",
+              "concept": "pattern",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0003",
+              "concept": "number pattern",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0005",
+              "concept": "sequence",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0006",
+              "concept": "odd number",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0036",
+              "concept": "number",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0046",
+              "concept": "addition",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0047",
+              "concept": "subtraction",
+              "selected_for_explanation": false
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0003",
+            "MATH6_C0006"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_C0002",
+              "concept": "pattern",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0003",
+              "concept": "number pattern",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0005",
+              "concept": "sequence",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0006",
+              "concept": "odd number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0009",
+              "concept": "square number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0013",
+              "concept": "natural number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0036",
+              "concept": "number",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0037",
+              "concept": "digit",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0046",
+              "concept": "addition",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0047",
+              "concept": "subtraction",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "activity_evidence": [],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses.",
+          "teaching_request": {
+            "mode": "check_uncertainty",
+            "instruction": "Evidence is limited or mixed. Explain the target cautiously, clarify the named foundation, and ask a fresh check. Do not label a prerequisite gap.",
+            "focus": {
+              "id": "MATH6_C0009",
+              "en": "square number",
+              "hi": "वर्ग संख्या"
+            },
+            "example_variant": 0,
+            "worked_example": {
+              "en": "Calculate 5 × 5. 5 × 5 = 25.",
+              "hi": "5 × 5 का मान निकालें। 5 × 5 = 25।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            }
+          },
+          "teaching_decision": {
+            "mode": "check_uncertainty",
+            "focus_concept_id": "MATH6_C0009",
+            "reason": "limited_saved_evidence"
+          },
+          "unsupported_prerequisites": []
+        },
+        "generation": {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "local_only": false
+        },
+        "fallback_reason": "offline_ui_test",
+        "notice": "Direct textbook excerpts are shown because generation was unavailable or did not pass the source checks. These are extracts, not a newly generated answer.",
+        "feedback_actions": [
+          "simpler",
+          "another_example",
+          "still_confused",
+          "language_help"
+        ],
+        "routing": {
+          "action": "explain",
+          "concept_id": "MATH6_C0009",
+          "planner": "local_fallback",
+          "version": "tutor-planner-v3"
+        }
+      }
+    },
+    {
+      "question": "न्यून कोण क्या है?",
+      "answer": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0025",
+          "en": "acute angle",
+          "hi": "न्यून कोण",
+          "chapter": "CH02"
+        },
+        "language": "hi",
+        "mode": "guided_local",
+        "paragraphs": [
+          {
+            "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+            "kind": "authored_explanation",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "किताब को थोड़ा खोलिए, फिर समकोण जितना खोलिए। पहले वाला छोटा खुलाव न्यून कोण है। पन्नों की लंबाई नहीं, उनके बीच का खुलाव देखिए।",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+            "kind": "authored_explanation",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+            "citations": [],
+            "kind": "teaching_question"
+          },
+          {
+            "text": "मौलिक हल किया हुआ उदाहरण: क्या 0° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+            "kind": "original_worked_example",
+            "review_status": "PENDING"
+          }
+        ],
+        "sources": [
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.8 विशेष प्रकार के कोण: कोणों का वर्गीकरण",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+            "matched_excerpt": "पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए।",
+            "similarity": 0.5787,
+            "retrieval_score": 0.0247484410430839,
+            "metadata_similarity": 0.6235,
+            "concept_coverage": 1,
+            "query_coverage": 0.3333,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "2c97ec50c6beebb916e17471",
+            "chunk_index": 14,
+            "chunk_count": 17,
+            "context_start_index": 12,
+            "context_end_index": 17,
+            "context_char_start": 602,
+            "context_char_end": 966,
+            "char_start": 846,
+            "char_end": 914,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.603,
+            "semantic_rank": 3,
+            "bm25_score": 3.378407,
+            "bm25_rank": 4,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.03149801587301587,
+            "source_overlap": 0.8571428571428571,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 3,
+            "pre_cross_encoder_rank": 3,
+            "cross_encoder_score": 2.065209150314331,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S1",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.8 विशेष प्रकार के कोण: कोणों का वर्गीकरण",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "पहले समूह में सभी कोण समकोण से कम हैं। अर्थात् दूसरे शब्दों में कह सकते हैं कि एक कोण पूर्ण घुमाव के चतुर्थांश से कम है। इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2.",
+            "matched_excerpt": "1.",
+            "similarity": 0.2867,
+            "retrieval_score": 0.01,
+            "metadata_similarity": 0.6584,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "adcd94cdd0c27779fccd38bd",
+            "chunk_index": 13,
+            "chunk_count": 17,
+            "context_start_index": 11,
+            "context_end_index": 16,
+            "context_char_start": 481,
+            "context_char_end": 917,
+            "char_start": 843,
+            "char_end": 845,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.2851,
+            "semantic_rank": 15,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.013333333333333334,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 16,
+            "pre_cross_encoder_rank": 16,
+            "cross_encoder_score": 1.6610251665115356,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S2",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.5 कोण",
+            "printed_page": 17,
+            "pdf_page": 5,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+            "concept_id": "MATH6_C0020",
+            "concept_en": "angle",
+            "concept_hi": "कोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "शब्द ‘कोण’ को चिह्न ‘∠’ से भी दर्शाया जा सकता है, जैसे— ∠DBE या ∠EBD। ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)। विद्या ने अभी अपनी पुस्तक खोली है। आइए, पुस्तक के कवर को खोलते हुए भिन्न स्थितियों का अवलोकन करते हैं। स्थिति 1 स्थिति 2 स्थिति 3 स्थिति 4 स्थिति 5 स्थिति 6",
+            "matched_excerpt": "विद्या ने अभी अपनी पुस्तक खोली है।",
+            "similarity": 0.1888,
+            "retrieval_score": 0.01,
+            "metadata_similarity": 0.4817,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "9626ba68697bbe4161ddb1b0",
+            "chunk_index": 12,
+            "chunk_count": 15,
+            "context_start_index": 10,
+            "context_end_index": 15,
+            "context_char_start": 692,
+            "context_char_end": 1080,
+            "char_start": 924,
+            "char_end": 958,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.195,
+            "semantic_rank": 15,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.013333333333333334,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 15,
+            "pre_cross_encoder_rank": 15,
+            "cross_encoder_score": 1.7635092735290527,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S3",
+            "concept_ids": [
+              "MATH6_C0020"
+            ]
+          },
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.9 कोणों को मापना",
+            "printed_page": 33,
+            "pdf_page": 21,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+            "concept_id": "MATH6_C0024",
+            "concept_en": "right angle",
+            "concept_hi": "समकोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+            "matched_excerpt": "वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है।",
+            "similarity": 0.2714,
+            "retrieval_score": 0.01056338028169014,
+            "metadata_similarity": 0.5345,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "c1ad82a249a5f9f36216649a",
+            "chunk_index": 10,
+            "chunk_count": 12,
+            "context_start_index": 8,
+            "context_end_index": 12,
+            "context_char_start": 572,
+            "context_char_end": 928,
+            "char_start": 806,
+            "char_end": 874,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.2566,
+            "semantic_rank": 11,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.014084507042253521,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 11,
+            "pre_cross_encoder_rank": 11,
+            "cross_encoder_score": -2.301626443862915,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S4",
+            "concept_ids": [
+              "MATH6_C0024"
+            ]
+          }
+        ],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0025",
+            "en": "acute angle",
+            "hi": "न्यून कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0020",
+            "en": "angle",
+            "hi": "कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0021",
+            "en": "vertex",
+            "hi": "शीर्ष",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0022",
+            "en": "arm of angle",
+            "hi": "कोण की भुजा",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0024",
+            "en": "right angle",
+            "hi": "समकोण",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "selected_for_explanation": false
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0020",
+            "MATH6_C0024"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0025",
+              "concept": "acute angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "activity_evidence": [],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses.",
+          "teaching_request": {
+            "mode": "check_uncertainty",
+            "instruction": "Evidence is limited or mixed. Explain the target cautiously, clarify the named foundation, and ask a fresh check. Do not label a prerequisite gap.",
+            "focus": {
+              "id": "MATH6_C0025",
+              "en": "acute angle",
+              "hi": "न्यून कोण"
+            },
+            "example_variant": 0,
+            "worked_example": {
+              "en": "Is an angle of 0° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+              "hi": "क्या 0° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            }
+          },
+          "teaching_decision": {
+            "mode": "check_uncertainty",
+            "focus_concept_id": "MATH6_C0025",
+            "reason": "limited_saved_evidence"
+          },
+          "unsupported_prerequisites": []
+        },
+        "generation": {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "local_only": false
+        },
+        "fallback_reason": "offline_ui_test",
+        "notice": "स्थानीय शिक्षण व्याख्या और मौलिक उदाहरण। पाठ्यपुस्तक संदर्भ नीचे हैं। शिक्षक समीक्षा बाकी है।",
+        "feedback_actions": [
+          "simpler",
+          "another_example",
+          "still_confused",
+          "language_help"
+        ],
+        "routing": {
+          "action": "explain",
+          "concept_id": "MATH6_C0025",
+          "planner": "local_fallback",
+          "version": "tutor-planner-v3"
+        }
+      }
+    },
+    {
+      "question": "समझ नहीं आया",
+      "answer": {
+        "status": "answered",
+        "concept": {
+          "id": "MATH6_C0025",
+          "en": "acute angle",
+          "hi": "न्यून कोण",
+          "chapter": "CH02"
+        },
+        "language": "hi",
+        "mode": "guided_local",
+        "paragraphs": [
+          {
+            "text": "किताब को थोड़ा खोलिए, फिर समकोण जितना खोलिए। पहले वाला छोटा खुलाव न्यून कोण है। पन्नों की लंबाई नहीं, उनके बीच का खुलाव देखिए।",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "पहले समूह में सभी कोण समकोण से कम हैं। अर्थात् दूसरे शब्दों में कह सकते हैं कि एक कोण पूर्ण घुमाव के चतुर्थांश से कम है। इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2.",
+            "kind": "authored_explanation",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "एक नया उदाहरण: 50°। पहले जाँचें: यह 0° से अधिक है। अब 90° से तुलना करें: 50° 90° से कम है, इसलिए दोनों शर्तें पूरी हैं। यह न्यून कोण है।",
+            "citations": [
+              "S1"
+            ],
+            "evidence": "पहले समूह में सभी कोण समकोण से कम हैं। अर्थात् दूसरे शब्दों में कह सकते हैं कि एक कोण पूर्ण घुमाव के चतुर्थांश से कम है। इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2.",
+            "kind": "original_worked_example",
+            "review_status": "PENDING"
+          },
+          {
+            "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+            "citations": [],
+            "kind": "teaching_question"
+          }
+        ],
+        "sources": [
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.8 विशेष प्रकार के कोण: कोणों का वर्गीकरण",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "पहले समूह में सभी कोण समकोण से कम हैं। अर्थात् दूसरे शब्दों में कह सकते हैं कि एक कोण पूर्ण घुमाव के चतुर्थांश से कम है। इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2.",
+            "matched_excerpt": "1.",
+            "similarity": 0.3979,
+            "retrieval_score": 0.011029411764705881,
+            "metadata_similarity": 0.4811,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "adcd94cdd0c27779fccd38bd",
+            "chunk_index": 13,
+            "chunk_count": 17,
+            "context_start_index": 11,
+            "context_end_index": 16,
+            "context_char_start": 481,
+            "context_char_end": 917,
+            "char_start": 843,
+            "char_end": 845,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.3308,
+            "semantic_rank": 8,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.014705882352941176,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 9,
+            "pre_cross_encoder_rank": 9,
+            "cross_encoder_score": -2.833301067352295,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S1",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.8 विशेष प्रकार के कोण: कोणों का वर्गीकरण",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+            "matched_excerpt": "2.",
+            "similarity": 0.3972,
+            "retrieval_score": 0.010869565217391304,
+            "metadata_similarity": 0.4768,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "2902c421a26949b0325eb759",
+            "chunk_index": 15,
+            "chunk_count": 17,
+            "context_start_index": 13,
+            "context_end_index": 17,
+            "context_char_start": 843,
+            "context_char_end": 966,
+            "char_start": 915,
+            "char_end": 917,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.3297,
+            "semantic_rank": 9,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.014492753623188406,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 10,
+            "pre_cross_encoder_rank": 10,
+            "cross_encoder_score": -3.0115809440612793,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S2",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.8 विशेष प्रकार के कोण: कोणों का वर्गीकरण",
+            "printed_page": 31,
+            "pdf_page": 19,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=19",
+            "concept_id": "MATH6_C0025",
+            "concept_en": "acute angle",
+            "concept_hi": "न्यून कोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+            "matched_excerpt": "पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए।",
+            "similarity": 0.4173,
+            "retrieval_score": 0.025157347775175646,
+            "metadata_similarity": 0.4194,
+            "concept_coverage": 1,
+            "query_coverage": 0.1818,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "2c97ec50c6beebb916e17471",
+            "chunk_index": 14,
+            "chunk_count": 17,
+            "context_start_index": 12,
+            "context_end_index": 17,
+            "context_char_start": 602,
+            "context_char_end": 966,
+            "char_start": 846,
+            "char_end": 914,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.4524,
+            "semantic_rank": 1,
+            "bm25_score": 3.378407,
+            "bm25_rank": 4,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.032018442622950824,
+            "source_overlap": 0.8571428571428571,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 2,
+            "pre_cross_encoder_rank": 2,
+            "cross_encoder_score": -3.472198724746704,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S3",
+            "concept_ids": [
+              "MATH6_C0025"
+            ]
+          },
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.5 कोण",
+            "printed_page": 17,
+            "pdf_page": 5,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=5",
+            "concept_id": "MATH6_C0020",
+            "concept_en": "angle",
+            "concept_hi": "कोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "शब्द ‘कोण’ को चिह्न ‘∠’ से भी दर्शाया जा सकता है, जैसे— ∠DBE या ∠EBD। ध्यान रखिए कि कोण को लिखते समय शीर्ष वाले अक्षर को मध्य में लिखा जाए। एक कोण को दर्शाने के लिए शीर्ष पर एक छोटी चाप का प्रयोग किया जाता है (आकृति 2.9 में देखिए)। विद्या ने अभी अपनी पुस्तक खोली है। आइए, पुस्तक के कवर को खोलते हुए भिन्न स्थितियों का अवलोकन करते हैं। स्थिति 1 स्थिति 2 स्थिति 3 स्थिति 4 स्थिति 5 स्थिति 6",
+            "matched_excerpt": "विद्या ने अभी अपनी पुस्तक खोली है।",
+            "similarity": 0.1888,
+            "retrieval_score": 0.01,
+            "metadata_similarity": 0.4817,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "9626ba68697bbe4161ddb1b0",
+            "chunk_index": 12,
+            "chunk_count": 15,
+            "context_start_index": 10,
+            "context_end_index": 15,
+            "context_char_start": 692,
+            "context_char_end": 1080,
+            "char_start": 924,
+            "char_end": 958,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.195,
+            "semantic_rank": 15,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.013333333333333334,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 15,
+            "pre_cross_encoder_rank": 15,
+            "cross_encoder_score": 1.7635092735290527,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S4",
+            "concept_ids": [
+              "MATH6_C0020"
+            ]
+          },
+          {
+            "chapter_title": "रेखाएँ और कोण",
+            "section": "2.9 कोणों को मापना",
+            "printed_page": 33,
+            "pdf_page": 21,
+            "language": "hi",
+            "url": "/api/textbooks/hi/fhgp102.pdf#page=21",
+            "concept_id": "MATH6_C0024",
+            "concept_en": "right angle",
+            "concept_hi": "समकोण",
+            "support_relation": "direct",
+            "sha256": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+            "edition": "Reprint 2026-27",
+            "excerpt": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+            "matched_excerpt": "वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है।",
+            "similarity": 0.2714,
+            "retrieval_score": 0.01056338028169014,
+            "metadata_similarity": 0.5345,
+            "concept_coverage": 0,
+            "query_coverage": 0,
+            "chunking": "graph-cross-encoder-page-v6",
+            "chunk_id": "c1ad82a249a5f9f36216649a",
+            "chunk_index": 10,
+            "chunk_count": 12,
+            "context_start_index": 8,
+            "context_end_index": 12,
+            "context_char_start": 572,
+            "context_char_end": 928,
+            "char_start": 806,
+            "char_end": 874,
+            "offset_basis": "reconstructed anchor sequence",
+            "semantic_score": 0.2566,
+            "semantic_rank": 11,
+            "bm25_score": 0,
+            "bm25_rank": null,
+            "ranking": "bm25-rrf-v1",
+            "pre_diversity_score": 0.014084507042253521,
+            "source_overlap": 1,
+            "diversification": "source-span-diversity-v1",
+            "pre_diversity_rank": 11,
+            "pre_cross_encoder_rank": 11,
+            "cross_encoder_score": -2.301626443862915,
+            "reranker": "mmarco-cross-encoder-v1",
+            "reranker_status": "scored",
+            "reranker_input": "query + expanded source passage",
+            "retrieval": "hybrid BM25 + semantic RRF",
+            "id": "S5",
+            "concept_ids": [
+              "MATH6_C0024"
+            ]
+          }
+        ],
+        "terms": [
+          {
+            "concept_id": "MATH6_C0025",
+            "en": "acute angle",
+            "hi": "न्यून कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0020",
+            "en": "angle",
+            "hi": "कोण",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0021",
+            "en": "vertex",
+            "hi": "शीर्ष",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0022",
+            "en": "arm of angle",
+            "hi": "कोण की भुजा",
+            "review_status": "PENDING"
+          },
+          {
+            "concept_id": "MATH6_C0024",
+            "en": "right angle",
+            "hi": "समकोण",
+            "review_status": "PENDING"
+          }
+        ],
+        "learning_context": {
+          "prerequisites": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "selected_for_explanation": false
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "selected_for_explanation": true
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "selected_for_explanation": false
+            }
+          ],
+          "selected_prerequisites": [
+            "MATH6_C0020",
+            "MATH6_C0024"
+          ],
+          "learning_evidence": [
+            {
+              "concept_id": "MATH6_ADD003",
+              "concept": "plane geometry",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0016",
+              "concept": "point",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0017",
+              "concept": "line",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0019",
+              "concept": "ray",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0020",
+              "concept": "angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0021",
+              "concept": "vertex",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0022",
+              "concept": "arm of angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0024",
+              "concept": "right angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0025",
+              "concept": "acute angle",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            },
+            {
+              "concept_id": "MATH6_C0034",
+              "concept": "rotation",
+              "status": "Unassessed",
+              "valid_observations": 0,
+              "source": "saved learning checks"
+            }
+          ],
+          "activity_evidence": [],
+          "imported_background": [],
+          "notice": "Saved checks are limited evidence, not mastery. Imported reports are separate background without assessment dates. Graph relationships await human review. Unassessed concepts are not weaknesses.",
+          "teaching_request": {
+            "mode": "still_confused",
+            "instruction": "Start with the named foundation, explain it step by step, then connect it to the target. Do not infer a diagnosis.",
+            "focus": {
+              "id": "MATH6_C0025",
+              "en": "acute angle",
+              "hi": "न्यून कोण"
+            },
+            "example_variant": 1,
+            "worked_example": {
+              "en": "Is an angle of 55° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+              "hi": "क्या 55° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            },
+            "previous_example_variant": 0,
+            "previous_worked_example": {
+              "en": "Is an angle of 0° acute? A: yes; B: no. An acute angle is greater than 0 degrees and less than 90 degrees.",
+              "hi": "क्या 0° का कोण न्यून है? A: हाँ; B: नहीं. न्यून कोण 0 अंश से अधिक और 90 अंश से कम होता है।",
+              "provenance": "Original worked example, not a quotation from NCERT; review pending."
+            }
+          },
+          "teaching_decision": {
+            "mode": "still_confused",
+            "focus_concept_id": "MATH6_C0025"
+          },
+          "unsupported_prerequisites": []
+        },
+        "generation": {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite",
+          "local_only": false
+        },
+        "fallback_reason": null,
+        "notice": "स्थानीय शिक्षण व्याख्या और मौलिक उदाहरण। पाठ्यपुस्तक संदर्भ नीचे हैं। शिक्षक समीक्षा बाकी है।",
+        "feedback_action": "still_confused",
+        "feedback_actions": [
+          "another_example",
+          "language_help",
+          "simpler",
+          "still_confused"
+        ]
+      }
+    }
+  ]
+}

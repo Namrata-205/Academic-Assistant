@@ -1,0 +1,42 @@
+{
+  "files": {
+    "diagnostic/engine.py": "71595377ecdfa4f9f1eda27c5abfd8392f01fa4de4137db9f407b35195d95cb9",
+    "diagnostic/tutor_selection.py": "bcab6fd449fdaacb3adb2ec602393234c5141ae7148064e5ee20a9145f5f0d6e",
+    "diagnostic/book_chat.py": "ef085f302ce8de6a05ed6e0137b9b53f44e28b7f8dbc580da6c4284c2d83faf6",
+    "diagnostic/chat_tutor.py": "160e3f79bda40a6e6542a3fbaab7260a3f788709ef62c2546a560ac767f4ee6a",
+    "diagnostic/local_teaching.py": "84bc8404e6fd31867b19646e0c7fbd5f37b310e262348ad7d94430097e149209",
+    "diagnostic/curriculum_items.py": "51652c121387f2f99725e911c51d136a1706a7eba88dc067c56b991aa4c1afb9",
+    "diagnostic/textbook_catalog.json": "45da4eb20f6980fdf2093957e7c651ac8d1d1ef6d2a34734bd625b3fa68daf82",
+    "diagnostic/question_bank_v2.json": "b2e13049307e8603f2d8fffcfa10eca087685984b0c5565d4f83abd5de1436b6",
+    "diagnostic/bilingual_glossary_v2.json": "c8edbda902607b65ce51ee5fc99bbbca3e78789bec5cc142a32cc273130a4c71",
+    "diagnostic/semantic_chunks.py": "bff41157d8ca72a37ecbf061317a8ef0d44c8865f2fb96659a1698f5361b6f66",
+    "diagnostic/passage_reranker.py": "3fd159742e8ff0c4cb85e02c2f727b2a9a9e9ecbdb581d822da422f59d6af5b1",
+    "diagnostic/hybrid_retrieval.py": "f4271e8513cad91809df4aa0d789e27797c64c6c42d100d6487a42ea0c6283ec",
+    "diagnostic/semantic_mapper.py": "c0f3017e90670c2b71f988d1b342577c377d6da8c335f75b6bc40e3acca9d983",
+    "diagnostic/chat_router.py": "cb4307fb7a831ac410a07bca1571c6992504bc1aa1f5c5d4b2ac316669e83f71",
+    "diagnostic/chat_provider.py": "a7e3bb0bf668c0122a0cb2217ef081fad75206f4bf2fe6284449bcdbda8360e2",
+    "diagnostic/curriculum.py": "d103f79134d925f3c640a62fe90e23a1b1bebb9ee95eb925c9615d85a8d396a0",
+    "diagnostic/curriculum_content.py": "180dba927cacc7c8327226d18bc1322feadca5ac35c6ab938bceaa4006c68ec2",
+    "diagnostic/teaching_feedback.py": "d100c957109e37b41cffb2940dfb5c1f12a75832410c66901881404a270d7baa",
+    "diagnostic/tutor_bank.py": "1851f7271cf69331efe44f18b9a57341a11fcb7d47d7510ceb7939b0fd93409d",
+    "requirements.txt": "1a347347d679468f1800b9757e330c692590b8fa59576ef39f79e81a615d819d",
+    "requirements-semantic.txt": "b0264be0c5a89d4dcaa2700ba1c9eac7833ca4b3f6b32fb73d25787ba7cc0509",
+    "package-lock.json": "170ed3c4c3d43f7d2a70037be1c6ebb9ed66aa95399de08696e01d071edc4087",
+    "reports/phase2_evaluation_v2/development_cases.json": "b2a4f0e7879a3c4c0acbf8d9b9306f055249c16bf0c73abc5fc4ae0f41e24361",
+    "scripts/evaluate_phase2_v2.py": "283c3956f4cc9d6fb540c583e8fe1740bea16ea7e83082c713f91b4188b1b4ef"
+  },
+  "graph_sha256": "78ce0f45a9d551c530eab41f84ff235b3cc7969ddc531c7744e387c9384709f5",
+  "generator": "offline authored local lesson",
+  "external_model": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "configured": true,
+    "ok": false,
+    "error": "provider_error",
+    "seconds": 1.8696
+  },
+  "scenario_split": "development only",
+  "question_budget": 3,
+  "explanation_context_ceiling_characters": 2400,
+  "blind_shuffle_seed": 417
+}

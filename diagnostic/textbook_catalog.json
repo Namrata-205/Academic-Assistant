@@ -348,35 +348,49 @@
     "MATH6_C0049": {
       "relation": "direct",
       "location_verified": true,
-      "verified_by": "AI text and page inspection; human pedagogical review pending",
       "versions": {
         "en": {
-          "chapter": 1,
-          "chapter_title": "Patterns in Mathematics",
-          "section": "1.2 Patterns in Numbers",
-          "read_pdf_page": 3,
-          "read_printed_page": 3,
-          "practice_pdf_page": 3,
-          "practice_printed_page": 3,
-          "practice_label": "Figure it Out Q1-2",
-          "instruction": "Read Table 1. Try Figure it Out Q1-2: identify the rules and continue the sequences.",
-          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
-          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.9 Playing with Number Patterns",
+          "read_pdf_page": 13,
+          "read_printed_page": 67,
+          "supporting_pdf_pages": [
+            13,
+            6,
+            10
+          ],
+          "practice_pdf_page": 13,
+          "practice_printed_page": 67,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=13",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=13",
+          "verification_anchor": "quick",
+          "source_match": "exact normalized term; semantic review pending"
         },
         "hi": {
-          "chapter": 1,
-          "chapter_title": "गणित में पैटर्न",
-          "section": "1.2 संख्याओं में पैटर्न",
-          "read_pdf_page": 3,
-          "read_printed_page": 3,
-          "practice_pdf_page": 3,
-          "practice_printed_page": 3,
-          "practice_label": "आइए, पता लगाएँ प्रश्न1-2",
-          "instruction": "सारणी 1 पढ़िए। आइए, पता लगाएँ के प्रश्न 1-2 में नियम पहचानकर अनुक्रमों को आगे बढ़ाइए।",
-          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
-          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.9 संख्या पैटर्न के साथ खेलना",
+          "read_pdf_page": 13,
+          "read_printed_page": 67,
+          "supporting_pdf_pages": [
+            13,
+            1,
+            7
+          ],
+          "practice_pdf_page": 13,
+          "practice_printed_page": 67,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=13",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=13",
+          "verification_anchor": "संख्या पैटर्न के साथ खेलना",
+          "source_match": "exact normalized term; semantic review pending"
         }
-      }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
     },
     "MATH6_C0006": {
       "relation": "direct",
@@ -411,73 +425,7 @@
         }
       }
     },
-    "MATH6_C0044": {
-      "relation": "direct",
-      "location_verified": true,
-      "verified_by": "AI text and page inspection; human pedagogical review pending",
-      "versions": {
-        "en": {
-          "chapter": 1,
-          "chapter_title": "Patterns in Mathematics",
-          "section": "1.2 Patterns in Numbers",
-          "read_pdf_page": 3,
-          "read_printed_page": 3,
-          "practice_pdf_page": 3,
-          "practice_printed_page": 3,
-          "practice_label": "Figure it Out Q1-2 (odd-number row)",
-          "instruction": "Focus on the odd-number row of Table 1. For Q1-2, explain its rule and write the next three terms.",
-          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
-          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
-        },
-        "hi": {
-          "chapter": 1,
-          "chapter_title": "गणित में पैटर्न",
-          "section": "1.2 संख्याओं में पैटर्न",
-          "read_pdf_page": 3,
-          "read_printed_page": 3,
-          "practice_pdf_page": 3,
-          "practice_printed_page": 3,
-          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (odd-number row)",
-          "instruction": "सारणी 1 की विषम संख्याओं वाली पंक्ति देखिए। प्रश्न 1-2 में इसका नियम समझाकर अगली तीन संख्याएँ लिखिए।",
-          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
-          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
-        }
-      }
-    },
     "MATH6_C0007": {
-      "relation": "direct",
-      "location_verified": true,
-      "verified_by": "AI text and page inspection; human pedagogical review pending",
-      "versions": {
-        "en": {
-          "chapter": 1,
-          "chapter_title": "Patterns in Mathematics",
-          "section": "1.2 Patterns in Numbers",
-          "read_pdf_page": 3,
-          "read_printed_page": 3,
-          "practice_pdf_page": 3,
-          "practice_printed_page": 3,
-          "practice_label": "Figure it Out Q1-2 (even-number row)",
-          "instruction": "Focus on the even-number row of Table 1. For Q1-2, explain its rule and write the next three terms.",
-          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
-          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
-        },
-        "hi": {
-          "chapter": 1,
-          "chapter_title": "गणित में पैटर्न",
-          "section": "1.2 संख्याओं में पैटर्न",
-          "read_pdf_page": 3,
-          "read_printed_page": 3,
-          "practice_pdf_page": 3,
-          "practice_printed_page": 3,
-          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (even-number row)",
-          "instruction": "सारणी 1 की सम संख्याओं वाली पंक्ति देखिए। प्रश्न 1-2 में इसका नियम समझाकर अगली तीन संख्याएँ लिखिए।",
-          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
-          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
-        }
-      }
-    },
-    "MATH6_C0045": {
       "relation": "direct",
       "location_verified": true,
       "verified_by": "AI text and page inspection; human pedagogical review pending",
@@ -1472,41 +1420,6 @@
       },
       "verified_by": "Source page text and anchor check; human pedagogical review pending"
     },
-    "MATH6_C0033": {
-      "relation": "direct",
-      "location_verified": true,
-      "versions": {
-        "en": {
-          "chapter": 2,
-          "chapter_title": "Lines and Angles",
-          "section": "2.4 Figure it Out: intersecting lines",
-          "read_pdf_page": 4,
-          "read_printed_page": 16,
-          "practice_pdf_page": 4,
-          "practice_printed_page": 16,
-          "practice_label": "Example/activity on this page",
-          "instruction": "Review 2.4 Figure it Out: intersecting lines, focusing on intersecting lines. Then work through the example or activity on printed page 16.",
-          "read_url": "/api/textbooks/en/fegp102.pdf#page=4",
-          "practice_url": "/api/textbooks/en/fegp102.pdf#page=4",
-          "verification_anchor": "intersect"
-        },
-        "hi": {
-          "chapter": 2,
-          "chapter_title": "रेखाएँ और कोण",
-          "section": "2.4 Figure it Out: intersecting lines",
-          "read_pdf_page": 4,
-          "read_printed_page": 16,
-          "practice_pdf_page": 4,
-          "practice_printed_page": 16,
-          "practice_label": "Example/activity on this page",
-          "instruction": "प्रतिच्छेदी रेखाएँ की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 16 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
-          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
-          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
-          "verification_anchor": "प्रतिच्छेद"
-        }
-      },
-      "verified_by": "Source page text and anchor check; human pedagogical review pending"
-    },
     "MATH6_C0034": {
       "relation": "direct",
       "location_verified": true,
@@ -1582,35 +1495,45 @@
       "location_verified": true,
       "versions": {
         "en": {
-          "chapter": 3,
-          "chapter_title": "Number Play",
-          "section": "3.1 Numbers can Tell us Things",
-          "read_pdf_page": 1,
-          "read_printed_page": 55,
-          "practice_pdf_page": 5,
-          "practice_printed_page": 59,
-          "practice_label": "Example/activity on this page",
-          "instruction": "Review 3.1 Numbers can Tell us Things, focusing on number. Then work through the example or activity on printed page 59.",
-          "read_url": "/api/textbooks/en/fegp103.pdf#page=1",
-          "practice_url": "/api/textbooks/en/fegp103.pdf#page=5",
-          "verification_anchor": "Numbers are used"
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 2,
+          "read_printed_page": 2,
+          "supporting_pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 2,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=2",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=2",
+          "verification_anchor": "whole numbers",
+          "source_match": "exact normalized term; semantic review pending"
         },
         "hi": {
-          "chapter": 3,
-          "chapter_title": "संख्याओं का खेल",
-          "section": "3.1 Numbers can Tell us Things",
-          "read_pdf_page": 1,
-          "read_printed_page": 55,
-          "practice_pdf_page": 5,
-          "practice_printed_page": 59,
-          "practice_label": "Example/activity on this page",
-          "instruction": "संख्या की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 59 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
-          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=1",
-          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=5",
-          "verification_anchor": "संख्याओं"
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 2,
+          "read_printed_page": 2,
+          "supporting_pdf_pages": [
+            2
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 2,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=2",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=2",
+          "verification_anchor": "पूर्ण संख्याओं",
+          "source_match": "exact normalized term; semantic review pending"
         }
       },
-      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+      "verified_by": "Normalized term found on source page; human semantic review pending"
     },
     "MATH6_C0037": {
       "relation": "direct",
@@ -1745,41 +1668,6 @@
           "practice_printed_page": 70,
           "practice_label": "Example/activity on this page",
           "instruction": "आकलन की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 70 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
-          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
-          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=16",
-          "verification_anchor": "आकलन"
-        }
-      },
-      "verified_by": "Source page text and anchor check; human pedagogical review pending"
-    },
-    "MATH6_C0043": {
-      "relation": "related",
-      "location_verified": true,
-      "versions": {
-        "en": {
-          "chapter": 3,
-          "chapter_title": "Number Play",
-          "section": "3.11 Simple Estimation (related only)",
-          "read_pdf_page": 15,
-          "read_printed_page": 69,
-          "practice_pdf_page": 16,
-          "practice_printed_page": 70,
-          "practice_label": "Example/activity on this page",
-          "instruction": "Review 3.11 Simple Estimation (related only), focusing on rounding. Then work through the example or activity on printed page 70. This is related practice, not a dedicated definition of this concept.",
-          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
-          "practice_url": "/api/textbooks/en/fegp103.pdf#page=16",
-          "verification_anchor": "estimate"
-        },
-        "hi": {
-          "chapter": 3,
-          "chapter_title": "संख्याओं का खेल",
-          "section": "3.11 Simple Estimation (related only)",
-          "read_pdf_page": 15,
-          "read_printed_page": 69,
-          "practice_pdf_page": 16,
-          "practice_printed_page": 70,
-          "practice_label": "Example/activity on this page",
-          "instruction": "निकटतम मान तक पूर्णांकन की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 70 के उदाहरण या गतिविधि पर अभ्यास कीजिए। यह संबंधित अभ्यास है; इस अवधारणा की स्वतंत्र परिभाषा नहीं है।",
           "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
           "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=16",
           "verification_anchor": "आकलन"
@@ -1962,6 +1850,4514 @@
       },
       "verified_by": "Source page text and anchor check; human pedagogical review pending"
     },
+    "MATH6_C0102": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.4 Prime Factorisation",
+          "read_pdf_page": 13,
+          "read_printed_page": 119,
+          "supporting_pdf_pages": [
+            13
+          ],
+          "practice_pdf_page": 13,
+          "practice_printed_page": 119,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=13",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=13",
+          "verification_anchor": "multiplication",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.1 सार्व गुणज और सार्व गुणनखंड",
+          "read_pdf_page": 5,
+          "read_printed_page": 111,
+          "supporting_pdf_pages": [
+            5,
+            6,
+            8
+          ],
+          "practice_pdf_page": 5,
+          "practice_printed_page": 111,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=5",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=5",
+          "verification_anchor": "गुणा",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0103": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.4 Prime Factorisation",
+          "read_pdf_page": 15,
+          "read_printed_page": 121,
+          "supporting_pdf_pages": [
+            15,
+            17,
+            18
+          ],
+          "practice_pdf_page": 15,
+          "practice_printed_page": 121,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=15",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=15",
+          "verification_anchor": "division",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.4 अभाज्य गुणनखंडन",
+          "read_pdf_page": 15,
+          "read_printed_page": 121,
+          "supporting_pdf_pages": [
+            15
+          ],
+          "practice_pdf_page": 15,
+          "practice_printed_page": 121,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=15",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=15",
+          "verification_anchor": "भाग",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0101": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.2 Supercells",
+          "read_pdf_page": 4,
+          "read_printed_page": 58,
+          "supporting_pdf_pages": [
+            4,
+            5,
+            10
+          ],
+          "practice_pdf_page": 4,
+          "practice_printed_page": 58,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=4",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=4",
+          "verification_anchor": "greater",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.2 महाकोष्ठ (Supercells)",
+          "read_pdf_page": 3,
+          "read_printed_page": 57,
+          "supporting_pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 57,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=3",
+          "verification_anchor": "बड़ी",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0104": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.3 Visualising Number Sequences",
+          "read_pdf_page": 5,
+          "read_printed_page": 5,
+          "supporting_pdf_pages": [
+            5,
+            9
+          ],
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=5",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=5",
+          "verification_anchor": "hexagonal numbers",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.3 संख्या अनुक्रमों का दृश्यांकन",
+          "read_pdf_page": 5,
+          "read_printed_page": 5,
+          "supporting_pdf_pages": [
+            5,
+            9,
+            10
+          ],
+          "practice_pdf_page": 5,
+          "practice_printed_page": 5,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=5",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=5",
+          "verification_anchor": "षड्भुज",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0105": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.4 Relations among Number Sequences",
+          "read_pdf_page": 6,
+          "read_printed_page": 6,
+          "supporting_pdf_pages": [
+            6,
+            9,
+            11
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 6,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=6",
+          "verification_anchor": "relations among number sequences",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.4 संख्या अनुक्रमों के बीच संबंध",
+          "read_pdf_page": 6,
+          "read_printed_page": 6,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            11
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 6,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=6",
+          "verification_anchor": "संख्या अनुक्रमों के बीच संबंध",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0106": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.5 Patterns in Shapes",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "supporting_pdf_pages": [
+            10,
+            11,
+            12
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 10,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "verification_anchor": "complete graphs",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.6 संख्या अनुक्रमों से संबंध",
+          "read_pdf_page": 12,
+          "read_printed_page": 12,
+          "supporting_pdf_pages": [
+            12
+          ],
+          "practice_pdf_page": 12,
+          "practice_printed_page": 12,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=12",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=12",
+          "verification_anchor": "संपूर्ण ग्राफ",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0107": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.5 Patterns in Shapes",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "supporting_pdf_pages": [
+            10,
+            12
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 10,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "verification_anchor": "stacked squares",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.5 आकारों में पैटर्न",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "supporting_pdf_pages": [
+            10,
+            12
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 10,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "verification_anchor": "ढेरित वर्ग",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0108": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.5 Patterns in Shapes",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "supporting_pdf_pages": [
+            10,
+            12
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 10,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "verification_anchor": "stacked triangles",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.5 आकारों में पैटर्न",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "supporting_pdf_pages": [
+            10,
+            12
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 10,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "verification_anchor": "ढेरित त्रिभुज",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0109": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.5 Patterns in Shapes",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "supporting_pdf_pages": [
+            10,
+            12
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 10,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=10",
+          "verification_anchor": "koch snowflake",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.5 आकारों में पैटर्न",
+          "read_pdf_page": 10,
+          "read_printed_page": 10,
+          "supporting_pdf_pages": [
+            10,
+            12
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 10,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=10",
+          "verification_anchor": "कोच हिमकण",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0110": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.6 Comparing Angles",
+          "read_pdf_page": 9,
+          "read_printed_page": 21,
+          "supporting_pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 21,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=9",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=9",
+          "verification_anchor": "comparing angles",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.6 कोणों की तुलना",
+          "read_pdf_page": 9,
+          "read_printed_page": 21,
+          "supporting_pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 21,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=9",
+          "verification_anchor": "कोणों की तुलना",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0111": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.10 Drawing Angles",
+          "read_pdf_page": 34,
+          "read_printed_page": 46,
+          "supporting_pdf_pages": [
+            34
+          ],
+          "practice_pdf_page": 34,
+          "practice_printed_page": 46,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=34",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=34",
+          "verification_anchor": "drawing angles",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.10 कोणों को बनाना",
+          "read_pdf_page": 34,
+          "read_printed_page": 46,
+          "supporting_pdf_pages": [
+            34
+          ],
+          "practice_pdf_page": 34,
+          "practice_printed_page": 46,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=34",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=34",
+          "verification_anchor": "कोणों को बनाना",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0112": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.7 Clock and Calendar Numbers",
+          "read_pdf_page": 10,
+          "read_printed_page": 64,
+          "supporting_pdf_pages": [
+            10
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 64,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=10",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=10",
+          "verification_anchor": "clock and calendar numbers",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.7 घड़ी और कैलेंडर की संख्याएँ",
+          "read_pdf_page": 10,
+          "read_printed_page": 64,
+          "supporting_pdf_pages": [
+            10
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 64,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=10",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=10",
+          "verification_anchor": "घड़ी और कैलेंडर की संख्याएँ",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0113": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.8 Mental Math",
+          "read_pdf_page": 11,
+          "read_printed_page": 65,
+          "supporting_pdf_pages": [
+            11
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 65,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=11",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=11",
+          "verification_anchor": "mental math",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.8 मानसिक गणित",
+          "read_pdf_page": 11,
+          "read_printed_page": 65,
+          "supporting_pdf_pages": [
+            11
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 65,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+          "verification_anchor": "मानसिक गणित",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0114": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.12 Games and Winning Strategies",
+          "read_pdf_page": 17,
+          "read_printed_page": 71,
+          "supporting_pdf_pages": [
+            17
+          ],
+          "practice_pdf_page": 17,
+          "practice_printed_page": 71,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=17",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=17",
+          "verification_anchor": "winning strategies",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.12 खेल और जीतने की युक्तियाँ",
+          "read_pdf_page": 18,
+          "read_printed_page": 72,
+          "supporting_pdf_pages": [
+            18,
+            17
+          ],
+          "practice_pdf_page": 18,
+          "practice_printed_page": 72,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=18",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=18",
+          "verification_anchor": "जीतने की रणनीति",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0115": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.1 Collecting and Organising Data",
+          "read_pdf_page": 1,
+          "read_printed_page": 74,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 74,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=1",
+          "verification_anchor": "data",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.1 आँकड़ों का संग्रहण और संगठन",
+          "read_pdf_page": 1,
+          "read_printed_page": 74,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            6
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 74,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=1",
+          "verification_anchor": "आँकड़े",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0116": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.1 Collecting and Organising Data",
+          "read_pdf_page": 3,
+          "read_printed_page": 76,
+          "supporting_pdf_pages": [
+            3,
+            22,
+            32
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 76,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=3",
+          "verification_anchor": "tally marks",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.1 आँकड़ों का संग्रहण और संगठन",
+          "read_pdf_page": 3,
+          "read_printed_page": 76,
+          "supporting_pdf_pages": [
+            3,
+            4,
+            22
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 76,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=3",
+          "verification_anchor": "मिलान चिह्न",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0117": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.1 Collecting and Organising Data",
+          "read_pdf_page": 5,
+          "read_printed_page": 78,
+          "supporting_pdf_pages": [
+            5,
+            10,
+            16
+          ],
+          "practice_pdf_page": 5,
+          "practice_printed_page": 78,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=5",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=5",
+          "verification_anchor": "frequency",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.1 आँकड़ों का संग्रहण और संगठन",
+          "read_pdf_page": 4,
+          "read_printed_page": 77,
+          "supporting_pdf_pages": [
+            4,
+            5,
+            10
+          ],
+          "practice_pdf_page": 4,
+          "practice_printed_page": 77,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=4",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=4",
+          "verification_anchor": "बारंबारता",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0118": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.4 Drawing a Bar Graph",
+          "read_pdf_page": 16,
+          "read_printed_page": 89,
+          "supporting_pdf_pages": [
+            16,
+            26,
+            27
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 89,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=16",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=16",
+          "verification_anchor": "frequency table",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.4 दंड आलेख खींचना",
+          "read_pdf_page": 16,
+          "read_printed_page": 89,
+          "supporting_pdf_pages": [
+            16,
+            27
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 89,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=16",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=16",
+          "verification_anchor": "बारंबारता सारणी",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0119": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.2 Pictographs",
+          "read_pdf_page": 6,
+          "read_printed_page": 79,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 79,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=6",
+          "verification_anchor": "pictograph",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.2 चित्रालेख",
+          "read_pdf_page": 6,
+          "read_printed_page": 79,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 79,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=6",
+          "verification_anchor": "चित्रालेख",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0120": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.2 Pictographs",
+          "read_pdf_page": 10,
+          "read_printed_page": 83,
+          "supporting_pdf_pages": [
+            10,
+            14,
+            16
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 83,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=10",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=10",
+          "verification_anchor": "scale",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.2 चित्रालेख",
+          "read_pdf_page": 10,
+          "read_printed_page": 83,
+          "supporting_pdf_pages": [
+            10,
+            25,
+            14
+          ],
+          "practice_pdf_page": 10,
+          "practice_printed_page": 83,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=10",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=10",
+          "verification_anchor": "पैमाना या कुंजी",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0121": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.3 Bar Graphs",
+          "read_pdf_page": 12,
+          "read_printed_page": 85,
+          "supporting_pdf_pages": [
+            12,
+            13,
+            14
+          ],
+          "practice_pdf_page": 12,
+          "practice_printed_page": 85,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=12",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=12",
+          "verification_anchor": "bar graph",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.3 दंड आलेख",
+          "read_pdf_page": 11,
+          "read_printed_page": 84,
+          "supporting_pdf_pages": [
+            11,
+            12,
+            13
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 84,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=11",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=11",
+          "verification_anchor": "दंड आलेख",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0122": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.4 Drawing a Bar Graph",
+          "read_pdf_page": 16,
+          "read_printed_page": 89,
+          "supporting_pdf_pages": [
+            16
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 89,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=16",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=16",
+          "verification_anchor": "drawing a bar graph",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.4 दंड आलेख खींचना",
+          "read_pdf_page": 16,
+          "read_printed_page": 89,
+          "supporting_pdf_pages": [
+            16
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 89,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=16",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=16",
+          "verification_anchor": "दंड आलेख खींचना",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0123": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.3 Bar Graphs",
+          "read_pdf_page": 13,
+          "read_printed_page": 86,
+          "supporting_pdf_pages": [
+            13,
+            16,
+            18
+          ],
+          "practice_pdf_page": 13,
+          "practice_printed_page": 86,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=13",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=13",
+          "verification_anchor": "horizontal",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.5 कलात्मक और सौंदर्यात्मक विचार",
+          "read_pdf_page": 29,
+          "read_printed_page": 102,
+          "supporting_pdf_pages": [
+            29
+          ],
+          "practice_pdf_page": 29,
+          "practice_printed_page": 102,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=29",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=29",
+          "verification_anchor": "स्तंभ आलेख",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0124": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 4,
+          "chapter_title": "Data Handling and Presentation",
+          "section": "4.5 Artistic and Aesthetic Considerations",
+          "read_pdf_page": 30,
+          "read_printed_page": 103,
+          "supporting_pdf_pages": [
+            30,
+            32,
+            31
+          ],
+          "practice_pdf_page": 30,
+          "practice_printed_page": 103,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp104.pdf#page=30",
+          "practice_url": "/api/textbooks/en/fegp104.pdf#page=30",
+          "verification_anchor": "infographics",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 4,
+          "chapter_title": "आँकड़ों का प्रबंधन और प्रस्तुतीकरण",
+          "section": "4.5 कलात्मक और सौंदर्यात्मक विचार",
+          "read_pdf_page": 30,
+          "read_printed_page": 103,
+          "supporting_pdf_pages": [
+            30,
+            32,
+            31
+          ],
+          "practice_pdf_page": 30,
+          "practice_printed_page": 103,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp104.pdf#page=30",
+          "practice_url": "/api/textbooks/hi/fhgp104.pdf#page=30",
+          "verification_anchor": "इन्फोग्राफिक्स",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0125": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.1 Common Multiples and Common Factors",
+          "read_pdf_page": 1,
+          "read_printed_page": 107,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 107,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=1",
+          "verification_anchor": "multiple",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.1 सार्व गुणज और सार्व गुणनखंड",
+          "read_pdf_page": 1,
+          "read_printed_page": 107,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 107,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=1",
+          "verification_anchor": "गुणज",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0126": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.1 Common Multiples and Common Factors",
+          "read_pdf_page": 1,
+          "read_printed_page": 107,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            5
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 107,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=1",
+          "verification_anchor": "common multiple",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.1 सार्व गुणज और सार्व गुणनखंड",
+          "read_pdf_page": 1,
+          "read_printed_page": 107,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            5
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 107,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=1",
+          "verification_anchor": "सार्व गुणज",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0127": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.1 Common Multiples and Common Factors",
+          "read_pdf_page": 1,
+          "read_printed_page": 107,
+          "supporting_pdf_pages": [
+            1,
+            3,
+            4
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 107,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=1",
+          "verification_anchor": "factor",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.1 सार्व गुणज और सार्व गुणनखंड",
+          "read_pdf_page": 1,
+          "read_printed_page": 107,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 107,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=1",
+          "verification_anchor": "गुणनखंड",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0128": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.1 Common Multiples and Common Factors",
+          "read_pdf_page": 1,
+          "read_printed_page": 107,
+          "supporting_pdf_pages": [
+            1,
+            4,
+            5
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 107,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=1",
+          "verification_anchor": "common factor",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.1 सार्व गुणज और सार्व गुणनखंड",
+          "read_pdf_page": 1,
+          "read_printed_page": 107,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            10
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 107,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=1",
+          "verification_anchor": "सार्व गुणनखंड",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0129": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.1 Common Multiples and Common Factors",
+          "read_pdf_page": 5,
+          "read_printed_page": 111,
+          "supporting_pdf_pages": [
+            5
+          ],
+          "practice_pdf_page": 5,
+          "practice_printed_page": 111,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=5",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=5",
+          "verification_anchor": "perfect number",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.1 सार्व गुणज और सार्व गुणनखंड",
+          "read_pdf_page": 5,
+          "read_printed_page": 111,
+          "supporting_pdf_pages": [
+            5
+          ],
+          "practice_pdf_page": 5,
+          "practice_printed_page": 111,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=5",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=5",
+          "verification_anchor": "संपूर्ण संख्या",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0130": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.2 Prime Numbers",
+          "read_pdf_page": 6,
+          "read_printed_page": 112,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 112,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=6",
+          "verification_anchor": "prime number",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.2 अभाज्य संख्याएँ",
+          "read_pdf_page": 6,
+          "read_printed_page": 112,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 112,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=6",
+          "verification_anchor": "अभाज्य संख्या",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0131": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.2 Prime Numbers",
+          "read_pdf_page": 6,
+          "read_printed_page": 112,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 112,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=6",
+          "verification_anchor": "composite number",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.2 अभाज्य संख्याएँ",
+          "read_pdf_page": 6,
+          "read_printed_page": 112,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 112,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=6",
+          "verification_anchor": "भाज्य संख्या",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0132": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.2 Prime Numbers",
+          "read_pdf_page": 7,
+          "read_printed_page": 113,
+          "supporting_pdf_pages": [
+            7
+          ],
+          "practice_pdf_page": 7,
+          "practice_printed_page": 113,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=7",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=7",
+          "verification_anchor": "sieve of eratosthenes",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.2 अभाज्य संख्याएँ",
+          "read_pdf_page": 7,
+          "read_printed_page": 113,
+          "supporting_pdf_pages": [
+            7
+          ],
+          "practice_pdf_page": 7,
+          "practice_printed_page": 113,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=7",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=7",
+          "verification_anchor": "इराटोस्थेनीस की छलनी",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0133": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.2 Prime Numbers",
+          "read_pdf_page": 8,
+          "read_printed_page": 114,
+          "supporting_pdf_pages": [
+            8
+          ],
+          "practice_pdf_page": 8,
+          "practice_printed_page": 114,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=8",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=8",
+          "verification_anchor": "twin primes",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.2 अभाज्य संख्याएँ",
+          "read_pdf_page": 8,
+          "read_printed_page": 114,
+          "supporting_pdf_pages": [
+            8
+          ],
+          "practice_pdf_page": 8,
+          "practice_printed_page": 114,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=8",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=8",
+          "verification_anchor": "अभाज्य युग्म",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0134": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.3 Co-prime numbers for safekeeping treasures",
+          "read_pdf_page": 9,
+          "read_printed_page": 115,
+          "supporting_pdf_pages": [
+            9
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 115,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=9",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=9",
+          "verification_anchor": "co-prime numbers",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.3 खजानों को सुरक्षित रखने के लिए सह-अभाज्य संख्याएँ (Co-prime numbers)",
+          "read_pdf_page": 9,
+          "read_printed_page": 115,
+          "supporting_pdf_pages": [
+            9,
+            10,
+            14
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 115,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=9",
+          "verification_anchor": "सह-अभाज्य संख्याएँ",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0135": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.4 Prime Factorisation",
+          "read_pdf_page": 11,
+          "read_printed_page": 117,
+          "supporting_pdf_pages": [
+            11,
+            12,
+            13
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 117,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=11",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=11",
+          "verification_anchor": "prime factorisation",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.4 अभाज्य गुणनखंडन",
+          "read_pdf_page": 11,
+          "read_printed_page": 117,
+          "supporting_pdf_pages": [
+            11,
+            12,
+            13
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 117,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=11",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=11",
+          "verification_anchor": "अभाज्य गुणनखंडन",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0136": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.4 Prime Factorisation",
+          "read_pdf_page": 11,
+          "read_printed_page": 117,
+          "supporting_pdf_pages": [
+            11,
+            12,
+            13
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 117,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=11",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=11",
+          "verification_anchor": "prime factor",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.4 अभाज्य गुणनखंडन",
+          "read_pdf_page": 11,
+          "read_printed_page": 117,
+          "supporting_pdf_pages": [
+            11,
+            12,
+            13
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 117,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=11",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=11",
+          "verification_anchor": "अभाज्य गुणनखंड",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0137": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.5 Divisibility Tests",
+          "read_pdf_page": 16,
+          "read_printed_page": 122,
+          "supporting_pdf_pages": [
+            16,
+            17,
+            18
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 122,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=16",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=16",
+          "verification_anchor": "divisibility",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.5 संख्याओं की विभाज्यता की जाँच",
+          "read_pdf_page": 16,
+          "read_printed_page": 122,
+          "supporting_pdf_pages": [
+            16,
+            17,
+            18
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 122,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=16",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=16",
+          "verification_anchor": "विभाज्यता",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0138": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.5 Divisibility Tests",
+          "read_pdf_page": 17,
+          "read_printed_page": 123,
+          "supporting_pdf_pages": [
+            17
+          ],
+          "practice_pdf_page": 17,
+          "practice_printed_page": 123,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=17",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=17",
+          "verification_anchor": "divisibility by 2",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.5 संख्याओं की विभाज्यता की जाँच",
+          "read_pdf_page": 16,
+          "read_printed_page": 122,
+          "supporting_pdf_pages": [
+            16,
+            17,
+            18
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 122,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=16",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=16",
+          "verification_anchor": "विभाज्य",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0139": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 5,
+          "chapter_title": "Prime Time",
+          "section": "5.5 Divisibility Tests",
+          "read_pdf_page": 19,
+          "read_printed_page": 125,
+          "supporting_pdf_pages": [
+            19
+          ],
+          "practice_pdf_page": 19,
+          "practice_printed_page": 125,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp105.pdf#page=19",
+          "practice_url": "/api/textbooks/en/fegp105.pdf#page=19",
+          "verification_anchor": "divisibility by 8",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 5,
+          "chapter_title": "अभाज्य समय",
+          "section": "5.5 संख्याओं की विभाज्यता की जाँच",
+          "read_pdf_page": 19,
+          "read_printed_page": 125,
+          "supporting_pdf_pages": [
+            19
+          ],
+          "practice_pdf_page": 19,
+          "practice_printed_page": 125,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp105.pdf#page=19",
+          "practice_url": "/api/textbooks/hi/fhgp105.pdf#page=19",
+          "verification_anchor": "8 से विभाज्यता",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0140": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.2 Squares and Rectangles",
+          "read_pdf_page": 6,
+          "read_printed_page": 192,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 192,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=6",
+          "verification_anchor": "rectangle",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.2 वर्ग और आयत",
+          "read_pdf_page": 6,
+          "read_printed_page": 192,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 192,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=6",
+          "verification_anchor": "आयत",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0141": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.2 Squares and Rectangles",
+          "read_pdf_page": 6,
+          "read_printed_page": 192,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 192,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=6",
+          "verification_anchor": "square",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.2 वर्ग और आयत",
+          "read_pdf_page": 6,
+          "read_printed_page": 192,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 192,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=6",
+          "verification_anchor": "वर्ग",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0143": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.1 Perimeter",
+          "read_pdf_page": 1,
+          "read_printed_page": 129,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 129,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=1",
+          "verification_anchor": "length",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.1 परिमाप",
+          "read_pdf_page": 1,
+          "read_printed_page": 129,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 129,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=1",
+          "verification_anchor": "लंबाई",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0150": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.1 Perimeter",
+          "read_pdf_page": 1,
+          "read_printed_page": 129,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 129,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=1",
+          "verification_anchor": "perimeter",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.1 परिमाप",
+          "read_pdf_page": 1,
+          "read_printed_page": 129,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 129,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=1",
+          "verification_anchor": "परिमाप",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0151": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.1 Perimeter",
+          "read_pdf_page": 1,
+          "read_printed_page": 129,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            4
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 129,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=1",
+          "verification_anchor": "perimeter of a rectangle",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.1 परिमाप",
+          "read_pdf_page": 1,
+          "read_printed_page": 129,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            4
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 129,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=1",
+          "verification_anchor": "आयत का परिमाप",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0152": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.1 Perimeter",
+          "read_pdf_page": 2,
+          "read_printed_page": 130,
+          "supporting_pdf_pages": [
+            2,
+            4,
+            22
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 130,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=2",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=2",
+          "verification_anchor": "perimeter of a square",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.1 परिमाप",
+          "read_pdf_page": 2,
+          "read_printed_page": 130,
+          "supporting_pdf_pages": [
+            2,
+            4,
+            21
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 130,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=2",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=2",
+          "verification_anchor": "वर्ग का परिमाप",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0153": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.1 Perimeter",
+          "read_pdf_page": 3,
+          "read_printed_page": 131,
+          "supporting_pdf_pages": [
+            3
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 131,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=3",
+          "verification_anchor": "perimeter of a triangle",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.1 परिमाप",
+          "read_pdf_page": 3,
+          "read_printed_page": 131,
+          "supporting_pdf_pages": [
+            3,
+            4,
+            6
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 131,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=3",
+          "verification_anchor": "त्रिभुज का परिमाप",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0142": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.3 Area of a Triangle",
+          "read_pdf_page": 14,
+          "read_printed_page": 142,
+          "supporting_pdf_pages": [
+            14,
+            15,
+            16
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 142,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=14",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=14",
+          "verification_anchor": "triangle",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.3 त्रिभुज का क्षेत्रफल",
+          "read_pdf_page": 14,
+          "read_printed_page": 142,
+          "supporting_pdf_pages": [
+            14,
+            15,
+            16
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 142,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=14",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=14",
+          "verification_anchor": "त्रिभुज",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0154": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.1 Perimeter",
+          "read_pdf_page": 7,
+          "read_printed_page": 135,
+          "supporting_pdf_pages": [
+            7
+          ],
+          "practice_pdf_page": 7,
+          "practice_printed_page": 135,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=7",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=7",
+          "verification_anchor": "equilateral triangle",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.1 परिमाप",
+          "read_pdf_page": 7,
+          "read_printed_page": 135,
+          "supporting_pdf_pages": [
+            7,
+            8
+          ],
+          "practice_pdf_page": 7,
+          "practice_printed_page": 135,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=7",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=7",
+          "verification_anchor": "समबाहु त्रिभुज",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0155": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.1 Perimeter",
+          "read_pdf_page": 7,
+          "read_printed_page": 135,
+          "supporting_pdf_pages": [
+            7,
+            8
+          ],
+          "practice_pdf_page": 7,
+          "practice_printed_page": 135,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=7",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=7",
+          "verification_anchor": "perimeter of a regular polygon",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.1 परिमाप",
+          "read_pdf_page": 7,
+          "read_printed_page": 135,
+          "supporting_pdf_pages": [
+            7
+          ],
+          "practice_pdf_page": 7,
+          "practice_printed_page": 135,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=7",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=7",
+          "verification_anchor": "सम बहुभुज का परिमाप",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0157": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.2 Area",
+          "read_pdf_page": 12,
+          "read_printed_page": 140,
+          "supporting_pdf_pages": [
+            12,
+            13,
+            21
+          ],
+          "practice_pdf_page": 12,
+          "practice_printed_page": 140,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=12",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=12",
+          "verification_anchor": "square unit",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.2 क्षेत्रफल",
+          "read_pdf_page": 12,
+          "read_printed_page": 140,
+          "supporting_pdf_pages": [
+            12,
+            13,
+            17
+          ],
+          "practice_pdf_page": 12,
+          "practice_printed_page": 140,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=12",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=12",
+          "verification_anchor": "वर्ग इकाई",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0156": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.2 Area",
+          "read_pdf_page": 9,
+          "read_printed_page": 137,
+          "supporting_pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 137,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=9",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=9",
+          "verification_anchor": "area",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.2 क्षेत्रफल",
+          "read_pdf_page": 9,
+          "read_printed_page": 137,
+          "supporting_pdf_pages": [
+            9,
+            10,
+            11
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 137,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=9",
+          "verification_anchor": "क्षेत्रफल",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0158": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.2 Area",
+          "read_pdf_page": 9,
+          "read_printed_page": 137,
+          "supporting_pdf_pages": [
+            9,
+            22
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 137,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=9",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=9",
+          "verification_anchor": "area of a rectangle",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.2 क्षेत्रफल",
+          "read_pdf_page": 9,
+          "read_printed_page": 137,
+          "supporting_pdf_pages": [
+            9,
+            11,
+            14
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 137,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=9",
+          "verification_anchor": "आयत का क्षेत्रफल",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0159": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.2 Area",
+          "read_pdf_page": 9,
+          "read_printed_page": 137,
+          "supporting_pdf_pages": [
+            9,
+            22
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 137,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=9",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=9",
+          "verification_anchor": "area of a square",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.2 क्षेत्रफल",
+          "read_pdf_page": 9,
+          "read_printed_page": 137,
+          "supporting_pdf_pages": [
+            9,
+            12,
+            21
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 137,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=9",
+          "verification_anchor": "वर्ग का क्षेत्रफल",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0160": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.2 Area",
+          "read_pdf_page": 13,
+          "read_printed_page": 141,
+          "supporting_pdf_pages": [
+            13
+          ],
+          "practice_pdf_page": 13,
+          "practice_printed_page": 141,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=13",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=13",
+          "verification_anchor": "squared grid",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.2 क्षेत्रफल",
+          "read_pdf_page": 9,
+          "read_printed_page": 137,
+          "supporting_pdf_pages": [
+            9,
+            13,
+            15
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 137,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=9",
+          "verification_anchor": "ग्रिड पेपर",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0161": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.2 Area",
+          "read_pdf_page": 11,
+          "read_printed_page": 139,
+          "supporting_pdf_pages": [
+            11
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 139,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=11",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=11",
+          "verification_anchor": "tangram",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.2 क्षेत्रफल",
+          "read_pdf_page": 11,
+          "read_printed_page": 139,
+          "supporting_pdf_pages": [
+            11
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 139,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=11",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=11",
+          "verification_anchor": "टैनग्राम",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0162": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.3 Area of a Triangle",
+          "read_pdf_page": 22,
+          "read_printed_page": 150,
+          "supporting_pdf_pages": [
+            22,
+            1,
+            2
+          ],
+          "practice_pdf_page": 22,
+          "practice_printed_page": 150,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=22",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=22",
+          "verification_anchor": "different areas",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.3 त्रिभुज का क्षेत्रफल",
+          "read_pdf_page": 22,
+          "read_printed_page": 150,
+          "supporting_pdf_pages": [
+            22
+          ],
+          "practice_pdf_page": 22,
+          "practice_printed_page": 150,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=22",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=22",
+          "verification_anchor": "समान परिमाप",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0163": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.3 Area of a Triangle",
+          "read_pdf_page": 14,
+          "read_printed_page": 142,
+          "supporting_pdf_pages": [
+            14
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 142,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=14",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=14",
+          "verification_anchor": "area of a triangle",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.3 त्रिभुज का क्षेत्रफल",
+          "read_pdf_page": 14,
+          "read_printed_page": 142,
+          "supporting_pdf_pages": [
+            14
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 142,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=14",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=14",
+          "verification_anchor": "त्रिभुज का क्षेत्रफल",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0164": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 6,
+          "chapter_title": "Perimeter and Area",
+          "section": "6.1 Perimeter",
+          "read_pdf_page": 8,
+          "read_printed_page": 136,
+          "supporting_pdf_pages": [
+            8,
+            10
+          ],
+          "practice_pdf_page": 8,
+          "practice_printed_page": 136,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp106.pdf#page=8",
+          "practice_url": "/api/textbooks/en/fegp106.pdf#page=8",
+          "verification_anchor": "split",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 6,
+          "chapter_title": "परिमाप और क्षेत्रफल",
+          "section": "6.3 त्रिभुज का क्षेत्रफल",
+          "read_pdf_page": 16,
+          "read_printed_page": 144,
+          "supporting_pdf_pages": [
+            16,
+            8
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 144,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp106.pdf#page=16",
+          "practice_url": "/api/textbooks/hi/fhgp106.pdf#page=16",
+          "verification_anchor": "आयत और त्रिभुजों में विभाजित करके क्षेत्रफल",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0172": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.1 Fractional Units and Equal Shares",
+          "read_pdf_page": 2,
+          "read_printed_page": 152,
+          "supporting_pdf_pages": [
+            2,
+            15
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 152,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=2",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=2",
+          "verification_anchor": "equal shares",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.1 भिन्नात्मक इकाइयाँ और समान भाग",
+          "read_pdf_page": 2,
+          "read_printed_page": 152,
+          "supporting_pdf_pages": [
+            2,
+            6,
+            15
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 152,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=2",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=2",
+          "verification_anchor": "समान भाग",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0171": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.1 Fractional Units and Equal Shares",
+          "read_pdf_page": 2,
+          "read_printed_page": 152,
+          "supporting_pdf_pages": [
+            2,
+            4,
+            5
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 152,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=2",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=2",
+          "verification_anchor": "fractional unit",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.1 भिन्नात्मक इकाइयाँ और समान भाग",
+          "read_pdf_page": 2,
+          "read_printed_page": 152,
+          "supporting_pdf_pages": [
+            2,
+            4,
+            5
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 152,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=2",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=2",
+          "verification_anchor": "भिन्नात्मक इकाई",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0170": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "Fractions",
+          "read_pdf_page": 1,
+          "read_printed_page": 151,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 151,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=1",
+          "verification_anchor": "fraction",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "भिन्न",
+          "read_pdf_page": 1,
+          "read_printed_page": 151,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 151,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=1",
+          "verification_anchor": "भिन्न",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0173": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.2 Fractional Units as Parts of a Whole",
+          "read_pdf_page": 4,
+          "read_printed_page": 154,
+          "supporting_pdf_pages": [
+            4
+          ],
+          "practice_pdf_page": 4,
+          "practice_printed_page": 154,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=4",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=4",
+          "verification_anchor": "parts of a whole",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.2 संपूर्ण के हिस्सों के रूप में भिन्नात्मक इकाइयाँ",
+          "read_pdf_page": 4,
+          "read_printed_page": 154,
+          "supporting_pdf_pages": [
+            4
+          ],
+          "practice_pdf_page": 4,
+          "practice_printed_page": 154,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=4",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=4",
+          "verification_anchor": "संपूर्ण के हिस्सों",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0174": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.6 Equivalent Fractions",
+          "read_pdf_page": 18,
+          "read_printed_page": 168,
+          "supporting_pdf_pages": [
+            18,
+            19,
+            20
+          ],
+          "practice_pdf_page": 18,
+          "practice_printed_page": 168,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=18",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=18",
+          "verification_anchor": "numerator and denominator",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.6 तुल्य भिन्न",
+          "read_pdf_page": 18,
+          "read_printed_page": 168,
+          "supporting_pdf_pages": [
+            18,
+            19,
+            20
+          ],
+          "practice_pdf_page": 18,
+          "practice_printed_page": 168,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=18",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=18",
+          "verification_anchor": "अंश और हर",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0175": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.4 \u0007Marking Fraction Lengths on the Number Line",
+          "read_pdf_page": 9,
+          "read_printed_page": 159,
+          "supporting_pdf_pages": [
+            9,
+            11
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 159,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=9",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=9",
+          "verification_anchor": "fractions on the number line",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.4 संख्या रेखा पर भिन्नों की माप अंकित करनाना",
+          "read_pdf_page": 9,
+          "read_printed_page": 159,
+          "supporting_pdf_pages": [
+            9
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 159,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=9",
+          "verification_anchor": "संख्या रेखा पर भिन्न",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0176": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.5 Mixed Fractions",
+          "read_pdf_page": 11,
+          "read_printed_page": 161,
+          "supporting_pdf_pages": [
+            11,
+            12,
+            36
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 161,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=11",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=11",
+          "verification_anchor": "mixed fractions",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.5 मिश्रित भिन्न",
+          "read_pdf_page": 11,
+          "read_printed_page": 161,
+          "supporting_pdf_pages": [
+            11,
+            12,
+            13
+          ],
+          "practice_pdf_page": 11,
+          "practice_printed_page": 161,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=11",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=11",
+          "verification_anchor": "मिश्रित भिन्न",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0177": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.6 Equivalent Fractions",
+          "read_pdf_page": 13,
+          "read_printed_page": 163,
+          "supporting_pdf_pages": [
+            13,
+            14,
+            15
+          ],
+          "practice_pdf_page": 13,
+          "practice_printed_page": 163,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=13",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=13",
+          "verification_anchor": "equivalent fractions",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.6 तुल्य भिन्न",
+          "read_pdf_page": 13,
+          "read_printed_page": 163,
+          "supporting_pdf_pages": [
+            13,
+            14,
+            15
+          ],
+          "practice_pdf_page": 13,
+          "practice_printed_page": 163,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=13",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=13",
+          "verification_anchor": "तुल्य भिन्न",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0178": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.6 Equivalent Fractions",
+          "read_pdf_page": 22,
+          "read_printed_page": 172,
+          "supporting_pdf_pages": [
+            22,
+            23,
+            28
+          ],
+          "practice_pdf_page": 22,
+          "practice_printed_page": 172,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=22",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=22",
+          "verification_anchor": "lowest terms",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.6 तुल्य भिन्न",
+          "read_pdf_page": 18,
+          "read_printed_page": 168,
+          "supporting_pdf_pages": [
+            18,
+            22,
+            36
+          ],
+          "practice_pdf_page": 18,
+          "practice_printed_page": 168,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=18",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=18",
+          "verification_anchor": "सरलतम रूप",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0179": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.7 Comparing Fractions",
+          "read_pdf_page": 23,
+          "read_printed_page": 173,
+          "supporting_pdf_pages": [
+            23
+          ],
+          "practice_pdf_page": 23,
+          "practice_printed_page": 173,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=23",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=23",
+          "verification_anchor": "comparing fractions",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.7 भिन्नों की तुलना",
+          "read_pdf_page": 23,
+          "read_printed_page": 173,
+          "supporting_pdf_pages": [
+            23,
+            24
+          ],
+          "practice_pdf_page": 23,
+          "practice_printed_page": 173,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=23",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=23",
+          "verification_anchor": "भिन्नों की तुलना",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0180": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.8 Addition and Subtraction of Fractions",
+          "read_pdf_page": 28,
+          "read_printed_page": 178,
+          "supporting_pdf_pages": [
+            28
+          ],
+          "practice_pdf_page": 28,
+          "practice_printed_page": 178,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=28",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=28",
+          "verification_anchor": "addition of fractions",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.8 भिन्नों को जोड़नाना और घटानाना",
+          "read_pdf_page": 25,
+          "read_printed_page": 175,
+          "supporting_pdf_pages": [
+            25
+          ],
+          "practice_pdf_page": 25,
+          "practice_printed_page": 175,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=25",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=25",
+          "verification_anchor": "भिन्नों को जोड़ना",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0181": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.8 Addition and Subtraction of Fractions",
+          "read_pdf_page": 25,
+          "read_printed_page": 175,
+          "supporting_pdf_pages": [
+            25,
+            30,
+            31
+          ],
+          "practice_pdf_page": 25,
+          "practice_printed_page": 175,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=25",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=25",
+          "verification_anchor": "subtraction of fractions",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.8 भिन्नों को जोड़नाना और घटानाना",
+          "read_pdf_page": 30,
+          "read_printed_page": 180,
+          "supporting_pdf_pages": [
+            30,
+            31
+          ],
+          "practice_pdf_page": 30,
+          "practice_printed_page": 180,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=30",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=30",
+          "verification_anchor": "भिन्नों को घटाना",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0182": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.8 Addition and Subtraction of Fractions",
+          "read_pdf_page": 28,
+          "read_printed_page": 178,
+          "supporting_pdf_pages": [
+            28,
+            29,
+            30
+          ],
+          "practice_pdf_page": 28,
+          "practice_printed_page": 178,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=28",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=28",
+          "verification_anchor": "brahmagupta",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.8 भिन्नों को जोड़नाना और घटानाना",
+          "read_pdf_page": 28,
+          "read_printed_page": 178,
+          "supporting_pdf_pages": [
+            28,
+            29,
+            30
+          ],
+          "practice_pdf_page": 28,
+          "practice_printed_page": 178,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=28",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=28",
+          "verification_anchor": "ब्रह्मगुप्त विधि",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0183": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 7,
+          "chapter_title": "Fractions",
+          "section": "7.9 A Pinch of History",
+          "read_pdf_page": 33,
+          "read_printed_page": 183,
+          "supporting_pdf_pages": [
+            33
+          ],
+          "practice_pdf_page": 33,
+          "practice_printed_page": 183,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp107.pdf#page=33",
+          "practice_url": "/api/textbooks/en/fegp107.pdf#page=33",
+          "verification_anchor": "egyptian fractions",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 7,
+          "chapter_title": "भिन्न",
+          "section": "7.9 एक चुटकी इतिहास",
+          "read_pdf_page": 33,
+          "read_printed_page": 183,
+          "supporting_pdf_pages": [
+            33
+          ],
+          "practice_pdf_page": 33,
+          "practice_printed_page": 183,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp107.pdf#page=33",
+          "practice_url": "/api/textbooks/hi/fhgp107.pdf#page=33",
+          "verification_anchor": "मिस्र भिन्न",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0190": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.1 Artwork",
+          "read_pdf_page": 2,
+          "read_printed_page": 188,
+          "supporting_pdf_pages": [
+            2,
+            3,
+            5
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 188,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=2",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=2",
+          "verification_anchor": "circle",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.1 कलाकृति",
+          "read_pdf_page": 2,
+          "read_printed_page": 188,
+          "supporting_pdf_pages": [
+            2,
+            3,
+            5
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 188,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=2",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=2",
+          "verification_anchor": "वृत्त",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0191": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.1 Artwork",
+          "read_pdf_page": 3,
+          "read_printed_page": 189,
+          "supporting_pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 189,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=3",
+          "verification_anchor": "radius",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.1 कलाकृति",
+          "read_pdf_page": 3,
+          "read_printed_page": 189,
+          "supporting_pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 189,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=3",
+          "verification_anchor": "त्रिज्या",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0192": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.1 Artwork",
+          "read_pdf_page": 2,
+          "read_printed_page": 188,
+          "supporting_pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 188,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=2",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=2",
+          "verification_anchor": "compass",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.1 कलाकृति",
+          "read_pdf_page": 2,
+          "read_printed_page": 188,
+          "supporting_pdf_pages": [
+            2,
+            3,
+            4
+          ],
+          "practice_pdf_page": 2,
+          "practice_printed_page": 188,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=2",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=2",
+          "verification_anchor": "परकार",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0193": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.5 Exploring Diagonals of Rectangles and Squares",
+          "read_pdf_page": 17,
+          "read_printed_page": 203,
+          "supporting_pdf_pages": [
+            17,
+            24,
+            27
+          ],
+          "practice_pdf_page": 17,
+          "practice_printed_page": 203,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=17",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=17",
+          "verification_anchor": "arc",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.5 आयतों और वर्गों के विकर्णों की खोज करना",
+          "read_pdf_page": 17,
+          "read_printed_page": 203,
+          "supporting_pdf_pages": [
+            17,
+            24,
+            27
+          ],
+          "practice_pdf_page": 17,
+          "practice_printed_page": 203,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=17",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=17",
+          "verification_anchor": "चाप",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0194": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.2 Squares and Rectangles",
+          "read_pdf_page": 6,
+          "read_printed_page": 192,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 192,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=6",
+          "verification_anchor": "squares and rectangles",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.2 वर्ग और आयत",
+          "read_pdf_page": 6,
+          "read_printed_page": 192,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 192,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=6",
+          "verification_anchor": "वर्ग",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0198": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.4 An Exploration in Rectangles",
+          "read_pdf_page": 14,
+          "read_printed_page": 200,
+          "supporting_pdf_pages": [
+            14,
+            19,
+            22
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 200,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=14",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=14",
+          "verification_anchor": "rough diagram",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.6 दो दिए हुए बिंदुओं से समदूरस्थ बिंदु",
+          "read_pdf_page": 30,
+          "read_printed_page": 216,
+          "supporting_pdf_pages": [
+            30
+          ],
+          "practice_pdf_page": 30,
+          "practice_printed_page": 216,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=30",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=30",
+          "verification_anchor": "रफ आकृति",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0195": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.3 Constructing Squares and Rectangles",
+          "read_pdf_page": 9,
+          "read_printed_page": 195,
+          "supporting_pdf_pages": [
+            9
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 195,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=9",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=9",
+          "verification_anchor": "constructing squares and rectangles",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.3 वर्ग और आयत की रचना",
+          "read_pdf_page": 9,
+          "read_printed_page": 195,
+          "supporting_pdf_pages": [
+            9
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 195,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=9",
+          "verification_anchor": "वर्ग और आयत की रचना",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0196": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.5 Exploring Diagonals of Rectangles and Squares",
+          "read_pdf_page": 17,
+          "read_printed_page": 203,
+          "supporting_pdf_pages": [
+            17,
+            18,
+            19
+          ],
+          "practice_pdf_page": 17,
+          "practice_printed_page": 203,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=17",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=17",
+          "verification_anchor": "diagonal",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.5 आयतों और वर्गों के विकर्णों की खोज करना",
+          "read_pdf_page": 17,
+          "read_printed_page": 203,
+          "supporting_pdf_pages": [
+            17,
+            18,
+            19
+          ],
+          "practice_pdf_page": 17,
+          "practice_printed_page": 203,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=17",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=17",
+          "verification_anchor": "विकर्ण",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0197": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 8,
+          "chapter_title": "Playing with Constructions",
+          "section": "8.6 Points Equidistant from Two Given Points",
+          "read_pdf_page": 25,
+          "read_printed_page": 211,
+          "supporting_pdf_pages": [
+            25
+          ],
+          "practice_pdf_page": 25,
+          "practice_printed_page": 211,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp108.pdf#page=25",
+          "practice_url": "/api/textbooks/en/fegp108.pdf#page=25",
+          "verification_anchor": "points equidistant from two given points",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 8,
+          "chapter_title": "रचनाओं के साथ खेलना",
+          "section": "8.6 दो दिए हुए बिंदुओं से समदूरस्थ बिंदु",
+          "read_pdf_page": 25,
+          "read_printed_page": 211,
+          "supporting_pdf_pages": [
+            25,
+            13,
+            30
+          ],
+          "practice_pdf_page": 25,
+          "practice_printed_page": 211,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp108.pdf#page=25",
+          "practice_url": "/api/textbooks/hi/fhgp108.pdf#page=25",
+          "verification_anchor": "समदूरस्थ बिंदु",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0200": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 9,
+          "chapter_title": "Symmetry",
+          "section": "Symmetry",
+          "read_pdf_page": 1,
+          "read_printed_page": 217,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 217,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp109.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp109.pdf#page=1",
+          "verification_anchor": "symmetry",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 9,
+          "chapter_title": "सममिति",
+          "section": "सममिति",
+          "read_pdf_page": 1,
+          "read_printed_page": 217,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            3
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 217,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp109.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp109.pdf#page=1",
+          "verification_anchor": "सममिति",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0201": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 9,
+          "chapter_title": "Symmetry",
+          "section": "9.1 Line of Symmetry",
+          "read_pdf_page": 3,
+          "read_printed_page": 219,
+          "supporting_pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 219,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp109.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp109.pdf#page=3",
+          "verification_anchor": "line of symmetry",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 9,
+          "chapter_title": "सममिति",
+          "section": "9.1 सममिति की रेखा",
+          "read_pdf_page": 3,
+          "read_printed_page": 219,
+          "supporting_pdf_pages": [
+            3,
+            4,
+            5
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 219,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp109.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp109.pdf#page=3",
+          "verification_anchor": "सममिति की रेखा",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0202": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 9,
+          "chapter_title": "Symmetry",
+          "section": "9.1 Line of Symmetry",
+          "read_pdf_page": 6,
+          "read_printed_page": 222,
+          "supporting_pdf_pages": [
+            6,
+            21,
+            22
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 222,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp109.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp109.pdf#page=6",
+          "verification_anchor": "reflection symmetry",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 9,
+          "chapter_title": "सममिति",
+          "section": "9.1 सममिति की रेखा",
+          "read_pdf_page": 6,
+          "read_printed_page": 222,
+          "supporting_pdf_pages": [
+            6
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 222,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp109.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp109.pdf#page=6",
+          "verification_anchor": "परावर्तीय सममिति",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0203": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 9,
+          "chapter_title": "Symmetry",
+          "section": "9.2 Rotational Symmetry",
+          "read_pdf_page": 14,
+          "read_printed_page": 230,
+          "supporting_pdf_pages": [
+            14,
+            16,
+            17
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 230,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp109.pdf#page=14",
+          "practice_url": "/api/textbooks/en/fegp109.pdf#page=14",
+          "verification_anchor": "rotational symmetry",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 9,
+          "chapter_title": "सममिति",
+          "section": "9.2 घूर्णन सममिति",
+          "read_pdf_page": 14,
+          "read_printed_page": 230,
+          "supporting_pdf_pages": [
+            14,
+            16,
+            17
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 230,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp109.pdf#page=14",
+          "practice_url": "/api/textbooks/hi/fhgp109.pdf#page=14",
+          "verification_anchor": "घूर्णन सममिति",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0204": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 9,
+          "chapter_title": "Symmetry",
+          "section": "9.2 Rotational Symmetry",
+          "read_pdf_page": 14,
+          "read_printed_page": 230,
+          "supporting_pdf_pages": [
+            14,
+            15,
+            25
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 230,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp109.pdf#page=14",
+          "practice_url": "/api/textbooks/en/fegp109.pdf#page=14",
+          "verification_anchor": "centre of rotation",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 9,
+          "chapter_title": "सममिति",
+          "section": "9.2 घूर्णन सममिति",
+          "read_pdf_page": 14,
+          "read_printed_page": 230,
+          "supporting_pdf_pages": [
+            14,
+            25
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 230,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp109.pdf#page=14",
+          "practice_url": "/api/textbooks/hi/fhgp109.pdf#page=14",
+          "verification_anchor": "घूर्णन का केंद्र",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0205": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 9,
+          "chapter_title": "Symmetry",
+          "section": "9.2 Rotational Symmetry",
+          "read_pdf_page": 14,
+          "read_printed_page": 230,
+          "supporting_pdf_pages": [
+            14,
+            15,
+            17
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 230,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp109.pdf#page=14",
+          "practice_url": "/api/textbooks/en/fegp109.pdf#page=14",
+          "verification_anchor": "angle of symmetry",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 9,
+          "chapter_title": "सममिति",
+          "section": "9.2 घूर्णन सममिति",
+          "read_pdf_page": 14,
+          "read_printed_page": 230,
+          "supporting_pdf_pages": [
+            14,
+            17,
+            19
+          ],
+          "practice_pdf_page": 14,
+          "practice_printed_page": 230,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp109.pdf#page=14",
+          "practice_url": "/api/textbooks/hi/fhgp109.pdf#page=14",
+          "verification_anchor": "सममिति का कोण",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0210": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.1 Bela’s Building of Fun",
+          "read_pdf_page": 3,
+          "read_printed_page": 244,
+          "supporting_pdf_pages": [
+            3,
+            6,
+            9
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 244,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=3",
+          "verification_anchor": "positive numbers",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.1 बेला की मजेदार इमारत",
+          "read_pdf_page": 9,
+          "read_printed_page": 250,
+          "supporting_pdf_pages": [
+            9
+          ],
+          "practice_pdf_page": 9,
+          "practice_printed_page": 250,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=9",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=9",
+          "verification_anchor": "धनात्मक संख्याएँ",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0211": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.1 Bela’s Building of Fun",
+          "read_pdf_page": 3,
+          "read_printed_page": 244,
+          "supporting_pdf_pages": [
+            3,
+            6,
+            7
+          ],
+          "practice_pdf_page": 3,
+          "practice_printed_page": 244,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=3",
+          "verification_anchor": "negative numbers",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "शून्य के दूसरी ओर",
+          "read_pdf_page": 1,
+          "read_printed_page": 242,
+          "supporting_pdf_pages": [
+            1,
+            2
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 242,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=1",
+          "verification_anchor": "शून्य से छोटी",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0213": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.3 Integers in Other Places",
+          "read_pdf_page": 18,
+          "read_printed_page": 259,
+          "supporting_pdf_pages": [
+            18,
+            22,
+            24
+          ],
+          "practice_pdf_page": 18,
+          "practice_printed_page": 259,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=18",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=18",
+          "verification_anchor": "integers",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.3 अन्य स्थानों पर पूर्णांक",
+          "read_pdf_page": 18,
+          "read_printed_page": 259,
+          "supporting_pdf_pages": [
+            18,
+            21,
+            22
+          ],
+          "practice_pdf_page": 18,
+          "practice_printed_page": 259,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=18",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=18",
+          "verification_anchor": "पूर्णांक",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0212": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.5 A Pinch of History",
+          "read_pdf_page": 28,
+          "read_printed_page": 269,
+          "supporting_pdf_pages": [
+            28,
+            29,
+            5
+          ],
+          "practice_pdf_page": 28,
+          "practice_printed_page": 269,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=28",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=28",
+          "verification_anchor": "additive inverse",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.1 बेला की मजेदार इमारत",
+          "read_pdf_page": 5,
+          "read_printed_page": 246,
+          "supporting_pdf_pages": [
+            5,
+            14,
+            28
+          ],
+          "practice_pdf_page": 5,
+          "practice_printed_page": 246,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=5",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=5",
+          "verification_anchor": "योज्य प्रतिलोम",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0217": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "The Other Side of Zero",
+          "read_pdf_page": 1,
+          "read_printed_page": 242,
+          "supporting_pdf_pages": [
+            1,
+            11,
+            12
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 242,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=1",
+          "verification_anchor": "number line",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "शून्य के दूसरी ओर",
+          "read_pdf_page": 1,
+          "read_printed_page": 242,
+          "supporting_pdf_pages": [
+            1,
+            11,
+            12
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 242,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=1",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=1",
+          "verification_anchor": "संख्या रेखा",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0214": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "The Other Side of Zero",
+          "read_pdf_page": 1,
+          "read_printed_page": 242,
+          "supporting_pdf_pages": [
+            1,
+            2,
+            5
+          ],
+          "practice_pdf_page": 1,
+          "practice_printed_page": 242,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=1",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=1",
+          "verification_anchor": "less than",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.5 एक चुटकी इतिहास",
+          "read_pdf_page": 29,
+          "read_printed_page": 270,
+          "supporting_pdf_pages": [
+            29
+          ],
+          "practice_pdf_page": 29,
+          "practice_printed_page": 270,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=29",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=29",
+          "verification_anchor": "पूर्णांकों की तुलना",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0215": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.2 The Token Model",
+          "read_pdf_page": 16,
+          "read_printed_page": 257,
+          "supporting_pdf_pages": [
+            16
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 257,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=16",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=16",
+          "verification_anchor": "addition of integers",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.5 एक चुटकी इतिहास",
+          "read_pdf_page": 25,
+          "read_printed_page": 266,
+          "supporting_pdf_pages": [
+            25
+          ],
+          "practice_pdf_page": 25,
+          "practice_printed_page": 266,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=25",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=25",
+          "verification_anchor": "पूर्णांकों का योग",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0216": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.1 Bela’s Building of Fun",
+          "read_pdf_page": 6,
+          "read_printed_page": 247,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            8
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 247,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=6",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=6",
+          "verification_anchor": "subtraction",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.1 बेला की मजेदार इमारत",
+          "read_pdf_page": 6,
+          "read_printed_page": 247,
+          "supporting_pdf_pages": [
+            6,
+            7,
+            10
+          ],
+          "practice_pdf_page": 6,
+          "practice_printed_page": 247,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=6",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=6",
+          "verification_anchor": "घटाने",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0218": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.2 The Token Model",
+          "read_pdf_page": 15,
+          "read_printed_page": 256,
+          "supporting_pdf_pages": [
+            15,
+            16,
+            17
+          ],
+          "practice_pdf_page": 15,
+          "practice_printed_page": 256,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=15",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=15",
+          "verification_anchor": "token model",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.2 टोकन मॉडल",
+          "read_pdf_page": 16,
+          "read_printed_page": 257,
+          "supporting_pdf_pages": [
+            16,
+            15
+          ],
+          "practice_pdf_page": 16,
+          "practice_printed_page": 257,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=16",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=16",
+          "verification_anchor": "शून्य युग्म",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0219": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.3 Integers in Other Places",
+          "read_pdf_page": 18,
+          "read_printed_page": 259,
+          "supporting_pdf_pages": [
+            18,
+            21,
+            22
+          ],
+          "practice_pdf_page": 18,
+          "practice_printed_page": 259,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=18",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=18",
+          "verification_anchor": "integers in other places",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.3 अन्य स्थानों पर पूर्णांक",
+          "read_pdf_page": 18,
+          "read_printed_page": 259,
+          "supporting_pdf_pages": [
+            18,
+            20,
+            21
+          ],
+          "practice_pdf_page": 18,
+          "practice_printed_page": 259,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=18",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=18",
+          "verification_anchor": "अन्य स्थानों पर पूर्णांक",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    },
+    "MATH6_C0220": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 10,
+          "chapter_title": "The Other Side of Zero",
+          "section": "10.5 A Pinch of History",
+          "read_pdf_page": 26,
+          "read_printed_page": 267,
+          "supporting_pdf_pages": [
+            26,
+            27,
+            28
+          ],
+          "practice_pdf_page": 26,
+          "practice_printed_page": 267,
+          "practice_label": "Original practice in the application",
+          "instruction": "Read the explanation and example on this page.",
+          "read_url": "/api/textbooks/en/fegp110.pdf#page=26",
+          "practice_url": "/api/textbooks/en/fegp110.pdf#page=26",
+          "verification_anchor": "brahmagupta",
+          "source_match": "exact normalized term; semantic review pending"
+        },
+        "hi": {
+          "chapter": 10,
+          "chapter_title": "शून्य के दूसरी ओर",
+          "section": "10.5 एक चुटकी इतिहास",
+          "read_pdf_page": 26,
+          "read_printed_page": 267,
+          "supporting_pdf_pages": [
+            26,
+            27,
+            25
+          ],
+          "practice_pdf_page": 26,
+          "practice_printed_page": 267,
+          "practice_label": "ऐप में मौलिक अभ्यास",
+          "instruction": "इस पृष्ठ की व्याख्या और उदाहरण पढ़ें।",
+          "read_url": "/api/textbooks/hi/fhgp110.pdf#page=26",
+          "practice_url": "/api/textbooks/hi/fhgp110.pdf#page=26",
+          "verification_anchor": "ब्रह्मगुप्त के नियम",
+          "source_match": "exact normalized term; semantic review pending"
+        }
+      },
+      "verified_by": "Normalized term found on source page; human semantic review pending"
+    }
+  },
+  "scope": "All ten chapters archived in both languages. Selected textbook locations mapped to the existing diagnostic scope. Source locations verified, graph edges and diagnostic rules remain provisional.",
+  "coverage_audit": {
+    "graph_file": "prerequisite_edges_v2.csv",
+    "concept_count": 144,
+    "chapters": {
+      "CH01": 19,
+      "CH02": 20,
+      "CH03": 11,
+      "CH04": 10,
+      "CH05": 15,
+      "CH06": 15,
+      "CH07": 14,
+      "CH08": 9,
+      "CH09": 6,
+      "CH10": 11,
+      "PRIOR": 14
+    },
+    "linked_count": 144,
+    "note": "Exact source-location anchors are machine checked; pedagogical validity and prerequisite relationships need human review."
+  },
+  "archived_concepts": {
     "MATH6_ADD003": {
       "relation": "direct",
       "location_verified": true,
@@ -2003,21 +6399,147 @@
       "versions": {},
       "reason": "No dedicated parallel-lines explanation or exercise located in the supplied chapters."
     },
+    "MATH6_C0045": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2 (even-number row)",
+          "instruction": "Focus on the even-number row of Table 1. For Q1-2, explain its rule and write the next three terms.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (even-number row)",
+          "instruction": "सारणी 1 की सम संख्याओं वाली पंक्ति देखिए। प्रश्न 1-2 में इसका नियम समझाकर अगली तीन संख्याएँ लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0033": {
+      "relation": "direct",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 2,
+          "chapter_title": "Lines and Angles",
+          "section": "2.4 Figure it Out: intersecting lines",
+          "read_pdf_page": 4,
+          "read_printed_page": 16,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 2.4 Figure it Out: intersecting lines, focusing on intersecting lines. Then work through the example or activity on printed page 16.",
+          "read_url": "/api/textbooks/en/fegp102.pdf#page=4",
+          "practice_url": "/api/textbooks/en/fegp102.pdf#page=4",
+          "verification_anchor": "intersect"
+        },
+        "hi": {
+          "chapter": 2,
+          "chapter_title": "रेखाएँ और कोण",
+          "section": "2.4 Figure it Out: intersecting lines",
+          "read_pdf_page": 4,
+          "read_printed_page": 16,
+          "practice_pdf_page": 4,
+          "practice_printed_page": 16,
+          "practice_label": "Example/activity on this page",
+          "instruction": "प्रतिच्छेदी रेखाएँ की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 16 के उदाहरण या गतिविधि पर अभ्यास कीजिए।",
+          "read_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
+          "practice_url": "/api/textbooks/hi/fhgp102.pdf#page=4",
+          "verification_anchor": "प्रतिच्छेद"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
+    "MATH6_C0044": {
+      "relation": "direct",
+      "location_verified": true,
+      "verified_by": "AI text and page inspection; human pedagogical review pending",
+      "versions": {
+        "en": {
+          "chapter": 1,
+          "chapter_title": "Patterns in Mathematics",
+          "section": "1.2 Patterns in Numbers",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "Figure it Out Q1-2 (odd-number row)",
+          "instruction": "Focus on the odd-number row of Table 1. For Q1-2, explain its rule and write the next three terms.",
+          "read_url": "/api/textbooks/en/fegp101.pdf#page=3",
+          "practice_url": "/api/textbooks/en/fegp101.pdf#page=3"
+        },
+        "hi": {
+          "chapter": 1,
+          "chapter_title": "गणित में पैटर्न",
+          "section": "1.2 संख्याओं में पैटर्न",
+          "read_pdf_page": 3,
+          "read_printed_page": 3,
+          "practice_pdf_page": 3,
+          "practice_printed_page": 3,
+          "practice_label": "आइए, पता लगाएँ प्रश्न1-2 (odd-number row)",
+          "instruction": "सारणी 1 की विषम संख्याओं वाली पंक्ति देखिए। प्रश्न 1-2 में इसका नियम समझाकर अगली तीन संख्याएँ लिखिए।",
+          "read_url": "/api/textbooks/hi/fhgp101.pdf#page=3",
+          "practice_url": "/api/textbooks/hi/fhgp101.pdf#page=3"
+        }
+      }
+    },
+    "MATH6_C0043": {
+      "relation": "related",
+      "location_verified": true,
+      "versions": {
+        "en": {
+          "chapter": 3,
+          "chapter_title": "Number Play",
+          "section": "3.11 Simple Estimation (related only)",
+          "read_pdf_page": 15,
+          "read_printed_page": 69,
+          "practice_pdf_page": 16,
+          "practice_printed_page": 70,
+          "practice_label": "Example/activity on this page",
+          "instruction": "Review 3.11 Simple Estimation (related only), focusing on rounding. Then work through the example or activity on printed page 70. This is related practice, not a dedicated definition of this concept.",
+          "read_url": "/api/textbooks/en/fegp103.pdf#page=15",
+          "practice_url": "/api/textbooks/en/fegp103.pdf#page=16",
+          "verification_anchor": "estimate"
+        },
+        "hi": {
+          "chapter": 3,
+          "chapter_title": "संख्याओं का खेल",
+          "section": "3.11 Simple Estimation (related only)",
+          "read_pdf_page": 15,
+          "read_printed_page": 69,
+          "practice_pdf_page": 16,
+          "practice_printed_page": 70,
+          "practice_label": "Example/activity on this page",
+          "instruction": "निकटतम मान तक पूर्णांकन की व्याख्या पढ़िए। फिर मुद्रित पृष्ठ 70 के उदाहरण या गतिविधि पर अभ्यास कीजिए। यह संबंधित अभ्यास है; इस अवधारणा की स्वतंत्र परिभाषा नहीं है।",
+          "read_url": "/api/textbooks/hi/fhgp103.pdf#page=15",
+          "practice_url": "/api/textbooks/hi/fhgp103.pdf#page=16",
+          "verification_anchor": "आकलन"
+        }
+      },
+      "verified_by": "Source page text and anchor check; human pedagogical review pending"
+    },
     "MATH6_C0048": {
       "relation": "unavailable",
       "location_verified": false,
       "versions": {},
       "reason": "No magic-square lesson or exercise located. Supercells and patterned sums are not equivalent to magic squares."
     }
-  },
-  "scope": "All ten chapters archived in both languages. Selected textbook locations mapped to the existing diagnostic scope. Source locations verified, graph edges and diagnostic rules remain provisional.",
-  "coverage_audit": {
-    "concept_count": 53,
-    "linked_count": 51,
-    "unavailable": [
-      "MATH6_C0032",
-      "MATH6_C0048"
-    ],
-    "note": "Coverage is source-location coverage, not graph validation. Related activities are labelled."
   }
 }

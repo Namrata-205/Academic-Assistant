@@ -1,0 +1,187 @@
+{
+  "source_sha256": "25bd2994e7b8bac23f972c9898863dbfa8cd0c1b4851a26c0d6fe4b7049732eb",
+  "document_is_reference_not_tool_instructions": true,
+  "nonempty_paragraphs": 30,
+  "requirements": [
+    {
+      "paragraph": 1,
+      "reference_text": "Dear Students,",
+      "status": "reference",
+      "evidence_or_remaining_work": "Greeting, no test requirement."
+    },
+    {
+      "paragraph": 2,
+      "reference_text": "I went through your Phase 1 presentation. You have built the bilingual concept graph, shown the application, and reported initial results for prerequisite prediction and retrieval. For the remaining 50%, I want you to connect that work to one complete learner interaction: identify the concept, ask a few useful questions, explain the difficulty in the learner’s chosen language, and check their understanding with a new question.",
+      "status": "tested_offline",
+      "evidence_or_remaining_work": "Complete synthetic chat cycles, diagnostics, retrieval and new follow-up grading executed."
+    },
+    {
+      "paragraph": 3,
+      "reference_text": "Stay with the three Class 6 Mathematics chapters you have already selected: Patterns in Mathematics, Lines and Angles, and Number Play. Please work through the following steps in order.",
+      "status": "scope_resolved",
+      "evidence_or_remaining_work": "Three chapters for the scenario comparison; explicit later user request expands the application to ten."
+    },
+    {
+      "paragraph": 4,
+      "reference_text": "1. Save your Phase 1 version and verify the graph.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Graph version comparison executed; separate labels and review boundaries preserved."
+    },
+    {
+      "paragraph": 5,
+      "reference_text": "Keep a copy of the original graph, code, and results. Ask your reviewers to check the English–Hindi concept matches and the direction of the prerequisite links. Include examples of concepts that are related but are not prerequisites.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Original graph/results preserved; user attests v2 graph reviewed. Negative-pair and blind bilingual evidence not supplied; no historical code snapshot reconstructed."
+    },
+    {
+      "paragraph": 6,
+      "reference_text": "In your report, explain how the 307 proposed links relate to the reference labels used in your results table. Report performance specifically on identifying prerequisite links, since your majority baseline shows that overall accuracy can be high even when a method fails to find those links. Keep the original and reviewed graphs separate.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Original 307-link graph compared on compatible IDs; positive recall and conditional precision/F1 reported. V2 self-agreement is not called accuracy."
+    },
+    {
+      "paragraph": 7,
+      "reference_text": "2. Use the retrieval results to improve question selection.",
+      "status": "tested",
+      "evidence_or_remaining_work": "Selection/ranking comparison and miss logs saved."
+    },
+    {
+      "paragraph": 8,
+      "reference_text": "Your slides report prerequisite recall of 77.14% at rank 3 and 92.86% at rank 5. Check which important prerequisites are missed near the top of the list. Use the graph to shortlist candidates, then use previous answers and available diagnostic items to decide which prerequisite to test first. The shortlist can contain more than three candidates; the learner should still receive at most three diagnostic questions.",
+      "status": "tested",
+      "evidence_or_remaining_work": "Recall@3/@5 over 134 targets; no more than three diagnostic questions."
+    },
+    {
+      "paragraph": 9,
+      "reference_text": "Keep a log showing which prerequisite was selected and why. That will let us review whether the next question was useful.",
+      "status": "tested",
+      "evidence_or_remaining_work": "Every graph selection logs candidate ranking, selected item and reason."
+    },
+    {
+      "paragraph": 10,
+      "reference_text": "3. Turn your diagnostic prototype into a repeatable workflow.",
+      "status": "tested_offline",
+      "evidence_or_remaining_work": "Repeatable persisted chat workflow and isolated evidence stores tested."
+    },
+    {
+      "paragraph": 11,
+      "reference_text": "Start with a reviewed bilingual question bank. For each item, record the prerequisite it tests, the correct answer, and what a particular wrong answer might indicate. Use clear answer keys for the first version.",
+      "status": "partial",
+      "evidence_or_remaining_work": "432 bilingual keyed items and feedback available. New items require independent suitability and wrong-answer interpretation review."
+    },
+    {
+      "paragraph": 12,
+      "reference_text": "Let the learner’s question identify the topic. Use their answers to diagnostic questions as evidence of a possible difficulty. A wrong answer can also be a slip or a language misunderstanding. Ask a confirming question where possible, and show “Insufficient evidence” when the responses are unclear or the question limit is reached. Leave untested prerequisites marked as unassessed.",
+      "status": "tested_with_limits",
+      "evidence_or_remaining_work": "Two observations required for difficulty; mixed/unscorable evidence remains uncertain. Synthetic slip/language causes are not identified as real causes."
+    },
+    {
+      "paragraph": 13,
+      "reference_text": "4. Generate an explanation that addresses the difficulty.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Source-guided fallback and controlled offline contexts executed; live-model ratings unavailable."
+    },
+    {
+      "paragraph": 14,
+      "reference_text": "Retrieve the NCERT passage for the target concept and the passage for the prerequisite that needs attention. Use those passages to generate a short explanation in the learner’s selected language. Show the chapter, section or page, and the passage supporting the explanation.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Target/foundation retrieval, source metadata and unsupported-source abstention tested. Blind relevance and entailment review pending."
+    },
+    {
+      "paragraph": 15,
+      "reference_text": "Create a small, reviewed glossary using your shared concept IDs, so terms such as right angle / समकोण stay consistent. Check that the English and Hindi versions preserve the same mathematical meaning, numbers, and units. If the available passages do not support an explanation, say so clearly.",
+      "status": "partial",
+      "evidence_or_remaining_work": "144 shared-ID terms, definition/question numeric-unit checks; semantic glossary review and translation accuracy pending."
+    },
+    {
+      "paragraph": 16,
+      "reference_text": "5. Add one complete feedback and follow-up cycle.",
+      "status": "tested_offline",
+      "evidence_or_remaining_work": "Full feedback cycle and new-question grading persisted."
+    },
+    {
+      "paragraph": 17,
+      "reference_text": "Give the learner options such as “Simpler explanation,” “Show another example,” and “I still don’t understand.” Use that feedback to choose the next action. For example, try simpler wording if terminology is the issue, or give a hint on the prerequisite if the diagnostic responses point to a gap.",
+      "status": "tested_with_limits",
+      "evidence_or_remaining_work": "Four bilingual feedback branches run; pedagogical usefulness rating pending."
+    },
+    {
+      "paragraph": 18,
+      "reference_text": "For a Lines and Angles demo, suppose the learner confuses a right angle with a straight angle. Check that distinction with a targeted question, give a short explanation with textbook support, and then show a new diagram to check whether they can identify the angle in a different orientation. Log the follow-up response as new evidence.",
+      "status": "tested_offline",
+      "evidence_or_remaining_work": "Existing right/straight-angle cycle regression and eight rotated-transfer assertions passed."
+    },
+    {
+      "paragraph": 19,
+      "reference_text": "6. Prepare fresh cases for final testing.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Fresh development pack authored; not a final reviewed benchmark."
+    },
+    {
+      "paragraph": 20,
+      "reference_text": "As a planning target, prepare 50–80 distinct, reviewed learner scenarios across the three chapters. Include cases with a likely prerequisite gap, no apparent gap, a calculation slip, language confusion, and insufficient evidence. For each case, record the expected result, the reason for that label, and the relevant textbook passages.",
+      "status": "partial",
+      "evidence_or_remaining_work": "60 distinct paired draft cases, five profiles, expected gaps, rationale and textbook locations; independent review still required."
+    },
+    {
+      "paragraph": 21,
+      "reference_text": "Keep English and Hindi versions of the same case together when separating development and final test data. Use development cases to refine your rules and prompts. Save the final cases for evaluation after the settings are fixed.",
+      "status": "pending_final",
+      "evidence_or_remaining_work": "Original family-separated final candidates untouched. Current new cases are all development; no frozen reviewed final accuracy claimed."
+    },
+    {
+      "paragraph": 22,
+      "reference_text": "For your adaptive comparison, prepare responses to the diagnostic items that each method might select. Each method should see only the responses to questions it actually asks. Have the reference labels reviewed independently of the system’s predictions.",
+      "status": "tested",
+      "evidence_or_remaining_work": "Each selector sees only asked responses; hidden potential answers/expected labels excluded from selectors."
+    },
+    {
+      "paragraph": 23,
+      "reference_text": "7. Run two fair comparisons.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Three diagnosis arms run; three explanation contexts saved without invented quality scores."
+    },
+    {
+      "paragraph": 24,
+      "reference_text": "• Diagnosis: Compare a fixed question order, adaptive selection without prerequisite links, and your graph-guided method. Give all three the same question bank, initial learner information, and three-question limit. Report how often each finds the expected gap, flags a gap incorrectly, leaves a case unresolved, and how many questions it asks. If feasible, run the graph-guided method with both the original and reviewed graphs to see how graph errors affect diagnosis.",
+      "status": "tested_with_limits",
+      "evidence_or_remaining_work": "Same bank, target, prior-free start and three-question cap. Simple non-graph heuristics and graph-derived synthetic cases limit generalisation."
+    },
+    {
+      "paragraph": 25,
+      "reference_text": "• Explanation: Compare ordinary textbook RAG, graph-based RAG without diagnosis, and your full system. Use the same model and textbook collection, with comparable context limits. Check mathematical correctness, whether citations support the claims, terminology consistency, and whether the explanation addresses the difficulty shown in the case. Ask bilingual reviewers to score a sample without telling them which version produced each response. Report results for English and Hindi separately, along with response time.",
+      "status": "pending_live_and_review",
+      "evidence_or_remaining_work": "Same offline authored generator/context ceiling compared. Live model failed availability probe; blind bilingual ratings not supplied."
+    },
+    {
+      "paragraph": 26,
+      "reference_text": "8. Finish the application and prepare the paper.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Running application and setup instructions available; paper and teammate execution not verified."
+    },
+    {
+      "paragraph": 27,
+      "reference_text": "Make sure another team member can run the application using your setup instructions. Save the graph versions, reviewed cases, prompts, model settings, and evaluation logs. If fine-tuning is required for the course, run a small LoRA comparison separately with the same retrieval and diagnosis pipeline so its effect can be measured.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Hashes, graph versions, cases, selector logs and provider settings saved. Historical fine-tuning artifacts retained, not rerun as controlled ten-chapter comparison."
+    },
+    {
+      "paragraph": 28,
+      "reference_text": "Your future-work slide lists IRT, BKT/DKT, Bayesian networks, and Hinglish. For this phase, prioritize a complete and well-tested English–Hindi workflow. Use your results to write about graph quality, diagnostic accuracy, and explanation quality. If you evaluate only on reviewed scenarios, describe the findings as scenario-based; claims about improved student learning need a separate learner study.",
+      "status": "scope_respected",
+      "evidence_or_remaining_work": "English/Hindi prioritised; no IRT/BKT or learning-gain claims introduced."
+    },
+    {
+      "paragraph": 29,
+      "reference_text": "For our next review, bring the original and reviewed graphs, a small diagnostic question bank, and five complete demonstrations: a prerequisite gap, no apparent gap, a calculation slip, a language misunderstanding, and an unresolved case. Show the evidence behind the decision in each one.",
+      "status": "tested_offline",
+      "evidence_or_remaining_work": "Five complete synthetic profile demonstrations in both languages, including inline follow-up grading and a fresh question."
+    },
+    {
+      "paragraph": 30,
+      "reference_text": "For the final review, I expect a running application, a fresh evaluation set, comparison results, examples of where the system still fails, and a paper draft. Be ready to demonstrate the entire workflow on a new question supplied during evaluation.",
+      "status": "partial",
+      "evidence_or_remaining_work": "Application, fresh development evaluation, comparisons and failure examples delivered. Reviewed final test, live explanation ratings and paper draft remain pending."
+    }
+  ]
+}

@@ -12,7 +12,7 @@ class ChatRAGTests(unittest.TestCase):
         mapping=e.map_question('I do not understand acute angles. Explain them simply and tell me what to learn first.',nodes,edges)
         self.assertEqual(mapping['concept_id'],'MATH6_C0025')
         context=chat_context.context(None,None,mapping['concept_id'],nodes,edges)
-        self.assertEqual(set(context['selected_prerequisites']),{'MATH6_C0020','MATH6_C0024'})
+        self.assertEqual(set(context['selected_prerequisites']),{'MATH6_C0024','MATH6_C0029'})
 
     def test_connected_angle_vertex_question_does_not_force_topic_choice(self):
         with patch.object(book_chat,'generate',side_effect=RuntimeError('offline')):
@@ -36,7 +36,7 @@ class ChatRAGTests(unittest.TestCase):
         self.assertEqual(result[0]['url'],'/book#page=3')
 
     def test_evidence_prioritisation_separation_and_no_cross_learner_leak(self):
-        nodes,edges=e.load_graph();target='MATH6_C0025';foundation='MATH6_C0020'
+        nodes,edges=e.load_graph();target='MATH6_C0025';foundation='MATH6_C0024'
         self.assertIn(foundation,e.prerequisites(target,edges))
         with tempfile.TemporaryDirectory() as tmp:
             conn=e.connect(Path(tmp)/'test.db')

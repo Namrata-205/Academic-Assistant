@@ -109,7 +109,7 @@ def run(generation_cases=0):
         total_relevant=sum(relevant(s,case) for s in all_sources)
         row={'case_id':case['id'],'language':case['language'],**retrieval_scores(flags),
              'recall_at_2':ratio(sum(flags[:2]),total_relevant),'relevant_in_search_pool':total_relevant,
-             'semantic_retrieval':all(s.get('retrieval')=='semantic cosine similarity' for s in sources) and bool(sources),
+             'semantic_retrieval':all(s.get('retrieval') in ('semantic cosine similarity','hybrid BM25 + semantic RRF') for s in sources) and bool(sources),
              'cold_page_cache_seconds':round(cold,4),'warm_page_cache_seconds':round(elapsed,4),
              'retrieved_pages':json.dumps([s['pdf_page'] for s in sources]),'question':case['question']}
         rows.append(row)

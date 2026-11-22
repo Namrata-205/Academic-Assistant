@@ -18,4 +18,7 @@ def load():
             'en':en,'hi':hi,'type':'numeric','answer':key,'scoring_rule':'Exact numerical equality; other text unscorable.',
             'possible_difficulty':'Possible difficulty with this foundational item; language or calculation error may also explain the response.',
             'source_references':[],'review_status':'PENDING','provenance':'Original chat prerequisite probe, not an NCERT quotation.'})
+    from diagnostic.teaching_feedback import angle_item
+    bank.extend(angle_item(rotation,straight,f'TQ_ANGLE_DISTINCTION_{i:02}')
+                for i,(rotation,straight) in enumerate(((0,False),(0,True),(25,False)),1))
     return bank

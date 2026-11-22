@@ -24,7 +24,7 @@ h1,h2,h3{color:#f1f5ff!important;letter-spacing:-.035em}
 [data-testid="stMetricLabel"], [data-testid="stCaptionContainer"]{color:#9fb2ce}
 </style><div style="color:#58ddcc;font-size:12px;letter-spacing:.22em;font-weight:700">NCERT / CONCEPT ATLAS</div>""", unsafe_allow_html=True)
 st.title("Concept Atlas")
-st.caption("Class 6 Mathematics · Chapters 1–3 · Proposed prerequisite relationships (not yet academically validated)")
+st.caption("Class 6 Mathematics · Chapters 1–10 + prior knowledge · Proposed prerequisite relationships (not yet academically validated)")
 
 if not CSV.exists():
     st.error(f"Missing file: {CSV}")

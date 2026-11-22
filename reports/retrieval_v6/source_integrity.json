@@ -1,0 +1,231 @@
+{
+  "scope": "Live-verified cross-encoder target policy on 12 development cases",
+  "passages_checked": 28,
+  "violations": [],
+  "checks": [
+    {
+      "case_id": "R01",
+      "chunk_id": "4467547344868510588b2000",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R01",
+      "chunk_id": "bb33ecf9a5afcccbc3a6b088",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R02",
+      "chunk_id": "93dc0302a2c413b4f8faa9b4",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R02",
+      "chunk_id": "75cccb69b2b466117e851064",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R03",
+      "chunk_id": "4467547344868510588b2000",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R03",
+      "chunk_id": "bb33ecf9a5afcccbc3a6b088",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R04",
+      "chunk_id": "93dc0302a2c413b4f8faa9b4",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R04",
+      "chunk_id": "75cccb69b2b466117e851064",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R05",
+      "chunk_id": "f063f91afe8b0ced22401f74",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R05",
+      "chunk_id": "56627c53aec02085afc134d4",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R06",
+      "chunk_id": "f2c41b04cca8503e1d7b9b15",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R06",
+      "chunk_id": "8c11aa01f29952ad101feb86",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R06",
+      "chunk_id": "5577c509538a774168f2cdce",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R07",
+      "chunk_id": "5260455e7d2fd404668eecf8",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R07",
+      "chunk_id": "801cad67c1f370d5fc7e41b7",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R08",
+      "chunk_id": "0f17793edc4ac8c960ce3d69",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R08",
+      "chunk_id": "b7cbee1684e28c59f545afe8",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R08",
+      "chunk_id": "7b1277c7f566d43e3c67a793",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R09",
+      "chunk_id": "2e67aa58219bf473e263574c",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R09",
+      "chunk_id": "6843ab007d5cf6ecadaefc85",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R10",
+      "chunk_id": "5cc211ea3c7cf8927f592bbc",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R10",
+      "chunk_id": "dd42ebf812581126d4e7a865",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R11",
+      "chunk_id": "e537797bf7c04d5c0a5fdfb7",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R11",
+      "chunk_id": "9bf64bd03279760344df694a",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R11",
+      "chunk_id": "fa085ce43236cc8cf9f051c5",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R12",
+      "chunk_id": "2bbec8b3078120a9d42326ed",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R12",
+      "chunk_id": "05be6a8cfb4f744bcf86cd71",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    },
+    {
+      "case_id": "R12",
+      "chunk_id": "67ad39424fa9e6893b8a09b4",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "cross_encoder_scored": true
+    }
+  ]
+}

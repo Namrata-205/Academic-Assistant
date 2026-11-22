@@ -26,7 +26,7 @@ class HindiChatTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp,patch.object(chat_router,'plan',return_value={'action':'explain','concept_id':'MATH6_C0025'}),patch.object(chat,'generate',side_effect=RuntimeError('offline')):
             conn=e.connect(Path(tmp)/'test.db')
             message=chat.send(conn,'a','न्यून कोण समझाइए','hi')['message']
-            self.assertEqual(message['mode'],'extractive')
+            self.assertEqual(message['mode'],'guided_local')
             self.assertIn('पाठ्यपुस्तक',message['notice']);self.assertNotIn('Direct textbook',message['notice']);conn.close()
 
 

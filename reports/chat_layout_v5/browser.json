@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "desktop question 1 numeric field spacing and width",
+    "desktop question 2 radio alignment",
+    "mobile radio alignment",
+    "desktop question 3 radio alignment",
+    "explanation opens at its first paragraph",
+    "inline answer does not jump to footer",
+    "new chat reply opens at its beginning",
+    "accessibility"
+  ],
+  "errors": []
+}

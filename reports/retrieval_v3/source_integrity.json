@@ -1,0 +1,2121 @@
+{
+  "concepts": 53,
+  "language_requests": 106,
+  "returned_passages": 196,
+  "unavailable_requests": 4,
+  "violations": [],
+  "rows": [
+    {
+      "concept_id": "MATH6_C0002",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "2d9c02735dfced7907d246b7",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "59dd3659de22dfc502eb99b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0002",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "eb8ebad28b8b601802cc742a",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "30856074863a4c6af3e1e095",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0003",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "2d9c02735dfced7907d246b7",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0003",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6521b506a01a1553839e79b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0004",
+      "language": "en",
+      "sources": 1,
+      "checks": [
+        {
+          "chunk_id": "5bdedf75650c5a7541515058",
+          "pdf_page": 10,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0004",
+      "language": "hi",
+      "sources": 1,
+      "checks": [
+        {
+          "chunk_id": "51bca591b94fb1b9b69e8f1c",
+          "pdf_page": 10,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0005",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "75e99add4c7a5bc0acafb3f0",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "2d9c02735dfced7907d246b7",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0005",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "eb8ebad28b8b601802cc742a",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "352c63a298dd1605a77857aa",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0006",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "25bd1e3268cf067559397377",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0006",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6521b506a01a1553839e79b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0007",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5b6fb5ab99c28e21bd71f96a",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0007",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6521b506a01a1553839e79b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0008",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5b6fb5ab99c28e21bd71f96a",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0008",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6521b506a01a1553839e79b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0009",
+      "language": "en",
+      "sources": 1,
+      "checks": [
+        {
+          "chunk_id": "a4be5120e8520b9a3e7a639b",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0009",
+      "language": "hi",
+      "sources": 1,
+      "checks": [
+        {
+          "chunk_id": "88115b5f6bcc48fd2f0b5960",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0010",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5b6fb5ab99c28e21bd71f96a",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0010",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6521b506a01a1553839e79b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0011",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "25bd1e3268cf067559397377",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "0934f71be50af5932bc69e0b",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0011",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "8610d5db1c3601522388b020",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "30856074863a4c6af3e1e095",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0040",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "61cc237768cfe1725da85258",
+          "pdf_page": 7,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5dd63dd2c7f564061e338ec9",
+          "pdf_page": 7,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0040",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "adade92a13a7ea728792644b",
+          "pdf_page": 7,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "30334168dc94b0945abce2fe",
+          "pdf_page": 7,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0049",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "2d9c02735dfced7907d246b7",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "59dd3659de22dfc502eb99b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0049",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "eb8ebad28b8b601802cc742a",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "30856074863a4c6af3e1e095",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_ADD001",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "25bd1e3268cf067559397377",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_ADD001",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "8610d5db1c3601522388b020",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_ADD002",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "bd46eecfa4fbeb2c3aa47f8b",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "76cc6dc2d0f757d62060659a",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_ADD002",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "41bb5ede7e49043ff1f4647f",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "57ca2551abd4d4fd9f1085f9",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0012",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "170f0d76d151e9810abcb4ef",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "983be8b55d36e88b28e61862",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0012",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "0eccfe66549d724b77a40761",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "f97bf6f839c30c2586d6ed16",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0013",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5b6fb5ab99c28e21bd71f96a",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0013",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6521b506a01a1553839e79b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0014",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "4c01d578e878802224e6a2cf",
+          "pdf_page": 11,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "e5e065562fa28a87d3863582",
+          "pdf_page": 11,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0014",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "783457df278b9a9b9498e03c",
+          "pdf_page": 11,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "1ee6dce6651f8af335490afe",
+          "pdf_page": 11,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0036",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "7d3741de7bb7762d06c55b7e",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "1af4e1e188701bb75bd7f4dc",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0036",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "ef8e42f0fc7cb53f41b0cbc4",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "cce289cb6b7335f0ddaa6294",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0037",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "842c1661171556cb19435a44",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "2fb40e68a45c9e5fdc50ae3d",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0037",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "0eccfe66549d724b77a40761",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "f97bf6f839c30c2586d6ed16",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0038",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "20e1a4cc921c08038b5871eb",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "db06d4383ba1db437711d839",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0038",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "ea5640e75ba38f6fb153c1d2",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "715a1e2358d23a54652bfa08",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0041",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "c0ad9a63f9e83f314365c678",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5b440e2365d360af61dfca4e",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0041",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "ec72fb427cf622003a80e3b3",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "9c18758d30e07f2669919d16",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_ADD003",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3606c1f7512566635ca2b21a",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6f7dffb15de738be4b679a9d",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_ADD003",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "bf77bd1b8ebf857e5d7e3f28",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "22c3d0a44b7f957bd372d8d1",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0046",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "32256833552e5e4b5942c4ff",
+          "pdf_page": 11,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "b09f328f810f9c3fb5777c47",
+          "pdf_page": 11,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0046",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "4d49dc9596ca8bc26a869d3a",
+          "pdf_page": 11,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "f395808fce4f0c1c78622023",
+          "pdf_page": 11,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0047",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "6a8cb2677487ad2baad6b550",
+          "pdf_page": 12,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "862e3566aa0acdd9be1172a3",
+          "pdf_page": 12,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0047",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "5843245f466d6eab6cb2cd1a",
+          "pdf_page": 12,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "94210a23ed74982077f85a8c",
+          "pdf_page": 12,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0044",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "25bd1e3268cf067559397377",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0044",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6521b506a01a1553839e79b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0048",
+      "language": "en",
+      "sources": 0,
+      "checks": []
+    },
+    {
+      "concept_id": "MATH6_C0048",
+      "language": "hi",
+      "sources": 0,
+      "checks": []
+    },
+    {
+      "concept_id": "MATH6_C0050",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "e7094a1bc485e5042604676d",
+          "pdf_page": 9,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "397cb95f81b0f1a194e21a3d",
+          "pdf_page": 9,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0050",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a603ce92460cef60f9cb6560",
+          "pdf_page": 9,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5cc26309275b9522a0164188",
+          "pdf_page": 9,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0027",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "b44af725e012cf5f71bc02c1",
+          "pdf_page": 39,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "175e916a91fb9aa6f9f1eb19",
+          "pdf_page": 39,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0027",
+      "language": "hi",
+      "sources": 1,
+      "checks": [
+        {
+          "chunk_id": "a09cea5c191829ef850a0f56",
+          "pdf_page": 39,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0028",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "93ab58b9017288c11fa9920e",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "f17acce1963633ed07b334d4",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0028",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "b9b584e31da098e0a453e67b",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "a58db3f3cb50307aed247a53",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0029",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "93ab58b9017288c11fa9920e",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "d04f4cc2b1acac14f9ed921e",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0029",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "8ddbb667ee2652dc783abbb6",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "1e4dc6458c02abbe39836a20",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0030",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "56e0434ec8cab9483881aefd",
+          "pdf_page": 25,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "c9c22b0c201819beb6db4310",
+          "pdf_page": 25,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0030",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "f8d8052b8e765a0423acac9b",
+          "pdf_page": 25,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "c667c83176dd0d671dd7edc1",
+          "pdf_page": 25,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0039",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "842c1661171556cb19435a44",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "2fb40e68a45c9e5fdc50ae3d",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0039",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "0eccfe66549d724b77a40761",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "f733f539d6ca63b09f59c52e",
+          "pdf_page": 6,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0042",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3e59487a24bdac0589d8b137",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "ad5f1f4aa4f3e710a0fb8d91",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0042",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "1ac6b0c35fd257d230852ee7",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "b986860406fd137ef5f11198",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0043",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "b35d35cf422f3f8d1c34a7a8",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "f2c47ddb43e25c89899a7243",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0043",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "84652732d6e292c2c632349f",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "2d1bb20735d4fe12afb9601e",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0045",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4c464be75ef5d6ba41a7adb",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5b6fb5ab99c28e21bd71f96a",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0045",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3b75414426fb7730bd33e44f",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "6521b506a01a1553839e79b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0051",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "0d63be7cc0c29f105a1cde77",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "5bd2a2a884a3c6972f7b31f8",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0051",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "b29da281f32c4c86162477b9",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "e07bb74f6dea548fa5f25357",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0016",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "6f7dffb15de738be4b679a9d",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "849a8232eec1d2ba606e6b01",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0016",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "22c3d0a44b7f957bd372d8d1",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "812d4aa96f644d459b7843d5",
+          "pdf_page": 1,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0017",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "47f702501e57f566b361d6e1",
+          "pdf_page": 2,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "782d2ac7f1809275432c87fc",
+          "pdf_page": 2,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0017",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "0f741ca90b744d98b5ed4d39",
+          "pdf_page": 2,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "0d076d52e002d5b9bec7c7fb",
+          "pdf_page": 2,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0018",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "47f702501e57f566b361d6e1",
+          "pdf_page": 2,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "60a555ce4fa2693d5d5ef6eb",
+          "pdf_page": 2,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0018",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "b035719abeeaf334963ec78f",
+          "pdf_page": 2,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "0facc06ee07135bfb675d993",
+          "pdf_page": 2,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0021",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "46627f439c3833c5140068f2",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "20ba647a9489e9c20229abb1",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0021",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "9d8bddf60bcecaafff946dc3",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "fe65032583d6e39e0be1f6a6",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0034",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "bc455267b34a59f5b887cee3",
+          "pdf_page": 13,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "071c9094261fdff08ac7062f",
+          "pdf_page": 13,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0034",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "1a35e82d2f9d090c4641ddc3",
+          "pdf_page": 13,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "c7e8ac5259b8d664d1c45325",
+          "pdf_page": 13,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0015",
+      "language": "en",
+      "sources": 1,
+      "checks": [
+        {
+          "chunk_id": "a4be5120e8520b9a3e7a639b",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0015",
+      "language": "hi",
+      "sources": 1,
+      "checks": [
+        {
+          "chunk_id": "88115b5f6bcc48fd2f0b5960",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0019",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "585774bc626b479773bee13c",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "8139de1b7de6dee2a2070a50",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0019",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "ee53bee088dbab6d4be3e175",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "805c7cf6f1e703cfbdeb388e",
+          "pdf_page": 3,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0020",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "20ba647a9489e9c20229abb1",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "b4e7252e5add701b33730d8b",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0020",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "9d8bddf60bcecaafff946dc3",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "913aaacba1bf4dccb9b03bea",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0022",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "20ba647a9489e9c20229abb1",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "b4e7252e5add701b33730d8b",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0022",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "913aaacba1bf4dccb9b03bea",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "9d8bddf60bcecaafff946dc3",
+          "pdf_page": 5,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0023",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "d1268388692505baca24d364",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "32f37ca899fc282b52e7f3fe",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0023",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "9d783bebf1042c13b0307e9a",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "7261b50cf26635caa36e22db",
+          "pdf_page": 15,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0024",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "a4a7b00f96e5399ac9675136",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "93ab58b9017288c11fa9920e",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0024",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "ad1a7592c5718806064d66bf",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "8ddbb667ee2652dc783abbb6",
+          "pdf_page": 21,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0025",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "5ec01d45fcd47bb7454755a1",
+          "pdf_page": 38,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "62cb61d6c851dffe25c973d8",
+          "pdf_page": 19,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0025",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "7ef486ff2bcb36646fe8ef7a",
+          "pdf_page": 19,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "86e202f45f17ff8eec18830e",
+          "pdf_page": 38,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0026",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "175e916a91fb9aa6f9f1eb19",
+          "pdf_page": 39,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "013180a6ead9170d93099609",
+          "pdf_page": 39,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0026",
+      "language": "hi",
+      "sources": 1,
+      "checks": [
+        {
+          "chunk_id": "a09cea5c191829ef850a0f56",
+          "pdf_page": 39,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0031",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "0fd0d4a73e1a643690f78219",
+          "pdf_page": 17,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "7617912b2226f588f916671c",
+          "pdf_page": 17,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0031",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "8d225b9349fd53ac922f5566",
+          "pdf_page": 17,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "8a97558aed74d33c15e65daa",
+          "pdf_page": 17,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0035",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "7a38d0c4fdfded7540b60e70",
+          "pdf_page": 28,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "be31ecc7bcc6318267d36a3d",
+          "pdf_page": 28,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0035",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "c32acb675c11605db87843b9",
+          "pdf_page": 28,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "e18f099cb1f43f342922674a",
+          "pdf_page": 28,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0032",
+      "language": "en",
+      "sources": 0,
+      "checks": []
+    },
+    {
+      "concept_id": "MATH6_C0032",
+      "language": "hi",
+      "sources": 0,
+      "checks": []
+    },
+    {
+      "concept_id": "MATH6_C0033",
+      "language": "en",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "3c9938d5812ec38baea0c65b",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "9697ad6349de27e2f9ac97c8",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    },
+    {
+      "concept_id": "MATH6_C0033",
+      "language": "hi",
+      "sources": 2,
+      "checks": [
+        {
+          "chunk_id": "b733da5fff8245e0d8afb7f0",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        },
+        {
+          "chunk_id": "ecbdf2e80cf17ce4f5aec486",
+          "pdf_page": 4,
+          "verbatim_normalized_page_span": true,
+          "within_character_budget": true,
+          "language_matches": true
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 87.54862209999555,
+  "interpretation": "Structural source-integrity audit, not semantic relevance or correctness."
+}

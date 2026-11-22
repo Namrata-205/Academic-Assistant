@@ -73,6 +73,9 @@ def pattern_family(mapping,nodes):
 def plan(text,nodes,edges,chosen=None,previous=None):
     from diagnostic.chat_tutor import tutoring_mapping,wants_check
     local=tutoring_mapping(text,nodes,edges,chosen)
+    from diagnostic.conversation import is_followup
+    if previous in nodes and not chosen and is_followup(text) and local.get('concept_id') in (None,previous) and local.get('scope')!='outside current graph':
+        return {'action':'explain','concept_id':previous,'planner':'conversation_followup','version':VERSION}
     fallback={'action':'check' if wants_check(text) else 'explain','concept_id':local.get('concept_id')}
     if local['status']!='mapped':
         fallback={'action':'explain','concept_id':previous} if previous in nodes and text.strip().casefold() in ('explain more','explain simply','tell me more','why') else {'action':'clarify','concept_id':None}

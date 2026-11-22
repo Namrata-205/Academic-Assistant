@@ -1,0 +1,199 @@
+{
+  "scope": "Top two hybrid results on 12 development cases",
+  "passages_checked": 24,
+  "violations": [],
+  "checks": [
+    {
+      "case_id": "R01",
+      "chunk_id": "bcb917a671859a3505360dbe",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R01",
+      "chunk_id": "b7e487423fc4a516c439b91c",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R02",
+      "chunk_id": "ea82c487a919322d205eced1",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R02",
+      "chunk_id": "e883ec0675ee2ff6e168de3f",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R03",
+      "chunk_id": "b7e487423fc4a516c439b91c",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R03",
+      "chunk_id": "6e60647f133756d005dd1457",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R04",
+      "chunk_id": "e883ec0675ee2ff6e168de3f",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R04",
+      "chunk_id": "ff771c6818ba2742428e3e45",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R05",
+      "chunk_id": "acb5b4e77d284f1081c61d68",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R05",
+      "chunk_id": "5725f8a2f17de507e2623506",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R06",
+      "chunk_id": "7510941865f23cf72eff250c",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R06",
+      "chunk_id": "5db6b7ff969c561c40763cbb",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R07",
+      "chunk_id": "c942e93e5939a729c0580545",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R07",
+      "chunk_id": "d91ffccb822a27ba89018475",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R08",
+      "chunk_id": "ffba5551a33c0f08c0a01883",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R08",
+      "chunk_id": "63de8d4307a9becfc50f9a34",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R09",
+      "chunk_id": "e36e1fa041f3cea07c7515b0",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R09",
+      "chunk_id": "e62c923b3fccf9e5e43edf48",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R10",
+      "chunk_id": "f7d86dd7626cd8f25efe0747",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R10",
+      "chunk_id": "de503fb7808155cc445391b2",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R11",
+      "chunk_id": "04478bdab07b8d644e3041cf",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R11",
+      "chunk_id": "a00ff3d9298b7adca673c602",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R12",
+      "chunk_id": "66f79dcd8868f5df57076b8a",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    },
+    {
+      "case_id": "R12",
+      "chunk_id": "c10f577bf42de53d41302ea5",
+      "verbatim_page_span": true,
+      "within_budget": true,
+      "correct_language": true,
+      "hybrid_label": true
+    }
+  ]
+}

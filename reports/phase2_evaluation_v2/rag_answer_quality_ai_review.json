@@ -1,0 +1,2583 @@
+{
+  "review_type": "Explicit assistant AI content review; not independent teacher/human validation",
+  "created_utc": "2026-11-21T18:21:07.425250+00:00",
+  "generation_scope": "Frozen offline authored fallback answers from workflow_traces.json; no new cloud model generation",
+  "rubric": {
+    "correctness": "An answer passes only when all reviewed mathematical statements/procedures and original worked conclusions are correct. Style, completeness and educational impact are separate.",
+    "claim_unit": "One definition, procedural assertion, mathematical relationship or original worked conclusion. Repeated definitions within the same answer are not counted twice.",
+    "citation_support": "The actual cited retrieved excerpt must state or semantically establish the claim. A new numeric example may follow an explicitly stated source rule plus verified arithmetic. Topic overlap, a bare exercise, unseen diagrams and uncited retrieved sources do not suffice. Partial support fails the strict full-support test.",
+    "unsupported_claim_rate": "Claims not fully supported by their attached retrieved excerpts / all reviewed claims. Includes incomplete support; unsupported does not mean mathematically false.",
+    "diagnostic_relevance": "Primary score uses nine actual flagged-gap development cases per language, regenerated through the current offline answer path using their real teaching decision. At least one substantive accurate definition or example must teach the diagnosed prerequisite, not just the target or an assumed prerequisite symbol. Three missed-gap scenarios are excluded because no gap was diagnosed. Broader selected-focus checks from the five-profile chat cycles are separate."
+  },
+  "by_language": {
+    "en": {
+      "mathematical_answer_correctness": {
+        "passed": 10,
+        "total": 10,
+        "rate": 1.0
+      },
+      "citation_support_rate": {
+        "supported": 8,
+        "claims": 25,
+        "rate": 0.32
+      },
+      "unsupported_or_incompletely_supported_claim_rate": {
+        "unsupported": 17,
+        "claims": 25,
+        "rate": 0.6799999999999999
+      },
+      "relevance_to_diagnosed_difficulty": {
+        "passed": 4,
+        "cases": 9,
+        "rate": 0.4444444444444444
+      },
+      "selected_diagnostic_focus_relevance_all_profiles": {
+        "passed": 4,
+        "cases": 5,
+        "rate": 0.8
+      }
+    },
+    "hi": {
+      "mathematical_answer_correctness": {
+        "passed": 10,
+        "total": 10,
+        "rate": 1.0
+      },
+      "citation_support_rate": {
+        "supported": 3,
+        "claims": 25,
+        "rate": 0.12
+      },
+      "unsupported_or_incompletely_supported_claim_rate": {
+        "unsupported": 22,
+        "claims": 25,
+        "rate": 0.88
+      },
+      "relevance_to_diagnosed_difficulty": {
+        "passed": 4,
+        "cases": 9,
+        "rate": 0.4444444444444444
+      },
+      "selected_diagnostic_focus_relevance_all_profiles": {
+        "passed": 4,
+        "cases": 5,
+        "rate": 0.8
+      }
+    }
+  },
+  "math_verifications": {
+    "complete_graph_four_points": true,
+    "mental_sum": true,
+    "frequency": true,
+    "sixteen_factors": true,
+    "rectangle_area": true,
+    "fraction_sum": true,
+    "circle_radius": true,
+    "octagon_turns": true,
+    "integer_subtraction": true
+  },
+  "answer_reviews": [
+    {
+      "concept": "MATH6_C0106",
+      "chapter": "CH01",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0106-en-1",
+          "canonical_claim": "A complete graph joins each distinct pair of points with one edge.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "In a complete graph, every pair of distinct points is joined by one edge.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN cited excerpt only asks to count lines; HI only lists complete graphs as shape sequences. Neither gives the defining pairwise-edge rule.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp101.pdf#page=11",
+              "excerpt": "Can you explain why this happens? 2. Count the number of lines in each shape in the sequence of Complete Graphs. Which number sequence do you get? Can you explain why?"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0106-en-2",
+          "canonical_claim": "Four points joined pairwise once have six edges.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Join every pair of 4 distinct points once. How many edges? Answer: 6. 6",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "The result is mathematically correct, but the cited excerpts do not give the construction rule or enough textual evidence to derive the edge count. Diagrams not supplied in retrieved text were not inferred.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp101.pdf#page=11",
+              "excerpt": "Can you explain why this happens? 2. Count the number of lines in each shape in the sequence of Complete Graphs. Which number sequence do you get? Can you explain why?"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0106",
+      "chapter": "CH01",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0106-hi-1",
+          "canonical_claim": "A complete graph joins each distinct pair of points with one edge.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "पूर्ण ग्राफ में हर दो अलग बिंदुओं को एक किनारे से जोड़ा जाता है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN cited excerpt only asks to count lines; HI only lists complete graphs as shape sequences. Neither gives the defining pairwise-edge rule.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp101.pdf#page=12",
+              "excerpt": "चित्रों का उपयोग करके संख्या अनुक्रमों के दृश्यांकन से अनुक्रमों और उनके बीच संबंधों को समझने में सहायता प्राप्त हो सकती है। आकार अनुक्रम गणित में पैटर्न का एक और मौलिक प्रकार है। आकार अनुक्रमों के कुछ महत्वपूर्ण उदाहरणों में सम बहुभुज, संपूर्ण ग्राफ, ढेरित त्रिभुज और वर्ग तथा कोच हिमकण (snowflake) पुनरावृत्तियाँ सम्मिलित होती हैं। आकार अनुक्रम, संख्या अनुक्रमों के साथ अनेक रोचक संबंध भी प्रदर्शित करते हैं।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0106-hi-2",
+          "canonical_claim": "Four points joined pairwise once have six edges.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: 4 अलग बिंदुओं के हर जोड़े को एक बार जोड़ें। किनारे कितने होंगे? उत्तर: 6. 6",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "The result is mathematically correct, but the cited excerpts do not give the construction rule or enough textual evidence to derive the edge count. Diagrams not supplied in retrieved text were not inferred.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp101.pdf#page=12",
+              "excerpt": "चित्रों का उपयोग करके संख्या अनुक्रमों के दृश्यांकन से अनुक्रमों और उनके बीच संबंधों को समझने में सहायता प्राप्त हो सकती है। आकार अनुक्रम गणित में पैटर्न का एक और मौलिक प्रकार है। आकार अनुक्रमों के कुछ महत्वपूर्ण उदाहरणों में सम बहुभुज, संपूर्ण ग्राफ, ढेरित त्रिभुज और वर्ग तथा कोच हिमकण (snowflake) पुनरावृत्तियाँ सम्मिलित होती हैं। आकार अनुक्रम, संख्या अनुक्रमों के साथ अनेक रोचक संबंध भी प्रदर्शित करते हैं।"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0111",
+      "chapter": "CH02",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0111-en-1",
+          "canonical_claim": "The stated vertex/ray/protractor-mark/second-ray procedure constructs the required angle.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "To draw a given angle, mark its vertex, draw one ray, align the protractor, mark the required measure, and draw the second ray.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "The excerpts introduce a 30-degree construction, vertex and reference arm, but omit the actual protractor alignment/marking steps. Full procedural support is missing.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp102.pdf#page=34",
+              "excerpt": "It is important that students see the application of each mathematical concept in their daily lives. Teacher can organise some activities where students can appreciate the practical applications of angles in real-life situations, e.g., clocks, doors, swings, concepts of uphill and downhill, location of the sun, the giving of directions, etc. Vidya wants to draw a 30° angle and name it ∠TIN using a protractor. In will be the vertex, IT and IN will be the arms of the angle. Keeping one arm, say IN, as the reference (base), the other arm IT should take a turn of 30°."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0111-en-2",
+          "canonical_claim": "The described activity is drawing an angle of a given measure.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Which concept is described here? To draw a given angle, mark its vertex, draw one ray, align the protractor, mark the required measure, and draw the second ray. Answer: drawing angles of a given measure. To draw a given angle, mark its vertex, draw one ray, align the protractor, mark the required measure, and draw the second ray.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "Both excerpts explicitly describe drawing a 30-degree angle using a protractor, supporting the activity identification.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp102.pdf#page=34",
+              "excerpt": "It is important that students see the application of each mathematical concept in their daily lives. Teacher can organise some activities where students can appreciate the practical applications of angles in real-life situations, e.g., clocks, doors, swings, concepts of uphill and downhill, location of the sun, the giving of directions, etc. Vidya wants to draw a 30° angle and name it ∠TIN using a protractor. In will be the vertex, IT and IN will be the arms of the angle. Keeping one arm, say IN, as the reference (base), the other arm IT should take a turn of 30°."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0111",
+      "chapter": "CH02",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0111-hi-1",
+          "canonical_claim": "The stated vertex/ray/protractor-mark/second-ray procedure constructs the required angle.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "दिया गया कोण बनाने के लिए शीर्ष और पहली किरण बनाएँ। चाँदा सही रखकर आवश्यक माप पर निशान लगाएँ और दूसरी किरण खींचें।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "The excerpts introduce a 30-degree construction, vertex and reference arm, but omit the actual protractor alignment/marking steps. Full procedural support is missing.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp102.pdf#page=34",
+              "excerpt": "यह आवश्यक है कि विद्यार्थी प्रत्येक गणितीय अवधारणा के अनुप्रयोग को दैनिक जीवन में देख सके। अध्यापक ऐसे कुछ कार्यकलाप करा सकते हैं, जिसे विद्यार्थी कोणों के अनुप्रयोग को व्यावहारिक जीवन से जोड़ सकें। उदाहरण के लिए— घड़ी, दरवाजे, झूले, उतार-चढ़ाव की अवधारणा, सूर्य की स्थिति, दिशाएँ इत्यादि। विद्या चाँदे का प्रयोग कर 30° का एक कोण बनाना चाहती है और उसे ∠TIN नाम देना चाहती है। ∠TIN में, I शीर्ष होगा और IT तथा IN कोण की भुजाएँ होंगी। भुजा IN को आधार मान लेते हुए, दूसरी भुजा IT को 30° का मोड़ लेना चाहिए।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0111-hi-2",
+          "canonical_claim": "The described activity is drawing an angle of a given measure.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: यह किस अवधारणा का वर्णन है? दिया गया कोण बनाने के लिए शीर्ष और पहली किरण बनाएँ। चाँदा सही रखकर आवश्यक माप पर निशान लगाएँ और दूसरी किरण खींचें। उत्तर: कोणों को बनाना. दिया गया कोण बनाने के लिए शीर्ष और पहली किरण बनाएँ। चाँदा सही रखकर आवश्यक माप पर निशान लगाएँ और दूसरी किरण खींचें।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "Both excerpts explicitly describe drawing a 30-degree angle using a protractor, supporting the activity identification.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp102.pdf#page=34",
+              "excerpt": "यह आवश्यक है कि विद्यार्थी प्रत्येक गणितीय अवधारणा के अनुप्रयोग को दैनिक जीवन में देख सके। अध्यापक ऐसे कुछ कार्यकलाप करा सकते हैं, जिसे विद्यार्थी कोणों के अनुप्रयोग को व्यावहारिक जीवन से जोड़ सकें। उदाहरण के लिए— घड़ी, दरवाजे, झूले, उतार-चढ़ाव की अवधारणा, सूर्य की स्थिति, दिशाएँ इत्यादि। विद्या चाँदे का प्रयोग कर 30° का एक कोण बनाना चाहती है और उसे ∠TIN नाम देना चाहती है। ∠TIN में, I शीर्ष होगा और IT तथा IN कोण की भुजाएँ होंगी। भुजा IN को आधार मान लेते हुए, दूसरी भुजा IT को 30° का मोड़ लेना चाहिए।"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0113",
+      "chapter": "CH03",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0113-en-1",
+          "canonical_claim": "Mental calculation can simplify arithmetic using number relationships.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "Mental math uses number relationships to simplify calculations, such as adding 9 by adding 10 and subtracting 1.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "EN explicitly says mental calculation is simpler and demonstrates numerical decompositions. HI excerpt contains only largest/smallest-number sum constraints, not a mental strategy.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp103.pdf#page=11",
+              "excerpt": "Two examples are given. It is simpler to do it mentally! 38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0113-en-2",
+          "canonical_claim": "Adding nine can be performed by adding ten and subtracting one.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "Mental math uses number relationships to simplify calculations, such as adding 9 by adding 10 and subtracting 1.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Neither cited excerpt states the compensation strategy. Mathematical truth alone does not establish citation entailment.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp103.pdf#page=11",
+              "excerpt": "Two examples are given. It is simpler to do it mentally! 38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0113-en-3",
+          "canonical_claim": "The worked calculation 52 + 9 equals 61.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Calculate 52 + 9 mentally. Answer: 61. Add 10, then subtract 1.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Arithmetic is correct, but the cited excerpts do not state the compensation rule used to ground this worked example.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp103.pdf#page=11",
+              "excerpt": "Two examples are given. It is simpler to do it mentally! 38,800 = 25,000 + 400 × 2 + 13,000 3400 = 1500 + 1500 + 400"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0113",
+      "chapter": "CH03",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0113-hi-1",
+          "canonical_claim": "Mental calculation can simplify arithmetic using number relationships.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "मौखिक गणना में संख्या संबंधों से हिसाब आसान करते हैं। जैसे 9 जोड़ने के लिए 10 जोड़कर 1 घटाएँ।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN explicitly says mental calculation is simpler and demonstrates numerical decompositions. HI excerpt contains only largest/smallest-number sum constraints, not a mental strategy.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+              "excerpt": "c. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से अधिक हो। d. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से कम हो। 2."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0113-hi-2",
+          "canonical_claim": "Adding nine can be performed by adding ten and subtracting one.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "मौखिक गणना में संख्या संबंधों से हिसाब आसान करते हैं। जैसे 9 जोड़ने के लिए 10 जोड़कर 1 घटाएँ।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Neither cited excerpt states the compensation strategy. Mathematical truth alone does not establish citation entailment.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+              "excerpt": "c. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से अधिक हो। d. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से कम हो। 2."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0113-hi-3",
+          "canonical_claim": "The worked calculation 52 + 9 equals 61.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: 52 + 9 का मौखिक हिसाब करें। उत्तर: 61. 10 जोड़ें, फिर 1 घटाएँ।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Arithmetic is correct, but the cited excerpts do not state the compensation rule used to ground this worked example.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp103.pdf#page=11",
+              "excerpt": "c. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से अधिक हो। d. सबसे बड़ी तथा सबसे छोटी संख्या का योगफल 9779 से कम हो। 2."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0117",
+      "chapter": "CH04",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0117-en-1",
+          "canonical_claim": "Frequency means the number of occurrences of a data value/category.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "Frequency is the number of times a value or category occurs in the data.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN has a number-of-times letter-count exercise but no explicit identification of that count as frequency; HI assigns example frequencies without explaining occurrence counting. Both are partial context under this strict rubric.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp104.pdf#page=5",
+              "excerpt": "Letter c e i r x Any other letter Number of times found in the news item a. The letter found the most number of times is ________. b."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0117-en-2",
+          "canonical_claim": "The supplied eight-value list contains three occurrences of five.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Data: [5, 6, 5, 6, 7, 5, 6, 6]. What is the frequency of 5? Answer: 3. 3",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Count is independently correct. The cited text lacks the defining counting rule for the claim; matching the topic alone is insufficient.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp104.pdf#page=5",
+              "excerpt": "Letter c e i r x Any other letter Number of times found in the news item a. The letter found the most number of times is ________. b."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0117",
+      "chapter": "CH04",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0117-hi-1",
+          "canonical_claim": "Frequency means the number of occurrences of a data value/category.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "बारंबारता बताती है कि कोई मान या श्रेणी आँकड़ों में कितनी बार आती है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN has a number-of-times letter-count exercise but no explicit identification of that count as frequency; HI assigns example frequencies without explaining occurrence counting. Both are partial context under this strict rubric.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp104.pdf#page=4",
+              "excerpt": "संख्याएँ 6, 9, ... चुनी गई मिठाइयों जलेबी, गुलाब जामुन, .... की क्रमश: बारंबारताएँ (frequencies) हैं। सुश्री संध्या ने अपने विद्यार्थियों से उनके जूतों के साइज के विषय में पूछा। उन्होंने प्राप्त आँकड़ों को बोर्ड पर लिखा—"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0117-hi-2",
+          "canonical_claim": "The supplied eight-value list contains three occurrences of five.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: आँकड़े: [5, 6, 5, 6, 7, 5, 6, 6]। 5 की बारंबारता कितनी है? उत्तर: 3. 3",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Count is independently correct. The cited text lacks the defining counting rule for the claim; matching the topic alone is insufficient.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp104.pdf#page=4",
+              "excerpt": "संख्याएँ 6, 9, ... चुनी गई मिठाइयों जलेबी, गुलाब जामुन, .... की क्रमश: बारंबारताएँ (frequencies) हैं। सुश्री संध्या ने अपने विद्यार्थियों से उनके जूतों के साइज के विषय में पूछा। उन्होंने प्राप्त आँकड़ों को बोर्ड पर लिखा—"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0130",
+      "chapter": "CH05",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0130-en-1",
+          "canonical_claim": "A prime is a whole number greater than one having exactly two positive factors, one and itself.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "A prime number is a whole number greater than 1 with exactly two positive factors: 1 and itself.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Both cited excerpts ask prime-number exercises and list 13 and 31 as primes; neither supplies the factor-based definition.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp105.pdf#page=8",
+              "excerpt": "Which of the following numbers are prime: 23, 51, 37, 26? 5. Write three pairs of prime numbers less than 20 whose sum is a multiple of 5. 6. The numbers 13 and 31 are prime numbers. Both these numbers have same digits 1 and 3."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0130-en-2",
+          "canonical_claim": "The positive factors of sixteen are 1, 2, 4, 8 and 16.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Is 16 prime? Answer: No. Positive factors of 16: 1, 2, 4, 8, 16. A prime number is a whole number greater than 1 with exactly two positive factors: 1 and itself.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Factor list is correct but is not established by the cited exercises, which do not supply a factor test.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp105.pdf#page=8",
+              "excerpt": "Which of the following numbers are prime: 23, 51, 37, 26? 5. Write three pairs of prime numbers less than 20 whose sum is a multiple of 5. 6. The numbers 13 and 31 are prime numbers. Both these numbers have same digits 1 and 3."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0130-en-3",
+          "canonical_claim": "Sixteen is not prime.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Is 16 prime? Answer: No. Positive factors of 16: 1, 2, 4, 8, 16. A prime number is a whole number greater than 1 with exactly two positive factors: 1 and itself.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "The claim follows from the answer definition and checked factors, but the necessary definition/test is absent from the actual citation.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp105.pdf#page=8",
+              "excerpt": "Which of the following numbers are prime: 23, 51, 37, 26? 5. Write three pairs of prime numbers less than 20 whose sum is a multiple of 5. 6. The numbers 13 and 31 are prime numbers. Both these numbers have same digits 1 and 3."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0130",
+      "chapter": "CH05",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0130-hi-1",
+          "canonical_claim": "A prime is a whole number greater than one having exactly two positive factors, one and itself.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "अभाज्य संख्या 1 से बड़ी पूर्ण संख्या है जिसके केवल दो धन गुणनखंड होते हैं: 1 और स्वयं वह संख्या।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Both cited excerpts ask prime-number exercises and list 13 and 31 as primes; neither supplies the factor-based definition.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp105.pdf#page=8",
+              "excerpt": "इनमें से कौन-सी संख्याएँ अभाज्य हैं— 23, 51, 37, 26? 5. अभाज्य संख्याओं के तीन युग्म लिखिए, जो 20 से कम हों और उनका योग 5 का गुणज हो। 6. संख्या 13 और 31 अभाज्य संख्याएँ हैं। इन दोनों संख्याओं में अंक 1 और 3 समान हैं। 100 तक की संख्याओं में से ऐसे अन्य सभी अभाज्य संख्याओं के युग्म ज्ञात कीजिए।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0130-hi-2",
+          "canonical_claim": "The positive factors of sixteen are 1, 2, 4, 8 and 16.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: क्या 16 अभाज्य है? उत्तर: नहीं. 16 के धन गुणनखंड: 1, 2, 4, 8, 16। अभाज्य संख्या 1 से बड़ी पूर्ण संख्या है जिसके केवल दो धन गुणनखंड होते हैं: 1 और स्वयं वह संख्या।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Factor list is correct but is not established by the cited exercises, which do not supply a factor test.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp105.pdf#page=8",
+              "excerpt": "इनमें से कौन-सी संख्याएँ अभाज्य हैं— 23, 51, 37, 26? 5. अभाज्य संख्याओं के तीन युग्म लिखिए, जो 20 से कम हों और उनका योग 5 का गुणज हो। 6. संख्या 13 और 31 अभाज्य संख्याएँ हैं। इन दोनों संख्याओं में अंक 1 और 3 समान हैं। 100 तक की संख्याओं में से ऐसे अन्य सभी अभाज्य संख्याओं के युग्म ज्ञात कीजिए।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0130-hi-3",
+          "canonical_claim": "Sixteen is not prime.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: क्या 16 अभाज्य है? उत्तर: नहीं. 16 के धन गुणनखंड: 1, 2, 4, 8, 16। अभाज्य संख्या 1 से बड़ी पूर्ण संख्या है जिसके केवल दो धन गुणनखंड होते हैं: 1 और स्वयं वह संख्या।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "The claim follows from the answer definition and checked factors, but the necessary definition/test is absent from the actual citation.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp105.pdf#page=8",
+              "excerpt": "इनमें से कौन-सी संख्याएँ अभाज्य हैं— 23, 51, 37, 26? 5. अभाज्य संख्याओं के तीन युग्म लिखिए, जो 20 से कम हों और उनका योग 5 का गुणज हो। 6. संख्या 13 और 31 अभाज्य संख्याएँ हैं। इन दोनों संख्याओं में अंक 1 और 3 समान हैं। 100 तक की संख्याओं में से ऐसे अन्य सभी अभाज्य संख्याओं के युग्म ज्ञात कीजिए।"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0158",
+      "chapter": "CH06",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0158-en-1",
+          "canonical_claim": "Rectangle area is length multiplied by breadth.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "The area of a rectangle is its length multiplied by its breadth.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "EN directly states rectangle area is length times width. HI excerpt asks about equal-area rectangles and a diagonal without stating the multiplication formula.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp106.pdf#page=22",
+              "excerpt": "\u0007The area of a closed figure is the measure of the region enclosed by the figure. \u0007Area is generally measured in square units. \u0007The area of a rectangle is its length times its width. The area of a square is the length of any one of its sides multiplied by itself. \u0007Two closed figures can have the same area with different perimeters, or the same perimeter with different areas. \u0007Areas of regions can be estimated (or even determined exactly) by breaking up such regions into unit squares, or into more general- shaped rectangles and triangles whose areas can be calculated."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0158-en-2",
+          "canonical_claim": "An 8 cm by 3 cm rectangle has area 24 square cm.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: A rectangle is 8 cm by 3 cm. Find its area in square cm. Answer: 24. 8 × 3 = 24",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "EN states the governing area rule and square-unit convention; multiplication independently verifies the original example. HI citation omits the governing area rule.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp106.pdf#page=22",
+              "excerpt": "\u0007The area of a closed figure is the measure of the region enclosed by the figure. \u0007Area is generally measured in square units. \u0007The area of a rectangle is its length times its width. The area of a square is the length of any one of its sides multiplied by itself. \u0007Two closed figures can have the same area with different perimeters, or the same perimeter with different areas. \u0007Areas of regions can be estimated (or even determined exactly) by breaking up such regions into unit squares, or into more general- shaped rectangles and triangles whose areas can be calculated."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0158",
+      "chapter": "CH06",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0158-hi-1",
+          "canonical_claim": "Rectangle area is length multiplied by breadth.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "आयत का क्षेत्रफल उसकी लंबाई और चौड़ाई का गुणनफल है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN directly states rectangle area is length times width. HI excerpt asks about equal-area rectangles and a diagonal without stating the multiplication formula.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp106.pdf#page=14",
+              "excerpt": "यदि आप 32 वर्ग सेमी क्षेत्रफल का आयत लेते, तो आपका उत्तर क्या होता? किसी भी क्षेत्रफल को देखते हुए, अधिकतम और न्यूनतम परिमाप वाले आयत के आकार की पहचान बताना संभव है? अपने उत्तर के लिए उदाहरण और कारण दीजिए। कागज के एक टुकडे पर आयत खींचिए और इसका एक विकर्ण बनाइए।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0158-hi-2",
+          "canonical_claim": "An 8 cm by 3 cm rectangle has area 24 square cm.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: आयत के माप 8 सेमी और 3 सेमी हैं। क्षेत्रफल वर्ग सेमी में निकालें। उत्तर: 24. 8 × 3 = 24",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN states the governing area rule and square-unit convention; multiplication independently verifies the original example. HI citation omits the governing area rule.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp106.pdf#page=14",
+              "excerpt": "यदि आप 32 वर्ग सेमी क्षेत्रफल का आयत लेते, तो आपका उत्तर क्या होता? किसी भी क्षेत्रफल को देखते हुए, अधिकतम और न्यूनतम परिमाप वाले आयत के आकार की पहचान बताना संभव है? अपने उत्तर के लिए उदाहरण और कारण दीजिए। कागज के एक टुकडे पर आयत खींचिए और इसका एक विकर्ण बनाइए।"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0180",
+      "chapter": "CH07",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0180-en-1",
+          "canonical_claim": "Equivalent fractions with a common denominator are used to add fractions.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "To add fractions, use a common denominator and add the numerators while keeping that denominator.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "EN explicitly describes equivalent fractions and a common multiple of denominators. HI excerpt poses a half-plus-quarter food problem without supplying this method.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp107.pdf#page=28",
+              "excerpt": "This method of addition, which works for adding any number of fractions, was first explicitly described in general by Brahmagupta in the year 628 CE! We will describe the history of the development of fractions in more detail later in the chapter. For now, we simply summarise the steps in Brahmagupta’s method for addition of fractions. Brahmagupta’s method for adding fractions 1. Find equivalent fractions so that the fractional unit is common for all fractions. This can be done by finding a common multiple of the denominators (e.g., the product of the denominators, or the smallest common multiple of the denominators). 2."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0180-en-2",
+          "canonical_claim": "After conversion to a common denominator, add numerators and keep that denominator.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "To add fractions, use a common denominator and add the numerators while keeping that denominator.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN excerpt ends at the start of step 2; the numerator-addition step is missing. HI excerpt also omits the rule.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp107.pdf#page=28",
+              "excerpt": "This method of addition, which works for adding any number of fractions, was first explicitly described in general by Brahmagupta in the year 628 CE! We will describe the history of the development of fractions in more detail later in the chapter. For now, we simply summarise the steps in Brahmagupta’s method for addition of fractions. Brahmagupta’s method for adding fractions 1. Find equivalent fractions so that the fractional unit is common for all fractions. This can be done by finding a common multiple of the denominators (e.g., the product of the denominators, or the smallest common multiple of the denominators). 2."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0180-en-3",
+          "canonical_claim": "One fifth plus one eighth is thirteen fortieths.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Find 1/5 + 1/8. Answer: 13/40. To add fractions, use a common denominator and add the numerators while keeping that denominator.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Fraction arithmetic is independently correct, but the retrieved cited excerpts do not provide the complete addition rule for grounding the example.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp107.pdf#page=28",
+              "excerpt": "This method of addition, which works for adding any number of fractions, was first explicitly described in general by Brahmagupta in the year 628 CE! We will describe the history of the development of fractions in more detail later in the chapter. For now, we simply summarise the steps in Brahmagupta’s method for addition of fractions. Brahmagupta’s method for adding fractions 1. Find equivalent fractions so that the fractional unit is common for all fractions. This can be done by finding a common multiple of the denominators (e.g., the product of the denominators, or the smallest common multiple of the denominators). 2."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0180",
+      "chapter": "CH07",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0180-hi-1",
+          "canonical_claim": "Equivalent fractions with a common denominator are used to add fractions.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "भिन्न जोड़ने के लिए हर समान करें। फिर अंश जोड़ें और वही हर रखें।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN explicitly describes equivalent fractions and a common multiple of denominators. HI excerpt poses a half-plus-quarter food problem without supplying this method.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp107.pdf#page=25",
+              "excerpt": "7.8 भिन्नों को जोड़नाना और घटानाना ममीना के पिता ने कुछ चिकी बनाई। ममीना ने इसका 1 2 भाग खाया और उसके छोटे भाई ने इसका 1 4 भाग खाया। ममीना और उसके भाई ने मिलकर चिकी का कितना भाग खाया? हम दृश्ीकरण के माध्यम से उत्तर तक पहुँच सकते हैं।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0180-hi-2",
+          "canonical_claim": "After conversion to a common denominator, add numerators and keep that denominator.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "भिन्न जोड़ने के लिए हर समान करें। फिर अंश जोड़ें और वही हर रखें।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN excerpt ends at the start of step 2; the numerator-addition step is missing. HI excerpt also omits the rule.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp107.pdf#page=25",
+              "excerpt": "7.8 भिन्नों को जोड़नाना और घटानाना ममीना के पिता ने कुछ चिकी बनाई। ममीना ने इसका 1 2 भाग खाया और उसके छोटे भाई ने इसका 1 4 भाग खाया। ममीना और उसके भाई ने मिलकर चिकी का कितना भाग खाया? हम दृश्ीकरण के माध्यम से उत्तर तक पहुँच सकते हैं।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0180-hi-3",
+          "canonical_claim": "One fifth plus one eighth is thirteen fortieths.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: 1/5 + 1/8 निकालें। उत्तर: 13/40. भिन्न जोड़ने के लिए हर समान करें। फिर अंश जोड़ें और वही हर रखें।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Fraction arithmetic is independently correct, but the retrieved cited excerpts do not provide the complete addition rule for grounding the example.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp107.pdf#page=25",
+              "excerpt": "7.8 भिन्नों को जोड़नाना और घटानाना ममीना के पिता ने कुछ चिकी बनाई। ममीना ने इसका 1 2 भाग खाया और उसके छोटे भाई ने इसका 1 4 भाग खाया। ममीना और उसके भाई ने मिलकर चिकी का कितना भाग खाया? हम दृश्ीकरण के माध्यम से उत्तर तक पहुँच सकते हैं।"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0191",
+      "chapter": "CH08",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0191-en-1",
+          "canonical_claim": "The fixed reference point is the centre of the circle.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "The fixed point is the centre; the distance from the centre to any point on the circle is the radius.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "Both cited excerpts explicitly identify point P as the circle centre.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp108.pdf#page=3",
+              "excerpt": "It is a circle! Take a point on the circle. What will be its distance from P—equal to 4 cm, less than 4 cm or greater than 4 cm? Similarly, what will be the distance between P and another point on the circle? As shown in the figure, the point P is called the centre of the circle and the distance between the centre and any point on the circle is called the radius of the circle. Having explored the use of a compass, go ahead and recreate the images in Fig. 8.1."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0191-en-2",
+          "canonical_claim": "The distance from the centre to any point on the circle is its radius.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "The fixed point is the centre; the distance from the centre to any point on the circle is the radius.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "Both excerpts directly define radius as this distance.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp108.pdf#page=3",
+              "excerpt": "It is a circle! Take a point on the circle. What will be its distance from P—equal to 4 cm, less than 4 cm or greater than 4 cm? Similarly, what will be the distance between P and another point on the circle? As shown in the figure, the point P is called the centre of the circle and the distance between the centre and any point on the circle is called the radius of the circle. Having explored the use of a compass, go ahead and recreate the images in Fig. 8.1."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0191-en-3",
+          "canonical_claim": "A circle with diameter ten cm has radius five cm.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: A circle has diameter 10 cm. Find its radius in cm. Answer: 5. 5",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Correct geometry, but neither attached excerpt states the diameter-equals-twice-radius relationship.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp108.pdf#page=3",
+              "excerpt": "It is a circle! Take a point on the circle. What will be its distance from P—equal to 4 cm, less than 4 cm or greater than 4 cm? Similarly, what will be the distance between P and another point on the circle? As shown in the figure, the point P is called the centre of the circle and the distance between the centre and any point on the circle is called the radius of the circle. Having explored the use of a compass, go ahead and recreate the images in Fig. 8.1."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0191",
+      "chapter": "CH08",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0191-hi-1",
+          "canonical_claim": "The fixed reference point is the centre of the circle.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "निश्चित बिंदु केंद्र है। केंद्र से वृत्त के किसी बिंदु तक की दूरी त्रिज्या है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "Both cited excerpts explicitly identify point P as the circle centre.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp108.pdf#page=3",
+              "excerpt": "इसी प्रकार P तथा वृत्त पर एक अन्य बिंदु के बीच की दूरी क्ा होगी? जैसा कि आकृति में दिखाया गया है, बिंदु P वृत्त का केंद्र कहलाता है, केंद्र और वृत्त पर स्थित किसी बिंदु के बीच की दूरी, इसकी (वृत्त की) त्रिज्या कहलाती है। परकार के प्रयोग का पता लगाने के बाद आगे बढ़ें और चित्र 8.1 में दिए गए चित्रों को पुन: बनाएँ। क्ा आप इन आकृतियों को वहाँ दिखाई गई आकृतियों के समान बना सकते हैं? यदि आप चाहते हैं, तो पुन: प्रयास कीजिए। क्ा उपकरणों का प्रयोग रचना को और आसान बनाता है? अब अग्रलिखित आकृतियों को बनाने का प्रयास कीजिए।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0191-hi-2",
+          "canonical_claim": "The distance from the centre to any point on the circle is its radius.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "निश्चित बिंदु केंद्र है। केंद्र से वृत्त के किसी बिंदु तक की दूरी त्रिज्या है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "Both excerpts directly define radius as this distance.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp108.pdf#page=3",
+              "excerpt": "इसी प्रकार P तथा वृत्त पर एक अन्य बिंदु के बीच की दूरी क्ा होगी? जैसा कि आकृति में दिखाया गया है, बिंदु P वृत्त का केंद्र कहलाता है, केंद्र और वृत्त पर स्थित किसी बिंदु के बीच की दूरी, इसकी (वृत्त की) त्रिज्या कहलाती है। परकार के प्रयोग का पता लगाने के बाद आगे बढ़ें और चित्र 8.1 में दिए गए चित्रों को पुन: बनाएँ। क्ा आप इन आकृतियों को वहाँ दिखाई गई आकृतियों के समान बना सकते हैं? यदि आप चाहते हैं, तो पुन: प्रयास कीजिए। क्ा उपकरणों का प्रयोग रचना को और आसान बनाता है? अब अग्रलिखित आकृतियों को बनाने का प्रयास कीजिए।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0191-hi-3",
+          "canonical_claim": "A circle with diameter ten cm has radius five cm.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: वृत्त का व्यास 10 सेमी है। त्रिज्या सेमी में निकालें। उत्तर: 5. 5",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Correct geometry, but neither attached excerpt states the diameter-equals-twice-radius relationship.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp108.pdf#page=3",
+              "excerpt": "इसी प्रकार P तथा वृत्त पर एक अन्य बिंदु के बीच की दूरी क्ा होगी? जैसा कि आकृति में दिखाया गया है, बिंदु P वृत्त का केंद्र कहलाता है, केंद्र और वृत्त पर स्थित किसी बिंदु के बीच की दूरी, इसकी (वृत्त की) त्रिज्या कहलाती है। परकार के प्रयोग का पता लगाने के बाद आगे बढ़ें और चित्र 8.1 में दिए गए चित्रों को पुन: बनाएँ। क्ा आप इन आकृतियों को वहाँ दिखाई गई आकृतियों के समान बना सकते हैं? यदि आप चाहते हैं, तो पुन: प्रयास कीजिए। क्ा उपकरणों का प्रयोग रचना को और आसान बनाता है? अब अग्रलिखित आकृतियों को बनाने का प्रयास कीजिए।"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0203",
+      "chapter": "CH09",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0203-en-1",
+          "canonical_claim": "Rotational symmetry means a non-full turn can make a figure coincide with itself.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "Rotational symmetry occurs when a turn smaller than a full turn makes a figure match itself.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": true,
+          "citation_review_reason": "EN explicitly connects a 90-degree rotation, unchanged appearance and rotational symmetry. HI selected excerpt discusses radial arms and symmetry angles but omits the unchanged-appearance criterion.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp109.pdf#page=14",
+              "excerpt": "For each figure draw two more lines to make a shape that has a line of symmetry. The paper windmill in the picture looks symmetrical but there is no line of symmetry! However, if you fold it, the two halves will not exactly overlap. On the other hand, if you rotate it by 90° about the red point at the centre, the windmill looks exactly the same. We say that the windmill has rotational symmetry. When talking of rotational symmetry, there is always a fixed point about which the object is rotated. This fixed point is called the centre of rotation."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0203-en-2",
+          "canonical_claim": "A regular octagon has rotational order eight.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: A regular 8-sided polygon turns about its centre. Find its rotational order. Answer: 8. 8",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Correct, but the cited windmill/radial-arm examples do not state a regular-polygon order rule or show this octagon.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp109.pdf#page=14",
+              "excerpt": "For each figure draw two more lines to make a shape that has a line of symmetry. The paper windmill in the picture looks symmetrical but there is no line of symmetry! However, if you fold it, the two halves will not exactly overlap. On the other hand, if you rotate it by 90° about the red point at the centre, the windmill looks exactly the same. We say that the windmill has rotational symmetry. When talking of rotational symmetry, there is always a fixed point about which the object is rotated. This fixed point is called the centre of rotation."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0203",
+      "chapter": "CH09",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0203-hi-1",
+          "canonical_claim": "Rotational symmetry means a non-full turn can make a figure coincide with itself.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "घूर्णन सममिति में पूरे घुमाव से कम घुमाने पर आकृति अपने ऊपर मिलती है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN explicitly connects a 90-degree rotation, unchanged appearance and rotational symmetry. HI selected excerpt discusses radial arms and symmetry angles but omits the unchanged-appearance criterion.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp109.pdf#page=16",
+              "excerpt": "अत: हम कहते हैं कि इस आकृति में घूर्णन सममिति नहीं है। किरण-संबंधी भुजाओं (radial arm) वाली आकृतियों में घूर्णन सममिति दी गई आकृति को देखिए, इसमें 4 किरण-संबंधी भुजाएँ हैं। इसकी सममिति के कितने कोण हैं? वे कौन-से हैं? ध्यान दीजिए कि प्रत्येक दो आसन्न केंद्रीय बिंदुकित रेखाओं के बीच का कोण 90o है।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0203-hi-2",
+          "canonical_claim": "A regular octagon has rotational order eight.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: सम 8-भुज अपने केंद्र के चारों ओर घूमता है। घूर्णन क्रम निकालें। उत्तर: 8. 8",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Correct, but the cited windmill/radial-arm examples do not state a regular-polygon order rule or show this octagon.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp109.pdf#page=16",
+              "excerpt": "अत: हम कहते हैं कि इस आकृति में घूर्णन सममिति नहीं है। किरण-संबंधी भुजाओं (radial arm) वाली आकृतियों में घूर्णन सममिति दी गई आकृति को देखिए, इसमें 4 किरण-संबंधी भुजाएँ हैं। इसकी सममिति के कितने कोण हैं? वे कौन-से हैं? ध्यान दीजिए कि प्रत्येक दो आसन्न केंद्रीय बिंदुकित रेखाओं के बीच का कोण 90o है।"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0216",
+      "chapter": "CH10",
+      "language": "en",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0216-en-1",
+          "canonical_claim": "Subtracting an integer is equivalent to adding its additive inverse.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "Subtracting an integer is equivalent to adding its additive inverse.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN discusses integer ordering, not subtraction. HI introduces a subtraction task with a negative operand but does not give the inverse rule or solution.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp110.pdf#page=6",
+              "excerpt": "Floor +3 is lower than Floor +4. So, we write +3 < +4. We also write +4 > +3. Should we write –3 < – 4 or – 4 < – 3? Floor – 4 is lower than Floor – 3. So, – 4 < – 3. It is also correct to write – 3 > – 4 1."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0216-en-2",
+          "canonical_claim": "Subtracting negative three means adding positive three.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Calculate 5 − (−3). Answer: 8. Subtracting −3 means adding 3.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Neither cited excerpt supplies the sign-change rule.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp110.pdf#page=6",
+              "excerpt": "Floor +3 is lower than Floor +4. So, we write +3 < +4. We also write +4 > +3. Should we write –3 < – 4 or – 4 < – 3? Floor – 4 is lower than Floor – 3. So, – 4 < – 3. It is also correct to write – 3 > – 4 1."
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0216-en-3",
+          "canonical_claim": "Five minus negative three equals eight.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "Try this example: Calculate 5 − (−3). Answer: 8. Subtracting −3 means adding 3.",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Correct arithmetic, but the governing subtraction-of-a-negative rule is absent from the attached excerpts.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/en/fegp110.pdf#page=6",
+              "excerpt": "Floor +3 is lower than Floor +4. So, we write +3 < +4. We also write +4 > +3. Should we write –3 < – 4 or – 4 < – 3? Floor – 4 is lower than Floor – 3. So, – 4 < – 3. It is also correct to write – 3 > – 4 1."
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    },
+    {
+      "concept": "MATH6_C0216",
+      "chapter": "CH10",
+      "language": "hi",
+      "all_mathematical_claims_correct_ai_review": true,
+      "claims": [
+        {
+          "claim_id": "MATH6_C0216-hi-1",
+          "canonical_claim": "Subtracting an integer is equivalent to adding its additive inverse.",
+          "paragraph_index": 0,
+          "actual_answer_paragraph": "किसी पूर्णांक को घटाना उसके योगात्मक प्रतिलोम को जोड़ने के बराबर है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "EN discusses integer ordering, not subtraction. HI introduces a subtraction task with a negative operand but does not give the inverse rule or solution.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp110.pdf#page=10",
+              "excerpt": "किन्हीं भी संख्याओं का योग, घटाना और तुलना करना बड़े पूर्णांकों को जोड़ने और घटाने के लिए हम बड़ी लिफ्ट की कलपना कर सकते हैं। वास्तव में, हम ऐसी लिफ्ट की कलपना कर सकते हैं जो शून्य (0) स्तर से आरंभ हो तथा ऊपर और नीचे की ओर हमेशा के लिए बढ़ाई जा सके। भले ही वहाँ कोई भवन या खदान न हो सिर्फ एक ‘अनंत लिफ्ट’ हो! हम इस कलपना का प्रयोग पूर्णांकों को जोड़ने या घटाने के लिए कर सकते हैं। उदाहरण के लिए, हमें + 2000 – (– 200) को हल करना है। हम एक ऐसी लिफ्ट की कलपना कर सकते हैं जो भूतल से 2000 स्तर ऊपर हो तथा 200 तल भूतल से नीचे हो।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0216-hi-2",
+          "canonical_claim": "Subtracting negative three means adding positive three.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: 5 − (−3) निकालें। उत्तर: 8. −3 घटाने का अर्थ 3 जोड़ना है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Neither cited excerpt supplies the sign-change rule.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp110.pdf#page=10",
+              "excerpt": "किन्हीं भी संख्याओं का योग, घटाना और तुलना करना बड़े पूर्णांकों को जोड़ने और घटाने के लिए हम बड़ी लिफ्ट की कलपना कर सकते हैं। वास्तव में, हम ऐसी लिफ्ट की कलपना कर सकते हैं जो शून्य (0) स्तर से आरंभ हो तथा ऊपर और नीचे की ओर हमेशा के लिए बढ़ाई जा सके। भले ही वहाँ कोई भवन या खदान न हो सिर्फ एक ‘अनंत लिफ्ट’ हो! हम इस कलपना का प्रयोग पूर्णांकों को जोड़ने या घटाने के लिए कर सकते हैं। उदाहरण के लिए, हमें + 2000 – (– 200) को हल करना है। हम एक ऐसी लिफ्ट की कलपना कर सकते हैं जो भूतल से 2000 स्तर ऊपर हो तथा 200 तल भूतल से नीचे हो।"
+            }
+          ]
+        },
+        {
+          "claim_id": "MATH6_C0216-hi-3",
+          "canonical_claim": "Five minus negative three equals eight.",
+          "paragraph_index": 1,
+          "actual_answer_paragraph": "एक उदाहरण: 5 − (−3) निकालें। उत्तर: 8. −3 घटाने का अर्थ 3 जोड़ना है।",
+          "mathematically_correct_ai_review": true,
+          "citation_fully_supports_claim": false,
+          "citation_review_reason": "Correct arithmetic, but the governing subtraction-of-a-negative rule is absent from the attached excerpts.",
+          "cited_excerpts": [
+            {
+              "id": "S1",
+              "url": "/api/textbooks/hi/fhgp110.pdf#page=10",
+              "excerpt": "किन्हीं भी संख्याओं का योग, घटाना और तुलना करना बड़े पूर्णांकों को जोड़ने और घटाने के लिए हम बड़ी लिफ्ट की कलपना कर सकते हैं। वास्तव में, हम ऐसी लिफ्ट की कलपना कर सकते हैं जो शून्य (0) स्तर से आरंभ हो तथा ऊपर और नीचे की ओर हमेशा के लिए बढ़ाई जा सके। भले ही वहाँ कोई भवन या खदान न हो सिर्फ एक ‘अनंत लिफ्ट’ हो! हम इस कलपना का प्रयोग पूर्णांकों को जोड़ने या घटाने के लिए कर सकते हैं। उदाहरण के लिए, हमें + 2000 – (– 200) को हल करना है। हम एक ऐसी लिफ्ट की कलपना कर सकते हैं जो भूतल से 2000 स्तर ऊपर हो तथा 200 तल भूतल से नीचे हो।"
+            }
+          ]
+        }
+      ],
+      "math_review_reason": "Definition/procedure and worked conclusion inspected for elementary mathematical correctness. Independent numeric computations recorded separately; this does not score clarity or teaching effectiveness."
+    }
+  ],
+  "diagnosed_foundation_relevance_reviews": [
+    {
+      "case_id": "DEV001",
+      "language": "en",
+      "target": "MATH6_C0003",
+      "diagnosed_gap": [
+        "MATH6_C0002"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0002",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": true,
+      "reason": "The explanation explicitly teaches a pattern as a repeatable rule, demonstrates adding three and tests the rule across neighbouring numbers.",
+      "actual_paragraphs": [
+        {
+          "text": "For 3, 6, 9, 12, each step adds 3. So a continuation using that rule is 15. A short list can fit more than one rule; explain the rule you chose.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1. Can you recognise the pattern in each of the sequences in Table 1?",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "A number pattern follows a rule. To find a possible rule, compare neighbouring numbers and test the same rule on every step shown.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1. Can you recognise the pattern in each of the sequences in Table 1?",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV001",
+      "language": "hi",
+      "target": "MATH6_C0003",
+      "diagnosed_gap": [
+        "MATH6_C0002"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0002",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": true,
+      "reason": "The explanation explicitly teaches a pattern as a repeatable rule, demonstrates adding three and tests the rule across neighbouring numbers.",
+      "actual_paragraphs": [
+        {
+          "text": "3, 6, 9, 12 में हर बार 3 जुड़ता है। इसी नियम से अगली संख्या 15 होगी। छोटी सूची के कई नियम हो सकते हैं, इसलिए अपना चुना नियम भी बताएँ।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,.... (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, .... (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, .... (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, .... (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, .... (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, .... (वर्ग संख्याएँ) 1, 8, 27, 64, 125, 216, .... (घन संख्याएँ) 1, 2, 3, 5, 8, 13, 21, .... (विरहांक संख्याएँ) 1, 2, 4, 8, 16, 32, 64, .... (2 की घातें) 1, 3, 9, 27, 81, 243, 729, .... (3 की घातें) 1. क्या आप सारणी 1 में दिए प्रत्येक अनुक्रम में पैटर्न की पहचान कर सकते हैं? 2.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "संख्या पैटर्न एक नियम का पालन करता है। संभावित नियम खोजने के लिए पास-पास की संख्याओं की तुलना करें और हर दिए गए चरण पर वही नियम जाँचें।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,.... (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, .... (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, .... (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, .... (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, .... (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, .... (वर्ग संख्याएँ) 1, 8, 27, 64, 125, 216, .... (घन संख्याएँ) 1, 2, 3, 5, 8, 13, 21, .... (विरहांक संख्याएँ) 1, 2, 4, 8, 16, 32, 64, .... (2 की घातें) 1, 3, 9, 27, 81, 243, 729, .... (3 की घातें) 1. क्या आप सारणी 1 में दिए प्रत्येक अनुक्रम में पैटर्न की पहचान कर सकते हैं? 2.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV011",
+      "language": "en",
+      "target": "MATH6_C0006",
+      "diagnosed_gap": [
+        "MATH6_C0013"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0013",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is counting numbers. The response teaches parity and pairing seven objects, but assumes counting and does not explain the counting-number sequence or how to count.",
+      "actual_paragraphs": [
+        {
+          "text": "An odd whole number cannot be split into two equal whole-number groups: dividing by 2 leaves remainder 1.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Put 7 counters into pairs. Three pairs use 6 counters and one is left over. That leftover is why 7 is odd.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV011",
+      "language": "hi",
+      "target": "MATH6_C0006",
+      "diagnosed_gap": [
+        "MATH6_C0013"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0013",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is counting numbers. The response teaches parity and pairing seven objects, but assumes counting and does not explain the counting-number sequence or how to count.",
+      "actual_paragraphs": [
+        {
+          "text": "विषम पूर्ण संख्या को दो बराबर पूर्ण-संख्या समूहों में नहीं बाँट सकते। 2 से भाग देने पर शेष 1 रहता है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,.... (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, .... (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, .... (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, .... (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, .... (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, .... (वर्ग संख्याएँ) 1, 8, 27, 64, 125, 216, .... (घन संख्याएँ) 1, 2, 3, 5, 8, 13, 21, .... (विरहांक संख्याएँ) 1, 2, 4, 8, 16, 32, 64, .... (2 की घातें) 1, 3, 9, 27, 81, 243, 729, .... (3 की घातें) 1. क्या आप सारणी 1 में दिए प्रत्येक अनुक्रम में पैटर्न की पहचान कर सकते हैं? 2.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "7 गोटियों के जोड़े बनाएँ। तीन जोड़ों में 6 गोटियाँ लगती हैं और एक बचती है। इसलिए 7 विषम है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,.... (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, .... (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, .... (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, .... (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, .... (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, .... (वर्ग संख्याएँ) 1, 8, 27, 64, 125, 216, .... (घन संख्याएँ) 1, 2, 3, 5, 8, 13, 21, .... (विरहांक संख्याएँ) 1, 2, 4, 8, 16, 32, 64, .... (2 की घातें) 1, 3, 9, 27, 81, 243, 729, .... (3 की घातें) 1. क्या आप सारणी 1 में दिए प्रत्येक अनुक्रम में पैटर्न की पहचान कर सकते हैं? 2.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV016",
+      "language": "en",
+      "target": "MATH6_C0007",
+      "diagnosed_gap": [
+        "MATH6_C0013"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0013",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is counting numbers. The response explains even-number pairing and divisibility, assuming rather than teaching the diagnosed counting foundation.",
+      "actual_paragraphs": [
+        {
+          "text": "An even whole number can be split into two equal whole-number groups. Dividing by 2 leaves no remainder.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1. Can you recognise the pattern in each of the sequences in Table 1?",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Pair up 8 counters. Four pairs use all 8, with nothing left over. This is why 8 is even.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Table 1: Examples of number sequences 1, 1, 1, 1, 1, 1, 1, ... (All 1’s) 1, 2, 3, 4, 5, 6, 7, ... (Counting numbers) 1, 3, 5, 7, 9, 11, 13, ... (Odd numbers) 2, 4, 6, 8, 10, 12, 14, ... (Even numbers) 1, 3, 6, 10, 15, 21, 28, ... (Triangular numbers) 1, 4, 9, 16, 25, 36, 49, ... (Squares) 1, 8, 27, 64, 125, 216, ... (Cubes) 1, 2, 3, 5, 8, 13, 21, ... (Virahānka numbers) 1, 2, 4, 8, 16, 32, 64, ... (Powers of 2) 1, 3, 9, 27, 81, 243, 729, ... (Powers of 3) 1. Can you recognise the pattern in each of the sequences in Table 1?",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV016",
+      "language": "hi",
+      "target": "MATH6_C0007",
+      "diagnosed_gap": [
+        "MATH6_C0013"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0013",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is counting numbers. The response explains even-number pairing and divisibility, assuming rather than teaching the diagnosed counting foundation.",
+      "actual_paragraphs": [
+        {
+          "text": "सम पूर्ण संख्या को दो बराबर पूर्ण-संख्या समूहों में बाँट सकते हैं। 2 से भाग देने पर शेष 0 होता है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,.... (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, .... (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, .... (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, .... (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, .... (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, .... (वर्ग संख्याएँ) 1, 8, 27, 64, 125, 216, .... (घन संख्याएँ) 1, 2, 3, 5, 8, 13, 21, .... (विरहांक संख्याएँ) 1, 2, 4, 8, 16, 32, 64, .... (2 की घातें) 1, 3, 9, 27, 81, 243, 729, .... (3 की घातें) 1. क्या आप सारणी 1 में दिए प्रत्येक अनुक्रम में पैटर्न की पहचान कर सकते हैं? 2.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "8 गोटियों के जोड़े बनाएँ। चार जोड़ों में सारी गोटियाँ लग जाती हैं और कोई नहीं बचती। इसलिए 8 सम है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "सारणी 1— संख्या अनुक्रमों के उदाहरण 1, 1, 1, 1, 1, 1, 1,.... (सभी ‘1’) 1, 2, 3, 4, 5, 6, 7, .... (गणन संख्याएँ) 1, 3, 5, 7, 9, 11, 13, .... (विषम संख्याएँ) 2, 4, 6, 8, 10, 12, 14, .... (सम संख्याएँ) 1, 3, 6, 10, 15, 21, 28, .... (त्रिभुजाकार संख्याएँ) 1, 4, 9, 16, 25, 36, 49, .... (वर्ग संख्याएँ) 1, 8, 27, 64, 125, 216, .... (घन संख्याएँ) 1, 2, 3, 5, 8, 13, 21, .... (विरहांक संख्याएँ) 1, 2, 4, 8, 16, 32, 64, .... (2 की घातें) 1, 3, 9, 27, 81, 243, 729, .... (3 की घातें) 1. क्या आप सारणी 1 में दिए प्रत्येक अनुक्रम में पैटर्न की पहचान कर सकते हैं? 2.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV021",
+      "language": "en",
+      "target": "MATH6_C0024",
+      "diagnosed_gap": [
+        "MATH6_C0023"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0023",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": true,
+      "reason": "Diagnosed foundation is straight angle. The first paragraph explicitly teaches a half-turn to the opposite direction and connects it to two 90-degree quarter-turns before explaining the target right angle.",
+      "actual_paragraphs": [
+        {
+          "text": "Start facing forward and turn halfway around. You now face the opposite direction. That half-turn is twice a 90° quarter-turn.",
+          "citations": [
+            "S3"
+          ],
+          "evidence": "In this case, observe the arms of the angle formed. They lie in a straight line. Such an angle is called a straight angle. Let us consider a straight angle ∠AOB. Observe that any ray OC divides it into two angles, ∠AOC and ∠COB.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Trace two neighbouring edges of a rectangular sheet. Their corner makes a right angle. Rotate the sheet: the corner still has the same opening.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "A right angle measures 90°. It is one quarter of a complete turn. “Right” names the size of the angle; it does not mean the angle must point to the right.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV021",
+      "language": "hi",
+      "target": "MATH6_C0024",
+      "diagnosed_gap": [
+        "MATH6_C0023"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0023",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": true,
+      "reason": "Diagnosed foundation is straight angle. The first paragraph explicitly teaches a half-turn to the opposite direction and connects it to two 90-degree quarter-turns before explaining the target right angle.",
+      "actual_paragraphs": [
+        {
+          "text": "सामने देखकर खड़े हों और आधा घुमाव लें। अब आप उलटी दिशा में देखेंगे। यह आधा घुमाव 90° के दो चौथाई घुमावों के बराबर है।",
+          "citations": [
+            "S4"
+          ],
+          "evidence": "इस स्थिति में भुजाओं के बीच बने कोण का अवलोकन कीजिए। ऐसे कोण को सरल कोण (Straight Angle) कहते हैं। एक सरल कोण ∠AOB लीजिए। अवलोकन कीजिए कि कोई भी किरण OC उस कोण को दो कोणों ∠AOC और ∠COB में विभाजित करती है।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "आयताकार कागज की पास वाली दो धारियाँ देखिए। वे कोने पर समकोण बनाती हैं। कागज घुमाने पर भी उस कोने का खुलाव नहीं बदलता।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "समकोण 90° का कोण है। यह पूरे घुमाव का एक चौथाई है। इसका नाम कोण का माप बताता है, दाईं दिशा में होना नहीं।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV031",
+      "language": "en",
+      "target": "MATH6_C0026",
+      "diagnosed_gap": [
+        "MATH6_C0024"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0024",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": true,
+      "reason": "Diagnosed foundation is right angle. A rectangular-corner example explicitly identifies a right angle and its rotation invariance, followed by the obtuse-angle boundary comparison.",
+      "actual_paragraphs": [
+        {
+          "text": "Trace two neighbouring edges of a rectangular sheet. Their corner makes a right angle. Rotate the sheet: the corner still has the same opening.",
+          "citations": [
+            "S3"
+          ],
+          "evidence": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "An obtuse angle is greater than 90 degrees and less than 180 degrees.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Obtuse Angle: Angles that are greater than the right angle and less than the straight angle, i.e., greater than 90° and less than 180°, are called obtuse angles. Have we covered all the possible measures that an angle can take? Here is another type of angle. Reflex angle: Angles that are greater than the straight angle and less than the whole angle, i.e., greater than 180° and less than 360°, are called reflex angles. 1.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Which concept is described here? An obtuse angle is greater than 90 degrees and less than 180 degrees. Answer: obtuse angle. An obtuse angle is greater than 90 degrees and less than 180 degrees.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Obtuse Angle: Angles that are greater than the right angle and less than the straight angle, i.e., greater than 90° and less than 180°, are called obtuse angles. Have we covered all the possible measures that an angle can take? Here is another type of angle. Reflex angle: Angles that are greater than the straight angle and less than the whole angle, i.e., greater than 180° and less than 360°, are called reflex angles. 1.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV031",
+      "language": "hi",
+      "target": "MATH6_C0026",
+      "diagnosed_gap": [
+        "MATH6_C0024"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0024",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": true,
+      "reason": "Diagnosed foundation is right angle. A rectangular-corner example explicitly identifies a right angle and its rotation invariance, followed by the obtuse-angle boundary comparison.",
+      "actual_paragraphs": [
+        {
+          "text": "आयताकार कागज की पास वाली दो धारियाँ देखिए। वे कोने पर समकोण बनाती हैं। कागज घुमाने पर भी उस कोने का खुलाव नहीं बदलता।",
+          "citations": [
+            "S2"
+          ],
+          "evidence": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "अधिक कोण 90 अंश से अधिक और 180 अंश से कम होता है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "अधिक कोण (Obtuse angle)— वे कोण जो समकोण से बड़े हैं और सरल कोण से छोटे हैं अर्थात् 90o से अधिक और 180o से कम होते हैं, अधिक कोण कहलाते हैं। अधिक कोण के उदाहरण क्या हमने कोणों के सभी संभावित मानों का मापन किया? यहाँ एक अन्य प्रकार का कोण दिया है। प्रतिवर्ती कोण (Reflex angle)— वे कोण जो सरल कोण से बड़े हों और पूर्ण कोण से छोटे हों अर्थात् 180o से बड़े और 360o से छोटे होते हैं, प्रतिवर्ती कोण कहलाते हैं। 1. नीचे दिए गए प्रत्येक ग्रिड में, बिंदु A को ग्रिड के दूसरे बिंदुओं से एक सरल रेखा से इस प्रकार मिलान कीजिए कि हमें— a. एक न्यून कोण प्राप्त हो।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: यह किस अवधारणा का वर्णन है? अधिक कोण 90 अंश से अधिक और 180 अंश से कम होता है। उत्तर: अधिक कोण. अधिक कोण 90 अंश से अधिक और 180 अंश से कम होता है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "अधिक कोण (Obtuse angle)— वे कोण जो समकोण से बड़े हैं और सरल कोण से छोटे हैं अर्थात् 90o से अधिक और 180o से कम होते हैं, अधिक कोण कहलाते हैं। अधिक कोण के उदाहरण क्या हमने कोणों के सभी संभावित मानों का मापन किया? यहाँ एक अन्य प्रकार का कोण दिया है। प्रतिवर्ती कोण (Reflex angle)— वे कोण जो सरल कोण से बड़े हों और पूर्ण कोण से छोटे हों अर्थात् 180o से बड़े और 360o से छोटे होते हैं, प्रतिवर्ती कोण कहलाते हैं। 1. नीचे दिए गए प्रत्येक ग्रिड में, बिंदु A को ग्रिड के दूसरे बिंदुओं से एक सरल रेखा से इस प्रकार मिलान कीजिए कि हमें— a. एक न्यून कोण प्राप्त हो।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV036",
+      "language": "en",
+      "target": "MATH6_C0027",
+      "diagnosed_gap": [
+        "MATH6_C0029"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0029",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is degree as angle measure. The response only gives reflex-angle degree bounds; it does not explain degree units or their full-turn relationship.",
+      "actual_paragraphs": [
+        {
+          "text": "A reflex angle is greater than 180 degrees and less than 360 degrees.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Reflex angle: Angles that are greater than the straight angle and less than the whole angle, i.e., greater than 180° and less than 360°, are called reflex angles. 1. In each of the below grids, join A to other grid points in the figure by a straight line to get:",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Which concept is described here? A reflex angle is greater than 180 degrees and less than 360 degrees. Answer: reflex angle. A reflex angle is greater than 180 degrees and less than 360 degrees.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "Reflex angle: Angles that are greater than the straight angle and less than the whole angle, i.e., greater than 180° and less than 360°, are called reflex angles. 1. In each of the below grids, join A to other grid points in the figure by a straight line to get:",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV036",
+      "language": "hi",
+      "target": "MATH6_C0027",
+      "diagnosed_gap": [
+        "MATH6_C0029"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0029",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is degree as angle measure. The response only gives reflex-angle degree bounds; it does not explain degree units or their full-turn relationship.",
+      "actual_paragraphs": [
+        {
+          "text": "प्रतिवर्ती कोण 180 अंश से अधिक और 360 अंश से कम होता है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "अधिक कोण (Obtuse angle)— वे कोण जो समकोण से बड़े हैं और सरल कोण से छोटे हैं अर्थात् 90o से अधिक और 180o से कम होते हैं, अधिक कोण कहलाते हैं। अधिक कोण के उदाहरण क्या हमने कोणों के सभी संभावित मानों का मापन किया? यहाँ एक अन्य प्रकार का कोण दिया है। प्रतिवर्ती कोण (Reflex angle)— वे कोण जो सरल कोण से बड़े हों और पूर्ण कोण से छोटे हों अर्थात् 180o से बड़े और 360o से छोटे होते हैं, प्रतिवर्ती कोण कहलाते हैं। 1. नीचे दिए गए प्रत्येक ग्रिड में, बिंदु A को ग्रिड के दूसरे बिंदुओं से एक सरल रेखा से इस प्रकार मिलान कीजिए कि हमें— a. एक न्यून कोण प्राप्त हो।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: यह किस अवधारणा का वर्णन है? प्रतिवर्ती कोण 180 अंश से अधिक और 360 अंश से कम होता है। उत्तर: प्रतिवर्ती कोण. प्रतिवर्ती कोण 180 अंश से अधिक और 360 अंश से कम होता है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "अधिक कोण (Obtuse angle)— वे कोण जो समकोण से बड़े हैं और सरल कोण से छोटे हैं अर्थात् 90o से अधिक और 180o से कम होते हैं, अधिक कोण कहलाते हैं। अधिक कोण के उदाहरण क्या हमने कोणों के सभी संभावित मानों का मापन किया? यहाँ एक अन्य प्रकार का कोण दिया है। प्रतिवर्ती कोण (Reflex angle)— वे कोण जो सरल कोण से बड़े हों और पूर्ण कोण से छोटे हों अर्थात् 180o से बड़े और 360o से छोटे होते हैं, प्रतिवर्ती कोण कहलाते हैं। 1. नीचे दिए गए प्रत्येक ग्रिड में, बिंदु A को ग्रिड के दूसरे बिंदुओं से एक सरल रेखा से इस प्रकार मिलान कीजिए कि हमें— a. एक न्यून कोण प्राप्त हो।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV041",
+      "language": "en",
+      "target": "MATH6_C0038",
+      "diagnosed_gap": [
+        "MATH6_C0037"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0037",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is digit. The response explains place value of the digit four, but assumes the meaning of digit rather than teaching digits or distinguishing a digit from a multidigit number.",
+      "actual_paragraphs": [
+        {
+          "text": "Let’s use an original example. The value of a digit depends on its position. In 3452, count places from the right: ones, tens, hundreds, then thousands. The digit 4 is in the hundreds place. That means 4 groups of 100: 4 × 100 = 400. So 4 contributes 400 to the number, rather than just 4.",
+          "citations": [],
+          "kind": "calculated_example"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV041",
+      "language": "hi",
+      "target": "MATH6_C0038",
+      "diagnosed_gap": [
+        "MATH6_C0037"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0037",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is digit. The response explains place value of the digit four, but assumes the meaning of digit rather than teaching digits or distinguishing a digit from a multidigit number.",
+      "actual_paragraphs": [
+        {
+          "text": "एक मौलिक उदाहरण लें। 3452 में 4 का स्थानीय मान जानने के लिए दाईं ओर से स्थान गिनें। पहला स्थान इकाई, दूसरा दहाई और तीसरा सैकड़ा होता है। यहाँ 4, सैकड़ा के स्थान पर है। इसलिए इसका मान 4 × 100 = 400 है। अंक का मान उसके स्थान पर निर्भर करता है।",
+          "citations": [],
+          "kind": "calculated_example"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV051",
+      "language": "en",
+      "target": "MATH6_C0041",
+      "diagnosed_gap": [
+        "MATH6_C0101"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0101",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": true,
+      "reason": "Diagnosed foundation is comparing numbers. The explanation directly teaches the ordering rule: a number farther right on the number line is greater.",
+      "actual_paragraphs": [
+        {
+          "text": "Numbers are arranged in order on a number line; the number farther right is greater.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "3.3 Patterns of Numbers on the Number Line We are quite familiar with number lines now. Let’s see if we can place some numbers in their appropriate positions on the number line. Here are the numbers: 2180, 2754, 1500, 3600, 9950, 9590, 1050, 3050, 5030, 5300 and 8400. 3000 4000 5000 6000 7000 8000 9000 10,000 \u0007Identify the numbers marked on the number lines below, and label the remaining positions. \u0007Put a circle around the smallest number and a box around the largest number in each of the sequences above.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Which concept is described here? Numbers are arranged in order on a number line; the number farther right is greater. Answer: number line. Numbers are arranged in order on a number line; the number farther right is greater.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "3.3 Patterns of Numbers on the Number Line We are quite familiar with number lines now. Let’s see if we can place some numbers in their appropriate positions on the number line. Here are the numbers: 2180, 2754, 1500, 3600, 9950, 9590, 1050, 3050, 5030, 5300 and 8400. 3000 4000 5000 6000 7000 8000 9000 10,000 \u0007Identify the numbers marked on the number lines below, and label the remaining positions. \u0007Put a circle around the smallest number and a box around the largest number in each of the sequences above.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV051",
+      "language": "hi",
+      "target": "MATH6_C0041",
+      "diagnosed_gap": [
+        "MATH6_C0101"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0101",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": true,
+      "reason": "Diagnosed foundation is comparing numbers. The explanation directly teaches the ordering rule: a number farther right on the number line is greater.",
+      "actual_paragraphs": [
+        {
+          "text": "संख्या रेखा पर संख्याएँ क्रम में होती हैं। दाईं ओर की संख्या बड़ी होती है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "3.3 संख्या रेखा पर संख्याओं के पैटर्न अब हम संख्या रेखा से भली-भाँति परिचित हैं। आइए, देखते हैं कि क्या हम कुछ संख्याओं को संख्या रेखा पर उनके उपयुक्त स्थान पर रख सकते हैं। यहाँ संख्याएँ 2180, 2754, 1500, 3600, 9950, 9590, 1050, 3050, 5030, 5300 और 8400 हैं। 3000 4000 5000 6000 7000 8000 9000 10,000 नीचे दी गई संख्या रेखा पर चिह्नित संख्या को पहचानकर, नीचे दिए गए संख्या अनुक्रमों को पूरा कीजिए। उपरोक्त अनुक्रमों में सबसे छोटी संख्या पर गोला लगाइए तथा सबसे बड़ी संख्या पर बॉक्स बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: यह किस अवधारणा का वर्णन है? संख्या रेखा पर संख्याएँ क्रम में होती हैं। दाईं ओर की संख्या बड़ी होती है। उत्तर: संख्या रेखा. संख्या रेखा पर संख्याएँ क्रम में होती हैं। दाईं ओर की संख्या बड़ी होती है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "3.3 संख्या रेखा पर संख्याओं के पैटर्न अब हम संख्या रेखा से भली-भाँति परिचित हैं। आइए, देखते हैं कि क्या हम कुछ संख्याओं को संख्या रेखा पर उनके उपयुक्त स्थान पर रख सकते हैं। यहाँ संख्याएँ 2180, 2754, 1500, 3600, 9950, 9590, 1050, 3050, 5030, 5300 और 8400 हैं। 3000 4000 5000 6000 7000 8000 9000 10,000 नीचे दी गई संख्या रेखा पर चिह्नित संख्या को पहचानकर, नीचे दिए गए संख्या अनुक्रमों को पूरा कीजिए। उपरोक्त अनुक्रमों में सबसे छोटी संख्या पर गोला लगाइए तथा सबसे बड़ी संख्या पर बॉक्स बनाइए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV056",
+      "language": "en",
+      "target": "MATH6_C0042",
+      "diagnosed_gap": [
+        "MATH6_C0113"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0113",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is mental math. The response defines estimation but provides no mental-calculation strategy or worked mental-arithmetic step.",
+      "actual_paragraphs": [
+        {
+          "text": "Estimation finds a reasonable approximate value instead of an exact calculation.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "\u0007We shall do some simple estimates. It is a fun exercise, and you may find it amusing to know the various numbers around us. Remember,",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try this example: Which concept is described here? Estimation finds a reasonable approximate value instead of an exact calculation. Answer: estimation. Estimation finds a reasonable approximate value instead of an exact calculation.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "\u0007We shall do some simple estimates. It is a fun exercise, and you may find it amusing to know the various numbers around us. Remember,",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ]
+    },
+    {
+      "case_id": "DEV056",
+      "language": "hi",
+      "target": "MATH6_C0042",
+      "diagnosed_gap": [
+        "MATH6_C0113"
+      ],
+      "teaching_request": {
+        "mode": "still_confused",
+        "focus_concept_id": "MATH6_C0113",
+        "reason": "consistent_difficulty_evidence"
+      },
+      "addresses_diagnosed_foundation_ai_review": false,
+      "reason": "Diagnosed foundation is mental math. The response defines estimation but provides no mental-calculation strategy or worked mental-arithmetic step.",
+      "actual_paragraphs": [
+        {
+          "text": "आकलन में सटीक गणना के बजाय उचित लगभग मान निकालते हैं।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "आइए, पता लगाएँ अब हम कुछ सरल आकलन करेंगे। यह एक मनोरंजक अभ्यास है और इसके द्वारा आप अपने आस-पास की विभिन्न संख्याओं को जानकर प्रसन्न होंगे। याद रखिए, दिए गए प्रश्नों के लिए सही संख्या जानने में हमारी रूचि नहीं है। अपने आकलन के तरीके को कक्षा के साथ साझा कीजिए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक उदाहरण: यह किस अवधारणा का वर्णन है? आकलन में सटीक गणना के बजाय उचित लगभग मान निकालते हैं। उत्तर: आकलन. आकलन में सटीक गणना के बजाय उचित लगभग मान निकालते हैं।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "आइए, पता लगाएँ अब हम कुछ सरल आकलन करेंगे। यह एक मनोरंजक अभ्यास है और इसके द्वारा आप अपने आस-पास की विभिन्न संख्याओं को जानकर प्रसन्न होंगे। याद रखिए, दिए गए प्रश्नों के लिए सही संख्या जानने में हमारी रूचि नहीं है। अपने आकलन के तरीके को कक्षा के साथ साझा कीजिए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        }
+      ]
+    }
+  ],
+  "five_profile_focus_reviews": [
+    {
+      "profile": "prerequisite_gap",
+      "language": "en",
+      "focus": "MATH6_C0024",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "right angle",
+            "status": "Possible prerequisite difficulty",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "acute angle",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "degree (angle measure)",
+            "status": "Insufficient evidence",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "comparing angles",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "How many degrees are in a right angle?",
+            "response": "91.0",
+            "score": 0
+          },
+          {
+            "question": "Which is a right angle? A: 45°; B: 60°; C: 90°; D: 120°.",
+            "response": "A",
+            "score": 0
+          },
+          {
+            "question": "Which statement describes degree (angle measure)? A: A Koch snowflake starts with an equilateral triangle; each side is repeatedly replaced by four shorter segments forming a triangular bump.; B: A pattern is an arrangement that repeats or changes according to a rule.; C: For four-digit numbers whose digits are not all equal, Kaprekar’s rearrange-and-subtract process reaches 6174.; D: Degrees measure angles; a full turn contains 360 degrees.",
+            "response": "D",
+            "score": 1
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "A right angle measures 90°. It is one quarter of a complete turn. “Right” names the size of the angle; it does not mean the angle must point to the right.",
+          "citations": [
+            "S3"
+          ],
+          "evidence": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Try a new example: 35°. First check that it is greater than 0°. It is. Next compare it with 90°: 35° is smaller than 90°, so both conditions hold. It is acute.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": true,
+      "confirmed_gap_case": true,
+      "reason": "The explanation explicitly explains the selected right-angle or acute-angle focus with a definition and relevant contrast/example. This is content relevance, not proof of correct causal diagnosis."
+    },
+    {
+      "profile": "no_apparent_gap",
+      "language": "en",
+      "focus": "MATH6_C0029",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "right angle",
+            "status": "Evidence supports understanding",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "acute angle",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "degree (angle measure)",
+            "status": "Insufficient evidence",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "comparing angles",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "How many degrees are in a right angle?",
+            "response": "90",
+            "score": 1
+          },
+          {
+            "question": "Which is a right angle? A: 45°; B: 60°; C: 90°; D: 120°.",
+            "response": "C",
+            "score": 1
+          },
+          {
+            "question": "Which statement describes degree (angle measure)? A: A Koch snowflake starts with an equilateral triangle; each side is repeatedly replaced by four shorter segments forming a triangular bump.; B: A pattern is an arrangement that repeats or changes according to a rule.; C: For four-digit numbers whose digits are not all equal, Kaprekar’s rearrange-and-subtract process reaches 6174.; D: Degrees measure angles; a full turn contains 360 degrees.",
+            "response": "D",
+            "score": 1
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Imagine opening a book a little, then opening it to a square corner. The smaller opening is acute. The length of the pages does not determine the angle; the amount of opening does.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": false,
+      "confirmed_gap_case": false,
+      "reason": "A complete degree-unit explanation is missing: the answer gives 90-degree/acute examples but does not define degree as an angular unit or relate it to a full turn."
+    },
+    {
+      "profile": "calculation_slip",
+      "language": "en",
+      "focus": "MATH6_C0024",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "right angle",
+            "status": "Insufficient evidence",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "acute angle",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "degree (angle measure)",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "comparing angles",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "How many degrees are in a right angle?",
+            "response": "91.0",
+            "score": 0
+          },
+          {
+            "question": "Which is a right angle? A: 45°; B: 60°; C: 90°; D: 120°.",
+            "response": "C",
+            "score": 1
+          },
+          {
+            "question": "What is the angle in degrees at a corner of a square?",
+            "response": "90",
+            "score": 1
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "A right angle measures 90°. It is one quarter of a complete turn. “Right” names the size of the angle; it does not mean the angle must point to the right.",
+          "citations": [
+            "S3"
+          ],
+          "evidence": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Imagine opening a book a little, then opening it to a square corner. The smaller opening is acute. The length of the pages does not determine the angle; the amount of opening does.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": true,
+      "confirmed_gap_case": false,
+      "reason": "The explanation explicitly explains the selected right-angle or acute-angle focus with a definition and relevant contrast/example. This is content relevance, not proof of correct causal diagnosis."
+    },
+    {
+      "profile": "language_confusion",
+      "language": "en",
+      "focus": "MATH6_C0025",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "right angle",
+            "status": "Evidence supports understanding",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "acute angle",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "degree (angle measure)",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "comparing angles",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "How many degrees are in a right angle?",
+            "response": "Please explain the wording",
+            "score": null
+          },
+          {
+            "question": "Which is a right angle? A: 45°; B: 60°; C: 90°; D: 120°.",
+            "response": "C",
+            "score": 1
+          },
+          {
+            "question": "What is the angle in degrees at a corner of a square?",
+            "response": "90",
+            "score": 1
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Imagine opening a book a little, then opening it to a square corner. The smaller opening is acute. The length of the pages does not determine the angle; the amount of opening does.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": true,
+      "confirmed_gap_case": false,
+      "reason": "The explanation explicitly explains the selected right-angle or acute-angle focus with a definition and relevant contrast/example. This is content relevance, not proof of correct causal diagnosis."
+    },
+    {
+      "profile": "insufficient_evidence",
+      "language": "en",
+      "focus": "MATH6_C0024",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "right angle",
+            "status": "Insufficient evidence",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "acute angle",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "degree (angle measure)",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "comparing angles",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "How many degrees are in a right angle?",
+            "response": "not sure",
+            "score": null
+          },
+          {
+            "question": "Which is a right angle? A: 45°; B: 60°; C: 90°; D: 120°.",
+            "response": "not sure",
+            "score": null
+          },
+          {
+            "question": "What is the angle in degrees at a corner of a square?",
+            "response": "not sure",
+            "score": null
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "A right angle measures 90°. It is one quarter of a complete turn. “Right” names the size of the angle; it does not mean the angle must point to the right.",
+          "citations": [
+            "S3"
+          ],
+          "evidence": "What is the measure of a straight angle in degrees? A straight angle is half of a full turn. As a full-turn is 360°, a half turn is 180°. What is the measure of a right angle in degrees? Two right angles together form a straight angle. As a straight angle measures 180°, a right angle measures 90°. A pinch of history A full turn has been divided into 360°. Why 360? The reason why we use 360° today is not fully known. The division of a circle into",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "An angle measures how far one arm turns away from the other. A right angle is a quarter-turn: 90°. An acute angle is a smaller opening: greater than 0° but less than 90°.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Imagine opening a book a little, then opening it to a square corner. The smaller opening is acute. The length of the pages does not determine the angle; the amount of opening does.",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "In the first group, all angles are less than a right angle or in other words, less than a quarter turn. Such angles are called acute angles. In the third group, all angles are greater than a right angle but less than a straight angle. The turning is more than a quarter turn and less than a half turn. Such angles are called obtuse angles. 1. Identify acute, right, obtuse and straight angles in the previous figures.",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "Which part should we unpack next: the words, or a step in the example?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": true,
+      "confirmed_gap_case": false,
+      "reason": "The explanation explicitly explains the selected right-angle or acute-angle focus with a definition and relevant contrast/example. This is content relevance, not proof of correct causal diagnosis."
+    },
+    {
+      "profile": "prerequisite_gap",
+      "language": "hi",
+      "focus": "MATH6_C0024",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "समकोण",
+            "status": "Possible prerequisite difficulty",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "न्यून कोण",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "डिग्री (अंश)",
+            "status": "Insufficient evidence",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "कोणों की तुलना",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "समकोण में कितने डिग्री होते हैं?",
+            "response": "91.0",
+            "score": 0
+          },
+          {
+            "question": "कौन-सा कोण समकोण है? A: 45°; B: 60°; C: 90°; D: 120°।",
+            "response": "A",
+            "score": 0
+          },
+          {
+            "question": "डिग्री (अंश) का सही वर्णन कौन-सा है? A: कोख हिमकण समबाहु त्रिभुज से शुरू होता है। हर चरण में हर भुजा की जगह त्रिभुजीय उभार वाले चार छोटे रेखाखंड बनते हैं।; B: बार-बार आने वाली या नियम के अनुसार बदलने वाली व्यवस्था पैटर्न है।; C: चार अंकों को घटते और बढ़ते क्रम में लिखकर उनका अंतर निकालने की कापरेकर प्रक्रिया 6174 तक पहुँचती है, जब सभी अंक समान न हों।; D: अंश कोण मापने की इकाई है। पूरे घुमाव में 360 अंश होते हैं।",
+            "response": "D",
+            "score": 1
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "समकोण 90° का कोण है। यह पूरे घुमाव का एक चौथाई है। इसका नाम कोण का माप बताता है, दाईं दिशा में होना नहीं।",
+          "citations": [
+            "S3"
+          ],
+          "evidence": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "एक नया उदाहरण: 35°। पहले जाँचें: यह 0° से अधिक है। अब 90° से तुलना करें: 35° 90° से कम है, इसलिए दोनों शर्तें पूरी हैं। यह न्यून कोण है।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "original_worked_example",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": true,
+      "confirmed_gap_case": true,
+      "reason": "The explanation explicitly explains the selected right-angle or acute-angle focus with a definition and relevant contrast/example. This is content relevance, not proof of correct causal diagnosis."
+    },
+    {
+      "profile": "no_apparent_gap",
+      "language": "hi",
+      "focus": "MATH6_C0029",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "समकोण",
+            "status": "Evidence supports understanding",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "न्यून कोण",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "डिग्री (अंश)",
+            "status": "Insufficient evidence",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "कोणों की तुलना",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "समकोण में कितने डिग्री होते हैं?",
+            "response": "90",
+            "score": 1
+          },
+          {
+            "question": "कौन-सा कोण समकोण है? A: 45°; B: 60°; C: 90°; D: 120°।",
+            "response": "C",
+            "score": 1
+          },
+          {
+            "question": "डिग्री (अंश) का सही वर्णन कौन-सा है? A: कोख हिमकण समबाहु त्रिभुज से शुरू होता है। हर चरण में हर भुजा की जगह त्रिभुजीय उभार वाले चार छोटे रेखाखंड बनते हैं।; B: बार-बार आने वाली या नियम के अनुसार बदलने वाली व्यवस्था पैटर्न है।; C: चार अंकों को घटते और बढ़ते क्रम में लिखकर उनका अंतर निकालने की कापरेकर प्रक्रिया 6174 तक पहुँचती है, जब सभी अंक समान न हों।; D: अंश कोण मापने की इकाई है। पूरे घुमाव में 360 अंश होते हैं।",
+            "response": "D",
+            "score": 1
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किताब को थोड़ा खोलिए, फिर समकोण जितना खोलिए। पहले वाला छोटा खुलाव न्यून कोण है। पन्नों की लंबाई नहीं, उनके बीच का खुलाव देखिए।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": false,
+      "confirmed_gap_case": false,
+      "reason": "A complete degree-unit explanation is missing: the answer gives 90-degree/acute examples but does not define degree as an angular unit or relate it to a full turn."
+    },
+    {
+      "profile": "calculation_slip",
+      "language": "hi",
+      "focus": "MATH6_C0024",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "समकोण",
+            "status": "Insufficient evidence",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "न्यून कोण",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "डिग्री (अंश)",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "कोणों की तुलना",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "समकोण में कितने डिग्री होते हैं?",
+            "response": "91.0",
+            "score": 0
+          },
+          {
+            "question": "कौन-सा कोण समकोण है? A: 45°; B: 60°; C: 90°; D: 120°।",
+            "response": "C",
+            "score": 1
+          },
+          {
+            "question": "वर्ग के एक कोने का कोण कितने डिग्री का होता है?",
+            "response": "90",
+            "score": 1
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "समकोण 90° का कोण है। यह पूरे घुमाव का एक चौथाई है। इसका नाम कोण का माप बताता है, दाईं दिशा में होना नहीं।",
+          "citations": [
+            "S3"
+          ],
+          "evidence": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किताब को थोड़ा खोलिए, फिर समकोण जितना खोलिए। पहले वाला छोटा खुलाव न्यून कोण है। पन्नों की लंबाई नहीं, उनके बीच का खुलाव देखिए।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": true,
+      "confirmed_gap_case": false,
+      "reason": "The explanation explicitly explains the selected right-angle or acute-angle focus with a definition and relevant contrast/example. This is content relevance, not proof of correct causal diagnosis."
+    },
+    {
+      "profile": "language_confusion",
+      "language": "hi",
+      "focus": "MATH6_C0025",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "समकोण",
+            "status": "Evidence supports understanding",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "न्यून कोण",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "डिग्री (अंश)",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "कोणों की तुलना",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "समकोण में कितने डिग्री होते हैं?",
+            "response": "Please explain the wording",
+            "score": null
+          },
+          {
+            "question": "कौन-सा कोण समकोण है? A: 45°; B: 60°; C: 90°; D: 120°।",
+            "response": "C",
+            "score": 1
+          },
+          {
+            "question": "वर्ग के एक कोने का कोण कितने डिग्री का होता है?",
+            "response": "90",
+            "score": 1
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किताब को थोड़ा खोलिए, फिर समकोण जितना खोलिए। पहले वाला छोटा खुलाव न्यून कोण है। पन्नों की लंबाई नहीं, उनके बीच का खुलाव देखिए।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": true,
+      "confirmed_gap_case": false,
+      "reason": "The explanation explicitly explains the selected right-angle or acute-angle focus with a definition and relevant contrast/example. This is content relevance, not proof of correct causal diagnosis."
+    },
+    {
+      "profile": "insufficient_evidence",
+      "language": "hi",
+      "focus": "MATH6_C0024",
+      "diagnosis_summary": {
+        "questions_asked": 3,
+        "concepts": [
+          {
+            "concept": "समकोण",
+            "status": "Insufficient evidence",
+            "concept_id": "MATH6_C0024"
+          },
+          {
+            "concept": "न्यून कोण",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0025"
+          },
+          {
+            "concept": "डिग्री (अंश)",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0029"
+          },
+          {
+            "concept": "कोणों की तुलना",
+            "status": "Unassessed",
+            "concept_id": "MATH6_C0110"
+          }
+        ],
+        "answers": [
+          {
+            "question": "समकोण में कितने डिग्री होते हैं?",
+            "response": "not sure",
+            "score": null
+          },
+          {
+            "question": "कौन-सा कोण समकोण है? A: 45°; B: 60°; C: 90°; D: 120°।",
+            "response": "not sure",
+            "score": null
+          },
+          {
+            "question": "वर्ग के एक कोने का कोण कितने डिग्री का होता है?",
+            "response": "not sure",
+            "score": null
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "text": "समकोण 90° का कोण है। यह पूरे घुमाव का एक चौथाई है। इसका नाम कोण का माप बताता है, दाईं दिशा में होना नहीं।",
+          "citations": [
+            "S3"
+          ],
+          "evidence": "चूँकि एक सरल कोण का माप 180° होता है, तो एक समकोण का माप 90° होगा। चुटकीभर इतिहास एक पूर्ण घुमाव को 360° में बाँटा गया है। अब विचारणीय बात यह है कि 360 ही क्यों? हमने 360 डिग्री ही क्यों प्रयोग किया, इसका कारण हम पूरी तरह नहीं जानते। वृत्त को 360 भागों में बाँटने का इतिहास पुराने समय की ओर ले जाता है। ऋग्वेद, जो हजारों वर्ष पुरानी मानवता की पुस्तक है, वह",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "कोण बताता है कि एक भुजा दूसरी भुजा से कितनी घूमी है। समकोण एक चौथाई घुमाव है: 90°। न्यून कोण का खुलाव इससे कम होता है: 0° से अधिक और 90° से कम।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किताब को थोड़ा खोलिए, फिर समकोण जितना खोलिए। पहले वाला छोटा खुलाव न्यून कोण है। पन्नों की लंबाई नहीं, उनके बीच का खुलाव देखिए।",
+          "citations": [
+            "S1"
+          ],
+          "evidence": "इस तरह के कोणों को न्यून कोण (Acute Angle) कहते हैं। तीसरे समूह में सभी कोण समकोण से अधिक हैं किंतु सरल कोण से कम हैं। घुमाव, एक पूर्ण घुमाव के चतुर्थांश से अधिक है और आधे घुमाव से कम है। इस तरह के कोणों को अधिक कोण (Obtuse Angle) कहते हैं। 1. पिछली आकृतियों में न्यून कोण, समकोण, अधिक कोण और सरल कोण को पहचानिए। 2. कुछ न्यून कोण और अधिक कोण भिन्न दशाओं में बनाइए।",
+          "kind": "authored_explanation",
+          "review_status": "PENDING"
+        },
+        {
+          "text": "किस हिस्से पर रुक गए: शब्दों का अर्थ, या उदाहरण का कोई चरण?",
+          "citations": [],
+          "kind": "teaching_question"
+        }
+      ],
+      "selected_focus_relevance_ai_review": true,
+      "confirmed_gap_case": false,
+      "reason": "The explanation explicitly explains the selected right-angle or acute-angle focus with a definition and relevant contrast/example. This is content relevance, not proof of correct causal diagnosis."
+    }
+  ],
+  "provenance": {
+    "workflow_traces_sha256": "d7986d8817f8545b5116d89ef2c1d3938463072c042e18a962552267f1936e87",
+    "complete_cycles_sha256": "577b785fe695e639176ceb2eb2133ed4fba3361074f42908eebcc2e58aac595e",
+    "diagnosed_answer_cases_sha256": "3c05f7123f78a6d8126192391d70ea0d943447cabd58ccf404d192d6a3306883",
+    "textbook_hashes": {
+      "assets\\textbooks\\en\\fegp101.pdf": "9a2ff6ddbbd42bbd140a340c20ab27d4e7b8626148518acbb5adca7b93644347",
+      "assets\\textbooks\\hi\\fhgp101.pdf": "691c407f1c2e5366275de0ec238a4b88beea196540e5c341cb6a3e76a6d2d9a4",
+      "assets\\textbooks\\en\\fegp102.pdf": "057f2a0a5e74afd850f2b8e41315d58fa2b9409fbd587f7d9b92a7420f190db1",
+      "assets\\textbooks\\hi\\fhgp102.pdf": "8ddb93a836268ca9001b05b410a051a8051fb15e2281e587c73227646d94b42c",
+      "assets\\textbooks\\en\\fegp103.pdf": "c33f3769dc238bf1593ae3bc16c8721d422fe4e57d79b18f085b1ed1669f9cdb",
+      "assets\\textbooks\\hi\\fhgp103.pdf": "2b4cfa9b7e03dc868dc649543c934253528c5cb2c0a77ad00fa6f0d6ff64f4e6",
+      "assets\\textbooks\\en\\fegp104.pdf": "8f7d28bab6f2108de771ff4a16c03a383b0e23a2f5699f8cf41915bbf0a921f2",
+      "assets\\textbooks\\hi\\fhgp104.pdf": "dde2a32a3571ef20964831d5c4af43713c4aa9c96c50e2b4d1d1219e8d7400b5",
+      "assets\\textbooks\\en\\fegp105.pdf": "467aa97ca5a18533a7738ddd57020de3d322c63013018edd06714ac23436dabf",
+      "assets\\textbooks\\hi\\fhgp105.pdf": "c9215282c8609cf0dd95198e3b8bac51771ef5e799c9da06a30bc7009ec2c9c7",
+      "assets\\textbooks\\en\\fegp106.pdf": "f03f2030420f0f1aa173348bd4fbb3b133a4b8de93cb56db9f5085d5c03a4d53",
+      "assets\\textbooks\\hi\\fhgp106.pdf": "8320981d7807ce0066d56dd6885acc66aeeb3374153d546e19b0b08929ec5475",
+      "assets\\textbooks\\en\\fegp107.pdf": "c142b8d472ced617817fb9986e73e44656a9d8c0693e80228f7e0a21d8817e12",
+      "assets\\textbooks\\hi\\fhgp107.pdf": "20b1000245974dc0eeaa30c19223458d4684d47b21196a650b6b0d84636894a4",
+      "assets\\textbooks\\en\\fegp108.pdf": "7c777e26cad8154b5bb55308c36cc47173084ad1ec1ad3c2f5a7cf863e132e53",
+      "assets\\textbooks\\hi\\fhgp108.pdf": "9574307eabdef5c44103c7f3d8d0dcf56486ecb85832fac8501f9635e87fe4c8",
+      "assets\\textbooks\\en\\fegp109.pdf": "2a675ebe6523c343d88ae43ba173a8dabac2881e3caabeffa8d0379435f02f04",
+      "assets\\textbooks\\hi\\fhgp109.pdf": "13bb4aed010e0c8444de7fcdf3fa71e30f1ea3043dd16f21ed39e90d6aff09a5",
+      "assets\\textbooks\\en\\fegp110.pdf": "2c286fb7a738c1f17824a338248b40ccaaf0733f6f37b356c6349e27e317f2ec",
+      "assets\\textbooks\\hi\\fhgp110.pdf": "900dcf3fb1d1cc85cf2e1fe77ff4d7caf52a82ce11701fd6148e86f95b149adb"
+    },
+    "review_script_sha256": "33fb7eff89e403ff481716ccb5fa3dd6bdd5a2f130c4eabe36d13ffaf5b660be"
+  },
+  "limits": [
+    "Single AI reviewer, which also worked on the application; no independent ratings or inter-rater agreement.",
+    "Only one paired answer per chapter, authored fallback generation, and known synthetic development cases.",
+    "Citation scoring covers retrieved text excerpts, not additional full-page context or visual diagrams absent from that text.",
+    "Diagnosis relevance has a much smaller and different denominator from answer correctness/citation support."
+  ]
+}

@@ -1,0 +1,2170 @@
+[
+  {
+    "target": "MATH6_ADD001",
+    "reference_prerequisites": [
+      "MATH6_C0005",
+      "MATH6_C0046"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0005",
+      "MATH6_C0046"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_ADD002",
+    "reference_prerequisites": [
+      "MATH6_C0005",
+      "MATH6_C0006",
+      "MATH6_C0007",
+      "MATH6_C0102"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0005",
+      "MATH6_C0006",
+      "MATH6_C0007",
+      "MATH6_C0102"
+    ],
+    "recall_at_3": 0.75,
+    "recall_at_5": 1.0,
+    "missed_at_3": [
+      "MATH6_C0102"
+    ],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0003",
+    "reference_prerequisites": [
+      "MATH6_C0002",
+      "MATH6_C0036"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0002",
+      "MATH6_C0036"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0004",
+    "reference_prerequisites": [
+      "MATH6_C0002"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0002"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0005",
+    "reference_prerequisites": [
+      "MATH6_C0003"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0003"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0006",
+    "reference_prerequisites": [
+      "MATH6_C0013"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0013"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0007",
+    "reference_prerequisites": [
+      "MATH6_C0013"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0013"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0008",
+    "reference_prerequisites": [
+      "MATH6_C0005",
+      "MATH6_C0046"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0005",
+      "MATH6_C0046"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0009",
+    "reference_prerequisites": [
+      "MATH6_C0005",
+      "MATH6_C0102"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0005",
+      "MATH6_C0102"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0010",
+    "reference_prerequisites": [
+      "MATH6_C0005",
+      "MATH6_C0102"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0005",
+      "MATH6_C0102"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0011",
+    "reference_prerequisites": [
+      "MATH6_C0005",
+      "MATH6_C0102"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0005",
+      "MATH6_C0102"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0012",
+    "reference_prerequisites": [
+      "MATH6_C0013"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0013"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0014",
+    "reference_prerequisites": [
+      "MATH6_C0004"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0004"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0015",
+    "reference_prerequisites": [
+      "MATH6_C0008",
+      "MATH6_C0009"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0008",
+      "MATH6_C0009"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0017",
+    "reference_prerequisites": [
+      "MATH6_C0018"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0018"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0018",
+    "reference_prerequisites": [
+      "MATH6_C0016"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0016"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0019",
+    "reference_prerequisites": [
+      "MATH6_C0017"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0017"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0020",
+    "reference_prerequisites": [
+      "MATH6_C0019"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0019"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0021",
+    "reference_prerequisites": [
+      "MATH6_C0020"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0020"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0022",
+    "reference_prerequisites": [
+      "MATH6_C0020"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0020"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0023",
+    "reference_prerequisites": [
+      "MATH6_C0034"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0034"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0024",
+    "reference_prerequisites": [
+      "MATH6_C0023"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0023"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0025",
+    "reference_prerequisites": [
+      "MATH6_C0024",
+      "MATH6_C0029",
+      "MATH6_C0110"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0024",
+      "MATH6_C0029",
+      "MATH6_C0110"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0026",
+    "reference_prerequisites": [
+      "MATH6_C0024",
+      "MATH6_C0029",
+      "MATH6_C0110"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0024",
+      "MATH6_C0029",
+      "MATH6_C0110"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0027",
+    "reference_prerequisites": [
+      "MATH6_C0029"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0029"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0028",
+    "reference_prerequisites": [
+      "MATH6_C0023"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0023"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0029",
+    "reference_prerequisites": [
+      "MATH6_C0028"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0028"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0030",
+    "reference_prerequisites": [
+      "MATH6_C0029"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0029"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0031",
+    "reference_prerequisites": [
+      "MATH6_C0024"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0024"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0034",
+    "reference_prerequisites": [
+      "MATH6_C0020"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0020"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0035",
+    "reference_prerequisites": [
+      "MATH6_C0029",
+      "MATH6_C0110"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0029",
+      "MATH6_C0110"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0036",
+    "reference_prerequisites": [
+      "MATH6_C0013"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0013"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0038",
+    "reference_prerequisites": [
+      "MATH6_C0037"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0037"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0039",
+    "reference_prerequisites": [
+      "MATH6_C0037",
+      "MATH6_C0046"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0037",
+      "MATH6_C0046"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0040",
+    "reference_prerequisites": [
+      "MATH6_C0037",
+      "MATH6_C0046"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0037",
+      "MATH6_C0046"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0041",
+    "reference_prerequisites": [
+      "MATH6_C0101"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0101"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0042",
+    "reference_prerequisites": [
+      "MATH6_C0113"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0113"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0047",
+    "reference_prerequisites": [
+      "MATH6_C0046"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0046"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0049",
+    "reference_prerequisites": [
+      "MATH6_C0003",
+      "MATH6_C0113"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0003",
+      "MATH6_C0113"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0050",
+    "reference_prerequisites": [
+      "MATH6_C0047",
+      "MATH6_C0101"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0047",
+      "MATH6_C0101"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0051",
+    "reference_prerequisites": [
+      "MATH6_C0101"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0101"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0101",
+    "reference_prerequisites": [
+      "MATH6_C0038"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0038"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0102",
+    "reference_prerequisites": [
+      "MATH6_C0046"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0046"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0103",
+    "reference_prerequisites": [
+      "MATH6_C0102"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0102"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0104",
+    "reference_prerequisites": [
+      "MATH6_C0015"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0015"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0105",
+    "reference_prerequisites": [
+      "MATH6_C0006",
+      "MATH6_C0015"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0006",
+      "MATH6_C0015"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0106",
+    "reference_prerequisites": [
+      "MATH6_C0004"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0004"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0107",
+    "reference_prerequisites": [
+      "MATH6_C0004",
+      "MATH6_C0009"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0004",
+      "MATH6_C0009"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0108",
+    "reference_prerequisites": [
+      "MATH6_C0004",
+      "MATH6_C0008"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0004",
+      "MATH6_C0008"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0109",
+    "reference_prerequisites": [
+      "MATH6_C0004",
+      "MATH6_C0102"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0004",
+      "MATH6_C0102"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0110",
+    "reference_prerequisites": [
+      "MATH6_C0021",
+      "MATH6_C0022"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0021",
+      "MATH6_C0022"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0111",
+    "reference_prerequisites": [
+      "MATH6_C0030"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0030"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0112",
+    "reference_prerequisites": [
+      "MATH6_C0040"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0040"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0113",
+    "reference_prerequisites": [
+      "MATH6_C0038",
+      "MATH6_C0047"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0038",
+      "MATH6_C0047"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0114",
+    "reference_prerequisites": [
+      "MATH6_C0003",
+      "MATH6_C0046"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0003",
+      "MATH6_C0046"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0116",
+    "reference_prerequisites": [
+      "MATH6_C0115"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0115"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0117",
+    "reference_prerequisites": [
+      "MATH6_C0013",
+      "MATH6_C0115"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0013",
+      "MATH6_C0115"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0118",
+    "reference_prerequisites": [
+      "MATH6_C0116",
+      "MATH6_C0117"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0116",
+      "MATH6_C0117"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0119",
+    "reference_prerequisites": [
+      "MATH6_C0117"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0117"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0120",
+    "reference_prerequisites": [
+      "MATH6_C0102",
+      "MATH6_C0119"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0102",
+      "MATH6_C0119"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0121",
+    "reference_prerequisites": [
+      "MATH6_C0120"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0120"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0122",
+    "reference_prerequisites": [
+      "MATH6_C0031",
+      "MATH6_C0118",
+      "MATH6_C0121"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0031",
+      "MATH6_C0118",
+      "MATH6_C0121"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0123",
+    "reference_prerequisites": [
+      "MATH6_C0121"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0121"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0124",
+    "reference_prerequisites": [
+      "MATH6_C0121"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0121"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0125",
+    "reference_prerequisites": [
+      "MATH6_C0102"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0102"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0126",
+    "reference_prerequisites": [
+      "MATH6_C0125"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0125"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0127",
+    "reference_prerequisites": [
+      "MATH6_C0103",
+      "MATH6_C0125"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0103",
+      "MATH6_C0125"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0128",
+    "reference_prerequisites": [
+      "MATH6_C0127"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0127"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0129",
+    "reference_prerequisites": [
+      "MATH6_C0127"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0127"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0130",
+    "reference_prerequisites": [
+      "MATH6_C0127"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0127"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0131",
+    "reference_prerequisites": [
+      "MATH6_C0127"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0127"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0132",
+    "reference_prerequisites": [
+      "MATH6_C0130",
+      "MATH6_C0131"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0130",
+      "MATH6_C0131"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0133",
+    "reference_prerequisites": [
+      "MATH6_C0130"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0130"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0134",
+    "reference_prerequisites": [
+      "MATH6_C0128",
+      "MATH6_C0136"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0128",
+      "MATH6_C0136"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0135",
+    "reference_prerequisites": [
+      "MATH6_C0130",
+      "MATH6_C0131"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0130",
+      "MATH6_C0131"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0136",
+    "reference_prerequisites": [
+      "MATH6_C0135"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0135"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0137",
+    "reference_prerequisites": [
+      "MATH6_C0127"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0127"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0138",
+    "reference_prerequisites": [
+      "MATH6_C0007",
+      "MATH6_C0137"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0007",
+      "MATH6_C0137"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0139",
+    "reference_prerequisites": [
+      "MATH6_C0038",
+      "MATH6_C0138"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0038",
+      "MATH6_C0138"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0141",
+    "reference_prerequisites": [
+      "MATH6_C0140"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0140"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0150",
+    "reference_prerequisites": [
+      "MATH6_C0046",
+      "MATH6_C0143"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0046",
+      "MATH6_C0143"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0151",
+    "reference_prerequisites": [
+      "MATH6_C0102",
+      "MATH6_C0140",
+      "MATH6_C0150"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0102",
+      "MATH6_C0140",
+      "MATH6_C0150"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0152",
+    "reference_prerequisites": [
+      "MATH6_C0102",
+      "MATH6_C0141",
+      "MATH6_C0150"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0102",
+      "MATH6_C0141",
+      "MATH6_C0150"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0153",
+    "reference_prerequisites": [
+      "MATH6_C0142",
+      "MATH6_C0150"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0142",
+      "MATH6_C0150"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0154",
+    "reference_prerequisites": [
+      "MATH6_C0142"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0142"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0155",
+    "reference_prerequisites": [
+      "MATH6_C0014",
+      "MATH6_C0152",
+      "MATH6_C0154"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0014",
+      "MATH6_C0152",
+      "MATH6_C0154"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0157",
+    "reference_prerequisites": [
+      "MATH6_C0141",
+      "MATH6_C0143",
+      "MATH6_C0156"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0141",
+      "MATH6_C0143",
+      "MATH6_C0156"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0158",
+    "reference_prerequisites": [
+      "MATH6_C0102",
+      "MATH6_C0157"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0102",
+      "MATH6_C0157"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0159",
+    "reference_prerequisites": [
+      "MATH6_C0009",
+      "MATH6_C0157"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0009",
+      "MATH6_C0157"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0160",
+    "reference_prerequisites": [
+      "MATH6_C0042",
+      "MATH6_C0157"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0042",
+      "MATH6_C0157"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0161",
+    "reference_prerequisites": [
+      "MATH6_C0142",
+      "MATH6_C0156"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0142",
+      "MATH6_C0156"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0162",
+    "reference_prerequisites": [
+      "MATH6_C0150",
+      "MATH6_C0156"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0150",
+      "MATH6_C0156"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0163",
+    "reference_prerequisites": [
+      "MATH6_C0103",
+      "MATH6_C0142",
+      "MATH6_C0158"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0103",
+      "MATH6_C0142",
+      "MATH6_C0158"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0164",
+    "reference_prerequisites": [
+      "MATH6_C0163"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0163"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0170",
+    "reference_prerequisites": [
+      "MATH6_C0171"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0171"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0171",
+    "reference_prerequisites": [
+      "MATH6_C0172"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0172"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0172",
+    "reference_prerequisites": [
+      "MATH6_C0103"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0103"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0173",
+    "reference_prerequisites": [
+      "MATH6_C0170"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0170"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0174",
+    "reference_prerequisites": [
+      "MATH6_C0170"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0170"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0175",
+    "reference_prerequisites": [
+      "MATH6_C0041",
+      "MATH6_C0171"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0041",
+      "MATH6_C0171"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0176",
+    "reference_prerequisites": [
+      "MATH6_C0036",
+      "MATH6_C0174"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0036",
+      "MATH6_C0174"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0177",
+    "reference_prerequisites": [
+      "MATH6_C0174"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0174"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0178",
+    "reference_prerequisites": [
+      "MATH6_C0134",
+      "MATH6_C0177"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0134",
+      "MATH6_C0177"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0179",
+    "reference_prerequisites": [
+      "MATH6_C0101",
+      "MATH6_C0177"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0101",
+      "MATH6_C0177"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0180",
+    "reference_prerequisites": [
+      "MATH6_C0177"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0177"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0181",
+    "reference_prerequisites": [
+      "MATH6_C0047",
+      "MATH6_C0177"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0047",
+      "MATH6_C0177"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0182",
+    "reference_prerequisites": [
+      "MATH6_C0126",
+      "MATH6_C0180",
+      "MATH6_C0181"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0126",
+      "MATH6_C0180",
+      "MATH6_C0181"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0183",
+    "reference_prerequisites": [
+      "MATH6_C0180"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0180"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0190",
+    "reference_prerequisites": [
+      "MATH6_C0016"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0016"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0191",
+    "reference_prerequisites": [
+      "MATH6_C0143",
+      "MATH6_C0190"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0143",
+      "MATH6_C0190"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0192",
+    "reference_prerequisites": [
+      "MATH6_C0191"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0191"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0193",
+    "reference_prerequisites": [
+      "MATH6_C0192"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0192"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0194",
+    "reference_prerequisites": [
+      "MATH6_C0024",
+      "MATH6_C0141"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0024",
+      "MATH6_C0141"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0195",
+    "reference_prerequisites": [
+      "MATH6_C0031",
+      "MATH6_C0192",
+      "MATH6_C0194",
+      "MATH6_C0198"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0031",
+      "MATH6_C0192",
+      "MATH6_C0194",
+      "MATH6_C0198"
+    ],
+    "recall_at_3": 0.75,
+    "recall_at_5": 1.0,
+    "missed_at_3": [
+      "MATH6_C0198"
+    ],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0196",
+    "reference_prerequisites": [
+      "MATH6_C0195"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0195"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0197",
+    "reference_prerequisites": [
+      "MATH6_C0193"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0193"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0198",
+    "reference_prerequisites": [
+      "MATH6_C0018"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0018"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0200",
+    "reference_prerequisites": [
+      "MATH6_C0002"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0002"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0201",
+    "reference_prerequisites": [
+      "MATH6_C0017",
+      "MATH6_C0200"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0017",
+      "MATH6_C0200"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0202",
+    "reference_prerequisites": [
+      "MATH6_C0201"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0201"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0203",
+    "reference_prerequisites": [
+      "MATH6_C0034",
+      "MATH6_C0200"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0034",
+      "MATH6_C0200"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0204",
+    "reference_prerequisites": [
+      "MATH6_C0203"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0203"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0205",
+    "reference_prerequisites": [
+      "MATH6_C0029",
+      "MATH6_C0203"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0029",
+      "MATH6_C0203"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0210",
+    "reference_prerequisites": [
+      "MATH6_C0013"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0013"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0211",
+    "reference_prerequisites": [
+      "MATH6_C0036"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0036"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0212",
+    "reference_prerequisites": [
+      "MATH6_C0046",
+      "MATH6_C0210",
+      "MATH6_C0211"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0046",
+      "MATH6_C0210",
+      "MATH6_C0211"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0213",
+    "reference_prerequisites": [
+      "MATH6_C0210",
+      "MATH6_C0211"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0210",
+      "MATH6_C0211"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0214",
+    "reference_prerequisites": [
+      "MATH6_C0217"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0217"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0215",
+    "reference_prerequisites": [
+      "MATH6_C0046",
+      "MATH6_C0213"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0046",
+      "MATH6_C0213"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0216",
+    "reference_prerequisites": [
+      "MATH6_C0047",
+      "MATH6_C0212",
+      "MATH6_C0215"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0047",
+      "MATH6_C0212",
+      "MATH6_C0215"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0217",
+    "reference_prerequisites": [
+      "MATH6_C0041",
+      "MATH6_C0213"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0041",
+      "MATH6_C0213"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0218",
+    "reference_prerequisites": [
+      "MATH6_C0212",
+      "MATH6_C0215"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0212",
+      "MATH6_C0215"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0219",
+    "reference_prerequisites": [
+      "MATH6_C0215"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0215"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  },
+  {
+    "target": "MATH6_C0220",
+    "reference_prerequisites": [
+      "MATH6_C0216"
+    ],
+    "ranked_bank_covered_candidates": [
+      "MATH6_C0216"
+    ],
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "missed_at_3": [],
+    "missed_at_5": [],
+    "not_in_graph": [],
+    "without_bank_items": []
+  }
+]

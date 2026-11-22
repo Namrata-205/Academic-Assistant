@@ -8,16 +8,16 @@ from contextlib import contextmanager
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from http.cookies import SimpleCookie, CookieError
 from pathlib import Path
-from urllib.parse import parse_qs, unquote, urlparse
+from urllib.parse import parse_qs, quote, unquote, urlparse
 from diagnostic import engine as e
 from diagnostic import textbooks
 from diagnostic import imported_reports
 from diagnostic import learner_study
-from diagnostic.progress import learner_progress
+from diagnostic.progress import learner_progress, workspace_progress
 from diagnostic import book_chat
 from diagnostic import practice
 from diagnostic import accounts
-from diagnostic import mock_exams, revision
+from diagnostic import mock_exams, revision, past_papers, learner_evidence, daily_problem
 
 DOWNLOADS = {'question_bank.json': e.BANK_PATH, **{name: e.ROOT / 'reports' / name for name in (
     'question_bank.csv', 'review_checklist.csv', 'review_notes.md', 'pilot_cases.json',
@@ -75,12 +75,14 @@ class Handler(BaseHTTPRequestHandler):
     def send_json(self, data, status=200, cookie=None):
         self.send_bytes(json.dumps(data, ensure_ascii=False).encode('utf-8'), 'application/json; charset=utf-8', status, cookie)
 
-    def send_bytes(self, data, content_type, status=200, cookie=None):
+    def send_bytes(self, data, content_type, status=200, cookie=None, download=None):
         self.send_response(status)
         self.send_header('Content-Type', content_type)
         self.send_header('Content-Length', str(len(data)))
         self.send_header('X-Content-Type-Options', 'nosniff')
-        self.send_header('Cache-Control', 'no-store' if 'json' in content_type else 'no-cache')
+        self.send_header('Cache-Control', 'no-store' if 'json' in content_type or download is not None else 'no-cache')
+        if download is not None:
+            self.send_header('Content-Disposition', "attachment; filename*=UTF-8''" + quote(download, safe=''))
         if cookie is not None:
             age = accounts.SESSION_AGE if cookie else 0
             self.send_header('Set-Cookie', f'{accounts.COOKIE}={cookie}; Path=/; Max-Age={age}; HttpOnly; SameSite=Lax')
@@ -107,13 +109,16 @@ class Handler(BaseHTTPRequestHandler):
             elif path.path == '/api/bootstrap':
                 nodes, edges = e.load_graph()
                 links = [{'id': f'e{i}', 'source': r['source_id'], 'target': r['target_id'],
-                          'reasoning': r['reasoning'], 'confidence': r['confidence'],
+                          'reasoning': r['reasoning'], 'confidence': r['confidence'] if r.get('confidence_available',True) else None,
                           'evidence': r.get('supporting_passage_ids', ''),
                           'status': r.get('validation_status', 'PENDING'),
                           'cycle': r.get('cycle_flag', '').lower() in ('true', '1', 'yes')}
                          for i, r in enumerate(edges)]
-                self.send_json({'nodes': list(nodes.values()), 'links': links,
-                                'bank': e.load_bank(), 'rules': e.RULES, 'version': e.VERSION,
+                from diagnostic.curriculum import chapters
+                self.send_json({'nodes': list(nodes.values()), 'links': links,'chapters':chapters(),
+                                'graph_source':e.graph_source_path().name,
+                                'curriculum_version':'curriculum-v2',
+                                'bank': [public_question(q) for q in e.load_bank()], 'rules': e.RULES, 'version': e.VERSION,
                                 'pilot': json.loads((e.ROOT / 'reports' / 'pilot_summary.json').read_text()),
                                 'textbooks': textbooks.catalog()})
             elif path.path.startswith('/api/textbooks/'):
@@ -144,21 +149,35 @@ class Handler(BaseHTTPRequestHandler):
                     self.send_json(learner_progress(conn,query.get('learner',[''])[0].strip()))
             elif path.path == '/api/practice/analytics':
                 with database() as conn:self.send_json(practice.analytics(conn,query.get('learner',[''])[0].strip()))
-            elif path.path in ('/api/revision', '/api/exams') or re.fullmatch(r'/api/exams/[a-f0-9]{32}', path.path):
+            elif re.fullmatch(r'/api/exams/past-papers/[a-f0-9]{32}', path.path):
+                learner = query.get('learner', [''])[0].strip()
+                with database() as conn:
+                    account = accounts.current(conn, self._token())
+                    if not account or account[1] != learner:
+                        raise PermissionError('Sign in to download this paper.')
+                    name, data = past_papers.download(conn, learner, path.path.rsplit('/', 1)[-1])
+                    self.send_bytes(data, 'application/octet-stream', download=name)
+            elif path.path in ('/api/revision', '/api/exams', '/api/learning/next', '/api/learning/progress', '/api/learning/daily') or re.fullmatch(r'/api/exams/[a-f0-9]{32}', path.path):
                 learner = query.get('learner', [''])[0].strip()
                 with database() as conn:
                     account = accounts.current(conn, self._token())
                     if not account or account[1] != learner:
                         raise PermissionError('Sign in to access this learning space.')
-                    if path.path == '/api/revision':
-                        result = revision.notebook(conn, learner)
+                    if path.path == '/api/learning/next':
+                        result = {'next_step': learner_evidence.next_step(conn, learner)}
+                    elif path.path == '/api/learning/daily':
+                        result = daily_problem.view(conn, learner, query.get('language',['en'])[0])
+                    elif path.path == '/api/learning/progress':
+                        result = workspace_progress(conn, learner)
+                    elif path.path == '/api/revision':
+                        result = revision.notebook(conn, learner,query.get('language',[None])[0])
                     elif path.path == '/api/exams':
                         result = mock_exams.summary(conn, learner)
                     else:
-                        result = mock_exams.view(conn, learner, path.path.rsplit('/', 1)[-1])
+                        result = mock_exams.view(conn, learner, path.path.rsplit('/', 1)[-1],language=query.get('language',[None])[0])
                     self.send_json(result)
             elif path.path.startswith('/api/practice/sessions/'):
-                with database() as conn:self.send_json(practice.view(conn,query.get('learner',[''])[0].strip(),path.path.rsplit('/',1)[-1]))
+                with database() as conn:self.send_json(practice.view(conn,query.get('learner',[''])[0].strip(),path.path.rsplit('/',1)[-1],query.get('language',[None])[0]))
             elif path.path == '/api/study/export':
                 with database() as conn:
                     self.send_json(learner_study.export(conn))
@@ -215,7 +234,8 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_json({'error': 'Cross-origin requests are not allowed.'}, 403)
                 return
             length = int(self.headers.get('Content-Length', 0))
-            if length < 1 or length > 65536:
+            maximum=8*1024*1024 if urlparse(self.path).path=='/api/exams/past-papers' else 65536
+            if length < 1 or length > maximum:
                 raise ValueError('Request is empty or too large.')
             body = json.loads(self.rfile.read(length))
             if not isinstance(body, dict):
@@ -231,7 +251,7 @@ class Handler(BaseHTTPRequestHandler):
                     signup = path.endswith('/signup')
                     account = accounts.create(conn, body) if signup else accounts.authenticate(conn, body)
                     if account is None:
-                        self.send_json({'error': 'Check your username and password.'}, 401)
+                        self.send_json({'error': 'Check your email or school username and password.'}, 401)
                         return
                     self.send_json({'account': accounts.public(account)}, 201 if signup else 200,
                                    cookie=accounts.start(conn, account[0], token))
@@ -254,15 +274,16 @@ class Handler(BaseHTTPRequestHandler):
                 raise ValueError('Enter a learner code of 1–100 characters.')
             with database() as conn:
                 accounts.authorize(conn, learner, self._token(), self.allow_legacy_profiles)
-                if path.startswith(('/api/revision/', '/api/exams')):
+                if path.startswith(('/api/revision/', '/api/exams', '/api/learning/daily')):
                     account = accounts.current(conn, self._token())
                     if not account or account[1] != learner:
                         raise PermissionError('Sign in to access this learning space.')
                 if path == '/api/reset':
                     revision.ensure(conn)
                     book_chat.ensure(conn)
+                    daily_problem.ensure(conn)
                     with conn:
-                        for table in ('book_chat_tutoring','book_chat_check_answers','book_chat_practice'):
+                        for table in ('book_chat_tutoring','book_chat_check_answers','book_chat_practice','book_chat_tutor_events'):
                             conn.execute(f'DELETE FROM {table} WHERE thread_id IN (SELECT id FROM book_chat_threads WHERE learner=?)',(learner,))
                         conn.execute('DELETE FROM book_chat_messages WHERE thread_id IN (SELECT id FROM book_chat_threads WHERE learner=?)',(learner,))
                         conn.execute('DELETE FROM book_chat_threads WHERE learner=?',(learner,))
@@ -272,25 +293,37 @@ class Handler(BaseHTTPRequestHandler):
                         conn.execute('DELETE FROM external_profile_links WHERE learner=? AND learner NOT IN (SELECT learner FROM student_accounts)',(learner,))
                         conn.execute('DELETE FROM practice_items WHERE session_id IN (SELECT id FROM practice_sessions WHERE learner=?)',(learner,))
                         conn.execute('DELETE FROM practice_sessions WHERE learner=?',(learner,))
+                        conn.execute('DELETE FROM daily_problems WHERE learner=?',(learner,))
                         conn.execute('DELETE FROM mistake_reviews WHERE learner=?', (learner,))
                         conn.execute('DELETE FROM mock_exam_items WHERE exam IN (SELECT id FROM mock_exams WHERE learner=?)', (learner,))
+                        conn.execute('DELETE FROM mock_exam_settings WHERE exam IN (SELECT id FROM mock_exams WHERE learner=?)',(learner,))
                         conn.execute('DELETE FROM mock_exams WHERE learner=?', (learner,))
+                        conn.execute('DELETE FROM past_paper_files WHERE id IN (SELECT id FROM past_paper_profiles WHERE learner=?)',(learner,))
+                        conn.execute('DELETE FROM past_paper_profiles WHERE learner=?',(learner,))
                     self.send_json({'cleared': True})
+                elif path == '/api/learning/daily/answer':
+                    self.send_json(daily_problem.answer(conn, learner, body.get('language'),body.get('day'),
+                                                        body.get('question_id'),body.get('response')))
                 elif path == '/api/chat/message':
-                    self.send_json(book_chat.send(conn,learner,body.get('message',''),body.get('language','en'),body.get('thread_id'),body.get('concept_id')))
+                    self.send_json(book_chat.send(conn,learner,body.get('message',''),body.get('language','en'),body.get('thread_id'),body.get('concept_id'),body.get('check_first',False)))
                 elif path == '/api/practice/sessions':
                     self.send_json(practice.create(conn,learner,body.get('concept_id'),body.get('language','en')),201)
                 elif path.startswith('/api/practice/sessions/') and path.endswith('/answer'):
-                    self.send_json(practice.respond(conn,learner,path.split('/')[-2],body.get('ordinal'),body.get('response','')))
+                    self.send_json(practice.respond(conn,learner,path.split('/')[-2],body.get('ordinal'),body.get('response',''),body.get('language')))
                 elif path == '/api/revision/start':
-                    self.send_json(revision.start(conn, learner, body.get('mistake')))
+                    self.send_json(revision.start(conn, learner, body.get('mistake'),body.get('language')))
                 elif path == '/api/revision/answer':
-                    self.send_json(revision.answer(conn, learner, body.get('mistake'), body.get('retry'), body.get('response')))
+                    self.send_json(revision.answer(conn, learner, body.get('mistake'), body.get('retry'), body.get('response'),body.get('language')))
                 elif path == '/api/exams':
-                    self.send_json(mock_exams.create(conn, learner, body.get('mode'), body.get('language')), 201)
+                    self.send_json(mock_exams.create(conn, learner, body.get('mode'), body.get('language'),body.get('pattern_id'),
+                                                          body.get('question_count'),body.get('minutes'),body.get('chapters')), 201)
+                elif path == '/api/exams/past-papers':
+                    self.send_json(past_papers.upload(conn,learner,body.get('filename'),body.get('content')),201)
+                elif path == '/api/exams/past-papers/delete':
+                    self.send_json(past_papers.remove(conn,learner,body.get('id')))
                 elif re.fullmatch(r'/api/exams/[a-f0-9]{32}/(?:answer|submit)', path):
                     _, _, _, exam, action = path.split('/')
-                    self.send_json(mock_exams.view(conn, learner, exam, action, body.get('ordinal'), body.get('response')))
+                    self.send_json(mock_exams.view(conn, learner, exam, action, body.get('ordinal'), body.get('response'),body.get('language')))
                 elif path == '/api/profile/select' and self.allow_legacy_profiles:
                     student_id=str(body.get('student_id','')).strip()
                     if not student_id or len(student_id)>100:raise ValueError('Choose a learner profile.')
