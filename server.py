@@ -2,6 +2,7 @@
 import argparse
 import json
 import mimetypes
+import os
 import re
 import socket
 from contextlib import contextmanager
@@ -397,10 +398,17 @@ class LocalHTTPServer(ThreadingHTTPServer):
         super().server_bind()
 
 
-if __name__ == '__main__':
+def startup_options(argv=None):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--port', type=int, default=8000)
-    args = parser.parse_args()
-    http = LocalHTTPServer(('127.0.0.1', args.port), Handler)
-    print(f'Concept Atlas: http://127.0.0.1:{args.port}', flush=True)
+    hosted = os.environ.get('RENDER') == 'true' or bool(os.environ.get('PORT'))
+    parser.add_argument('--host', default=os.environ.get('HOST') or
+                        ('0.0.0.0' if hosted else '127.0.0.1'))
+    parser.add_argument('--port', type=int, default=int(os.environ.get('PORT') or '8000'))
+    return parser.parse_args(argv)
+
+
+if __name__ == '__main__':
+    args = startup_options()
+    http = LocalHTTPServer((args.host, args.port), Handler)
+    print(f'Concept Atlas: http://{args.host}:{http.server_port}', flush=True)
     http.serve_forever()
